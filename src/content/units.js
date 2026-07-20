@@ -44,6 +44,7 @@ export const UNITS = [
         "Countable: many, a few, a large number of. Uncountable: much, a little, a large amount of. Both: a lot of, plenty of, some, no.",
         "few / little = not enough (“Only few students understood”). a few / a little = some, sufficient (“We have a little time to discuss this”).",
       ]},
+      { h: "Making Uncountables Countable (Partitives)", b: ["Uncountable nouns cannot take a/an or a plural -s on their own. To count them we add a partitive: a piece of / an item of + advice, news, information, equipment, furniture, research. “She gave me a good piece of advice.”", "Different uncountables prefer their own partitives. Money and water are typical: a sum of money, a drop of water. “He saved a large sum of money.” and “There isn’t a drop of water left.”", "Food often has a fixed partitive. Bread uses a slice of (one piece) or a loaf of (the whole thing). “I ate a slice of bread.” and “We bought a loaf of bread.”", "In informal spoken English we sometimes count servings directly, so the drink itself becomes countable. “Two coffees, please.” simply means two cups of coffee.", "Watch the classic errors: ✗ an advice → “a piece of advice”; ✗ informations → “information” (no -s); ✗ a slice of advice → the wrong partitive; use the right one."] },
     ],
     quiz: [
       { q: "There is very ___ information available on this topic.", opts: ["little", "few", "many"], a: 0, ex: "‘Information’ is uncountable → little (few is for countables)." },
@@ -54,6 +55,8 @@ export const UNITS = [
       { q: "There isn’t ___ time left before the exam starts.", opts: ["many", "much", "a few"], a: 1, ex: "Negative sentence + uncountable ‘time’ → much." },
       { q: "They conducted ___ research before making the decision.", opts: ["many", "few", "a lot of"], a: 2, ex: "‘Research’ is uncountable → a lot of (never ‘many researches’)." },
       { q: "Which version is correct?", opts: ["There are many evidences to suggest this.", "There is a lot of evidence to suggest this.", "There are much evidences to suggest this."], a: 1, ex: "‘Evidence’ is uncountable: a lot of evidence, with a singular verb." },
+      { q: "During the seminar, the professor shared a valuable ___ of advice with the students.", opts: ["piece","slice","loaf","drop"], a: 0, ex: "'Advice' is uncountable, so it is counted with the partitive 'a piece of advice'. 'Slice', 'loaf', and 'drop' are the wrong partitives here." },
+      { q: "The engineers installed an expensive ___ of equipment in the new factory.", opts: ["piece","pieces","equipment","equipments"], a: 0, ex: "'Equipment' is uncountable and never takes -s. Use 'a piece of equipment' (singular after 'an'); 'pieces' and 'equipments' are both wrong." },
     ],
   },
   {
@@ -74,6 +77,7 @@ export const UNITS = [
       { h: "When unsure", b: [
         "Check a collocation dictionary such as m.freecollocation.com to see which prepositions follow a word.",
       ]},
+      { h: "Time & place: at / on / in", b: ["Clock times, plus ‘night’ and ‘the weekend’, take at: “The class starts at 8 o’clock.” “I study at night.” “We relax at the weekend.”", "Days and dates take on — including a part of a specific day: “We meet on Monday.” “The exam is on 5 June.” “The bus leaves on Monday morning.” ✗ in Monday.", "Months, years, seasons and parts of the day take in: “in July”, “in 2020”, “in winter”, “in the morning.” ✗ at the morning.", "Place: at a point or building, on a surface or line, in an enclosed space, a city or a country: “at the door”, “on the table”, “in the kitchen”, “in Jakarta.”", "With ‘arrive’, use arrive in a city and arrive at a building — never ‘arrive to’: “They arrived in London.” “We arrived at the hotel.” ✗ arrive to."] },
     ],
     quiz: [
       { q: "He is interested ___ studying medicine.", opts: ["of", "in", "on"], a: 1, ex: "Interested in — adjective + in." },
@@ -84,6 +88,8 @@ export const UNITS = [
       { q: "She is capable ___ managing a large team.", opts: ["on", "of", "in"], a: 1, ex: "Capable of + -ing." },
       { q: "The rise ___ online learning has changed education.", opts: ["on", "at", "in"], a: 2, ex: "A rise / increase / decrease in something." },
       { q: "The new law had a significant impact ___ the environment.", opts: ["on", "in", "to"], a: 0, ex: "An impact / effect / influence on something." },
+      { q: "The conference will be held ___ July, and the opening speech starts ___ 9 a.m.", opts: ["in / at","on / in","at / on","in / on"], a: 0, ex: "Months take in (in July); clock times take at (at 9 a.m.)." },
+      { q: "Most delegates arrive ___ the city on Sunday and stay ___ a hotel near the centre.", opts: ["in / at","to / in","at / to","in / to"], a: 0, ex: "Use arrive in for a city — never ‘arrive to’ — and stay at for a building: arrive in the city, stay at a hotel." },
     ],
   },
   {
@@ -198,6 +204,7 @@ export const UNITS = [
         "Emphasizes duration or the activity itself: “I’ve been working on my project.”",
         "The simple form emphasizes result or count: “I’ve written two reports today.”",
       ]},
+      { h: "Stative verbs: verbs that resist the -ing form", b: ["State verbs describe a condition, not an action, so they normally stay in the Present Simple even for ‘right now’. Verbs like know, believe, understand, own, belong, seem, contain and need cannot take -ing: “I know the answer.” not “I am knowing the answer.”", "Feelings and preferences are states too: like, love, hate, prefer, want. In careful English we write “I love this song.” and “She prefers tea.”, never “I am loving” or “She is preferring”.", "Some verbs shift meaning. As an opinion, think is a state: “I think you’re right.” But be thinking means considering an action in progress: “I’m thinking about changing jobs.”", "have for possession is a state — “I have a car.” (never “I’m having a car”) — but be having means experiencing an activity: “We’re having dinner.”, “She’s having a shower.”, “I’m having trouble.”", "see for understanding is a state: “I see what you mean.” But be seeing means meeting by arrangement: “I’m seeing the dentist at three.”"] },
     ],
     quiz: [
       { q: "Many people ___ that learning English can improve job prospects.", opts: ["believe", "are believing", "have believed"], a: 0, ex: "‘Believe’ is a state verb → present simple." },
@@ -208,6 +215,8 @@ export const UNITS = [
       { q: "I ___ for my exam, so I can’t go out tonight.", opts: ["prepare", "prepared", "am preparing"], a: 2, ex: "Happening around now and temporary → am preparing." },
       { q: "The pie chart ___ the distribution of different sources of energy.", opts: ["shows", "is showing", "has shown"], a: 0, ex: "Charts state facts → present simple: shows." },
       { q: "We ___ together on this project for three months, and we’re still working on it.", opts: ["have worked", "are working", "worked"], a: 0, ex: "Started in the past and still true (for three months) → present perfect." },
+      { q: "Sorry, I ___ what this word means — could you explain it again?", opts: ["don’t know","am not knowing","not knowing","isn’t knowing"], a: 0, ex: "‘Know’ is a stative verb describing a mental state, so it never takes the -ing form. Use the Present Simple: ‘I don’t know’, never ‘I am not knowing’." },
+      { q: "Please be quiet for a moment — I ___ about your offer and I’ll give you an answer soon.", opts: ["am thinking","think","thinks","am knowing"], a: 0, ex: "Here ‘think’ means ‘consider’, an action in progress, so the continuous is correct: ‘I’m thinking about it.’ (For an opinion — ‘I think you’re right’ — use the simple form.)" },
     ],
   },
   {
@@ -342,6 +351,7 @@ export const UNITS = [
         "whose = possession: “The student whose project won the prize is from Indonesia.”",
         "where = place: “The café where we met is now closed.” when = time: “I remember the day when we first met.”",
       ]},
+      { h: "Reduced relative clauses", b: ["You can shorten a relative clause only when the relative pronoun is the SUBJECT (who/which/that + verb). Drop the pronoun and the be-verb, then use a participle: “the students who are waiting outside” → “the students waiting outside”.", "If the meaning is ACTIVE (the noun DOES the action), use the present participle (-ing): “the people who live in cities” → “the people living in cities”.", "If the meaning is PASSIVE (the noun RECEIVES the action), use the past participle (V3): “the data which was collected in 2020” → “the data collected in 2020”.", "The main trap is choosing the wrong voice. Ask: does the noun DO or RECEIVE the action? “letters written yesterday” (letters are written — passive), never “letters writing”.", "OBJECT relative clauses cannot reduce to a participle. In “the book that I read”, the subject is “I”, so you only drop the pronoun: “the book I read” — never “the book reading”."] },
     ],
     quiz: [
       { q: "The athlete ___ won the gold medal is from Brazil.", opts: ["which", "who", "where"], a: 1, ex: "A person as the subject → who (or that)." },
@@ -352,6 +362,8 @@ export const UNITS = [
       { q: "The equipment ___ was used for the competition is brand new.", opts: ["which", "who", "where"], a: 0, ex: "A thing → which (or that)." },
       { q: "The team ___ practices the hardest usually performs well.", opts: ["where", "that", "when"], a: 1, ex: "A defining clause about a team → that (or which)." },
       { q: "My brother, ___ lives in Australia, is visiting next month.", opts: ["that", "who", "whose"], a: 1, ex: "Non-defining clauses (with commas) need who — never ‘that’." },
+      { q: "The data ___ during the 2020 study revealed a significant trend.", opts: ["which collected","collected","collecting","which collecting"], a: 1, ex: "The data is collected, so the meaning is passive. A reduced subject relative clause in the passive uses the past participle: 'the data collected during the study'. 'which collected' wrongly makes the data the doer." },
+      { q: "Researchers ___ in remote areas often rely on satellite phones.", opts: ["who works","working","worked","who working"], a: 1, ex: "The researchers do the working, so the meaning is active. A reduced active clause uses the present participle: 'researchers working in remote areas'. 'worked' would wrongly sound passive and 'who works' fails plural agreement." },
     ],
   },
   {
@@ -373,6 +385,7 @@ export const UNITS = [
       { h: "Band 7 note", b: [
         "You don’t need very long, complicated sentences for band 7 — accurate variety wins.",
       ]},
+      { h: "Noun clauses (klausa yang berperan sebagai kata benda)", b: ["A noun clause does the job of a noun, so it can be the OBJECT of a verb like find, show, know, or think: “Researchers found that sleep improves memory.” The word that often introduces it and can be dropped after common verbs: “I think (that) she is right.”", "A wh-clause (what, how, why, where, who) can also act as a noun. As object: “I don’t know why prices fell.” As SUBJECT: “What matters is practice.” Here what means the thing that.", "Use ‘The fact that …’ to turn a whole idea into a subject: “The fact that temperatures are rising shows a clear trend.” The main verb (shows) belongs to the fact, not to a plural inside the clause.", "A clause subject always takes a SINGULAR verb, even when it sounds plural: “What we need is more time.” (✗ are more time).", "Inside the clause, keep statement word order — subject before verb, with no question inversion and no do/does/did: ✓ “What matters is…” (✗ what does matter is), ✓ “I know where the station is.” (✗ where is the station)."] },
     ],
     quiz: [
       { q: "The number of students choosing online learning has increased significantly ___ it provides flexibility.", opts: ["despite", "because", "so that"], a: 1, ex: "A reason clause → because." },
@@ -383,6 +396,8 @@ export const UNITS = [
       { q: "___ it was raining heavily, we continued the hike.", opts: ["Even though", "Because of", "As a result of"], a: 0, ex: "Even though + clause shows contrast." },
       { q: "Which sentence is correct?", opts: ["Children are addicted to smartphones, this has significant impacts on their mental health.", "Children are addicted to smartphones, and this has significant impacts on their mental health."], a: 1, ex: "Two independent clauses need a conjunction — a comma alone is a comma splice." },
       { q: "Which is a complete sentence?", opts: ["While self-driving cars are more reliable than human drivers.", "While self-driving cars are more reliable than human drivers, they can still make errors."], a: 1, ex: "A ‘while’ clause alone is a fragment — it needs an independent clause." },
+      { q: "___ the researchers found surprising was that patients recovered faster than expected.", opts: ["What","That","It","Which"], a: 0, ex: "‘What’ (= the thing that) begins a wh-clause that acts as the subject of the sentence: What the researchers found surprising was… ‘That’, ‘It’, and ‘Which’ cannot open a subject clause here." },
+      { q: "Economists cannot fully explain why ___ so sharply that year.", opts: ["prices fell","did prices fall","prices did fall","fell prices"], a: 0, ex: "Inside a wh-clause use statement word order (subject + verb), not question inversion or emphatic do: why prices fell. ‘did prices fall’ and ‘prices did fall’ are question/emphatic forms, and ‘fell prices’ has the wrong order." },
     ],
   },
   {
@@ -390,7 +405,7 @@ export const UNITS = [
     learn: [
       { h: "Gerund as subject", b: ["When an -ing action starts a sentence, it acts as a single subject and takes a singular verb: “Reading widely improves vocabulary.” (not ‘improve’).", "The gerund names an activity, like a noun: “Cycling to work saves money and keeps you fit.”", "Even a long gerund phrase stays singular: “Taking regular breaks helps students concentrate.”", "Avoid the infinitive as the everyday subject — English prefers the gerund here: say “Learning a language takes time,” not ‘To learning…’."] },
       { h: "The first verb decides", b: ["The main verb chooses the form of the verb that follows it — you must learn which verb takes which.", "Gerund-takers: enjoy, avoid, admit, deny, suggest, recommend, consider, finish, keep, mind, practise, risk, miss, delay, imagine, postpone → “She suggested delaying the meeting.”", "Infinitive-takers: afford, agree, decide, hope, plan, promise, refuse, manage, offer, expect, want, learn, arrange, fail, tend → “They agreed to sign the contract.”", "Classic errors: ✗ ‘suggest to do’, ✗ ‘enjoy to do’ — write “suggest doing” and “enjoy doing.”"] },
-      { h: "Both possible — same or changed meaning", b: ["After begin, start, continue and like the meaning is the same either way: “It started raining.” = “It started to rain.”", "stop + gerund = quit the action: “He stopped smoking.” (he no longer smokes); stop + to-infinitive = pause in order to do something: “He stopped to smoke.” (he paused for a cigarette).", "remember/forget + to-infinitive = a duty ahead: “Remember to lock the door.”; + gerund = a past memory: “I remember locking the door.”", "try + to-infinitive = attempt something hard: “I tried to open it.”; try + gerund = experiment with a solution: “Try turning it off and on.”", "regret + to-infinitive = bad news now: “We regret to inform you…”; + gerund = feel sorry about the past: “I regret saying that.”"] },
+      { h: "Both possible — same or changed meaning", b: ["After begin, start and continue the meaning is the same either way: “It started raining.” = “It started to rain.”", "stop + gerund = quit the action: “He stopped smoking.” (he no longer smokes); stop + to-infinitive = pause in order to do something: “He stopped to smoke.” (he paused for a cigarette).", "remember/forget + to-infinitive = a duty ahead: “Remember to lock the door.”; + gerund = a past memory: “I remember locking the door.”", "try + to-infinitive = attempt something hard: “I tried to open it.”; try + gerund = experiment with a solution: “Try turning it off and on.”", "regret + to-infinitive = bad news now: “We regret to inform you…”; + gerund = feel sorry about the past: “I regret saying that.”"] },
       { h: "After prepositions → gerund", b: ["Any verb straight after a preposition becomes a gerund: “interested in learning, good at writing, keen on travelling, tired of waiting.”", "The ‘to’ in look forward to and be used to is a preposition, so a gerund follows: “I look forward to hearing from you.” (✗ ‘to hear’).", "before and after take a gerund too: “Check the sources before quoting them.”", "Infinitive of purpose = ‘in order to’: “The council raised fares to reduce traffic.”; but for + -ing names a thing’s function: “This tool is for cutting metal.”"] },
     ],
     quiz: [
@@ -415,8 +430,8 @@ export const UNITS = [
     quiz: [
       { q: "The researcher said that the results ___ consistent with earlier studies.", opts: ["are","were","have been"], a: 1, ex: "After a past reporting verb, present simple 'are' backshifts to past simple 'were'. Keeping 'are' fails to shift the tense." },
       { q: "The lecturer ___ the students that the deadline had been extended.", opts: ["said","told","told to"], a: 1, ex: "'tell' is followed directly by a person: told the students. 'say' cannot take a person object (✗ said the students), and 'told to' is wrong." },
-      { q: "The article claimed that global temperatures ___ significantly since 1950.", opts: ["have risen","had risen","rise"], a: 1, ex: "Present perfect 'have risen' backshifts to past perfect 'had risen' after a past reporting verb." },
-      { q: "The spokesperson announced that the company ___ cut its emissions by 2030.", opts: ["will","would","will have"], a: 1, ex: "The modal 'will' backshifts to 'would' in reported speech after a past reporting verb." },
+      { q: "When she phoned, my colleague said that she ___ on the report at that moment.", opts: ["is working","was working","works"], a: 1, ex: "Present continuous backshifts to past continuous after a past reporting verb: ‘was working … at that moment’." },
+      { q: "Last year, the spokesperson said that the company ___ cut its emissions the following year.", opts: ["will","would","will have"], a: 1, ex: "‘Will’ backshifts to ‘would’; the shifted time phrase ‘the following year’ requires the past frame." },
       { q: "The interviewer asked the candidate where ___ before joining the firm.", opts: ["had she worked","she had worked","did she work"], a: 1, ex: "Reported questions use statement word order (subject + verb): 'where she had worked', with no inversion and no auxiliary 'did'." },
       { q: "The questionnaire asked participants ___ they commuted to work by car.", opts: ["that","whether","what"], a: 1, ex: "Yes/no questions are reported with 'if' or 'whether'. 'that' introduces a statement, and 'what' changes the meaning." },
       { q: "In her lecture, the professor reminded students that the Earth ___ the Sun once a year.", opts: ["orbits","had orbited","is orbiting"], a: 0, ex: "A general, still-true scientific fact need not backshift, so present simple 'orbits' stays; past perfect 'had orbited' wrongly suggests it is finished." },
@@ -533,7 +548,7 @@ export const UNITS = [
       { q: "Rarely ___ a dataset as complete as this one in long-term field research.", opts: ["scientists find","do scientists find","scientists do find"], a: 1, ex: "‘Rarely’ at the start triggers inversion: auxiliary + subject + verb → ‘do scientists find’. Without the auxiliary the clause stays uninverted and is wrong." },
       { q: "___ the authorities intervened earlier, the shortage might have been avoided altogether.", opts: ["If","Had","Should","Would"], a: 1, ex: "This is a third-conditional (past, unreal) idea. Inversion with ‘Had’ replaces ‘If … had’: ‘Had the authorities intervened…’. ‘Should’ would signal a future possibility, not a past one." },
       { q: "Before releasing the paper, the team had the calculations ___ by an independent statistician.", opts: ["check","checked","to check","checking"], a: 1, ex: "‘have something done’ takes a past participle: ‘had the calculations checked’. The subject arranges the service while someone else does the checking." },
-      { q: "The examiners insisted that each candidate ___ the essay within the sixty-minute limit.", opts: ["completes","complete","completed","to complete"], a: 1, ex: "After ‘insist that’, the subjunctive uses the base verb for every subject, with no -s: ‘that each candidate complete…’." },
+      { q: "The professor insisted that the deadline ___ extended for the whole class.", opts: ["be","to be","being","been"], a: 0, ex: "After ‘insist that’, use the base-form subjunctive — here the passive ‘be extended’; ‘to be/being/been’ are all wrong." },
       { q: "Which sentence is correct?", opts: ["Not only he was late for the seminar, but he also forgot his notes.","Not only was he late for the seminar, but he also forgot his notes.","Not only he was late for the seminar, but also he forgot his notes."], a: 1, ex: "After a fronted ‘Not only’, invert the auxiliary and subject: ‘Not only was he late…’. Leaving ‘he was’ uninverted is the classic band-6 error." },
     ],
   },
