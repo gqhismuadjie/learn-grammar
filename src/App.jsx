@@ -1,8 +1,14 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import {
   ChevronLeft, BookOpen, PenLine, Check, X, RotateCcw, Trophy, Clock,
-  Loader2, Lightbulb, ArrowRight, AlertTriangle, Sparkles, History, Play
+  Loader2, Lightbulb, ArrowRight, AlertTriangle, Sparkles, History, Play, Layers
 } from "lucide-react";
+
+// The Writing Lab calls the Anthropic API with platform-injected auth, which a
+// static GitHub Pages site cannot provide (and a public site cannot safely hold
+// an API key). It is disabled on this build; flip to true behind a backend proxy.
+const AI_ENABLED = false;
+const EXTRA_ROUND = 10; // questions served per shuffled Extra-practice round
 
 // ---------- Design tokens (royal blue + red accent) ----------
 const C = {
@@ -434,21 +440,21 @@ const CRIT = [
   ["grammar", "Grammatical Range & Accuracy"],
 ];
 
-// ---------- Persistence (saved between sessions via artifact storage) ----------
+// ---------- Persistence (localStorage; progress stays on this device) ----------
 const K_PROG = "igr-progress";
 const K_WRIT = "igr-writing";
 const store = {
   async get(key) {
     try {
-      if (typeof window === "undefined" || !window.storage) return null;
-      const r = await window.storage.get(key);
-      return r && r.value ? JSON.parse(r.value) : null;
+      if (typeof window === "undefined" || !window.localStorage) return null;
+      const v = window.localStorage.getItem(key);
+      return v ? JSON.parse(v) : null;
     } catch (e) { return null; }
   },
   async set(key, val) {
     try {
-      if (typeof window === "undefined" || !window.storage) return;
-      await window.storage.set(key, JSON.stringify(val));
+      if (typeof window === "undefined" || !window.localStorage) return;
+      window.localStorage.setItem(key, JSON.stringify(val));
     } catch (e) { /* storage unavailable — keep in memory only */ }
   },
 };
@@ -785,11 +791,104 @@ const QUIZ2 = {
   ],
 };
 
+// ---------- Extra practice (Oxford 3000-level bank; served in shuffled rounds) ----------
+// Written for this app and adversarially checked for a single defensible answer.
+const QUIZ3 = {
+  1: [
+    { q: "There is ___ new café next to my office.", opts: ["the","a","an","Ø (no article)"], a: 1, ex: "'There is a...' introduces something new and non-specific; 'café' starts with a consonant.", exId: "'There is a...' memperkenalkan hal baru/non-spesifik; 'café' diawali konsonan, jadi 'a'." },
+    { q: "It takes about ___ hour to fly from Jakarta to Bali.", opts: ["a","an","the","Ø (no article)"], a: 1, ex: "'Hour' has a silent 'h', so it starts with a vowel sound: an hour.", exId: "'Hour' huruf 'h'-nya bisu, jadi berbunyi awal vokal: an hour." },
+    { q: "I read the news on ___ internet every morning.", opts: ["a","an","the","Ø (no article)"], a: 2, ex: "'The internet' is unique, so it always takes 'the'.", exId: "'The internet' bersifat unik, jadi selalu pakai 'the'." },
+    { q: "___ money is important, but it cannot buy happiness.", opts: ["The","A","Ø (no article)","An"], a: 2, ex: "Uncountable nouns used in general take no article: money in general.", exId: "Kata benda tak terhitung dalam arti umum tanpa artikel: 'money' secara umum." },
+    { q: "Which sentence is correct?", opts: ["She is a engineer.","She is an engineer.","She is engineer."], a: 1, ex: "Jobs need a/an; use 'an' before the vowel sound in 'engineer'.", exId: "Profesi butuh a/an; pakai 'an' sebelum bunyi vokal pada 'engineer'." },
+    { q: "My sister is ___ university student in London.", opts: ["a","an","the","Ø (no article)"], a: 0, ex: "'University' begins with a /juː/ sound, a consonant sound, so use 'a' not 'an'.", exId: "'University' berbunyi awal /yu/ (konsonan), jadi pakai 'a', bukan 'an' walau hurufnya vokal." },
+    { q: "There is ___ ATM near the station where you can get cash.", opts: ["a","the","an","Ø (no article)"], a: 2, ex: "'ATM' is said /eɪ-tiː-em/, starting with a vowel sound, so use 'an'.", exId: "'ATM' dibaca /ei/-tii-em, diawali bunyi vokal, jadi pakai 'an'." },
+    { q: "This is ___ best restaurant in our neighbourhood.", opts: ["a","the","an","Ø (no article)"], a: 1, ex: "Use 'the' before superlatives like 'best' — there is only one best.", exId: "Pakai 'the' sebelum superlative seperti 'best' — hanya ada satu yang terbaik." },
+    { q: "We travelled to ___ Japan last summer for a holiday.", opts: ["the","a","Ø (no article)","an"], a: 2, ex: "Most country names take no article: Japan, France, Indonesia.", exId: "Sebagian besar nama negara tanpa artikel: Japan, France, Indonesia." },
+    { q: "I get paid once ___ month.", opts: ["a","the","an","Ø (no article)"], a: 0, ex: "Use 'a' to mean 'per' or 'each' with time: once a month.", exId: "'a' berarti 'per/setiap' untuk waktu: once a month (sekali sebulan)." },
+    { q: "My phone has ___ app that helps me study English.", opts: ["an","the","a","Ø (no article)"], a: 0, ex: "'App' starts with a vowel sound, so use 'an'; first mention, non-specific.", exId: "'App' diawali bunyi vokal, pakai 'an'; penyebutan pertama, non-spesifik." },
+    { q: "I bought a shirt and a tie. ___ shirt was quite expensive.", opts: ["A","An","The","Ø (no article)"], a: 2, ex: "Second mention: we already know which shirt, so use 'the'.", exId: "Penyebutan kedua: kita sudah tahu kemeja yang mana, jadi pakai 'the'." },
+    { q: "She speaks ___ English very well.", opts: ["the","a","Ø (no article)","an"], a: 2, ex: "Languages take no article: speak English, French, Spanish.", exId: "Nama bahasa tanpa artikel: speak English." },
+    { q: "Which sentence is correct?", opts: ["I go to work by car.","I go to work by the car.","I go to work by a car."], a: 0, ex: "'By car' (transport method) takes no article: by car, by bus, by train.", exId: "'By car' (cara transportasi) tanpa artikel: by car, by bus, by train." },
+    { q: "Do you have ___ car, or do you take the bus to work?", opts: ["the","a","an","Ø (no article)"], a: 1, ex: "'A car' = one, any car (do you own one?); car starts with a consonant.", exId: "'A car' = sebuah mobil (non-spesifik); diawali konsonan, pakai 'a'." },
+    { q: "I need to send ___ important email before lunch.", opts: ["an","a","the","Ø (no article)"], a: 0, ex: "'Important' starts with a vowel sound, so use 'an'; first mention, not specific.", exId: "'Important' diawali bunyi vokal, pakai 'an'; penyebutan pertama, non-spesifik." },
+    { q: "London is ___ capital of England.", opts: ["a","an","the","Ø (no article)"], a: 2, ex: "Use 'the' for a unique thing defined by 'of': the capital of England.", exId: "Pakai 'the' untuk hal unik yang dijelaskan 'of': the capital of England." },
+    { q: "___ computers have changed the way we work.", opts: ["The","A","An","Ø (no article)"], a: 3, ex: "Plural nouns used in general take no article: computers in general.", exId: "Kata benda jamak dalam arti umum tanpa artikel: 'computers' secara umum." },
+    { q: "I'd like ___ cup of coffee, please.", opts: ["a","the","an","Ø (no article)"], a: 0, ex: "'A cup of coffee' = one, non-specific; cup starts with a consonant.", exId: "'A cup of coffee' = secangkir (non-spesifik); 'cup' diawali konsonan, pakai 'a'." },
+    { q: "My father is ___ honest man; he never lies.", opts: ["a","an","the","Ø (no article)"], a: 1, ex: "'Honest' has a silent 'h' and a vowel sound, so use 'an'.", exId: "'Honest' huruf 'h'-nya bisu (bunyi vokal), jadi pakai 'an'." },
+    { q: "My office is on ___ second floor of the building.", opts: ["a","the","an","Ø (no article)"], a: 1, ex: "Use 'the' before ordinals; 'the second floor' is one specific floor.", exId: "Pakai 'the' sebelum ordinal; 'the second floor' adalah lantai tertentu." },
+    { q: "I usually have ___ breakfast at seven o'clock.", opts: ["a","the","an","Ø (no article)"], a: 3, ex: "Meals take no article: have breakfast, lunch, dinner.", exId: "Nama waktu makan tanpa artikel: have breakfast, lunch, dinner." },
+    { q: "Which sentence is correct?", opts: ["The Mount Everest is the highest mountain.","Mount Everest is highest mountain.","Mount Everest is the highest mountain."], a: 2, ex: "Proper names take no article; superlatives take 'the': the highest mountain.", exId: "Nama diri tanpa artikel; superlative pakai 'the': the highest mountain." },
+    { q: "My laptop is quite old, so I want to buy ___ new one.", opts: ["the","an","a","Ø (no article)"], a: 2, ex: "First mention of a non-specific singular thing; 'new' starts with a consonant.", exId: "Penyebutan pertama benda tunggal non-spesifik; 'new' diawali konsonan, pakai 'a'." },
+    { q: "I bought ___ umbrella because it started to rain.", opts: ["a","an","the","Ø (no article)"], a: 1, ex: "'Umbrella' starts with a vowel sound, so use 'an'; non-specific one.", exId: "'Umbrella' diawali bunyi vokal, pakai 'an'; benda non-spesifik." },
+    { q: "What is ___ cheapest way to travel around Europe?", opts: ["the","a","an","Ø (no article)"], a: 0, ex: "Use 'the' before superlatives like 'cheapest' — only one is cheapest.", exId: "Pakai 'the' sebelum superlative seperti 'cheapest' — hanya satu yang termurah." },
+    { q: "My children go to ___ school by bus every morning.", opts: ["a","the","Ø (no article)","an"], a: 2, ex: "'Go to school' means attend as a student — no article.", exId: "'Go to school' berarti bersekolah sebagai murid — tanpa artikel." },
+    { q: "I always keep ___ pen in my bag for taking notes.", opts: ["a","an","the","Ø (no article)"], a: 0, ex: "'A pen' = any pen, non-specific; pen starts with a consonant sound.", exId: "'A pen' = pena apa saja (non-spesifik); diawali konsonan, pakai 'a'." },
+    { q: "She works in ___ office, not in a shop.", opts: ["the","an","a","Ø (no article)"], a: 1, ex: "'Office' starts with a vowel sound; 'an office' = a workplace, non-specific.", exId: "'Office' diawali bunyi vokal; 'an office' = tempat kerja non-spesifik." },
+    { q: "She is ___ first person to arrive at the office every day.", opts: ["the","a","an","Ø (no article)"], a: 0, ex: "Use 'the' before ordinals like 'first' — it points to one specific position.", exId: "Pakai 'the' sebelum ordinal seperti 'first' — menunjuk satu posisi tertentu." },
+    { q: "___ students often use their phones to take notes.", opts: ["The","Ø (no article)","A","An"], a: 1, ex: "Plural nouns in general take no article: students in general.", exId: "Kata benda jamak umum tanpa artikel: 'students' secara umum." },
+    { q: "Which sentence is correct?", opts: ["I need an information about the course.","I need information about the course.","I need a information about the course."], a: 1, ex: "'Information' is uncountable, so no 'a' or 'an' — use no article.", exId: "'Information' tak terhitung, tanpa 'a'/'an' — pakai tanpa artikel." },
+    { q: "We stayed at ___ small hotel during our trip to Bali.", opts: ["an","a","the","Ø (no article)"], a: 1, ex: "First mention of a non-specific hotel; 'hotel' has a consonant sound.", exId: "Penyebutan pertama hotel non-spesifik; 'hotel' berbunyi /h/ (konsonan), pakai 'a'." },
+    { q: "Can I ask you ___ easy question about the homework?", opts: ["a","the","an","Ø (no article)"], a: 2, ex: "'Easy' starts with a vowel sound, so use 'an'; the question is not specific.", exId: "'Easy' diawali bunyi vokal, pakai 'an'; pertanyaannya non-spesifik." },
+    { q: "Could you send me ___ file we talked about in the meeting?", opts: ["a","the","an","Ø (no article)"], a: 1, ex: "The relative clause 'we talked about' makes the file specific, so use 'the'.", exId: "Anak kalimat 'we talked about' membuat file itu spesifik, jadi pakai 'the'." },
+    { q: "I don't drink ___ coffee because it keeps me awake.", opts: ["a","the","an","Ø (no article)"], a: 3, ex: "Uncountable nouns in general take no article: coffee here means coffee generally.", exId: "Kata benda tak terhitung secara umum tanpa artikel: 'coffee' di sini umum." },
+    { q: "She wants to be ___ doctor when she grows up.", opts: ["an","the","a","Ø (no article)"], a: 2, ex: "Use 'a' before a consonant sound; jobs need a/an.", exId: "Pakai 'a' sebelum bunyi konsonan; profesi butuh a/an. 'Doctor' diawali konsonan." },
+    { q: "He drives at sixty kilometres ___ hour on the motorway.", opts: ["an","a","the","Ø (no article)"], a: 0, ex: "'An hour' means 'per hour'; 'hour' has a silent 'h' (vowel sound).", exId: "'An hour' = 'per jam'; 'hour' berbunyi awal vokal (h bisu)." },
+    { q: "You always make ___ same mistake when writing essays.", opts: ["a","the","an","Ø (no article)"], a: 1, ex: "'The same' is a fixed phrase; 'same' always takes 'the'.", exId: "'The same' adalah frasa tetap; 'same' selalu pakai 'the'." },
+    { q: "I paid for the tickets with ___ cash, not a card.", opts: ["a","the","Ø (no article)","an"], a: 2, ex: "'With cash' is uncountable, used generally, so no article.", exId: "'With cash' tak terhitung dan umum, jadi tanpa artikel." },
+    { q: "Which sentence is correct?", opts: ["The sun is very bright today.","A sun is very bright today.","Sun is very bright today."], a: 0, ex: "'The sun' is unique, so it always takes 'the'.", exId: "'The sun' unik, jadi selalu pakai 'the'." },
+    { q: "This app is ___ useful tool for learning new words.", opts: ["an","a","the","Ø (no article)"], a: 1, ex: "'Useful' starts with a /juː/ consonant sound, so use 'a' not 'an'.", exId: "'Useful' berbunyi awal /yu/ (konsonan), jadi pakai 'a', bukan 'an'." },
+    { q: "We had ___ amazing time on holiday in Thailand.", opts: ["the","a","an","Ø (no article)"], a: 2, ex: "'Amazing' starts with a vowel sound; 'have an amazing time' is a common phrase.", exId: "'Amazing' diawali bunyi vokal; 'have an amazing time' frasa umum, pakai 'an'." },
+    { q: "The office is at ___ end of the street.", opts: ["the","a","an","Ø (no article)"], a: 0, ex: "Use 'the' when 'of the street' makes it specific: the end of the street.", exId: "Pakai 'the' karena 'of the street' membuatnya spesifik." },
+    { q: "He gave me ___ advice about my career.", opts: ["an","a","the","Ø (no article)"], a: 3, ex: "'Advice' is uncountable, so it takes no article and never 'an'.", exId: "'Advice' tak terhitung, tanpa artikel dan tidak pernah 'an advice'." },
+    { q: "Who is ___ manager of this shop? I want to complain.", opts: ["the","a","an","Ø (no article)"], a: 0, ex: "'Of this shop' makes the manager specific and unique, so use 'the'.", exId: "'Of this shop' membuat manajer itu spesifik dan unik, jadi pakai 'the'." },
+    { q: "___ time goes quickly when you are busy at work.", opts: ["The","A","Ø (no article)","An"], a: 2, ex: "'Time' as a general idea is uncountable and takes no article.", exId: "'Time' sebagai gagasan umum tak terhitung, tanpa artikel." },
+    { q: "Which sentence is correct?", opts: ["He is best student in the class.","He is a best student in the class.","He is the best student in the class."], a: 2, ex: "Superlatives take 'the': the best student.", exId: "Superlative pakai 'the': the best student." },
+    { q: "There is ___ supermarket near our house, so shopping is easy.", opts: ["a","an","the","Ø (no article)"], a: 0, ex: "Use a to introduce one new singular countable noun, as after 'there is'.", exId: "Pakai a untuk memperkenalkan satu kata benda tunggal yang baru disebut." },
+    { q: "The Earth moves around ___ sun.", opts: ["a","the","an","Ø (no article)"], a: 1, ex: "The sun is unique, only one exists, so use the.", exId: "Matahari itu unik, hanya ada satu, jadi pakai the." },
+    { q: "My aunt works as ___ nurse in a big hospital.", opts: ["the","an","a","Ø (no article)"], a: 2, ex: "Use a before a job name with a consonant sound.", exId: "Pakai a sebelum nama pekerjaan yang diawali bunyi konsonan." },
+    { q: "Which sentence is correct?", opts: ["It was an easy question.","It was a easy question.","It was easy question."], a: 0, ex: "Use an before a vowel sound; 'easy' begins with one.", exId: "Pakai an sebelum bunyi vokal; 'easy' diawali bunyi vokal." },
+    { q: "For a snack, I had ___ orange.", opts: ["a","an","the","Ø (no article)"], a: 1, ex: "Use an before a vowel sound; 'orange' begins with one.", exId: "Pakai an sebelum bunyi vokal; 'orange' diawali bunyi vokal." },
+    { q: "___ water is necessary for all living things.", opts: ["A","The","Ø (no article)","An"], a: 2, ex: "Uncountable nouns used in a general sense take no article.", exId: "Kata benda tak terhitung yang bermakna umum tidak memakai article." },
+    { q: "We watched ___ good film at the cinema last night.", opts: ["an","the","Ø (no article)","a"], a: 3, ex: "Use a for a non-specific thing mentioned for the first time.", exId: "Pakai a untuk benda tak spesifik yang baru pertama disebut." },
+    { q: "Which sentence is correct?", opts: ["We waited for a hour.","We waited for the hour.","We waited for an hour."], a: 2, ex: "'Hour' has a silent h and a vowel sound, so use an.", exId: "'Hour' huruf h-nya bisu dan berbunyi vokal, jadi pakai an." },
+    { q: "Please close ___ door; it is cold in here.", opts: ["the","a","an","Ø (no article)"], a: 0, ex: "Use the for a specific thing both speakers already know.", exId: "Pakai the untuk benda spesifik yang sudah diketahui kedua orang." },
+    { q: "We play ___ football in the park every weekend.", opts: ["a","Ø (no article)","the","an"], a: 1, ex: "Sports take no article after the verb 'play'.", exId: "Nama olahraga tidak memakai article setelah kata kerja 'play'." },
+    { q: "We want to buy ___ new sofa for our living room.", opts: ["the","an","a","Ø (no article)"], a: 2, ex: "Use a for a new, non-specific item mentioned for the first time.", exId: "Pakai a untuk barang baru yang belum spesifik dan pertama disebut." },
+    { q: "Once ___ day, she drinks a glass of warm milk.", opts: ["the","Ø (no article)","a","an"], a: 2, ex: "Use a to mean 'per', as in once a day.", exId: "Pakai a untuk arti 'per', seperti once a day (sekali sehari)." },
+    { q: "Which sentence is correct?", opts: ["She gave me a good advice.","She gave me good advice.","She gave me an advice."], a: 1, ex: "'Advice' is uncountable, so it takes no a or an.", exId: "'Advice' tak terhitung (uncountable), jadi tidak pakai a atau an." },
+    { q: "She gave me ___ cup of hot tea.", opts: ["an","the","Ø (no article)","a"], a: 3, ex: "Use a in the fixed phrase 'a cup of'.", exId: "Pakai a dalam frasa tetap 'a cup of' (secangkir)." },
+    { q: "I found ___ egg in the fridge this morning.", opts: ["an","a","the","Ø (no article)"], a: 0, ex: "Use an before a vowel sound; 'egg' begins with one.", exId: "Pakai an sebelum bunyi vokal; 'egg' diawali bunyi vokal." },
+    { q: "___ dogs are very loyal animals.", opts: ["The","A","Ø (no article)","An"], a: 2, ex: "Plural nouns used in a general sense take no article.", exId: "Kata benda jamak yang bermakna umum tidak memakai article." },
+    { q: "I am reading ___ interesting book about space.", opts: ["the","a","Ø (no article)","an"], a: 3, ex: "Use an before a vowel sound; 'interesting' begins with one.", exId: "Pakai an sebelum bunyi vokal; 'interesting' diawali bunyi vokal." },
+    { q: "Can you turn off ___ TV? Nobody is watching it.", opts: ["the","a","an","Ø (no article)"], a: 0, ex: "Use the for the specific TV in the room.", exId: "Pakai the untuk TV spesifik yang ada di ruangan itu." },
+    { q: "I don't have ___ pen. Can I borrow one?", opts: ["the","a","an","Ø (no article)"], a: 1, ex: "Use a for any non-specific one; 'one' shows it is not specific.", exId: "Pakai a untuk benda apa saja yang tak spesifik; 'one' menegaskannya." },
+    { q: "He had ___ idea about how to fix the problem.", opts: ["a","the","an","Ø (no article)"], a: 2, ex: "Use an before a vowel sound; 'idea' begins with one.", exId: "Pakai an sebelum bunyi vokal; 'idea' diawali bunyi vokal." },
+    { q: "We had ___ rice and chicken for dinner.", opts: ["a","the","an","Ø (no article)"], a: 3, ex: "Uncountable food like rice takes no article here.", exId: "Makanan tak terhitung seperti rice tidak memakai article di sini." },
+    { q: "We always keep milk in ___ fridge.", opts: ["the","a","an","Ø (no article)"], a: 0, ex: "Use the for the one fridge we both know in the kitchen.", exId: "Pakai the untuk satu-satunya kulkas di dapur yang sudah diketahui." },
+    { q: "We saw ___ elephant and some monkeys at the zoo.", opts: ["a","an","the","Ø (no article)"], a: 1, ex: "Use an before a vowel sound; 'elephant' begins with one.", exId: "Pakai an sebelum bunyi vokal; 'elephant' diawali bunyi vokal." },
+    { q: "My son goes to ___ bed at nine every night.", opts: ["the","a","Ø (no article)","an"], a: 2, ex: "'Go to bed' is a fixed phrase with no article.", exId: "'Go to bed' adalah frasa tetap tanpa article." },
+    { q: "Which sentence is correct?", opts: ["We take a same bus every morning.","We take the same bus every morning.","We take same bus every morning."], a: 1, ex: "Always use the before the word 'same'.", exId: "Selalu pakai the sebelum kata 'same'." },
+    { q: "I love ___ music, especially rock and pop.", opts: ["the","Ø (no article)","a","an"], a: 1, ex: "Uncountable nouns in a general sense take no article.", exId: "Kata benda tak terhitung yang bermakna umum tidak memakai article." },
+    { q: "There is ___ university in our city.", opts: ["an","the","a","Ø (no article)"], a: 2, ex: "'University' sounds like 'you-', a consonant sound, so use a.", exId: "'University' berbunyi seperti 'yu-' (konsonan), jadi pakai a." },
+    { q: "The bedroom is small, but ___ kitchen is quite big.", opts: ["a","an","Ø (no article)","the"], a: 3, ex: "Use the for a specific room; a home has one kitchen.", exId: "Pakai the untuk ruangan spesifik; satu rumah punya satu dapur." },
+    { q: "He travels to ___ work by train every day.", opts: ["Ø (no article)","the","a","an"], a: 0, ex: "'Travel to work' is a fixed phrase with no article.", exId: "'Travel to work' adalah frasa tetap tanpa article." },
+    { q: "I sent him ___ email this morning.", opts: ["a","an","the","Ø (no article)"], a: 1, ex: "Use an before a vowel sound; 'email' begins with one.", exId: "Pakai an sebelum bunyi vokal; 'email' diawali bunyi vokal." },
+    { q: "We have ___ small garden behind the house.", opts: ["the","an","a","Ø (no article)"], a: 2, ex: "Use a for a non-specific singular thing with a consonant sound.", exId: "Pakai a untuk benda tunggal tak spesifik yang diawali bunyi konsonan." },
+    { q: "At ___ night, the city is very quiet.", opts: ["Ø (no article)","a","the","an"], a: 0, ex: "'At night' is a fixed phrase with no article.", exId: "'At night' adalah frasa tetap tanpa article." },
+    { q: "Which sentence is correct?", opts: ["I never eat the breakfast.","I never eat a breakfast.","I never eat breakfast."], a: 2, ex: "Meal names like breakfast take no article.", exId: "Nama waktu makan seperti breakfast tidak memakai article." },
+    { q: "This is ___ first time I have been to London.", opts: ["a","the","an","Ø (no article)"], a: 1, ex: "Use the with ordinal words like 'first'.", exId: "Pakai the dengan kata urutan (ordinal) seperti 'first'." },
+    { q: "She is learning to cook ___ Italian food.", opts: ["an","a","Ø (no article)","the"], a: 2, ex: "Uncountable food in a general sense takes no article.", exId: "Makanan tak terhitung yang bermakna umum tidak memakai article." },
+    { q: "I'd like ___ sandwich and a coffee, please.", opts: ["the","an","Ø (no article)","a"], a: 3, ex: "Use a for a non-specific singular thing with a consonant sound.", exId: "Pakai a untuk benda tunggal tak spesifik yang diawali bunyi konsonan." },
+    { q: "My grandfather is ___ old man, but he is very active.", opts: ["an","a","the","Ø (no article)"], a: 0, ex: "Use an before a vowel sound; 'old' begins with one.", exId: "Pakai an sebelum bunyi vokal; 'old' diawali bunyi vokal." },
+    { q: "After work, I like to take ___ long walk to relax.", opts: ["the","a","an","Ø (no article)"], a: 1, ex: "Use a in the phrase 'take a walk' for a non-specific walk.", exId: "Pakai a dalam frasa 'take a walk' untuk jalan-jalan yang tak spesifik." },
+  ],
+};
+
 // ---------- UI strings (EN / ID) ----------
 const T = {
   en: {
     heroTitle: "Master the rules, reach Band 7",
-    heroSub: (n) => `Interactive grammar practice — 13 units, ${n} practice questions, and an AI writing examiner.`,
+    heroSub: (n) => `Interactive grammar practice — 13 units and ${n} practice questions.`,
     statsLine: (p, m) => `${p}/13 units practiced · ${m} mastered (80%+)`,
     lastEssay: (b) => ` · last essay ${b}`,
     writingTitle: "Writing Lab",
@@ -797,7 +896,7 @@ const T = {
     unitsHeader: "Grammar units",
     unitsHint: "Learn, then practice",
     newLabel: "New",
-    footer: "A personal IELTS grammar study app — 13 units, targeted drills, and an AI writing examiner. Progress is saved on this device.",
+    footer: "A personal IELTS grammar study app — 13 units of rules and targeted drills. Progress is saved on this device.",
     allUnits: "All units",
     learnTab: "Learn",
     practiceTab: "Practice",
@@ -806,6 +905,8 @@ const T = {
     deckCoreSub: "Targeted questions on each unit's key rules, with a worked explanation for every answer.",
     deckCtx: "Context practice",
     deckCtxSub: "Fuller, real-world contexts using everyday (Oxford 3000-level) vocabulary.",
+    deckExtra: "Extra practice",
+    deckExtraSub: "A large Oxford 3000-level bank — a fresh 10-question round each time.",
     qWord: "questions",
     best: "Best",
     qOf: (i, n) => `Question ${i} of ${n}`,
@@ -853,7 +954,7 @@ const T = {
   },
   id: {
     heroTitle: "Kuasai aturannya, raih Band 7",
-    heroSub: (n) => `Latihan tata bahasa interaktif — 13 unit, ${n} soal latihan, dan pemeriksa writing berbasis AI.`,
+    heroSub: (n) => `Latihan tata bahasa interaktif — 13 unit dan ${n} soal latihan.`,
     statsLine: (p, m) => `${p}/13 unit dipelajari · ${m} dikuasai (80%+)`,
     lastEssay: (b) => ` · esai terakhir ${b}`,
     writingTitle: "Writing Lab",
@@ -861,7 +962,7 @@ const T = {
     unitsHeader: "Unit tata bahasa",
     unitsHint: "Pelajari, lalu latihan",
     newLabel: "Baru",
-    footer: "Aplikasi belajar tata bahasa IELTS untuk pribadi — 13 unit, latihan soal terarah, dan pemeriksa writing berbasis AI. Progres tersimpan di perangkat ini.",
+    footer: "Aplikasi belajar tata bahasa IELTS untuk pribadi — 13 unit aturan dan latihan soal terarah. Progres tersimpan di perangkat ini.",
     allUnits: "Semua unit",
     learnTab: "Materi",
     practiceTab: "Latihan",
@@ -870,6 +971,8 @@ const T = {
     deckCoreSub: "Soal terarah untuk aturan tiap unit, dengan penjelasan di setiap jawaban.",
     deckCtx: "Latihan konteks",
     deckCtxSub: "Konteks sehari-hari yang lebih panjang dengan kosakata umum (level Oxford 3000).",
+    deckExtra: "Latihan tambahan",
+    deckExtraSub: "Bank soal besar level Oxford 3000 — 10 soal acak setiap ronde.",
     qWord: "soal",
     best: "Terbaik",
     qOf: (i, n) => `Soal ${i} dari ${n}`,
@@ -979,7 +1082,7 @@ function HomeScreen({ progress, history, openUnit, openWriting, lang }) {
   const tr = T[lang];
   const practiced = UNITS.filter(u => progress[u.id] || progress["x" + u.id]).length;
   const mastered = UNITS.filter(u => { const p = unitPct(progress, u.id); return p !== null && p >= 80; }).length;
-  const totalQ = UNITS.reduce((n, u) => n + u.quiz.length + ((QUIZ2[u.id] || []).length), 0);
+  const totalQ = UNITS.reduce((n, u) => n + u.quiz.length + ((QUIZ2[u.id] || []).length) + ((QUIZ3[u.id] || []).length), 0);
   const last = history[0];
   return (
     <div>
@@ -998,6 +1101,7 @@ function HomeScreen({ progress, history, openUnit, openWriting, lang }) {
         </div>
       </div>
 
+      {AI_ENABLED && (
       <button onClick={openWriting} className="w-full text-left rounded-3xl mb-5 flex overflow-hidden" style={{ background: C.card, border: `1px solid ${C.line}`, cursor: "pointer", padding: 0 }}>
         <div style={{ width: 8, background: C.red, flexShrink: 0 }} />
         <div className="p-5 flex-1 flex items-center gap-4">
@@ -1011,6 +1115,7 @@ function HomeScreen({ progress, history, openUnit, openWriting, lang }) {
           <ArrowRight size={20} style={{ color: C.red, flexShrink: 0 }} />
         </div>
       </button>
+      )}
 
       <div className="flex items-center justify-between mb-3">
         <h2 className="flex items-center gap-2" style={{ ...display, fontSize: 22, fontWeight: 800 }}>
@@ -1155,11 +1260,18 @@ function PracticeTab({ unit, progress, onScore, lang }) {
   const [deck, setDeck] = useState(null);
   const [session, setSession] = useState(1);
   const ctxList = QUIZ2[unit.id] || [];
+  const extraPool = QUIZ3[unit.id] || [];
+  const extraRound = useMemo(() => {
+    const s = (QUIZ3[unit.id] || []).slice();
+    for (let k = s.length - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); [s[k], s[j]] = [s[j], s[k]]; }
+    return s.slice(0, EXTRA_ROUND);
+  }, [unit.id, session]);
 
   if (!deck) {
     const decks = [
       { key: unit.id, list: unit.quiz, isCtx: false, title: tr.deckCore, sub: tr.deckCoreSub, icon: <Play size={22} />, wash: C.blueWash, color: C.blue },
       { key: "x" + unit.id, list: ctxList, isCtx: true, title: tr.deckCtx, sub: tr.deckCtxSub, icon: <Sparkles size={22} />, wash: C.redWash, color: C.red },
+      { key: "e" + unit.id, list: extraPool, isCtx: true, round: true, title: tr.deckExtra, sub: tr.deckExtraSub, icon: <Layers size={22} />, wash: C.greenWash, color: C.green },
     ].filter(d => d.list.length > 0);
     return (
       <div className="flex flex-col gap-3">
@@ -1185,7 +1297,7 @@ function PracticeTab({ unit, progress, onScore, lang }) {
   }
 
   return (
-    <Quiz key={deck.key + "-" + session} list={deck.list} unitId={unit.id} isCtx={deck.isCtx} lang={lang}
+    <Quiz key={deck.key + "-" + session} list={deck.round ? extraRound : deck.list} unitId={unit.id} isCtx={deck.isCtx} lang={lang}
       onScore={(s, t) => onScore(deck.key, s, t)}
       onRestart={() => setSession(s => s + 1)}
       onExit={() => setDeck(null)} />
