@@ -30,7 +30,7 @@ const display = { fontFamily: "'Baloo 2', system-ui, sans-serif" };
 const body = { fontFamily: "'Inter', system-ui, sans-serif" };
 
 // ---------- Grammar content: 13 IELTS units ----------
-// Each unit pairs concise rules with a curated drill; every drill answer has a worked explanation.
+// Each unit pairs concise rules with a targeted drill; every drill answer has a worked explanation.
 const UNITS = [
   {
     id: 1, title: "Articles", tag: "a / an / the / Ø",
@@ -702,7 +702,7 @@ const EX_ID = {
   "13-7": "Klausa “while” sendirian adalah fragmen — perlu klausa independen.",
 };
 
-// ---------- Context practice (new questions written for this app) ----------
+// ---------- Context practice: fuller everyday scenarios ----------
 // Fuller, everyday contexts using common Oxford 3000-level vocabulary.
 const QUIZ2 = {
   1: [
@@ -805,7 +805,7 @@ const T = {
     deckCore: "Core drill",
     deckCoreSub: "Targeted questions on each unit's key rules, with a worked explanation for every answer.",
     deckCtx: "Context practice",
-    deckCtxSub: "New questions written for this app, with fuller contexts and everyday (Oxford 3000-level) vocabulary.",
+    deckCtxSub: "Fuller, real-world contexts using everyday (Oxford 3000-level) vocabulary.",
     qWord: "questions",
     best: "Best",
     qOf: (i, n) => `Question ${i} of ${n}`,
@@ -869,7 +869,7 @@ const T = {
     deckCore: "Latihan inti",
     deckCoreSub: "Soal terarah untuk aturan tiap unit, dengan penjelasan di setiap jawaban.",
     deckCtx: "Latihan konteks",
-    deckCtxSub: "Soal baru untuk aplikasi ini, dengan konteks lebih panjang dan kosakata sehari-hari (level Oxford 3000).",
+    deckCtxSub: "Konteks sehari-hari yang lebih panjang dengan kosakata umum (level Oxford 3000).",
     qWord: "soal",
     best: "Terbaik",
     qOf: (i, n) => `Soal ${i} dari ${n}`,
