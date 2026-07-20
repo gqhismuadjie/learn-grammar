@@ -788,7 +788,7 @@ const QUIZ2 = {
 // ---------- UI strings (EN / ID) ----------
 const T = {
   en: {
-    heroTitle: "From common mistakes to Band 7",
+    heroTitle: "Master the rules, reach Band 7",
     heroSub: (n) => `Interactive grammar practice — 13 units, ${n} practice questions, and an AI writing examiner.`,
     statsLine: (p, m) => `${p}/13 units practiced · ${m} mastered (80%+)`,
     lastEssay: (b) => ` · last essay ${b}`,
@@ -852,7 +852,7 @@ const T = {
     wlBack: "Writing Lab",
   },
   id: {
-    heroTitle: "Dari kesalahan umum menuju Band 7",
+    heroTitle: "Kuasai aturannya, raih Band 7",
     heroSub: (n) => `Latihan tata bahasa interaktif — 13 unit, ${n} soal latihan, dan pemeriksa writing berbasis AI.`,
     statsLine: (p, m) => `${p}/13 unit dipelajari · ${m} dikuasai (80%+)`,
     lastEssay: (b) => ` · esai terakhir ${b}`,
@@ -986,7 +986,7 @@ function HomeScreen({ progress, history, openUnit, openWriting, lang }) {
       <div className="rounded-3xl overflow-hidden mb-5 flex" style={{ background: C.blue }}>
         <div style={{ width: 14, background: C.red, flexShrink: 0 }} />
         <div className="p-6 sm:p-8 text-white flex-1">
-          <div className="text-xs font-bold mb-1" style={{ color: "#BFC7FF", letterSpacing: "0.16em" }}>IELTS GRAMMAR ROADMAP</div>
+          <div className="text-xs font-bold mb-1" style={{ color: "#BFC7FF", letterSpacing: "0.16em" }}>IELTS GRAMMAR STUDIO</div>
           <h1 style={{ ...display, fontSize: 34, fontWeight: 800, lineHeight: 1.05 }}>{tr.heroTitle}</h1>
           <p className="mt-2 text-sm leading-relaxed" style={{ color: "#DDE1FF" }}>{tr.heroSub(totalQ)}</p>
           <div className="mt-4">
