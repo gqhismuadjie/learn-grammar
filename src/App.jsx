@@ -124,15 +124,15 @@ const K_LANG = "igr-lang";
 const T = {
   en: {
     heroTitle: "Master the rules, reach Band 7",
-    heroSub: (n) => `Interactive grammar practice — 13 units and ${n} practice questions.`,
-    statsLine: (p, m) => `${p}/13 units practiced · ${m} mastered (80%+)`,
+    heroSub: (n) => `Interactive grammar practice — ${UNITS.length} units and ${n} practice questions.`,
+    statsLine: (p, m) => `${p}/${UNITS.length} units practiced · ${m} mastered (80%+)`,
     lastEssay: (b) => ` · last essay ${b}`,
     writingTitle: "Writing Lab",
     writingSub: "Write a Task 2 essay under exam timing, then get an AI band estimate with feedback linked to these units.",
     unitsHeader: "Grammar units",
     unitsHint: "Learn, then practice",
     newLabel: "New",
-    footer: "A personal IELTS grammar study app — 13 units of rules and targeted drills. Progress is saved on this device.",
+    footer: `A personal IELTS grammar study app — ${UNITS.length} units of rules and targeted drills. Progress is saved on this device.`,
     allUnits: "All units",
     learnTab: "Learn",
     practiceTab: "Practice",
@@ -190,15 +190,15 @@ const T = {
   },
   id: {
     heroTitle: "Kuasai aturannya, raih Band 7",
-    heroSub: (n) => `Latihan tata bahasa interaktif — 13 unit dan ${n} soal latihan.`,
-    statsLine: (p, m) => `${p}/13 unit dipelajari · ${m} dikuasai (80%+)`,
+    heroSub: (n) => `Latihan tata bahasa interaktif — ${UNITS.length} unit dan ${n} soal latihan.`,
+    statsLine: (p, m) => `${p}/${UNITS.length} unit dipelajari · ${m} dikuasai (80%+)`,
     lastEssay: (b) => ` · esai terakhir ${b}`,
     writingTitle: "Writing Lab",
     writingSub: "Tulis esai Task 2 dengan waktu ujian, lalu dapatkan estimasi band AI dengan umpan balik yang terhubung ke unit-unit ini.",
     unitsHeader: "Unit tata bahasa",
     unitsHint: "Pelajari, lalu latihan",
     newLabel: "Baru",
-    footer: "Aplikasi belajar tata bahasa IELTS untuk pribadi — 13 unit aturan dan latihan soal terarah. Progres tersimpan di perangkat ini.",
+    footer: `Aplikasi belajar tata bahasa IELTS untuk pribadi — ${UNITS.length} unit aturan dan latihan soal terarah. Progres tersimpan di perangkat ini.`,
     allUnits: "Semua unit",
     learnTab: "Materi",
     practiceTab: "Latihan",
@@ -329,7 +329,7 @@ function HomeScreen({ progress, history, openUnit, openWriting, lang }) {
           <h1 style={{ ...display, fontSize: 34, fontWeight: 800, lineHeight: 1.05 }}>{tr.heroTitle}</h1>
           <p className="mt-2 text-sm leading-relaxed" style={{ color: "#DDE1FF" }}>{tr.heroSub(totalQ)}</p>
           <div className="mt-4">
-            <MiniBar pct={(practiced / 13) * 100} color="#FFFFFF" track="rgba(255,255,255,0.25)" />
+            <MiniBar pct={(practiced / UNITS.length) * 100} color="#FFFFFF" track="rgba(255,255,255,0.25)" />
             <div className="mt-2 text-xs font-semibold" style={{ color: "#DDE1FF" }}>
               {tr.statsLine(practiced, mastered)}{last && typeof last.overall === "number" ? tr.lastEssay(bandStr(last.overall)) : ""}
             </div>
