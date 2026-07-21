@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import {
   ChevronLeft, BookOpen, PenLine, Check, X, RotateCcw, Trophy, Clock,
   Loader2, Lightbulb, ArrowRight, AlertTriangle, Sparkles, History, Play, Layers,
-  BarChart3, Flame, Target, Download, Upload
+  BarChart3, Flame, Target, Download, Upload, Eye
 } from "lucide-react";
 import { UNITS } from "./content/units.js";
 import { QUIZ2 } from "./content/quiz2.js";
@@ -168,6 +168,7 @@ const T = {
     footer: `A personal IELTS grammar study app — ${UNITS.length} units of rules and targeted drills. Progress is saved on this device.`,
     allUnits: "All units",
     learnTab: "Learn",
+    learnVisual: "At a glance",
     practiceTab: "Practice",
     practiceBtn: "Practice this unit",
     deckCore: "Core drill",
@@ -299,6 +300,7 @@ const T = {
     footer: `Aplikasi belajar tata bahasa IELTS untuk pribadi — ${UNITS.length} unit aturan dan latihan soal terarah. Progres tersimpan di perangkat ini.`,
     allUnits: "Semua unit",
     learnTab: "Materi",
+    learnVisual: "Sekilas",
     practiceTab: "Latihan",
     practiceBtn: "Latihan unit ini",
     deckCore: "Latihan inti",
@@ -591,11 +593,229 @@ function HomeScreen({ progress, history, mistakes, stats, quiz3, openUnit, openW
 }
 
 // ---------- Unit: Learn + Practice ----------
+// ---------- Learn illustrations (schematic visual aids) ----------
+function Kw({ children, c }) { return <b style={{ color: c || C.blue }}>{children}</b>; }
+function IChip({ children, tone = "neutral" }) {
+  const m = {
+    neutral: { bg: C.card, bd: C.line, fg: C.ink },
+    blue: { bg: C.blueWash, bd: C.blue, fg: C.blueDark },
+    green: { bg: C.greenWash, bd: C.green, fg: C.green },
+    red: { bg: C.redWash, bd: C.red, fg: C.red },
+    amber: { bg: C.amberWash, bd: C.amber, fg: "#8A5A08" },
+  }[tone];
+  return <span className="rounded-lg px-2 py-1 text-xs font-bold inline-flex items-center gap-1 whitespace-nowrap" style={{ ...display, background: m.bg, border: `1px solid ${m.bd}`, color: m.fg }}>{children}</span>;
+}
+function IArrow({ c }) { return <ArrowRight size={14} style={{ color: c || C.sub, flexShrink: 0 }} />; }
+function IChain({ items }) {
+  return (
+    <div className="flex items-center gap-1.5 flex-wrap">
+      {items.map((it, i) => (
+        <span key={i} className="inline-flex items-center gap-1.5">
+          <IChip tone={it.tone || "neutral"}>{it.t}</IChip>
+          {i < items.length - 1 && <IArrow />}
+        </span>
+      ))}
+    </div>
+  );
+}
+function IRows({ rows }) {
+  return (
+    <div className="flex flex-col gap-2">
+      {rows.map((r, i) => (
+        <div key={i} className="flex items-start gap-2">
+          <span style={{ flexShrink: 0 }}><IChip tone={r.tone || "blue"}>{r.tag}</IChip></span>
+          <span className="text-xs" style={{ color: C.ink, lineHeight: 1.6 }}>{r.text}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+function ITwoCol({ a, b }) {
+  const Col = ({ title, tone, items }) => (
+    <div className="flex-1 rounded-xl p-2.5" style={{ background: tone === "green" ? C.greenWash : C.blueWash, border: `1px solid ${tone === "green" ? C.green : C.blue}`, minWidth: 130 }}>
+      <div className="text-xs font-bold mb-1.5" style={{ ...display, color: tone === "green" ? C.green : C.blueDark }}>{title}</div>
+      <div className="flex flex-wrap gap-1">{items.map((x, i) => <IChip key={i}>{x}</IChip>)}</div>
+    </div>
+  );
+  return <div className="flex gap-2 flex-wrap">{Col(a)}{Col(b)}</div>;
+}
+function ITimeline({ items }) {
+  const n = items.length;
+  return (
+    <div>
+      <div className="relative" style={{ height: 14 }}>
+        <div style={{ position: "absolute", top: 6, left: `${50 / n}%`, right: `${50 / n}%`, height: 2, background: C.line }} />
+        <div className="grid" style={{ gridTemplateColumns: `repeat(${n},1fr)` }}>
+          {items.map((it, i) => <div key={i} className="flex justify-center"><span style={{ width: 12, height: 12, borderRadius: 12, background: it.now ? C.red : C.blue }} /></div>)}
+        </div>
+      </div>
+      <div className="grid mt-1" style={{ gridTemplateColumns: `repeat(${n},1fr)` }}>
+        {items.map((it, i) => (
+          <div key={i} className="text-center px-1">
+            <div className="text-xs font-bold" style={{ ...display, color: it.now ? C.red : C.blueDark }}>{it.form}</div>
+            <div style={{ fontSize: 10, color: C.sub, lineHeight: 1.2 }}>{it.label}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+function ITransform({ from, to }) {
+  return (
+    <div className="flex items-center gap-2 flex-wrap">
+      <div className="rounded-lg px-2.5 py-1.5 text-xs flex-1" style={{ background: C.card, border: `1px solid ${C.line}`, color: C.ink, minWidth: 120 }}>{from}</div>
+      <IArrow c={C.red} />
+      <div className="rounded-lg px-2.5 py-1.5 text-xs flex-1" style={{ background: C.blueWash, border: `1px solid ${C.blue}`, color: C.blueDark, minWidth: 120 }}>{to}</div>
+    </div>
+  );
+}
+function IBars({ items }) {
+  return (
+    <div className="flex items-end justify-center gap-4" style={{ height: 78 }}>
+      {items.map((it, i) => (
+        <div key={i} className="flex flex-col items-center gap-1">
+          <div style={{ width: 36, height: it.h, background: C.blue, borderRadius: "5px 5px 0 0" }} />
+          <div className="text-xs font-bold" style={{ ...display, color: C.blueDark }}>{it.label}</div>
+          <div style={{ fontSize: 10, color: C.sub }}>{it.sub}</div>
+        </div>
+      ))}
+    </div>
+  );
+}
+function IScale({ stops }) {
+  return (
+    <div>
+      <div style={{ height: 8, borderRadius: 8, background: `linear-gradient(90deg, ${C.blue}, ${C.line})` }} />
+      <div className="grid mt-1.5" style={{ gridTemplateColumns: `repeat(${stops.length},1fr)` }}>
+        {stops.map((s, i) => (
+          <div key={i} style={{ textAlign: i === 0 ? "left" : i === stops.length - 1 ? "right" : "center" }}>
+            <div className="text-xs font-bold" style={{ ...display, color: C.blueDark }}>{s.t}</div>
+            <div style={{ fontSize: 10, color: C.sub }}>{s.s}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function LearnIllustration({ id, lang }) {
+  const L = (en, idn) => (lang === "id" ? idn : en);
+  switch (id) {
+    case 1: return <IRows rows={[
+      { tag: "the", text: <>specific / already mentioned — <Kw>The</Kw> proposal was rejected.</> },
+      { tag: "a / an", tone: "amber", text: <>one, non-specific, singular — She raised <Kw c={C.amber}>an</Kw> objection.</> },
+      { tag: "Ø", tone: "green", text: <>general, uncountable, plural — <Kw c={C.green}>Ø</Kw> inflation undermines savings.</> },
+    ]} />;
+    case 2: return <ITwoCol
+      a={{ title: L("Countable", "Terhitung"), tone: "blue", items: ["a / an", "many", "a few", "several", "a number of"] }}
+      b={{ title: L("Uncountable", "Tak terhitung"), tone: "green", items: ["some", "much", "a little", "a great deal of"] }} />;
+    case 3: return <IChain items={[
+      { t: "depend on" }, { t: "afraid of" }, { t: "an increase in" }, { t: "responsible for" }, { t: "consist of" }, { t: "capable of" },
+    ]} />;
+    case 4: return <IBars items={[
+      { h: 26, label: "large", sub: L("base", "dasar") },
+      { h: 48, label: "larger", sub: "-er" },
+      { h: 72, label: "largest", sub: "the …-est" },
+    ]} />;
+    case 5: return <IRows rows={[
+      { tag: L("Singular", "Tunggal"), text: <>The <Kw>discrepancy</Kw> <Kw c={C.green}>persists</Kw> (verb + <b>s</b>).</> },
+      { tag: L("Plural", "Jamak"), tone: "green", text: <>The <Kw c={C.green}>findings</Kw> <Kw c={C.green}>persist</Kw> (base form).</> },
+      { tag: L("Tricky", "Rumit"), tone: "amber", text: <>Each of the samples <b>was</b> examined — “each” is singular.</> },
+    ]} />;
+    case 6: return <ITimeline items={[
+      { form: "had left", label: L("earlier past", "lampau awal") },
+      { form: "was leaving", label: L("in progress", "sedang") },
+      { form: "left", label: L("finished", "selesai") },
+      { form: "NOW", label: "", now: true },
+    ]} />;
+    case 7: return <IRows rows={[
+      { tag: "do / does", text: <>habit or fact — She <Kw>commutes</Kw> daily despite the congestion.</> },
+      { tag: "am doing", tone: "amber", text: <>happening now — Prices <Kw c={C.amber}>are fluctuating</Kw> sharply.</> },
+      { tag: "have done", tone: "green", text: <>started before, matters now — Output <Kw c={C.green}>has deteriorated</Kw>.</> },
+    ]} />;
+    case 8: return <ITimeline items={[
+      { form: "NOW", label: "", now: true },
+      { form: "will / going to", label: L("later", "nanti") },
+      { form: "will be doing", label: L("in progress", "sedang") },
+      { form: "will have done", label: L("done by then", "selesai nanti") },
+    ]} />;
+    case 9: return <ITransform
+      from={<>The auditors <Kw c={C.red}>scrutinised</Kw> the accounts. <span style={{ color: C.sub }}>(active)</span></>}
+      to={<>The accounts <Kw>were scrutinised</Kw> (by the auditors). <span style={{ color: C.sub }}>(passive)</span></>} />;
+    case 10: return <IRows rows={[
+      { tag: "Type 0", text: <>fact — If water <b>boils</b>, it <b>evaporates</b>.</> },
+      { tag: "Type 1", text: <>real future — If costs <b>rise</b>, we <b>will</b> intervene.</> },
+      { tag: "Type 2", tone: "amber", text: <>unreal now — If I <b>were</b> minister, I <b>would</b> reform it.</> },
+      { tag: "Type 3", tone: "red", text: <>past regret — If they <b>had</b> acted, it <b>would have</b> succeeded.</> },
+    ]} />;
+    case 11: return <IScale stops={[
+      { t: "must", s: L("certain", "pasti") },
+      { t: "should", s: L("likely", "mungkin besar") },
+      { t: "may / might", s: L("possible", "mungkin") },
+      { t: "could", s: L("tentative", "ragu") },
+    ]} />;
+    case 12: return <div className="text-sm leading-loose" style={{ color: C.ink }}>
+      The researcher <span style={{ background: C.blueWash, border: `1px solid ${C.blue}`, borderRadius: 6, padding: "2px 6px", color: C.blueDark, fontWeight: 700 }}>who led the trial</span> won.
+      <div className="mt-2 flex flex-wrap gap-1"><IChip>who — people</IChip><IChip>which — things</IChip><IChip>that — both</IChip><IChip>where — places</IChip><IChip>whose — possession</IChip></div>
+    </div>;
+    case 13: return <div>
+      <div className="flex items-center gap-1.5 flex-wrap">
+        <IChip tone="blue">{L("main clause", "klausa utama")}</IChip>
+        <span style={{ color: C.sub, fontWeight: 700 }}>+</span>
+        <IChip tone="amber">because / although / when</IChip>
+        <span style={{ color: C.sub, fontWeight: 700 }}>+</span>
+        <IChip>{L("subordinate clause", "klausa bawahan")}</IChip>
+      </div>
+      <div className="text-xs mt-2" style={{ color: C.sub }}>The reform stalled <b>because</b> funding was withdrawn.</div>
+    </div>;
+    case 14: return <ITwoCol
+      a={{ title: "verb + -ing", tone: "blue", items: ["enjoy", "avoid", "consider", "risk", "deny", "suggest"] }}
+      b={{ title: "to + verb", tone: "green", items: ["want", "decide", "refuse", "manage", "offer", "endeavour"] }} />;
+    case 15: return <div>
+      <ITransform from={<>“I <Kw c={C.red}>am</Kw> exhausted.”</>} to={<>She said she <Kw>was</Kw> exhausted.</>} />
+      <div className="mt-2 flex flex-wrap gap-1"><IChip>am/is → was</IChip><IChip>do → did</IChip><IChip>will → would</IChip><IChip>can → could</IChip></div>
+    </div>;
+    case 16: return <IRows rows={[
+      { tag: L("Add", "Tambah"), text: <><b>moreover</b>, furthermore, in addition</> },
+      { tag: L("Contrast", "Kontras"), tone: "amber", text: <><b>however</b>, nevertheless, whereas</> },
+      { tag: L("Result", "Akibat"), tone: "green", text: <><b>therefore</b>, consequently, thereby</> },
+    ]} />;
+    case 17: return <div className="flex flex-col gap-2">
+      <div className="flex items-center gap-2 flex-wrap"><IChip tone="blue">the committee</IChip><IArrow /><IChip tone="green">it</IChip><span className="text-xs" style={{ color: C.sub }}>{L("singular institution", "lembaga tunggal")}</span></div>
+      <div className="flex items-center gap-2 flex-wrap"><IChip tone="blue">the findings</IChip><IArrow /><IChip tone="green">they</IChip><span className="text-xs" style={{ color: C.sub }}>{L("plural", "jamak")}</span></div>
+    </div>;
+    case 18: return <div><IChain items={[
+      { t: L("opinion", "opini"), tone: "amber" }, { t: "size" }, { t: "age" }, { t: "shape" }, { t: "colour" }, { t: "origin" }, { t: "material" }, { t: L("NOUN", "KATA BENDA"), tone: "blue" },
+    ]} /><div className="text-xs mt-2" style={{ color: C.sub }}>a <b>sophisticated compact wooden</b> cabinet</div></div>;
+    case 19: return <div>
+      <ITransform from={<>You <Kw c={C.red}>are</Kw> prepared.</>} to={<><Kw>Are</Kw> you prepared?</>} />
+      <div className="text-xs mt-2" style={{ color: C.sub }}>Tag: The results were conclusive, <b>weren’t they?</b></div>
+    </div>;
+    case 20: return <IRows rows={[
+      { tag: ",", text: <>lists &amp; a fronted clause — Although costs rose<b>,</b> demand held.</> },
+      { tag: ";", tone: "amber", text: <>joins two full clauses — Exports rose<b>;</b> imports fell.</> },
+      { tag: ":", tone: "green", text: <>introduces a list / explanation — one cause<b>:</b> demand collapsed.</> },
+    ]} />;
+    case 21: return <div>
+      <ITransform from={<>I had <Kw c={C.red}>never</Kw> encountered such data.</>} to={<><Kw>Never had</Kw> I encountered such data.</>} />
+      <div className="text-xs mt-2" style={{ color: C.sub }}>{L("Fronting a negative → invert subject and auxiliary.", "Menaruh kata negatif di depan → subjek dan bantu dibalik.")}</div>
+    </div>;
+    default: return null;
+  }
+}
+
 function LearnTab({ unit, onPractice, lang }) {
   const tr = T[lang];
   const sums = LEARN_ID[unit.id] || [];
   return (
     <div className="flex flex-col gap-3">
+      <div className="rounded-2xl p-4" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+        <div className="flex items-center gap-2 mb-3">
+          <div className="rounded-lg flex items-center justify-center" style={{ width: 26, height: 26, background: C.blueWash, color: C.blue }}><Eye size={15} /></div>
+          <div className="text-xs font-bold uppercase" style={{ ...display, color: C.sub, letterSpacing: "0.08em" }}>{tr.learnVisual}</div>
+        </div>
+        <LearnIllustration id={unit.id} lang={lang} />
+      </div>
       {unit.learn.map((s, i) => (
         <div key={i} className="rounded-2xl p-4" style={{ background: C.card, border: `1px solid ${C.line}` }}>
           <div style={{ ...display, fontWeight: 700, fontSize: 16, color: C.blue }}>{s.h}</div>
