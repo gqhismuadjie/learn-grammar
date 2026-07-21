@@ -205,7 +205,7 @@ const T = {
     vocabNewSession: "New session",
     vocabSearch: "Search words…",
     vocabAll: "All",
-    vocabThemes: { education: "Education", environment: "Environment", technology: "Technology", health: "Health", society: "Society", economy: "Economy", science: "Science", travel: "Travel", media: "Media", crime: "Crime & law", arts: "Arts & culture", food: "Food & farming", sport: "Sport & leisure", family: "Family", uk_home: "UK · home & bills", uk_health: "UK · health & NHS", uk_money: "UK · money & admin", uk_daily: "UK · everyday life" },
+    vocabThemes: { education: "Education", environment: "Environment", technology: "Technology", health: "Health", society: "Society", economy: "Economy", science: "Science", travel: "Travel", media: "Media", crime: "Crime & law", arts: "Arts & culture", food: "Food & farming", sport: "Sport & leisure", family: "Family", work: "Work & careers", business: "Business & enterprise", politics: "Politics & government", globalisation: "Globalisation", psychology: "Mind & psychology", language: "Language & communication", urban: "Cities & urban life", tourism: "Tourism & hospitality", uk_home: "UK · home & bills", uk_health: "UK · health & NHS", uk_money: "UK · money & admin", uk_daily: "UK · everyday life", uk_transport: "UK · getting around", uk_social: "UK · social & culture" },
     exHomeCard: "Editing & rewriting",
     exHomeCardSub: "Spot-the-error and sentence-transformation drills.",
     exKicker: "PRODUCE, DON'T JUST PICK",
@@ -390,7 +390,7 @@ const T = {
     vocabNewSession: "Sesi baru",
     vocabSearch: "Cari kata…",
     vocabAll: "Semua",
-    vocabThemes: { education: "Pendidikan", environment: "Lingkungan", technology: "Teknologi", health: "Kesehatan", society: "Masyarakat", economy: "Ekonomi", science: "Sains", travel: "Perjalanan", media: "Media", crime: "Kejahatan & hukum", arts: "Seni & budaya", food: "Makanan & pertanian", sport: "Olahraga & hiburan", family: "Keluarga", uk_home: "UK · rumah & tagihan", uk_health: "UK · kesehatan & NHS", uk_money: "UK · uang & administrasi", uk_daily: "UK · kehidupan sehari-hari" },
+    vocabThemes: { education: "Pendidikan", environment: "Lingkungan", technology: "Teknologi", health: "Kesehatan", society: "Masyarakat", economy: "Ekonomi", science: "Sains", travel: "Perjalanan", media: "Media", crime: "Kejahatan & hukum", arts: "Seni & budaya", food: "Makanan & pertanian", sport: "Olahraga & hiburan", family: "Keluarga", work: "Kerja & karier", business: "Bisnis & wirausaha", politics: "Politik & pemerintahan", globalisation: "Globalisasi", psychology: "Pikiran & psikologi", language: "Bahasa & komunikasi", urban: "Kota & kehidupan urban", tourism: "Pariwisata & perhotelan", uk_home: "UK · rumah & tagihan", uk_health: "UK · kesehatan & NHS", uk_money: "UK · uang & administrasi", uk_daily: "UK · kehidupan sehari-hari", uk_transport: "UK · transportasi", uk_social: "UK · sosial & budaya" },
     exHomeCard: "Menyunting & menulis ulang",
     exHomeCardSub: "Latihan cari kesalahan dan mengubah kalimat.",
     exKicker: "MENGHASILKAN, BUKAN SEKADAR MEMILIH",
@@ -2215,7 +2215,7 @@ function VocabTrainer({ vocab, onReview, onBack, lang }) {
   if (mode === "browse") {
     const query = q.trim().toLowerCase();
     const list = words.filter(w => (theme === "all" || w.theme === theme) && (!query || w.w.toLowerCase().includes(query) || w.def.toLowerCase().includes(query)));
-    const order = ["uk_home", "uk_health", "uk_money", "uk_daily", "education", "environment", "technology", "health", "society", "economy", "science", "travel", "media", "crime", "arts", "food", "sport", "family"];
+    const order = ["uk_home", "uk_health", "uk_money", "uk_daily", "uk_transport", "uk_social", "education", "work", "business", "economy", "politics", "globalisation", "society", "urban", "environment", "technology", "science", "health", "psychology", "language", "media", "arts", "crime", "food", "sport", "travel", "tourism", "family"];
     const present = order.filter(t => words.some(w => w.theme === t));
     const extras = Array.from(new Set(words.map(w => w.theme))).filter(t => !order.includes(t));
     const themes = ["all", ...present, ...extras];
