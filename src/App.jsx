@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect } from "react";
 import {
   ChevronLeft, BookOpen, PenLine, Check, X, RotateCcw, Trophy, Clock,
   Loader2, Lightbulb, ArrowRight, AlertTriangle, Sparkles, History, Play, Layers
@@ -12,7 +12,7 @@ import { TAG_ID, LEARN_ID, EX_ID } from "./content/id.js";
 // static GitHub Pages site cannot provide (and a public site cannot safely hold
 // an API key). It is disabled on this build; flip to true behind a backend proxy.
 const AI_ENABLED = false;
-const EXTRA_ROUND = 10; // questions served per shuffled Extra-practice round
+const EXTRA_ROUND = 10; // questions per fixed Extra-practice deck
 
 // ---------- Design tokens (royal blue + red accent) ----------
 const C = {
@@ -141,8 +141,8 @@ const T = {
     deckCoreSub: "Targeted questions on each unit's key rules, with a worked explanation for every answer.",
     deckCtx: "Context practice",
     deckCtxSub: "Fuller, real-world contexts using everyday (Oxford 3000-level) vocabulary.",
-    deckExtra: "Extra practice",
-    deckExtraSub: "A large Oxford 3000-level bank — a fresh 10-question round each time.",
+    deckExtra: (n) => `Extra practice ${n}`,
+    deckExtraSub: "A fixed set of Oxford 3000-level questions to work through.",
     qWord: "questions",
     best: "Best",
     qOf: (i, n) => `Question ${i} of ${n}`,
@@ -207,8 +207,8 @@ const T = {
     deckCoreSub: "Soal terarah untuk aturan tiap unit, dengan penjelasan di setiap jawaban.",
     deckCtx: "Latihan konteks",
     deckCtxSub: "Konteks sehari-hari yang lebih panjang dengan kosakata umum (level Oxford 3000).",
-    deckExtra: "Latihan tambahan",
-    deckExtraSub: "Bank soal besar level Oxford 3000 — 10 soal acak setiap ronde.",
+    deckExtra: (n) => `Latihan tambahan ${n}`,
+    deckExtraSub: "Satu set tetap soal level Oxford 3000 untuk dikerjakan.",
     qWord: "soal",
     best: "Terbaik",
     qOf: (i, n) => `Soal ${i} dari ${n}`,
@@ -497,17 +497,21 @@ function PracticeTab({ unit, progress, onScore, lang }) {
   const [session, setSession] = useState(1);
   const ctxList = QUIZ2[unit.id] || [];
   const extraPool = QUIZ3[unit.id] || [];
-  const extraRound = useMemo(() => {
-    const s = (QUIZ3[unit.id] || []).slice();
-    for (let k = s.length - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); [s[k], s[j]] = [s[j], s[k]]; }
-    return s.slice(0, EXTRA_ROUND);
-  }, [unit.id, session]);
+  const extraDecks = [];
+  for (let k = 0; k * EXTRA_ROUND < extraPool.length; k++) {
+    extraDecks.push({
+      key: `e${unit.id}_${k}`,
+      list: extraPool.slice(k * EXTRA_ROUND, k * EXTRA_ROUND + EXTRA_ROUND),
+      isCtx: true, title: tr.deckExtra(k + 1), sub: tr.deckExtraSub,
+      icon: <Layers size={22} />, wash: C.greenWash, color: C.green,
+    });
+  }
 
   if (!deck) {
     const decks = [
       { key: unit.id, list: unit.quiz, isCtx: false, title: tr.deckCore, sub: tr.deckCoreSub, icon: <Play size={22} />, wash: C.blueWash, color: C.blue },
       { key: "x" + unit.id, list: ctxList, isCtx: true, title: tr.deckCtx, sub: tr.deckCtxSub, icon: <Sparkles size={22} />, wash: C.redWash, color: C.red },
-      { key: "e" + unit.id, list: extraPool, isCtx: true, round: true, title: tr.deckExtra, sub: tr.deckExtraSub, icon: <Layers size={22} />, wash: C.greenWash, color: C.green },
+      ...extraDecks,
     ].filter(d => d.list.length > 0);
     return (
       <div className="flex flex-col gap-3">
@@ -533,7 +537,7 @@ function PracticeTab({ unit, progress, onScore, lang }) {
   }
 
   return (
-    <Quiz key={deck.key + "-" + session} list={deck.round ? extraRound : deck.list} unitId={unit.id} isCtx={deck.isCtx} lang={lang}
+    <Quiz key={deck.key + "-" + session} list={deck.list} unitId={unit.id} isCtx={deck.isCtx} lang={lang}
       onScore={(s, t) => onScore(deck.key, s, t)}
       onRestart={() => setSession(s => s + 1)}
       onExit={() => setDeck(null)} />
