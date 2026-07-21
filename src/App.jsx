@@ -204,7 +204,7 @@ const T = {
     vocabNewSession: "New session",
     vocabSearch: "Search words…",
     vocabAll: "All",
-    vocabThemes: { education: "Education", environment: "Environment", technology: "Technology", health: "Health", society: "Society", economy: "Economy", science: "Science" },
+    vocabThemes: { education: "Education", environment: "Environment", technology: "Technology", health: "Health", society: "Society", economy: "Economy", science: "Science", travel: "Travel", media: "Media", crime: "Crime & law", arts: "Arts & culture", food: "Food & farming", sport: "Sport & leisure", family: "Family" },
     exHomeCard: "Editing & rewriting",
     exHomeCardSub: "Spot-the-error and sentence-transformation drills.",
     exKicker: "PRODUCE, DON'T JUST PICK",
@@ -388,7 +388,7 @@ const T = {
     vocabNewSession: "Sesi baru",
     vocabSearch: "Cari kata…",
     vocabAll: "Semua",
-    vocabThemes: { education: "Pendidikan", environment: "Lingkungan", technology: "Teknologi", health: "Kesehatan", society: "Masyarakat", economy: "Ekonomi", science: "Sains" },
+    vocabThemes: { education: "Pendidikan", environment: "Lingkungan", technology: "Teknologi", health: "Kesehatan", society: "Masyarakat", economy: "Ekonomi", science: "Sains", travel: "Perjalanan", media: "Media", crime: "Kejahatan & hukum", arts: "Seni & budaya", food: "Makanan & pertanian", sport: "Olahraga & hiburan", family: "Keluarga" },
     exHomeCard: "Menyunting & menulis ulang",
     exHomeCardSub: "Latihan cari kesalahan dan mengubah kalimat.",
     exKicker: "MENGHASILKAN, BUKAN SEKADAR MEMILIH",
@@ -2213,7 +2213,10 @@ function VocabTrainer({ vocab, onReview, onBack, lang }) {
   if (mode === "browse") {
     const query = q.trim().toLowerCase();
     const list = words.filter(w => (theme === "all" || w.theme === theme) && (!query || w.w.toLowerCase().includes(query) || w.def.toLowerCase().includes(query)));
-    const themes = ["all", "education", "environment", "technology", "health", "society", "economy", "science"];
+    const order = ["education", "environment", "technology", "health", "society", "economy", "science", "travel", "media", "crime", "arts", "food", "sport", "family"];
+    const present = order.filter(t => words.some(w => w.theme === t));
+    const extras = Array.from(new Set(words.map(w => w.theme))).filter(t => !order.includes(t));
+    const themes = ["all", ...present, ...extras];
     return (
       <div>
         <Header />
@@ -2225,7 +2228,7 @@ function VocabTrainer({ vocab, onReview, onBack, lang }) {
         <div className="flex gap-2 overflow-x-auto pb-2 mb-2">
           {themes.map(t => (
             <button key={t} onClick={() => setTheme(t)} className="rounded-full px-3 py-1.5 text-xs font-bold whitespace-nowrap transition"
-              style={{ ...display, background: theme === t ? C.blue : C.card, color: theme === t ? "#fff" : C.sub, border: `1px solid ${theme === t ? C.blue : C.line}`, cursor: "pointer" }}>{t === "all" ? tr.vocabAll : tr.vocabThemes[t]}</button>
+              style={{ ...display, background: theme === t ? C.blue : C.card, color: theme === t ? "#fff" : C.sub, border: `1px solid ${theme === t ? C.blue : C.line}`, cursor: "pointer" }}>{t === "all" ? tr.vocabAll : (tr.vocabThemes[t] || t)}</button>
           ))}
         </div>
         <div className="text-xs mb-2" style={{ color: C.sub }}>{list.length} {tr.words}</div>
@@ -2270,7 +2273,7 @@ function VocabTrainer({ vocab, onReview, onBack, lang }) {
       <Header />
       <div className="flex items-center justify-between mb-2 text-xs font-semibold" style={{ color: C.sub }}>
         <span>{tr.vocabProgress(i + 1, queue.length)}</span>
-        <span className="flex items-center gap-1.5"><IChip>{tr.vocabThemes[card.theme]}</IChip></span>
+        <span className="flex items-center gap-1.5"><IChip>{tr.vocabThemes[card.theme] || card.theme}</IChip></span>
       </div>
       <MiniBar pct={(i / queue.length) * 100} />
       <div className="rounded-2xl p-6 mt-3 text-center" style={{ background: C.card, border: `1px solid ${C.line}` }}>
@@ -2303,12 +2306,36 @@ function VocabTrainer({ vocab, onReview, onBack, lang }) {
 }
 
 // ---------- Grammar reference hub ----------
+// Read-aloud prefers a British English (en-GB) female voice; the browser's
+// available voices load asynchronously, so keep a refreshed cache.
+let _voices = [];
+function _loadVoices() { try { _voices = window.speechSynthesis.getVoices() || []; } catch (e) { _voices = []; } }
+if (typeof window !== "undefined" && window.speechSynthesis) {
+  _loadVoices();
+  try { window.speechSynthesis.addEventListener("voiceschanged", _loadVoices); }
+  catch (e) { try { window.speechSynthesis.onvoiceschanged = _loadVoices; } catch (e2) { /* ignore */ } }
+}
+function _ukFemaleVoice() {
+  if (!_voices.length) _loadVoices();
+  const vs = _voices;
+  if (!vs.length) return null;
+  const gb = vs.filter(v => /en[-_]GB/i.test(v.lang || ""));
+  const female = /(female|woman|\bkate\b|serena|sonia|libby|hazel|stephanie|\bamy\b|\bemma\b|martha|susan|google uk english female)/i;
+  const male = /(\bmale\b|\bman\b|daniel|george|arthur|oliver|google uk english male)/i;
+  return gb.find(v => female.test(v.name || ""))
+    || gb.find(v => !male.test(v.name || ""))
+    || gb[0]
+    || vs.find(v => /^en/i.test(v.lang || "") && female.test(v.name || ""))
+    || null;
+}
 function speak(text) {
   try {
     if (typeof window === "undefined" || !window.speechSynthesis) return;
     window.speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(String(text));
-    u.lang = "en-US"; u.rate = 0.92;
+    u.lang = "en-GB"; u.rate = 0.92; u.pitch = 1.05;
+    const v = _ukFemaleVoice();
+    if (v) u.voice = v;
     window.speechSynthesis.speak(u);
   } catch (e) { /* speech not available */ }
 }
