@@ -7,6 +7,7 @@ import { UNITS } from "./content/units.js";
 import { QUIZ2 } from "./content/quiz2.js";
 import { QUIZ3 } from "./content/quiz3.js";
 import { TAG_ID, LEARN_ID, EX_ID } from "./content/id.js";
+import { WRITING_MODULES } from "./content/writing.js";
 
 // The Writing Lab calls the Anthropic API with platform-injected auth, which a
 // static GitHub Pages site cannot provide (and a public site cannot safely hold
@@ -187,6 +188,22 @@ const T = {
     backHome: "Back home",
     task2: "TASK 2",
     wlBack: "Writing Lab",
+    wtHomeCard: "Writing training",
+    wtHomeCardSub: "Task 1 & Task 2 practice with band-9 model answers.",
+    wtKicker: "IELTS WRITING · TASK 1 & 2",
+    wtTitle: "Writing training",
+    wtSub: "Practise a task, then reveal a band-9 model answer to compare.",
+    wtTask2: "TASK 2 — ESSAYS",
+    wtTask1: "TASK 1 — CHARTS, PROCESSES & MAPS",
+    wtType: (task, type) => `Task ${task} · ${String(type).replace(/-/g, " ")}`,
+    wtWritePh: "Write your answer here (optional), then reveal the model answer to compare.",
+    wtShowModel: "Show band-9 model answer",
+    wtHideModel: "Hide model answer",
+    wtModelHeading: "Band-9 model answer",
+    wtFeatures: "Why this scores Band 9",
+    wtDisclaimer: "A model answer written to a Band-9 standard — a learning target, not an official examiner score.",
+    wtBack: "Writing training",
+    wtEmpty: "No modules yet.",
   },
   id: {
     heroTitle: "Kuasai aturannya, raih Band 7",
@@ -253,6 +270,22 @@ const T = {
     backHome: "Kembali ke beranda",
     task2: "TASK 2",
     wlBack: "Writing Lab",
+    wtHomeCard: "Latihan writing",
+    wtHomeCardSub: "Latihan Task 1 & Task 2 dengan jawaban model band 9.",
+    wtKicker: "IELTS WRITING · TASK 1 & 2",
+    wtTitle: "Latihan writing",
+    wtSub: "Kerjakan satu soal, lalu buka jawaban model band 9 sebagai pembanding.",
+    wtTask2: "TASK 2 — ESAI",
+    wtTask1: "TASK 1 — GRAFIK, PROSES & PETA",
+    wtType: (task, type) => `Task ${task} · ${String(type).replace(/-/g, " ")}`,
+    wtWritePh: "Tulis jawaban Anda di sini (opsional), lalu buka jawaban model untuk membandingkan.",
+    wtShowModel: "Tampilkan jawaban model band 9",
+    wtHideModel: "Sembunyikan jawaban model",
+    wtModelHeading: "Jawaban model band 9",
+    wtFeatures: "Mengapa ini setara Band 9",
+    wtDisclaimer: "Jawaban model yang ditulis pada standar Band 9 — target belajar, bukan skor resmi penguji.",
+    wtBack: "Latihan writing",
+    wtEmpty: "Belum ada modul.",
   },
 };
 
@@ -267,7 +300,7 @@ function Shell({ children }) {
 }
 
 function Btn({ children, onClick, disabled, tone = "blue", full }) {
-  const bg = tone === "red" ? C.red : tone === "ghost" ? "transparent" : C.blue;
+  const bg = tone === "red" ? C.red : tone === "green" ? C.green : tone === "ghost" ? "transparent" : C.blue;
   const fg = tone === "ghost" ? C.blue : "#FFFFFF";
   return (
     <button onClick={onClick} disabled={disabled}
@@ -314,7 +347,7 @@ function unitPct(progress, id) {
   return list.length ? Math.max(...list) : null;
 }
 
-function HomeScreen({ progress, history, openUnit, openWriting, lang }) {
+function HomeScreen({ progress, history, openUnit, openWriting, openTraining, lang }) {
   const tr = T[lang];
   const practiced = UNITS.filter(u => progress[u.id] || progress["x" + u.id]).length;
   const mastered = UNITS.filter(u => { const p = unitPct(progress, u.id); return p !== null && p >= 80; }).length;
@@ -352,6 +385,20 @@ function HomeScreen({ progress, history, openUnit, openWriting, lang }) {
         </div>
       </button>
       )}
+
+      <button onClick={openTraining} className="w-full text-left rounded-3xl mb-5 flex overflow-hidden" style={{ background: C.card, border: `1px solid ${C.line}`, cursor: "pointer", padding: 0 }}>
+        <div style={{ width: 8, background: C.green, flexShrink: 0 }} />
+        <div className="p-5 flex-1 flex items-center gap-4">
+          <div className="rounded-2xl flex items-center justify-center" style={{ width: 48, height: 48, background: C.greenWash, color: C.green, flexShrink: 0 }}>
+            <PenLine size={22} />
+          </div>
+          <div className="flex-1">
+            <div style={{ ...display, fontWeight: 700, fontSize: 18 }}>{tr.wtHomeCard}</div>
+            <div className="text-sm leading-relaxed" style={{ color: C.sub }}>{tr.wtHomeCardSub}</div>
+          </div>
+          <ArrowRight size={20} style={{ color: C.green, flexShrink: 0 }} />
+        </div>
+      </button>
 
       <div className="flex items-center justify-between mb-3">
         <h2 className="flex items-center gap-2" style={{ ...display, fontSize: 22, fontWeight: 800 }}>
@@ -803,6 +850,231 @@ function WritingLab({ onBack, onSave, history, goUnit, lang }) {
   );
 }
 
+// ---------- Writing training ----------
+// Colorblind-safe (Okabe-Ito) categorical palette; identity is reinforced with
+// legends and direct value labels so it never relies on colour alone.
+const CHART_C = ["#0072B2", "#E69F00", "#009E73", "#D55E00", "#CC79A7"];
+
+function ChartLegend({ items }) {
+  return (
+    <div className="flex flex-wrap gap-x-4 gap-y-1 mt-2 justify-center">
+      {items.map((it, i) => (
+        <span key={i} className="inline-flex items-center gap-1.5 text-xs" style={{ color: C.sub }}>
+          <span style={{ width: 10, height: 10, borderRadius: 2, background: it.color, flexShrink: 0 }} /> {it.name}
+        </span>
+      ))}
+    </div>
+  );
+}
+
+function BarChart({ visual }) {
+  const xLabels = visual.xLabels || [], series = visual.series || [];
+  const max = Math.max(1, ...series.flatMap(s => s.values || []));
+  const W = 340, H = 190, padL = 26, padB = 34, padT = 12, padR = 10;
+  const plotW = W - padL - padR, plotH = H - padT - padB, ticks = 4;
+  const groups = xLabels.length || 1, sn = series.length || 1;
+  const gGap = 12, groupW = (plotW - gGap * groups) / groups, barW = Math.max(4, groupW / sn - 2);
+  return (
+    <div style={{ overflowX: "auto" }}>
+      <svg viewBox={`0 0 ${W} ${H}`} width="100%" style={{ minWidth: 280, maxWidth: 560 }} role="img" aria-label="bar chart">
+        {Array.from({ length: ticks + 1 }).map((_, i) => {
+          const v = (max / ticks) * i, y = padT + plotH - (v / max) * plotH;
+          return (<g key={i}><line x1={padL} y1={y} x2={W - padR} y2={y} stroke={C.line} strokeWidth="1" /><text x={padL - 3} y={y + 3} textAnchor="end" fontSize="7.5" fill={C.sub}>{Math.round(v)}</text></g>);
+        })}
+        {xLabels.map((lab, gi) => {
+          const gx = padL + gGap / 2 + gi * (groupW + gGap);
+          return (
+            <g key={gi}>
+              {series.map((s, si) => {
+                const v = (s.values || [])[gi] || 0, h = (v / max) * plotH, x = gx + si * (barW + 2), y = padT + plotH - h;
+                return (<g key={si}><rect x={x} y={y} width={barW} height={h} rx="2" fill={CHART_C[si % CHART_C.length]} /><text x={x + barW / 2} y={y - 2} textAnchor="middle" fontSize="7" fill={C.ink}>{v}</text></g>);
+              })}
+              <text x={gx + groupW / 2} y={H - padB + 13} textAnchor="middle" fontSize="8" fill={C.sub}>{lab}</text>
+            </g>
+          );
+        })}
+      </svg>
+      {series.length > 1 && <ChartLegend items={series.map((s, i) => ({ name: s.name, color: CHART_C[i % CHART_C.length] }))} />}
+      {visual.unit && <div className="text-xs text-center mt-1" style={{ color: C.sub }}>({visual.unit})</div>}
+    </div>
+  );
+}
+
+function LineChart({ visual }) {
+  const xLabels = visual.xLabels || [], series = visual.series || [];
+  const max = Math.max(1, ...series.flatMap(s => s.values || []));
+  const W = 360, H = 200, padL = 28, padB = 30, padT = 12, padR = 58;
+  const plotW = W - padL - padR, plotH = H - padT - padB, ticks = 4;
+  const xAt = i => padL + (xLabels.length <= 1 ? plotW / 2 : (plotW * i) / (xLabels.length - 1));
+  const yAt = v => padT + plotH - (v / max) * plotH;
+  const dash = ["", "5 3", "2 3", "8 3 2 3", "1 4"];
+  return (
+    <div style={{ overflowX: "auto" }}>
+      <svg viewBox={`0 0 ${W} ${H}`} width="100%" style={{ minWidth: 300, maxWidth: 600 }} role="img" aria-label="line graph">
+        {Array.from({ length: ticks + 1 }).map((_, i) => { const v = (max / ticks) * i, y = yAt(v); return (<g key={i}><line x1={padL} y1={y} x2={W - padR} y2={y} stroke={C.line} /><text x={padL - 3} y={y + 3} textAnchor="end" fontSize="7.5" fill={C.sub}>{Math.round(v)}</text></g>); })}
+        {xLabels.map((lab, i) => <text key={i} x={xAt(i)} y={H - padB + 13} textAnchor="middle" fontSize="8" fill={C.sub}>{lab}</text>)}
+        {series.map((s, si) => {
+          const col = CHART_C[si % CHART_C.length], vals = s.values || [];
+          const pts = vals.map((v, i) => `${xAt(i)},${yAt(v)}`).join(" ");
+          return (<g key={si}><polyline points={pts} fill="none" stroke={col} strokeWidth="2" strokeDasharray={dash[si % dash.length]} />{vals.map((v, i) => <circle key={i} cx={xAt(i)} cy={yAt(v)} r="2.6" fill={col} />)}<text x={xAt(vals.length - 1) + 4} y={yAt(vals[vals.length - 1]) + 3} fontSize="8" fill={col} fontWeight="700">{s.name}</text></g>);
+        })}
+      </svg>
+      {visual.unit && <div className="text-xs text-center mt-1" style={{ color: C.sub }}>({visual.unit})</div>}
+    </div>
+  );
+}
+
+function PieSVG({ parts, title, size = 150 }) {
+  const list = parts || [];
+  const total = list.reduce((n, p) => n + (p.value || 0), 0) || 1;
+  const cx = size / 2, cy = size / 2, r = size / 2 - 4;
+  let a0 = -Math.PI / 2;
+  const arcs = list.map((p, i) => {
+    const a1 = a0 + ((p.value || 0) / total) * Math.PI * 2;
+    const x0 = cx + r * Math.cos(a0), y0 = cy + r * Math.sin(a0), x1 = cx + r * Math.cos(a1), y1 = cy + r * Math.sin(a1);
+    const large = (a1 - a0) > Math.PI ? 1 : 0, mid = (a0 + a1) / 2;
+    const lx = cx + r * 0.62 * Math.cos(mid), ly = cy + r * 0.62 * Math.sin(mid);
+    a0 = a1;
+    return { d: `M${cx},${cy} L${x0},${y0} A${r},${r} 0 ${large} 1 ${x1},${y1} Z`, color: CHART_C[i % CHART_C.length], pct: Math.round(((p.value || 0) / total) * 100), lx, ly };
+  });
+  return (
+    <div className="flex flex-col items-center">
+      {title && <div className="text-xs font-bold mb-1" style={{ color: C.sub }}>{title}</div>}
+      <svg viewBox={`0 0 ${size} ${size}`} width={size} height={size} role="img" aria-label="pie chart">
+        {arcs.map((a, i) => <path key={i} d={a.d} fill={a.color} stroke="#fff" strokeWidth="1.5" />)}
+        {arcs.map((a, i) => a.pct >= 6 ? <text key={"t" + i} x={a.lx} y={a.ly + 3} textAnchor="middle" fontSize="9" fontWeight="700" fill="#fff">{a.pct}%</text> : null)}
+      </svg>
+    </div>
+  );
+}
+
+function Chart({ visual }) {
+  if (!visual) return null;
+  const k = visual.kind;
+  if (k === "table") {
+    return (
+      <div style={{ overflowX: "auto" }}>
+        <table className="text-sm" style={{ borderCollapse: "collapse", width: "100%" }}>
+          <thead><tr>{(visual.headers || []).map((h, i) => <th key={i} className="px-2 py-1 text-left" style={{ borderBottom: `2px solid ${C.line}`, color: C.blue, fontWeight: 700 }}>{h}</th>)}</tr></thead>
+          <tbody>{(visual.rows || []).map((row, ri) => <tr key={ri}>{row.map((cell, ci) => <td key={ci} className="px-2 py-1" style={{ borderBottom: `1px solid ${C.line}`, color: ci === 0 ? C.ink : C.sub }}>{cell}</td>)}</tr>)}</tbody>
+        </table>
+      </div>
+    );
+  }
+  if (k === "bar") return <BarChart visual={visual} />;
+  if (k === "line") return <LineChart visual={visual} />;
+  if (k === "pie") return (<div><div className="flex justify-center"><PieSVG parts={visual.parts} /></div><ChartLegend items={(visual.parts || []).map((p, i) => ({ name: `${p.label} — ${p.value}%`, color: CHART_C[i % CHART_C.length] }))} /></div>);
+  if (k === "pies") return (<div><div className="flex flex-wrap gap-6 justify-center">{(visual.charts || []).map((c, ci) => <PieSVG key={ci} parts={c.parts} title={c.title} />)}</div><ChartLegend items={(((visual.charts || [])[0] || {}).parts || []).map((p, i) => ({ name: p.label, color: CHART_C[i % CHART_C.length] }))} /></div>);
+  if (k === "process") return (<div className="flex flex-col gap-2">{(visual.steps || []).map((s, i) => <div key={i} className="flex gap-2 items-start"><span className="rounded-full text-white flex items-center justify-center" style={{ ...display, width: 22, height: 22, fontSize: 12, fontWeight: 700, background: C.green, flexShrink: 0 }}>{i + 1}</span><span className="text-sm leading-relaxed" style={{ marginTop: 1 }}>{s}</span></div>)}</div>);
+  if (k === "map") return <p className="text-sm leading-relaxed">{visual.desc}</p>;
+  return null;
+}
+
+function WritingTraining({ onBack, lang }) {
+  const tr = T[lang];
+  const [mod, setMod] = useState(null);
+  const [essay, setEssay] = useState("");
+  const [show, setShow] = useState(false);
+  const [secs, setSecs] = useState(0);
+  const [running, setRunning] = useState(false);
+  useEffect(() => {
+    if (!running) return;
+    const t = setInterval(() => setSecs(s => { if (s <= 1) { setRunning(false); return 0; } return s - 1; }), 1000);
+    return () => clearInterval(t);
+  }, [running]);
+
+  const open = (m) => { setMod(m); setEssay(""); setShow(false); setSecs(m.task === 1 ? 20 * 60 : 40 * 60); setRunning(false); };
+  const close = () => { setMod(null); setEssay(""); setShow(false); setRunning(false); };
+
+  if (!mod) {
+    const t2 = WRITING_MODULES.filter(m => m.task === 2);
+    const t1 = WRITING_MODULES.filter(m => m.task === 1);
+    const Group = ({ title, list, color }) => (
+      <div className="mb-5">
+        <div className="text-xs font-bold mb-2" style={{ ...display, color, letterSpacing: "0.08em" }}>{title}</div>
+        <div className="flex flex-col gap-2">
+          {list.map(m => (
+            <button key={m.id} onClick={() => open(m)} className="text-left rounded-2xl p-4 flex items-center gap-3" style={{ background: C.card, border: `1px solid ${C.line}`, cursor: "pointer" }}>
+              <div className="flex-1">
+                <div style={{ ...display, fontWeight: 700, fontSize: 15 }}>{m.title}</div>
+                <div className="text-xs mt-0.5" style={{ color: C.sub }}>{tr.wtType(m.task, m.type)}</div>
+              </div>
+              <ArrowRight size={18} style={{ color, flexShrink: 0 }} />
+            </button>
+          ))}
+        </div>
+      </div>
+    );
+    return (
+      <div>
+        <BackBar onBack={onBack} label={tr.home} />
+        <div className="rounded-3xl overflow-hidden mb-4 flex" style={{ background: C.green }}>
+          <div style={{ width: 10, background: C.blue, flexShrink: 0 }} />
+          <div className="p-5 text-white flex-1">
+            <div className="text-xs font-bold" style={{ color: "#CFEAD9", letterSpacing: "0.14em" }}>{tr.wtKicker}</div>
+            <div style={{ ...display, fontSize: 24, fontWeight: 800 }}>{tr.wtTitle}</div>
+            <div className="text-sm leading-relaxed" style={{ color: "#E6F5EC" }}>{tr.wtSub}</div>
+          </div>
+        </div>
+        {t2.length > 0 && <Group title={tr.wtTask2} list={t2} color={C.blue} />}
+        {t1.length > 0 && <Group title={tr.wtTask1} list={t1} color={C.red} />}
+        {WRITING_MODULES.length === 0 && <div className="text-sm text-center mt-6" style={{ color: C.sub }}>{tr.wtEmpty}</div>}
+      </div>
+    );
+  }
+
+  const wc = countWords(essay);
+  const paras = String(mod.model || "").split(/\n\n+/);
+  const startSecs = mod.task === 1 ? 20 * 60 : 40 * 60;
+  return (
+    <div>
+      <BackBar onBack={close} label={tr.wtBack} />
+      <div className="rounded-2xl p-4 mb-3" style={{ background: C.blueWash, border: `1px solid ${C.line}` }}>
+        <div className="text-xs font-bold mb-1" style={{ color: C.blue, letterSpacing: "0.1em" }}>{tr.wtType(mod.task, mod.type).toUpperCase()}</div>
+        <p className="text-sm leading-relaxed">{mod.prompt}</p>
+      </div>
+      {mod.visual && (
+        <div className="rounded-2xl p-4 mb-3" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+          <Chart visual={mod.visual} />
+        </div>
+      )}
+      <div className="flex items-center justify-between mb-2">
+        <span className="text-sm font-bold" style={{ color: wc > 0 ? C.green : C.sub }}>{wc} {tr.words}</span>
+        <button onClick={() => setRunning(r => !r)} className="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-bold"
+          style={{ background: secs > 0 && secs <= 60 ? C.redWash : C.card, color: secs > 0 && secs <= 60 ? C.red : C.ink, border: `1px solid ${C.line}`, cursor: "pointer" }}>
+          <Clock size={15} /> {fmtTime(secs)}{running ? "" : secs === startSecs ? tr.tStart : tr.tPaused}
+        </button>
+      </div>
+      <textarea value={essay} onChange={e => setEssay(e.target.value)} rows={10} placeholder={tr.wtWritePh}
+        className="w-full rounded-2xl p-4 text-base leading-relaxed outline-none resize-none" style={{ border: `1px solid ${C.line}`, background: C.card, ...body }} />
+      {!show ? (
+        <div className="mt-3"><Btn tone="green" onClick={() => setShow(true)} full><Sparkles size={16} /> {tr.wtShowModel}</Btn></div>
+      ) : (
+        <div className="mt-3">
+          <div className="rounded-2xl p-4 mb-3" style={{ background: C.greenWash, border: `1px solid ${C.green}` }}>
+            <div className="flex items-center justify-between mb-2">
+              <div className="text-sm font-bold" style={{ ...display, color: C.green }}>{tr.wtModelHeading}</div>
+              <span className="text-xs font-bold" style={{ color: C.sub }}>{mod.words} {tr.words}</span>
+            </div>
+            {paras.map((p, i) => <p key={i} className="text-sm leading-relaxed mb-2" style={{ color: C.ink }}>{p}</p>)}
+          </div>
+          {mod.features && mod.features.length > 0 && (
+            <div className="rounded-2xl p-4 mb-3" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+              <div className="text-sm font-bold mb-1.5" style={{ ...display }}>{tr.wtFeatures}</div>
+              {mod.features.map((f, i) => <div key={i} className="flex gap-2 text-sm py-0.5 leading-relaxed"><Check size={16} style={{ color: C.green, flexShrink: 0, marginTop: 2 }} /><span>{f}</span></div>)}
+              {lang === "id" && mod.featureId && <div className="text-sm mt-2 leading-relaxed" style={{ color: C.blueDark, fontStyle: "italic" }}>{mod.featureId}</div>}
+            </div>
+          )}
+          <div className="rounded-xl p-3 mb-3 flex gap-2 text-xs leading-relaxed" style={{ background: C.amberWash, color: "#8A5A08" }}>
+            <AlertTriangle size={16} style={{ flexShrink: 0, marginTop: 1 }} /><span>{tr.wtDisclaimer}</span>
+          </div>
+          <Btn tone="ghost" onClick={() => setShow(false)} full>{tr.wtHideModel}</Btn>
+        </div>
+      )}
+    </div>
+  );
+}
+
 // ---------- App ----------
 export default function App() {
   const [screen, setScreen] = useState("home");
@@ -850,13 +1122,16 @@ export default function App() {
         <LangToggle lang={lang} setLang={changeLang} />
       </div>
       {screen === "home" && (
-        <HomeScreen progress={progress} history={history} openUnit={openUnit} openWriting={() => setScreen("writing")} lang={lang} />
+        <HomeScreen progress={progress} history={history} openUnit={openUnit} openWriting={() => setScreen("writing")} openTraining={() => setScreen("writingTraining")} lang={lang} />
       )}
       {screen === "unit" && unit && (
         <UnitScreen key={unit.id} unit={unit} progress={progress} onScore={saveScore} onBack={() => setScreen("home")} lang={lang} />
       )}
       {screen === "writing" && (
         <WritingLab onBack={() => setScreen("home")} onSave={addWriting} history={history} goUnit={openUnit} lang={lang} />
+      )}
+      {screen === "writingTraining" && (
+        <WritingTraining onBack={() => setScreen("home")} lang={lang} />
       )}
     </Shell>
   );
