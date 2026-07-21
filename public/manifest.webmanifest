@@ -1,7 +1,7 @@
 {
   "name": "IELTS Grammar Studio",
   "short_name": "Grammar Studio",
-  "description": "Interactive IELTS grammar practice — 21 units of rules, drills, Oxford 3000-level questions, and writing training.",
+  "description": "Interactive IELTS grammar practice — 21 units of rules, drills, Oxford 5000-level questions, and writing training.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
