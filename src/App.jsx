@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import {
   ChevronLeft, BookOpen, PenLine, Check, X, RotateCcw, Trophy, Clock,
   Loader2, Lightbulb, ArrowRight, AlertTriangle, Sparkles, History, Play, Layers,
-  BarChart3, Flame, Target, Download, Upload, Eye, Volume2, Search, Library, GraduationCap
+  BarChart3, Flame, Target, Download, Upload, Eye, Volume2, Search, Library, GraduationCap, Wand2
 } from "lucide-react";
 import { UNITS } from "./content/units.js";
 import { QUIZ2 } from "./content/quiz2.js";
@@ -205,6 +205,24 @@ const T = {
     vocabSearch: "Search words…",
     vocabAll: "All",
     vocabThemes: { education: "Education", environment: "Environment", technology: "Technology", health: "Health", society: "Society", economy: "Economy", science: "Science" },
+    exHomeCard: "Editing & rewriting",
+    exHomeCardSub: "Spot-the-error and sentence-transformation drills.",
+    exKicker: "PRODUCE, DON'T JUST PICK",
+    exTitle: "Editing & rewriting",
+    exSub: "Two productive exercise types that go beyond multiple choice.",
+    exFix: "Spot & fix",
+    exFixSub: "Find the one error in each sentence and choose the correction.",
+    exRewrite: "Rewrite",
+    exRewriteSub: "Transform a sentence, then compare with a model answer.",
+    exProgress: (i, n) => `Item ${i} of ${n}`,
+    exTaskLabel: "REWRITE THIS",
+    exYourAnswer: "Write your version here (optional), then reveal the model.",
+    exShowModel: "Show model answer",
+    exModel: "Model answer",
+    exAccepted: "Also accepted",
+    exMatch: "Nice — your answer matches a model!",
+    exDoneTitle: "Deck complete",
+    exBack: "Exercises",
     practiceTab: "Practice",
     practiceBtn: "Practice this unit",
     deckCore: "Core drill",
@@ -371,6 +389,24 @@ const T = {
     vocabSearch: "Cari kata…",
     vocabAll: "Semua",
     vocabThemes: { education: "Pendidikan", environment: "Lingkungan", technology: "Teknologi", health: "Kesehatan", society: "Masyarakat", economy: "Ekonomi", science: "Sains" },
+    exHomeCard: "Menyunting & menulis ulang",
+    exHomeCardSub: "Latihan cari kesalahan dan mengubah kalimat.",
+    exKicker: "MENGHASILKAN, BUKAN SEKADAR MEMILIH",
+    exTitle: "Menyunting & menulis ulang",
+    exSub: "Dua jenis latihan produktif di luar pilihan ganda.",
+    exFix: "Cari & perbaiki",
+    exFixSub: "Temukan satu kesalahan di tiap kalimat dan pilih perbaikannya.",
+    exRewrite: "Tulis ulang",
+    exRewriteSub: "Ubah kalimat, lalu bandingkan dengan jawaban model.",
+    exProgress: (i, n) => `Soal ${i} dari ${n}`,
+    exTaskLabel: "TULIS ULANG INI",
+    exYourAnswer: "Tulis versi Anda di sini (opsional), lalu buka jawaban model.",
+    exShowModel: "Tampilkan jawaban model",
+    exModel: "Jawaban model",
+    exAccepted: "Juga diterima",
+    exMatch: "Bagus — jawaban Anda cocok dengan model!",
+    exDoneTitle: "Dek selesai",
+    exBack: "Latihan",
     practiceTab: "Latihan",
     practiceBtn: "Latihan unit ini",
     deckCore: "Latihan inti",
@@ -549,7 +585,7 @@ function unitPct(progress, id) {
   return list.length ? Math.max(...list) : null;
 }
 
-function HomeScreen({ progress, history, mistakes, stats, quiz3, openUnit, openWriting, openTraining, openDashboard, openReview, openReference, openVocab, lang }) {
+function HomeScreen({ progress, history, mistakes, stats, quiz3, openUnit, openWriting, openTraining, openDashboard, openReview, openReference, openVocab, openExercises, lang }) {
   const tr = T[lang];
   const practiced = UNITS.filter(u => progress[u.id] || progress["x" + u.id]).length;
   const mastered = UNITS.filter(u => { const p = unitPct(progress, u.id); return p !== null && p >= 80; }).length;
@@ -642,6 +678,20 @@ function HomeScreen({ progress, history, mistakes, stats, quiz3, openUnit, openW
             <div className="text-sm leading-relaxed" style={{ color: C.sub }}>{tr.vocabHomeCardSub}</div>
           </div>
           <ArrowRight size={20} style={{ color: C.blue, flexShrink: 0 }} />
+        </div>
+      </button>
+
+      <button onClick={openExercises} className="w-full text-left rounded-3xl mb-3 flex overflow-hidden" style={{ background: C.card, border: `1px solid ${C.line}`, cursor: "pointer", padding: 0 }}>
+        <div style={{ width: 8, background: C.red, flexShrink: 0 }} />
+        <div className="p-5 flex-1 flex items-center gap-4">
+          <div className="rounded-2xl flex items-center justify-center" style={{ width: 48, height: 48, background: C.redWash, color: C.red, flexShrink: 0 }}>
+            <Wand2 size={22} />
+          </div>
+          <div className="flex-1">
+            <div style={{ ...display, fontWeight: 700, fontSize: 18 }}>{tr.exHomeCard}</div>
+            <div className="text-sm leading-relaxed" style={{ color: C.sub }}>{tr.exHomeCardSub}</div>
+          </div>
+          <ArrowRight size={20} style={{ color: C.red, flexShrink: 0 }} />
         </div>
       </button>
 
@@ -1984,6 +2034,124 @@ function Dashboard({ progress, mistakes, stats, openUnit, openReview, onExport, 
   );
 }
 
+// ---------- Editing & rewriting exercises ----------
+function RewriteDeck({ items, lang, onExit }) {
+  const tr = T[lang];
+  const [i, setI] = useState(0);
+  const [txt, setTxt] = useState("");
+  const [show, setShow] = useState(false);
+  const norm = s => String(s).toLowerCase().replace(/[.,;:"'’“”?!()]/g, "").replace(/\s+/g, " ").trim();
+  if (i >= items.length) return (
+    <div className="rounded-2xl p-8 text-center" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+      <div className="mx-auto mb-3 rounded-full flex items-center justify-center" style={{ width: 64, height: 64, background: C.greenWash, color: C.green }}><Trophy size={28} /></div>
+      <div style={{ ...display, fontWeight: 800, fontSize: 22 }}>{tr.exDoneTitle}</div>
+      <div className="mt-4 flex flex-col gap-2">
+        <Btn onClick={() => { setI(0); setTxt(""); setShow(false); }} full><RotateCcw size={16} /> {tr.tryAgain}</Btn>
+        <Btn tone="ghost" onClick={onExit} full>{tr.exBack}</Btn>
+      </div>
+    </div>
+  );
+  const it = items[i];
+  const match = show && txt.trim() && (norm(txt) === norm(it.answer) || (it.alts || []).some(a => norm(a) === norm(txt)));
+  const next = () => { setI(i + 1); setTxt(""); setShow(false); };
+  return (
+    <div>
+      <div className="flex items-center justify-between mb-2 text-xs font-semibold" style={{ color: C.sub }}>
+        <span>{tr.exProgress(i + 1, items.length)}</span>
+        <span>Unit {it.unit}</span>
+      </div>
+      <MiniBar pct={(i / items.length) * 100} />
+      <div className="rounded-2xl p-4 mt-3" style={{ background: C.blueWash, border: `1px solid ${C.line}` }}>
+        <div className="text-xs font-bold mb-1" style={{ color: C.blue, letterSpacing: "0.08em" }}>{tr.exTaskLabel}</div>
+        <div className="text-sm font-semibold">{lang === "id" ? it.instructionId : it.instruction}</div>
+        <div className="text-sm mt-2 leading-relaxed" style={{ color: C.ink }}>“{it.original}”</div>
+      </div>
+      <textarea value={txt} onChange={e => setTxt(e.target.value)} rows={3} placeholder={tr.exYourAnswer}
+        className="w-full rounded-2xl p-4 text-base leading-relaxed outline-none resize-none mt-3" style={{ border: `1px solid ${C.line}`, background: C.card, ...body }} />
+      {!show ? (
+        <div className="mt-3"><Btn onClick={() => setShow(true)} full><Sparkles size={16} /> {tr.exShowModel}</Btn></div>
+      ) : (
+        <div className="mt-3">
+          {match && (
+            <div className="rounded-xl p-3 mb-3 flex gap-2 text-sm font-semibold items-center" style={{ background: C.greenWash, color: C.green }}>
+              <Check size={18} /> {tr.exMatch}
+            </div>
+          )}
+          <div className="rounded-2xl p-4" style={{ background: C.greenWash, border: `1px solid ${C.green}` }}>
+            <div className="text-sm font-bold mb-1" style={{ ...display, color: C.green }}>{tr.exModel}</div>
+            <div className="text-sm leading-relaxed" style={{ color: C.ink }}>{it.answer}</div>
+            {it.alts && it.alts.length > 0 && (
+              <div className="text-xs mt-2" style={{ color: C.sub }}>{tr.exAccepted}: {it.alts.join(" · ")}</div>
+            )}
+          </div>
+          <div className="rounded-xl p-3 mt-3 flex gap-2 text-sm leading-relaxed" style={{ background: C.blueWash, color: C.blueDark }}>
+            <Lightbulb size={18} style={{ flexShrink: 0, marginTop: 2 }} /><span>{lang === "id" ? it.tipId : it.tip}</span>
+          </div>
+          <div className="mt-3"><Btn onClick={next} full>{i + 1 < items.length ? tr.next : tr.seeResults} <ArrowRight size={16} /></Btn></div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function ExerciseHub({ onBack, lang }) {
+  const tr = T[lang];
+  const [data, setData] = useState(null);
+  const [mode, setMode] = useState("menu");
+  const [session, setSession] = useState(0);
+  useEffect(() => { let on = true; import("./content/exercises.js").then(m => { if (on) setData({ FIX: m.FIX, TRANSFORM: m.TRANSFORM }); }).catch(() => { if (on) setData({ FIX: [], TRANSFORM: [] }); }); return () => { on = false; }; }, []);
+
+  if (!data) return (
+    <div><BackBar onBack={onBack} label={tr.home} /><div className="flex justify-center mt-10" style={{ color: C.sub }}><Loader2 size={24} className="animate-spin" /></div></div>
+  );
+
+  if (mode === "fix") {
+    const list = data.FIX.map(f => ({ q: `Fix the error: “${f.bad}”`, opts: f.opts, a: f.a, ex: f.ex, exId: f.exId }));
+    return (
+      <div>
+        <BackBar onBack={() => setMode("menu")} label={tr.exBack} />
+        <Quiz key={"fix" + session} list={list} unitId="fix" isCtx lang={lang}
+          onScore={() => {}} onRestart={() => setSession(s => s + 1)} onExit={() => setMode("menu")} />
+      </div>
+    );
+  }
+  if (mode === "rewrite") {
+    return (
+      <div>
+        <BackBar onBack={() => setMode("menu")} label={tr.exBack} />
+        <RewriteDeck key={"rw" + session} items={data.TRANSFORM} lang={lang} onExit={() => { setSession(s => s + 1); setMode("menu"); }} />
+      </div>
+    );
+  }
+  const Deck = ({ onClick, icon, wash, color, title, sub, n }) => (
+    <button onClick={onClick} className="text-left rounded-2xl p-4 flex items-center gap-4" style={{ background: C.card, border: `1px solid ${C.line}`, cursor: "pointer" }}>
+      <div className="rounded-2xl flex items-center justify-center" style={{ width: 48, height: 48, background: wash, color, flexShrink: 0 }}>{icon}</div>
+      <div className="flex-1">
+        <div className="flex items-center justify-between"><span style={{ ...display, fontWeight: 700, fontSize: 16 }}>{title}</span><span className="text-xs font-bold" style={{ color }}>{n}</span></div>
+        <div className="text-xs mt-0.5 leading-relaxed" style={{ color: C.sub }}>{sub}</div>
+      </div>
+      <ArrowRight size={18} style={{ color, flexShrink: 0 }} />
+    </button>
+  );
+  return (
+    <div>
+      <BackBar onBack={onBack} label={tr.home} />
+      <div className="rounded-3xl overflow-hidden mb-4 flex" style={{ background: C.red }}>
+        <div style={{ width: 10, background: C.blue, flexShrink: 0 }} />
+        <div className="p-5 text-white flex-1">
+          <div className="text-xs font-bold" style={{ color: "#FFD3D8", letterSpacing: "0.14em" }}>{tr.exKicker}</div>
+          <div style={{ ...display, fontSize: 24, fontWeight: 800 }}>{tr.exTitle}</div>
+          <div className="text-sm leading-relaxed" style={{ color: "#FFE3E6" }}>{tr.exSub}</div>
+        </div>
+      </div>
+      <div className="flex flex-col gap-3">
+        <Deck onClick={() => { setSession(s => s + 1); setMode("fix"); }} icon={<Search size={22} />} wash={C.blueWash} color={C.blue} title={tr.exFix} sub={tr.exFixSub} n={`${data.FIX.length} ${tr.qWord}`} />
+        <Deck onClick={() => { setSession(s => s + 1); setMode("rewrite"); }} icon={<Wand2 size={22} />} wash={C.greenWash} color={C.green} title={tr.exRewrite} sub={tr.exRewriteSub} n={`${data.TRANSFORM.length} ${tr.qWord}`} />
+      </div>
+    </div>
+  );
+}
+
 // ---------- Vocabulary trainer (spaced repetition) ----------
 const VOCAB_IVL = [0, 1, 3, 7, 16, 40]; // Leitner intervals in days, by box 0–5
 function BoxDots({ box }) {
@@ -2422,13 +2590,16 @@ export default function App() {
         <HomeScreen progress={progress} history={history} mistakes={mistakes} stats={stats} quiz3={quiz3}
           openUnit={openUnit} openWriting={() => setScreen("writing")} openTraining={() => setScreen("writingTraining")}
           openDashboard={() => setScreen("dashboard")} openReview={openReview} openReference={() => setScreen("reference")}
-          openVocab={() => setScreen("vocab")} lang={lang} />
+          openVocab={() => setScreen("vocab")} openExercises={() => setScreen("exercises")} lang={lang} />
       )}
       {screen === "reference" && (
         <Reference onBack={() => setScreen("home")} lang={lang} />
       )}
       {screen === "vocab" && (
         <VocabTrainer vocab={vocab} onReview={reviewVocab} onBack={() => setScreen("home")} lang={lang} />
+      )}
+      {screen === "exercises" && (
+        <ExerciseHub onBack={() => setScreen("home")} lang={lang} />
       )}
       {screen === "unit" && unit && (
         <UnitScreen key={unit.id} unit={unit} progress={progress} onScore={saveScore} onRecord={recordItem} quiz3={quiz3} onBack={() => setScreen("home")} lang={lang} />
