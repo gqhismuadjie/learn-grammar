@@ -1,13 +1,12 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import {
   ChevronLeft, BookOpen, PenLine, Check, X, RotateCcw, Trophy, Clock,
-  Loader2, Lightbulb, ArrowRight, AlertTriangle, Sparkles, History, Play, Layers
+  Loader2, Lightbulb, ArrowRight, AlertTriangle, Sparkles, History, Play, Layers,
+  BarChart3, Flame, Target, Download, Upload
 } from "lucide-react";
 import { UNITS } from "./content/units.js";
 import { QUIZ2 } from "./content/quiz2.js";
-import { QUIZ3 } from "./content/quiz3.js";
 import { TAG_ID, LEARN_ID, EX_ID } from "./content/id.js";
-import { WRITING_MODULES } from "./content/writing.js";
 
 // The Writing Lab calls the Anthropic API with platform-injected auth, which a
 // static GitHub Pages site cannot provide (and a public site cannot safely hold
@@ -58,6 +57,8 @@ const CRIT = [
 // ---------- Persistence (localStorage; progress stays on this device) ----------
 const K_PROG = "igr-progress";
 const K_WRIT = "igr-writing";
+const K_MIST = "igr-mistakes"; // questions answered wrong, for the Review deck
+const K_STATS = "igr-stats";   // aggregate accuracy + daily streak
 const store = {
   async get(key) {
     try {
@@ -78,6 +79,37 @@ const store = {
 function countWords(t) { return t.trim() ? t.trim().split(/\s+/).filter(Boolean).length : 0; }
 function fmtTime(s) { const m = Math.floor(s / 60); const ss = s % 60; return `${m}:${ss < 10 ? "0" : ""}${ss}`; }
 function bandStr(b) { return typeof b === "number" ? b.toFixed(1) : "–"; }
+
+// Fisher–Yates: return a shuffled copy so answer options move each attempt.
+function shuffled(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+// Shuffle a question's options and re-point the correct index to its new slot.
+function shuffleQuestion(q) {
+  const order = shuffled(q.opts.map((_, i) => i));
+  return { ...q, opts: order.map(i => q.opts[i]), a: order.indexOf(q.a) };
+}
+const normQ = s => String(s).toLowerCase().replace(/\s+/g, " ").trim();
+const mistKey = (unit, q) => unit + "::" + normQ(q);
+function dayStr(d) { return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; }
+function todayStr() { return dayStr(new Date()); }
+function yesterdayStr() { const d = new Date(); d.setDate(d.getDate() - 1); return dayStr(d); }
+
+// Build a self-contained mistake/answer record from a quiz item.
+// Core drills key their ID explanation positionally (EX_ID); context/extra
+// decks carry their own exId, so the review deck can replay any of them.
+function buildRec(unitId, isCtx, item, index) {
+  const exId = isCtx ? (item.exId || item.ex) : (EX_ID[unitId + "-" + index] || item.ex);
+  return { key: mistKey(unitId, item.q), unit: unitId, q: item.q, opts: item.opts, a: item.a, ex: item.ex, exId };
+}
+function recFromItem(item) {
+  return { key: item.key || mistKey(item.unit, item.q), unit: item.unit, q: item.q, opts: item.opts, a: item.a, ex: item.ex, exId: item.exId };
+}
 
 function buildScoringPrompt(promptText, essay, words, lang) {
   return `You are a certified IELTS Writing examiner. Assess the IELTS Writing Task 2 essay below using the official public band descriptors for Task Response, Coherence and Cohesion, Lexical Resource, and Grammatical Range and Accuracy. Score each criterion in 0.5 steps between 4.0 and 9.0. Be realistically calibrated: a typical B2 learner scores 5.5-6.5; reserve 7.5+ for genuinely strong writing. If the essay is under 250 words, penalize Task Response. If the text is off-topic or not an essay, still return the JSON with low bands and say why in the comments. ${lang === "id" ? 'Write every "comment", every "strengths" and "improvements" item, and every "rule" in Bahasa Indonesia; keep "original" and "fixed" in English because they quote the essay.' : "Write all comments in English."}
@@ -207,6 +239,35 @@ const T = {
     wtDisclaimer: "A model answer written to a Band-9 standard — a learning target, not an official examiner score.",
     wtBack: "Writing training",
     wtEmpty: "No modules yet.",
+    streakLine: (n) => ` · ${n}-day streak`,
+    reviewCta: (n) => `Review ${n} mistake${n === 1 ? "" : "s"}`,
+    reviewCtaSub: "Retry what you missed — answer it right to clear it.",
+    dashCard: "Progress dashboard",
+    dashCardSub: "Accuracy, streak, weakest units, and backup.",
+    dashKicker: "YOUR PROGRESS",
+    dashTitle: "Progress dashboard",
+    dashSub: "How you're tracking across every unit.",
+    dashAccuracy: "Accuracy",
+    dashAnswered: "Answered",
+    dashStreak: "Day streak",
+    dashBest: (n) => `best ${n}`,
+    dashReviewBtn: (n) => `Review ${n} mistake${n === 1 ? "" : "s"}`,
+    dashReviewEmpty: "No mistakes to review — nice.",
+    dashWeakest: "Weakest units",
+    dashWeakestSub: "Lowest accuracy so far — a good place to revise.",
+    dashMastery: "Unit mastery",
+    dashNoStats: "Answer some practice questions to build your stats.",
+    dashAcc: (c, a) => `${c}/${a} correct`,
+    dashBackup: "Backup & restore",
+    dashBackupSub: "Save your progress to a file, or load it on another device. Everything stays on your device.",
+    dashExport: "Export progress",
+    dashImport: "Import progress",
+    dashImportOk: "Progress restored.",
+    dashImportErr: "That file couldn't be read. Use a backup exported from this app.",
+    reviewTitle: "Review mistakes",
+    reviewEmpty: "Nothing to review",
+    reviewEmptySub: "You have no missed questions right now. Practice a unit and any you miss will show up here.",
+    reviewBackHome: "Home",
   },
   id: {
     heroTitle: "Kuasai aturannya, raih Band 7",
@@ -292,6 +353,35 @@ const T = {
     wtDisclaimer: "Jawaban model yang ditulis pada standar Band 9 — target belajar, bukan skor resmi penguji.",
     wtBack: "Latihan writing",
     wtEmpty: "Belum ada modul.",
+    streakLine: (n) => ` · runtutan ${n} hari`,
+    reviewCta: (n) => `Tinjau ${n} kesalahan`,
+    reviewCtaSub: "Ulangi soal yang salah — jawab benar untuk menghapusnya.",
+    dashCard: "Dasbor progres",
+    dashCardSub: "Akurasi, runtutan, unit terlemah, dan cadangan.",
+    dashKicker: "PROGRES ANDA",
+    dashTitle: "Dasbor progres",
+    dashSub: "Perkembangan Anda di seluruh unit.",
+    dashAccuracy: "Akurasi",
+    dashAnswered: "Dijawab",
+    dashStreak: "Runtutan hari",
+    dashBest: (n) => `terbaik ${n}`,
+    dashReviewBtn: (n) => `Tinjau ${n} kesalahan`,
+    dashReviewEmpty: "Tidak ada kesalahan untuk ditinjau — bagus.",
+    dashWeakest: "Unit terlemah",
+    dashWeakestSub: "Akurasi terendah sejauh ini — bagus untuk diulang.",
+    dashMastery: "Penguasaan unit",
+    dashNoStats: "Jawab beberapa soal latihan untuk membangun statistik Anda.",
+    dashAcc: (c, a) => `${c}/${a} benar`,
+    dashBackup: "Cadangkan & pulihkan",
+    dashBackupSub: "Simpan progres ke file, atau muat di perangkat lain. Semua tetap di perangkat Anda.",
+    dashExport: "Ekspor progres",
+    dashImport: "Impor progres",
+    dashImportOk: "Progres dipulihkan.",
+    dashImportErr: "File tidak terbaca. Gunakan cadangan yang diekspor dari aplikasi ini.",
+    reviewTitle: "Tinjau kesalahan",
+    reviewEmpty: "Tidak ada yang ditinjau",
+    reviewEmptySub: "Belum ada soal yang salah. Latih sebuah unit dan soal yang terlewat akan muncul di sini.",
+    reviewBackHome: "Beranda",
   },
 };
 
@@ -353,12 +443,14 @@ function unitPct(progress, id) {
   return list.length ? Math.max(...list) : null;
 }
 
-function HomeScreen({ progress, history, openUnit, openWriting, openTraining, lang }) {
+function HomeScreen({ progress, history, mistakes, stats, quiz3, openUnit, openWriting, openTraining, openDashboard, openReview, lang }) {
   const tr = T[lang];
   const practiced = UNITS.filter(u => progress[u.id] || progress["x" + u.id]).length;
   const mastered = UNITS.filter(u => { const p = unitPct(progress, u.id); return p !== null && p >= 80; }).length;
-  const totalQ = UNITS.reduce((n, u) => n + u.quiz.length + ((QUIZ2[u.id] || []).length) + ((QUIZ3[u.id] || []).length), 0);
+  const totalQ = UNITS.reduce((n, u) => n + u.quiz.length + ((QUIZ2[u.id] || []).length) + (((quiz3 && quiz3[u.id]) || []).length), 0);
   const last = history[0];
+  const mistN = Array.isArray(mistakes) ? mistakes.length : 0;
+  const streak = (stats && stats.streak) || 0;
   return (
     <div>
       <div className="rounded-3xl overflow-hidden mb-5 flex" style={{ background: C.blue }}>
@@ -370,11 +462,38 @@ function HomeScreen({ progress, history, openUnit, openWriting, openTraining, la
           <div className="mt-4">
             <MiniBar pct={(practiced / UNITS.length) * 100} color="#FFFFFF" track="rgba(255,255,255,0.25)" />
             <div className="mt-2 text-xs font-semibold" style={{ color: "#DDE1FF" }}>
-              {tr.statsLine(practiced, mastered)}{last && typeof last.overall === "number" ? tr.lastEssay(bandStr(last.overall)) : ""}
+              {tr.statsLine(practiced, mastered)}{streak > 0 ? tr.streakLine(streak) : ""}{last && typeof last.overall === "number" ? tr.lastEssay(bandStr(last.overall)) : ""}
             </div>
           </div>
         </div>
       </div>
+
+      {mistN > 0 && (
+        <button onClick={openReview} className="w-full text-left rounded-2xl mb-3 flex items-center gap-3 p-4" style={{ background: C.redWash, border: `1px solid ${C.red}`, cursor: "pointer" }}>
+          <div className="rounded-2xl flex items-center justify-center" style={{ width: 42, height: 42, background: "#fff", color: C.red, flexShrink: 0 }}>
+            <RotateCcw size={20} />
+          </div>
+          <div className="flex-1">
+            <div style={{ ...display, fontWeight: 700, fontSize: 16, color: C.red }}>{tr.reviewCta(mistN)}</div>
+            <div className="text-xs leading-relaxed" style={{ color: "#A32530" }}>{tr.reviewCtaSub}</div>
+          </div>
+          <ArrowRight size={18} style={{ color: C.red, flexShrink: 0 }} />
+        </button>
+      )}
+
+      <button onClick={openDashboard} className="w-full text-left rounded-3xl mb-5 flex overflow-hidden" style={{ background: C.card, border: `1px solid ${C.line}`, cursor: "pointer", padding: 0 }}>
+        <div style={{ width: 8, background: C.blue, flexShrink: 0 }} />
+        <div className="p-5 flex-1 flex items-center gap-4">
+          <div className="rounded-2xl flex items-center justify-center" style={{ width: 48, height: 48, background: C.blueWash, color: C.blue, flexShrink: 0 }}>
+            <BarChart3 size={22} />
+          </div>
+          <div className="flex-1">
+            <div style={{ ...display, fontWeight: 700, fontSize: 18 }}>{tr.dashCard}</div>
+            <div className="text-sm leading-relaxed" style={{ color: C.sub }}>{tr.dashCardSub}</div>
+          </div>
+          <ArrowRight size={20} style={{ color: C.blue, flexShrink: 0 }} />
+        </div>
+      </button>
 
       {AI_ENABLED && (
       <button onClick={openWriting} className="w-full text-left rounded-3xl mb-5 flex overflow-hidden" style={{ background: C.card, border: `1px solid ${C.line}`, cursor: "pointer", padding: 0 }}>
@@ -464,16 +583,24 @@ function LearnTab({ unit, onPractice, lang }) {
   );
 }
 
-function Quiz({ list, unitId, isCtx, lang, onScore, onRestart, onExit }) {
+function Quiz({ list, unitId, isCtx, lang, onScore, onItem, onRestart, onExit }) {
   const tr = T[lang];
+  // Snapshot + shuffle options once per mount; re-mount (new key) reshuffles.
+  const [items] = useState(() => list.map(shuffleQuestion));
   const [i, setI] = useState(0);
   const [sel, setSel] = useState(null);
   const [score, setScore] = useState(0);
   const [done, setDone] = useState(false);
-  const total = list.length;
-  const q = list[i];
+  const total = items.length;
+  const q = items[i];
 
-  const pick = (idx) => { if (sel !== null) return; setSel(idx); if (idx === q.a) setScore(s => s + 1); };
+  const pick = (idx) => {
+    if (sel !== null) return;
+    setSel(idx);
+    const ok = idx === q.a;
+    if (ok) setScore(s => s + 1);
+    if (onItem) onItem(i, ok);
+  };
   const next = () => {
     if (i + 1 < total) { setI(i + 1); setSel(null); }
     else { setDone(true); onScore(score, total); }
@@ -544,12 +671,12 @@ function Quiz({ list, unitId, isCtx, lang, onScore, onRestart, onExit }) {
   );
 }
 
-function PracticeTab({ unit, progress, onScore, lang }) {
+function PracticeTab({ unit, progress, onScore, onRecord, quiz3, lang }) {
   const tr = T[lang];
   const [deck, setDeck] = useState(null);
   const [session, setSession] = useState(1);
   const ctxList = QUIZ2[unit.id] || [];
-  const extraPool = QUIZ3[unit.id] || [];
+  const extraPool = (quiz3 && quiz3[unit.id]) || [];
   const extraDecks = [];
   for (let k = 0; k * EXTRA_ROUND < extraPool.length; k++) {
     extraDecks.push({
@@ -592,12 +719,13 @@ function PracticeTab({ unit, progress, onScore, lang }) {
   return (
     <Quiz key={deck.key + "-" + session} list={deck.list} unitId={unit.id} isCtx={deck.isCtx} lang={lang}
       onScore={(s, t) => onScore(deck.key, s, t)}
+      onItem={(idx, ok) => onRecord && onRecord(buildRec(unit.id, deck.isCtx, deck.list[idx], idx), ok)}
       onRestart={() => setSession(s => s + 1)}
       onExit={() => setDeck(null)} />
   );
 }
 
-function UnitScreen({ unit, progress, onScore, onBack, lang }) {
+function UnitScreen({ unit, progress, onScore, onRecord, quiz3, onBack, lang }) {
   const tr = T[lang];
   const [tab, setTab] = useState("learn");
   return (
@@ -619,7 +747,7 @@ function UnitScreen({ unit, progress, onScore, onBack, lang }) {
       </div>
       {tab === "learn"
         ? <LearnTab unit={unit} onPractice={() => setTab("practice")} lang={lang} />
-        : <PracticeTab unit={unit} progress={progress} onScore={onScore} lang={lang} />}
+        : <PracticeTab unit={unit} progress={progress} onScore={onScore} onRecord={onRecord} quiz3={quiz3} lang={lang} />}
     </div>
   );
 }
@@ -1016,12 +1144,18 @@ function Chart({ visual }) {
 
 function WritingTraining({ onBack, lang }) {
   const tr = T[lang];
+  const [modules, setModules] = useState(null); // loaded on demand (code-split)
   const [mod, setMod] = useState(null);
   const [essay, setEssay] = useState("");
   const [show, setShow] = useState(false);
   const [band, setBand] = useState(9);
   const [secs, setSecs] = useState(0);
   const [running, setRunning] = useState(false);
+  useEffect(() => {
+    let on = true;
+    import("./content/writing.js").then(m => { if (on) setModules(m.WRITING_MODULES); }).catch(() => { if (on) setModules([]); });
+    return () => { on = false; };
+  }, []);
   useEffect(() => {
     if (!running) return;
     const t = setInterval(() => setSecs(s => { if (s <= 1) { setRunning(false); return 0; } return s - 1; }), 1000);
@@ -1032,8 +1166,9 @@ function WritingTraining({ onBack, lang }) {
   const close = () => { setMod(null); setEssay(""); setShow(false); setBand(9); setRunning(false); };
 
   if (!mod) {
-    const t2 = WRITING_MODULES.filter(m => m.task === 2);
-    const t1 = WRITING_MODULES.filter(m => m.task === 1);
+    const all = modules || [];
+    const t2 = all.filter(m => m.task === 2);
+    const t1 = all.filter(m => m.task === 1);
     const Group = ({ title, list, color }) => (
       <div className="mb-5">
         <div className="text-xs font-bold mb-2" style={{ ...display, color, letterSpacing: "0.08em" }}>{title}</div>
@@ -1063,7 +1198,8 @@ function WritingTraining({ onBack, lang }) {
         </div>
         {t2.length > 0 && <Group title={tr.wtTask2} list={t2} color={C.blue} />}
         {t1.length > 0 && <Group title={tr.wtTask1} list={t1} color={C.red} />}
-        {WRITING_MODULES.length === 0 && <div className="text-sm text-center mt-6" style={{ color: C.sub }}>{tr.wtEmpty}</div>}
+        {modules === null && <div className="flex justify-center mt-8" style={{ color: C.sub }}><Loader2 size={22} className="animate-spin" /></div>}
+        {modules !== null && all.length === 0 && <div className="text-sm text-center mt-6" style={{ color: C.sub }}>{tr.wtEmpty}</div>}
       </div>
     );
   }
@@ -1130,33 +1266,204 @@ function WritingTraining({ onBack, lang }) {
   );
 }
 
+// ---------- Progress dashboard ----------
+function StatTile({ icon, label, value, sub, color, wash }) {
+  return (
+    <div className="rounded-2xl p-3 flex-1" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+      <div className="rounded-xl flex items-center justify-center mb-2" style={{ width: 34, height: 34, background: wash, color }}>{icon}</div>
+      <div style={{ ...display, fontWeight: 800, fontSize: 22, lineHeight: 1 }}>{value}</div>
+      <div className="text-xs font-semibold mt-1" style={{ color: C.sub }}>{label}{sub ? ` · ${sub}` : ""}</div>
+    </div>
+  );
+}
+
+function Dashboard({ progress, mistakes, stats, openUnit, openReview, onExport, onImport, onBack, lang }) {
+  const tr = T[lang];
+  const [msg, setMsg] = useState(null);
+  const fileRef = useRef(null);
+  const st = stats || {};
+  const answered = st.answered || 0;
+  const correct = st.correct || 0;
+  const acc = answered ? Math.round((correct / answered) * 100) : null;
+  const streak = st.streak || 0;
+  const best = st.best || 0;
+  const byUnit = st.byUnit || {};
+  const mistN = Array.isArray(mistakes) ? mistakes.length : 0;
+
+  const unitRows = UNITS.map(u => {
+    const b = byUnit[u.id];
+    const a = b ? b.answered : 0;
+    const c = b ? b.correct : 0;
+    return { u, a, c, pct: a ? Math.round((c / a) * 100) : null };
+  });
+  const weakest = unitRows.filter(r => r.a >= 4).sort((x, y) => x.pct - y.pct).slice(0, 4);
+  const practicedRows = unitRows.filter(r => r.a > 0);
+
+  const doImport = (e) => {
+    const f = e.target.files && e.target.files[0];
+    e.target.value = "";
+    if (!f) return;
+    onImport(f, (ok) => setMsg(ok ? { ok: true, t: tr.dashImportOk } : { ok: false, t: tr.dashImportErr }));
+  };
+
+  return (
+    <div>
+      <BackBar onBack={onBack} label={tr.home} />
+      <div className="rounded-3xl overflow-hidden mb-4 flex" style={{ background: C.blue }}>
+        <div style={{ width: 10, background: C.red, flexShrink: 0 }} />
+        <div className="p-5 text-white flex-1">
+          <div className="text-xs font-bold" style={{ color: "#BFC7FF", letterSpacing: "0.14em" }}>{tr.dashKicker}</div>
+          <div style={{ ...display, fontSize: 24, fontWeight: 800 }}>{tr.dashTitle}</div>
+          <div className="text-sm leading-relaxed" style={{ color: "#DDE1FF" }}>{tr.dashSub}</div>
+        </div>
+      </div>
+
+      {answered === 0 ? (
+        <div className="rounded-2xl p-6 text-center text-sm" style={{ background: C.card, border: `1px solid ${C.line}`, color: C.sub }}>{tr.dashNoStats}</div>
+      ) : (
+        <>
+          <div className="flex gap-2 mb-4">
+            <StatTile icon={<Target size={18} />} label={tr.dashAccuracy} value={`${acc}%`} color={C.blue} wash={C.blueWash} />
+            <StatTile icon={<BarChart3 size={18} />} label={tr.dashAnswered} value={answered} color={C.green} wash={C.greenWash} />
+            <StatTile icon={<Flame size={18} />} label={tr.dashStreak} value={streak} sub={best > 0 ? tr.dashBest(best) : ""} color={C.amber} wash={C.amberWash} />
+          </div>
+
+          {weakest.length > 0 && (
+            <div className="rounded-2xl p-4 mb-4" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+              <div style={{ ...display, fontWeight: 700, fontSize: 16 }}>{tr.dashWeakest}</div>
+              <div className="text-xs mb-3 leading-relaxed" style={{ color: C.sub }}>{tr.dashWeakestSub}</div>
+              <div className="flex flex-col gap-3">
+                {weakest.map(r => (
+                  <button key={r.u.id} onClick={() => openUnit(r.u.id)} className="text-left" style={{ background: "none", border: "none", padding: 0, cursor: "pointer" }}>
+                    <div className="flex items-center justify-between mb-1">
+                      <span className="text-sm font-semibold">{r.u.id}. {r.u.title}</span>
+                      <span className="text-xs font-bold" style={{ color: r.pct >= 80 ? C.green : r.pct >= 60 ? C.amber : C.red }}>{r.pct}%</span>
+                    </div>
+                    <MiniBar pct={r.pct} color={r.pct >= 80 ? C.green : r.pct >= 60 ? C.amber : C.red} />
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+        </>
+      )}
+
+      <div className="rounded-2xl p-4 mb-4 flex items-center gap-3" style={{ background: mistN > 0 ? C.redWash : C.card, border: `1px solid ${mistN > 0 ? C.red : C.line}` }}>
+        <div className="rounded-2xl flex items-center justify-center" style={{ width: 42, height: 42, background: "#fff", color: mistN > 0 ? C.red : C.sub, flexShrink: 0 }}>
+          <RotateCcw size={20} />
+        </div>
+        {mistN > 0 ? (
+          <>
+            <div className="flex-1 text-sm font-semibold" style={{ color: C.red }}>{tr.reviewCtaSub}</div>
+            <Btn tone="red" onClick={openReview}>{tr.dashReviewBtn(mistN)}</Btn>
+          </>
+        ) : (
+          <div className="flex-1 text-sm font-semibold" style={{ color: C.sub }}>{tr.dashReviewEmpty}</div>
+        )}
+      </div>
+
+      {practicedRows.length > 0 && (
+        <div className="rounded-2xl p-4 mb-4" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+          <div style={{ ...display, fontWeight: 700, fontSize: 16, marginBottom: 8 }}>{tr.dashMastery}</div>
+          <div className="flex flex-col gap-2.5">
+            {practicedRows.map(r => (
+              <div key={r.u.id} className="flex items-center gap-3">
+                <span className="text-xs font-semibold" style={{ width: 22, color: C.sub, flexShrink: 0 }}>{r.u.id}</span>
+                <div className="flex-1"><MiniBar pct={r.pct} color={r.pct >= 80 ? C.green : r.pct >= 60 ? C.amber : C.red} /></div>
+                <span className="text-xs font-bold" style={{ width: 74, textAlign: "right", color: C.sub, flexShrink: 0 }}>{tr.dashAcc(r.c, r.a)}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <div className="rounded-2xl p-4" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+        <div style={{ ...display, fontWeight: 700, fontSize: 16 }}>{tr.dashBackup}</div>
+        <div className="text-xs mb-3 leading-relaxed" style={{ color: C.sub }}>{tr.dashBackupSub}</div>
+        <div className="flex flex-col sm:flex-row gap-2">
+          <Btn tone="ghost" onClick={onExport} full><Download size={16} /> {tr.dashExport}</Btn>
+          <Btn tone="ghost" onClick={() => fileRef.current && fileRef.current.click()} full><Upload size={16} /> {tr.dashImport}</Btn>
+        </div>
+        <input ref={fileRef} type="file" accept="application/json,.json" onChange={doImport} style={{ display: "none" }} />
+        {msg && (
+          <div className="rounded-xl p-3 mt-3 text-sm font-semibold" style={{ background: msg.ok ? C.greenWash : C.redWash, color: msg.ok ? C.green : C.red }}>{msg.t}</div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 // ---------- App ----------
 export default function App() {
   const [screen, setScreen] = useState("home");
   const [activeUnit, setActiveUnit] = useState(null);
   const [progress, setProgress] = useState({});
   const [history, setHistory] = useState([]);
+  const [mistakes, setMistakes] = useState([]);
+  const [stats, setStats] = useState(null);
   const [lang, setLang] = useState("en");
+  const [quiz3, setQuiz3] = useState(null); // extra-practice pool, loaded on demand
+  const [reviewList, setReviewList] = useState([]);
+  const [reviewSession, setReviewSession] = useState(0);
+  const tr = T[lang];
 
   useEffect(() => {
     (async () => {
       const p = await store.get(K_PROG);
       const w = await store.get(K_WRIT);
+      const m = await store.get(K_MIST);
+      const s = await store.get(K_STATS);
       const l = await store.get(K_LANG);
       if (p) setProgress(p);
       if (Array.isArray(w)) setHistory(w);
+      if (Array.isArray(m)) setMistakes(m);
+      if (s && typeof s === "object") setStats(s);
       if (l === "id" || l === "en") setLang(l);
     })();
+    // Code-split: the large extra-practice pool loads after first paint.
+    import("./content/quiz3.js").then(mod => setQuiz3(mod.QUIZ3)).catch(() => {});
   }, []);
 
   const changeLang = (l) => { setLang(l); store.set(K_LANG, l); };
   const openUnit = (id) => { setActiveUnit(id); setScreen("unit"); };
+  const openReview = () => { setReviewList(Array.isArray(mistakes) ? mistakes : []); setReviewSession(s => s + 1); setScreen("review"); };
 
   const saveScore = (key, score, total) => {
     setProgress(prev => {
       const old = prev[key];
       const next = { ...prev, [key]: { best: Math.max(old ? old.best : 0, score), total, attempts: (old ? old.attempts : 0) + 1 } };
       store.set(K_PROG, next);
+      return next;
+    });
+  };
+
+  // Called for every answered question: update accuracy/streak stats and the
+  // review deck (get it right → cleared; get it wrong → queued for review).
+  const recordItem = (rec, correct) => {
+    setStats(prev => {
+      const s = prev && typeof prev === "object" ? { ...prev } : {};
+      s.answered = (s.answered || 0) + 1;
+      s.correct = (s.correct || 0) + (correct ? 1 : 0);
+      const bu = { ...(s.byUnit || {}) };
+      const u = bu[rec.unit] || { answered: 0, correct: 0 };
+      bu[rec.unit] = { answered: u.answered + 1, correct: u.correct + (correct ? 1 : 0) };
+      s.byUnit = bu;
+      const today = todayStr();
+      if (s.lastDay !== today) {
+        s.streak = s.lastDay === yesterdayStr() ? (s.streak || 0) + 1 : 1;
+        s.best = Math.max(s.best || 0, s.streak);
+        s.lastDay = today;
+      }
+      store.set(K_STATS, s);
+      return s;
+    });
+    setMistakes(prev => {
+      const arr = Array.isArray(prev) ? prev : [];
+      const without = arr.filter(m => m.key !== rec.key);
+      const next = correct
+        ? without
+        : [{ key: rec.key, unit: rec.unit, q: rec.q, opts: rec.opts, a: rec.a, ex: rec.ex, exId: rec.exId }, ...without].slice(0, 200);
+      store.set(K_MIST, next);
       return next;
     });
   };
@@ -1169,6 +1476,38 @@ export default function App() {
     });
   };
 
+  const exportData = () => {
+    try {
+      const data = { app: "ielts-grammar-studio", version: 1, exportedAt: new Date().toISOString(), progress, history, mistakes, stats, lang };
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url; a.download = `ielts-grammar-backup-${todayStr()}.json`;
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1500);
+    } catch (e) { /* download unavailable in this browser */ }
+  };
+
+  const importData = (file, done) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const d = JSON.parse(reader.result);
+        if (!d || typeof d !== "object") throw new Error("not an object");
+        let touched = false;
+        if (d.progress && typeof d.progress === "object") { setProgress(d.progress); store.set(K_PROG, d.progress); touched = true; }
+        if (Array.isArray(d.history)) { setHistory(d.history); store.set(K_WRIT, d.history); touched = true; }
+        if (Array.isArray(d.mistakes)) { setMistakes(d.mistakes); store.set(K_MIST, d.mistakes); touched = true; }
+        if (d.stats && typeof d.stats === "object") { setStats(d.stats); store.set(K_STATS, d.stats); touched = true; }
+        if (d.lang === "en" || d.lang === "id") { changeLang(d.lang); touched = true; }
+        if (!touched) throw new Error("no recognizable data");
+        done && done(true);
+      } catch (e) { done && done(false); }
+    };
+    reader.onerror = () => done && done(false);
+    reader.readAsText(file);
+  };
+
   const unit = UNITS.find(u => u.id === activeUnit);
 
   return (
@@ -1177,10 +1516,42 @@ export default function App() {
         <LangToggle lang={lang} setLang={changeLang} />
       </div>
       {screen === "home" && (
-        <HomeScreen progress={progress} history={history} openUnit={openUnit} openWriting={() => setScreen("writing")} openTraining={() => setScreen("writingTraining")} lang={lang} />
+        <HomeScreen progress={progress} history={history} mistakes={mistakes} stats={stats} quiz3={quiz3}
+          openUnit={openUnit} openWriting={() => setScreen("writing")} openTraining={() => setScreen("writingTraining")}
+          openDashboard={() => setScreen("dashboard")} openReview={openReview} lang={lang} />
       )}
       {screen === "unit" && unit && (
-        <UnitScreen key={unit.id} unit={unit} progress={progress} onScore={saveScore} onBack={() => setScreen("home")} lang={lang} />
+        <UnitScreen key={unit.id} unit={unit} progress={progress} onScore={saveScore} onRecord={recordItem} quiz3={quiz3} onBack={() => setScreen("home")} lang={lang} />
+      )}
+      {screen === "dashboard" && (
+        <Dashboard progress={progress} mistakes={mistakes} stats={stats}
+          openUnit={openUnit} openReview={openReview} onExport={exportData} onImport={importData}
+          onBack={() => setScreen("home")} lang={lang} />
+      )}
+      {screen === "review" && (
+        reviewList.length === 0 ? (
+          <div>
+            <BackBar onBack={() => setScreen("home")} label={tr.home} />
+            <div className="rounded-2xl p-8 text-center" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+              <div className="mx-auto mb-3 rounded-full flex items-center justify-center" style={{ width: 56, height: 56, background: C.greenWash, color: C.green }}><Check size={26} /></div>
+              <div style={{ ...display, fontWeight: 800, fontSize: 20 }}>{tr.reviewEmpty}</div>
+              <p className="text-sm mt-1" style={{ color: C.sub }}>{tr.reviewEmptySub}</p>
+            </div>
+          </div>
+        ) : (
+          <div>
+            <BackBar onBack={() => setScreen("home")} label={tr.home} />
+            <div className="rounded-2xl p-4 mb-3 flex items-center gap-3" style={{ background: C.redWash, border: `1px solid ${C.red}` }}>
+              <RotateCcw size={20} style={{ color: C.red, flexShrink: 0 }} />
+              <div style={{ ...display, fontWeight: 700, fontSize: 16, color: C.red }}>{tr.reviewTitle}</div>
+            </div>
+            <Quiz key={"rev" + reviewSession} list={reviewList} unitId="review" isCtx lang={lang}
+              onScore={() => {}}
+              onItem={(idx, ok) => recordItem(recFromItem(reviewList[idx]), ok)}
+              onRestart={() => setReviewSession(s => s + 1)}
+              onExit={() => setScreen("home")} />
+          </div>
+        )
       )}
       {screen === "writing" && (
         <WritingLab onBack={() => setScreen("home")} onSave={addWriting} history={history} goUnit={openUnit} lang={lang} />
