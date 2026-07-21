@@ -1,6 +1,48 @@
 // Oxford 5000 (B2–C1) themed vocabulary bank (pure data).
 export const VOCAB = [
  {
+  "w": "111",
+  "pos": "noun (phone number)",
+  "def": "The free NHS phone number to call for urgent medical advice when it is not an emergency.",
+  "defId": "Nomor telepon gratis NHS untuk meminta saran medis mendesak saat kondisinya bukan darurat.",
+  "ex": "I wasn't sure how serious it was, so I rang 111 for advice.",
+  "exId": "Saya tidak yakin seberapa serius, jadi saya menelepon 111 untuk minta saran.",
+  "colloc": [
+   "call 111",
+   "ring 111",
+   "NHS 111"
+  ],
+  "theme": "uk_health"
+ },
+ {
+  "w": "999",
+  "pos": "noun (phone number)",
+  "def": "The UK emergency phone number for an ambulance, the police or the fire service.",
+  "defId": "Nomor telepon darurat Inggris untuk memanggil ambulans, polisi, atau pemadam kebakaran.",
+  "ex": "If someone stops breathing, call 999 straight away.",
+  "exId": "Jika seseorang berhenti bernapas, segera telepon 999.",
+  "colloc": [
+   "call 999",
+   "dial 999",
+   "999 for an ambulance"
+  ],
+  "theme": "uk_health"
+ },
+ {
+  "w": "A&E",
+  "pos": "noun",
+  "def": "Accident and Emergency; the hospital department that treats serious injuries and emergencies.",
+  "defId": "Accident and Emergency; unit gawat darurat rumah sakit yang menangani cedera serius dan keadaan darurat.",
+  "ex": "He was taken to A&E after falling off his bike.",
+  "exId": "Dia dibawa ke unit gawat darurat setelah jatuh dari sepeda.",
+  "colloc": [
+   "go to A&E",
+   "A&E department",
+   "the A&E waiting room"
+  ],
+  "theme": "uk_health"
+ },
+ {
   "w": "abstain",
   "pos": "verb",
   "def": "to choose not to do or have something, especially something harmful",
@@ -323,6 +365,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "ambulance",
+  "pos": "noun",
+  "def": "A vehicle with trained crew that takes people to hospital in a medical emergency.",
+  "defId": "Kendaraan dengan kru terlatih yang membawa orang ke rumah sakit dalam keadaan darurat medis.",
+  "ex": "The ambulance arrived within ten minutes of the call.",
+  "exId": "Ambulans tiba dalam sepuluh menit setelah panggilan.",
+  "colloc": [
+   "call an ambulance",
+   "ambulance crew",
+   "wait for the ambulance"
+  ],
+  "theme": "uk_health"
+ },
+ {
   "w": "analyse",
   "pos": "verb",
   "def": "to examine something in detail in order to understand or explain it",
@@ -419,6 +475,20 @@ export const VOCAB = [
    "court of appeal"
   ],
   "theme": "crime"
+ },
+ {
+  "w": "appointment",
+  "pos": "noun",
+  "def": "An arranged time to see a doctor, nurse or other health professional.",
+  "defId": "Waktu yang sudah dijadwalkan untuk menemui dokter, perawat, atau tenaga kesehatan lain.",
+  "ex": "I've got an appointment with the nurse at half past two.",
+  "exId": "Saya ada janji dengan perawat pukul setengah tiga.",
+  "colloc": [
+   "book an appointment",
+   "cancel an appointment",
+   "appointment slot"
+  ],
+  "theme": "uk_health"
  },
  {
   "w": "apprenticeship",
@@ -687,6 +757,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "bank holiday",
+  "pos": "noun",
+  "def": "an official public holiday in the UK when most banks and shops close",
+  "defId": "hari libur nasional resmi di Inggris saat kebanyakan bank dan toko tutup",
+  "ex": "We're going to the coast for the bank holiday weekend.",
+  "exId": "Kami akan pergi ke pantai untuk akhir pekan libur nasional.",
+  "colloc": [
+   "a bank holiday weekend",
+   "the August bank holiday",
+   "a bank holiday Monday"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "bankruptcy",
   "pos": "noun",
   "def": "the state of being unable to pay your debts, officially declared by a court",
@@ -699,6 +783,34 @@ export const VOCAB = [
    "declare bankruptcy"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "banter",
+  "pos": "noun",
+  "def": "(informal) playful, teasing conversation between friends",
+  "defId": "(informal) obrolan bercanda dan saling menggoda antar teman",
+  "ex": "There's always good banter down the pub with my mates.",
+  "exId": "Selalu ada canda gurau seru di pub bersama teman-teman saya.",
+  "colloc": [
+   "good banter",
+   "friendly banter",
+   "a bit of banter"
+  ],
+  "theme": "uk_daily"
+ },
+ {
+  "w": "benefits",
+  "pos": "noun (plural)",
+  "def": "Money paid by the government to people who need financial help, for example if they are unemployed, disabled or on a low income.",
+  "defId": "Uang yang dibayarkan pemerintah kepada orang yang membutuhkan bantuan keuangan, misalnya karena menganggur, disabilitas, atau berpenghasilan rendah.",
+  "ex": "You may be able to claim benefits if your income is very low.",
+  "exId": "Anda mungkin bisa mengajukan tunjangan (benefits) jika penghasilan Anda sangat rendah.",
+  "colloc": [
+   "claim benefits",
+   "on benefits",
+   "housing benefit"
+  ],
+  "theme": "uk_money"
  },
  {
   "w": "bereavement",
@@ -729,6 +841,20 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "bin day",
+  "pos": "noun",
+  "def": "the weekly day when the council collects your rubbish and recycling",
+  "defId": "hari dalam seminggu saat petugas kota mengambil sampah dari rumah",
+  "ex": "Don't forget to put the bins out tonight, it's bin day tomorrow.",
+  "exId": "Jangan lupa keluarkan tempat sampah malam ini, besok hari pengambilan sampah.",
+  "colloc": [
+   "put the bins out",
+   "miss bin day",
+   "bin day collection"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "biodiversity",
   "pos": "noun",
   "def": "the variety of different plants and animals living in a particular area.",
@@ -741,6 +867,48 @@ export const VOCAB = [
    "rich biodiversity"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "biometric residence permit",
+  "pos": "noun phrase",
+  "def": "An identity card, now largely replaced by an online eVisa, showing a foreign national's right to stay and work in the UK.",
+  "defId": "Kartu identitas, yang kini sebagian besar digantikan oleh eVisa daring, yang menunjukkan hak warga negara asing untuk tinggal dan bekerja di Inggris.",
+  "ex": "My biometric residence permit showed my visa status until it was replaced by an eVisa.",
+  "exId": "Biometric residence permit saya menunjukkan status visa saya sampai digantikan oleh eVisa.",
+  "colloc": [
+   "a biometric residence permit (BRP)",
+   "collect your biometric residence permit",
+   "your BRP expires"
+  ],
+  "theme": "uk_money"
+ },
+ {
+  "w": "blood test",
+  "pos": "noun",
+  "def": "A test where a sample of your blood is taken to check your health.",
+  "defId": "Pemeriksaan yang mengambil sampel darah Anda untuk memeriksa kondisi kesehatan.",
+  "ex": "The nurse booked me in for a blood test next Tuesday.",
+  "exId": "Perawat menjadwalkan saya untuk tes darah Selasa depan.",
+  "colloc": [
+   "have a blood test",
+   "book a blood test",
+   "blood test results"
+  ],
+  "theme": "uk_health"
+ },
+ {
+  "w": "boiler",
+  "pos": "noun",
+  "def": "the machine that heats the water for your radiators and hot taps.",
+  "defId": "mesin yang memanaskan air untuk radiator dan keran air panas di rumahmu.",
+  "ex": "The boiler broke down in winter, so we had no hot water for two days.",
+  "exId": "Pemanas air rusak saat musim dingin, sehingga kami tidak punya air panas selama dua hari.",
+  "colloc": [
+   "the boiler breaks down",
+   "boiler service",
+   "combi boiler"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "bond",
@@ -785,6 +953,20 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "broadband",
+  "pos": "noun",
+  "def": "a high-speed internet connection for your home.",
+  "defId": "koneksi internet berkecepatan tinggi untuk rumahmu.",
+  "ex": "It took a week to get the broadband connected after we moved in.",
+  "exId": "Butuh waktu seminggu untuk memasang broadband setelah kami pindah.",
+  "colloc": [
+   "broadband connection",
+   "fibre broadband",
+   "set up broadband"
+  ],
+  "theme": "uk_home"
+ },
+ {
   "w": "broadcast",
   "pos": "verb",
   "def": "to send out a programme on television or radio",
@@ -797,6 +979,20 @@ export const VOCAB = [
    "broadcast the news"
   ],
   "theme": "media"
+ },
+ {
+  "w": "brolly",
+  "pos": "noun",
+  "def": "(informal) an umbrella",
+  "defId": "(informal) payung",
+  "ex": "Take your brolly, it looks like rain later.",
+  "exId": "Bawa payungmu, sepertinya nanti akan hujan.",
+  "colloc": [
+   "take a brolly",
+   "put up your brolly",
+   "forget your brolly"
+  ],
+  "theme": "uk_daily"
  },
  {
   "w": "browse",
@@ -869,6 +1065,20 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "car boot sale",
+  "pos": "noun",
+  "def": "an outdoor sale where people sell unwanted goods from the boots of their cars",
+  "defId": "pasar barang bekas di luar ruangan tempat orang menjual barang dari bagasi mobil",
+  "ex": "We picked up some cheap books at the car boot sale on Sunday.",
+  "exId": "Kami membeli beberapa buku murah di pasar barang bekas mobil pada hari Minggu.",
+  "colloc": [
+   "go to a car boot sale",
+   "a bargain at the car boot sale",
+   "hold a car boot sale"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "carbon",
   "pos": "noun",
   "def": "a chemical element found in coal and oil that causes pollution when released as carbon dioxide.",
@@ -909,6 +1119,62 @@ export const VOCAB = [
    "championship title"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "charity shop",
+  "pos": "noun",
+  "def": "a shop run by a charity that sells second-hand donated goods",
+  "defId": "toko amal yang menjual barang bekas sumbangan untuk menggalang dana",
+  "ex": "I found a lovely coat for a fiver in the charity shop.",
+  "exId": "Saya menemukan mantel bagus seharga lima pound di toko amal.",
+  "colloc": [
+   "donate to a charity shop",
+   "a charity shop bargain",
+   "browse the charity shop"
+  ],
+  "theme": "uk_daily"
+ },
+ {
+  "w": "cheers",
+  "pos": "exclamation",
+  "def": "(informal) thanks, or goodbye; also said when raising a glass",
+  "defId": "(informal) terima kasih atau sampai jumpa; juga diucapkan saat bersulang",
+  "ex": "Cheers for the lift, see you tomorrow!",
+  "exId": "Terima kasih ya sudah menumpangi, sampai jumpa besok!",
+  "colloc": [
+   "cheers, mate",
+   "cheers for that",
+   "cheers, thanks"
+  ],
+  "theme": "uk_daily"
+ },
+ {
+  "w": "chemist",
+  "pos": "noun",
+  "def": "(informal) An everyday British word for a pharmacy or the pharmacist who works there.",
+  "defId": "(informal) Kata sehari-hari orang Inggris untuk apotek atau apoteker yang bekerja di sana.",
+  "ex": "Pop down to the chemist and ask them for something for a cold.",
+  "exId": "Mampirlah ke apotek dan mintalah sesuatu untuk mengobati pilek.",
+  "colloc": [
+   "the chemist's",
+   "go to the chemist",
+   "ask the chemist"
+  ],
+  "theme": "uk_health"
+ },
+ {
+  "w": "chippy",
+  "pos": "noun",
+  "def": "(informal) a fish and chip shop",
+  "defId": "(informal) toko yang menjual ikan goreng dan kentang goreng khas Inggris",
+  "ex": "Let's grab fish and chips from the chippy on the way home.",
+  "exId": "Ayo beli ikan dan kentang goreng dari toko chippy dalam perjalanan pulang.",
+  "colloc": [
+   "the local chippy",
+   "go to the chippy",
+   "a bag of chips from the chippy"
+  ],
+  "theme": "uk_daily"
  },
  {
   "w": "choreography",
@@ -1331,6 +1597,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "consultant",
+  "pos": "noun",
+  "def": "A senior hospital doctor who is an expert in a particular area of medicine.",
+  "defId": "Dokter senior di rumah sakit yang menjadi ahli di bidang kedokteran tertentu.",
+  "ex": "After the referral, I saw a consultant about my knee.",
+  "exId": "Setelah dirujuk, saya menemui seorang konsultan (dokter spesialis senior) untuk lutut saya.",
+  "colloc": [
+   "see a consultant",
+   "hospital consultant",
+   "under a consultant"
+  ],
+  "theme": "uk_health"
+ },
+ {
   "w": "consume",
   "pos": "verb",
   "def": "to eat or drink something",
@@ -1343,6 +1623,20 @@ export const VOCAB = [
    "safe to consume"
   ],
   "theme": "food"
+ },
+ {
+  "w": "contactless",
+  "pos": "adjective (also noun)",
+  "def": "A way of paying by tapping a card or phone on a reader, without entering a PIN.",
+  "defId": "Cara membayar dengan menempelkan kartu atau ponsel ke mesin pembaca, tanpa memasukkan PIN.",
+  "ex": "Just tap your card on the reader — most shops take contactless now.",
+  "exId": "Cukup tempelkan kartu Anda ke mesin — kebanyakan toko sekarang menerima pembayaran nirsentuh (contactless).",
+  "colloc": [
+   "pay contactless",
+   "a contactless payment",
+   "the contactless limit"
+  ],
+  "theme": "uk_money"
  },
  {
   "w": "contagious",
@@ -1457,6 +1751,20 @@ export const VOCAB = [
   "theme": "sport"
  },
  {
+  "w": "corner shop",
+  "pos": "noun",
+  "def": "a small local shop selling everyday groceries and newspapers",
+  "defId": "toko kecil di dekat rumah yang menjual kebutuhan sehari-hari dan koran",
+  "ex": "I nipped to the corner shop for some milk and a newspaper.",
+  "exId": "Saya mampir sebentar ke toko kelontong dekat rumah untuk beli susu dan koran.",
+  "colloc": [
+   "the local corner shop",
+   "run to the corner shop",
+   "a corner shop owner"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "correlation",
   "pos": "noun",
   "def": "a connection between two things in which they tend to change together",
@@ -1483,6 +1791,20 @@ export const VOCAB = [
    "political correspondent"
   ],
   "theme": "media"
+ },
+ {
+  "w": "council tax",
+  "pos": "noun phrase",
+  "def": "a local tax you pay to your council for services such as rubbish collection and street cleaning.",
+  "defId": "pajak daerah yang kamu bayar ke pemerintah kota untuk layanan seperti pengangkutan sampah dan kebersihan jalan.",
+  "ex": "As a full-time student, you may not have to pay council tax.",
+  "exId": "Sebagai mahasiswa penuh waktu, kamu mungkin tidak perlu membayar pajak daerah.",
+  "colloc": [
+   "pay council tax",
+   "council tax band",
+   "council tax bill"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "coursework",
@@ -1639,6 +1961,20 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "cuppa",
+  "pos": "noun",
+  "def": "(informal) a cup of tea",
+  "defId": "(informal) secangkir teh",
+  "ex": "Sit down and I'll make you a nice cuppa.",
+  "exId": "Duduklah, nanti saya buatkan secangkir teh yang enak.",
+  "colloc": [
+   "make a cuppa",
+   "fancy a cuppa",
+   "a nice cuppa"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "curator",
   "pos": "noun",
   "def": "a person in charge of selecting and organising the works shown in a museum or gallery",
@@ -1665,6 +2001,20 @@ export const VOCAB = [
    "local currency"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "current account",
+  "pos": "noun phrase",
+  "def": "An everyday bank account used for receiving your wages and paying bills.",
+  "defId": "Rekening bank sehari-hari yang dipakai untuk menerima gaji dan membayar tagihan.",
+  "ex": "Your salary will be paid straight into your current account.",
+  "exId": "Gaji Anda akan dibayarkan langsung ke rekening giro (current account) Anda.",
+  "colloc": [
+   "open a current account",
+   "a joint current account",
+   "your current account"
+  ],
+  "theme": "uk_money"
  },
  {
   "w": "curriculum",
@@ -1735,6 +2085,20 @@ export const VOCAB = [
    "dairy cattle"
   ],
   "theme": "food"
+ },
+ {
+  "w": "damp",
+  "pos": "noun",
+  "def": "unwanted moisture in walls or rooms that can cause mould and a musty smell.",
+  "defId": "kelembapan berlebih pada dinding atau ruangan yang bisa menyebabkan jamur dan bau apak.",
+  "ex": "There was damp in the bedroom, so black mould kept appearing on the wall.",
+  "exId": "Ada masalah lembap di kamar tidur, sehingga jamur hitam terus muncul di dinding.",
+  "colloc": [
+   "rising damp",
+   "damp patch",
+   "damp and mould"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "database",
@@ -1863,6 +2227,20 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "dentist",
+  "pos": "noun",
+  "def": "A health professional who looks after your teeth and gums; also the place where they work.",
+  "defId": "Tenaga kesehatan yang merawat gigi dan gusi Anda; juga tempat mereka bekerja.",
+  "ex": "I need to find an NHS dentist who is taking on new patients.",
+  "exId": "Saya perlu mencari dokter gigi NHS yang masih menerima pasien baru.",
+  "colloc": [
+   "NHS dentist",
+   "go to the dentist",
+   "register with a dentist"
+  ],
+  "theme": "uk_health"
+ },
+ {
   "w": "departure",
   "pos": "noun",
   "def": "the act of leaving a place, especially to start a journey",
@@ -1931,6 +2309,34 @@ export const VOCAB = [
    "depletion of resources"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "deposit",
+  "pos": "noun",
+  "def": "a sum of money you pay at the start of a tenancy as security, returned when you leave if there is no damage.",
+  "defId": "sejumlah uang jaminan yang kamu bayar di awal masa sewa, dikembalikan saat kamu pergi jika tidak ada kerusakan.",
+  "ex": "We got our full deposit back because we left the flat clean and undamaged.",
+  "exId": "Kami mendapatkan seluruh uang jaminan kami kembali karena kami meninggalkan apartemen dalam keadaan bersih dan tanpa kerusakan.",
+  "colloc": [
+   "pay a deposit",
+   "get your deposit back",
+   "hold a deposit"
+  ],
+  "theme": "uk_home"
+ },
+ {
+  "w": "deposit protection scheme",
+  "pos": "noun phrase",
+  "def": "an official, government-backed scheme that holds your tenancy deposit safely until the end of the tenancy.",
+  "defId": "skema resmi yang didukung pemerintah untuk menyimpan uang jaminan sewamu dengan aman sampai masa sewa berakhir.",
+  "ex": "By law, your landlord must put your money in a deposit protection scheme within 30 days.",
+  "exId": "Menurut hukum, pemilik rumah harus menaruh uangmu di skema perlindungan deposit dalam waktu 30 hari.",
+  "colloc": [
+   "protect a deposit",
+   "government-backed scheme",
+   "register the deposit"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "deprivation",
@@ -2113,6 +2519,34 @@ export const VOCAB = [
    "digital transformation"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "digs",
+  "pos": "noun (plural)",
+  "def": "(informal) rented accommodation or lodgings, often a room in someone else's house.",
+  "defId": "(informal) tempat tinggal sewaan atau indekos, sering kali berupa kamar di rumah orang lain.",
+  "ex": "He found cheap digs near the university for his first term.",
+  "exId": "Dia menemukan kos murah dekat universitas untuk semester pertamanya.",
+  "colloc": [
+   "find digs",
+   "student digs",
+   "cheap digs"
+  ],
+  "theme": "uk_home"
+ },
+ {
+  "w": "direct debit",
+  "pos": "noun phrase",
+  "def": "an automatic payment taken regularly from your bank account by a company you have given permission to.",
+  "defId": "pembayaran otomatis yang diambil secara rutin dari rekening bankmu oleh perusahaan yang kamu izinkan.",
+  "ex": "I set up a direct debit so my electricity bill is paid automatically each month.",
+  "exId": "Saya membuat direct debit agar tagihan listrik saya terbayar otomatis setiap bulan.",
+  "colloc": [
+   "set up a direct debit",
+   "pay by direct debit",
+   "cancel a direct debit"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "discharge",
@@ -2563,6 +2997,20 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "estate agent",
+  "pos": "noun phrase",
+  "def": "a company or person whose job is to sell or let houses and flats.",
+  "defId": "perusahaan atau orang yang pekerjaannya menjual atau menyewakan rumah dan apartemen.",
+  "ex": "The estate agent showed us three flats in one afternoon.",
+  "exId": "Agen properti itu menunjukkan tiga apartemen kepada kami dalam satu sore.",
+  "colloc": [
+   "local estate agent",
+   "high-street estate agent",
+   "estate agent's window"
+  ],
+  "theme": "uk_home"
+ },
+ {
   "w": "estranged",
   "pos": "adjective",
   "def": "no longer close to someone because of a disagreement",
@@ -2589,6 +3037,20 @@ export const VOCAB = [
    "mixed ethnicity"
   ],
   "theme": "society"
+ },
+ {
+  "w": "eviction",
+  "pos": "noun",
+  "def": "the legal process of forcing a tenant to leave a property.",
+  "defId": "proses hukum untuk memaksa penyewa meninggalkan sebuah properti.",
+  "ex": "The landlord must follow the correct legal steps before an eviction.",
+  "exId": "Pemilik rumah harus mengikuti langkah hukum yang benar sebelum melakukan pengusiran.",
+  "colloc": [
+   "eviction notice",
+   "face eviction",
+   "illegal eviction"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "excursion",
@@ -2913,6 +3375,20 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "fortnight",
+  "pos": "noun",
+  "def": "a period of two weeks",
+  "defId": "jangka waktu dua minggu",
+  "ex": "I get paid every fortnight, so my next wage comes in two weeks.",
+  "exId": "Saya digaji setiap dua minggu, jadi gaji berikutnya masuk dua minggu lagi.",
+  "colloc": [
+   "every fortnight",
+   "a fortnight's holiday",
+   "in a fortnight"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "fossil",
   "pos": "noun",
   "def": "the remains of ancient plants or animals; 'fossil fuels' such as coal, oil, and gas are formed from them.",
@@ -2969,6 +3445,20 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "freehold",
+  "pos": "noun",
+  "def": "full ownership of a property and the land it stands on, with no time limit.",
+  "defId": "kepemilikan penuh atas sebuah properti beserta tanahnya, tanpa batas waktu.",
+  "ex": "When you buy the freehold, you own both the house and the land outright.",
+  "exId": "Saat kamu membeli freehold, kamu memiliki rumah sekaligus tanahnya sepenuhnya.",
+  "colloc": [
+   "buy the freehold",
+   "freehold property",
+   "share of freehold"
+  ],
+  "theme": "uk_home"
+ },
+ {
   "w": "gadget",
   "pos": "noun",
   "def": "a small, clever device or tool, usually electronic",
@@ -2983,6 +3473,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "gaff",
+  "pos": "noun",
+  "def": "(informal) a person's home or flat.",
+  "defId": "(informal) rumah atau apartemen seseorang.",
+  "ex": "Come round to my gaff after work for a cup of tea.",
+  "exId": "Mampirlah ke rumahku sepulang kerja untuk minum teh.",
+  "colloc": [
+   "my gaff",
+   "round at his gaff",
+   "nice gaff"
+  ],
+  "theme": "uk_home"
+ },
+ {
   "w": "gallery",
   "pos": "noun",
   "def": "a room or building where works of art are shown to the public",
@@ -2995,6 +3499,20 @@ export const VOCAB = [
    "gallery of paintings"
   ],
   "theme": "arts"
+ },
+ {
+  "w": "gas meter",
+  "pos": "noun phrase",
+  "def": "a device that measures how much gas your home uses.",
+  "defId": "alat yang mengukur berapa banyak gas yang digunakan rumahmu.",
+  "ex": "Please read the gas meter and send the number to your supplier.",
+  "exId": "Tolong baca meteran gas dan kirimkan angkanya ke penyedia layananmu.",
+  "colloc": [
+   "read the gas meter",
+   "gas meter reading",
+   "prepayment meter"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "genre",
@@ -3023,6 +3541,34 @@ export const VOCAB = [
    "fix a glitch"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "GP",
+  "pos": "noun",
+  "def": "General Practitioner; a local family doctor who is usually your first point of contact for health problems.",
+  "defId": "General Practitioner; dokter umum atau dokter keluarga setempat yang biasanya menjadi kontak pertama saat ada masalah kesehatan.",
+  "ex": "If you feel unwell, book an appointment to see your GP first.",
+  "exId": "Kalau Anda merasa tidak enak badan, buatlah janji untuk menemui GP Anda lebih dulu.",
+  "colloc": [
+   "see a GP",
+   "your local GP",
+   "GP appointment"
+  ],
+  "theme": "uk_health"
+ },
+ {
+  "w": "GP practice",
+  "pos": "noun",
+  "def": "The clinic or organisation where a group of GPs and staff provide care to registered patients.",
+  "defId": "Klinik atau lembaga tempat sekelompok dokter umum (GP) dan stafnya memberikan layanan kepada pasien terdaftar.",
+  "ex": "There are three GP practices within walking distance of our flat.",
+  "exId": "Ada tiga GP practice dalam jarak berjalan kaki dari flat kami.",
+  "colloc": [
+   "local GP practice",
+   "join a GP practice",
+   "GP practice reception"
+  ],
+  "theme": "uk_health"
  },
  {
   "w": "graduate",
@@ -3065,6 +3611,20 @@ export const VOCAB = [
    "greenhouse emissions"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "guarantor",
+  "pos": "noun",
+  "def": "a person who promises to pay your rent if you cannot pay it yourself.",
+  "defId": "orang yang berjanji akan membayar sewamu jika kamu tidak mampu membayarnya sendiri.",
+  "ex": "As a new arrival with no UK credit history, I needed a guarantor to rent the flat.",
+  "exId": "Sebagai pendatang baru tanpa riwayat kredit di Inggris, saya membutuhkan penjamin untuk menyewa apartemen.",
+  "colloc": [
+   "act as guarantor",
+   "need a guarantor",
+   "UK-based guarantor"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "guardian",
@@ -3165,6 +3725,34 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "high street",
+  "pos": "noun",
+  "def": "the main shopping street of a town, lined with shops and banks",
+  "defId": "jalan utama pusat perbelanjaan di sebuah kota, dipenuhi toko dan bank",
+  "ex": "Most of the big banks have a branch on the high street.",
+  "exId": "Sebagian besar bank besar punya cabang di jalan utama pertokoan.",
+  "colloc": [
+   "on the high street",
+   "high street shops",
+   "the local high street"
+  ],
+  "theme": "uk_daily"
+ },
+ {
+  "w": "HMRC",
+  "pos": "noun (abbreviation)",
+  "def": "His Majesty's Revenue and Customs — the UK government department that collects taxes.",
+  "defId": "His Majesty's Revenue and Customs — departemen pemerintah Inggris yang memungut pajak.",
+  "ex": "HMRC sent me a letter saying I'd paid too much tax and was due a refund.",
+  "exId": "HMRC mengirimi saya surat yang menyatakan bahwa saya membayar pajak terlalu banyak dan berhak mendapat pengembalian.",
+  "colloc": [
+   "contact HMRC",
+   "register with HMRC",
+   "an HMRC tax code"
+  ],
+  "theme": "uk_money"
+ },
+ {
   "w": "holistic",
   "pos": "adjective",
   "def": "treating the whole person, including mind and body, rather than just the illness",
@@ -3205,6 +3793,20 @@ export const VOCAB = [
    "run a household"
   ],
   "theme": "family"
+ },
+ {
+  "w": "housemate",
+  "pos": "noun",
+  "def": "a person you share a rented house with, usually each having your own bedroom (a flatmate is someone you share a flat with).",
+  "defId": "orang yang tinggal berbagi rumah sewaan denganmu, biasanya masing-masing punya kamar sendiri.",
+  "ex": "My housemate and I split the bills evenly each month.",
+  "exId": "Saya dan teman serumah membagi tagihan secara merata setiap bulan.",
+  "colloc": [
+   "share with housemates",
+   "a friendly housemate",
+   "flatmate"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "hygiene",
@@ -3543,6 +4145,20 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "inventory",
+  "pos": "noun",
+  "def": "a list describing the contents and condition of a property at the start of a tenancy.",
+  "defId": "daftar yang mencatat isi dan kondisi properti pada awal masa sewa.",
+  "ex": "Check the inventory carefully and note any damage before you move in.",
+  "exId": "Periksa daftar inventaris dengan teliti dan catat kerusakan apa pun sebelum kamu pindah.",
+  "colloc": [
+   "check the inventory",
+   "inventory report",
+   "sign the inventory"
+  ],
+  "theme": "uk_home"
+ },
+ {
   "w": "invigilate",
   "pos": "verb",
   "def": "to watch students during an exam to make sure they do not cheat",
@@ -3555,6 +4171,20 @@ export const VOCAB = [
    "invigilate students"
   ],
   "theme": "education"
+ },
+ {
+  "w": "invoice",
+  "pos": "noun",
+  "def": "A document that lists goods or services provided and asks for payment.",
+  "defId": "Dokumen yang merinci barang atau jasa yang diberikan dan meminta pembayaran.",
+  "ex": "I sent the client an invoice for the work and expect to be paid within 30 days.",
+  "exId": "Saya mengirim faktur (invoice) kepada klien atas pekerjaan itu dan berharap dibayar dalam 30 hari.",
+  "colloc": [
+   "send an invoice",
+   "pay an invoice",
+   "an outstanding invoice"
+  ],
+  "theme": "uk_money"
  },
  {
   "w": "irrigation",
@@ -3571,6 +4201,20 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "ISA",
+  "pos": "noun (abbreviation)",
+  "def": "Individual Savings Account — a savings or investment account on which you pay no tax on the interest or gains.",
+  "defId": "Individual Savings Account — rekening tabungan atau investasi yang bunga atau keuntungannya tidak dikenai pajak.",
+  "ex": "I put some money into a cash ISA because the interest is tax-free.",
+  "exId": "Saya menaruh sebagian uang di cash ISA karena bunganya bebas pajak.",
+  "colloc": [
+   "a cash ISA",
+   "open an ISA",
+   "pay into an ISA"
+  ],
+  "theme": "uk_money"
+ },
+ {
   "w": "itinerary",
   "pos": "noun",
   "def": "a detailed plan or schedule of a journey, showing the route and places to visit",
@@ -3583,6 +4227,20 @@ export const VOCAB = [
    "travel itinerary"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "jab",
+  "pos": "noun",
+  "def": "(informal) A vaccination or injection given by a nurse or doctor.",
+  "defId": "(informal) Vaksinasi atau suntikan yang diberikan oleh perawat atau dokter.",
+  "ex": "Have you had your flu jab this year?",
+  "exId": "Apakah Anda sudah mendapat suntik flu tahun ini?",
+  "colloc": [
+   "flu jab",
+   "have a jab",
+   "booster jab"
+  ],
+  "theme": "uk_health"
  },
  {
   "w": "jet lag",
@@ -3613,6 +4271,20 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "jumper",
+  "pos": "noun",
+  "def": "a knitted top worn over a shirt for warmth (a sweater)",
+  "defId": "baju rajut hangat yang dikenakan di atas kemeja (sweter)",
+  "ex": "Put a jumper on, it's chilly outside.",
+  "exId": "Pakai sweter, di luar dingin.",
+  "colloc": [
+   "a woolly jumper",
+   "put a jumper on",
+   "a Christmas jumper"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "jurisdiction",
   "pos": "noun",
   "def": "the official power to make legal decisions in a particular area",
@@ -3641,6 +4313,20 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "knackered",
+  "pos": "adjective",
+  "def": "(informal) extremely tired; also, worn out or broken",
+  "defId": "(informal) sangat lelah; bisa juga berarti rusak atau aus",
+  "ex": "I'm absolutely knackered after that long shift at work.",
+  "exId": "Saya benar-benar kelelahan setelah kerja seharian penuh.",
+  "colloc": [
+   "absolutely knackered",
+   "feel knackered",
+   "knackered out"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "landfill",
   "pos": "noun",
   "def": "a place where large amounts of waste are buried in the ground.",
@@ -3653,6 +4339,20 @@ export const VOCAB = [
    "landfill waste"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "landlord",
+  "pos": "noun",
+  "def": "the person who owns a property and rents it out to tenants.",
+  "defId": "orang yang memiliki properti dan menyewakannya kepada penyewa.",
+  "ex": "If the heating breaks, you should tell your landlord straight away.",
+  "exId": "Kalau pemanasnya rusak, kamu harus langsung memberi tahu pemilik rumahmu.",
+  "colloc": [
+   "private landlord",
+   "contact your landlord",
+   "landlord and tenant"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "landmark",
@@ -3697,6 +4397,20 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "leasehold",
+  "pos": "noun",
+  "def": "ownership of a property for a fixed number of years, while someone else owns the land it stands on.",
+  "defId": "kepemilikan properti untuk sejumlah tahun tertentu, sementara tanahnya dimiliki orang lain.",
+  "ex": "Most flats in the UK are sold as leasehold, often on a 99- or 125-year lease.",
+  "exId": "Sebagian besar apartemen di Inggris dijual secara leasehold, sering kali dengan sewa 99 atau 125 tahun.",
+  "colloc": [
+   "leasehold flat",
+   "extend the lease",
+   "leasehold property"
+  ],
+  "theme": "uk_home"
+ },
+ {
   "w": "legislation",
   "pos": "noun",
   "def": "a law or set of laws made by a government",
@@ -3723,6 +4437,20 @@ export const VOCAB = [
    "leisure centre"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "letting agent",
+  "pos": "noun phrase",
+  "def": "a company or person that finds tenants and manages rented homes on behalf of landlords.",
+  "defId": "perusahaan atau orang yang mencari penyewa dan mengelola rumah sewaan atas nama pemilik.",
+  "ex": "We paid the first month's rent to the letting agent before moving in.",
+  "exId": "Kami membayar sewa bulan pertama kepada agen persewaan sebelum pindah.",
+  "colloc": [
+   "register with a letting agent",
+   "letting agent's fees",
+   "through a letting agent"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "liability",
@@ -3949,6 +4677,20 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "medical record",
+  "pos": "noun",
+  "def": "The official file of your health history, treatments and test results held by the NHS.",
+  "defId": "Berkas resmi berisi riwayat kesehatan, pengobatan, dan hasil pemeriksaan Anda yang disimpan oleh NHS.",
+  "ex": "Your new GP can request your medical records from your old surgery.",
+  "exId": "GP baru Anda bisa meminta rekam medis Anda dari tempat praktik yang lama.",
+  "colloc": [
+   "medical records",
+   "access your records",
+   "update your record"
+  ],
+  "theme": "uk_health"
+ },
+ {
   "w": "mentor",
   "pos": "noun",
   "def": "an experienced person who advises and helps someone with less experience",
@@ -3991,6 +4733,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "meter reading",
+  "pos": "noun phrase",
+  "def": "the number you take from your gas or electricity meter to tell your supplier how much you have used.",
+  "defId": "angka yang kamu ambil dari meteran gas atau listrik untuk memberi tahu penyedia berapa banyak yang telah kamu pakai.",
+  "ex": "Give your supplier a meter reading on the day you move in.",
+  "exId": "Berikan angka meteran kepada penyediamu pada hari kamu pindah masuk.",
+  "colloc": [
+   "take a meter reading",
+   "submit a meter reading",
+   "opening reading"
+  ],
+  "theme": "uk_home"
+ },
+ {
   "w": "methodology",
   "pos": "noun",
   "def": "the set of methods and principles used to carry out research",
@@ -4005,6 +4761,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "midwife",
+  "pos": "noun",
+  "def": "A health professional trained to care for women during pregnancy, birth and just after.",
+  "defId": "Tenaga kesehatan terlatih yang merawat perempuan selama kehamilan, persalinan, dan sesudahnya.",
+  "ex": "The midwife will visit you at home in the first week after the baby is born.",
+  "exId": "Bidan akan mengunjungi Anda di rumah pada minggu pertama setelah bayi lahir.",
+  "colloc": [
+   "see the midwife",
+   "community midwife",
+   "midwife appointment"
+  ],
+  "theme": "uk_health"
+ },
+ {
   "w": "migration",
   "pos": "noun",
   "def": "the movement of large numbers of people from one place to another to live",
@@ -4017,6 +4787,20 @@ export const VOCAB = [
    "migration patterns"
   ],
   "theme": "society"
+ },
+ {
+  "w": "minimum wage",
+  "pos": "noun phrase",
+  "def": "The lowest hourly pay an employer is legally allowed to give a worker.",
+  "defId": "Upah per jam terendah yang secara hukum boleh diberikan pemberi kerja kepada pekerja.",
+  "ex": "By law, they must pay you at least the national minimum wage for every hour you work.",
+  "exId": "Menurut hukum, mereka harus membayar Anda setidaknya upah minimum nasional untuk setiap jam kerja.",
+  "colloc": [
+   "the national minimum wage",
+   "earn minimum wage",
+   "below the minimum wage"
+  ],
+  "theme": "uk_money"
  },
  {
   "w": "minority",
@@ -4103,6 +4887,20 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "mortgage",
+  "pos": "noun",
+  "def": "a long-term loan from a bank that you use to buy a home and pay back with interest.",
+  "defId": "pinjaman jangka panjang dari bank yang kamu gunakan untuk membeli rumah dan dibayar kembali dengan bunga.",
+  "ex": "They saved for years before they could get a mortgage on their first house.",
+  "exId": "Mereka menabung bertahun-tahun sebelum bisa mendapatkan KPR untuk rumah pertama mereka.",
+  "colloc": [
+   "get a mortgage",
+   "mortgage repayments",
+   "mortgage deposit"
+  ],
+  "theme": "uk_home"
+ },
+ {
   "w": "mosaic",
   "pos": "noun",
   "def": "a picture or pattern made from many small pieces of coloured stone or glass",
@@ -4173,6 +4971,20 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "National Insurance number",
+  "pos": "noun phrase",
+  "def": "A unique personal number used to record your tax and National Insurance contributions in the UK.",
+  "defId": "Nomor pribadi unik yang dipakai untuk mencatat pajak dan iuran jaminan sosial (National Insurance) Anda di Inggris.",
+  "ex": "You'll need your National Insurance number before you can start your new job.",
+  "exId": "Anda memerlukan nomor National Insurance sebelum bisa mulai bekerja di pekerjaan baru Anda.",
+  "colloc": [
+   "apply for a National Insurance number",
+   "quote your National Insurance number",
+   "a National Insurance number letter"
+  ],
+  "theme": "uk_money"
+ },
+ {
   "w": "negotiate",
   "pos": "verb",
   "def": "to try to reach an agreement through formal discussion",
@@ -4201,6 +5013,34 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "NHS",
+  "pos": "noun (proper)",
+  "def": "The National Health Service; the UK's publicly funded health system that provides most care free at the point of use.",
+  "defId": "National Health Service; sistem layanan kesehatan Inggris yang didanai negara dan sebagian besar layanannya gratis saat digunakan.",
+  "ex": "As a resident, you can use the NHS for most of your healthcare needs.",
+  "exId": "Sebagai penduduk, Anda bisa memakai NHS untuk sebagian besar kebutuhan kesehatan Anda.",
+  "colloc": [
+   "on the NHS",
+   "NHS services",
+   "free on the NHS"
+  ],
+  "theme": "uk_health"
+ },
+ {
+  "w": "NHS number",
+  "pos": "noun",
+  "def": "A unique 10-digit number that identifies you within the NHS.",
+  "defId": "Nomor unik 10 digit yang menjadi identitas Anda dalam sistem NHS.",
+  "ex": "You'll be given an NHS number when you register with a GP.",
+  "exId": "Anda akan diberi nomor NHS saat mendaftar ke seorang GP.",
+  "colloc": [
+   "your NHS number",
+   "find your NHS number",
+   "quote your NHS number"
+  ],
+  "theme": "uk_health"
+ },
+ {
   "w": "norm",
   "pos": "noun",
   "def": "a standard of behaviour that is normal or expected in a society",
@@ -4213,6 +5053,20 @@ export const VOCAB = [
    "accepted norm"
   ],
   "theme": "society"
+ },
+ {
+  "w": "notice period",
+  "pos": "noun phrase",
+  "def": "the amount of time you must tell your landlord in advance before you move out.",
+  "defId": "jangka waktu pemberitahuan yang harus kamu sampaikan kepada pemilik rumah sebelum pindah.",
+  "ex": "Our tenancy has a one-month notice period, so we told the landlord in good time.",
+  "exId": "Masa sewa kami memiliki masa pemberitahuan satu bulan, jadi kami memberi tahu pemilik rumah jauh-jauh hari.",
+  "colloc": [
+   "give notice",
+   "a month's notice",
+   "serve notice"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "notification",
@@ -4355,6 +5209,34 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "off-licence",
+  "pos": "noun",
+  "def": "a shop licensed to sell alcohol to take away and drink elsewhere",
+  "defId": "toko berizin yang menjual minuman beralkohol untuk dibawa pulang",
+  "ex": "We stopped at the off-licence to buy a bottle of wine for dinner.",
+  "exId": "Kami mampir di toko minuman keras untuk membeli sebotol anggur untuk makan malam.",
+  "colloc": [
+   "the local off-licence",
+   "pop to the off-licence",
+   "buy from the off-licence"
+  ],
+  "theme": "uk_daily"
+ },
+ {
+  "w": "off-peak",
+  "pos": "adjective",
+  "def": "relating to the cheaper, less busy times to travel, usually outside rush hour",
+  "defId": "berkaitan dengan waktu perjalanan di luar jam sibuk yang lebih murah",
+  "ex": "Train tickets are much cheaper if you travel off-peak after half nine.",
+  "exId": "Tiket kereta jauh lebih murah jika Anda bepergian di luar jam sibuk setelah pukul setengah sepuluh.",
+  "colloc": [
+   "an off-peak ticket",
+   "travel off-peak",
+   "off-peak times"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "offence",
   "pos": "noun",
   "def": "an illegal act; a crime",
@@ -4425,6 +5307,20 @@ export const VOCAB = [
   "theme": "sport"
  },
  {
+  "w": "optician",
+  "pos": "noun",
+  "def": "A professional who tests your eyesight and sells glasses and contact lenses.",
+  "defId": "Tenaga profesional yang memeriksa penglihatan Anda serta menjual kacamata dan lensa kontak.",
+  "ex": "The optician said I need glasses for reading.",
+  "exId": "Optisien itu mengatakan saya perlu kacamata untuk membaca.",
+  "colloc": [
+   "see the optician",
+   "eye test at the optician",
+   "the optician's"
+  ],
+  "theme": "uk_health"
+ },
+ {
   "w": "organic",
   "pos": "adjective",
   "def": "produced or grown without artificial chemicals or fertilizers.",
@@ -4451,6 +5347,20 @@ export const VOCAB = [
    "ornate carving"
   ],
   "theme": "arts"
+ },
+ {
+  "w": "out-of-hours",
+  "pos": "adjective",
+  "def": "Describing NHS care available outside normal surgery hours, such as evenings and weekends.",
+  "defId": "Menggambarkan layanan NHS yang tersedia di luar jam praktik biasa, seperti malam hari dan akhir pekan.",
+  "ex": "If you fall ill at night, there is an out-of-hours service you can call.",
+  "exId": "Jika Anda jatuh sakit di malam hari, ada layanan di luar jam kerja (out-of-hours) yang bisa dihubungi.",
+  "colloc": [
+   "out-of-hours service",
+   "out-of-hours GP",
+   "out-of-hours care"
+  ],
+  "theme": "uk_health"
  },
  {
   "w": "outbreak",
@@ -4495,6 +5405,34 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "over-the-counter",
+  "pos": "adjective",
+  "def": "Describing medicine you can buy without a prescription.",
+  "defId": "Menggambarkan obat yang bisa dibeli tanpa resep dokter (obat bebas).",
+  "ex": "Paracetamol is an over-the-counter medicine you can get at any supermarket.",
+  "exId": "Parasetamol adalah obat bebas yang bisa Anda dapatkan di supermarket mana pun.",
+  "colloc": [
+   "over-the-counter medicine",
+   "buy over the counter",
+   "over-the-counter painkillers"
+  ],
+  "theme": "uk_health"
+ },
+ {
+  "w": "overdraft",
+  "pos": "noun",
+  "def": "An arrangement that lets you spend more money than you have in your bank account, up to an agreed limit.",
+  "defId": "Fasilitas yang membuat Anda bisa membelanjakan uang melebihi saldo di rekening bank, sampai batas yang disepakati.",
+  "ex": "I went into my overdraft at the end of the month and got charged interest.",
+  "exId": "Saya masuk ke saldo minus (overdraft) di akhir bulan dan dikenai bunga.",
+  "colloc": [
+   "go into your overdraft",
+   "an arranged overdraft",
+   "overdraft fees"
+  ],
+  "theme": "uk_money"
+ },
+ {
   "w": "overheads",
   "pos": "noun",
   "def": "the regular costs of running a business, such as rent and electricity",
@@ -4509,6 +5447,20 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "Oyster card",
+  "pos": "noun",
+  "def": "a rechargeable smartcard used to pay for public transport in London",
+  "defId": "kartu pintar isi ulang untuk membayar transportasi umum di London",
+  "ex": "Tap your Oyster card on the yellow reader as you enter the station.",
+  "exId": "Tempelkan kartu Oyster Anda pada pembaca kuning saat masuk stasiun.",
+  "colloc": [
+   "tap your Oyster card",
+   "top up your Oyster card",
+   "an Oyster card reader"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "ozone",
   "pos": "noun",
   "def": "a form of oxygen high in the atmosphere that protects the Earth from harmful rays of the sun.",
@@ -4521,6 +5473,34 @@ export const VOCAB = [
    "hole in the ozone"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "P45",
+  "pos": "noun",
+  "def": "A form your employer gives you when you leave a job, showing your pay and tax so far that year.",
+  "defId": "Formulir yang diberikan pemberi kerja saat Anda berhenti bekerja, yang menunjukkan gaji dan pajak Anda sepanjang tahun itu.",
+  "ex": "When you leave, they'll give you a P45 to hand to your next employer.",
+  "exId": "Saat Anda berhenti, mereka akan memberi Anda P45 untuk diserahkan ke pemberi kerja berikutnya.",
+  "colloc": [
+   "give you a P45",
+   "get your P45",
+   "a P45 form"
+  ],
+  "theme": "uk_money"
+ },
+ {
+  "w": "P60",
+  "pos": "noun",
+  "def": "A form summarising your total pay and tax for the whole tax year, given to you by your employer.",
+  "defId": "Formulir yang merangkum total gaji dan pajak Anda selama satu tahun pajak penuh, diberikan oleh pemberi kerja.",
+  "ex": "You'll get a P60 in April showing everything you earned and paid in tax last year.",
+  "exId": "Anda akan menerima P60 pada bulan April yang menunjukkan seluruh penghasilan dan pajak Anda tahun lalu.",
+  "colloc": [
+   "get your P60",
+   "a P60 form",
+   "keep your P60"
+  ],
+  "theme": "uk_money"
  },
  {
   "w": "paradigm",
@@ -4607,6 +5587,62 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "pavement",
+  "pos": "noun",
+  "def": "the paved path at the side of a road for people to walk on",
+  "defId": "trotoar di pinggir jalan untuk pejalan kaki",
+  "ex": "Keep to the pavement and don't walk in the road.",
+  "exId": "Tetaplah di trotoar dan jangan berjalan di jalan raya.",
+  "colloc": [
+   "on the pavement",
+   "walk on the pavement",
+   "the crowded pavement"
+  ],
+  "theme": "uk_daily"
+ },
+ {
+  "w": "PAYE",
+  "pos": "noun (abbreviation)",
+  "def": "Pay As You Earn — the system by which employers deduct income tax and National Insurance from your wages before paying you.",
+  "defId": "Pay As You Earn — sistem yang membuat pemberi kerja memotong pajak penghasilan dan National Insurance dari gaji Anda sebelum membayarkannya.",
+  "ex": "Most employees pay tax automatically through PAYE, so they never file a tax return.",
+  "exId": "Sebagian besar karyawan membayar pajak secara otomatis melalui PAYE, sehingga tidak perlu mengajukan tax return.",
+  "colloc": [
+   "pay tax through PAYE",
+   "the PAYE system",
+   "on PAYE"
+  ],
+  "theme": "uk_money"
+ },
+ {
+  "w": "payroll",
+  "pos": "noun",
+  "def": "The system or department that works out and pays employees' wages.",
+  "defId": "Sistem atau bagian yang menghitung dan membayar gaji karyawan.",
+  "ex": "If your bank details change, let payroll know so your wages go to the right account.",
+  "exId": "Jika detail rekening Anda berubah, beri tahu bagian penggajian (payroll) agar gaji Anda masuk ke rekening yang benar.",
+  "colloc": [
+   "on the payroll",
+   "the payroll department",
+   "run payroll"
+  ],
+  "theme": "uk_money"
+ },
+ {
+  "w": "payslip",
+  "pos": "noun",
+  "def": "A document from your employer showing your pay and the deductions taken from it.",
+  "defId": "Dokumen dari pemberi kerja yang menunjukkan gaji Anda dan potongan-potongan yang diambil darinya.",
+  "ex": "Check your payslip to see how much tax and National Insurance you've paid this month.",
+  "exId": "Periksa slip gaji (payslip) Anda untuk melihat berapa pajak dan National Insurance yang telah Anda bayar bulan ini.",
+  "colloc": [
+   "check your payslip",
+   "a monthly payslip",
+   "keep your payslips"
+  ],
+  "theme": "uk_money"
+ },
+ {
   "w": "pedagogy",
   "pos": "noun",
   "def": "the methods and practice of teaching, especially as a subject of study",
@@ -4689,6 +5725,20 @@ export const VOCAB = [
    "chemical pesticide"
   ],
   "theme": "food"
+ },
+ {
+  "w": "pharmacy",
+  "pos": "noun",
+  "def": "A shop or counter where medicines are prepared and sold and where you collect prescriptions.",
+  "defId": "Toko atau konter tempat obat disiapkan dan dijual serta tempat Anda menebus resep.",
+  "ex": "You can collect your medicine from the pharmacy just around the corner.",
+  "exId": "Anda bisa menebus obat di apotek yang ada di ujung jalan.",
+  "colloc": [
+   "local pharmacy",
+   "collect from the pharmacy",
+   "pharmacy counter"
+  ],
+  "theme": "uk_health"
  },
  {
   "w": "phenomenon",
@@ -4817,6 +5867,20 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "postcode",
+  "pos": "noun",
+  "def": "the letters and numbers at the end of a UK address used for sorting post",
+  "defId": "kode pos berupa huruf dan angka di akhir alamat untuk menyortir surat",
+  "ex": "Please enter your postcode so the sat nav can find the address.",
+  "exId": "Silakan masukkan kode pos Anda agar navigasi bisa menemukan alamatnya.",
+  "colloc": [
+   "enter your postcode",
+   "a full postcode",
+   "postcode lottery"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "postgraduate",
   "pos": "noun",
   "def": "a student who is studying for a further degree after their first one",
@@ -4887,6 +5951,34 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "prescription",
+  "pos": "noun",
+  "def": "A doctor's written or electronic order allowing you to get particular medicine.",
+  "defId": "Perintah tertulis atau elektronik dari dokter yang memungkinkan Anda menebus obat tertentu.",
+  "ex": "The doctor gave me a prescription for antibiotics.",
+  "exId": "Dokter memberi saya resep untuk antibiotik.",
+  "colloc": [
+   "a prescription for",
+   "collect a prescription",
+   "prescription medicine"
+  ],
+  "theme": "uk_health"
+ },
+ {
+  "w": "prescription charge",
+  "pos": "noun",
+  "def": "The fixed fee you pay for each prescription item in England; prescriptions are free in Scotland, Wales and Northern Ireland.",
+  "defId": "Biaya tetap yang Anda bayar untuk setiap item resep di Inggris; di Skotlandia, Wales, dan Irlandia Utara resep gratis.",
+  "ex": "There's a standard prescription charge for each item unless you're exempt.",
+  "exId": "Ada biaya resep standar untuk tiap item, kecuali Anda dibebaskan dari biaya.",
+  "colloc": [
+   "pay the prescription charge",
+   "prescription charge exemption",
+   "free prescriptions"
+  ],
+  "theme": "uk_health"
+ },
+ {
   "w": "preservative",
   "pos": "noun",
   "def": "a substance added to food to stop it from going bad",
@@ -4941,6 +6033,20 @@ export const VOCAB = [
    "probation period"
   ],
   "theme": "crime"
+ },
+ {
+  "w": "probation period",
+  "pos": "noun phrase",
+  "def": "A trial period at the start of a new job during which either side can end the employment more easily.",
+  "defId": "Masa percobaan di awal pekerjaan baru, saat kedua pihak dapat mengakhiri hubungan kerja dengan lebih mudah.",
+  "ex": "I passed my three-month probation period and now I'm a permanent member of staff.",
+  "exId": "Saya lulus masa percobaan (probation period) tiga bulan dan sekarang menjadi staf tetap.",
+  "colloc": [
+   "pass your probation period",
+   "a three-month probation period",
+   "during your probation period"
+  ],
+  "theme": "uk_money"
  },
  {
   "w": "processed",
@@ -5139,6 +6245,48 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "queue",
+  "pos": "noun/verb",
+  "def": "a line of people waiting for their turn; to wait in such a line",
+  "defId": "antrean; barisan orang yang menunggu giliran, atau kegiatan mengantre",
+  "ex": "There was a long queue at the post office, so we had to wait twenty minutes.",
+  "exId": "Ada antrean panjang di kantor pos, jadi kami harus menunggu dua puluh menit.",
+  "colloc": [
+   "join the queue",
+   "jump the queue",
+   "a long queue"
+  ],
+  "theme": "uk_daily"
+ },
+ {
+  "w": "queue-jump",
+  "pos": "verb",
+  "def": "to push in front of others who are already waiting in a queue",
+  "defId": "menyerobot antrean dengan mendahului orang yang sudah menunggu",
+  "ex": "Don't queue-jump, mate, there's a line and we were here first.",
+  "exId": "Jangan menyerobot antrean, ada barisan dan kami sampai lebih dulu.",
+  "colloc": [
+   "queue-jump",
+   "a queue-jumper",
+   "try to queue-jump"
+  ],
+  "theme": "uk_daily"
+ },
+ {
+  "w": "quid",
+  "pos": "noun",
+  "def": "(informal) a pound in money (£1)",
+  "defId": "(informal) satu pound sterling (uang)",
+  "ex": "The bus fare into town is only a couple of quid.",
+  "exId": "Ongkos bus ke kota cuma beberapa pound saja.",
+  "colloc": [
+   "a few quid",
+   "a couple of quid",
+   "ten quid"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "rapport",
   "pos": "noun",
   "def": "a friendly relationship in which people understand each other well",
@@ -5151,6 +6299,48 @@ export const VOCAB = [
    "instant rapport"
   ],
   "theme": "family"
+ },
+ {
+  "w": "ready meal",
+  "pos": "noun",
+  "def": "a pre-cooked packaged meal that you only need to heat up",
+  "defId": "makanan siap saji dalam kemasan yang tinggal dipanaskan",
+  "ex": "After a long shift I just stick a ready meal in the microwave.",
+  "exId": "Setelah kerja seharian, saya cuma memanaskan makanan siap saji di microwave.",
+  "colloc": [
+   "a microwave ready meal",
+   "heat up a ready meal",
+   "a supermarket ready meal"
+  ],
+  "theme": "uk_daily"
+ },
+ {
+  "w": "receipt",
+  "pos": "noun",
+  "def": "A printed or digital note proving you have paid for something.",
+  "defId": "Bukti tercetak atau digital yang menunjukkan Anda telah membayar sesuatu.",
+  "ex": "Keep the receipt in case you need to return the jacket.",
+  "exId": "Simpan struk (receipt) itu untuk berjaga-jaga jika Anda perlu mengembalikan jaketnya.",
+  "colloc": [
+   "keep the receipt",
+   "ask for a receipt",
+   "a till receipt"
+  ],
+  "theme": "uk_money"
+ },
+ {
+  "w": "receptionist",
+  "pos": "noun",
+  "def": "The member of staff at a surgery or clinic who books appointments and greets patients.",
+  "defId": "Staf di tempat praktik atau klinik yang mengatur janji temu dan menyambut pasien.",
+  "ex": "Ask the receptionist whether there are any appointments left today.",
+  "exId": "Tanyakan kepada resepsionis apakah masih ada jadwal janji temu untuk hari ini.",
+  "colloc": [
+   "ask the receptionist",
+   "the surgery receptionist",
+   "speak to reception"
+  ],
+  "theme": "uk_health"
  },
  {
   "w": "recession",
@@ -5209,6 +6399,20 @@ export const VOCAB = [
   "theme": "sport"
  },
  {
+  "w": "recycling",
+  "pos": "noun",
+  "def": "household waste such as paper, glass and plastic that is collected to be reused",
+  "defId": "sampah rumah tangga seperti kertas, kaca, dan plastik yang didaur ulang",
+  "ex": "Cardboard and glass bottles go in the recycling, not the general bin.",
+  "exId": "Kardus dan botol kaca masuk ke tempat daur ulang, bukan tempat sampah biasa.",
+  "colloc": [
+   "the recycling bin",
+   "sort the recycling",
+   "put out the recycling"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "redundancy",
   "pos": "noun",
   "def": "a situation in which someone loses their job because they are no longer needed",
@@ -5235,6 +6439,20 @@ export const VOCAB = [
    "blame the referee"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "referral",
+  "pos": "noun",
+  "def": "When your GP sends you to a specialist or hospital service for further care.",
+  "defId": "Saat GP Anda merujuk Anda ke spesialis atau layanan rumah sakit untuk penanganan lanjutan.",
+  "ex": "My GP made a referral to a skin specialist at the hospital.",
+  "exId": "GP saya membuat rujukan ke spesialis kulit di rumah sakit.",
+  "colloc": [
+   "make a referral",
+   "a referral to",
+   "referral letter"
+  ],
+  "theme": "uk_health"
  },
  {
   "w": "reflex",
@@ -5277,6 +6495,20 @@ export const VOCAB = [
    "introduce reforms"
   ],
   "theme": "society"
+ },
+ {
+  "w": "refund",
+  "pos": "noun",
+  "def": "Money that is paid back to you, for example when you return goods or overpay.",
+  "defId": "Uang yang dikembalikan kepada Anda, misalnya saat Anda mengembalikan barang atau membayar lebih.",
+  "ex": "I took the faulty kettle back to the shop and got a full refund.",
+  "exId": "Saya mengembalikan ketel yang rusak ke toko dan mendapat pengembalian (refund) penuh.",
+  "colloc": [
+   "get a refund",
+   "a full refund",
+   "claim a refund"
+  ],
+  "theme": "uk_money"
  },
  {
   "w": "rehabilitation",
@@ -5377,6 +6609,48 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "rent",
+  "pos": "noun",
+  "def": "the money you pay regularly to your landlord to live in a property.",
+  "defId": "uang yang kamu bayar secara rutin kepada pemilik rumah untuk tinggal di sebuah properti.",
+  "ex": "The rent is due on the first of the month.",
+  "exId": "Sewa jatuh tempo pada tanggal satu setiap bulan.",
+  "colloc": [
+   "pay the rent",
+   "rent is due",
+   "monthly rent"
+  ],
+  "theme": "uk_home"
+ },
+ {
+  "w": "rent arrears",
+  "pos": "noun (plural)",
+  "def": "rent that you owe because you have not paid it on time.",
+  "defId": "uang sewa yang menunggak karena belum kamu bayar tepat waktu.",
+  "ex": "She fell into rent arrears after losing her job.",
+  "exId": "Dia menunggak pembayaran sewa setelah kehilangan pekerjaannya.",
+  "colloc": [
+   "fall into rent arrears",
+   "clear the arrears",
+   "serious rent arrears"
+  ],
+  "theme": "uk_home"
+ },
+ {
+  "w": "repeat prescription",
+  "pos": "noun",
+  "def": "A prescription for regular medicine that you can reorder without seeing the doctor each time.",
+  "defId": "Resep untuk obat rutin yang bisa Anda pesan ulang tanpa harus menemui dokter setiap kali.",
+  "ex": "I've ordered my repeat prescription online for my blood pressure tablets.",
+  "exId": "Saya sudah memesan resep ulang secara online untuk tablet tekanan darah saya.",
+  "colloc": [
+   "order a repeat prescription",
+   "repeat prescription request",
+   "on repeat prescription"
+  ],
+  "theme": "uk_health"
+ },
+ {
   "w": "replicate",
   "pos": "verb",
   "def": "to repeat a study or experiment to check whether the results are the same",
@@ -5447,6 +6721,20 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "return",
+  "pos": "noun",
+  "def": "a ticket for a journey to a place and back again",
+  "defId": "tiket untuk perjalanan pergi dan pulang",
+  "ex": "A day return to London is cheaper than two singles.",
+  "exId": "Tiket pulang-pergi harian ke London lebih murah daripada dua tiket sekali jalan.",
+  "colloc": [
+   "a day return",
+   "buy a return",
+   "an open return"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "revenue",
   "pos": "noun",
   "def": "the money that a company or government receives, especially from selling goods or services",
@@ -5459,6 +6747,20 @@ export const VOCAB = [
    "revenue growth"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "right to work",
+  "pos": "noun phrase",
+  "def": "Legal permission to take paid employment in the UK.",
+  "defId": "Izin resmi untuk bekerja secara berbayar di Inggris.",
+  "ex": "Before you start, your employer must check that you have the right to work in the UK.",
+  "exId": "Sebelum Anda mulai, pemberi kerja harus memeriksa bahwa Anda memiliki hak untuk bekerja (right to work) di Inggris.",
+  "colloc": [
+   "right to work in the UK",
+   "a right to work check",
+   "prove your right to work"
+  ],
+  "theme": "uk_money"
  },
  {
   "w": "rigorous",
@@ -5515,6 +6817,34 @@ export const VOCAB = [
    "rote memorisation"
   ],
   "theme": "education"
+ },
+ {
+  "w": "roundabout",
+  "pos": "noun",
+  "def": "a circular road junction where traffic goes round in one direction",
+  "defId": "bundaran jalan tempat kendaraan berputar searah untuk berbagi persimpangan",
+  "ex": "Take the second exit at the roundabout for the town centre.",
+  "exId": "Ambil jalan keluar kedua di bundaran menuju pusat kota.",
+  "colloc": [
+   "at the roundabout",
+   "the second exit",
+   "a mini roundabout"
+  ],
+  "theme": "uk_daily"
+ },
+ {
+  "w": "salary",
+  "pos": "noun",
+  "def": "A fixed amount of money paid to an employee each year, usually in equal monthly instalments.",
+  "defId": "Jumlah uang tetap yang dibayarkan kepada karyawan setiap tahun, biasanya dalam cicilan bulanan yang sama besar.",
+  "ex": "The job has a starting salary of £28,000 a year, paid monthly.",
+  "exId": "Pekerjaan itu memiliki gaji awal £28.000 per tahun, dibayar bulanan.",
+  "colloc": [
+   "a starting salary",
+   "an annual salary",
+   "a salary of"
+  ],
+  "theme": "uk_money"
  },
  {
   "w": "sanction",
@@ -5713,6 +7043,20 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "self-assessment",
+  "pos": "noun",
+  "def": "The HMRC system by which people with untaxed income calculate and report their own tax.",
+  "defId": "Sistem HMRC yang membuat orang dengan penghasilan yang belum dipotong pajak menghitung dan melaporkan pajaknya sendiri.",
+  "ex": "If you're self-employed, you pay your tax through self-assessment.",
+  "exId": "Jika Anda bekerja mandiri, Anda membayar pajak melalui sistem self-assessment.",
+  "colloc": [
+   "a self-assessment tax return",
+   "register for self-assessment",
+   "the self-assessment deadline"
+  ],
+  "theme": "uk_money"
+ },
+ {
   "w": "seminar",
   "pos": "noun",
   "def": "a small class in which students discuss a topic with a teacher",
@@ -5825,6 +7169,20 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "sick note (fit note)",
+  "pos": "noun",
+  "def": "An official note from a doctor confirming you are unwell and unfit to work; now officially called a fit note.",
+  "defId": "Surat resmi dari dokter yang menyatakan Anda sakit dan tidak sanggup bekerja; kini resmi disebut fit note.",
+  "ex": "My employer asked for a sick note after I was off for a week.",
+  "exId": "Atasan saya meminta surat keterangan sakit setelah saya absen selama seminggu.",
+  "colloc": [
+   "get a sick note",
+   "a fit note",
+   "sign someone off work"
+  ],
+  "theme": "uk_health"
+ },
+ {
   "w": "sightseeing",
   "pos": "noun",
   "def": "the activity of visiting interesting places, especially as a tourist",
@@ -5851,6 +7209,20 @@ export const VOCAB = [
    "significant increase"
   ],
   "theme": "science"
+ },
+ {
+  "w": "single",
+  "pos": "noun",
+  "def": "a ticket for a one-way journey only, with no return",
+  "defId": "tiket untuk perjalanan sekali jalan tanpa tiket kembali",
+  "ex": "Can I have a single to Manchester, please?",
+  "exId": "Boleh saya beli tiket sekali jalan ke Manchester?",
+  "colloc": [
+   "a single ticket",
+   "buy a single",
+   "a day single"
+  ],
+  "theme": "uk_daily"
  },
  {
   "w": "smuggling",
@@ -5893,6 +7265,34 @@ export const VOCAB = [
    "sense of solidarity"
   ],
   "theme": "society"
+ },
+ {
+  "w": "sort code",
+  "pos": "noun phrase",
+  "def": "A six-digit number that identifies your bank and branch in the UK.",
+  "defId": "Nomor enam digit yang mengidentifikasi bank dan cabang Anda di Inggris.",
+  "ex": "To receive the payment, give them your account number and sort code.",
+  "exId": "Untuk menerima pembayaran, berikan mereka nomor rekening dan sort code Anda.",
+  "colloc": [
+   "your sort code",
+   "account number and sort code",
+   "a six-digit sort code"
+  ],
+  "theme": "uk_money"
+ },
+ {
+  "w": "sorted",
+  "pos": "adjective",
+  "def": "(informal) dealt with, arranged or ready; problem solved",
+  "defId": "(informal) sudah beres, teratur, atau selesai diurus",
+  "ex": "I've booked the tickets, so that's all sorted for the weekend.",
+  "exId": "Saya sudah memesan tiketnya, jadi semuanya sudah beres untuk akhir pekan.",
+  "colloc": [
+   "all sorted",
+   "get it sorted",
+   "that's sorted"
+  ],
+  "theme": "uk_daily"
  },
  {
   "w": "souvenir",
@@ -6021,6 +7421,20 @@ export const VOCAB = [
   "theme": "sport"
  },
  {
+  "w": "standing order",
+  "pos": "noun phrase",
+  "def": "a fixed regular payment you instruct your bank to send to someone, such as your rent.",
+  "defId": "pembayaran rutin dengan jumlah tetap yang kamu perintahkan ke bankmu, misalnya untuk sewa.",
+  "ex": "I pay my rent by standing order on the first of every month.",
+  "exId": "Saya membayar sewa dengan standing order pada tanggal satu setiap bulan.",
+  "colloc": [
+   "set up a standing order",
+   "pay by standing order",
+   "monthly standing order"
+  ],
+  "theme": "uk_home"
+ },
+ {
   "w": "staple",
   "pos": "noun",
   "def": "a basic food that forms a large part of people's diet",
@@ -6145,6 +7559,20 @@ export const VOCAB = [
    "take a supplement"
   ],
   "theme": "health"
+ },
+ {
+  "w": "surgery",
+  "pos": "noun",
+  "def": "The building or office where a GP sees patients; also the period when a doctor is available to see patients.",
+  "defId": "Gedung atau kantor tempat dokter umum (GP) menerima pasien; bisa juga berarti jam praktik dokter.",
+  "ex": "The doctor's surgery opens at eight in the morning.",
+  "exId": "Tempat praktik dokter itu buka pukul delapan pagi.",
+  "colloc": [
+   "doctor's surgery",
+   "GP surgery",
+   "morning surgery"
+  ],
+  "theme": "uk_health"
  },
  {
   "w": "surplus",
@@ -6301,6 +7729,20 @@ export const VOCAB = [
   "theme": "sport"
  },
  {
+  "w": "takeaway",
+  "pos": "noun",
+  "def": "a cooked meal bought from a restaurant to eat at home; the shop that sells it",
+  "defId": "makanan matang yang dibeli untuk dibawa pulang, atau restoran yang menjualnya",
+  "ex": "We couldn't be bothered to cook, so we ordered a takeaway.",
+  "exId": "Kami malas memasak, jadi kami memesan makanan bawa pulang.",
+  "colloc": [
+   "order a takeaway",
+   "a Chinese takeaway",
+   "get a takeaway"
+  ],
+  "theme": "uk_daily"
+ },
+ {
   "w": "tapestry",
   "pos": "noun",
   "def": "a heavy cloth with pictures or patterns woven into it, often hung on a wall",
@@ -6327,6 +7769,76 @@ export const VOCAB = [
    "raise tariffs"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "tax return",
+  "pos": "noun phrase",
+  "def": "An official form on which you report your income to HMRC so they can work out how much tax you owe.",
+  "defId": "Formulir resmi untuk melaporkan penghasilan Anda kepada HMRC agar mereka dapat menghitung berapa pajak yang harus Anda bayar.",
+  "ex": "As a freelancer, I have to file a tax return every year by 31 January.",
+  "exId": "Sebagai pekerja lepas, saya harus mengajukan surat pemberitahuan pajak (tax return) setiap tahun paling lambat 31 Januari.",
+  "colloc": [
+   "file a tax return",
+   "submit a tax return",
+   "complete your tax return"
+  ],
+  "theme": "uk_money"
+ },
+ {
+  "w": "telly",
+  "pos": "noun",
+  "def": "(informal) television",
+  "defId": "(informal) televisi",
+  "ex": "There's nothing good on the telly tonight.",
+  "exId": "Tidak ada acara bagus di televisi malam ini.",
+  "colloc": [
+   "watch the telly",
+   "on the telly",
+   "a night in front of the telly"
+  ],
+  "theme": "uk_daily"
+ },
+ {
+  "w": "tenancy",
+  "pos": "noun",
+  "def": "the arrangement or period of time during which you rent a property to live in.",
+  "defId": "kesepakatan atau jangka waktu ketika kamu menyewa sebuah properti untuk ditinggali.",
+  "ex": "Our tenancy started in September and lasts for twelve months.",
+  "exId": "Masa sewa kami dimulai pada bulan September dan berlangsung selama dua belas bulan.",
+  "colloc": [
+   "start a tenancy",
+   "renew a tenancy",
+   "joint tenancy"
+  ],
+  "theme": "uk_home"
+ },
+ {
+  "w": "tenancy agreement",
+  "pos": "noun phrase",
+  "def": "the written contract between you and your landlord that sets out the rules of your tenancy.",
+  "defId": "kontrak tertulis antara kamu dan pemilik rumah yang mengatur ketentuan masa sewamu.",
+  "ex": "Read the tenancy agreement carefully before you sign it.",
+  "exId": "Bacalah perjanjian sewa dengan teliti sebelum kamu menandatanganinya.",
+  "colloc": [
+   "sign a tenancy agreement",
+   "assured shorthold tenancy",
+   "break the agreement"
+  ],
+  "theme": "uk_home"
+ },
+ {
+  "w": "tenant",
+  "pos": "noun",
+  "def": "a person who pays rent to live in a property owned by someone else.",
+  "defId": "orang yang membayar sewa untuk tinggal di properti milik orang lain.",
+  "ex": "As a tenant, you have the right to live in a safe and well-maintained home.",
+  "exId": "Sebagai penyewa, kamu berhak tinggal di rumah yang aman dan terawat.",
+  "colloc": [
+   "private tenant",
+   "tenant's rights",
+   "joint tenants"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "terminal",
@@ -6397,6 +7909,48 @@ export const VOCAB = [
    "thrive in a market"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "to fancy",
+  "pos": "verb",
+  "def": "(informal) to want or feel like having something",
+  "defId": "(informal) ingin atau berselera pada sesuatu",
+  "ex": "Do you fancy a cup of tea and a biscuit?",
+  "exId": "Apakah kamu ingin secangkir teh dan biskuit?",
+  "colloc": [
+   "fancy a cuppa",
+   "fancy a pint",
+   "do you fancy"
+  ],
+  "theme": "uk_daily"
+ },
+ {
+  "w": "to register with a GP",
+  "pos": "verb phrase",
+  "def": "To sign up formally as a patient at a GP practice so you can get NHS care there.",
+  "defId": "Mendaftar secara resmi sebagai pasien di sebuah GP practice agar bisa mendapat layanan NHS di sana.",
+  "ex": "One of the first things newcomers should do is register with a GP near their home.",
+  "exId": "Salah satu hal pertama yang sebaiknya dilakukan pendatang baru adalah mendaftar ke GP dekat rumah.",
+  "colloc": [
+   "register with a GP",
+   "register as a patient",
+   "fill in a registration form"
+  ],
+  "theme": "uk_health"
+ },
+ {
+  "w": "to top up",
+  "pos": "verb",
+  "def": "to add more money or credit to a card, phone or account",
+  "defId": "menambah saldo atau pulsa pada kartu, ponsel, atau akun",
+  "ex": "I need to top up my phone before I run out of credit.",
+  "exId": "Saya perlu mengisi ulang pulsa ponsel sebelum kehabisan.",
+  "colloc": [
+   "top up your card",
+   "top up your phone",
+   "top up the balance"
+  ],
+  "theme": "uk_daily"
  },
  {
   "w": "tolerance",
@@ -6483,6 +8037,20 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "triage",
+  "pos": "noun",
+  "def": "The process of quickly assessing patients to decide who needs treatment most urgently.",
+  "defId": "Proses menilai pasien secara cepat untuk menentukan siapa yang paling perlu ditangani lebih dulu.",
+  "ex": "A nurse did the triage to decide how quickly I needed to be seen.",
+  "exId": "Seorang perawat melakukan triase untuk menentukan seberapa cepat saya perlu ditangani.",
+  "colloc": [
+   "triage nurse",
+   "be triaged",
+   "triage system"
+  ],
+  "theme": "uk_health"
+ },
+ {
   "w": "triumph",
   "pos": "noun",
   "def": "a great victory or success",
@@ -6553,6 +8121,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "TV licence",
+  "pos": "noun phrase",
+  "def": "an annual fee you must pay by law to watch live TV or use BBC iPlayer.",
+  "defId": "biaya tahunan yang wajib kamu bayar menurut hukum untuk menonton siaran TV langsung atau menggunakan BBC iPlayer.",
+  "ex": "You need a TV licence to watch live television legally in the UK.",
+  "exId": "Kamu memerlukan lisensi TV untuk menonton televisi siaran langsung secara legal di Inggris.",
+  "colloc": [
+   "buy a TV licence",
+   "TV licence fee",
+   "valid TV licence"
+  ],
+  "theme": "uk_home"
+ },
+ {
   "w": "underdog",
   "pos": "noun",
   "def": "a person or team that is not favoured and is expected to lose a competition",
@@ -6609,6 +8191,20 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "Universal Credit",
+  "pos": "noun phrase",
+  "def": "A monthly benefit payment for people on a low income or out of work, which replaces several older benefits.",
+  "defId": "Tunjangan bulanan bagi orang berpenghasilan rendah atau yang tidak bekerja, yang menggantikan beberapa tunjangan lama.",
+  "ex": "When she lost her job, she claimed Universal Credit to help with the rent.",
+  "exId": "Ketika kehilangan pekerjaan, dia mengajukan Universal Credit untuk membantu membayar sewa.",
+  "colloc": [
+   "claim Universal Credit",
+   "a Universal Credit payment",
+   "apply for Universal Credit"
+  ],
+  "theme": "uk_money"
+ },
+ {
   "w": "upbringing",
   "pos": "noun",
   "def": "the way a child is cared for and taught to behave while growing up",
@@ -6663,6 +8259,34 @@ export const VOCAB = [
    "increasing urbanisation"
   ],
   "theme": "society"
+ },
+ {
+  "w": "urgent care",
+  "pos": "noun",
+  "def": "NHS services for illnesses or injuries that need quick attention but are not life-threatening.",
+  "defId": "Layanan NHS untuk penyakit atau cedera yang perlu ditangani cepat tetapi tidak mengancam nyawa.",
+  "ex": "The urgent care centre can help when your GP is closed but it isn't an emergency.",
+  "exId": "Pusat urgent care bisa membantu saat GP tutup tetapi kondisinya bukan darurat.",
+  "colloc": [
+   "urgent care centre",
+   "urgent treatment centre",
+   "need urgent care"
+  ],
+  "theme": "uk_health"
+ },
+ {
+  "w": "utility bill",
+  "pos": "noun phrase",
+  "def": "a bill you pay for services such as gas, electricity or water.",
+  "defId": "tagihan yang kamu bayar untuk layanan seperti gas, listrik, atau air.",
+  "ex": "You can use a utility bill as proof of your address when opening a bank account.",
+  "exId": "Kamu bisa menggunakan tagihan utilitas sebagai bukti alamat saat membuka rekening bank.",
+  "colloc": [
+   "pay a utility bill",
+   "utility bills included",
+   "proof of address"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "vaccine",
@@ -6791,6 +8415,20 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "viewing",
+  "pos": "noun",
+  "def": "an arranged visit to look around a property you might rent or buy.",
+  "defId": "kunjungan yang dijadwalkan untuk melihat-lihat properti yang mungkin kamu sewa atau beli.",
+  "ex": "We booked a viewing for the flat on Saturday morning.",
+  "exId": "Kami memesan jadwal untuk melihat apartemen itu pada Sabtu pagi.",
+  "colloc": [
+   "book a viewing",
+   "arrange a viewing",
+   "a second viewing"
+  ],
+  "theme": "uk_home"
+ },
+ {
   "w": "viral",
   "pos": "adjective",
   "def": "quickly and widely shared by many people on the internet",
@@ -6817,6 +8455,20 @@ export const VOCAB = [
    "virtual assistant"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "visa",
+  "pos": "noun",
+  "def": "An official permission, usually in or linked to your passport, that lets you enter, stay or work in the UK.",
+  "defId": "Izin resmi, biasanya di dalam atau terkait paspor Anda, yang membuat Anda dapat masuk, tinggal, atau bekerja di Inggris.",
+  "ex": "Her work visa allows her to stay in the UK for five years.",
+  "exId": "Visa kerjanya memperbolehkannya tinggal di Inggris selama lima tahun.",
+  "colloc": [
+   "apply for a visa",
+   "a work visa",
+   "your visa expires"
+  ],
+  "theme": "uk_money"
  },
  {
   "w": "vivid",
@@ -6875,6 +8527,34 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "waiting list",
+  "pos": "noun",
+  "def": "A list of patients waiting for a hospital appointment, treatment or operation.",
+  "defId": "Daftar pasien yang menunggu janji temu, perawatan, atau operasi di rumah sakit.",
+  "ex": "She's on the waiting list for a hip operation.",
+  "exId": "Dia masuk daftar tunggu untuk operasi pinggul.",
+  "colloc": [
+   "on the waiting list",
+   "join the waiting list",
+   "long waiting list"
+  ],
+  "theme": "uk_health"
+ },
+ {
+  "w": "walk-in centre",
+  "pos": "noun",
+  "def": "An NHS clinic that treats minor illnesses and injuries without an appointment.",
+  "defId": "Klinik NHS yang menangani penyakit dan cedera ringan tanpa perlu janji temu.",
+  "ex": "For a minor cut you can just go to the walk-in centre.",
+  "exId": "Untuk luka ringan, Anda bisa langsung datang ke walk-in centre.",
+  "colloc": [
+   "go to a walk-in centre",
+   "NHS walk-in centre",
+   "no appointment needed"
+  ],
+  "theme": "uk_health"
+ },
+ {
   "w": "wanderlust",
   "pos": "noun",
   "def": "a strong desire to travel and explore the world",
@@ -6915,6 +8595,34 @@ export const VOCAB = [
    "sense of wellbeing"
   ],
   "theme": "health"
+ },
+ {
+  "w": "wellies",
+  "pos": "noun",
+  "def": "(informal) waterproof rubber boots (wellingtons) for mud and rain",
+  "defId": "(informal) sepatu bot karet anti air untuk lumpur dan hujan",
+  "ex": "Pop your wellies on if you're walking through the muddy field.",
+  "exId": "Pakai sepatu bot karetmu kalau mau berjalan melewati ladang berlumpur.",
+  "colloc": [
+   "a pair of wellies",
+   "put your wellies on",
+   "muddy wellies"
+  ],
+  "theme": "uk_daily"
+ },
+ {
+  "w": "wheelie bin",
+  "pos": "noun phrase",
+  "def": "a large rubbish bin on wheels that you put out on the street for collection.",
+  "defId": "tempat sampah besar beroda yang kamu keluarkan ke pinggir jalan untuk diangkut.",
+  "ex": "Put the wheelie bin out on the pavement the night before collection day.",
+  "exId": "Keluarkan tempat sampah beroda ke trotoar pada malam sebelum hari pengangkutan.",
+  "colloc": [
+   "put the wheelie bin out",
+   "green wheelie bin",
+   "empty the wheelie bin"
+  ],
+  "theme": "uk_home"
  },
  {
   "w": "wilderness",
@@ -6959,6 +8667,20 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "workplace pension",
+  "pos": "noun phrase",
+  "def": "A pension scheme set up by your employer, into which both you and the employer usually pay.",
+  "defId": "Program pensiun yang dibentuk oleh pemberi kerja, yang biasanya diisi oleh Anda dan pemberi kerja.",
+  "ex": "You'll be automatically enrolled in a workplace pension, with money taken from each payslip.",
+  "exId": "Anda akan otomatis didaftarkan dalam pensiun dari tempat kerja (workplace pension), dengan uang yang dipotong dari setiap slip gaji.",
+  "colloc": [
+   "a workplace pension",
+   "auto-enrolment into a workplace pension",
+   "pay into a workplace pension"
+  ],
+  "theme": "uk_money"
+ },
+ {
   "w": "yield",
   "pos": "noun",
   "def": "the total amount of a crop produced from an area of land",
@@ -6971,5 +8693,33 @@ export const VOCAB = [
    "high yield"
   ],
   "theme": "food"
+ },
+ {
+  "w": "zebra crossing",
+  "pos": "noun",
+  "def": "a pedestrian crossing marked with black and white stripes where cars must stop",
+  "defId": "penyeberangan pejalan kaki bergaris hitam-putih tempat mobil wajib berhenti",
+  "ex": "Wait for the cars to stop before you use the zebra crossing.",
+  "exId": "Tunggu sampai mobil berhenti sebelum Anda menyeberang di zebra cross.",
+  "colloc": [
+   "use the zebra crossing",
+   "cross at the zebra crossing",
+   "a zebra crossing"
+  ],
+  "theme": "uk_daily"
+ },
+ {
+  "w": "zero-hours contract",
+  "pos": "noun phrase",
+  "def": "An employment contract that does not guarantee any set number of working hours.",
+  "defId": "Kontrak kerja yang tidak menjamin jumlah jam kerja tertentu.",
+  "ex": "On a zero-hours contract, some weeks I get plenty of shifts and other weeks none at all.",
+  "exId": "Dengan kontrak nol jam (zero-hours contract), ada minggu saat saya dapat banyak sif dan minggu lain tidak sama sekali.",
+  "colloc": [
+   "on a zero-hours contract",
+   "offer a zero-hours contract",
+   "zero-hours workers"
+  ],
+  "theme": "uk_money"
  }
 ];
