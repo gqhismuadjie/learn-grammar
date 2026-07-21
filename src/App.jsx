@@ -2,11 +2,12 @@ import { useState, useEffect, useRef } from "react";
 import {
   ChevronLeft, BookOpen, PenLine, Check, X, RotateCcw, Trophy, Clock,
   Loader2, Lightbulb, ArrowRight, AlertTriangle, Sparkles, History, Play, Layers,
-  BarChart3, Flame, Target, Download, Upload, Eye
+  BarChart3, Flame, Target, Download, Upload, Eye, Volume2, Search, Library
 } from "lucide-react";
 import { UNITS } from "./content/units.js";
 import { QUIZ2 } from "./content/quiz2.js";
 import { TAG_ID, LEARN_ID, EX_ID } from "./content/id.js";
+import { REFERENCE } from "./content/reference.js";
 
 // The Writing Lab calls the Anthropic API with platform-injected auth, which a
 // static GitHub Pages site cannot provide (and a public site cannot safely hold
@@ -169,6 +170,21 @@ const T = {
     allUnits: "All units",
     learnTab: "Learn",
     learnVisual: "At a glance",
+    refHomeCard: "Grammar reference",
+    refHomeCardSub: "Tenses, irregular verbs, prepositions, linkers & a glossary.",
+    refKicker: "LOOK IT UP",
+    refTitle: "Grammar reference",
+    refSub: "Tables and lists to check any rule in seconds.",
+    refSearch: "Search the reference…",
+    refTenses: "Tenses",
+    refIrregulars: "Irregular verbs",
+    refPreps: "Prepositions",
+    refLinkers: "Linking words",
+    refGlossary: "Glossary",
+    refBase: "Base",
+    refPast: "Past",
+    refPP: "Past participle",
+    refNoResults: "No matches. Try another word.",
     practiceTab: "Practice",
     practiceBtn: "Practice this unit",
     deckCore: "Core drill",
@@ -301,6 +317,21 @@ const T = {
     allUnits: "Semua unit",
     learnTab: "Materi",
     learnVisual: "Sekilas",
+    refHomeCard: "Referensi tata bahasa",
+    refHomeCardSub: "Tenses, kata kerja tak beraturan, preposisi, penghubung & glosarium.",
+    refKicker: "CARI CEPAT",
+    refTitle: "Referensi tata bahasa",
+    refSub: "Tabel dan daftar untuk mengecek aturan apa pun dalam sekejap.",
+    refSearch: "Cari di referensi…",
+    refTenses: "Tenses",
+    refIrregulars: "Kata kerja tak beraturan",
+    refPreps: "Preposisi",
+    refLinkers: "Kata penghubung",
+    refGlossary: "Glosarium",
+    refBase: "Dasar",
+    refPast: "Lampau",
+    refPP: "Past participle",
+    refNoResults: "Tidak ada yang cocok. Coba kata lain.",
     practiceTab: "Latihan",
     practiceBtn: "Latihan unit ini",
     deckCore: "Latihan inti",
@@ -479,7 +510,7 @@ function unitPct(progress, id) {
   return list.length ? Math.max(...list) : null;
 }
 
-function HomeScreen({ progress, history, mistakes, stats, quiz3, openUnit, openWriting, openTraining, openDashboard, openReview, lang }) {
+function HomeScreen({ progress, history, mistakes, stats, quiz3, openUnit, openWriting, openTraining, openDashboard, openReview, openReference, lang }) {
   const tr = T[lang];
   const practiced = UNITS.filter(u => progress[u.id] || progress["x" + u.id]).length;
   const mastered = UNITS.filter(u => { const p = unitPct(progress, u.id); return p !== null && p >= 80; }).length;
@@ -558,6 +589,20 @@ function HomeScreen({ progress, history, mistakes, stats, quiz3, openUnit, openW
             <div className="text-sm leading-relaxed" style={{ color: C.sub }}>{tr.wtHomeCardSub}</div>
           </div>
           <ArrowRight size={20} style={{ color: C.green, flexShrink: 0 }} />
+        </div>
+      </button>
+
+      <button onClick={openReference} className="w-full text-left rounded-3xl mb-5 flex overflow-hidden" style={{ background: C.card, border: `1px solid ${C.line}`, cursor: "pointer", padding: 0 }}>
+        <div style={{ width: 8, background: C.amber, flexShrink: 0 }} />
+        <div className="p-5 flex-1 flex items-center gap-4">
+          <div className="rounded-2xl flex items-center justify-center" style={{ width: 48, height: 48, background: C.amberWash, color: C.amber, flexShrink: 0 }}>
+            <Library size={22} />
+          </div>
+          <div className="flex-1">
+            <div style={{ ...display, fontWeight: 700, fontSize: 18 }}>{tr.refHomeCard}</div>
+            <div className="text-sm leading-relaxed" style={{ color: C.sub }}>{tr.refHomeCardSub}</div>
+          </div>
+          <ArrowRight size={20} style={{ color: C.amber, flexShrink: 0 }} />
         </div>
       </button>
 
@@ -1886,6 +1931,153 @@ function Dashboard({ progress, mistakes, stats, openUnit, openReview, onExport, 
   );
 }
 
+// ---------- Grammar reference hub ----------
+function speak(text) {
+  try {
+    if (typeof window === "undefined" || !window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(String(text));
+    u.lang = "en-US"; u.rate = 0.92;
+    window.speechSynthesis.speak(u);
+  } catch (e) { /* speech not available */ }
+}
+function Speak({ text }) {
+  const [ok] = useState(() => typeof window !== "undefined" && "speechSynthesis" in window);
+  if (!ok) return null;
+  return (
+    <button onClick={() => speak(text)} aria-label="Read aloud" title="Read aloud"
+      className="rounded-full flex items-center justify-center" style={{ width: 26, height: 26, background: C.blueWash, color: C.blue, border: "none", cursor: "pointer", flexShrink: 0 }}>
+      <Volume2 size={14} />
+    </button>
+  );
+}
+
+function Reference({ onBack, lang }) {
+  const tr = T[lang];
+  const R = REFERENCE;
+  const [sec, setSec] = useState("tenses");
+  const [q, setQ] = useState("");
+  const query = q.trim().toLowerCase();
+  const has = (...ss) => ss.some(s => String(s).toLowerCase().includes(query));
+  const fT = R.tenses.filter(t => !query || has(t.name, t.form, t.use, t.ex));
+  const fV = R.irregulars.filter(v => !query || has(v[0], v[1], v[2]));
+  const fP = R.prepositions.filter(p => !query || has(p.phrase, p.ex));
+  const fL = R.linkers.map(g => ({ ...g, words: g.words.filter(w => !query || has(w, g.fn)) })).filter(g => g.words.length);
+  const fG = R.glossary.filter(g => !query || has(g.term, g.def));
+
+  const secs = [
+    { key: "tenses", label: tr.refTenses, n: fT.length },
+    { key: "irregulars", label: tr.refIrregulars, n: fV.length },
+    { key: "prepositions", label: tr.refPreps, n: fP.length },
+    { key: "linkers", label: tr.refLinkers, n: fL.reduce((a, g) => a + g.words.length, 0) },
+    { key: "glossary", label: tr.refGlossary, n: fG.length },
+  ];
+
+  const Tenses = () => (
+    <div className="flex flex-col gap-2">
+      {fT.map((t, i) => (
+        <div key={i} className="rounded-2xl p-3.5" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+          <div className="flex items-center justify-between gap-2">
+            <div style={{ ...display, fontWeight: 700, fontSize: 15, color: C.blue }}>{t.name}</div>
+            <span className="text-xs font-bold rounded-md px-2 py-0.5" style={{ fontFamily: "ui-monospace, monospace", background: C.paper, color: C.sub }}>{t.form}</span>
+          </div>
+          <div className="text-sm mt-1" style={{ color: C.sub }}>{lang === "id" ? t.useId : t.use}</div>
+          <div className="flex items-center gap-2 mt-1.5">
+            <span className="text-sm" style={{ color: C.ink }}>“{t.ex}”</span><Speak text={t.ex} />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+  const Irregulars = () => (
+    <div className="rounded-2xl overflow-hidden" style={{ border: `1px solid ${C.line}` }}>
+      <div className="grid text-xs font-bold" style={{ gridTemplateColumns: "1fr 1fr 1fr auto", background: C.blueWash, color: C.blueDark, ...display }}>
+        <div className="px-3 py-2">{tr.refBase}</div><div className="px-3 py-2">{tr.refPast}</div><div className="px-3 py-2">{tr.refPP}</div><div className="px-2 py-2" />
+      </div>
+      {fV.map((v, i) => (
+        <div key={i} className="grid text-sm items-center" style={{ gridTemplateColumns: "1fr 1fr 1fr auto", background: i % 2 ? C.paper : C.card }}>
+          <div className="px-3 py-1.5 font-semibold">{v[0]}</div><div className="px-3 py-1.5" style={{ color: C.sub }}>{v[1]}</div><div className="px-3 py-1.5" style={{ color: C.sub }}>{v[2]}</div>
+          <div className="px-2 py-1"><Speak text={`${v[0]}, ${v[1]}, ${v[2]}`} /></div>
+        </div>
+      ))}
+    </div>
+  );
+  const Preps = () => (
+    <div className="flex flex-col gap-1.5">
+      {fP.map((p, i) => (
+        <div key={i} className="rounded-xl p-3 flex items-center gap-2" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+          <span className="text-sm font-bold" style={{ color: C.blue, minWidth: 130 }}>{p.phrase}</span>
+          <span className="text-sm flex-1" style={{ color: C.sub }}>“{p.ex}”</span><Speak text={p.ex} />
+        </div>
+      ))}
+    </div>
+  );
+  const Linkers = () => (
+    <div className="flex flex-col gap-3">
+      {fL.map((g, i) => (
+        <div key={i} className="rounded-2xl p-3.5" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+          <div style={{ ...display, fontWeight: 700, fontSize: 14, color: C.blue }}>{lang === "id" ? g.fnId : g.fn}</div>
+          <div className="flex flex-wrap gap-1.5 mt-2">{g.words.map((w, j) => <IChip key={j}>{w}</IChip>)}</div>
+        </div>
+      ))}
+    </div>
+  );
+  const Glossary = () => (
+    <div className="flex flex-col gap-1.5">
+      {fG.map((g, i) => (
+        <div key={i} className="rounded-xl p-3" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+          <div className="flex items-center gap-2">
+            <span style={{ ...display, fontWeight: 700, fontSize: 14, color: C.blue }}>{g.term}</span><Speak text={g.term} />
+          </div>
+          <div className="text-sm mt-0.5" style={{ color: C.ink }}>{g.def}</div>
+          {lang === "id" && <div className="text-sm mt-0.5 leading-relaxed" style={{ color: C.blueDark, fontStyle: "italic" }}>{g.defId}</div>}
+        </div>
+      ))}
+    </div>
+  );
+  const render = { tenses: Tenses, irregulars: Irregulars, prepositions: Preps, linkers: Linkers, glossary: Glossary };
+
+  const empty = query && secs.every(s => s.n === 0);
+  return (
+    <div>
+      <BackBar onBack={onBack} label={tr.home} />
+      <div className="rounded-3xl overflow-hidden mb-4 flex" style={{ background: C.amber }}>
+        <div style={{ width: 10, background: C.blue, flexShrink: 0 }} />
+        <div className="p-5 text-white flex-1">
+          <div className="text-xs font-bold" style={{ color: "#FDECC8", letterSpacing: "0.14em" }}>{tr.refKicker}</div>
+          <div style={{ ...display, fontSize: 24, fontWeight: 800 }}>{tr.refTitle}</div>
+          <div className="text-sm leading-relaxed" style={{ color: "#FEF3DD" }}>{tr.refSub}</div>
+        </div>
+      </div>
+      <div className="flex items-center gap-2 rounded-full px-4 py-2.5 mb-3" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+        <Search size={16} style={{ color: C.sub, flexShrink: 0 }} />
+        <input value={q} onChange={e => setQ(e.target.value)} placeholder={tr.refSearch}
+          className="flex-1 text-sm outline-none" style={{ border: "none", background: "transparent", ...body }} />
+        {q && <button onClick={() => setQ("")} style={{ border: "none", background: "none", cursor: "pointer", color: C.sub }}><X size={16} /></button>}
+      </div>
+      {!query && (
+        <div className="flex gap-2 overflow-x-auto pb-2 mb-2">
+          {secs.map(s => (
+            <button key={s.key} onClick={() => setSec(s.key)} className="rounded-full px-3 py-1.5 text-xs font-bold whitespace-nowrap transition"
+              style={{ ...display, background: sec === s.key ? C.amber : C.card, color: sec === s.key ? "#fff" : C.sub, border: `1px solid ${sec === s.key ? C.amber : C.line}`, cursor: "pointer" }}>{s.label}</button>
+          ))}
+        </div>
+      )}
+      {empty && <div className="rounded-2xl p-6 text-center text-sm" style={{ background: C.card, border: `1px solid ${C.line}`, color: C.sub }}>{tr.refNoResults}</div>}
+      {query
+        ? <div className="flex flex-col gap-5">
+            {secs.filter(s => s.n > 0).map(s => (
+              <div key={s.key}>
+                <div className="text-xs font-bold uppercase mb-2" style={{ ...display, color: C.amber, letterSpacing: "0.08em" }}>{s.label}</div>
+                {render[s.key]()}
+              </div>
+            ))}
+          </div>
+        : render[sec]()}
+    </div>
+  );
+}
+
 // ---------- App ----------
 export default function App() {
   const [screen, setScreen] = useState("home");
@@ -2011,7 +2203,10 @@ export default function App() {
       {screen === "home" && (
         <HomeScreen progress={progress} history={history} mistakes={mistakes} stats={stats} quiz3={quiz3}
           openUnit={openUnit} openWriting={() => setScreen("writing")} openTraining={() => setScreen("writingTraining")}
-          openDashboard={() => setScreen("dashboard")} openReview={openReview} lang={lang} />
+          openDashboard={() => setScreen("dashboard")} openReview={openReview} openReference={() => setScreen("reference")} lang={lang} />
+      )}
+      {screen === "reference" && (
+        <Reference onBack={() => setScreen("home")} lang={lang} />
       )}
       {screen === "unit" && unit && (
         <UnitScreen key={unit.id} unit={unit} progress={progress} onScore={saveScore} onRecord={recordItem} quiz3={quiz3} onBack={() => setScreen("home")} lang={lang} />
