@@ -8,6 +8,7 @@ import { UNITS } from "./content/units.js";
 import { QUIZ2 } from "./content/quiz2.js";
 import { TAG_ID, LEARN_ID, EX_ID } from "./content/id.js";
 import { REFERENCE } from "./content/reference.js";
+import { loadManifest, loadThemes } from "./content/vocabLoad.js";
 
 // The Writing Lab calls the Anthropic API with platform-injected auth, which a
 // static GitHub Pages site cannot provide (and a public site cannot safely hold
@@ -2161,36 +2162,73 @@ function BoxDots({ box }) {
 }
 function VocabTrainer({ vocab, onReview, onBack, lang }) {
   const tr = T[lang];
-  const [words, setWords] = useState(null);
+  // The full word bank is split into one lazy chunk per theme. We load a small
+  // manifest (headword + theme) up front, then fetch each theme's full entries
+  // only when the study queue or the browse list actually needs them.
+  const [index, setIndex] = useState(null);   // [{ w, theme }] — lightweight
+  const [data, setData] = useState({});       // theme -> [full entries], filled on demand
   const [mode, setMode] = useState("study");
-  const [queue, setQueue] = useState(null);
+  const [queue, setQueue] = useState(null);   // [full card]
   const [i, setI] = useState(0);
   const [flip, setFlip] = useState(false);
   const [reviewed, setReviewed] = useState(0);
   const [q, setQ] = useState("");
   const [theme, setTheme] = useState("all");
+  const [busy, setBusy] = useState(false);
+  const dataRef = useRef(data);
+  dataRef.current = data;
 
-  useEffect(() => { let on = true; import("./content/vocab.js").then(m => { if (on) setWords(m.VOCAB); }).catch(() => { if (on) setWords([]); }); return () => { on = false; }; }, []);
+  useEffect(() => { let on = true; loadManifest().then(idx => { if (on) setIndex(idx); }).catch(() => { if (on) setIndex([]); }); return () => { on = false; }; }, []);
 
-  const buildQueue = (all) => {
+  // Load the given themes' full data (from cache where possible) and merge into state.
+  const ensureThemes = async (themes) => {
+    const need = Array.from(new Set(themes)).filter(t => t && t !== "all" && !dataRef.current[t]);
+    if (!need.length) return dataRef.current;
+    const map = await loadThemes(need);
+    const merged = { ...dataRef.current, ...map };
+    dataRef.current = merged;
+    setData(merged);
+    return merged;
+  };
+
+  const buildQueue = async (idx) => {
     const now = Date.now();
-    const due = all.filter(w => vocab[w.w] && (vocab[w.w].due || 0) <= now);
-    const fresh = all.filter(w => !vocab[w.w]);
+    const due = idx.filter(w => vocab[w.w] && (vocab[w.w].due || 0) <= now);
+    const fresh = idx.filter(w => !vocab[w.w]);
     const pick = [...due, ...fresh.slice(0, 12)];
     for (let k = pick.length - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); [pick[k], pick[j]] = [pick[j], pick[k]]; }
-    return pick.slice(0, 20);
+    const sel = pick.slice(0, 20);
+    const map = await ensureThemes(sel.map(w => w.theme));
+    const byW = {};
+    for (const w of sel) for (const e of (map[w.theme] || [])) byW[e.w] = e;
+    return sel.map(w => byW[w.w]).filter(Boolean);
   };
-  useEffect(() => { if (words && queue === null) setQueue(buildQueue(words)); }, [words]);
+  useEffect(() => { if (index && queue === null) buildQueue(index).then(setQueue); }, [index]);
 
-  if (!words || queue === null) return (
+  const now = Date.now();
+  const query = q.trim().toLowerCase();
+  const themesPresent = index ? Array.from(new Set(index.map(w => w.theme))) : [];
+  const needAll = mode === "browse" && (theme === "all" || !!query);
+  // Load whatever the current browse view needs (one theme, or all when "All"/searching).
+  useEffect(() => {
+    if (mode !== "browse" || !index) return;
+    const need = needAll ? themesPresent : [theme];
+    const missing = need.filter(t => t !== "all" && !data[t]);
+    if (!missing.length) return;
+    let on = true;
+    setBusy(true);
+    ensureThemes(missing).then(() => { if (on) setBusy(false); });
+    return () => { on = false; };
+  }, [mode, theme, needAll, index]);
+
+  if (!index) return (
     <div><BackBar onBack={onBack} label={tr.home} /><div className="flex justify-center mt-10" style={{ color: C.sub }}><Loader2 size={24} className="animate-spin" /></div></div>
   );
 
-  const now = Date.now();
   const learned = Object.values(vocab).filter(v => (v.box || 0) >= 3).length;
-  const dueN = words.filter(w => vocab[w.w] && (vocab[w.w].due || 0) <= now).length;
-  const newN = words.filter(w => !vocab[w.w]).length;
-  const restart = () => { setQueue(buildQueue(words)); setI(0); setReviewed(0); setFlip(false); };
+  const dueN = index.filter(w => vocab[w.w] && (vocab[w.w].due || 0) <= now).length;
+  const newN = index.filter(w => !vocab[w.w]).length;
+  const restart = () => { setQueue(null); setI(0); setReviewed(0); setFlip(false); buildQueue(index).then(setQueue); };
 
   const Header = () => (
     <div>
@@ -2213,12 +2251,16 @@ function VocabTrainer({ vocab, onReview, onBack, lang }) {
   );
 
   if (mode === "browse") {
-    const query = q.trim().toLowerCase();
-    const list = words.filter(w => (theme === "all" || w.theme === theme) && (!query || w.w.toLowerCase().includes(query) || w.def.toLowerCase().includes(query)));
     const order = ["uk_home", "uk_health", "uk_money", "uk_daily", "uk_transport", "uk_social", "academic", "education", "work", "business", "economy", "money", "politics", "law", "globalisation", "society", "urban", "architecture", "environment", "energy", "nature", "weather", "wildlife", "space", "technology", "internet", "science", "health", "body", "psychology", "emotion", "personality", "relationships", "family", "language", "literature", "arts", "music", "film", "media", "fashion", "philosophy", "religion", "history", "food", "sport", "leisure", "shopping", "travel", "tourism", "transport", "crime", "conflict", "idioms", "opinions", "jobs", "household", "garden", "tools", "senses", "describe_people", "describe_places", "colours", "sound_movement", "numbers"];
-    const present = order.filter(t => words.some(w => w.theme === t));
-    const extras = Array.from(new Set(words.map(w => w.theme))).filter(t => !order.includes(t));
+    const present = order.filter(t => themesPresent.includes(t));
+    const extras = themesPresent.filter(t => !order.includes(t));
     const themes = ["all", ...present, ...extras];
+    // Pull only the loaded themes the current view needs; "All"/search spans everything.
+    const pool = needAll
+      ? themesPresent.flatMap(t => data[t] || []).sort((a, b) => a.w.toLowerCase().localeCompare(b.w.toLowerCase()))
+      : (data[theme] || []);
+    const list = pool.filter(w => !query || w.w.toLowerCase().includes(query) || w.def.toLowerCase().includes(query));
+    const loading = busy || (needAll ? themesPresent.some(t => !data[t]) : (theme !== "all" && !data[theme]));
     return (
       <div>
         <Header />
@@ -2233,6 +2275,9 @@ function VocabTrainer({ vocab, onReview, onBack, lang }) {
               style={{ ...display, background: theme === t ? C.blue : C.card, color: theme === t ? "#fff" : C.sub, border: `1px solid ${theme === t ? C.blue : C.line}`, cursor: "pointer" }}>{t === "all" ? tr.vocabAll : (tr.vocabThemes[t] || t)}</button>
           ))}
         </div>
+        {loading && list.length === 0 ? (
+          <div className="flex justify-center mt-10" style={{ color: C.sub }}><Loader2 size={24} className="animate-spin" /></div>
+        ) : (<>
         <div className="text-xs mb-2" style={{ color: C.sub }}>{list.length} {tr.words}</div>
         <div className="flex flex-col gap-1.5">
           {list.map((w, k) => (
@@ -2248,11 +2293,15 @@ function VocabTrainer({ vocab, onReview, onBack, lang }) {
             </div>
           ))}
         </div>
+        </>)}
       </div>
     );
   }
 
   // study mode
+  if (queue === null) return (
+    <div><Header /><div className="flex justify-center mt-10" style={{ color: C.sub }}><Loader2 size={24} className="animate-spin" /></div></div>
+  );
   if (queue.length === 0) return (
     <div><Header /><div className="rounded-2xl p-8 text-center" style={{ background: C.card, border: `1px solid ${C.line}` }}>
       <div className="mx-auto mb-3 rounded-full flex items-center justify-center" style={{ width: 56, height: 56, background: C.greenWash, color: C.green }}><Check size={26} /></div>
