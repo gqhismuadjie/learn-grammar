@@ -1,0 +1,14 @@
+{
+  "name": "IELTS Grammar Studio",
+  "short_name": "Grammar Studio",
+  "description": "Interactive IELTS grammar practice — 21 units of rules, drills, Oxford 3000-level questions, and writing training.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F3F4FA",
+  "theme_color": "#2338E7",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
