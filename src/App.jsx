@@ -179,6 +179,7 @@ const T = {
     refSearch: "Search the reference…",
     refTenses: "Tenses",
     refIrregulars: "Irregular verbs",
+    refPhrasals: "Phrasal verbs",
     refPreps: "Prepositions",
     refLinkers: "Linking words",
     refGlossary: "Glossary",
@@ -204,7 +205,7 @@ const T = {
     vocabNewSession: "New session",
     vocabSearch: "Search words…",
     vocabAll: "All",
-    vocabThemes: { education: "Education", environment: "Environment", technology: "Technology", health: "Health", society: "Society", economy: "Economy", science: "Science", travel: "Travel", media: "Media", crime: "Crime & law", arts: "Arts & culture", food: "Food & farming", sport: "Sport & leisure", family: "Family" },
+    vocabThemes: { education: "Education", environment: "Environment", technology: "Technology", health: "Health", society: "Society", economy: "Economy", science: "Science", travel: "Travel", media: "Media", crime: "Crime & law", arts: "Arts & culture", food: "Food & farming", sport: "Sport & leisure", family: "Family", uk_home: "UK · home & bills", uk_health: "UK · health & NHS", uk_money: "UK · money & admin", uk_daily: "UK · everyday life" },
     exHomeCard: "Editing & rewriting",
     exHomeCardSub: "Spot-the-error and sentence-transformation drills.",
     exKicker: "PRODUCE, DON'T JUST PICK",
@@ -363,6 +364,7 @@ const T = {
     refSearch: "Cari di referensi…",
     refTenses: "Tenses",
     refIrregulars: "Kata kerja tak beraturan",
+    refPhrasals: "Phrasal verbs",
     refPreps: "Preposisi",
     refLinkers: "Kata penghubung",
     refGlossary: "Glosarium",
@@ -388,7 +390,7 @@ const T = {
     vocabNewSession: "Sesi baru",
     vocabSearch: "Cari kata…",
     vocabAll: "Semua",
-    vocabThemes: { education: "Pendidikan", environment: "Lingkungan", technology: "Teknologi", health: "Kesehatan", society: "Masyarakat", economy: "Ekonomi", science: "Sains", travel: "Perjalanan", media: "Media", crime: "Kejahatan & hukum", arts: "Seni & budaya", food: "Makanan & pertanian", sport: "Olahraga & hiburan", family: "Keluarga" },
+    vocabThemes: { education: "Pendidikan", environment: "Lingkungan", technology: "Teknologi", health: "Kesehatan", society: "Masyarakat", economy: "Ekonomi", science: "Sains", travel: "Perjalanan", media: "Media", crime: "Kejahatan & hukum", arts: "Seni & budaya", food: "Makanan & pertanian", sport: "Olahraga & hiburan", family: "Keluarga", uk_home: "UK · rumah & tagihan", uk_health: "UK · kesehatan & NHS", uk_money: "UK · uang & administrasi", uk_daily: "UK · kehidupan sehari-hari" },
     exHomeCard: "Menyunting & menulis ulang",
     exHomeCardSub: "Latihan cari kesalahan dan mengubah kalimat.",
     exKicker: "MENGHASILKAN, BUKAN SEKADAR MEMILIH",
@@ -2213,7 +2215,7 @@ function VocabTrainer({ vocab, onReview, onBack, lang }) {
   if (mode === "browse") {
     const query = q.trim().toLowerCase();
     const list = words.filter(w => (theme === "all" || w.theme === theme) && (!query || w.w.toLowerCase().includes(query) || w.def.toLowerCase().includes(query)));
-    const order = ["education", "environment", "technology", "health", "society", "economy", "science", "travel", "media", "crime", "arts", "food", "sport", "family"];
+    const order = ["uk_home", "uk_health", "uk_money", "uk_daily", "education", "environment", "technology", "health", "society", "economy", "science", "travel", "media", "crime", "arts", "food", "sport", "family"];
     const present = order.filter(t => words.some(w => w.theme === t));
     const extras = Array.from(new Set(words.map(w => w.theme))).filter(t => !order.includes(t));
     const themes = ["all", ...present, ...extras];
@@ -2360,12 +2362,14 @@ function Reference({ onBack, lang }) {
   const fT = R.tenses.filter(t => !query || has(t.name, t.form, t.use, t.ex));
   const fV = R.irregulars.filter(v => !query || has(v[0], v[1], v[2]));
   const fP = R.prepositions.filter(p => !query || has(p.phrase, p.ex));
+  const fPh = (R.phrasals || []).filter(p => !query || has(p.pv, p.meaning, p.ex));
   const fL = R.linkers.map(g => ({ ...g, words: g.words.filter(w => !query || has(w, g.fn)) })).filter(g => g.words.length);
   const fG = R.glossary.filter(g => !query || has(g.term, g.def));
 
   const secs = [
     { key: "tenses", label: tr.refTenses, n: fT.length },
     { key: "irregulars", label: tr.refIrregulars, n: fV.length },
+    { key: "phrasals", label: tr.refPhrasals, n: fPh.length },
     { key: "prepositions", label: tr.refPreps, n: fP.length },
     { key: "linkers", label: tr.refLinkers, n: fL.reduce((a, g) => a + g.words.length, 0) },
     { key: "glossary", label: tr.refGlossary, n: fG.length },
@@ -2433,7 +2437,21 @@ function Reference({ onBack, lang }) {
       ))}
     </div>
   );
-  const render = { tenses: Tenses, irregulars: Irregulars, prepositions: Preps, linkers: Linkers, glossary: Glossary };
+  const Phrasals = () => (
+    <div className="flex flex-col gap-1.5">
+      {fPh.map((p, i) => (
+        <div key={i} className="rounded-xl p-3" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+          <div className="flex items-center gap-2">
+            <span style={{ ...display, fontWeight: 700, fontSize: 15, color: C.blue }}>{p.pv}</span>
+            <span className="text-sm" style={{ color: C.sub }}>— {lang === "id" ? p.meaningId : p.meaning}</span>
+            <span className="ml-auto"><Speak text={p.ex} /></span>
+          </div>
+          <div className="text-sm mt-0.5" style={{ color: C.ink }}>“{p.ex}”</div>
+        </div>
+      ))}
+    </div>
+  );
+  const render = { tenses: Tenses, irregulars: Irregulars, phrasals: Phrasals, prepositions: Preps, linkers: Linkers, glossary: Glossary };
 
   const empty = query && secs.every(s => s.n === 0);
   return (
