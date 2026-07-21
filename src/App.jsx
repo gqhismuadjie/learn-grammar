@@ -197,10 +197,13 @@ const T = {
     wtTask1: "TASK 1 — CHARTS, PROCESSES & MAPS",
     wtType: (task, type) => `Task ${task} · ${String(type).replace(/-/g, " ")}`,
     wtWritePh: "Write your answer here (optional), then reveal the model answer to compare.",
-    wtShowModel: "Show band-9 model answer",
-    wtHideModel: "Hide model answer",
-    wtModelHeading: "Band-9 model answer",
+    wtShowModel: "Show model answers (Band 6–9)",
+    wtHideModel: "Hide model answers",
+    wtModelHeading: "Model answer",
     wtFeatures: "Why this scores Band 9",
+    wtBand: "Band",
+    wtBandModel: (b) => `Band ${b} model answer`,
+    wtBandWhy: (b) => `Why this is Band ${b}`,
     wtDisclaimer: "A model answer written to a Band-9 standard — a learning target, not an official examiner score.",
     wtBack: "Writing training",
     wtEmpty: "No modules yet.",
@@ -279,10 +282,13 @@ const T = {
     wtTask1: "TASK 1 — GRAFIK, PROSES & PETA",
     wtType: (task, type) => `Task ${task} · ${String(type).replace(/-/g, " ")}`,
     wtWritePh: "Tulis jawaban Anda di sini (opsional), lalu buka jawaban model untuk membandingkan.",
-    wtShowModel: "Tampilkan jawaban model band 9",
+    wtShowModel: "Tampilkan jawaban model (Band 6–9)",
     wtHideModel: "Sembunyikan jawaban model",
-    wtModelHeading: "Jawaban model band 9",
+    wtModelHeading: "Jawaban model",
     wtFeatures: "Mengapa ini setara Band 9",
+    wtBand: "Band",
+    wtBandModel: (b) => `Jawaban model Band ${b}`,
+    wtBandWhy: (b) => `Mengapa ini Band ${b}`,
     wtDisclaimer: "Jawaban model yang ditulis pada standar Band 9 — target belajar, bukan skor resmi penguji.",
     wtBack: "Latihan writing",
     wtEmpty: "Belum ada modul.",
@@ -975,6 +981,7 @@ function WritingTraining({ onBack, lang }) {
   const [mod, setMod] = useState(null);
   const [essay, setEssay] = useState("");
   const [show, setShow] = useState(false);
+  const [band, setBand] = useState(9);
   const [secs, setSecs] = useState(0);
   const [running, setRunning] = useState(false);
   useEffect(() => {
@@ -983,8 +990,8 @@ function WritingTraining({ onBack, lang }) {
     return () => clearInterval(t);
   }, [running]);
 
-  const open = (m) => { setMod(m); setEssay(""); setShow(false); setSecs(m.task === 1 ? 20 * 60 : 40 * 60); setRunning(false); };
-  const close = () => { setMod(null); setEssay(""); setShow(false); setRunning(false); };
+  const open = (m) => { setMod(m); setEssay(""); setShow(false); setBand(9); setSecs(m.task === 1 ? 20 * 60 : 40 * 60); setRunning(false); };
+  const close = () => { setMod(null); setEssay(""); setShow(false); setBand(9); setRunning(false); };
 
   if (!mod) {
     const t2 = WRITING_MODULES.filter(m => m.task === 2);
@@ -1024,7 +1031,9 @@ function WritingTraining({ onBack, lang }) {
   }
 
   const wc = countWords(essay);
-  const paras = String(mod.model || "").split(/\n\n+/);
+  const bands = [6, 7, 8, 9];
+  const ans = (mod.answers && mod.answers[band]) || { model: mod.model, words: mod.words, features: mod.features, featureId: mod.featureId };
+  const paras = String(ans.model || "").split(/\n\n+/);
   const startSecs = mod.task === 1 ? 20 * 60 : 40 * 60;
   return (
     <div>
@@ -1051,18 +1060,26 @@ function WritingTraining({ onBack, lang }) {
         <div className="mt-3"><Btn tone="green" onClick={() => setShow(true)} full><Sparkles size={16} /> {tr.wtShowModel}</Btn></div>
       ) : (
         <div className="mt-3">
+          <div className="flex gap-2 mb-3">
+            {bands.map(bd => (
+              <button key={bd} onClick={() => setBand(bd)} className="flex-1 rounded-full py-2 text-sm font-bold transition"
+                style={{ ...display, background: band === bd ? C.green : C.card, color: band === bd ? "#fff" : C.sub, border: `1px solid ${band === bd ? C.green : C.line}`, cursor: "pointer" }}>
+                {tr.wtBand} {bd}
+              </button>
+            ))}
+          </div>
           <div className="rounded-2xl p-4 mb-3" style={{ background: C.greenWash, border: `1px solid ${C.green}` }}>
             <div className="flex items-center justify-between mb-2">
-              <div className="text-sm font-bold" style={{ ...display, color: C.green }}>{tr.wtModelHeading}</div>
-              <span className="text-xs font-bold" style={{ color: C.sub }}>{mod.words} {tr.words}</span>
+              <div className="text-sm font-bold" style={{ ...display, color: C.green }}>{tr.wtBandModel(band)}</div>
+              <span className="text-xs font-bold" style={{ color: C.sub }}>{ans.words} {tr.words}</span>
             </div>
             {paras.map((p, i) => <p key={i} className="text-sm leading-relaxed mb-2" style={{ color: C.ink }}>{p}</p>)}
           </div>
-          {mod.features && mod.features.length > 0 && (
+          {ans.features && ans.features.length > 0 && (
             <div className="rounded-2xl p-4 mb-3" style={{ background: C.card, border: `1px solid ${C.line}` }}>
-              <div className="text-sm font-bold mb-1.5" style={{ ...display }}>{tr.wtFeatures}</div>
-              {mod.features.map((f, i) => <div key={i} className="flex gap-2 text-sm py-0.5 leading-relaxed"><Check size={16} style={{ color: C.green, flexShrink: 0, marginTop: 2 }} /><span>{f}</span></div>)}
-              {lang === "id" && mod.featureId && <div className="text-sm mt-2 leading-relaxed" style={{ color: C.blueDark, fontStyle: "italic" }}>{mod.featureId}</div>}
+              <div className="text-sm font-bold mb-1.5" style={{ ...display }}>{tr.wtBandWhy(band)}</div>
+              {ans.features.map((f, i) => <div key={i} className="flex gap-2 text-sm py-0.5 leading-relaxed"><Check size={16} style={{ color: C.green, flexShrink: 0, marginTop: 2 }} /><span>{f}</span></div>)}
+              {lang === "id" && ans.featureId && <div className="text-sm mt-2 leading-relaxed" style={{ color: C.blueDark, fontStyle: "italic" }}>{ans.featureId}</div>}
             </div>
           )}
           <div className="rounded-xl p-3 mb-3 flex gap-2 text-xs leading-relaxed" style={{ background: C.amberWash, color: "#8A5A08" }}>
