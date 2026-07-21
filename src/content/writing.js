@@ -721,7 +721,114 @@ export const WRITING_MODULES = [
   "prompt": "The two maps below show a small coastal town called Seabrook in 1990 and in the present day. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
   "visual": {
    "kind": "map",
-   "desc": "In 1990, the town centred on a busy factory beside the harbour, with a two-way road running the length of the high street and only a small area of open ground to the east. The seafront had no facilities for boats, and parking was limited to a narrow strip near the shops. Today the factory has been demolished and replaced by a block of apartments, while a marina has been built out into the harbour for leisure boats. The high street has been pedestrianised, the open ground has become a landscaped park, and a large car park now occupies the northern edge of the town."
+   "panels": [
+    {
+     "title": "1990",
+     "features": [
+      {
+       "label": "Harbour",
+       "x": 4,
+       "y": 2,
+       "w": 34,
+       "h": 20,
+       "kind": "water"
+      },
+      {
+       "label": "Factory",
+       "x": 4,
+       "y": 26,
+       "w": 34,
+       "h": 26,
+       "kind": "build"
+      },
+      {
+       "label": "Shops",
+       "x": 44,
+       "y": 26,
+       "w": 24,
+       "h": 22,
+       "kind": "build"
+      },
+      {
+       "label": "Open ground",
+       "x": 72,
+       "y": 24,
+       "w": 25,
+       "h": 28,
+       "kind": "green"
+      },
+      {
+       "label": "High St (two-way)",
+       "x": 0,
+       "y": 58,
+       "w": 100,
+       "h": 9,
+       "kind": "road"
+      },
+      {
+       "label": "Parking",
+       "x": 44,
+       "y": 71,
+       "w": 24,
+       "h": 13,
+       "kind": "lot"
+      }
+     ]
+    },
+    {
+     "title": "Present day",
+     "features": [
+      {
+       "label": "Marina",
+       "x": 4,
+       "y": 2,
+       "w": 42,
+       "h": 22,
+       "kind": "water"
+      },
+      {
+       "label": "Car park",
+       "x": 52,
+       "y": 2,
+       "w": 45,
+       "h": 18,
+       "kind": "lot"
+      },
+      {
+       "label": "Apartments",
+       "x": 4,
+       "y": 28,
+       "w": 34,
+       "h": 24,
+       "kind": "build"
+      },
+      {
+       "label": "Shops",
+       "x": 44,
+       "y": 28,
+       "w": 24,
+       "h": 22,
+       "kind": "build"
+      },
+      {
+       "label": "Park",
+       "x": 72,
+       "y": 24,
+       "w": 25,
+       "h": 28,
+       "kind": "park"
+      },
+      {
+       "label": "High St (pedestrian)",
+       "x": 0,
+       "y": 60,
+       "w": 100,
+       "h": 9,
+       "kind": "road"
+      }
+     ]
+    }
+   ]
   },
   "model": "The two maps illustrate how the coastal town of Seabrook developed between 1990 and the present day. Overall, the settlement was transformed from an industrial harbour town into a residential and leisure destination, with the removal of the factory and the addition of facilities for visitors and residents.\n\nIn 1990, the most prominent feature was a large factory situated beside the harbour. A two-way road ran the full length of the high street, and only a narrow strip of parking was provided close to the shops. To the east lay a small area of undeveloped open ground, while the seafront offered no amenities for boats whatsoever.\n\nBy the present day, the town had changed considerably. The factory had been demolished and replaced by a modern block of apartments, and a marina had been constructed out into the harbour to accommodate leisure boats. Meanwhile, the high street had been pedestrianised, the former open ground had been converted into a landscaped park, and a spacious car park had been added along the northern edge of the town.",
   "words": 175,

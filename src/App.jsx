@@ -954,6 +954,29 @@ function PieSVG({ parts, title, size = 150 }) {
   );
 }
 
+const MAP_FILL = { build: "#9DB4D6", green: "#AFDCBE", park: "#7FCF9B", water: "#A9D3EC", road: "#CFCFD6", lot: "#F0D49A" };
+function MapPanel({ panel }) {
+  const W = 158, H = 148, SEA = 16;
+  return (
+    <div className="flex flex-col items-center">
+      <div className="text-xs font-bold mb-1" style={{ color: C.sub }}>{panel.title}</div>
+      <svg viewBox={`0 0 ${W} ${H}`} width={W} height={H} style={{ border: `1px solid ${C.line}`, borderRadius: 8, background: "#EEF2EA" }} role="img" aria-label={`map: ${panel.title}`}>
+        <rect x="0" y="0" width={W} height={SEA} fill="#A9D3EC" />
+        <text x="4" y="11" fontSize="7" fill="#33667f">Sea</text>
+        {(panel.features || []).map((f, i) => {
+          const x = (f.x / 100) * W, y = SEA + (f.y / 100) * (H - SEA), w = (f.w / 100) * W, h = (f.h / 100) * (H - SEA);
+          return (
+            <g key={i}>
+              <rect x={x} y={y} width={w} height={h} rx="2" fill={MAP_FILL[f.kind] || "#DDE1EA"} stroke="#ffffff" strokeWidth="1" />
+              <text x={x + w / 2} y={y + h / 2 + 2} textAnchor="middle" fontSize="6" fill={C.ink}>{f.label}</text>
+            </g>
+          );
+        })}
+      </svg>
+    </div>
+  );
+}
+
 function Chart({ visual }) {
   if (!visual) return null;
   const k = visual.kind;
@@ -971,8 +994,23 @@ function Chart({ visual }) {
   if (k === "line") return <LineChart visual={visual} />;
   if (k === "pie") return (<div><div className="flex justify-center"><PieSVG parts={visual.parts} /></div><ChartLegend items={(visual.parts || []).map((p, i) => ({ name: `${p.label} — ${p.value}%`, color: CHART_C[i % CHART_C.length] }))} /></div>);
   if (k === "pies") return (<div><div className="flex flex-wrap gap-6 justify-center">{(visual.charts || []).map((c, ci) => <PieSVG key={ci} parts={c.parts} title={c.title} />)}</div><ChartLegend items={(((visual.charts || [])[0] || {}).parts || []).map((p, i) => ({ name: p.label, color: CHART_C[i % CHART_C.length] }))} /></div>);
-  if (k === "process") return (<div className="flex flex-col gap-2">{(visual.steps || []).map((s, i) => <div key={i} className="flex gap-2 items-start"><span className="rounded-full text-white flex items-center justify-center" style={{ ...display, width: 22, height: 22, fontSize: 12, fontWeight: 700, background: C.green, flexShrink: 0 }}>{i + 1}</span><span className="text-sm leading-relaxed" style={{ marginTop: 1 }}>{s}</span></div>)}</div>);
-  if (k === "map") return <p className="text-sm leading-relaxed">{visual.desc}</p>;
+  if (k === "process") return (
+    <div className="flex flex-col">
+      {(visual.steps || []).map((s, i) => (
+        <div key={i}>
+          <div className="rounded-xl px-3 py-2 flex gap-2 items-start" style={{ background: C.greenWash, border: `1px solid ${C.green}` }}>
+            <span className="rounded-full text-white flex items-center justify-center" style={{ ...display, width: 20, height: 20, fontSize: 11, fontWeight: 700, background: C.green, flexShrink: 0, marginTop: 1 }}>{i + 1}</span>
+            <span className="text-sm leading-snug">{s}</span>
+          </div>
+          {i < (visual.steps.length - 1) && <div style={{ textAlign: "center", color: C.green, fontSize: 16, lineHeight: 1.1 }}>↓</div>}
+        </div>
+      ))}
+    </div>
+  );
+  if (k === "map") {
+    if (visual.panels) return <div className="flex flex-wrap gap-4 justify-center">{visual.panels.map((p, i) => <MapPanel key={i} panel={p} />)}</div>;
+    return <p className="text-sm leading-relaxed">{visual.desc}</p>;
+  }
   return null;
 }
 
