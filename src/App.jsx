@@ -268,6 +268,23 @@ const T = {
     reviewEmpty: "Nothing to review",
     reviewEmptySub: "You have no missed questions right now. Practice a unit and any you miss will show up here.",
     reviewBackHome: "Home",
+    wtSubmit: "Submit for analysis",
+    wtReanalyze: "Re-check my answer",
+    waTitle: "Your answer — analysis",
+    waReadiness: "Structure & language readiness",
+    waBandGuide: (r) => `Measurable features suggest roughly Band ${r}`,
+    waCrit: { TR: "Task response", CC: "Coherence & cohesion", LR: "Lexical resource", GRA: "Grammatical range" },
+    waLevels: ["Needs work", "Developing", "On track", "Strong"],
+    waStrengths: "What's working",
+    waFixes: "Focus on these",
+    waNothing: "Write a bit more, then submit again for a fuller analysis.",
+    waDisclaimer: "An automated check of measurable features only (length, structure, linking, vocabulary spread, sentence variety). It cannot judge whether your ideas answer the question or are accurate. Not an official IELTS score.",
+    waCompare: "Now reveal the model answers below and compare structure, linking and vocabulary against yours.",
+    waParas: "paragraphs",
+    waLinkers: "linking devices",
+    waUnique: "unique words",
+    waPerSent: "words/sentence",
+    waClauses: "clause types",
   },
   id: {
     heroTitle: "Kuasai aturannya, raih Band 7",
@@ -382,6 +399,23 @@ const T = {
     reviewEmpty: "Tidak ada yang ditinjau",
     reviewEmptySub: "Belum ada soal yang salah. Latih sebuah unit dan soal yang terlewat akan muncul di sini.",
     reviewBackHome: "Beranda",
+    wtSubmit: "Kirim untuk analisis",
+    wtReanalyze: "Periksa ulang jawaban",
+    waTitle: "Jawaban Anda — analisis",
+    waReadiness: "Kesiapan struktur & bahasa",
+    waBandGuide: (r) => `Fitur terukur menunjukkan sekitar Band ${r}`,
+    waCrit: { TR: "Task response", CC: "Koherensi & kohesi", LR: "Kosakata (lexical)", GRA: "Ragam tata bahasa" },
+    waLevels: ["Perlu kerja", "Berkembang", "Sesuai jalur", "Kuat"],
+    waStrengths: "Sudah baik",
+    waFixes: "Fokus pada ini",
+    waNothing: "Tulis sedikit lagi, lalu kirim ulang untuk analisis yang lebih lengkap.",
+    waDisclaimer: "Pemeriksaan otomatis atas fitur terukur saja (panjang, struktur, penghubung, variasi kosakata, variasi kalimat). Tidak dapat menilai apakah ide Anda menjawab soal atau akurat. Bukan skor IELTS resmi.",
+    waCompare: "Sekarang buka jawaban model di bawah dan bandingkan struktur, penghubung, dan kosakata dengan milik Anda.",
+    waParas: "paragraf",
+    waLinkers: "kata penghubung",
+    waUnique: "kata unik",
+    waPerSent: "kata/kalimat",
+    waClauses: "jenis klausa",
   },
 };
 
@@ -1142,6 +1176,239 @@ function Chart({ visual }) {
   return null;
 }
 
+// ---------- On-device writing analysis (no server, no AI) ----------
+// A transparent, rule-based check of measurable features. It is NOT an official
+// band score and cannot judge whether the ideas answer the question — the model
+// answers are there for that. Clearly labelled as such in the UI.
+const WA_LINKERS = ["however", "therefore", "moreover", "furthermore", "in addition", "additionally", "for example", "for instance", "on the other hand", "in contrast", "by contrast", "firstly", "secondly", "thirdly", "finally", "in conclusion", "to conclude", "overall", "as a result", "consequently", "nevertheless", "nonetheless", "meanwhile", "similarly", "in particular", "such as", "to sum up", "first of all", "in summary", "despite", "in spite of", "whereas", "although", "even though", "in general", "for this reason"];
+const WA_SUBS = ["because", "although", "though", "since", "while", "whereas", "unless", "whenever", "which", "who", "whom", "whose", "so that", "in order to", "even though", "before", "after", "until", "if"];
+const WA_OPINION = ["i believe", "i think", "in my opinion", "i agree", "i disagree", "from my perspective", "i would argue", "it seems to me", "personally", "in my view", "i strongly"];
+const WA_CONCLUSION = ["in conclusion", "to conclude", "overall", "to sum up", "in summary", "all in all", "on balance", "to summarise", "to summarize"];
+const WA_CONTRACTIONS = /\b(can't|won't|don't|doesn't|didn't|isn't|aren't|wasn't|weren't|i'm|i've|i'd|i'll|you're|they're|we're|it's|that's|there's|shouldn't|wouldn't|couldn't|hasn't|haven't|let's)\b/gi;
+const WA_STOP = new Set("the a an and or but of to in on at for with as is are was were be been being this that these those it its i you he she they we my your our their his her him them do does did have has had will would can could should shall may might must not no by from about into than then so such very more most much many some any all each other one two".split(" "));
+
+function analyzeWriting(text, task, lang) {
+  const raw = String(text || "");
+  const trimmed = raw.trim();
+  const wordsArr = trimmed ? trimmed.split(/\s+/) : [];
+  const words = wordsArr.length;
+  const lower = " " + trimmed.toLowerCase().replace(/\s+/g, " ") + " ";
+  const sentences = trimmed ? trimmed.split(/[.!?]+(?:\s|$)/).map(s => s.trim()).filter(Boolean) : [];
+  const sentCount = sentences.length;
+  const sentLens = sentences.map(s => s.split(/\s+/).filter(Boolean).length);
+  const avgSent = sentCount ? words / sentCount : 0;
+  const mean = avgSent;
+  const sd = sentLens.length ? Math.sqrt(sentLens.reduce((a, n) => a + (n - mean) * (n - mean), 0) / sentLens.length) : 0;
+  const paragraphs = trimmed ? raw.split(/\n\s*\n/).map(s => s.trim()).filter(Boolean) : [];
+  const paraCount = paragraphs.length;
+
+  const cleanWords = wordsArr.map(w => w.toLowerCase().replace(/[^a-z']/g, "")).filter(Boolean);
+  const uniq = new Set(cleanWords);
+  const ttr = cleanWords.length ? uniq.size / cleanWords.length : 0;
+  const ttrPct = Math.round(ttr * 100);
+  const freq = {};
+  cleanWords.forEach(w => { if (!WA_STOP.has(w) && w.length > 3) freq[w] = (freq[w] || 0) + 1; });
+  let topWord = null, topN = 0;
+  for (const w in freq) if (freq[w] > topN) { topN = freq[w]; topWord = w; }
+
+  const linkers = WA_LINKERS.filter(l => lower.includes(" " + l + " ") || lower.includes(" " + l + ","));
+  const nLink = linkers.length;
+  const subs = WA_SUBS.filter(s => new RegExp("\\b" + s + "\\b").test(lower));
+  const nSub = subs.length;
+  const hasOpinion = WA_OPINION.some(o => lower.includes(o));
+  const hasConclusion = WA_CONCLUSION.some(c => lower.includes(c));
+  const contractions = (raw.match(WA_CONTRACTIONS) || []).length;
+  const longSent = sentLens.filter(n => n > 40).length;
+  const shortOnly = sentCount > 2 && sentLens.every(n => n <= 8);
+
+  const minW = task === 2 ? 250 : 150;
+  const wantPara = task === 2 ? 4 : 3;
+  const tooShort = words < minW * 0.6;
+
+  // Per-criterion quality in [0,1]
+  let TR = 0;
+  TR += words >= minW ? 0.45 : words >= 0.8 * minW ? 0.28 : words >= 0.6 * minW ? 0.15 : 0.05;
+  TR += paraCount >= wantPara ? 0.3 : paraCount >= 3 ? 0.22 : paraCount >= 2 ? 0.12 : 0.02;
+  if (task === 2) { TR += hasOpinion ? 0.15 : 0; TR += hasConclusion ? 0.1 : 0; }
+  else { TR += 0.15; TR += hasConclusion ? 0.1 : 0; }
+  TR = Math.min(1, TR);
+
+  let CC = nLink >= 6 ? 0.55 : nLink >= 4 ? 0.45 : nLink >= 2 ? 0.3 : nLink >= 1 ? 0.18 : 0.05;
+  CC += paraCount >= 4 ? 0.3 : paraCount >= 3 ? 0.22 : paraCount >= 2 ? 0.12 : 0.02;
+  CC += hasConclusion ? 0.1 : 0;
+  CC = Math.min(1, CC);
+
+  let LR = ttr >= 0.55 ? 0.5 : ttr >= 0.48 ? 0.42 : ttr >= 0.42 ? 0.32 : ttr >= 0.36 ? 0.22 : 0.12;
+  LR -= topN >= 6 ? 0.15 : topN >= 4 ? 0.08 : 0;
+  LR -= contractions >= 3 ? 0.08 : contractions >= 1 ? 0.04 : 0;
+  LR += words >= minW ? 0.35 : words >= 0.8 * minW ? 0.22 : 0.1;
+  LR = Math.max(0, Math.min(1, LR));
+
+  let GRA = nSub >= 5 ? 0.4 : nSub >= 3 ? 0.3 : nSub >= 1 ? 0.18 : 0.05;
+  GRA += (avgSent >= 12 && avgSent <= 24) ? 0.3 : (avgSent >= 10 && avgSent <= 28) ? 0.2 : 0.08;
+  GRA += (sd >= 5 && sentCount >= 4) ? 0.2 : sd >= 3 ? 0.12 : 0.04;
+  GRA -= longSent >= 2 ? 0.12 : longSent >= 1 ? 0.06 : 0;
+  GRA -= shortOnly ? 0.15 : 0;
+  GRA += words >= minW ? 0.1 : 0;
+  GRA = Math.max(0, Math.min(1, GRA));
+
+  let overall = (TR + CC + LR + GRA) / 4;
+  if (tooShort) overall = Math.min(overall, 0.42);
+
+  const range = tooShort ? "< 5.5"
+    : overall >= 0.85 ? "7.5–8.5"
+    : overall >= 0.72 ? "7.0–7.5"
+    : overall >= 0.6 ? "6.5–7.0"
+    : overall >= 0.48 ? "6.0–6.5"
+    : overall >= 0.36 ? "5.5–6.0"
+    : "5.0–5.5";
+  const lvl = q => (q < 0.4 ? 0 : q < 0.62 ? 1 : q < 0.82 ? 2 : 3);
+
+  const u = T[lang];
+  const criteria = [
+    { key: "TR", q: TR, level: lvl(TR), metric: `${words} ${u.words} · ${paraCount} ${u.waParas}` },
+    { key: "CC", q: CC, level: lvl(CC), metric: `${nLink} ${u.waLinkers}` },
+    { key: "LR", q: LR, level: lvl(LR), metric: `${ttrPct}% ${u.waUnique}` },
+    { key: "GRA", q: GRA, level: lvl(GRA), metric: `~${Math.round(avgSent)} ${u.waPerSent} · ${nSub} ${u.waClauses}` },
+  ];
+
+  const strengths = [];
+  if (words >= minW) strengths.push({ code: "len_ok", w: words });
+  if (paraCount >= wantPara) strengths.push({ code: "paras_ok", n: paraCount });
+  if (nLink >= 4) strengths.push({ code: "linkers_ok", n: nLink });
+  if (sd >= 5 && sentCount >= 4) strengths.push({ code: "variety_ok" });
+  if (nSub >= 3) strengths.push({ code: "complex_ok", n: nSub });
+  if (ttr >= 0.48 && words >= 60) strengths.push({ code: "vocab_ok", p: ttrPct });
+  if (task === 2 && hasOpinion) strengths.push({ code: "opinion_ok" });
+  if (hasConclusion) strengths.push({ code: "conclusion_ok" });
+
+  const fixes = [];
+  if (paraCount <= 1 && words > 40) fixes.push({ code: "no_paragraphs" });
+  if (words < minW) fixes.push({ code: "len_short", need: minW - words, min: minW });
+  if (paraCount > 1 && paraCount < wantPara) fixes.push({ code: "paras_few", want: wantPara });
+  if (nLink < 3) fixes.push({ code: "linkers_few" });
+  if (topN >= 5 && topWord) fixes.push({ code: "vocab_repeat", word: topWord, n: topN });
+  else if (ttr < 0.4 && words > 60) fixes.push({ code: "vocab_low" });
+  if (longSent >= 1) fixes.push({ code: "sent_long", n: longSent });
+  if (shortOnly) fixes.push({ code: "sent_short" });
+  if (nSub < 2 && words > 60) fixes.push({ code: "complex_few" });
+  if (contractions >= 2) fixes.push({ code: "contractions" });
+  if (task === 2 && !hasOpinion && words > 60) fixes.push({ code: "opinion_missing" });
+  if (!hasConclusion && words > 80) fixes.push({ code: "conclusion_missing" });
+
+  return {
+    words, paraCount, sentCount, overall, readiness: Math.round(overall * 100),
+    range, tooShort, criteria,
+    strengths: strengths.slice(0, 5),
+    fixes: fixes.slice(0, 6),
+  };
+}
+
+// Localised text for analysis strength/fix codes.
+const WA_MSG = {
+  en: {
+    len_ok: (a) => `Meets the word count (${a.w} words)`,
+    paras_ok: (a) => `Clear paragraphing (${a.n} paragraphs)`,
+    linkers_ok: (a) => `Good range of linking devices (${a.n})`,
+    variety_ok: () => `Varied sentence length`,
+    complex_ok: (a) => `Uses complex sentences (${a.n} clause types)`,
+    vocab_ok: (a) => `Good vocabulary variety (${a.p}% distinct words)`,
+    opinion_ok: () => `States a clear position`,
+    conclusion_ok: () => `Has a conclusion`,
+    no_paragraphs: () => `Write in paragraphs, not one block of text`,
+    len_short: (a) => `Too short — add about ${a.need} more words to reach ${a.min}`,
+    paras_few: (a) => `Organise into ${a.want}+ paragraphs (intro, body, conclusion)`,
+    linkers_few: () => `Add linking devices (however, therefore, for example…)`,
+    vocab_repeat: (a) => `You repeat “${a.word}” ${a.n} times — use synonyms`,
+    vocab_low: () => `Vocabulary is repetitive — vary your word choice`,
+    sent_long: (a) => `${a.n} very long sentence(s) — split them to avoid run-ons`,
+    sent_short: () => `Sentences are all short — combine ideas with because / which / although`,
+    complex_few: () => `Add complex sentences (although…, which…, because…)`,
+    contractions: () => `Avoid contractions (don't → do not) in formal writing`,
+    opinion_missing: () => `Task 2: state your opinion clearly (I believe…, In my view…)`,
+    conclusion_missing: () => `Add a conclusion (In conclusion…, Overall…)`,
+  },
+  id: {
+    len_ok: (a) => `Memenuhi jumlah kata (${a.w} kata)`,
+    paras_ok: (a) => `Paragraf jelas (${a.n} paragraf)`,
+    linkers_ok: (a) => `Variasi kata penghubung baik (${a.n})`,
+    variety_ok: () => `Panjang kalimat bervariasi`,
+    complex_ok: (a) => `Memakai kalimat kompleks (${a.n} jenis klausa)`,
+    vocab_ok: (a) => `Variasi kosakata baik (${a.p}% kata berbeda)`,
+    opinion_ok: () => `Menyatakan posisi dengan jelas`,
+    conclusion_ok: () => `Ada kesimpulan`,
+    no_paragraphs: () => `Tulis dalam paragraf, bukan satu blok teks`,
+    len_short: (a) => `Terlalu pendek — tambah sekitar ${a.need} kata lagi hingga ${a.min}`,
+    paras_few: (a) => `Susun jadi ${a.want}+ paragraf (pembuka, isi, kesimpulan)`,
+    linkers_few: () => `Tambah kata penghubung (however, therefore, for example…)`,
+    vocab_repeat: (a) => `Anda mengulang “${a.word}” ${a.n} kali — pakai sinonim`,
+    vocab_low: () => `Kosakata berulang — variasikan pilihan kata`,
+    sent_long: (a) => `${a.n} kalimat sangat panjang — pecah agar tidak berantakan`,
+    sent_short: () => `Semua kalimat pendek — gabungkan ide dengan because / which / although`,
+    complex_few: () => `Tambah kalimat kompleks (although…, which…, because…)`,
+    contractions: () => `Hindari kontraksi (don't → do not) dalam tulisan formal`,
+    opinion_missing: () => `Task 2: nyatakan pendapat dengan jelas (I believe…, In my view…)`,
+    conclusion_missing: () => `Tambahkan kesimpulan (In conclusion…, Overall…)`,
+  },
+};
+function waMsg(lang, item) { const f = (WA_MSG[lang] || WA_MSG.en)[item.code]; return f ? f(item) : item.code; }
+
+function WritingAnalysis({ a, lang }) {
+  const tr = T[lang];
+  const levelColor = [C.red, C.amber, C.blue, C.green];
+  const levelWash = [C.redWash, C.amberWash, C.blueWash, C.greenWash];
+  const readyColor = a.readiness >= 72 ? C.green : a.readiness >= 48 ? C.blue : a.readiness >= 36 ? C.amber : C.red;
+  return (
+    <div className="rounded-2xl p-4 mb-3 mt-3" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+      <div className="flex items-center gap-2">
+        <Target size={18} style={{ color: C.blue }} />
+        <div className="text-sm font-bold" style={{ ...display }}>{tr.waTitle}</div>
+        <span className="ml-auto text-xs font-bold" style={{ color: C.sub }}>{a.words} {tr.words}</span>
+      </div>
+      <div className="flex items-center justify-between mb-1 mt-3">
+        <span className="text-xs font-semibold" style={{ color: C.sub }}>{tr.waReadiness}</span>
+        <span className="text-xs font-bold" style={{ color: C.ink }}>{a.readiness}%</span>
+      </div>
+      <MiniBar pct={a.readiness} color={readyColor} />
+      <div className="text-xs mt-2 font-semibold" style={{ color: C.blueDark }}>{tr.waBandGuide(a.range)}</div>
+
+      <div className="flex flex-col gap-3 mt-4">
+        {a.criteria.map(c => (
+          <div key={c.key}>
+            <div className="flex items-center justify-between mb-1">
+              <span className="text-sm font-semibold">{tr.waCrit[c.key]}</span>
+              <span className="rounded-full px-2 py-0.5 text-xs font-bold" style={{ background: levelWash[c.level], color: levelColor[c.level] }}>{tr.waLevels[c.level]}</span>
+            </div>
+            <MiniBar pct={Math.round(c.q * 100)} color={levelColor[c.level]} />
+            <div className="text-xs mt-1" style={{ color: C.sub }}>{c.metric}</div>
+          </div>
+        ))}
+      </div>
+
+      {a.strengths.length > 0 && (
+        <div className="mt-4">
+          <div className="text-xs font-bold mb-1" style={{ ...display, color: C.green }}>{tr.waStrengths}</div>
+          {a.strengths.map((s, i) => <div key={i} className="flex gap-2 text-sm py-0.5 leading-relaxed"><Check size={15} style={{ color: C.green, flexShrink: 0, marginTop: 2 }} /><span>{waMsg(lang, s)}</span></div>)}
+        </div>
+      )}
+      {a.fixes.length > 0 && (
+        <div className="mt-3">
+          <div className="text-xs font-bold mb-1" style={{ ...display, color: C.amber }}>{tr.waFixes}</div>
+          {a.fixes.map((s, i) => <div key={i} className="flex gap-2 text-sm py-0.5 leading-relaxed"><ArrowRight size={15} style={{ color: C.amber, flexShrink: 0, marginTop: 3 }} /><span>{waMsg(lang, s)}</span></div>)}
+        </div>
+      )}
+      {a.strengths.length === 0 && a.fixes.length === 0 && (
+        <div className="text-sm mt-3" style={{ color: C.sub }}>{tr.waNothing}</div>
+      )}
+
+      <div className="rounded-xl p-3 mt-4 flex gap-2 text-xs leading-relaxed" style={{ background: C.amberWash, color: "#8A5A08" }}>
+        <AlertTriangle size={15} style={{ flexShrink: 0, marginTop: 1 }} /><span>{tr.waDisclaimer}</span>
+      </div>
+      <div className="text-xs mt-2 leading-relaxed" style={{ color: C.sub }}>{tr.waCompare}</div>
+    </div>
+  );
+}
+
 function WritingTraining({ onBack, lang }) {
   const tr = T[lang];
   const [modules, setModules] = useState(null); // loaded on demand (code-split)
@@ -1151,6 +1418,7 @@ function WritingTraining({ onBack, lang }) {
   const [band, setBand] = useState(9);
   const [secs, setSecs] = useState(0);
   const [running, setRunning] = useState(false);
+  const [analysis, setAnalysis] = useState(null);
   useEffect(() => {
     let on = true;
     import("./content/writing.js").then(m => { if (on) setModules(m.WRITING_MODULES); }).catch(() => { if (on) setModules([]); });
@@ -1162,8 +1430,9 @@ function WritingTraining({ onBack, lang }) {
     return () => clearInterval(t);
   }, [running]);
 
-  const open = (m) => { setMod(m); setEssay(""); setShow(false); setBand(9); setSecs(m.task === 1 ? 20 * 60 : 40 * 60); setRunning(false); };
-  const close = () => { setMod(null); setEssay(""); setShow(false); setBand(9); setRunning(false); };
+  const open = (m) => { setMod(m); setEssay(""); setShow(false); setBand(9); setSecs(m.task === 1 ? 20 * 60 : 40 * 60); setRunning(false); setAnalysis(null); };
+  const close = () => { setMod(null); setEssay(""); setShow(false); setBand(9); setRunning(false); setAnalysis(null); };
+  const submit = () => { setAnalysis(analyzeWriting(essay, mod.task, lang)); setRunning(false); };
 
   if (!mod) {
     const all = modules || [];
@@ -1230,6 +1499,10 @@ function WritingTraining({ onBack, lang }) {
       </div>
       <textarea value={essay} onChange={e => setEssay(e.target.value)} rows={10} placeholder={tr.wtWritePh}
         className="w-full rounded-2xl p-4 text-base leading-relaxed outline-none resize-none" style={{ border: `1px solid ${C.line}`, background: C.card, ...body }} />
+      <div className="mt-3">
+        <Btn onClick={submit} disabled={countWords(essay) < 5} full><Target size={16} /> {analysis ? tr.wtReanalyze : tr.wtSubmit}</Btn>
+      </div>
+      {analysis && <WritingAnalysis a={analysis} lang={lang} />}
       {!show ? (
         <div className="mt-3"><Btn tone="green" onClick={() => setShow(true)} full><Sparkles size={16} /> {tr.wtShowModel}</Btn></div>
       ) : (
