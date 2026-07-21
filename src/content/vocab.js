@@ -15,6 +15,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "abstract",
+  "pos": "adjective",
+  "def": "describing art that uses shapes and colours rather than showing real objects",
+  "defId": "menggambarkan seni yang menggunakan bentuk dan warna alih-alih menampilkan objek nyata",
+  "ex": "The abstract painting was just bold splashes of red and blue on a white background.",
+  "exId": "Lukisan abstrak itu hanya berupa cipratan merah dan biru yang tegas pada latar putih.",
+  "colloc": [
+   "abstract art",
+   "abstract painting",
+   "purely abstract"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "academic",
   "pos": "adjective",
   "def": "relating to education, study, and thinking rather than practical skills",
@@ -29,6 +43,62 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "acclaim",
+  "pos": "noun",
+  "def": "strong public praise and approval for a work or achievement",
+  "defId": "pujian dan pengakuan publik yang kuat terhadap suatu karya atau pencapaian",
+  "ex": "Her debut album received wide critical acclaim from music reviewers.",
+  "exId": "Album debutnya menerima pujian kritis yang luas dari para pengulas musik.",
+  "colloc": [
+   "critical acclaim",
+   "win acclaim",
+   "widespread acclaim"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "accommodation",
+  "pos": "noun",
+  "def": "a place to stay, such as a hotel room or rented house",
+  "defId": "tempat untuk menginap, seperti kamar hotel atau rumah sewaan",
+  "ex": "We booked our accommodation months before the holiday.",
+  "exId": "Kami memesan akomodasi kami berbulan-bulan sebelum liburan.",
+  "colloc": [
+   "book accommodation",
+   "budget accommodation",
+   "overnight accommodation"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "accomplice",
+  "pos": "noun",
+  "def": "a person who helps another person commit a crime",
+  "defId": "orang yang membantu orang lain melakukan kejahatan",
+  "ex": "He acted as an accomplice by driving the getaway car.",
+  "exId": "Dia berperan sebagai kaki tangan dengan mengemudikan mobil pelarian.",
+  "colloc": [
+   "act as an accomplice",
+   "willing accomplice",
+   "alleged accomplice"
+  ],
+  "theme": "crime"
+ },
+ {
+  "w": "acquittal",
+  "pos": "noun",
+  "def": "a court decision that a person is not guilty",
+  "defId": "keputusan pengadilan yang menyatakan seseorang tidak bersalah",
+  "ex": "The lack of evidence led to his acquittal on all charges.",
+  "exId": "Kurangnya bukti menyebabkan pembebasannya dari semua dakwaan.",
+  "colloc": [
+   "secure an acquittal",
+   "win an acquittal",
+   "verdict of acquittal"
+  ],
+  "theme": "crime"
+ },
+ {
   "w": "addiction",
   "pos": "noun",
   "def": "a strong need to keep doing or using something that is hard to stop",
@@ -41,6 +111,118 @@ export const VOCAB = [
    "addiction to"
   ],
   "theme": "health"
+ },
+ {
+  "w": "additive",
+  "pos": "noun",
+  "def": "a substance added to food to improve its taste, colour or shelf life",
+  "defId": "zat yang ditambahkan ke makanan untuk memperbaiki rasa, warna, atau daya tahannya; zat aditif",
+  "ex": "This juice contains no artificial additives or colourings.",
+  "exId": "Jus ini tidak mengandung zat aditif atau pewarna buatan.",
+  "colloc": [
+   "food additive",
+   "artificial additive",
+   "chemical additive"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "adolescence",
+  "pos": "noun",
+  "def": "the period of life between childhood and adulthood",
+  "defId": "masa peralihan antara masa kanak-kanak dan masa dewasa",
+  "ex": "Many people struggle with their identity during adolescence.",
+  "exId": "Banyak orang bergulat dengan jati diri mereka selama masa remaja.",
+  "colloc": [
+   "early adolescence",
+   "during adolescence",
+   "reach adolescence"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "adrenaline",
+  "pos": "noun",
+  "def": "a substance produced by the body that makes the heart beat faster during excitement or fear",
+  "defId": "zat yang diproduksi tubuh yang membuat jantung berdetak lebih cepat saat gembira atau takut",
+  "ex": "The adrenaline kept her going during the final lap.",
+  "exId": "Adrenalin membuatnya terus bertahan selama putaran terakhir.",
+  "colloc": [
+   "adrenaline rush",
+   "pump adrenaline",
+   "adrenaline junkie"
+  ],
+  "theme": "sport"
+ },
+ {
+  "w": "aesthetic",
+  "pos": "adjective",
+  "def": "concerned with beauty or the appreciation of what is beautiful",
+  "defId": "berkaitan dengan keindahan atau penghargaan terhadap sesuatu yang indah",
+  "ex": "The building was praised for both its aesthetic appeal and its clever design.",
+  "exId": "Bangunan itu dipuji karena daya tarik estetikanya sekaligus desainnya yang cerdas.",
+  "colloc": [
+   "aesthetic appeal",
+   "aesthetic value",
+   "aesthetic quality"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "affection",
+  "pos": "noun",
+  "def": "a feeling of liking or love for someone",
+  "defId": "rasa suka atau kasih sayang terhadap seseorang",
+  "ex": "She showed great affection for her nieces and nephews.",
+  "exId": "Dia menunjukkan kasih sayang yang besar kepada keponakan-keponakannya.",
+  "colloc": [
+   "show affection",
+   "deep affection",
+   "term of affection"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "affinity",
+  "pos": "noun",
+  "def": "a natural liking or feeling of connection with someone",
+  "defId": "ketertarikan atau kedekatan alami dengan seseorang",
+  "ex": "She felt an immediate affinity with her new stepsister.",
+  "exId": "Dia langsung merasakan kedekatan dengan saudari tirinya yang baru.",
+  "colloc": [
+   "feel an affinity",
+   "natural affinity",
+   "close affinity"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "affordable",
+  "pos": "adjective",
+  "def": "cheap enough that most people are able to pay for it",
+  "defId": "cukup murah sehingga sebagian besar orang mampu membayarnya",
+  "ex": "The hostel offers affordable rooms for budget travelers.",
+  "exId": "Hostel itu menawarkan kamar-kamar terjangkau untuk wisatawan berbujet terbatas.",
+  "colloc": [
+   "affordable prices",
+   "affordable accommodation",
+   "affordable option"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "agility",
+  "pos": "noun",
+  "def": "the ability to move quickly and easily",
+  "defId": "kemampuan untuk bergerak dengan cepat dan mudah",
+  "ex": "Gymnasts are admired for their strength and agility.",
+  "exId": "Pesenam dikagumi karena kekuatan dan kelincahan mereka.",
+  "colloc": [
+   "speed and agility",
+   "physical agility",
+   "agility training"
+  ],
+  "theme": "sport"
  },
  {
   "w": "ailment",
@@ -71,6 +253,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "allegation",
+  "pos": "noun",
+  "def": "a claim that someone has done wrong, usually without proof yet",
+  "defId": "tuduhan bahwa seseorang telah berbuat salah, biasanya belum disertai bukti",
+  "ex": "The company denied all allegations of corruption and fraud.",
+  "exId": "Perusahaan itu membantah semua tuduhan korupsi dan penipuan.",
+  "colloc": [
+   "deny an allegation",
+   "serious allegation",
+   "make an allegation"
+  ],
+  "theme": "crime"
+ },
+ {
   "w": "alleviate",
   "pos": "verb",
   "def": "to make pain or a problem less severe",
@@ -97,6 +293,20 @@ export const VOCAB = [
    "allocate a budget"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "amateur",
+  "pos": "noun",
+  "def": "a person who does a sport or activity for pleasure, not as a paid job",
+  "defId": "orang yang melakukan olahraga atau kegiatan untuk kesenangan, bukan sebagai pekerjaan berbayar",
+  "ex": "He played football as an amateur before turning professional.",
+  "exId": "Dia bermain sepak bola sebagai amatir sebelum menjadi profesional.",
+  "colloc": [
+   "amateur athlete",
+   "talented amateur",
+   "amateur level"
+  ],
+  "theme": "sport"
  },
  {
   "w": "ambiguous",
@@ -127,6 +337,34 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "ancestry",
+  "pos": "noun",
+  "def": "the people from whom one is descended; one's family origins",
+  "defId": "garis keturunan atau asal-usul keluarga seseorang",
+  "ex": "She traced her ancestry back to the eighteenth century.",
+  "exId": "Dia menelusuri garis keturunannya hingga abad kedelapan belas.",
+  "colloc": [
+   "trace one's ancestry",
+   "mixed ancestry",
+   "common ancestry"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "anchor",
+  "pos": "noun",
+  "def": "a person who presents the news on television or radio",
+  "defId": "orang yang membawakan berita di televisi atau radio",
+  "ex": "The news anchor introduced the top story of the evening.",
+  "exId": "Pembawa berita itu memperkenalkan berita utama malam itu.",
+  "colloc": [
+   "news anchor",
+   "TV anchor",
+   "sports anchor"
+  ],
+  "theme": "media"
+ },
+ {
   "w": "anomaly",
   "pos": "noun",
   "def": "something that differs from what is normal or expected",
@@ -141,6 +379,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "anonymity",
+  "pos": "noun",
+  "def": "the state of not having your name or identity known",
+  "defId": "keadaan di mana nama atau identitas seseorang tidak diketahui",
+  "ex": "The source spoke to reporters on condition of anonymity.",
+  "exId": "Sumber itu berbicara kepada wartawan dengan syarat anonimitas.",
+  "colloc": [
+   "condition of anonymity",
+   "protect anonymity",
+   "request anonymity"
+  ],
+  "theme": "media"
+ },
+ {
   "w": "app",
   "pos": "noun",
   "def": "a program you install on a phone or computer to do a certain task",
@@ -153,6 +405,20 @@ export const VOCAB = [
    "open the app"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "appeal",
+  "pos": "noun",
+  "def": "a formal request to a higher court to change a legal decision",
+  "defId": "permohonan resmi kepada pengadilan yang lebih tinggi untuk mengubah keputusan hukum",
+  "ex": "His lawyers filed an appeal against the guilty verdict.",
+  "exId": "Para pengacaranya mengajukan banding terhadap putusan bersalah itu.",
+  "colloc": [
+   "file an appeal",
+   "lose an appeal",
+   "court of appeal"
+  ],
+  "theme": "crime"
  },
  {
   "w": "apprenticeship",
@@ -195,6 +461,20 @@ export const VOCAB = [
    "seem arbitrary"
   ],
   "theme": "science"
+ },
+ {
+  "w": "artefact",
+  "pos": "noun",
+  "def": "an object made by a human, especially one of historical or cultural interest",
+  "defId": "benda buatan manusia, terutama yang memiliki nilai sejarah atau budaya",
+  "ex": "The museum displays ancient artefacts discovered at the nearby temple.",
+  "exId": "Museum itu memamerkan artefak kuno yang ditemukan di kuil terdekat.",
+  "colloc": [
+   "ancient artefact",
+   "cultural artefact",
+   "historical artefact"
+  ],
+  "theme": "arts"
  },
  {
   "w": "artificial",
@@ -281,6 +561,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "athlete",
+  "pos": "noun",
+  "def": "a person who is good at sports and takes part in competitions",
+  "defId": "orang yang mahir berolahraga dan mengikuti kompetisi",
+  "ex": "The young athlete trained every morning before school.",
+  "exId": "Atlet muda itu berlatih setiap pagi sebelum sekolah.",
+  "colloc": [
+   "professional athlete",
+   "elite athlete",
+   "top athlete"
+  ],
+  "theme": "sport"
+ },
+ {
   "w": "attainment",
   "pos": "noun",
   "def": "the level of achievement someone reaches, especially in education",
@@ -323,6 +617,34 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "avant-garde",
+  "pos": "adjective",
+  "def": "new and experimental in a way that is ahead of its time, especially in the arts",
+  "defId": "baru dan eksperimental dengan cara yang mendahului zamannya, terutama dalam seni",
+  "ex": "The theatre is known for staging avant-garde plays that challenge audiences.",
+  "exId": "Teater itu dikenal karena mementaskan drama avant-garde yang menantang penonton.",
+  "colloc": [
+   "avant-garde art",
+   "avant-garde movement",
+   "avant-garde style"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "backpacking",
+  "pos": "noun",
+  "def": "the activity of travelling cheaply while carrying your belongings in a backpack",
+  "defId": "kegiatan bepergian secara hemat sambil membawa barang-barang di dalam ransel",
+  "ex": "They went backpacking across Southeast Asia for three months.",
+  "exId": "Mereka melakukan perjalanan backpacking keliling Asia Tenggara selama tiga bulan.",
+  "colloc": [
+   "go backpacking",
+   "backpacking trip",
+   "backpacking holiday"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "backup",
   "pos": "noun",
   "def": "a copy of data kept in case the original is lost or damaged",
@@ -335,6 +657,20 @@ export const VOCAB = [
    "regular backup"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "bail",
+  "pos": "noun",
+  "def": "money paid so an accused person can stay free until their trial",
+  "defId": "uang yang dibayarkan agar terdakwa dapat bebas sampai persidangannya",
+  "ex": "The judge released him on bail of five thousand dollars.",
+  "exId": "Hakim membebaskannya dengan uang jaminan lima ribu dolar.",
+  "colloc": [
+   "release on bail",
+   "grant bail",
+   "post bail"
+  ],
+  "theme": "crime"
  },
  {
   "w": "bandwidth",
@@ -365,6 +701,20 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "bereavement",
+  "pos": "noun",
+  "def": "the state of sadness after a loved one dies",
+  "defId": "masa kesedihan setelah kehilangan orang yang dicintai",
+  "ex": "The family was given time off work during their bereavement.",
+  "exId": "Keluarga itu diberi cuti kerja selama masa berkabung mereka.",
+  "colloc": [
+   "suffer bereavement",
+   "bereavement leave",
+   "cope with bereavement"
+  ],
+  "theme": "family"
+ },
+ {
   "w": "bias",
   "pos": "noun",
   "def": "an unfair preference for or against a person or group",
@@ -391,6 +741,62 @@ export const VOCAB = [
    "rich biodiversity"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "bond",
+  "pos": "noun",
+  "def": "a close emotional connection between people",
+  "defId": "ikatan emosional yang erat antara orang-orang",
+  "ex": "There is a strong bond between the twins.",
+  "exId": "Ada ikatan yang kuat di antara si kembar.",
+  "colloc": [
+   "strong bond",
+   "emotional bond",
+   "form a bond"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "breadwinner",
+  "pos": "noun",
+  "def": "the person who earns money to support a family",
+  "defId": "orang yang mencari nafkah untuk menghidupi keluarga",
+  "ex": "As the main breadwinner, she works long hours to support them.",
+  "exId": "Sebagai pencari nafkah utama, dia bekerja berjam-jam untuk menghidupi mereka.",
+  "colloc": [
+   "main breadwinner",
+   "sole breadwinner",
+   "family breadwinner"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "bribery",
+  "pos": "noun",
+  "def": "the crime of giving money or gifts to influence someone in power",
+  "defId": "kejahatan memberi uang atau hadiah untuk memengaruhi orang yang berkuasa",
+  "ex": "The official was found guilty of bribery and lost his job.",
+  "exId": "Pejabat itu terbukti bersalah melakukan penyuapan dan kehilangan pekerjaannya.",
+  "colloc": [
+   "accused of bribery",
+   "bribery and corruption",
+   "act of bribery"
+  ],
+  "theme": "crime"
+ },
+ {
+  "w": "broadcast",
+  "pos": "verb",
+  "def": "to send out a programme on television or radio",
+  "defId": "menyiarkan program di televisi atau radio",
+  "ex": "The station will broadcast the match live on Saturday night.",
+  "exId": "Stasiun itu akan menyiarkan pertandingan tersebut secara langsung pada Sabtu malam.",
+  "colloc": [
+   "broadcast live",
+   "broadcast a programme",
+   "broadcast the news"
+  ],
+  "theme": "media"
  },
  {
   "w": "browse",
@@ -421,6 +827,48 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "burglary",
+  "pos": "noun",
+  "def": "the crime of entering a building illegally to steal things",
+  "defId": "kejahatan memasuki bangunan secara ilegal untuk mencuri barang",
+  "ex": "There has been a rise in burglary in the neighbourhood this year.",
+  "exId": "Terjadi peningkatan pembobolan rumah di lingkungan itu tahun ini.",
+  "colloc": [
+   "commit burglary",
+   "attempted burglary",
+   "burglary victim"
+  ],
+  "theme": "crime"
+ },
+ {
+  "w": "bustling",
+  "pos": "adjective",
+  "def": "full of energetic and noisy activity",
+  "defId": "penuh dengan kegiatan yang ramai dan bersemangat",
+  "ex": "The bustling market was full of vendors selling local food.",
+  "exId": "Pasar yang ramai itu penuh dengan pedagang yang menjual makanan lokal.",
+  "colloc": [
+   "a bustling market",
+   "bustling city",
+   "bustling street"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "canvas",
+  "pos": "noun",
+  "def": "a piece of strong cloth on which an artist paints, or the painting itself",
+  "defId": "kain kuat tempat seniman melukis, atau lukisan itu sendiri",
+  "ex": "The artist began sketching the outline of the landscape onto the blank canvas.",
+  "exId": "Seniman itu mulai menyketsa garis besar pemandangan pada kanvas kosong.",
+  "colloc": [
+   "blank canvas",
+   "oil on canvas",
+   "paint on canvas"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "carbon",
   "pos": "noun",
   "def": "a chemical element found in coal and oil that causes pollution when released as carbon dioxide.",
@@ -435,6 +883,48 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "censorship",
+  "pos": "noun",
+  "def": "the practice of removing parts of media that are considered unacceptable",
+  "defId": "praktik menghapus bagian media yang dianggap tidak pantas",
+  "ex": "Strict censorship prevented the report from being published.",
+  "exId": "Sensor yang ketat mencegah laporan itu diterbitkan.",
+  "colloc": [
+   "strict censorship",
+   "government censorship",
+   "media censorship"
+  ],
+  "theme": "media"
+ },
+ {
+  "w": "championship",
+  "pos": "noun",
+  "def": "a competition to find the best player or team in a sport",
+  "defId": "kompetisi untuk menentukan pemain atau tim terbaik dalam suatu olahraga",
+  "ex": "The team won the national championship for the third time.",
+  "exId": "Tim itu memenangkan kejuaraan nasional untuk ketiga kalinya.",
+  "colloc": [
+   "win the championship",
+   "world championship",
+   "championship title"
+  ],
+  "theme": "sport"
+ },
+ {
+  "w": "choreography",
+  "pos": "noun",
+  "def": "the art of designing and arranging the movements of a dance",
+  "defId": "seni merancang dan menyusun gerakan sebuah tarian",
+  "ex": "The choreography of the final scene left the whole audience breathless.",
+  "exId": "Koreografi adegan terakhir membuat seluruh penonton terpukau.",
+  "colloc": [
+   "stunning choreography",
+   "dance choreography",
+   "design the choreography"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "chronic",
   "pos": "adjective",
   "def": "(of an illness) lasting for a long time and difficult to cure",
@@ -447,6 +937,20 @@ export const VOCAB = [
    "chronic condition"
   ],
   "theme": "health"
+ },
+ {
+  "w": "circulation",
+  "pos": "noun",
+  "def": "the number of copies of a newspaper or magazine that are sold",
+  "defId": "jumlah eksemplar surat kabar atau majalah yang terjual",
+  "ex": "The newspaper's circulation has fallen sharply in recent years.",
+  "exId": "Oplah surat kabar itu turun tajam dalam beberapa tahun terakhir.",
+  "colloc": [
+   "daily circulation",
+   "circulation figures",
+   "fall in circulation"
+  ],
+  "theme": "media"
  },
  {
   "w": "citizenship",
@@ -505,6 +1009,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "cohabit",
+  "pos": "verb",
+  "def": "to live together as a couple without being married",
+  "defId": "tinggal bersama sebagai pasangan tanpa menikah",
+  "ex": "More young couples now choose to cohabit before marriage.",
+  "exId": "Kini semakin banyak pasangan muda memilih untuk tinggal bersama sebelum menikah.",
+  "colloc": [
+   "cohabit with a partner",
+   "choose to cohabit",
+   "couples who cohabit"
+  ],
+  "theme": "family"
+ },
+ {
   "w": "coherent",
   "pos": "adjective",
   "def": "logical and clearly connected, so it is easy to understand",
@@ -547,6 +1065,34 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "columnist",
+  "pos": "noun",
+  "def": "a writer who regularly writes opinion articles for a newspaper",
+  "defId": "penulis yang secara teratur menulis artikel opini untuk surat kabar",
+  "ex": "The columnist wrote a sharp piece about the government's failures.",
+  "exId": "Kolumnis itu menulis artikel tajam tentang kegagalan pemerintah.",
+  "colloc": [
+   "newspaper columnist",
+   "political columnist",
+   "regular columnist"
+  ],
+  "theme": "media"
+ },
+ {
+  "w": "commentary",
+  "pos": "noun",
+  "def": "a spoken or written description and opinion about events",
+  "defId": "deskripsi dan pendapat lisan atau tertulis tentang suatu peristiwa",
+  "ex": "He provided live commentary during the football match.",
+  "exId": "Dia memberikan komentar langsung selama pertandingan sepak bola.",
+  "colloc": [
+   "live commentary",
+   "political commentary",
+   "running commentary"
+  ],
+  "theme": "media"
+ },
+ {
   "w": "commodity",
   "pos": "noun",
   "def": "a raw material or basic product that can be bought and sold, such as oil, gold, or coffee",
@@ -559,6 +1105,48 @@ export const VOCAB = [
    "commodity market"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "commute",
+  "pos": "verb",
+  "def": "to travel regularly between home and a place of work or study",
+  "defId": "melakukan perjalanan rutin antara rumah dan tempat kerja atau belajar",
+  "ex": "Many people commute to the city center by train every morning.",
+  "exId": "Banyak orang menempuh perjalanan rutin ke pusat kota dengan kereta setiap pagi.",
+  "colloc": [
+   "commute to work",
+   "daily commute",
+   "commute by train"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "companionship",
+  "pos": "noun",
+  "def": "the pleasant feeling of having company and friendship",
+  "defId": "rasa senang karena memiliki teman dan kebersamaan",
+  "ex": "Many elderly people keep pets for companionship.",
+  "exId": "Banyak lansia memelihara hewan peliharaan demi kebersamaan.",
+  "colloc": [
+   "offer companionship",
+   "seek companionship",
+   "human companionship"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "compatibility",
+  "pos": "noun",
+  "def": "the ability to have a good relationship because of similar interests or personalities",
+  "defId": "kecocokan atau keserasian yang membuat sebuah hubungan berjalan baik",
+  "ex": "Long-term compatibility matters more than physical attraction.",
+  "exId": "Kecocokan jangka panjang lebih penting daripada ketertarikan fisik.",
+  "colloc": [
+   "emotional compatibility",
+   "test compatibility",
+   "compatibility issues"
+  ],
+  "theme": "family"
  },
  {
   "w": "compatible",
@@ -601,6 +1189,34 @@ export const VOCAB = [
    "level of competence"
   ],
   "theme": "education"
+ },
+ {
+  "w": "competitive",
+  "pos": "adjective",
+  "def": "trying very hard to be better than others; involving competition",
+  "defId": "berusaha keras untuk lebih baik dari orang lain; melibatkan persaingan",
+  "ex": "Tennis is a highly competitive sport at the professional level.",
+  "exId": "Tenis adalah olahraga yang sangat kompetitif di tingkat profesional.",
+  "colloc": [
+   "competitive sport",
+   "highly competitive",
+   "competitive edge"
+  ],
+  "theme": "sport"
+ },
+ {
+  "w": "composition",
+  "pos": "noun",
+  "def": "the way the different parts of a work of art or piece of music are arranged",
+  "defId": "cara berbagai bagian dari karya seni atau musik disusun",
+  "ex": "The photographer paid careful attention to the composition of every shot.",
+  "exId": "Fotografer itu sangat memperhatikan komposisi setiap gambar yang diambilnya.",
+  "colloc": [
+   "musical composition",
+   "balanced composition",
+   "composition of the painting"
+  ],
+  "theme": "arts"
  },
  {
   "w": "comprehension",
@@ -715,6 +1331,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "consume",
+  "pos": "verb",
+  "def": "to eat or drink something",
+  "defId": "memakan atau meminum sesuatu; mengonsumsi",
+  "ex": "Health experts advise people to consume less salt and sugar.",
+  "exId": "Para ahli kesehatan menyarankan orang untuk mengonsumsi lebih sedikit garam dan gula.",
+  "colloc": [
+   "consume food",
+   "consume less",
+   "safe to consume"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "contagious",
   "pos": "adjective",
   "def": "(of a disease) able to spread easily from one person to another by contact",
@@ -743,6 +1373,34 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "contemporary",
+  "pos": "adjective",
+  "def": "belonging to the present time; modern in style",
+  "defId": "berasal dari masa kini; bergaya modern",
+  "ex": "The gallery specialises in contemporary art by young local painters.",
+  "exId": "Galeri itu mengkhususkan diri pada seni kontemporer karya para pelukis lokal muda.",
+  "colloc": [
+   "contemporary art",
+   "contemporary music",
+   "contemporary style"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "contestant",
+  "pos": "noun",
+  "def": "a person who takes part in a competition",
+  "defId": "orang yang ikut serta dalam suatu kompetisi",
+  "ex": "Each contestant had two minutes to complete the challenge.",
+  "exId": "Setiap kontestan memiliki dua menit untuk menyelesaikan tantangan itu.",
+  "colloc": [
+   "fellow contestant",
+   "eliminate a contestant",
+   "winning contestant"
+  ],
+  "theme": "sport"
+ },
+ {
   "w": "contradict",
   "pos": "verb",
   "def": "to be opposite to or in conflict with something else",
@@ -755,6 +1413,48 @@ export const VOCAB = [
    "directly contradict"
   ],
   "theme": "science"
+ },
+ {
+  "w": "convict",
+  "pos": "verb",
+  "def": "to officially decide in court that someone is guilty of a crime",
+  "defId": "memutuskan secara resmi di pengadilan bahwa seseorang bersalah atas suatu kejahatan",
+  "ex": "The court convicted him of murder and sentenced him to life.",
+  "exId": "Pengadilan memvonis dia bersalah atas pembunuhan dan menjatuhkan hukuman seumur hidup.",
+  "colloc": [
+   "convict of a crime",
+   "wrongly convict",
+   "convict a defendant"
+  ],
+  "theme": "crime"
+ },
+ {
+  "w": "conviction",
+  "pos": "noun",
+  "def": "a court decision that someone is guilty of a crime",
+  "defId": "keputusan pengadilan bahwa seseorang bersalah atas suatu kejahatan",
+  "ex": "He already had two previous convictions for theft before this trial.",
+  "exId": "Dia sudah memiliki dua vonis bersalah sebelumnya untuk pencurian sebelum persidangan ini.",
+  "colloc": [
+   "previous conviction",
+   "secure a conviction",
+   "wrongful conviction"
+  ],
+  "theme": "crime"
+ },
+ {
+  "w": "coordination",
+  "pos": "noun",
+  "def": "the ability to control your body movements smoothly and efficiently",
+  "defId": "kemampuan untuk mengontrol gerakan tubuh dengan lancar dan efisien",
+  "ex": "Playing table tennis improves hand-eye coordination.",
+  "exId": "Bermain tenis meja meningkatkan koordinasi mata dan tangan.",
+  "colloc": [
+   "hand-eye coordination",
+   "physical coordination",
+   "improve coordination"
+  ],
+  "theme": "sport"
  },
  {
   "w": "correlation",
@@ -771,6 +1471,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "correspondent",
+  "pos": "noun",
+  "def": "a journalist who reports from a particular place or on a topic",
+  "defId": "wartawan yang melaporkan dari tempat tertentu atau tentang suatu topik",
+  "ex": "Our foreign correspondent sent a report from the capital.",
+  "exId": "Koresponden luar negeri kami mengirim laporan dari ibu kota.",
+  "colloc": [
+   "foreign correspondent",
+   "war correspondent",
+   "political correspondent"
+  ],
+  "theme": "media"
+ },
+ {
   "w": "coursework",
   "pos": "noun",
   "def": "work done by students during a course that counts towards the final grade",
@@ -785,6 +1499,48 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "coverage",
+  "pos": "noun",
+  "def": "the reporting of news and events by the media",
+  "defId": "peliputan berita dan peristiwa oleh media",
+  "ex": "The election received extensive coverage on every channel.",
+  "exId": "Pemilihan itu mendapat liputan yang luas di setiap saluran.",
+  "colloc": [
+   "extensive coverage",
+   "media coverage",
+   "live coverage"
+  ],
+  "theme": "media"
+ },
+ {
+  "w": "craftsmanship",
+  "pos": "noun",
+  "def": "the skill and care used to make something by hand",
+  "defId": "keterampilan dan ketelitian yang digunakan untuk membuat sesuatu dengan tangan",
+  "ex": "The wooden chest is admired for its fine craftsmanship and detailed carving.",
+  "exId": "Peti kayu itu dikagumi karena keahlian pengerjaannya yang halus dan ukirannya yang rinci.",
+  "colloc": [
+   "fine craftsmanship",
+   "skilled craftsmanship",
+   "quality of craftsmanship"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "credibility",
+  "pos": "noun",
+  "def": "the quality of being trusted and believed",
+  "defId": "kualitas untuk dipercaya dan diyakini",
+  "ex": "The scandal damaged the newspaper's credibility.",
+  "exId": "Skandal itu merusak kredibilitas surat kabar tersebut.",
+  "colloc": [
+   "damage credibility",
+   "lose credibility",
+   "credibility gap"
+  ],
+  "theme": "media"
+ },
+ {
   "w": "criterion",
   "pos": "noun",
   "def": "a standard used to judge or evaluate something",
@@ -797,6 +1553,118 @@ export const VOCAB = [
    "key criterion"
   ],
   "theme": "science"
+ },
+ {
+  "w": "crop",
+  "pos": "noun",
+  "def": "a plant grown by farmers for food or profit",
+  "defId": "tanaman yang ditanam petani untuk pangan atau keuntungan; tanaman pertanian",
+  "ex": "Wheat is an important crop in many parts of the world.",
+  "exId": "Gandum adalah tanaman pertanian yang penting di banyak bagian dunia.",
+  "colloc": [
+   "grow a crop",
+   "cash crop",
+   "failed crop"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "cruise",
+  "pos": "noun",
+  "def": "a holiday spent travelling on a ship and visiting different places",
+  "defId": "liburan yang dihabiskan dengan berlayar di kapal dan mengunjungi berbagai tempat",
+  "ex": "They celebrated their anniversary on a Mediterranean cruise.",
+  "exId": "Mereka merayakan hari jadi mereka dengan pelayaran pesiar di Laut Tengah.",
+  "colloc": [
+   "go on a cruise",
+   "cruise ship",
+   "a luxury cruise"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "cuisine",
+  "pos": "noun",
+  "def": "a style of cooking typical of a country or region",
+  "defId": "gaya memasak yang khas dari suatu negara atau daerah; masakan",
+  "ex": "Thai cuisine is famous for its balance of sweet, sour and spicy flavours.",
+  "exId": "Masakan Thailand terkenal karena keseimbangan rasa manis, asam, dan pedasnya.",
+  "colloc": [
+   "local cuisine",
+   "traditional cuisine",
+   "regional cuisine"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "culinary",
+  "pos": "adjective",
+  "def": "connected with cooking or the kitchen",
+  "defId": "berkaitan dengan memasak atau dapur; kuliner",
+  "ex": "She enrolled in a culinary school to become a professional chef.",
+  "exId": "Dia mendaftar di sekolah kuliner untuk menjadi koki profesional.",
+  "colloc": [
+   "culinary skills",
+   "culinary tradition",
+   "culinary school"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "culprit",
+  "pos": "noun",
+  "def": "a person who is responsible for a crime or wrongdoing",
+  "defId": "orang yang bertanggung jawab atas suatu kejahatan atau kesalahan",
+  "ex": "Police are still searching for the culprit behind the string of robberies.",
+  "exId": "Polisi masih mencari pelaku di balik serangkaian perampokan itu.",
+  "colloc": [
+   "catch the culprit",
+   "identify the culprit",
+   "the real culprit"
+  ],
+  "theme": "crime"
+ },
+ {
+  "w": "cultivate",
+  "pos": "verb",
+  "def": "to prepare and use land for growing crops",
+  "defId": "menyiapkan dan menggunakan lahan untuk menanam tanaman; membudidayakan",
+  "ex": "The villagers cultivate maize and beans on the hillside.",
+  "exId": "Para penduduk desa membudidayakan jagung dan kacang di lereng bukit.",
+  "colloc": [
+   "cultivate land",
+   "cultivate crops",
+   "cultivate the soil"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "curator",
+  "pos": "noun",
+  "def": "a person in charge of selecting and organising the works shown in a museum or gallery",
+  "defId": "orang yang bertugas memilih dan menata karya yang dipamerkan di museum atau galeri",
+  "ex": "The curator arranged the paintings to tell the story of the artist's life.",
+  "exId": "Kurator itu menyusun lukisan-lukisan tersebut untuk menceritakan kisah hidup sang seniman.",
+  "colloc": [
+   "museum curator",
+   "art curator",
+   "curator of the exhibition"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "currency",
+  "pos": "noun",
+  "def": "the system of money that is used in a particular country",
+  "defId": "sistem uang yang digunakan di suatu negara tertentu",
+  "ex": "Remember to exchange your currency before arriving at the airport.",
+  "exId": "Ingatlah untuk menukar mata uang Anda sebelum tiba di bandara.",
+  "colloc": [
+   "foreign currency",
+   "exchange currency",
+   "local currency"
+  ],
+  "theme": "travel"
  },
  {
   "w": "curriculum",
@@ -827,6 +1695,20 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "customs",
+  "pos": "noun",
+  "def": "the official place at a border where luggage and goods are checked",
+  "defId": "tempat resmi di perbatasan tempat bagasi dan barang diperiksa",
+  "ex": "You must declare all your goods when you pass through customs.",
+  "exId": "Anda harus melaporkan semua barang Anda saat melewati bea cukai.",
+  "colloc": [
+   "go through customs",
+   "customs officer",
+   "customs declaration"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "cyber",
   "pos": "adjective",
   "def": "relating to computers, the internet, and online activity",
@@ -841,6 +1723,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "dairy",
+  "pos": "noun",
+  "def": "milk and foods made from milk, such as cheese and butter",
+  "defId": "susu dan makanan yang terbuat dari susu, seperti keju dan mentega; produk susu",
+  "ex": "People who cannot digest dairy often drink soya milk instead.",
+  "exId": "Orang yang tidak dapat mencerna produk susu sering minum susu kedelai sebagai gantinya.",
+  "colloc": [
+   "dairy products",
+   "dairy farm",
+   "dairy cattle"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "database",
   "pos": "noun",
   "def": "a large organized collection of information stored on a computer",
@@ -853,6 +1749,34 @@ export const VOCAB = [
    "update the database"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "defamation",
+  "pos": "noun",
+  "def": "the act of damaging someone's reputation with false statements",
+  "defId": "tindakan merusak reputasi seseorang dengan pernyataan palsu",
+  "ex": "The actor sued the magazine for defamation.",
+  "exId": "Aktor itu menggugat majalah tersebut atas pencemaran nama baik.",
+  "colloc": [
+   "defamation lawsuit",
+   "sue for defamation",
+   "defamation case"
+  ],
+  "theme": "media"
+ },
+ {
+  "w": "defendant",
+  "pos": "noun",
+  "def": "the person in a trial who is accused of a crime",
+  "defId": "orang dalam persidangan yang dituduh melakukan kejahatan",
+  "ex": "The defendant denied all the charges brought against him.",
+  "exId": "Terdakwa menyangkal semua tuduhan yang diajukan terhadapnya.",
+  "colloc": [
+   "the defendant denied",
+   "convict the defendant",
+   "the defendant pleaded"
+  ],
+  "theme": "crime"
  },
  {
   "w": "deficiency",
@@ -939,6 +1863,48 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "departure",
+  "pos": "noun",
+  "def": "the act of leaving a place, especially to start a journey",
+  "defId": "tindakan meninggalkan suatu tempat, terutama untuk memulai perjalanan",
+  "ex": "The departure of our flight was delayed because of bad weather.",
+  "exId": "Keberangkatan penerbangan kami tertunda karena cuaca buruk.",
+  "colloc": [
+   "departure time",
+   "departure lounge",
+   "delayed departure"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "dependant",
+  "pos": "noun",
+  "def": "a person who relies on another, especially for financial support",
+  "defId": "orang yang bergantung pada orang lain, terutama untuk dukungan finansial",
+  "ex": "He has to support three dependants on a single salary.",
+  "exId": "Dia harus menghidupi tiga tanggungan dengan satu gaji.",
+  "colloc": [
+   "financial dependant",
+   "support a dependant",
+   "adult dependant"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "depict",
+  "pos": "verb",
+  "def": "to show or represent something in a picture, story or performance",
+  "defId": "menggambarkan atau mewakili sesuatu dalam gambar, cerita, atau pertunjukan",
+  "ex": "The painting depicts a busy market in a nineteenth-century village.",
+  "exId": "Lukisan itu menggambarkan sebuah pasar yang ramai di desa abad kesembilan belas.",
+  "colloc": [
+   "depict a scene",
+   "vividly depict",
+   "depict everyday life"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "deplete",
   "pos": "verb",
   "def": "to reduce the amount of something so that very little is left.",
@@ -995,6 +1961,48 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "descendant",
+  "pos": "noun",
+  "def": "a person who is related to someone who lived in the past",
+  "defId": "keturunan dari seseorang yang hidup di masa lampau",
+  "ex": "He is a direct descendant of a famous king.",
+  "exId": "Dia adalah keturunan langsung dari seorang raja terkenal.",
+  "colloc": [
+   "direct descendant",
+   "living descendant",
+   "distant descendant"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "destination",
+  "pos": "noun",
+  "def": "the place to which someone or something is travelling",
+  "defId": "tempat yang menjadi tujuan perjalanan seseorang atau sesuatu",
+  "ex": "Bali remains one of the most popular tourist destinations in Asia.",
+  "exId": "Bali tetap menjadi salah satu destinasi wisata paling populer di Asia.",
+  "colloc": [
+   "popular destination",
+   "tourist destination",
+   "final destination"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "detention",
+  "pos": "noun",
+  "def": "the act of keeping someone in official custody",
+  "defId": "tindakan menahan seseorang dalam tahanan resmi",
+  "ex": "The activists were held in detention without charge for two days.",
+  "exId": "Para aktivis ditahan tanpa dakwaan selama dua hari.",
+  "colloc": [
+   "in detention",
+   "indefinite detention",
+   "detention centre"
+  ],
+  "theme": "crime"
+ },
+ {
   "w": "deterrent",
   "pos": "noun",
   "def": "something that makes people less likely to do something, especially commit a crime",
@@ -1007,6 +2015,20 @@ export const VOCAB = [
    "deterrent effect"
   ],
   "theme": "society"
+ },
+ {
+  "w": "detour",
+  "pos": "noun",
+  "def": "a longer, alternative route taken to avoid a problem or to see something",
+  "defId": "rute alternatif yang lebih panjang untuk menghindari masalah atau melihat sesuatu",
+  "ex": "Heavy traffic forced us to take a detour through the mountains.",
+  "exId": "Kemacetan parah memaksa kami mengambil jalan memutar melewati pegunungan.",
+  "colloc": [
+   "take a detour",
+   "make a detour",
+   "a short detour"
+  ],
+  "theme": "travel"
  },
  {
   "w": "device",
@@ -1023,6 +2045,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "devotion",
+  "pos": "noun",
+  "def": "great love, loyalty, or care for someone",
+  "defId": "kecintaan, kesetiaan, atau pengabdian yang besar kepada seseorang",
+  "ex": "Her devotion to her family never wavered.",
+  "exId": "Pengabdiannya kepada keluarga tidak pernah goyah.",
+  "colloc": [
+   "complete devotion",
+   "devotion to family",
+   "lifelong devotion"
+  ],
+  "theme": "family"
+ },
+ {
   "w": "diagnosis",
   "pos": "noun",
   "def": "the act of finding out what illness a person has",
@@ -1035,6 +2071,20 @@ export const VOCAB = [
    "accurate diagnosis"
   ],
   "theme": "health"
+ },
+ {
+  "w": "diet",
+  "pos": "noun",
+  "def": "the kinds of food that a person or group usually eats",
+  "defId": "jenis makanan yang biasa dikonsumsi oleh seseorang atau kelompok; pola makan",
+  "ex": "A balanced diet should include plenty of fruit and vegetables.",
+  "exId": "Pola makan yang seimbang harus mencakup banyak buah dan sayuran.",
+  "colloc": [
+   "balanced diet",
+   "healthy diet",
+   "vegetarian diet"
+  ],
+  "theme": "food"
  },
  {
   "w": "digestion",
@@ -1177,6 +2227,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "distort",
+  "pos": "verb",
+  "def": "to change facts so they no longer give a true picture",
+  "defId": "mengubah fakta sehingga tidak lagi memberikan gambaran yang benar",
+  "ex": "The report distorted the facts to make the situation seem worse.",
+  "exId": "Laporan itu memutarbalikkan fakta agar situasinya tampak lebih buruk.",
+  "colloc": [
+   "distort the facts",
+   "distort the truth",
+   "distort reality"
+  ],
+  "theme": "media"
+ },
+ {
   "w": "diversify",
   "pos": "verb",
   "def": "to start to make new products or offer new services in order to be more successful",
@@ -1289,6 +2353,62 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "ecotourism",
+  "pos": "noun",
+  "def": "tourism to natural areas that aims to protect the environment and support local people",
+  "defId": "wisata ke kawasan alam yang bertujuan melindungi lingkungan dan mendukung masyarakat setempat",
+  "ex": "Many islands now promote ecotourism to protect their natural environment.",
+  "exId": "Banyak pulau kini mempromosikan ekowisata untuk melindungi lingkungan alam mereka.",
+  "colloc": [
+   "promote ecotourism",
+   "ecotourism destination",
+   "sustainable ecotourism"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "edible",
+  "pos": "adjective",
+  "def": "safe or suitable to be eaten",
+  "defId": "aman atau layak untuk dimakan; dapat dimakan",
+  "ex": "Not every mushroom in the forest is edible, so pick carefully.",
+  "exId": "Tidak setiap jamur di hutan dapat dimakan, jadi pilihlah dengan hati-hati.",
+  "colloc": [
+   "edible plants",
+   "perfectly edible",
+   "edible mushrooms"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "editorial",
+  "pos": "noun",
+  "def": "an article giving a newspaper's opinion on a topic",
+  "defId": "artikel yang menyampaikan pendapat surat kabar tentang suatu topik",
+  "ex": "The newspaper's editorial criticised the new policy.",
+  "exId": "Tajuk rencana surat kabar itu mengkritik kebijakan baru tersebut.",
+  "colloc": [
+   "write an editorial",
+   "editorial board",
+   "editorial page"
+  ],
+  "theme": "media"
+ },
+ {
+  "w": "embark",
+  "pos": "verb",
+  "def": "to begin a journey, or to board a ship or aircraft",
+  "defId": "memulai suatu perjalanan, atau naik ke kapal maupun pesawat",
+  "ex": "The tourists embarked on a two-week journey through Europe.",
+  "exId": "Para wisatawan memulai perjalanan dua minggu keliling Eropa.",
+  "colloc": [
+   "embark on a journey",
+   "embark on a trip",
+   "embark on an adventure"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "emissions",
   "pos": "noun",
   "def": "gases or substances that are released into the air, especially harmful ones.",
@@ -1359,6 +2479,34 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "endorsement",
+  "pos": "noun",
+  "def": "a public statement of support for a person or product",
+  "defId": "pernyataan dukungan publik terhadap seseorang atau produk",
+  "ex": "The celebrity's endorsement boosted sales of the perfume.",
+  "exId": "Dukungan selebriti itu meningkatkan penjualan parfum tersebut.",
+  "colloc": [
+   "celebrity endorsement",
+   "public endorsement",
+   "product endorsement"
+  ],
+  "theme": "media"
+ },
+ {
+  "w": "endurance",
+  "pos": "noun",
+  "def": "the ability to keep doing something difficult or tiring for a long time",
+  "defId": "kemampuan untuk terus melakukan sesuatu yang sulit atau melelahkan dalam waktu lama",
+  "ex": "Running a marathon requires great physical endurance.",
+  "exId": "Berlari maraton membutuhkan daya tahan fisik yang besar.",
+  "colloc": [
+   "physical endurance",
+   "build endurance",
+   "endurance test"
+  ],
+  "theme": "sport"
+ },
+ {
   "w": "enrol",
   "pos": "verb",
   "def": "to officially join a school, course, or programme as a member or student",
@@ -1415,6 +2563,20 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "estranged",
+  "pos": "adjective",
+  "def": "no longer close to someone because of a disagreement",
+  "defId": "tidak lagi akrab dengan seseorang akibat perselisihan",
+  "ex": "He has been estranged from his father for over ten years.",
+  "exId": "Dia sudah tidak akur dengan ayahnya selama lebih dari sepuluh tahun.",
+  "colloc": [
+   "estranged wife",
+   "estranged from family",
+   "become estranged"
+  ],
+  "theme": "family"
+ },
+ {
   "w": "ethnicity",
   "pos": "noun",
   "def": "the fact of belonging to a particular race or cultural group",
@@ -1427,6 +2589,76 @@ export const VOCAB = [
    "mixed ethnicity"
   ],
   "theme": "society"
+ },
+ {
+  "w": "excursion",
+  "pos": "noun",
+  "def": "a short journey or trip, usually taken for pleasure",
+  "defId": "perjalanan singkat, biasanya dilakukan untuk bersenang-senang",
+  "ex": "The hotel organized a day excursion to the nearby waterfalls.",
+  "exId": "Hotel itu mengadakan tamasya sehari ke air terjun terdekat.",
+  "colloc": [
+   "a day excursion",
+   "guided excursion",
+   "go on an excursion"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "exhibition",
+  "pos": "noun",
+  "def": "a public display of works of art or interesting objects in a gallery or museum",
+  "defId": "pameran karya seni atau benda menarik yang dipertunjukkan untuk umum di galeri atau museum",
+  "ex": "The museum's new exhibition of Renaissance paintings attracted thousands of visitors.",
+  "exId": "Pameran baru museum yang menampilkan lukisan Renaisans menarik ribuan pengunjung.",
+  "colloc": [
+   "hold an exhibition",
+   "art exhibition",
+   "exhibition opens"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "exhilarating",
+  "pos": "adjective",
+  "def": "making you feel very happy, excited, and full of energy",
+  "defId": "membuat Anda merasa sangat senang, bersemangat, dan penuh energi",
+  "ex": "Skiing down the mountain was an exhilarating experience.",
+  "exId": "Meluncur menuruni gunung dengan ski adalah pengalaman yang mendebarkan.",
+  "colloc": [
+   "exhilarating experience",
+   "exhilarating ride",
+   "exhilarating feeling"
+  ],
+  "theme": "sport"
+ },
+ {
+  "w": "expedite",
+  "pos": "verb",
+  "def": "to make a process or action happen more quickly",
+  "defId": "mempercepat suatu proses atau tindakan",
+  "ex": "The airline introduced a new system to expedite the boarding process.",
+  "exId": "Maskapai itu memperkenalkan sistem baru untuk mempercepat proses naik pesawat.",
+  "colloc": [
+   "expedite the process",
+   "expedite delivery",
+   "help expedite"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "expedition",
+  "pos": "noun",
+  "def": "an organized journey made for a specific purpose, such as exploration",
+  "defId": "perjalanan terorganisir yang dilakukan untuk tujuan tertentu, seperti penjelajahan",
+  "ex": "They joined an expedition to explore the Amazon rainforest.",
+  "exId": "Mereka bergabung dalam ekspedisi untuk menjelajahi hutan hujan Amazon.",
+  "colloc": [
+   "mount an expedition",
+   "scientific expedition",
+   "join an expedition"
+  ],
+  "theme": "travel"
  },
  {
   "w": "expel",
@@ -1455,6 +2687,34 @@ export const VOCAB = [
    "total expenditure"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "exposure",
+  "pos": "noun",
+  "def": "public attention received through the media",
+  "defId": "perhatian publik yang diperoleh melalui media",
+  "ex": "The interview gave the young singer national exposure.",
+  "exId": "Wawancara itu memberi penyanyi muda tersebut eksposur nasional.",
+  "colloc": [
+   "media exposure",
+   "national exposure",
+   "gain exposure"
+  ],
+  "theme": "media"
+ },
+ {
+  "w": "expressive",
+  "pos": "adjective",
+  "def": "clearly showing thoughts or feelings",
+  "defId": "dengan jelas menunjukkan pikiran atau perasaan",
+  "ex": "The dancer's expressive movements conveyed deep sorrow without a single word.",
+  "exId": "Gerakan penari yang ekspresif menyampaikan kesedihan mendalam tanpa sepatah kata pun.",
+  "colloc": [
+   "expressive style",
+   "expressive gesture",
+   "highly expressive"
+  ],
+  "theme": "arts"
  },
  {
   "w": "extinction",
@@ -1499,6 +2759,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "famine",
+  "pos": "noun",
+  "def": "an extreme and widespread shortage of food",
+  "defId": "kelangkaan makanan yang parah dan meluas; kelaparan hebat; bencana kelaparan",
+  "ex": "The drought led to a severe famine across the region.",
+  "exId": "Kekeringan itu menyebabkan bencana kelaparan yang parah di seluruh wilayah.",
+  "colloc": [
+   "severe famine",
+   "widespread famine",
+   "famine relief"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "fatigue",
   "pos": "noun",
   "def": "a feeling of extreme tiredness",
@@ -1511,6 +2785,62 @@ export const VOCAB = [
    "suffer from fatigue"
   ],
   "theme": "health"
+ },
+ {
+  "w": "fertiliser",
+  "pos": "noun",
+  "def": "a substance added to soil to help plants grow better",
+  "defId": "zat yang ditambahkan ke tanah untuk membantu tanaman tumbuh lebih baik; pupuk",
+  "ex": "Too much chemical fertiliser can damage the soil over time.",
+  "exId": "Terlalu banyak pupuk kimia dapat merusak tanah seiring waktu.",
+  "colloc": [
+   "chemical fertiliser",
+   "apply fertiliser",
+   "organic fertiliser"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "fixture",
+  "pos": "noun",
+  "def": "a sports match arranged for a particular date",
+  "defId": "pertandingan olahraga yang dijadwalkan pada tanggal tertentu",
+  "ex": "The next fixture is against our biggest rivals.",
+  "exId": "Pertandingan berikutnya adalah melawan rival terbesar kami.",
+  "colloc": [
+   "home fixture",
+   "fixture list",
+   "postpone a fixture"
+  ],
+  "theme": "sport"
+ },
+ {
+  "w": "flavour",
+  "pos": "noun",
+  "def": "how a particular food or drink tastes",
+  "defId": "bagaimana rasa dari makanan atau minuman tertentu; cita rasa",
+  "ex": "Adding a little lemon gives the fish a fresh flavour.",
+  "exId": "Menambahkan sedikit lemon memberikan ikan itu cita rasa yang segar.",
+  "colloc": [
+   "rich flavour",
+   "add flavour",
+   "natural flavour"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "flexibility",
+  "pos": "noun",
+  "def": "the ability to bend or stretch your body easily",
+  "defId": "kemampuan untuk menekuk atau meregangkan tubuh dengan mudah",
+  "ex": "Yoga can greatly improve your flexibility and balance.",
+  "exId": "Yoga dapat sangat meningkatkan kelenturan dan keseimbangan Anda.",
+  "colloc": [
+   "improve flexibility",
+   "muscle flexibility",
+   "greater flexibility"
+  ],
+  "theme": "sport"
  },
  {
   "w": "fluctuate",
@@ -1527,6 +2857,34 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "folklore",
+  "pos": "noun",
+  "def": "the traditional stories, customs and beliefs of a community passed down over time",
+  "defId": "cerita, adat, dan kepercayaan tradisional suatu masyarakat yang diwariskan dari waktu ke waktu",
+  "ex": "Many of the region's dances are rooted in ancient folklore.",
+  "exId": "Banyak tarian daerah itu berakar pada cerita rakyat kuno.",
+  "colloc": [
+   "local folklore",
+   "rich in folklore",
+   "folklore tradition"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "footage",
+  "pos": "noun",
+  "def": "film or video of an event",
+  "defId": "rekaman film atau video dari suatu peristiwa",
+  "ex": "The channel showed dramatic footage of the rescue operation.",
+  "exId": "Saluran itu menayangkan rekaman dramatis dari operasi penyelamatan.",
+  "colloc": [
+   "video footage",
+   "live footage",
+   "CCTV footage"
+  ],
+  "theme": "media"
+ },
+ {
   "w": "footprint",
   "pos": "noun",
   "def": "the amount of environmental damage caused by a person or activity, especially through carbon emissions.",
@@ -1539,6 +2897,20 @@ export const VOCAB = [
    "reduce your footprint"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "forgery",
+  "pos": "noun",
+  "def": "the crime of making a false copy of a document, signature, or money",
+  "defId": "kejahatan membuat salinan palsu dari dokumen, tanda tangan, atau uang",
+  "ex": "He was charged with forgery after faking the company's official documents.",
+  "exId": "Dia didakwa pemalsuan setelah memalsukan dokumen resmi perusahaan.",
+  "colloc": [
+   "commit forgery",
+   "document forgery",
+   "charged with forgery"
+  ],
+  "theme": "crime"
  },
  {
   "w": "fossil",
@@ -1555,6 +2927,20 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "foster",
+  "pos": "verb",
+  "def": "to take a child into your family for a time without adopting them",
+  "defId": "mengasuh anak orang lain untuk sementara tanpa mengadopsinya",
+  "ex": "The couple decided to foster a child who needed a home.",
+  "exId": "Pasangan itu memutuskan untuk mengasuh seorang anak yang membutuhkan tempat tinggal.",
+  "colloc": [
+   "foster a child",
+   "foster care",
+   "foster parents"
+  ],
+  "theme": "family"
+ },
+ {
   "w": "framework",
   "pos": "noun",
   "def": "a basic structure of ideas used to organise research or thinking",
@@ -1569,6 +2955,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "fraud",
+  "pos": "noun",
+  "def": "the crime of deceiving people to gain money or advantage",
+  "defId": "kejahatan menipu orang untuk memperoleh uang atau keuntungan",
+  "ex": "He was arrested for credit card fraud after stealing thousands of dollars.",
+  "exId": "Dia ditangkap karena penipuan kartu kredit setelah mencuri ribuan dolar.",
+  "colloc": [
+   "commit fraud",
+   "credit card fraud",
+   "tax fraud"
+  ],
+  "theme": "crime"
+ },
+ {
   "w": "gadget",
   "pos": "noun",
   "def": "a small, clever device or tool, usually electronic",
@@ -1581,6 +2981,34 @@ export const VOCAB = [
    "handy gadget"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "gallery",
+  "pos": "noun",
+  "def": "a room or building where works of art are shown to the public",
+  "defId": "ruang atau gedung tempat karya seni dipamerkan kepada publik",
+  "ex": "We spent the afternoon wandering through the city's largest art gallery.",
+  "exId": "Kami menghabiskan sore hari berkeliling galeri seni terbesar di kota itu.",
+  "colloc": [
+   "art gallery",
+   "public gallery",
+   "gallery of paintings"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "genre",
+  "pos": "noun",
+  "def": "a particular style or category of art, music, film or writing",
+  "defId": "gaya atau kategori tertentu dalam seni, musik, film, atau tulisan",
+  "ex": "Jazz is a genre that gives musicians great freedom to improvise.",
+  "exId": "Jaz adalah genre yang memberi musisi kebebasan besar untuk berimprovisasi.",
+  "colloc": [
+   "literary genre",
+   "musical genre",
+   "different genres"
+  ],
+  "theme": "arts"
  },
  {
   "w": "glitch",
@@ -1611,6 +3039,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "graze",
+  "pos": "verb",
+  "def": "to eat grass growing in a field, as cattle or sheep do",
+  "defId": "memakan rumput yang tumbuh di ladang, seperti yang dilakukan sapi atau domba; merumput",
+  "ex": "The cows graze peacefully in the meadow all afternoon.",
+  "exId": "Sapi-sapi itu merumput dengan tenang di padang rumput sepanjang sore.",
+  "colloc": [
+   "graze on grass",
+   "cattle graze",
+   "grazing land"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "greenhouse",
   "pos": "noun",
   "def": "relating to gases that trap the sun's heat in the atmosphere and cause the Earth to warm.",
@@ -1623,6 +3065,20 @@ export const VOCAB = [
    "greenhouse emissions"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "guardian",
+  "pos": "noun",
+  "def": "a person who is legally responsible for a child who is not their own",
+  "defId": "wali yang secara hukum bertanggung jawab atas seorang anak yang bukan anaknya sendiri",
+  "ex": "After his parents died, his uncle became his legal guardian.",
+  "exId": "Setelah orang tuanya meninggal, pamannya menjadi wali sahnya.",
+  "colloc": [
+   "legal guardian",
+   "appoint a guardian",
+   "guardian angel"
+  ],
+  "theme": "family"
  },
  {
   "w": "habitat",
@@ -1653,6 +3109,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "harvest",
+  "pos": "verb",
+  "def": "to gather a crop from the fields when it is ripe",
+  "defId": "mengumpulkan hasil panen dari ladang ketika sudah matang; memanen",
+  "ex": "Farmers usually harvest the rice at the end of the dry season.",
+  "exId": "Para petani biasanya memanen padi pada akhir musim kemarau.",
+  "colloc": [
+   "harvest a crop",
+   "harvest wheat",
+   "ready to harvest"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "hazardous",
   "pos": "adjective",
   "def": "dangerous, especially to people's health or the environment.",
@@ -1665,6 +3135,20 @@ export const VOCAB = [
    "hazardous materials"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "headline",
+  "pos": "noun",
+  "def": "the title of a news story printed in large letters",
+  "defId": "judul berita yang dicetak dengan huruf besar",
+  "ex": "The shocking headline caught everyone's attention.",
+  "exId": "Judul berita yang mengejutkan itu menarik perhatian semua orang.",
+  "colloc": [
+   "front-page headline",
+   "make headlines",
+   "shocking headline"
+  ],
+  "theme": "media"
  },
  {
   "w": "heritage",
@@ -1695,6 +3179,34 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "hospitality",
+  "pos": "noun",
+  "def": "the friendly and generous reception and treatment of guests or visitors",
+  "defId": "penyambutan dan perlakuan yang ramah serta murah hati terhadap tamu atau pengunjung",
+  "ex": "The local people are famous for their warm hospitality toward visitors.",
+  "exId": "Penduduk setempat terkenal dengan keramahtamahan mereka yang hangat terhadap pengunjung.",
+  "colloc": [
+   "warm hospitality",
+   "hospitality industry",
+   "show hospitality"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "household",
+  "pos": "noun",
+  "def": "all the people who live together in one house",
+  "defId": "semua orang yang tinggal bersama dalam satu rumah",
+  "ex": "In our household, everyone shares the chores equally.",
+  "exId": "Di rumah tangga kami, semua orang berbagi pekerjaan rumah secara adil.",
+  "colloc": [
+   "household chores",
+   "head of the household",
+   "run a household"
+  ],
+  "theme": "family"
+ },
+ {
   "w": "hygiene",
   "pos": "noun",
   "def": "the practice of keeping yourself and your surroundings clean to stay healthy",
@@ -1707,6 +3219,20 @@ export const VOCAB = [
    "food hygiene"
   ],
   "theme": "health"
+ },
+ {
+  "w": "hype",
+  "pos": "noun",
+  "def": "a lot of exciting talk in the media to make something seem important",
+  "defId": "banyak pembicaraan berlebihan di media untuk membuat sesuatu tampak penting",
+  "ex": "There was a lot of hype surrounding the new smartphone launch.",
+  "exId": "Ada banyak sensasi berlebihan seputar peluncuran ponsel pintar baru itu.",
+  "colloc": [
+   "media hype",
+   "a lot of hype",
+   "hype surrounding"
+  ],
+  "theme": "media"
  },
  {
   "w": "hypothesis",
@@ -1735,6 +3261,34 @@ export const VOCAB = [
    "immune response"
   ],
   "theme": "health"
+ },
+ {
+  "w": "imprisonment",
+  "pos": "noun",
+  "def": "the punishment of being put in prison",
+  "defId": "hukuman berupa dimasukkan ke dalam penjara",
+  "ex": "He was sentenced to five years' imprisonment for armed robbery.",
+  "exId": "Dia dijatuhi hukuman penjara lima tahun karena perampokan bersenjata.",
+  "colloc": [
+   "life imprisonment",
+   "sentenced to imprisonment",
+   "wrongful imprisonment"
+  ],
+  "theme": "crime"
+ },
+ {
+  "w": "improvisation",
+  "pos": "noun",
+  "def": "the act of performing or creating without preparation, making it up as you go",
+  "defId": "tindakan tampil atau berkarya tanpa persiapan, menciptakan sambil berjalan",
+  "ex": "The comedy show relies heavily on the improvisation of its talented cast.",
+  "exId": "Pertunjukan komedi itu sangat bergantung pada improvisasi para pemainnya yang berbakat.",
+  "colloc": [
+   "jazz improvisation",
+   "musical improvisation",
+   "skill of improvisation"
+  ],
+  "theme": "arts"
  },
  {
   "w": "incentive",
@@ -1821,6 +3375,34 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "influencer",
+  "pos": "noun",
+  "def": "a person who affects others' opinions or buying through social media",
+  "defId": "orang yang memengaruhi opini atau pembelian orang lain melalui media sosial",
+  "ex": "The brand paid a popular influencer to promote its products.",
+  "exId": "Merek itu membayar seorang influencer populer untuk mempromosikan produknya.",
+  "colloc": [
+   "social media influencer",
+   "popular influencer",
+   "influencer marketing"
+  ],
+  "theme": "media"
+ },
+ {
+  "w": "ingredient",
+  "pos": "noun",
+  "def": "one of the foods that are combined to make a particular dish",
+  "defId": "salah satu bahan makanan yang digabungkan untuk membuat suatu hidangan; bahan",
+  "ex": "Fresh garlic is a key ingredient in this pasta sauce.",
+  "exId": "Bawang putih segar adalah bahan utama dalam saus pasta ini.",
+  "colloc": [
+   "key ingredient",
+   "fresh ingredient",
+   "main ingredient"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "inherent",
   "pos": "adjective",
   "def": "existing as a natural and permanent part of something",
@@ -1835,6 +3417,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "inherit",
+  "pos": "verb",
+  "def": "to receive money, property, or traits from a relative",
+  "defId": "mewarisi uang, harta, atau sifat dari kerabat",
+  "ex": "She will inherit the family home from her grandmother.",
+  "exId": "Dia akan mewarisi rumah keluarga dari neneknya.",
+  "colloc": [
+   "inherit property",
+   "inherit a trait",
+   "inherit money"
+  ],
+  "theme": "family"
+ },
+ {
   "w": "innovation",
   "pos": "noun",
   "def": "a new idea, method, or product; the act of creating something new",
@@ -1847,6 +3443,20 @@ export const VOCAB = [
    "a culture of innovation"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "innovative",
+  "pos": "adjective",
+  "def": "introducing new ideas or original ways of doing things",
+  "defId": "memperkenalkan gagasan baru atau cara yang orisinal dalam melakukan sesuatu",
+  "ex": "The director's innovative use of light gave the stage a dreamlike quality.",
+  "exId": "Penggunaan cahaya yang inovatif oleh sutradara memberi panggung nuansa seperti mimpi.",
+  "colloc": [
+   "innovative approach",
+   "innovative design",
+   "highly innovative"
+  ],
+  "theme": "arts"
  },
  {
   "w": "integrate",
@@ -1905,6 +3515,34 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "interrogation",
+  "pos": "noun",
+  "def": "the process of questioning someone aggressively to get information",
+  "defId": "proses mengajukan pertanyaan secara agresif kepada seseorang untuk memperoleh informasi",
+  "ex": "After hours of interrogation, the suspect finally confessed to the crime.",
+  "exId": "Setelah berjam-jam interogasi, tersangka akhirnya mengakui kejahatannya.",
+  "colloc": [
+   "under interrogation",
+   "police interrogation",
+   "harsh interrogation"
+  ],
+  "theme": "crime"
+ },
+ {
+  "w": "intimacy",
+  "pos": "noun",
+  "def": "a close and warm personal relationship",
+  "defId": "keintiman atau kedekatan yang hangat dalam suatu hubungan",
+  "ex": "Emotional intimacy grows when couples share their feelings.",
+  "exId": "Keintiman emosional tumbuh ketika pasangan berbagi perasaan mereka.",
+  "colloc": [
+   "emotional intimacy",
+   "physical intimacy",
+   "build intimacy"
+  ],
+  "theme": "family"
+ },
+ {
   "w": "invigilate",
   "pos": "verb",
   "def": "to watch students during an exam to make sure they do not cheat",
@@ -1917,6 +3555,62 @@ export const VOCAB = [
    "invigilate students"
   ],
   "theme": "education"
+ },
+ {
+  "w": "irrigation",
+  "pos": "noun",
+  "def": "the supply of water to land or crops through channels or pipes",
+  "defId": "penyediaan air ke lahan atau tanaman melalui saluran atau pipa; irigasi",
+  "ex": "A modern irrigation system allowed farmers to grow crops all year round.",
+  "exId": "Sistem irigasi modern memungkinkan petani menanam tanaman sepanjang tahun.",
+  "colloc": [
+   "irrigation system",
+   "drip irrigation",
+   "irrigation canal"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "itinerary",
+  "pos": "noun",
+  "def": "a detailed plan or schedule of a journey, showing the route and places to visit",
+  "defId": "rencana perjalanan terperinci yang menunjukkan rute dan tempat-tempat yang akan dikunjungi",
+  "ex": "Our travel agent prepared a detailed itinerary covering every city on the trip.",
+  "exId": "Agen perjalanan kami menyusun rencana perjalanan terperinci yang mencakup setiap kota dalam perjalanan itu.",
+  "colloc": [
+   "a detailed itinerary",
+   "plan an itinerary",
+   "travel itinerary"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "jet lag",
+  "pos": "noun",
+  "def": "extreme tiredness felt after a long flight across several time zones",
+  "defId": "rasa lelah luar biasa yang dirasakan setelah penerbangan panjang melintasi beberapa zona waktu",
+  "ex": "After the long flight to Tokyo, she suffered from severe jet lag.",
+  "exId": "Setelah penerbangan panjang ke Tokyo, dia mengalami jet lag yang parah.",
+  "colloc": [
+   "suffer from jet lag",
+   "severe jet lag",
+   "beat jet lag"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "journalism",
+  "pos": "noun",
+  "def": "the work of collecting and writing news for newspapers, TV, or online",
+  "defId": "pekerjaan mengumpulkan dan menulis berita untuk koran, televisi, atau media daring",
+  "ex": "She studied journalism before working for a major newspaper.",
+  "exId": "Dia belajar jurnalisme sebelum bekerja untuk sebuah surat kabar besar.",
+  "colloc": [
+   "investigative journalism",
+   "a career in journalism",
+   "quality journalism"
+  ],
+  "theme": "media"
  },
  {
   "w": "jurisdiction",
@@ -1933,6 +3627,20 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "kinship",
+  "pos": "noun",
+  "def": "the feeling of being close or connected to other people, especially family",
+  "defId": "rasa kedekatan atau ikatan dengan orang lain, terutama keluarga",
+  "ex": "They felt a strong sense of kinship despite living far apart.",
+  "exId": "Mereka merasakan ikatan kekerabatan yang kuat meski tinggal berjauhan.",
+  "colloc": [
+   "sense of kinship",
+   "kinship ties",
+   "close kinship"
+  ],
+  "theme": "family"
+ },
+ {
   "w": "landfill",
   "pos": "noun",
   "def": "a place where large amounts of waste are buried in the ground.",
@@ -1947,6 +3655,48 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "landmark",
+  "pos": "noun",
+  "def": "an easily recognizable building or feature used to identify a place",
+  "defId": "bangunan atau ciri khas yang mudah dikenali dan digunakan untuk menandai suatu tempat",
+  "ex": "The Eiffel Tower is the most famous landmark in Paris.",
+  "exId": "Menara Eiffel adalah landmark paling terkenal di Paris.",
+  "colloc": [
+   "famous landmark",
+   "historic landmark",
+   "landmark building"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "layover",
+  "pos": "noun",
+  "def": "a short period of waiting between two parts of a journey, especially between flights",
+  "defId": "masa tunggu singkat di antara dua bagian perjalanan, terutama di antara penerbangan",
+  "ex": "We had a three-hour layover in Dubai before our connecting flight.",
+  "exId": "Kami transit selama tiga jam di Dubai sebelum penerbangan lanjutan kami.",
+  "colloc": [
+   "a long layover",
+   "a short layover",
+   "have a layover"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "leak",
+  "pos": "noun",
+  "def": "secret information that is deliberately made public",
+  "defId": "informasi rahasia yang sengaja dibocorkan ke publik",
+  "ex": "The leak revealed confidential details of the deal to the press.",
+  "exId": "Kebocoran itu mengungkap rincian rahasia kesepakatan tersebut kepada pers.",
+  "colloc": [
+   "information leak",
+   "a leak to the press",
+   "prevent a leak"
+  ],
+  "theme": "media"
+ },
+ {
   "w": "legislation",
   "pos": "noun",
   "def": "a law or set of laws made by a government",
@@ -1959,6 +3709,20 @@ export const VOCAB = [
    "introduce legislation"
   ],
   "theme": "society"
+ },
+ {
+  "w": "leisure",
+  "pos": "noun",
+  "def": "time when you are free from work and can relax or do things you enjoy",
+  "defId": "waktu saat Anda bebas dari pekerjaan dan dapat bersantai atau melakukan hal yang disukai",
+  "ex": "Many people spend their leisure time playing sport.",
+  "exId": "Banyak orang menghabiskan waktu luang mereka untuk berolahraga.",
+  "colloc": [
+   "leisure time",
+   "leisure activities",
+   "leisure centre"
+  ],
+  "theme": "sport"
  },
  {
   "w": "liability",
@@ -1989,6 +3753,34 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "livestock",
+  "pos": "noun",
+  "def": "animals such as cattle and sheep kept on a farm",
+  "defId": "hewan seperti sapi dan domba yang dipelihara di peternakan; ternak",
+  "ex": "The farmer raises livestock as well as growing vegetables.",
+  "exId": "Petani itu memelihara ternak sekaligus menanam sayuran.",
+  "colloc": [
+   "raise livestock",
+   "livestock farming",
+   "livestock feed"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "lodging",
+  "pos": "noun",
+  "def": "a temporary place to stay, usually paid for",
+  "defId": "tempat menginap sementara yang biasanya dibayar",
+  "ex": "The price includes lodging and breakfast for two nights.",
+  "exId": "Harga tersebut sudah termasuk penginapan dan sarapan untuk dua malam.",
+  "colloc": [
+   "board and lodging",
+   "overnight lodging",
+   "provide lodging"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "longevity",
   "pos": "noun",
   "def": "long life; the fact of living for a long time",
@@ -2015,6 +3807,20 @@ export const VOCAB = [
    "lucrative market"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "mainstream",
+  "pos": "adjective",
+  "def": "considered normal and shared by most people, not alternative",
+  "defId": "dianggap umum dan diterima oleh kebanyakan orang, bukan alternatif",
+  "ex": "The story was ignored by the mainstream media at first.",
+  "exId": "Berita itu awalnya diabaikan oleh media arus utama.",
+  "colloc": [
+   "mainstream media",
+   "mainstream press",
+   "mainstream audience"
+  ],
+  "theme": "media"
  },
  {
   "w": "malnutrition",
@@ -2045,6 +3851,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "marathon",
+  "pos": "noun",
+  "def": "a long-distance running race of about 42 kilometres",
+  "defId": "lomba lari jarak jauh sekitar 42 kilometer",
+  "ex": "She trained for months to run her first marathon.",
+  "exId": "Dia berlatih berbulan-bulan untuk berlari maraton pertamanya.",
+  "colloc": [
+   "run a marathon",
+   "marathon runner",
+   "finish a marathon"
+  ],
+  "theme": "sport"
+ },
+ {
   "w": "marginalised",
   "pos": "adjective",
   "def": "treated as unimportant and pushed to the edge of society",
@@ -2057,6 +3877,76 @@ export const VOCAB = [
    "socially marginalised"
   ],
   "theme": "society"
+ },
+ {
+  "w": "marital",
+  "pos": "adjective",
+  "def": "relating to marriage or to a married couple",
+  "defId": "berkaitan dengan pernikahan atau dengan pasangan suami istri",
+  "ex": "They sought help to resolve their marital problems.",
+  "exId": "Mereka mencari bantuan untuk menyelesaikan masalah rumah tangga mereka.",
+  "colloc": [
+   "marital status",
+   "marital problems",
+   "marital bliss"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "masterpiece",
+  "pos": "noun",
+  "def": "an outstanding work of art or the finest work an artist has produced",
+  "defId": "karya seni yang luar biasa atau karya terbaik yang pernah dihasilkan seorang seniman",
+  "ex": "Critics regard the painting as the artist's greatest masterpiece.",
+  "exId": "Para kritikus menganggap lukisan itu sebagai mahakarya terbesar sang seniman.",
+  "colloc": [
+   "literary masterpiece",
+   "create a masterpiece",
+   "undisputed masterpiece"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "maternal",
+  "pos": "adjective",
+  "def": "relating to a mother or to motherly feelings",
+  "defId": "berkaitan dengan ibu atau dengan sifat keibuan",
+  "ex": "She has strong maternal instincts toward her younger cousins.",
+  "exId": "Dia memiliki naluri keibuan yang kuat terhadap sepupu-sepupunya yang lebih muda.",
+  "colloc": [
+   "maternal instinct",
+   "maternal love",
+   "maternal grandmother"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "matriarch",
+  "pos": "noun",
+  "def": "a woman who is the head of a family",
+  "defId": "seorang perempuan yang menjadi kepala keluarga",
+  "ex": "The grandmother was the respected matriarch of the family.",
+  "exId": "Sang nenek adalah kepala keluarga perempuan yang dihormati.",
+  "colloc": [
+   "family matriarch",
+   "powerful matriarch",
+   "aging matriarch"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "matrimony",
+  "pos": "noun",
+  "def": "the state of being married; marriage",
+  "defId": "keadaan menikah; ikatan pernikahan",
+  "ex": "They were joined in matrimony last spring.",
+  "exId": "Mereka dipersatukan dalam ikatan pernikahan pada musim semi lalu.",
+  "colloc": [
+   "holy matrimony",
+   "joined in matrimony",
+   "bonds of matrimony"
+  ],
+  "theme": "family"
  },
  {
   "w": "mentor",
@@ -2185,6 +4075,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "momentum",
+  "pos": "noun",
+  "def": "the force or speed that something gains as it keeps moving or developing",
+  "defId": "dorongan atau kecepatan yang diperoleh sesuatu saat terus bergerak atau berkembang",
+  "ex": "The team gained momentum after scoring the first goal.",
+  "exId": "Tim itu mendapatkan momentum setelah mencetak gol pertama.",
+  "colloc": [
+   "gain momentum",
+   "lose momentum",
+   "build momentum"
+  ],
+  "theme": "sport"
+ },
+ {
   "w": "monopoly",
   "pos": "noun",
   "def": "complete control of a product or service by one company, with no competition",
@@ -2197,6 +4101,20 @@ export const VOCAB = [
    "break up a monopoly"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "mosaic",
+  "pos": "noun",
+  "def": "a picture or pattern made from many small pieces of coloured stone or glass",
+  "defId": "gambar atau pola yang dibuat dari banyak potongan kecil batu atau kaca berwarna",
+  "ex": "A beautiful mosaic of a peacock decorated the floor of the ancient hall.",
+  "exId": "Sebuah mosaik indah bergambar merak menghiasi lantai aula kuno itu.",
+  "colloc": [
+   "mosaic tiles",
+   "ancient mosaic",
+   "mosaic pattern"
+  ],
+  "theme": "arts"
  },
  {
   "w": "motivation",
@@ -2225,6 +4143,34 @@ export const VOCAB = [
    "multicultural community"
   ],
   "theme": "society"
+ },
+ {
+  "w": "mural",
+  "pos": "noun",
+  "def": "a large painting made directly on a wall",
+  "defId": "lukisan besar yang dibuat langsung pada dinding",
+  "ex": "Local students painted a colourful mural on the side of the school.",
+  "exId": "Para siswa setempat melukis mural berwarna-warni di sisi gedung sekolah.",
+  "colloc": [
+   "paint a mural",
+   "colourful mural",
+   "wall mural"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "narrative",
+  "pos": "noun",
+  "def": "a way of explaining events that shapes how people understand them",
+  "defId": "cara menjelaskan peristiwa yang membentuk pemahaman orang",
+  "ex": "The media created a narrative of crisis around the event.",
+  "exId": "Media menciptakan narasi krisis seputar peristiwa tersebut.",
+  "colloc": [
+   "dominant narrative",
+   "shape the narrative",
+   "media narrative"
+  ],
+  "theme": "media"
  },
  {
   "w": "negotiate",
@@ -2309,6 +4255,20 @@ export const VOCAB = [
    "literacy and numeracy"
   ],
   "theme": "education"
+ },
+ {
+  "w": "nurture",
+  "pos": "verb",
+  "def": "to care for and protect someone or something while it is growing",
+  "defId": "mengasuh dan melindungi seseorang atau sesuatu selama masa pertumbuhannya",
+  "ex": "Good parents nurture their children with love and patience.",
+  "exId": "Orang tua yang baik mengasuh anak-anak mereka dengan cinta dan kesabaran.",
+  "colloc": [
+   "nurture a child",
+   "nurture talent",
+   "nurture a relationship"
+  ],
+  "theme": "family"
  },
  {
   "w": "nutrient",
@@ -2437,6 +4397,34 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "offspring",
+  "pos": "noun",
+  "def": "a person's child or children",
+  "defId": "anak atau keturunan seseorang",
+  "ex": "Parents often hope their offspring will have a better life.",
+  "exId": "Orang tua sering berharap keturunan mereka akan memiliki kehidupan yang lebih baik.",
+  "colloc": [
+   "their offspring",
+   "adult offspring",
+   "produce offspring"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "opponent",
+  "pos": "noun",
+  "def": "a person or team that competes against you in a game or contest",
+  "defId": "orang atau tim yang menjadi lawan Anda dalam permainan atau pertandingan",
+  "ex": "She studied her opponent's weaknesses before the match.",
+  "exId": "Dia mempelajari kelemahan lawannya sebelum pertandingan.",
+  "colloc": [
+   "beat an opponent",
+   "tough opponent",
+   "worthy opponent"
+  ],
+  "theme": "sport"
+ },
+ {
   "w": "organic",
   "pos": "adjective",
   "def": "produced or grown without artificial chemicals or fertilizers.",
@@ -2451,6 +4439,20 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "ornate",
+  "pos": "adjective",
+  "def": "decorated with a lot of complicated detail",
+  "defId": "dihias dengan banyak detail yang rumit",
+  "ex": "The palace ceiling was covered with ornate gold patterns.",
+  "exId": "Langit-langit istana itu dipenuhi motif emas yang rumit.",
+  "colloc": [
+   "ornate design",
+   "ornate decoration",
+   "ornate carving"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "outbreak",
   "pos": "noun",
   "def": "the sudden start of something bad, especially a disease, in an area",
@@ -2463,6 +4465,20 @@ export const VOCAB = [
    "contain an outbreak"
   ],
   "theme": "health"
+ },
+ {
+  "w": "outlet",
+  "pos": "noun",
+  "def": "a newspaper, TV channel, or website that publishes news",
+  "defId": "surat kabar, saluran televisi, atau situs web yang menerbitkan berita",
+  "ex": "The news was reported by several major media outlets.",
+  "exId": "Berita itu dilaporkan oleh beberapa media besar.",
+  "colloc": [
+   "media outlet",
+   "news outlet",
+   "online outlet"
+  ],
+  "theme": "media"
  },
  {
   "w": "outsource",
@@ -2521,6 +4537,76 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "parole",
+  "pos": "noun",
+  "def": "the early release of a prisoner on the promise of good behaviour",
+  "defId": "pembebasan dini seorang tahanan dengan syarat berperilaku baik",
+  "ex": "The prisoner was released on parole after serving half of his sentence.",
+  "exId": "Tahanan itu dibebaskan bersyarat setelah menjalani setengah masa hukumannya.",
+  "colloc": [
+   "release on parole",
+   "parole board",
+   "parole hearing"
+  ],
+  "theme": "crime"
+ },
+ {
+  "w": "participant",
+  "pos": "noun",
+  "def": "a person who takes part in an activity or event",
+  "defId": "orang yang ikut serta dalam suatu kegiatan atau acara",
+  "ex": "Every participant in the race received a medal.",
+  "exId": "Setiap peserta dalam lomba itu menerima medali.",
+  "colloc": [
+   "active participant",
+   "race participant",
+   "willing participant"
+  ],
+  "theme": "sport"
+ },
+ {
+  "w": "paternal",
+  "pos": "adjective",
+  "def": "relating to a father or to fatherly feelings",
+  "defId": "berkaitan dengan ayah atau dengan sifat kebapakan",
+  "ex": "He took a paternal interest in the young trainee.",
+  "exId": "Dia menaruh perhatian layaknya seorang ayah kepada karyawan magang muda itu.",
+  "colloc": [
+   "paternal instinct",
+   "paternal grandfather",
+   "paternal role"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "patriarch",
+  "pos": "noun",
+  "def": "a man who is the head of a family",
+  "defId": "seorang laki-laki yang menjadi kepala keluarga",
+  "ex": "As the family patriarch, he made all the major decisions.",
+  "exId": "Sebagai kepala keluarga, dia mengambil semua keputusan penting.",
+  "colloc": [
+   "family patriarch",
+   "aging patriarch",
+   "stern patriarch"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "patronage",
+  "pos": "noun",
+  "def": "the financial support given to artists or institutions by a wealthy person or organisation",
+  "defId": "dukungan keuangan yang diberikan kepada seniman atau lembaga oleh orang kaya atau organisasi",
+  "ex": "Many Renaissance artists depended on the patronage of powerful families.",
+  "exId": "Banyak seniman Renaisans bergantung pada dukungan finansial keluarga-keluarga berkuasa.",
+  "colloc": [
+   "royal patronage",
+   "artistic patronage",
+   "under the patronage of"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "pedagogy",
   "pos": "noun",
   "def": "the methods and practice of teaching, especially as a subject of study",
@@ -2535,6 +4621,76 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "penalty",
+  "pos": "noun",
+  "def": "a punishment for breaking a law or rule",
+  "defId": "hukuman karena melanggar undang-undang atau aturan",
+  "ex": "The penalty for drink-driving includes a heavy fine and a driving ban.",
+  "exId": "Hukuman untuk mengemudi dalam keadaan mabuk mencakup denda besar dan larangan mengemudi.",
+  "colloc": [
+   "impose a penalty",
+   "death penalty",
+   "harsh penalty"
+  ],
+  "theme": "crime"
+ },
+ {
+  "w": "peninsula",
+  "pos": "noun",
+  "def": "a piece of land almost surrounded by water but joined to a larger area of land",
+  "defId": "sebidang tanah yang hampir dikelilingi air tetapi menyatu dengan daratan yang lebih besar",
+  "ex": "The small town lies at the tip of a rocky peninsula.",
+  "exId": "Kota kecil itu terletak di ujung sebuah semenanjung berbatu.",
+  "colloc": [
+   "a narrow peninsula",
+   "the tip of the peninsula",
+   "a rocky peninsula"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "perishable",
+  "pos": "adjective",
+  "def": "likely to decay or go bad quickly if not kept cool",
+  "defId": "mudah membusuk atau rusak dengan cepat jika tidak disimpan dingin; mudah rusak",
+  "ex": "Perishable goods such as milk and fish must be refrigerated.",
+  "exId": "Barang yang mudah rusak seperti susu dan ikan harus didinginkan.",
+  "colloc": [
+   "perishable goods",
+   "perishable food",
+   "highly perishable"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "perseverance",
+  "pos": "noun",
+  "def": "continued effort to do something despite difficulties",
+  "defId": "usaha yang terus-menerus untuk melakukan sesuatu meskipun ada kesulitan",
+  "ex": "Through hard work and perseverance, he became a champion.",
+  "exId": "Melalui kerja keras dan ketekunan, dia menjadi juara.",
+  "colloc": [
+   "sheer perseverance",
+   "show perseverance",
+   "patience and perseverance"
+  ],
+  "theme": "sport"
+ },
+ {
+  "w": "pesticide",
+  "pos": "noun",
+  "def": "a chemical used to kill insects and pests that damage crops",
+  "defId": "bahan kimia yang digunakan untuk membunuh serangga dan hama yang merusak tanaman; pestisida",
+  "ex": "Overuse of pesticide can harm bees and pollute nearby rivers.",
+  "exId": "Penggunaan pestisida yang berlebihan dapat membahayakan lebah dan mencemari sungai di sekitarnya.",
+  "colloc": [
+   "spray pesticide",
+   "pesticide residue",
+   "chemical pesticide"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "phenomenon",
   "pos": "noun",
   "def": "a fact or event that can be observed, especially one that is studied",
@@ -2547,6 +4703,20 @@ export const VOCAB = [
    "explain the phenomenon"
   ],
   "theme": "science"
+ },
+ {
+  "w": "picturesque",
+  "pos": "adjective",
+  "def": "visually attractive, especially in a charming or old-fashioned way",
+  "defId": "indah dipandang, terutama dengan cara yang menawan atau klasik",
+  "ex": "The village sits in a picturesque valley surrounded by mountains.",
+  "exId": "Desa itu terletak di sebuah lembah indah bak lukisan yang dikelilingi pegunungan.",
+  "colloc": [
+   "a picturesque village",
+   "picturesque scenery",
+   "picturesque setting"
+  ],
+  "theme": "travel"
  },
  {
   "w": "pixel",
@@ -2619,6 +4789,34 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "portrait",
+  "pos": "noun",
+  "def": "a painting, drawing or photograph of a person, especially of the face",
+  "defId": "lukisan, gambar, atau foto seseorang, terutama wajahnya",
+  "ex": "A striking portrait of the founder hangs above the library entrance.",
+  "exId": "Sebuah potret yang mencolok dari sang pendiri tergantung di atas pintu masuk perpustakaan.",
+  "colloc": [
+   "self-portrait",
+   "paint a portrait",
+   "portrait gallery"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "portrayal",
+  "pos": "noun",
+  "def": "the way in which someone or something is described or represented in art or writing",
+  "defId": "cara seseorang atau sesuatu digambarkan atau diwakili dalam seni atau tulisan",
+  "ex": "Her sensitive portrayal of the young queen won her an acting award.",
+  "exId": "Penggambaran yang penuh kepekaan atas sang ratu muda membuatnya memenangkan penghargaan akting.",
+  "colloc": [
+   "vivid portrayal",
+   "realistic portrayal",
+   "portrayal of characters"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "postgraduate",
   "pos": "noun",
   "def": "a student who is studying for a further degree after their first one",
@@ -2645,6 +4843,20 @@ export const VOCAB = [
    "maintain posture"
   ],
   "theme": "health"
+ },
+ {
+  "w": "poultry",
+  "pos": "noun",
+  "def": "birds such as chickens and ducks kept for their meat or eggs",
+  "defId": "unggas seperti ayam dan bebek yang dipelihara untuk daging atau telurnya; unggas",
+  "ex": "The market sells fresh poultry, including chicken and turkey.",
+  "exId": "Pasar itu menjual unggas segar, termasuk ayam dan kalkun.",
+  "colloc": [
+   "poultry farm",
+   "fresh poultry",
+   "poultry meat"
+  ],
+  "theme": "food"
  },
  {
   "w": "prejudice",
@@ -2675,6 +4887,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "preservative",
+  "pos": "noun",
+  "def": "a substance added to food to stop it from going bad",
+  "defId": "zat yang ditambahkan ke makanan agar tidak cepat rusak; pengawet",
+  "ex": "Salt has been used as a natural preservative for centuries.",
+  "exId": "Garam telah digunakan sebagai pengawet alami selama berabad-abad.",
+  "colloc": [
+   "natural preservative",
+   "artificial preservative",
+   "add a preservative"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "preserve",
   "pos": "verb",
   "def": "to protect something so that it stays in its original or good condition.",
@@ -2701,6 +4927,34 @@ export const VOCAB = [
    "prevention is better than cure"
   ],
   "theme": "health"
+ },
+ {
+  "w": "probation",
+  "pos": "noun",
+  "def": "a system letting an offender stay out of prison under supervision",
+  "defId": "sistem yang memungkinkan pelaku tetap di luar penjara di bawah pengawasan",
+  "ex": "Instead of jail, she was put on probation for one year.",
+  "exId": "Alih-alih dipenjara, dia dikenai masa percobaan selama satu tahun.",
+  "colloc": [
+   "on probation",
+   "probation officer",
+   "probation period"
+  ],
+  "theme": "crime"
+ },
+ {
+  "w": "processed",
+  "pos": "adjective",
+  "def": "treated with chemicals or methods to preserve or change food",
+  "defId": "diolah dengan bahan kimia atau metode untuk mengawetkan atau mengubah makanan; olahan",
+  "ex": "Doctors warn that eating too much processed food can raise blood pressure.",
+  "exId": "Dokter memperingatkan bahwa terlalu banyak makan makanan olahan dapat meningkatkan tekanan darah.",
+  "colloc": [
+   "processed food",
+   "highly processed",
+   "processed meat"
+  ],
+  "theme": "food"
  },
  {
   "w": "procurement",
@@ -2745,6 +4999,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "propaganda",
+  "pos": "noun",
+  "def": "information, often false, spread to promote a political cause or view",
+  "defId": "informasi, sering kali menyesatkan, yang disebarkan untuk mempromosikan tujuan atau pandangan politik",
+  "ex": "The government used propaganda to control public opinion during the war.",
+  "exId": "Pemerintah menggunakan propaganda untuk mengendalikan opini publik selama perang.",
+  "colloc": [
+   "spread propaganda",
+   "political propaganda",
+   "propaganda campaign"
+  ],
+  "theme": "media"
+ },
+ {
   "w": "proportion",
   "pos": "noun",
   "def": "a part or share of a whole, often shown as a fraction or percentage",
@@ -2757,6 +5025,20 @@ export const VOCAB = [
    "significant proportion"
   ],
   "theme": "science"
+ },
+ {
+  "w": "prosecute",
+  "pos": "verb",
+  "def": "to officially charge someone with a crime and try them in court",
+  "defId": "menuntut seseorang secara resmi atas suatu kejahatan dan mengadilinya di pengadilan",
+  "ex": "Shoplifters will be prosecuted to the full extent of the law.",
+  "exId": "Pencuri toko akan dituntut sepenuhnya sesuai hukum yang berlaku.",
+  "colloc": [
+   "prosecute a case",
+   "prosecute an offender",
+   "fail to prosecute"
+  ],
+  "theme": "crime"
  },
  {
   "w": "prosecution",
@@ -2815,6 +5097,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "publicity",
+  "pos": "noun",
+  "def": "attention given to someone or something by the media",
+  "defId": "perhatian yang diberikan kepada seseorang atau sesuatu oleh media",
+  "ex": "The film received a lot of publicity before its release.",
+  "exId": "Film itu mendapat banyak publisitas sebelum dirilis.",
+  "colloc": [
+   "gain publicity",
+   "negative publicity",
+   "publicity campaign"
+  ],
+  "theme": "media"
+ },
+ {
   "w": "qualification",
   "pos": "noun",
   "def": "an official record showing you have completed a course or passed an exam",
@@ -2843,6 +5139,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "rapport",
+  "pos": "noun",
+  "def": "a friendly relationship in which people understand each other well",
+  "defId": "hubungan akrab di mana orang saling memahami dengan baik",
+  "ex": "A good parent builds rapport with every child in the home.",
+  "exId": "Orang tua yang baik membangun hubungan akrab dengan setiap anak di rumah.",
+  "colloc": [
+   "build rapport",
+   "good rapport",
+   "instant rapport"
+  ],
+  "theme": "family"
+ },
+ {
   "w": "recession",
   "pos": "noun",
   "def": "a period when the economy of a country is not doing well and business activity falls",
@@ -2855,6 +5165,20 @@ export const VOCAB = [
    "slip into recession"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "reconcile",
+  "pos": "verb",
+  "def": "to become friendly with someone again after an argument",
+  "defId": "berdamai kembali dengan seseorang setelah pertengkaran",
+  "ex": "After years apart, the two brothers finally reconciled.",
+  "exId": "Setelah bertahun-tahun berpisah, kedua bersaudara itu akhirnya berdamai.",
+  "colloc": [
+   "reconcile with someone",
+   "reconcile differences",
+   "hard to reconcile"
+  ],
+  "theme": "family"
  },
  {
   "w": "recovery",
@@ -2871,6 +5195,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "recreation",
+  "pos": "noun",
+  "def": "activities done for enjoyment when you are not working",
+  "defId": "kegiatan yang dilakukan untuk kesenangan saat tidak bekerja",
+  "ex": "The park offers many spaces for sport and recreation.",
+  "exId": "Taman itu menyediakan banyak ruang untuk olahraga dan rekreasi.",
+  "colloc": [
+   "recreation centre",
+   "outdoor recreation",
+   "rest and recreation"
+  ],
+  "theme": "sport"
+ },
+ {
   "w": "redundancy",
   "pos": "noun",
   "def": "a situation in which someone loses their job because they are no longer needed",
@@ -2883,6 +5221,34 @@ export const VOCAB = [
    "redundancy pay"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "referee",
+  "pos": "noun",
+  "def": "the official who controls a sports match and makes sure players follow the rules",
+  "defId": "petugas yang memimpin pertandingan olahraga dan memastikan pemain mematuhi peraturan",
+  "ex": "The referee blew the whistle to end the game.",
+  "exId": "Wasit meniup peluit untuk mengakhiri pertandingan.",
+  "colloc": [
+   "referee's decision",
+   "assistant referee",
+   "blame the referee"
+  ],
+  "theme": "sport"
+ },
+ {
+  "w": "reflex",
+  "pos": "noun",
+  "def": "a quick, automatic movement of the body in response to something",
+  "defId": "gerakan tubuh yang cepat dan otomatis sebagai respons terhadap sesuatu",
+  "ex": "Goalkeepers need excellent reflexes to stop fast shots.",
+  "exId": "Penjaga gawang membutuhkan refleks yang sangat baik untuk menahan tembakan cepat.",
+  "colloc": [
+   "quick reflexes",
+   "sharp reflexes",
+   "reflex action"
+  ],
+  "theme": "sport"
  },
  {
   "w": "reforestation",
@@ -2955,6 +5321,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "remote",
+  "pos": "adjective",
+  "def": "far away from towns or other places where people live; isolated",
+  "defId": "jauh dari kota atau tempat lain yang dihuni orang; terpencil",
+  "ex": "The lodge is located in a remote area far from any city.",
+  "exId": "Penginapan itu terletak di daerah terpencil jauh dari kota mana pun.",
+  "colloc": [
+   "remote area",
+   "remote village",
+   "remote location"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "remuneration",
   "pos": "noun",
   "def": "the money paid to someone for the work they have done; pay",
@@ -2981,6 +5361,20 @@ export const VOCAB = [
    "renewable sources"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "renowned",
+  "pos": "adjective",
+  "def": "famous and admired for a special skill or quality",
+  "defId": "terkenal dan dikagumi karena keterampilan atau kualitas khusus",
+  "ex": "The city is renowned for its lively street music and colourful festivals.",
+  "exId": "Kota itu terkenal karena musik jalanannya yang meriah dan festival-festivalnya yang berwarna-warni.",
+  "colloc": [
+   "renowned artist",
+   "world-renowned",
+   "renowned for"
+  ],
+  "theme": "arts"
  },
  {
   "w": "replicate",
@@ -3025,6 +5419,34 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "resort",
+  "pos": "noun",
+  "def": "a place where people go on holiday to relax, often with hotels and facilities",
+  "defId": "tempat orang berlibur untuk bersantai, sering kali dilengkapi hotel dan fasilitas",
+  "ex": "They stayed at a luxury beach resort during their honeymoon.",
+  "exId": "Mereka menginap di sebuah resor pantai mewah selama bulan madu mereka.",
+  "colloc": [
+   "beach resort",
+   "ski resort",
+   "luxury resort"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "restoration",
+  "pos": "noun",
+  "def": "the work of repairing an old painting, building or object to its original condition",
+  "defId": "pekerjaan memperbaiki lukisan, bangunan, atau benda tua agar kembali ke kondisi aslinya",
+  "ex": "The careful restoration of the fresco took a team of experts three years.",
+  "exId": "Restorasi hati-hati atas fresko itu memakan waktu tiga tahun bagi tim ahli.",
+  "colloc": [
+   "careful restoration",
+   "restoration work",
+   "restoration project"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "revenue",
   "pos": "noun",
   "def": "the money that a company or government receives, especially from selling goods or services",
@@ -3051,6 +5473,34 @@ export const VOCAB = [
    "rigorous method"
   ],
   "theme": "science"
+ },
+ {
+  "w": "ripe",
+  "pos": "adjective",
+  "def": "fully developed and ready to be eaten or harvested",
+  "defId": "sudah berkembang penuh dan siap untuk dimakan atau dipanen; matang",
+  "ex": "The mangoes are ripe now and taste wonderfully sweet.",
+  "exId": "Mangga itu sudah matang sekarang dan rasanya sangat manis.",
+  "colloc": [
+   "ripe fruit",
+   "fully ripe",
+   "ripe tomatoes"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "rivalry",
+  "pos": "noun",
+  "def": "a state of competition between people or teams",
+  "defId": "keadaan persaingan antara orang atau tim",
+  "ex": "The rivalry between the two clubs is famous around the world.",
+  "exId": "Persaingan antara kedua klub itu terkenal di seluruh dunia.",
+  "colloc": [
+   "intense rivalry",
+   "bitter rivalry",
+   "long-standing rivalry"
+  ],
+  "theme": "sport"
  },
  {
   "w": "rote",
@@ -3095,6 +5545,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "scandal",
+  "pos": "noun",
+  "def": "an event that shocks the public and causes anger",
+  "defId": "peristiwa yang mengejutkan publik dan menimbulkan kemarahan",
+  "ex": "The corruption scandal dominated the news for weeks.",
+  "exId": "Skandal korupsi itu mendominasi pemberitaan selama berminggu-minggu.",
+  "colloc": [
+   "corruption scandal",
+   "political scandal",
+   "cause a scandal"
+  ],
+  "theme": "media"
+ },
+ {
   "w": "scarcity",
   "pos": "noun",
   "def": "a situation in which there is not enough of something.",
@@ -3107,6 +5571,20 @@ export const VOCAB = [
    "scarcity of resources"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "scenic",
+  "pos": "adjective",
+  "def": "having beautiful natural scenery",
+  "defId": "memiliki pemandangan alam yang indah",
+  "ex": "We took the scenic route along the coast instead of the highway.",
+  "exId": "Kami mengambil rute berpemandangan indah di sepanjang pantai alih-alih jalan tol.",
+  "colloc": [
+   "scenic route",
+   "scenic view",
+   "scenic beauty"
+  ],
+  "theme": "travel"
  },
  {
   "w": "scholar",
@@ -3135,6 +5613,62 @@ export const VOCAB = [
    "scholarship programme"
   ],
   "theme": "education"
+ },
+ {
+  "w": "sculpture",
+  "pos": "noun",
+  "def": "a work of art made by shaping stone, metal, wood or other material into a solid figure",
+  "defId": "karya seni yang dibuat dengan membentuk batu, logam, kayu, atau bahan lain menjadi bentuk padat",
+  "ex": "A bronze sculpture of the poet stands in the middle of the town square.",
+  "exId": "Sebuah patung perunggu sang penyair berdiri di tengah alun-alun kota.",
+  "colloc": [
+   "bronze sculpture",
+   "abstract sculpture",
+   "create a sculpture"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "seasonal",
+  "pos": "adjective",
+  "def": "available or happening only at a particular time of the year",
+  "defId": "tersedia atau terjadi hanya pada waktu tertentu dalam setahun; musiman",
+  "ex": "The restaurant uses seasonal ingredients that are fresh and local.",
+  "exId": "Restoran itu menggunakan bahan musiman yang segar dan lokal.",
+  "colloc": [
+   "seasonal produce",
+   "seasonal fruit",
+   "seasonal ingredients"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "seasoning",
+  "pos": "noun",
+  "def": "salt, pepper or herbs added to food to improve its taste",
+  "defId": "garam, merica, atau rempah yang ditambahkan ke makanan untuk memperbaiki rasa; bumbu",
+  "ex": "The soup needs a little more seasoning before you serve it.",
+  "exId": "Sup itu membutuhkan sedikit lebih banyak bumbu sebelum kamu menyajikannya.",
+  "colloc": [
+   "add seasoning",
+   "salt seasoning",
+   "adjust the seasoning"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "secluded",
+  "pos": "adjective",
+  "def": "quiet and private because it is away from other people or places",
+  "defId": "tenang dan pribadi karena jauh dari orang atau tempat lain",
+  "ex": "The couple found a secluded beach where no other tourists went.",
+  "exId": "Pasangan itu menemukan pantai tersembunyi yang tidak dikunjungi wisatawan lain.",
+  "colloc": [
+   "a secluded beach",
+   "a secluded spot",
+   "secluded location"
+  ],
+  "theme": "travel"
  },
  {
   "w": "secular",
@@ -3193,6 +5727,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "sensational",
+  "pos": "adjective",
+  "def": "presenting information in a way that causes strong excitement or shock",
+  "defId": "menyajikan informasi dengan cara yang menimbulkan kegembiraan atau kejutan yang kuat",
+  "ex": "The magazine ran a sensational story about the actor's private life.",
+  "exId": "Majalah itu memuat berita sensasional tentang kehidupan pribadi aktor tersebut.",
+  "colloc": [
+   "sensational story",
+   "sensational headline",
+   "sensational claims"
+  ],
+  "theme": "media"
+ },
+ {
   "w": "sensor",
   "pos": "noun",
   "def": "a device that detects light, heat, movement, or other changes",
@@ -3249,6 +5797,48 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "showcase",
+  "pos": "verb",
+  "def": "to present someone or something in an attractive way that draws attention to their best qualities",
+  "defId": "menampilkan seseorang atau sesuatu secara menarik untuk menonjolkan kualitas terbaiknya",
+  "ex": "The festival aims to showcase the work of emerging young artists.",
+  "exId": "Festival itu bertujuan untuk menampilkan karya para seniman muda yang sedang berkembang.",
+  "colloc": [
+   "showcase talent",
+   "showcase work",
+   "showcase the best"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "sibling",
+  "pos": "noun",
+  "def": "a brother or a sister",
+  "defId": "saudara kandung, baik laki-laki maupun perempuan",
+  "ex": "I have three siblings: two brothers and one sister.",
+  "exId": "Saya memiliki tiga saudara kandung: dua laki-laki dan satu perempuan.",
+  "colloc": [
+   "younger sibling",
+   "sibling rivalry",
+   "older sibling"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "sightseeing",
+  "pos": "noun",
+  "def": "the activity of visiting interesting places, especially as a tourist",
+  "defId": "kegiatan mengunjungi tempat-tempat menarik, terutama sebagai wisatawan",
+  "ex": "We spent the whole afternoon sightseeing in the old town.",
+  "exId": "Kami menghabiskan sepanjang sore berkeliling melihat objek wisata di kota tua.",
+  "colloc": [
+   "go sightseeing",
+   "sightseeing tour",
+   "sightseeing trip"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "significant",
   "pos": "adjective",
   "def": "large or important enough to have a noticeable effect",
@@ -3261,6 +5851,20 @@ export const VOCAB = [
    "significant increase"
   ],
   "theme": "science"
+ },
+ {
+  "w": "smuggling",
+  "pos": "noun",
+  "def": "the crime of moving goods illegally into or out of a country",
+  "defId": "kejahatan memindahkan barang secara ilegal ke dalam atau ke luar suatu negara",
+  "ex": "The gang was involved in smuggling drugs across the border.",
+  "exId": "Geng itu terlibat dalam penyelundupan narkoba melintasi perbatasan.",
+  "colloc": [
+   "drug smuggling",
+   "smuggling ring",
+   "people smuggling"
+  ],
+  "theme": "crime"
  },
  {
   "w": "software",
@@ -3291,6 +5895,48 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "souvenir",
+  "pos": "noun",
+  "def": "an object kept as a reminder of a place visited or an event",
+  "defId": "benda yang disimpan sebagai kenang-kenangan dari tempat yang dikunjungi atau suatu peristiwa",
+  "ex": "She bought a small wooden souvenir to remember the trip.",
+  "exId": "Dia membeli cendera mata kayu kecil untuk mengenang perjalanan itu.",
+  "colloc": [
+   "buy a souvenir",
+   "souvenir shop",
+   "a souvenir of"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "spectacle",
+  "pos": "noun",
+  "def": "an impressive or exciting event that people watch",
+  "defId": "peristiwa yang mengesankan atau menarik yang ditonton banyak orang",
+  "ex": "The opening ceremony was a spectacle of light and music.",
+  "exId": "Upacara pembukaan itu merupakan tontonan cahaya dan musik yang memukau.",
+  "colloc": [
+   "amazing spectacle",
+   "grand spectacle",
+   "public spectacle"
+  ],
+  "theme": "sport"
+ },
+ {
+  "w": "spectator",
+  "pos": "noun",
+  "def": "a person who watches an event, especially a sports match",
+  "defId": "orang yang menonton suatu acara, terutama pertandingan olahraga",
+  "ex": "Thousands of spectators filled the stadium to watch the final.",
+  "exId": "Ribuan penonton memenuhi stadion untuk menyaksikan final.",
+  "colloc": [
+   "excited spectators",
+   "spectator sport",
+   "crowd of spectators"
+  ],
+  "theme": "sport"
+ },
+ {
   "w": "speculate",
   "pos": "verb",
   "def": "to form an opinion without having complete evidence",
@@ -3305,6 +5951,48 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "spoil",
+  "pos": "verb",
+  "def": "to become unfit to eat because it is no longer fresh",
+  "defId": "menjadi tidak layak dimakan karena tidak lagi segar; membusuk; rusak",
+  "ex": "Meat will spoil quickly if it is left out of the fridge.",
+  "exId": "Daging akan cepat membusuk jika dibiarkan di luar lemari es.",
+  "colloc": [
+   "food spoils",
+   "spoil quickly",
+   "spoiled milk"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "spouse",
+  "pos": "noun",
+  "def": "a husband or a wife",
+  "defId": "pasangan hidup, suami atau istri",
+  "ex": "You may bring your spouse to the company dinner.",
+  "exId": "Anda boleh membawa pasangan Anda ke jamuan makan malam perusahaan.",
+  "colloc": [
+   "surviving spouse",
+   "choose a spouse",
+   "spouse and children"
+  ],
+  "theme": "family"
+ },
+ {
+  "w": "squad",
+  "pos": "noun",
+  "def": "a group of players from which a team is chosen",
+  "defId": "sekelompok pemain yang darinya sebuah tim dipilih",
+  "ex": "The coach named a strong squad for the tournament.",
+  "exId": "Pelatih menunjuk skuad yang kuat untuk turnamen itu.",
+  "colloc": [
+   "national squad",
+   "squad selection",
+   "first-team squad"
+  ],
+  "theme": "sport"
+ },
+ {
   "w": "stakeholder",
   "pos": "noun",
   "def": "a person or group with an interest in a business or its decisions, such as workers or investors",
@@ -3317,6 +6005,48 @@ export const VOCAB = [
    "stakeholder interests"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "stamina",
+  "pos": "noun",
+  "def": "the physical or mental strength to keep doing something for a long time",
+  "defId": "kekuatan fisik atau mental untuk terus melakukan sesuatu dalam waktu lama",
+  "ex": "Swimmers need a lot of stamina to compete at this level.",
+  "exId": "Perenang membutuhkan banyak stamina untuk bersaing di level ini.",
+  "colloc": [
+   "build stamina",
+   "physical stamina",
+   "lack stamina"
+  ],
+  "theme": "sport"
+ },
+ {
+  "w": "staple",
+  "pos": "noun",
+  "def": "a basic food that forms a large part of people's diet",
+  "defId": "makanan pokok yang menjadi bagian besar dari pola makan orang; makanan pokok",
+  "ex": "Rice is the main staple for more than half of the world's population.",
+  "exId": "Nasi adalah makanan pokok utama bagi lebih dari separuh populasi dunia.",
+  "colloc": [
+   "staple food",
+   "staple diet",
+   "staple crop"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "starch",
+  "pos": "noun",
+  "def": "a substance found in foods such as bread, rice and potatoes",
+  "defId": "zat yang terdapat dalam makanan seperti roti, nasi, dan kentang; pati; karbohidrat",
+  "ex": "Potatoes and rice contain a lot of starch, which gives us energy.",
+  "exId": "Kentang dan nasi mengandung banyak pati, yang memberi kita energi.",
+  "colloc": [
+   "contain starch",
+   "starchy food",
+   "starch content"
+  ],
+  "theme": "food"
  },
  {
   "w": "stereotype",
@@ -3345,6 +6075,34 @@ export const VOCAB = [
    "streamline workflow"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "strenuous",
+  "pos": "adjective",
+  "def": "needing or using a lot of physical effort or energy",
+  "defId": "membutuhkan atau menggunakan banyak tenaga fisik atau energi",
+  "ex": "Doctors advise against strenuous exercise right after a meal.",
+  "exId": "Dokter menyarankan untuk tidak melakukan olahraga berat tepat setelah makan.",
+  "colloc": [
+   "strenuous exercise",
+   "strenuous activity",
+   "strenuous effort"
+  ],
+  "theme": "sport"
+ },
+ {
+  "w": "subscription",
+  "pos": "noun",
+  "def": "an arrangement to receive a publication or service regularly by paying",
+  "defId": "kesepakatan untuk menerima terbitan atau layanan secara berkala dengan membayar",
+  "ex": "I cancelled my subscription to the magazine last month.",
+  "exId": "Saya membatalkan langganan majalah itu bulan lalu.",
+  "colloc": [
+   "cancel a subscription",
+   "monthly subscription",
+   "subscription service"
+  ],
+  "theme": "media"
  },
  {
   "w": "subsidy",
@@ -3417,6 +6175,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "suspect",
+  "pos": "noun",
+  "def": "a person believed to have committed a crime",
+  "defId": "orang yang diduga telah melakukan kejahatan",
+  "ex": "The main suspect was arrested at the airport as he tried to leave.",
+  "exId": "Tersangka utama ditangkap di bandara saat dia mencoba pergi.",
+  "colloc": [
+   "prime suspect",
+   "arrest a suspect",
+   "main suspect"
+  ],
+  "theme": "crime"
+ },
+ {
   "w": "sustainability",
   "pos": "noun",
   "def": "the ability to keep something going over the long term without harming the environment.",
@@ -3473,6 +6245,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "symbolism",
+  "pos": "noun",
+  "def": "the use of images or objects to represent ideas or meanings in art",
+  "defId": "penggunaan gambar atau objek untuk mewakili gagasan atau makna dalam seni",
+  "ex": "The film is full of religious symbolism that rewards a second viewing.",
+  "exId": "Film itu penuh dengan simbolisme keagamaan yang layak ditonton untuk kedua kalinya.",
+  "colloc": [
+   "rich symbolism",
+   "religious symbolism",
+   "use of symbolism"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "symptom",
   "pos": "noun",
   "def": "a sign of an illness that you notice in your body",
@@ -3487,6 +6273,48 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "tabloid",
+  "pos": "noun",
+  "def": "a smaller newspaper that focuses on sensational and celebrity news",
+  "defId": "surat kabar berukuran kecil yang berfokus pada berita sensasional dan selebriti",
+  "ex": "The story appeared in every tabloid the next morning.",
+  "exId": "Kisah itu muncul di setiap tabloid keesokan paginya.",
+  "colloc": [
+   "tabloid newspaper",
+   "tabloid press",
+   "tabloid headline"
+  ],
+  "theme": "media"
+ },
+ {
+  "w": "tactics",
+  "pos": "noun",
+  "def": "the particular methods or plans used to win a game or achieve a goal",
+  "defId": "metode atau rencana tertentu yang digunakan untuk memenangkan permainan atau mencapai tujuan",
+  "ex": "The coach changed his tactics in the second half.",
+  "exId": "Pelatih mengubah taktiknya di babak kedua.",
+  "colloc": [
+   "change tactics",
+   "defensive tactics",
+   "clever tactics"
+  ],
+  "theme": "sport"
+ },
+ {
+  "w": "tapestry",
+  "pos": "noun",
+  "def": "a heavy cloth with pictures or patterns woven into it, often hung on a wall",
+  "defId": "kain tebal dengan gambar atau pola yang ditenun ke dalamnya, sering digantung di dinding",
+  "ex": "A medieval tapestry showing a royal hunt covered the entire wall.",
+  "exId": "Sebuah permadani dinding abad pertengahan yang menggambarkan perburuan kerajaan menutupi seluruh dinding.",
+  "colloc": [
+   "woven tapestry",
+   "medieval tapestry",
+   "hang a tapestry"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "tariff",
   "pos": "noun",
   "def": "a tax that a government charges on goods coming into or leaving a country",
@@ -3499,6 +6327,48 @@ export const VOCAB = [
    "raise tariffs"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "terminal",
+  "pos": "noun",
+  "def": "a building at an airport or station where passengers arrive and depart",
+  "defId": "bangunan di bandara atau stasiun tempat penumpang datang dan berangkat",
+  "ex": "Passengers should arrive at the airport terminal two hours before departure.",
+  "exId": "Penumpang harus tiba di terminal bandara dua jam sebelum keberangkatan.",
+  "colloc": [
+   "airport terminal",
+   "departure terminal",
+   "bus terminal"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "testify",
+  "pos": "verb",
+  "def": "to give evidence or make a formal statement in court",
+  "defId": "memberikan bukti atau membuat pernyataan resmi di pengadilan",
+  "ex": "Several witnesses agreed to testify against the gang leader.",
+  "exId": "Beberapa saksi setuju untuk bersaksi melawan pemimpin geng itu.",
+  "colloc": [
+   "testify in court",
+   "testify against",
+   "refuse to testify"
+  ],
+  "theme": "crime"
+ },
+ {
+  "w": "testimony",
+  "pos": "noun",
+  "def": "a formal statement given by a witness in court",
+  "defId": "pernyataan resmi yang diberikan oleh seorang saksi di pengadilan",
+  "ex": "Her testimony in court helped to convict the robber.",
+  "exId": "Kesaksiannya di pengadilan membantu memvonis perampok itu.",
+  "colloc": [
+   "give testimony",
+   "court testimony",
+   "eyewitness testimony"
+  ],
+  "theme": "crime"
  },
  {
   "w": "therapy",
@@ -3543,6 +6413,20 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "tournament",
+  "pos": "noun",
+  "def": "a competition in which many players or teams compete against each other",
+  "defId": "kompetisi di mana banyak pemain atau tim saling bertanding",
+  "ex": "Our team reached the final of the tennis tournament.",
+  "exId": "Tim kami mencapai final turnamen tenis itu.",
+  "colloc": [
+   "win a tournament",
+   "tournament final",
+   "knockout tournament"
+  ],
+  "theme": "sport"
+ },
+ {
   "w": "toxic",
   "pos": "adjective",
   "def": "containing poison or substances that are harmful to living things.",
@@ -3555,6 +6439,62 @@ export const VOCAB = [
    "toxic substances"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "transparency",
+  "pos": "noun",
+  "def": "the quality of being open and honest so that people can see the truth",
+  "defId": "sifat terbuka dan jujur sehingga orang dapat melihat kebenaran",
+  "ex": "The public demanded greater transparency from the government.",
+  "exId": "Publik menuntut transparansi yang lebih besar dari pemerintah.",
+  "colloc": [
+   "greater transparency",
+   "financial transparency",
+   "lack of transparency"
+  ],
+  "theme": "media"
+ },
+ {
+  "w": "trek",
+  "pos": "noun",
+  "def": "a long and difficult journey, especially one made on foot",
+  "defId": "perjalanan panjang dan sulit, terutama yang dilakukan dengan berjalan kaki",
+  "ex": "The trek to the mountain summit took nearly six hours.",
+  "exId": "Pendakian menuju puncak gunung itu memakan waktu hampir enam jam.",
+  "colloc": [
+   "a long trek",
+   "go on a trek",
+   "mountain trek"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "trespass",
+  "pos": "verb",
+  "def": "to enter someone's land or property without permission",
+  "defId": "memasuki tanah atau properti orang lain tanpa izin",
+  "ex": "The hikers were warned not to trespass on the private farmland.",
+  "exId": "Para pendaki diperingatkan untuk tidak masuk tanpa izin ke lahan pertanian pribadi itu.",
+  "colloc": [
+   "trespass on land",
+   "trespass on property",
+   "unlawfully trespass"
+  ],
+  "theme": "crime"
+ },
+ {
+  "w": "triumph",
+  "pos": "noun",
+  "def": "a great victory or success",
+  "defId": "kemenangan atau keberhasilan besar",
+  "ex": "Winning the gold medal was the greatest triumph of her career.",
+  "exId": "Memenangkan medali emas adalah kemenangan terbesar dalam kariernya.",
+  "colloc": [
+   "great triumph",
+   "sporting triumph",
+   "triumph over adversity"
+  ],
+  "theme": "sport"
  },
  {
   "w": "truant",
@@ -3613,6 +6553,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "underdog",
+  "pos": "noun",
+  "def": "a person or team that is not favoured and is expected to lose a competition",
+  "defId": "orang atau tim yang tidak diunggulkan dan diperkirakan akan kalah dalam kompetisi",
+  "ex": "Everyone supported the underdog to win the final.",
+  "exId": "Semua orang mendukung tim yang tidak diunggulkan itu untuk memenangkan final.",
+  "colloc": [
+   "clear underdog",
+   "back the underdog",
+   "underdog story"
+  ],
+  "theme": "sport"
+ },
+ {
   "w": "undergraduate",
   "pos": "noun",
   "def": "a university student who is studying for their first degree",
@@ -3653,6 +6607,20 @@ export const VOCAB = [
    "rising unemployment"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "upbringing",
+  "pos": "noun",
+  "def": "the way a child is cared for and taught to behave while growing up",
+  "defId": "cara seorang anak dibesarkan dan diajari berperilaku selama masa tumbuh kembangnya",
+  "ex": "Her strict upbringing made her a very disciplined adult.",
+  "exId": "Didikan yang ketat membuatnya menjadi orang dewasa yang sangat disiplin.",
+  "colloc": [
+   "strict upbringing",
+   "religious upbringing",
+   "happy upbringing"
+  ],
+  "theme": "family"
  },
  {
   "w": "upgrade",
@@ -3725,6 +6693,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "vandalism",
+  "pos": "noun",
+  "def": "the crime of deliberately damaging public or private property",
+  "defId": "kejahatan merusak properti umum atau pribadi dengan sengaja",
+  "ex": "The council spends thousands each year repairing damage caused by vandalism.",
+  "exId": "Pemerintah kota menghabiskan ribuan setiap tahun memperbaiki kerusakan akibat vandalisme.",
+  "colloc": [
+   "act of vandalism",
+   "mindless vandalism",
+   "commit vandalism"
+  ],
+  "theme": "crime"
+ },
+ {
   "w": "variable",
   "pos": "noun",
   "def": "a factor that can change and may affect the result of an experiment",
@@ -3751,6 +6733,20 @@ export const VOCAB = [
    "new venture"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "venue",
+  "pos": "noun",
+  "def": "the place where an event or match is held",
+  "defId": "tempat di mana suatu acara atau pertandingan diadakan",
+  "ex": "The stadium is the main venue for the athletics events.",
+  "exId": "Stadion itu adalah tempat utama untuk cabang atletik.",
+  "colloc": [
+   "sports venue",
+   "main venue",
+   "change the venue"
+  ],
+  "theme": "sport"
  },
  {
   "w": "verdict",
@@ -3795,6 +6791,20 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "viral",
+  "pos": "adjective",
+  "def": "quickly and widely shared by many people on the internet",
+  "defId": "cepat dan luas dibagikan oleh banyak orang di internet",
+  "ex": "The video went viral and was watched by millions within days.",
+  "exId": "Video itu menjadi viral dan ditonton oleh jutaan orang dalam beberapa hari.",
+  "colloc": [
+   "go viral",
+   "viral video",
+   "viral content"
+  ],
+  "theme": "media"
+ },
+ {
   "w": "virtual",
   "pos": "adjective",
   "def": "existing on a computer or online rather than in the physical world",
@@ -3807,6 +6817,20 @@ export const VOCAB = [
    "virtual assistant"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "vivid",
+  "pos": "adjective",
+  "def": "producing strong, clear images or bright, intense colours",
+  "defId": "menghasilkan citra yang kuat dan jelas atau warna yang cerah dan pekat",
+  "ex": "The mural's vivid colours brightened up the once dull corner of the street.",
+  "exId": "Warna-warna mural yang cerah mempercantik sudut jalan yang dulunya kusam.",
+  "colloc": [
+   "vivid colours",
+   "vivid imagery",
+   "vivid description"
+  ],
+  "theme": "arts"
  },
  {
   "w": "vocational",
@@ -3823,6 +6847,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "voyage",
+  "pos": "noun",
+  "def": "a long journey, especially by sea or in space",
+  "defId": "perjalanan panjang, terutama melalui laut atau di luar angkasa",
+  "ex": "The explorers began their long voyage across the Pacific Ocean.",
+  "exId": "Para penjelajah memulai pelayaran panjang mereka mengarungi Samudra Pasifik.",
+  "colloc": [
+   "a long voyage",
+   "sea voyage",
+   "maiden voyage"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "wage",
   "pos": "noun",
   "def": "a regular amount of money paid to a worker, usually weekly, for the work they do",
@@ -3835,6 +6873,20 @@ export const VOCAB = [
    "low wages"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "wanderlust",
+  "pos": "noun",
+  "def": "a strong desire to travel and explore the world",
+  "defId": "hasrat kuat untuk bepergian dan menjelajahi dunia",
+  "ex": "Her wanderlust led her to visit more than fifty countries.",
+  "exId": "Hasrat menjelajahnya membawanya mengunjungi lebih dari lima puluh negara.",
+  "colloc": [
+   "a sense of wanderlust",
+   "satisfy your wanderlust",
+   "feel wanderlust"
+  ],
+  "theme": "travel"
  },
  {
   "w": "welfare",
@@ -3865,6 +6917,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "wilderness",
+  "pos": "noun",
+  "def": "a wild, natural area that has not been changed or lived in by people",
+  "defId": "kawasan alam liar yang belum diubah atau dihuni oleh manusia",
+  "ex": "The national park protects a vast wilderness full of wildlife.",
+  "exId": "Taman nasional itu melindungi alam liar luas yang penuh dengan satwa liar.",
+  "colloc": [
+   "vast wilderness",
+   "wilderness area",
+   "explore the wilderness"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "wireless",
   "pos": "adjective",
   "def": "working without wires, using radio signals to send data",
@@ -3891,5 +6957,19 @@ export const VOCAB = [
    "global workforce"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "yield",
+  "pos": "noun",
+  "def": "the total amount of a crop produced from an area of land",
+  "defId": "jumlah total hasil panen yang dihasilkan dari suatu luas lahan; hasil panen",
+  "ex": "Better seeds and irrigation greatly increased the wheat yield this year.",
+  "exId": "Benih yang lebih baik dan irigasi sangat meningkatkan hasil panen gandum tahun ini.",
+  "colloc": [
+   "crop yield",
+   "increase yield",
+   "high yield"
+  ],
+  "theme": "food"
  }
 ];
