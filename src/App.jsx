@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import {
   ChevronLeft, BookOpen, PenLine, Check, X, RotateCcw, Trophy, Clock,
   Loader2, Lightbulb, ArrowRight, AlertTriangle, Sparkles, History, Play, Layers,
-  BarChart3, Flame, Target, Download, Upload, Eye, Volume2, Search, Library
+  BarChart3, Flame, Target, Download, Upload, Eye, Volume2, Search, Library, GraduationCap
 } from "lucide-react";
 import { UNITS } from "./content/units.js";
 import { QUIZ2 } from "./content/quiz2.js";
@@ -60,6 +60,7 @@ const K_PROG = "igr-progress";
 const K_WRIT = "igr-writing";
 const K_MIST = "igr-mistakes"; // questions answered wrong, for the Review deck
 const K_STATS = "igr-stats";   // aggregate accuracy + daily streak
+const K_VOCAB = "igr-vocab";   // spaced-repetition state per vocabulary word
 const store = {
   async get(key) {
     try {
@@ -185,6 +186,25 @@ const T = {
     refPast: "Past",
     refPP: "Past participle",
     refNoResults: "No matches. Try another word.",
+    vocabHomeCard: "Vocabulary trainer",
+    vocabHomeCardSub: "Oxford 5000 words with spaced-repetition flashcards.",
+    vocabKicker: "OXFORD 5000 · FLASHCARDS",
+    vocabTitle: "Vocabulary",
+    vocabStats: (l, d, n) => `${l} learned · ${d} due · ${n} new`,
+    vocabStudy: "Study",
+    vocabBrowse: "Browse",
+    vocabShow: "Show answer",
+    vocabAgain: "Again",
+    vocabGot: "Got it",
+    vocabProgress: (i, n) => `Card ${i} of ${n}`,
+    vocabCaught: "You're all caught up",
+    vocabCaughtSub: "No cards are due right now. Come back later, or browse the word list.",
+    vocabDone: (n) => `${n} cards reviewed`,
+    vocabDoneSub: "Words you found hard will come back sooner.",
+    vocabNewSession: "New session",
+    vocabSearch: "Search words…",
+    vocabAll: "All",
+    vocabThemes: { education: "Education", environment: "Environment", technology: "Technology", health: "Health", society: "Society", economy: "Economy", science: "Science" },
     practiceTab: "Practice",
     practiceBtn: "Practice this unit",
     deckCore: "Core drill",
@@ -332,6 +352,25 @@ const T = {
     refPast: "Lampau",
     refPP: "Past participle",
     refNoResults: "Tidak ada yang cocok. Coba kata lain.",
+    vocabHomeCard: "Latihan kosakata",
+    vocabHomeCardSub: "Kata-kata Oxford 5000 dengan kartu ulang berjeda.",
+    vocabKicker: "OXFORD 5000 · KARTU",
+    vocabTitle: "Kosakata",
+    vocabStats: (l, d, n) => `${l} dikuasai · ${d} jatuh tempo · ${n} baru`,
+    vocabStudy: "Belajar",
+    vocabBrowse: "Jelajah",
+    vocabShow: "Tampilkan jawaban",
+    vocabAgain: "Ulang",
+    vocabGot: "Paham",
+    vocabProgress: (i, n) => `Kartu ${i} dari ${n}`,
+    vocabCaught: "Semua sudah selesai",
+    vocabCaughtSub: "Tidak ada kartu yang jatuh tempo sekarang. Kembali lagi nanti, atau jelajahi daftar kata.",
+    vocabDone: (n) => `${n} kartu ditinjau`,
+    vocabDoneSub: "Kata yang sulit akan muncul lagi lebih cepat.",
+    vocabNewSession: "Sesi baru",
+    vocabSearch: "Cari kata…",
+    vocabAll: "Semua",
+    vocabThemes: { education: "Pendidikan", environment: "Lingkungan", technology: "Teknologi", health: "Kesehatan", society: "Masyarakat", economy: "Ekonomi", science: "Sains" },
     practiceTab: "Latihan",
     practiceBtn: "Latihan unit ini",
     deckCore: "Latihan inti",
@@ -510,7 +549,7 @@ function unitPct(progress, id) {
   return list.length ? Math.max(...list) : null;
 }
 
-function HomeScreen({ progress, history, mistakes, stats, quiz3, openUnit, openWriting, openTraining, openDashboard, openReview, openReference, lang }) {
+function HomeScreen({ progress, history, mistakes, stats, quiz3, openUnit, openWriting, openTraining, openDashboard, openReview, openReference, openVocab, lang }) {
   const tr = T[lang];
   const practiced = UNITS.filter(u => progress[u.id] || progress["x" + u.id]).length;
   const mastered = UNITS.filter(u => { const p = unitPct(progress, u.id); return p !== null && p >= 80; }).length;
@@ -589,6 +628,20 @@ function HomeScreen({ progress, history, mistakes, stats, quiz3, openUnit, openW
             <div className="text-sm leading-relaxed" style={{ color: C.sub }}>{tr.wtHomeCardSub}</div>
           </div>
           <ArrowRight size={20} style={{ color: C.green, flexShrink: 0 }} />
+        </div>
+      </button>
+
+      <button onClick={openVocab} className="w-full text-left rounded-3xl mb-3 flex overflow-hidden" style={{ background: C.card, border: `1px solid ${C.line}`, cursor: "pointer", padding: 0 }}>
+        <div style={{ width: 8, background: C.blue, flexShrink: 0 }} />
+        <div className="p-5 flex-1 flex items-center gap-4">
+          <div className="rounded-2xl flex items-center justify-center" style={{ width: 48, height: 48, background: C.blueWash, color: C.blue, flexShrink: 0 }}>
+            <GraduationCap size={22} />
+          </div>
+          <div className="flex-1">
+            <div style={{ ...display, fontWeight: 700, fontSize: 18 }}>{tr.vocabHomeCard}</div>
+            <div className="text-sm leading-relaxed" style={{ color: C.sub }}>{tr.vocabHomeCardSub}</div>
+          </div>
+          <ArrowRight size={20} style={{ color: C.blue, flexShrink: 0 }} />
         </div>
       </button>
 
@@ -1931,6 +1984,156 @@ function Dashboard({ progress, mistakes, stats, openUnit, openReview, onExport, 
   );
 }
 
+// ---------- Vocabulary trainer (spaced repetition) ----------
+const VOCAB_IVL = [0, 1, 3, 7, 16, 40]; // Leitner intervals in days, by box 0–5
+function BoxDots({ box }) {
+  return <span className="flex gap-1 items-center">{[0, 1, 2, 3, 4].map(k => <span key={k} style={{ width: 6, height: 6, borderRadius: 6, background: k < (box || 0) ? C.green : C.line }} />)}</span>;
+}
+function VocabTrainer({ vocab, onReview, onBack, lang }) {
+  const tr = T[lang];
+  const [words, setWords] = useState(null);
+  const [mode, setMode] = useState("study");
+  const [queue, setQueue] = useState(null);
+  const [i, setI] = useState(0);
+  const [flip, setFlip] = useState(false);
+  const [reviewed, setReviewed] = useState(0);
+  const [q, setQ] = useState("");
+  const [theme, setTheme] = useState("all");
+
+  useEffect(() => { let on = true; import("./content/vocab.js").then(m => { if (on) setWords(m.VOCAB); }).catch(() => { if (on) setWords([]); }); return () => { on = false; }; }, []);
+
+  const buildQueue = (all) => {
+    const now = Date.now();
+    const due = all.filter(w => vocab[w.w] && (vocab[w.w].due || 0) <= now);
+    const fresh = all.filter(w => !vocab[w.w]);
+    const pick = [...due, ...fresh.slice(0, 12)];
+    for (let k = pick.length - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); [pick[k], pick[j]] = [pick[j], pick[k]]; }
+    return pick.slice(0, 20);
+  };
+  useEffect(() => { if (words && queue === null) setQueue(buildQueue(words)); }, [words]);
+
+  if (!words || queue === null) return (
+    <div><BackBar onBack={onBack} label={tr.home} /><div className="flex justify-center mt-10" style={{ color: C.sub }}><Loader2 size={24} className="animate-spin" /></div></div>
+  );
+
+  const now = Date.now();
+  const learned = Object.values(vocab).filter(v => (v.box || 0) >= 3).length;
+  const dueN = words.filter(w => vocab[w.w] && (vocab[w.w].due || 0) <= now).length;
+  const newN = words.filter(w => !vocab[w.w]).length;
+  const restart = () => { setQueue(buildQueue(words)); setI(0); setReviewed(0); setFlip(false); };
+
+  const Header = () => (
+    <div>
+      <BackBar onBack={onBack} label={tr.home} />
+      <div className="rounded-3xl overflow-hidden mb-4 flex" style={{ background: C.blue }}>
+        <div style={{ width: 10, background: C.amber, flexShrink: 0 }} />
+        <div className="p-5 text-white flex-1">
+          <div className="text-xs font-bold" style={{ color: "#BFC7FF", letterSpacing: "0.14em" }}>{tr.vocabKicker}</div>
+          <div style={{ ...display, fontSize: 24, fontWeight: 800 }}>{tr.vocabTitle}</div>
+          <div className="text-sm mt-1" style={{ color: "#DDE1FF" }}>{tr.vocabStats(learned, dueN, newN)}</div>
+        </div>
+      </div>
+      <div className="flex gap-2 mb-4">
+        {[["study", tr.vocabStudy], ["browse", tr.vocabBrowse]].map(([k, lab]) => (
+          <button key={k} onClick={() => setMode(k)} className="flex-1 rounded-full py-2.5 text-sm font-bold transition"
+            style={{ ...display, background: mode === k ? C.blue : C.card, color: mode === k ? "#fff" : C.sub, border: `1px solid ${mode === k ? C.blue : C.line}`, cursor: "pointer" }}>{lab}</button>
+        ))}
+      </div>
+    </div>
+  );
+
+  if (mode === "browse") {
+    const query = q.trim().toLowerCase();
+    const list = words.filter(w => (theme === "all" || w.theme === theme) && (!query || w.w.toLowerCase().includes(query) || w.def.toLowerCase().includes(query)));
+    const themes = ["all", "education", "environment", "technology", "health", "society", "economy", "science"];
+    return (
+      <div>
+        <Header />
+        <div className="flex items-center gap-2 rounded-full px-4 py-2.5 mb-3" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+          <Search size={16} style={{ color: C.sub, flexShrink: 0 }} />
+          <input value={q} onChange={e => setQ(e.target.value)} placeholder={tr.vocabSearch} className="flex-1 text-sm outline-none" style={{ border: "none", background: "transparent", ...body }} />
+          {q && <button onClick={() => setQ("")} style={{ border: "none", background: "none", cursor: "pointer", color: C.sub }}><X size={16} /></button>}
+        </div>
+        <div className="flex gap-2 overflow-x-auto pb-2 mb-2">
+          {themes.map(t => (
+            <button key={t} onClick={() => setTheme(t)} className="rounded-full px-3 py-1.5 text-xs font-bold whitespace-nowrap transition"
+              style={{ ...display, background: theme === t ? C.blue : C.card, color: theme === t ? "#fff" : C.sub, border: `1px solid ${theme === t ? C.blue : C.line}`, cursor: "pointer" }}>{t === "all" ? tr.vocabAll : tr.vocabThemes[t]}</button>
+          ))}
+        </div>
+        <div className="text-xs mb-2" style={{ color: C.sub }}>{list.length} {tr.words}</div>
+        <div className="flex flex-col gap-1.5">
+          {list.map((w, k) => (
+            <div key={k} className="rounded-xl p-3" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+              <div className="flex items-center gap-2">
+                <span style={{ ...display, fontWeight: 700, fontSize: 15, color: C.blue }}>{w.w}</span>
+                <span className="text-xs italic" style={{ color: C.sub }}>{w.pos}</span>
+                <Speak text={w.w} />
+                <span className="ml-auto"><BoxDots box={vocab[w.w] && vocab[w.w].box} /></span>
+              </div>
+              <div className="text-sm mt-0.5" style={{ color: C.ink }}>{w.def}</div>
+              {lang === "id" && <div className="text-sm mt-0.5 leading-relaxed" style={{ color: C.blueDark, fontStyle: "italic" }}>{w.defId}</div>}
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  // study mode
+  if (queue.length === 0) return (
+    <div><Header /><div className="rounded-2xl p-8 text-center" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+      <div className="mx-auto mb-3 rounded-full flex items-center justify-center" style={{ width: 56, height: 56, background: C.greenWash, color: C.green }}><Check size={26} /></div>
+      <div style={{ ...display, fontWeight: 800, fontSize: 20 }}>{tr.vocabCaught}</div>
+      <p className="text-sm mt-1" style={{ color: C.sub }}>{tr.vocabCaughtSub}</p>
+    </div></div>
+  );
+  if (i >= queue.length) return (
+    <div><Header /><div className="rounded-2xl p-8 text-center" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+      <div className="mx-auto mb-3 rounded-full flex items-center justify-center" style={{ width: 64, height: 64, background: C.greenWash, color: C.green }}><Trophy size={28} /></div>
+      <div style={{ ...display, fontWeight: 800, fontSize: 24 }}>{tr.vocabDone(reviewed)}</div>
+      <p className="text-sm mt-1 mb-5" style={{ color: C.sub }}>{tr.vocabDoneSub}</p>
+      <Btn onClick={restart} full><RotateCcw size={16} /> {tr.vocabNewSession}</Btn>
+    </div></div>
+  );
+  const card = queue[i];
+  const grade = (good) => { onReview(card.w, good); setReviewed(r => r + 1); setFlip(false); setI(x => x + 1); };
+  return (
+    <div>
+      <Header />
+      <div className="flex items-center justify-between mb-2 text-xs font-semibold" style={{ color: C.sub }}>
+        <span>{tr.vocabProgress(i + 1, queue.length)}</span>
+        <span className="flex items-center gap-1.5"><IChip>{tr.vocabThemes[card.theme]}</IChip></span>
+      </div>
+      <MiniBar pct={(i / queue.length) * 100} />
+      <div className="rounded-2xl p-6 mt-3 text-center" style={{ background: C.card, border: `1px solid ${C.line}` }}>
+        <div className="flex items-center justify-center gap-2">
+          <span style={{ ...display, fontWeight: 800, fontSize: 30, color: C.ink }}>{card.w}</span>
+          <Speak text={card.w} />
+        </div>
+        <div className="text-sm italic mt-0.5" style={{ color: C.sub }}>{card.pos}</div>
+        {!flip ? (
+          <div className="mt-6"><Btn tone="ghost" onClick={() => setFlip(true)} full>{tr.vocabShow}</Btn></div>
+        ) : (
+          <div className="mt-4 text-left">
+            <div className="text-base leading-relaxed" style={{ color: C.ink }}>{card.def}</div>
+            {lang === "id" && <div className="text-sm mt-1 leading-relaxed" style={{ color: C.blueDark, fontStyle: "italic" }}>{card.defId}</div>}
+            <div className="rounded-xl p-3 mt-3 flex items-start gap-2" style={{ background: C.blueWash }}>
+              <span className="text-sm flex-1" style={{ color: C.blueDark }}>“{card.ex}”{lang === "id" && card.exId ? ` — ${card.exId}` : ""}</span><Speak text={card.ex} />
+            </div>
+            <div className="flex flex-wrap gap-1.5 mt-3">{card.colloc.map((c, k) => <IChip key={k} tone="green">{c}</IChip>)}</div>
+          </div>
+        )}
+      </div>
+      {flip && (
+        <div className="flex gap-2 mt-3">
+          <Btn tone="red" onClick={() => grade(false)} full><RotateCcw size={16} /> {tr.vocabAgain}</Btn>
+          <Btn tone="green" onClick={() => grade(true)} full><Check size={16} /> {tr.vocabGot}</Btn>
+        </div>
+      )}
+    </div>
+  );
+}
+
 // ---------- Grammar reference hub ----------
 function speak(text) {
   try {
@@ -2090,6 +2293,7 @@ export default function App() {
   const [quiz3, setQuiz3] = useState(null); // extra-practice pool, loaded on demand
   const [reviewList, setReviewList] = useState([]);
   const [reviewSession, setReviewSession] = useState(0);
+  const [vocab, setVocab] = useState({});
   const tr = T[lang];
 
   useEffect(() => {
@@ -2098,11 +2302,13 @@ export default function App() {
       const w = await store.get(K_WRIT);
       const m = await store.get(K_MIST);
       const s = await store.get(K_STATS);
+      const v = await store.get(K_VOCAB);
       const l = await store.get(K_LANG);
       if (p) setProgress(p);
       if (Array.isArray(w)) setHistory(w);
       if (Array.isArray(m)) setMistakes(m);
       if (s && typeof s === "object") setStats(s);
+      if (v && typeof v === "object") setVocab(v);
       if (l === "id" || l === "en") setLang(l);
     })();
     // Code-split: the large extra-practice pool loads after first paint.
@@ -2112,6 +2318,17 @@ export default function App() {
   const changeLang = (l) => { setLang(l); store.set(K_LANG, l); };
   const openUnit = (id) => { setActiveUnit(id); setScreen("unit"); };
   const openReview = () => { setReviewList(Array.isArray(mistakes) ? mistakes : []); setReviewSession(s => s + 1); setScreen("review"); };
+
+  // Spaced repetition: promote a word up the Leitner boxes on recall, reset on lapse.
+  const reviewVocab = (word, good) => {
+    setVocab(prev => {
+      const cur = prev[word] || { box: 0, seen: 0 };
+      const box = good ? Math.min(5, (cur.box || 0) + 1) : 0;
+      const next = { ...prev, [word]: { box, seen: (cur.seen || 0) + 1, due: Date.now() + VOCAB_IVL[box] * 86400000 } };
+      store.set(K_VOCAB, next);
+      return next;
+    });
+  };
 
   const saveScore = (key, score, total) => {
     setProgress(prev => {
@@ -2163,7 +2380,7 @@ export default function App() {
 
   const exportData = () => {
     try {
-      const data = { app: "ielts-grammar-studio", version: 1, exportedAt: new Date().toISOString(), progress, history, mistakes, stats, lang };
+      const data = { app: "ielts-grammar-studio", version: 1, exportedAt: new Date().toISOString(), progress, history, mistakes, stats, vocab, lang };
       const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
@@ -2184,6 +2401,7 @@ export default function App() {
         if (Array.isArray(d.history)) { setHistory(d.history); store.set(K_WRIT, d.history); touched = true; }
         if (Array.isArray(d.mistakes)) { setMistakes(d.mistakes); store.set(K_MIST, d.mistakes); touched = true; }
         if (d.stats && typeof d.stats === "object") { setStats(d.stats); store.set(K_STATS, d.stats); touched = true; }
+        if (d.vocab && typeof d.vocab === "object") { setVocab(d.vocab); store.set(K_VOCAB, d.vocab); touched = true; }
         if (d.lang === "en" || d.lang === "id") { changeLang(d.lang); touched = true; }
         if (!touched) throw new Error("no recognizable data");
         done && done(true);
@@ -2203,10 +2421,14 @@ export default function App() {
       {screen === "home" && (
         <HomeScreen progress={progress} history={history} mistakes={mistakes} stats={stats} quiz3={quiz3}
           openUnit={openUnit} openWriting={() => setScreen("writing")} openTraining={() => setScreen("writingTraining")}
-          openDashboard={() => setScreen("dashboard")} openReview={openReview} openReference={() => setScreen("reference")} lang={lang} />
+          openDashboard={() => setScreen("dashboard")} openReview={openReview} openReference={() => setScreen("reference")}
+          openVocab={() => setScreen("vocab")} lang={lang} />
       )}
       {screen === "reference" && (
         <Reference onBack={() => setScreen("home")} lang={lang} />
+      )}
+      {screen === "vocab" && (
+        <VocabTrainer vocab={vocab} onReview={reviewVocab} onBack={() => setScreen("home")} lang={lang} />
       )}
       {screen === "unit" && unit && (
         <UnitScreen key={unit.id} unit={unit} progress={progress} onScore={saveScore} onRecord={recordItem} quiz3={quiz3} onBack={() => setScreen("home")} lang={lang} />
