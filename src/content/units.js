@@ -3,20 +3,9 @@ export const UNITS = [
   {
     id: 1, title: "Articles", tag: "a / an / the / Ø",
     learn: [
-      { h: "a / an — non-specific", b: [
-        "Something non-specific, or mentioned for the first time: “I saw a movie yesterday.”",
-        "One of many possible things: “The company added an extra service last year.”",
-        "Only before singular, countable nouns: “There is a significant increase in sales.”",
-      ]},
-      { h: "the — specific", b: [
-        "Something both speaker and listener know, or already mentioned: “I enjoyed the movie we watched.”",
-        "Unique things and systems: “invest in the education system”.",
-        "Superlatives and specific places: “the largest building”, “the Eiffel Tower”.",
-      ]},
-      { h: "Ø — no article", b: [
-        "Plural and uncountable nouns in general statements: “Technology is advancing.” “I love nature.”",
-        "Most proper nouns: “I have been to Paris.”",
-      ]},
+      { h: "a / an — non-specific", b: ["Something non-specific, or mentioned for the first time: “I attended a seminar yesterday.”","One of many possible things: “The corporation introduced an additional service last year.”","Only before singular, countable nouns: “There is a substantial increase in revenue.”"] },
+      { h: "the — specific", b: ["Something both speaker and listener know, or already mentioned: “I thoroughly enjoyed the documentary we watched.”","Unique things and systems: “invest in the healthcare system”.","Superlatives and specific places: “the tallest skyscraper”, “the Eiffel Tower”."] },
+      { h: "Ø — no article", b: ["Plural and uncountable nouns in general statements: “Technology is advancing rapidly.” “I cherish nature.”","Most proper nouns: “I have travelled to Barcelona.”"] },
     ],
     quiz: [
       { q: "___ number of students studying abroad increased significantly between 2010 and 2020.", opts: ["A", "The", "Ø (no article)"], a: 1, ex: "‘The number of…’ refers to a specific quantity, so it takes ‘the’ (and a singular verb)." },
@@ -38,19 +27,10 @@ export const UNITS = [
   {
     id: 2, title: "Nouns", tag: "Countable, uncountable & quantifiers",
     learn: [
-      { h: "Countable vs uncountable", b: [
-        "Uncountables (research, news, advice, evidence, information, furniture) have no plural, no a/an, and take a singular verb: “The evidence is strong.”",
-        "Measure them with quantifiers: “a piece of advice”, “a cup of tea”, “a slice of bread”.",
-      ]},
-      { h: "some vs any", b: [
-        "some → positive statements, offers and requests: “Would you like some tea?”",
-        "any → negatives and questions: “I don’t have any money.” Also ‘any = it doesn’t matter which’: “Take any book you like.”",
-      ]},
-      { h: "Quantifiers", b: [
-        "Countable: many, a few, a large number of. Uncountable: much, a little, a large amount of. Both: a lot of, plenty of, some, no.",
-        "few / little = not enough (“Only few students understood”). a few / a little = some, sufficient (“We have a little time to discuss this”).",
-      ]},
-      { h: "Making Uncountables Countable (Partitives)", b: ["Uncountable nouns cannot take a/an or a plural -s on their own. To count them we add a partitive: a piece of / an item of + advice, news, information, equipment, furniture, research. “She gave me a good piece of advice.”", "Different uncountables prefer their own partitives. Money and water are typical: a sum of money, a drop of water. “He saved a large sum of money.” and “There isn’t a drop of water left.”", "Food often has a fixed partitive. Bread uses a slice of (one piece) or a loaf of (the whole thing). “I ate a slice of bread.” and “We bought a loaf of bread.”", "In informal spoken English we sometimes count servings directly, so the drink itself becomes countable. “Two coffees, please.” simply means two cups of coffee.", "Watch the classic errors: ✗ an advice → “a piece of advice”; ✗ informations → “information” (no -s); ✗ a slice of advice → the wrong partitive; use the right one."] },
+      { h: "Countable vs uncountable", b: ["Uncountables (research, news, advice, evidence, information, furniture) have no plural, no a/an, and take a singular verb: “The evidence is compelling.”","Measure them with quantifiers: “a piece of advice”, “a cup of tea”, “a slice of bread”."] },
+      { h: "some vs any", b: ["some → positive statements, offers and requests: “Would you like some assistance?”","any → negatives and questions: “I don’t have any spare time.” Also ‘any = it doesn’t matter which’: “Select any book you prefer.”"] },
+      { h: "Quantifiers", b: ["Countable: many, a few, a large number of. Uncountable: much, a little, a large amount of. Both: a lot of, plenty of, some, no.","few / little = not enough (“Only few students comprehended the material”). a few / a little = some, sufficient (“We have a little time to deliberate on this”)."] },
+      { h: "Making Uncountables Countable (Partitives)", b: ["Uncountable nouns cannot take a/an or a plural -s on their own. To count them we add a partitive: a piece of / an item of + advice, news, information, equipment, furniture, research. “She offered me an invaluable piece of advice.”","Different uncountables prefer their own partitives. Money and water are typical: a sum of money, a drop of water. “He accumulated a substantial sum of money.” and “There isn’t a drop of water remaining.”","Food often has a fixed partitive. Bread uses a slice of (one piece) or a loaf of (the whole thing). “I consumed a slice of bread.” and “We purchased a loaf of bread.”","In informal spoken English we occasionally count servings directly, so the drink itself becomes countable. “Two coffees, please.” simply means two cups of coffee.","Watch the classic errors: ✗ an advice → “a piece of advice”; ✗ informations → “information” (no -s); ✗ a slice of advice → the wrong partitive; use the right one."] },
     ],
     quiz: [
       { q: "There is very ___ information available on this topic.", opts: ["little", "few", "many"], a: 0, ex: "‘Information’ is uncountable → little (few is for countables)." },
@@ -74,22 +54,11 @@ export const UNITS = [
   {
     id: 3, title: "Prepositions", tag: "Dependent prepositions & phrases",
     learn: [
-      { h: "Verb + preposition", b: [
-        "worry / think / care about · apply / prepare / wait for · rely / depend / concentrate on",
-        "deal / cope with · choose / distinguish between · learn / protect from · speak / listen to",
-      ]},
-      { h: "Adjective + preposition", b: [
-        "interested / successful in · responsible / qualified for · capable / afraid of",
-        "satisfied / pleased with · excited / worried about · impressed / surprised by",
-      ]},
-      { h: "Noun + preposition", b: [
-        "increase / decrease / rise in · impact / effect / influence on",
-        "demand / reason / need for · information / knowledge about · advantage / fear of",
-      ]},
-      { h: "When unsure", b: [
-        "Check a collocation dictionary such as m.freecollocation.com to see which prepositions follow a word.",
-      ]},
-      { h: "Time & place: at / on / in", b: ["Clock times, plus ‘night’ and ‘the weekend’, take at: “The class starts at 8 o’clock.” “I study at night.” “We relax at the weekend.”", "Days and dates take on — including a part of a specific day: “We meet on Monday.” “The exam is on 5 June.” “The bus leaves on Monday morning.” ✗ in Monday.", "Months, years, seasons and parts of the day take in: “in July”, “in 2020”, “in winter”, “in the morning.” ✗ at the morning.", "Place: at a point or building, on a surface or line, in an enclosed space, a city or a country: “at the door”, “on the table”, “in the kitchen”, “in Jakarta.”", "With ‘arrive’, use arrive in a city and arrive at a building — never ‘arrive to’: “They arrived in London.” “We arrived at the hotel.” ✗ arrive to."] },
+      { h: "Verb + preposition", b: ["worry / think / care about · apply / prepare / wait for · rely / depend / concentrate on","deal / cope with · choose / distinguish between · learn / protect from · speak / listen to"] },
+      { h: "Adjective + preposition", b: ["interested / successful in · responsible / qualified for · capable / afraid of","satisfied / pleased with · excited / worried about · impressed / surprised by"] },
+      { h: "Noun + preposition", b: ["increase / decrease / rise in · impact / effect / influence on","demand / reason / need for · information / knowledge about · advantage / fear of"] },
+      { h: "When unsure", b: ["Consult a collocation dictionary such as m.freecollocation.com to determine which prepositions follow a word."] },
+      { h: "Time & place: at / on / in", b: ["Clock times, plus ‘night’ and ‘the weekend’, take at: “The seminar commences at 8 o’clock.” “I revise at night.” “We unwind at the weekend.”","Days and dates take on — including a part of a specific day: “We convene on Monday.” “The examination is on 5 June.” “The bus departs on Monday morning.” ✗ in Monday.","Months, years, seasons and parts of the day take in: “in July”, “in 2020”, “in winter”, “in the morning.” ✗ at the morning.","Place: at a point or building, on a surface or line, in an enclosed space, a city or a country: “at the entrance”, “on the table”, “in the kitchen”, “in Jakarta.”","With ‘arrive’, use arrive in a city and arrive at a building — never ‘arrive to’: “They arrived in Amsterdam.” “We arrived at the venue.” ✗ arrive to."] },
     ],
     quiz: [
       { q: "He is interested ___ studying medicine.", opts: ["of", "in", "on"], a: 1, ex: "Interested in — adjective + in." },
@@ -113,19 +82,9 @@ export const UNITS = [
   {
     id: 4, title: "Comparing", tag: "Comparatives & superlatives",
     learn: [
-      { h: "Comparatives", b: [
-        "Short adjective + -er, or more + long adjective, then ‘than’: “cheaper than”, “more impressive than”.",
-        "Never double it: ✗ more cheaper → ✓ cheaper. Equal things: as + adjective + as.",
-      ]},
-      { h: "Superlatives", b: [
-        "the + -est / the most … for groups of three or more: “the best English course I’ve taken”.",
-        "Drop ‘the’ after possessives: ✗ our the best package → ✓ our best package.",
-      ]},
-      { h: "Making them stronger", b: [
-        "slightly / significantly / considerably / far + comparative: “far more expensive”.",
-        "easily / by far / nearly + the superlative: “by far the hardest section”.",
-        "Double comparative for change: “The more you practice, the more fluent you will become.”",
-      ]},
+      { h: "Comparatives", b: ["Short adjective + -er, or more + long adjective, then ‘than’: “harsher than”, “more substantial than”.","Never double it: ✗ more harsher → ✓ harsher. Equal things: as + adjective + as."] },
+      { h: "Superlatives", b: ["the + -est / the most … for groups of three or more: “the best English course I’ve undertaken”.","Drop ‘the’ after possessives: ✗ our the best proposal → ✓ our best proposal."] },
+      { h: "Making them stronger", b: ["slightly / significantly / considerably / far + comparative: “far more sophisticated”.","easily / by far / nearly + the superlative: “by far the most demanding section”.","Double comparative for change: “The more you practice, the more articulate you will become.”"] },
     ],
     quiz: [
       { q: "Public transport in my city is ___ than it used to be.", opts: ["the most convenient", "more convenient", "as convenient"], a: 1, ex: "Long adjective → more + adjective + than." },
@@ -147,20 +106,9 @@ export const UNITS = [
   {
     id: 5, title: "S-V Agreement", tag: "Subject–verb agreement",
     learn: [
-      { h: "The basics", b: [
-        "Singular subject → singular verb; plural → plural: “The student studies.” “The students study.”",
-        "Subjects joined by ‘and’ → plural. With or / nor, the verb agrees with the nearest subject: “Neither the teacher nor the students were happy.”",
-      ]},
-      { h: "Pronouns & quantifiers", b: [
-        "everyone / someone / each / every → singular. few / many / several → plural.",
-        "some / all / none → depends on the noun that follows: “Some of the information is outdated.” “Some of the questions are difficult.”",
-        "“The number of…” → singular. “A number of…” → plural.",
-      ]},
-      { h: "Tricky cases", b: [
-        "There is / are agrees with the subject after the verb: “There are many studies…”",
-        "Titles, countries, sums and periods → singular: “The United States is…”, “Ten dollars is too expensive.” Mathematics is singular.",
-        "Watch out when the subject is far from the verb: “The results of the experiment were inconclusive.”",
-      ]},
+      { h: "The basics", b: ["Singular subject → singular verb; plural → plural: “The researcher investigates.” “The researchers investigate.”","Subjects joined by ‘and’ → plural. With or / nor, the verb agrees with the nearest subject: “Neither the instructor nor the students were satisfied.”"] },
+      { h: "Pronouns & quantifiers", b: ["everyone / someone / each / every → singular. few / many / several → plural.","some / all / none → depends on the noun that follows: “Some of the evidence is outdated.” “Some of the responses are ambiguous.”","“The number of…” → singular. “A number of…” → plural."] },
+      { h: "Tricky cases", b: ["There is / are agrees with the subject after the verb: “There are numerous studies…”","Titles, countries, sums and periods → singular: “The United States is…”, “Ten dollars is a considerable amount.” Mathematics is singular.","Watch out when the subject is far from the verb: “The results of the preliminary experiment were inconclusive.”"] },
     ],
     quiz: [
       { q: "The number of students applying to universities ___ increased this year.", opts: ["has", "have", "are having"], a: 0, ex: "‘The number of’ is singular → has." },
@@ -182,25 +130,11 @@ export const UNITS = [
   {
     id: 6, title: "Past Tenses", tag: "Simple, continuous, perfect",
     learn: [
-      { h: "Past simple", b: [
-        "Completed actions and sequences: “Last month, the company launched a new product.”",
-        "Past habits and situations no longer true: “I lived in that house for almost 10 years.”",
-      ]},
-      { h: "used to / would", b: [
-        "Repeated past actions: “He used to play football every weekend.”",
-        "used to also covers past states: “Emma used to live in Spain.” Don’t use ‘would’ with state verbs, and don’t use ‘used to’ with durations.",
-      ]},
-      { h: "Past continuous", b: [
-        "In progress at a past moment: “At 8pm last night, I was watching a documentary.”",
-        "Background interrupted by past simple: “She was cooking dinner when her friend knocked.”",
-      ]},
-      { h: "Past perfect (had + V3)", b: [
-        "The earlier of two past events: “When I got home, my mother had made me lunch.”",
-        "Often with by the time / already / before, or to show a cause: “He was tired because he had not slept well.”",
-      ]},
-      { h: "Past perfect continuous", b: [
-        "Duration up to a past point: “They had been waiting for over an hour when the bus finally arrived.”",
-      ]},
+      { h: "Past simple", b: ["Completed actions and sequences: “Last month, the company unveiled a groundbreaking product.”","Past habits and situations no longer true: “I resided in that house for almost a decade.”"] },
+      { h: "used to / would", b: ["Repeated past actions: “He used to volunteer every weekend.”","used to also covers past states: “Emma used to reside in Barcelona.” Don’t use ‘would’ with state verbs, and don’t use ‘used to’ with durations."] },
+      { h: "Past continuous", b: ["In progress at a past moment: “At 8pm last night, I was watching a compelling documentary.”","Background interrupted by past simple: “She was preparing an elaborate dinner when her colleague knocked.”"] },
+      { h: "Past perfect (had + V3)", b: ["The earlier of two past events: “When I returned home, my mother had prepared me a wholesome lunch.”","Often with by the time / already / before, or to show a cause: “He was exhausted because he had not slept soundly.”"] },
+      { h: "Past perfect continuous", b: ["Duration up to a past point: “The commuters had been waiting for well over an hour when the bus finally arrived.”"] },
     ],
     quiz: [
       { q: "She ___ to Paris last summer and ___ the Eiffel Tower.", opts: ["traveled, visited", "was traveling, was visiting", "had traveled, had visited"], a: 0, ex: "Two completed actions in sequence → past simple + past simple." },
@@ -222,25 +156,11 @@ export const UNITS = [
   {
     id: 7, title: "Present Tenses", tag: "Simple, continuous, perfect",
     learn: [
-      { h: "Present simple", b: [
-        "Routines and repeated actions: “I usually practice my speaking with a language partner.”",
-        "Permanent facts, general truths, instructions and timetables.",
-      ]},
-      { h: "Present continuous", b: [
-        "Temporary situations and actions happening now: “I’m currently preparing for the IELTS exam.”",
-        "Trends and changes: “More and more students are choosing to take the IELTS test.”",
-        "State verbs (know, believe, want, need…) are not normally continuous.",
-      ]},
-      { h: "Present perfect (have + V3)", b: [
-        "Unfinished time frames and past events with present relevance: “I’ve completed three tasks this afternoon.”",
-        "for / since for situations that continue: “We’ve worked together for three months.”",
-        "If you state when it happened, switch to past simple: “We finished the project yesterday.”",
-      ]},
-      { h: "Present perfect continuous", b: [
-        "Emphasizes duration or the activity itself: “I’ve been working on my project.”",
-        "The simple form emphasizes result or count: “I’ve written two reports today.”",
-      ]},
-      { h: "Stative verbs: verbs that resist the -ing form", b: ["State verbs describe a condition, not an action, so they normally stay in the Present Simple even for ‘right now’. Verbs like know, believe, understand, own, belong, seem, contain and need cannot take -ing: “I know the answer.” not “I am knowing the answer.”", "Feelings and preferences are states too: like, love, hate, prefer, want. In careful English we write “I love this song.” and “She prefers tea.”, never “I am loving” or “She is preferring”.", "Some verbs shift meaning. As an opinion, think is a state: “I think you’re right.” But be thinking means considering an action in progress: “I’m thinking about changing jobs.”", "have for possession is a state — “I have a car.” (never “I’m having a car”) — but be having means experiencing an activity: “We’re having dinner.”, “She’s having a shower.”, “I’m having trouble.”", "see for understanding is a state: “I see what you mean.” But be seeing means meeting by arrangement: “I’m seeing the dentist at three.”"] },
+      { h: "Present simple", b: ["Habitual routines and recurring actions: “I routinely rehearse my pronunciation with a language partner.”","Enduring facts, universal truths, instructions and timetables."] },
+      { h: "Present continuous", b: ["Temporary circumstances and actions taking place at this moment: “I’m currently preparing for the forthcoming IELTS exam.”","Trends and evolving changes: “An increasing number of students are choosing to undertake the IELTS test.”","State verbs (know, believe, want, need…) seldom appear in the continuous form."] },
+      { h: "Present perfect (have + V3)", b: ["Unfinished time frames and past events with present relevance: “I’ve accomplished three demanding tasks this afternoon.”","for / since for situations that persist: “We’ve collaborated closely for three months.”","If you specify when it happened, switch to past simple: “We finalised the project yesterday.”"] },
+      { h: "Present perfect continuous", b: ["Emphasizes duration or the activity itself: “I’ve been persevering with my project.”","The simple form emphasizes the result or the count: “I’ve composed two comprehensive reports today.”"] },
+      { h: "Stative verbs: verbs that resist the -ing form", b: ["State verbs describe a condition, not an action, so they normally remain in the Present Simple even for ‘this very moment’. Verbs like know, believe, understand, own, belong, seem, contain and need cannot take -ing: “I know the solution.” not “I am knowing the solution.”","Feelings and preferences are states too: like, love, hate, prefer, want. In precise English we write “I love this melody.” and “She prefers herbal tea.”, never “I am loving” or “She is preferring”.","Some verbs shift meaning. As an opinion, think is a state: “I think you’re correct.” But be thinking means contemplating an action in progress: “I’m thinking about changing careers.”","have for possession is a state — “I have a vehicle.” (never “I’m having a vehicle”) — but be having means experiencing an activity: “We’re having dinner.”, “She’s having a shower.”, “I’m having difficulties.”","see for understanding is a state: “I see what you mean.” But be seeing means meeting by prior arrangement: “I’m seeing the specialist at three.”"] },
     ],
     quiz: [
       { q: "Many people ___ that learning English can improve job prospects.", opts: ["believe", "are believing", "have believed"], a: 0, ex: "‘Believe’ is a state verb → present simple." },
@@ -264,25 +184,11 @@ export const UNITS = [
   {
     id: 8, title: "Future Tenses", tag: "will, going to, perfect forms",
     learn: [
-      { h: "will", b: [
-        "Decisions made at the moment of speaking, offers and promises: “That box looks heavy — I’ll help you.”",
-        "Predictions based on opinion. In formal writing, also: is likely to / is predicted to / is estimated to.",
-      ]},
-      { h: "going to & arrangements", b: [
-        "Plans made before speaking: “I’m going to apply for a new position next month.”",
-        "Predictions from present evidence: “The sky is darkening — it’s going to rain.”",
-        "Present continuous for fixed arrangements; present simple for timetables: “The train departs at 6 PM.”",
-      ]},
-      { h: "Future continuous (will be + V-ing)", b: [
-        "In progress at a future time: “I’ll be working on the report all next week.”",
-        "Polite questions about plans: “Will you be joining us for lunch?”",
-      ]},
-      { h: "Future perfect (will have + V3)", b: [
-        "Completed before a future point, with by / by the time / in + time: “By the time you get home, I will have cooked dinner.”",
-      ]},
-      { h: "Future perfect continuous", b: [
-        "Duration up to a future point: “By the end of this year, I’ll have been teaching at the school for five years.”",
-      ]},
+      { h: "will", b: ["Decisions made at the moment of speaking, offers and promises: “That crate looks substantial — I’ll assist you.”","Predictions grounded in personal opinion. In formal writing, also: is likely to / is predicted to / is estimated to."] },
+      { h: "going to & arrangements", b: ["Plans made before speaking: “I’m going to apply for a managerial position next month.”","Predictions drawn from present evidence: “The sky is darkening ominously — it’s going to rain.”","Present continuous for fixed arrangements; present simple for timetables: “The train departs punctually at 6 PM.”"] },
+      { h: "Future continuous (will be + V-ing)", b: ["In progress at a future time: “I’ll be compiling the report throughout next week.”","Polite questions about plans: “Will you be accompanying us for lunch?”"] },
+      { h: "Future perfect (will have + V3)", b: ["Completed before a future point, with by / by the time / in + time: “By the time you arrive home, I will have prepared dinner.”"] },
+      { h: "Future perfect continuous", b: ["Duration up to a future point: “By the conclusion of this year, I’ll have been teaching at the institution for five years.”"] },
     ],
     quiz: [
       { q: "Based on current progress, humans ___ on Mars by the year 2100.", opts: ["will be living", "will have lived"], a: 0, ex: "In progress at a future time (life in 2100) → future continuous." },
@@ -304,15 +210,8 @@ export const UNITS = [
   {
     id: 9, title: "Passive Voice", tag: "be + V3 across tenses",
     learn: [
-      { h: "The form: be + V3", b: [
-        "The issue is discussed · is being discussed · was discussed · was being discussed · has been discussed · had been discussed · will be discussed · is going to be discussed.",
-        "Also with modals and semi-modals: “should be addressed”, “needs to be scheduled”, “used to be occupied”.",
-      ]},
-      { h: "When to use it", b: [
-        "When the object matters more than the doer: “All complaints are handled within 48 hours.”",
-        "When the agent is unknown or unimportant: “The decision was made yesterday.”",
-        "For a formal, impersonal academic tone, and for describing processes and maps in Writing Task 1: “The product is manufactured in three stages.”",
-      ]},
+      { h: "The form: be + V3", b: ["The matter is scrutinised · is being scrutinised · was scrutinised · was being scrutinised · has been scrutinised · had been scrutinised · will be scrutinised · is going to be scrutinised.","Also with modals and semi-modals: “should be prioritised”, “needs to be arranged”, “used to be inhabited”."] },
+      { h: "When to use it", b: ["When the object matters more than the doer: “All grievances are resolved within 48 hours.”","When the agent is unknown or insignificant: “The verdict was reached yesterday.”","For a formal, impersonal academic tone, and for describing processes and maps in Writing Task 1: “The commodity is manufactured in three distinct stages.”"] },
     ],
     quiz: [
       { q: "The documents ___ by the committee at the moment.", opts: ["are reviewing", "are being reviewed", "review"], a: 1, ex: "‘At the moment’ → present continuous passive: are being reviewed." },
@@ -334,19 +233,10 @@ export const UNITS = [
   {
     id: 10, title: "Conditionals", tag: "First, second, third & mixed",
     learn: [
-      { h: "First — real & possible", b: [
-        "If + present, will: “If governments invest in renewable energy, they will reduce carbon emissions.”",
-      ]},
-      { h: "Second — unreal now or future", b: [
-        "If + past simple, would / might / could: “If everyone recycled, the amount of waste would decrease.”",
-        "With be, use were: “If I were the president…”",
-      ]},
-      { h: "Third — unreal past", b: [
-        "If + past perfect, would / could / might have + V3: “If I had studied harder, I could have passed the exam.”",
-      ]},
-      { h: "Mixed — past condition, present result", b: [
-        "If + past perfect, would + base verb: “If I had studied medicine, I would be a doctor now.”",
-      ]},
+      { h: "First — real & possible", b: ["If + present, will: “If governments allocate resources to renewable energy, they will mitigate carbon emissions.”"] },
+      { h: "Second — unreal now or future", b: ["If + past simple, would / might / could: “If everyone recycled diligently, the volume of waste would decline considerably.”","With be, use were: “If I were the head of state…”"] },
+      { h: "Third — unreal past", b: ["If + past perfect, would / could / might have + V3: “If I had revised more rigorously, I could have passed the examination.”"] },
+      { h: "Mixed — past condition, present result", b: ["If + past perfect, would + base verb: “If I had pursued medicine, I would be a qualified physician now.”"] },
     ],
     quiz: [
       { q: "If I ___ more free time, I would travel around the world.", opts: ["had", "will have", "would have"], a: 0, ex: "Second conditional: If + past simple … would + base verb." },
@@ -368,22 +258,10 @@ export const UNITS = [
   {
     id: 11, title: "Modals", tag: "Ability, possibility, obligation",
     learn: [
-      { h: "Ability & possibility", b: [
-        "can (present ability) · could (past ability) · be able to when ‘can’ isn’t possible: “In the future, we will be able to solve many issues.”",
-        "may / might / could = less certain than will: “This solution might improve the economy.”",
-      ]},
-      { h: "Past possibility & deduction", b: [
-        "could / might / may have + V3 for past possibilities: “He may have missed the train.”",
-        "must have + V3 = sure it happened: “She must have left early — her coat is gone.” can’t have + V3 = sure it didn’t.",
-      ]},
-      { h: "Obligation & advice", b: [
-        "must / have to / need to (obligation) · had to (past obligation).",
-        "should have + V3 = regret or criticism about the past: “I should have studied harder.”",
-        "should / ought to for advice · had better warns of consequences: “You had better prepare, or you might not pass.”",
-      ]},
-      { h: "IELTS tip", b: [
-        "Modals tune the strength of your opinion: “could lead to” sounds more balanced than “will lead to”.",
-      ]},
+      { h: "Ability & possibility", b: ["can (present ability) · could (past ability) · be able to when ‘can’ isn’t possible: “In the future, we will be able to resolve numerous pressing issues.”","may / might / could = less certain than will: “This initiative might bolster the economy.”"] },
+      { h: "Past possibility & deduction", b: ["could / might / may have + V3 for past possibilities: “He may have overlooked the notification.”","must have + V3 = sure it happened: “She must have departed early — her belongings have vanished.” can’t have + V3 = sure it didn’t."] },
+      { h: "Obligation & advice", b: ["must / have to / need to (obligation) · had to (past obligation).","should have + V3 = regret or criticism about the past: “I should have prepared more diligently.”","should / ought to for advice · had better warns of consequences: “You had better revise thoroughly, or you might not qualify.”"] },
+      { h: "IELTS tip", b: ["Modals calibrate the strength of your assertion: “could lead to” sounds more measured than “will lead to”."] },
     ],
     quiz: [
       { q: "I ___ to the concert, but I had to study instead.", opts: ["could have gone", "could go", "can have gone"], a: 0, ex: "A past possibility that didn’t happen → could have + V3." },
@@ -405,19 +283,10 @@ export const UNITS = [
   {
     id: 12, title: "Relative Clauses", tag: "who, which, that, whose…",
     learn: [
-      { h: "Defining clauses", b: [
-        "Essential information, no commas: “The book that I borrowed from the library was fascinating.”",
-        "You can drop who / which / that when it’s the object: “The hotel (that) we stayed at was wonderful.”",
-      ]},
-      { h: "Non-defining clauses", b: [
-        "Extra information between commas: “My brother, who lives in Australia, is visiting next month.”",
-        "Never use ‘that’, and never drop the pronoun, in non-defining clauses.",
-      ]},
-      { h: "whose / where / when", b: [
-        "whose = possession: “The student whose project won the prize is from Indonesia.”",
-        "where = place: “The café where we met is now closed.” when = time: “I remember the day when we first met.”",
-      ]},
-      { h: "Reduced relative clauses", b: ["You can shorten a relative clause only when the relative pronoun is the SUBJECT (who/which/that + verb). Drop the pronoun and the be-verb, then use a participle: “the students who are waiting outside” → “the students waiting outside”.", "If the meaning is ACTIVE (the noun DOES the action), use the present participle (-ing): “the people who live in cities” → “the people living in cities”.", "If the meaning is PASSIVE (the noun RECEIVES the action), use the past participle (V3): “the data which was collected in 2020” → “the data collected in 2020”.", "The main trap is choosing the wrong voice. Ask: does the noun DO or RECEIVE the action? “letters written yesterday” (letters are written — passive), never “letters writing”.", "OBJECT relative clauses cannot reduce to a participle. In “the book that I read”, the subject is “I”, so you only drop the pronoun: “the book I read” — never “the book reading”."] },
+      { h: "Defining clauses", b: ["Essential information, no commas: “The novel that I borrowed from the library was captivating.”","You can drop who / which / that when it’s the object: “The resort (that) we stayed at was magnificent.”"] },
+      { h: "Non-defining clauses", b: ["Extra information between commas: “My colleague, who resides in Australia, is visiting next month.”","Never use ‘that’, and never drop the pronoun, in non-defining clauses."] },
+      { h: "whose / where / when", b: ["whose = possession: “The researcher whose proposal won the award is from Indonesia.”","where = place: “The venue where we convened is now closed.” when = time: “I recall the occasion when we first met.”"] },
+      { h: "Reduced relative clauses", b: ["You can shorten a relative clause only when the relative pronoun is the SUBJECT (who/which/that + verb). Drop the pronoun and the be-verb, then use a participle: “the candidates who are waiting outside” → “the candidates waiting outside”.","If the meaning is ACTIVE (the noun DOES the action), use the present participle (-ing): “the residents who inhabit urban areas” → “the residents inhabiting urban areas”.","If the meaning is PASSIVE (the noun RECEIVES the action), use the past participle (V3): “the evidence which was compiled in 2020” → “the evidence compiled in 2020”.","The main trap is choosing the wrong voice. Ask: does the noun DO or RECEIVE the action? “documents drafted yesterday” (documents are drafted — passive), never “documents drafting”.","OBJECT relative clauses cannot reduce to a participle. In “the article that I read”, the subject is “I”, so you only drop the pronoun: “the article I read” — never “the article reading”."] },
     ],
     quiz: [
       { q: "The athlete ___ won the gold medal is from Brazil.", opts: ["which", "who", "where"], a: 1, ex: "A person as the subject → who (or that)." },
@@ -441,23 +310,12 @@ export const UNITS = [
   {
     id: 13, title: "Complex Sentences", tag: "Clauses & conjunctions",
     learn: [
-      { h: "Clauses & punctuation", b: [
-        "An independent clause stands alone; a dependent clause starts with because / although / when / if… and cannot.",
-        "No comma splices: join two independent clauses with a conjunction or a full stop. No fragments: attach dependent clauses to an independent one.",
-      ]},
-      { h: "Cause & effect", b: [
-        "because / since / as + clause · because of / due to / as a result of + noun · so shows the effect.",
-      ]},
-      { h: "Contrast", b: [
-        "although / even though / though + clause · while for contrast · despite / in spite of + noun: “Despite the challenges, online learning is growing.”",
-      ]},
-      { h: "Purpose & time", b: [
-        "so that + clause · in order to + verb. Time: when, while, before, after, until, once, as soon as.",
-      ]},
-      { h: "Band 7 note", b: [
-        "You don’t need very long, complicated sentences for band 7 — accurate variety wins.",
-      ]},
-      { h: "Noun clauses (klausa yang berperan sebagai kata benda)", b: ["A noun clause does the job of a noun, so it can be the OBJECT of a verb like find, show, know, or think: “Researchers found that sleep improves memory.” The word that often introduces it and can be dropped after common verbs: “I think (that) she is right.”", "A wh-clause (what, how, why, where, who) can also act as a noun. As object: “I don’t know why prices fell.” As SUBJECT: “What matters is practice.” Here what means the thing that.", "Use ‘The fact that …’ to turn a whole idea into a subject: “The fact that temperatures are rising shows a clear trend.” The main verb (shows) belongs to the fact, not to a plural inside the clause.", "A clause subject always takes a SINGULAR verb, even when it sounds plural: “What we need is more time.” (✗ are more time).", "Inside the clause, keep statement word order — subject before verb, with no question inversion and no do/does/did: ✓ “What matters is…” (✗ what does matter is), ✓ “I know where the station is.” (✗ where is the station)."] },
+      { h: "Clauses & punctuation", b: ["An independent clause stands alone; a dependent clause starts with because / although / when / if… and cannot.","No comma splices: join two independent clauses with a conjunction or a full stop. No fragments: attach dependent clauses to an independent one."] },
+      { h: "Cause & effect", b: ["because / since / as + clause · because of / due to / as a result of + noun · so shows the effect."] },
+      { h: "Contrast", b: ["although / even though / though + clause · while for contrast · despite / in spite of + noun: “Despite the drawbacks, online education is flourishing.”"] },
+      { h: "Purpose & time", b: ["so that + clause · in order to + verb. Time: when, while, before, after, until, once, as soon as."] },
+      { h: "Band 7 note", b: ["You don’t need very long, elaborate sentences for band 7 — accurate variety wins."] },
+      { h: "Noun clauses (klausa yang berperan sebagai kata benda)", b: ["A noun clause does the job of a noun, so it can be the OBJECT of a verb like find, show, know, or think: “Researchers found that adequate sleep enhances cognitive function.” The word that often introduces it and can be dropped after common verbs: “I think (that) her argument is sound.”","A wh-clause (what, how, why, where, who) can also act as a noun. As object: “I don’t know why prices declined.” As SUBJECT: “What matters is persistence.” Here what means the thing that.","Use ‘The fact that …’ to turn a whole idea into a subject: “The fact that global temperatures are rising reveals a definite trend.” The main verb (reveals) belongs to the fact, not to a plural inside the clause.","A clause subject always takes a SINGULAR verb, even when it sounds plural: “What we need is additional funding.” (✗ are additional funding).","Inside the clause, keep statement word order — subject before verb, with no question inversion and no do/does/did: ✓ “What matters is…” (✗ what does matter is), ✓ “I know where the venue is.” (✗ where is the venue)."] },
     ],
     quiz: [
       { q: "The number of students choosing online learning has increased significantly ___ it provides flexibility.", opts: ["despite", "because", "so that"], a: 1, ex: "A reason clause → because." },
@@ -481,10 +339,10 @@ export const UNITS = [
   {
     id: 14, title: "Gerunds & Infinitives", tag: "-ing vs to + verb",
     learn: [
-      { h: "Gerund as subject", b: ["When an -ing action starts a sentence, it acts as a single subject and takes a singular verb: “Reading widely improves vocabulary.” (not ‘improve’).", "The gerund names an activity, like a noun: “Cycling to work saves money and keeps you fit.”", "Even a long gerund phrase stays singular: “Taking regular breaks helps students concentrate.”", "Avoid the infinitive as the everyday subject — English prefers the gerund here: say “Learning a language takes time,” not ‘To learning…’."] },
-      { h: "The first verb decides", b: ["The main verb chooses the form of the verb that follows it — you must learn which verb takes which.", "Gerund-takers: enjoy, avoid, admit, deny, suggest, recommend, consider, finish, keep, mind, practise, risk, miss, delay, imagine, postpone → “She suggested delaying the meeting.”", "Infinitive-takers: afford, agree, decide, hope, plan, promise, refuse, manage, offer, expect, want, learn, arrange, fail, tend → “They agreed to sign the contract.”", "Classic errors: ✗ ‘suggest to do’, ✗ ‘enjoy to do’ — write “suggest doing” and “enjoy doing.”"] },
-      { h: "Both possible — same or changed meaning", b: ["After begin, start and continue the meaning is the same either way: “It started raining.” = “It started to rain.”", "stop + gerund = quit the action: “He stopped smoking.” (he no longer smokes); stop + to-infinitive = pause in order to do something: “He stopped to smoke.” (he paused for a cigarette).", "remember/forget + to-infinitive = a duty ahead: “Remember to lock the door.”; + gerund = a past memory: “I remember locking the door.”", "try + to-infinitive = attempt something hard: “I tried to open it.”; try + gerund = experiment with a solution: “Try turning it off and on.”", "regret + to-infinitive = bad news now: “We regret to inform you…”; + gerund = feel sorry about the past: “I regret saying that.”"] },
-      { h: "After prepositions → gerund", b: ["Any verb straight after a preposition becomes a gerund: “interested in learning, good at writing, keen on travelling, tired of waiting.”", "The ‘to’ in look forward to and be used to is a preposition, so a gerund follows: “I look forward to hearing from you.” (✗ ‘to hear’).", "before and after take a gerund too: “Check the sources before quoting them.”", "Infinitive of purpose = ‘in order to’: “The council raised fares to reduce traffic.”; but for + -ing names a thing’s function: “This tool is for cutting metal.”"] },
+      { h: "Gerund as subject", b: ["When an -ing action starts a sentence, it acts as a single subject and takes a singular verb: “Reading extensively broadens vocabulary.” (not ‘broaden’).","The gerund names an activity, like a noun: “Cycling to work reduces expenses and keeps you fit.”","Even a long gerund phrase stays singular: “Taking periodic breaks helps students concentrate.”","Avoid the infinitive as the everyday subject — English prefers the gerund here: say “Mastering a language takes time,” not ‘To mastering…’."] },
+      { h: "The first verb decides", b: ["The main verb chooses the form of the verb that follows it — you must memorise which verb takes which.","Gerund-takers: enjoy, avoid, admit, deny, suggest, recommend, consider, finish, keep, mind, practise, risk, miss, delay, imagine, postpone → “She suggested delaying the negotiations.”","Infinitive-takers: afford, agree, decide, hope, plan, promise, refuse, manage, offer, expect, want, learn, arrange, fail, tend → “They agreed to finalise the contract.”","Classic errors: ✗ ‘suggest to do’, ✗ ‘enjoy to do’ — write “suggest doing” and “enjoy doing.”"] },
+      { h: "Both possible — same or changed meaning", b: ["After begin, start and continue the meaning is the same either way: “The temperature started falling.” = “The temperature started to fall.”","stop + gerund = quit the action: “He stopped smoking.” (he no longer smokes); stop + to-infinitive = pause in order to do something: “He stopped to smoke.” (he paused for a cigarette).","remember/forget + to-infinitive = a duty ahead: “Remember to submit the application.”; + gerund = a past memory: “I remember submitting the application.”","try + to-infinitive = attempt something hard: “I tried to repair it.”; try + gerund = experiment with a solution: “Try restarting the device.”","regret + to-infinitive = bad news now: “We regret to inform you…”; + gerund = feel sorry about the past: “I regret disclosing that.”"] },
+      { h: "After prepositions → gerund", b: ["Any verb straight after a preposition becomes a gerund: “interested in researching, adept at writing, keen on exploring, weary of waiting.”","The ‘to’ in look forward to and be used to is a preposition, so a gerund follows: “I look forward to collaborating with you.” (✗ ‘to collaborate’).","before and after take a gerund too: “Verify the sources before citing them.”","Infinitive of purpose = ‘in order to’: “The council raised fares to alleviate congestion.”; but for + -ing names a thing’s function: “This device is for filtering water.”"] },
     ],
     quiz: [
       { q: "The report recommended ___ investment in public transport to cut urban emissions.", opts: ["to increase","increasing","increase"], a: 1, ex: "‘Recommend’ is a gerund-taker: recommend doing. Never ‘recommend to do’." },
@@ -506,10 +364,10 @@ export const UNITS = [
   {
     id: 15, title: "Reported Speech", tag: "say, tell & backshift",
     learn: [
-      { h: "Tense backshift", b: ["After a past reporting verb (said, told, claimed), the present usually shifts back one step to the past: “The data is reliable” → She said the data was reliable.", "Past simple and present perfect both shift back to the past perfect: “Sales have risen” / “Sales rose” → He reported that sales had risen.", "Modals shift too: will→would, can→could, may→might, must→had to: “We can meet the target” → They said they could meet the target.", "General or scientific truths that are still true need not shift: “Water boils at 100°C” → The teacher said that water boils at 100°C."] },
-      { h: "Pointer shifts", b: ["Pronouns move to fit the new speaker's viewpoint: “I need your help” → He said he needed my help.", "Time words move back: today→that day, tomorrow→the following day, yesterday→the day before: “I'll call you tomorrow” → She said she would call the following day.", "now→then when the moment is past: “I'm busy now” → He said he was busy then.", "Place and demonstratives shift: here→there, this→that: “Sign here on this line” → She told me to sign there on that line."] },
-      { h: "say vs tell & reporting verbs", b: ["'tell' is followed straight by a person; 'say' is not: “She told me the news” (✗ said me the news); use say + that or say to someone.", "advise / warn / remind / ask / tell + someone + (not) to do: “The doctor advised him to rest.” “She warned us not to be late.” “He reminded me to bring my ID.”", "suggest and recommend take -ing or a that-clause, never 'to do': “They suggested meeting earlier.” “I recommend that you apply now.” (✗ suggested to meet)", "admit and deny take -ing; apologise takes for + -ing: “He admitted making a mistake.” “She apologised for arriving late.”", "promise / offer / refuse / agree take a to-infinitive: “They agreed to help” and “He refused to sign the form.”"] },
-      { h: "Reported questions & requests", b: ["Reported questions use statement word order (subject before verb) with no inversion and no 'did': “Where is the station?” → He asked where the station was.", "Report yes/no questions with 'if' or 'whether': “Do you agree?” → She asked whether I agreed.", "Never keep the question mark in a reported question: it is now a statement.", "Report requests and commands with asked / told someone (not) to do: “Please wait” → He asked me to wait; “Don't touch it” → She told me not to touch it."] },
+      { h: "Tense backshift", b: ["After a past reporting verb (said, told, claimed), the present usually shifts back one step to the past: “The evidence is credible” → She said the evidence was credible.","Past simple and present perfect both shift back to the past perfect: “Revenues have surged” / “Revenues surged” → He reported that revenues had surged.","Modals shift too: will→would, can→could, may→might, must→had to: “We can attain the objective” → They said they could attain the objective.","General or scientific truths that are still true need not shift: “Water boils at 100°C” → The teacher explained that water boils at 100°C."] },
+      { h: "Pointer shifts", b: ["Pronouns move to fit the new speaker's viewpoint: “I need your assistance” → He said he needed my assistance.","Time words move back: today→that day, tomorrow→the following day, yesterday→the day before: “I'll call you tomorrow” → She said she would call the following day.","now→then when the moment is past: “I'm occupied now” → He said he was occupied then.","Place and demonstratives shift: here→there, this→that: “Sign here on this document” → She told me to sign there on that document."] },
+      { h: "say vs tell & reporting verbs", b: ["'tell' is followed straight by a person; 'say' is not: “She told me the outcome” (✗ said me the outcome); use say + that or say to someone.","advise / warn / remind / ask / tell + someone + (not) to do: “The physician advised him to recuperate.” “She warned us not to underestimate the difficulty.” “He reminded me to renew my passport.”","suggest and recommend take -ing or a that-clause, never 'to do': “They suggested convening earlier.” “I recommend that you enrol promptly.” (✗ suggested to convene)","admit and deny take -ing; apologise takes for + -ing: “He admitted overlooking the deadline.” “She apologised for interrupting the meeting.”","promise / offer / refuse / agree take a to-infinitive: “They agreed to cooperate” and “He refused to disclose the details.”"] },
+      { h: "Reported questions & requests", b: ["Reported questions use statement word order (subject before verb) with no inversion and no 'did': “Where is the venue?” → He asked where the venue was.","Report yes/no questions with 'if' or 'whether': “Do you concur?” → She asked whether I concurred.","Never keep the question mark in a reported question: it is now a statement.","Report requests and commands with asked / told someone (not) to do: “Please proceed” → He asked me to proceed; “Don't tamper with it” → She told me not to tamper with it."] },
     ],
     quiz: [
       { q: "The researcher said that the results ___ consistent with earlier studies.", opts: ["are","were","have been"], a: 1, ex: "After a past reporting verb, present simple 'are' backshifts to past simple 'were'. Keeping 'are' fails to shift the tense." },
@@ -531,10 +389,10 @@ export const UNITS = [
   {
     id: 16, title: "Linking & Signposting", tag: "however, therefore, despite…",
     learn: [
-      { h: "Three grammatical families", b: ["A conjunction joins two clauses inside ONE sentence (but, so, because, although, while, whereas): “Sales fell, but profits rose.” Both halves have their own subject and verb.", "A sentence adverbial OPENS a new sentence and takes a comma (However, / Therefore, / Furthermore, / In addition, / As a result, / In contrast,): “Costs rose. However, profits stayed stable.”", "A preposition is followed by a NOUN or an -ing form, never a full clause (despite, in spite of, due to, because of, in addition to, as a result of): “Despite the rain, the match went ahead.” / “Despite feeling tired, she kept working.”", "Read the slot first: a full clause (subject + verb) needs a conjunction or adverbial; a noun or -ing phrase needs a preposition-type linker."] },
-      { h: "Function groups", b: ["Addition — Furthermore, Moreover, In addition, In addition to: “The plan is costly. Moreover, it is slow.”", "Contrast / concession — However, Nevertheless, In contrast, whereas, although, even though, despite, in spite of: “Prices fell; however, demand stayed weak.”", "Cause — because (+ clause), due to / because of / as a result of (+ noun): “The delay was due to bad weather.”", "Result — so, therefore, as a result, consequently: “Demand dropped; therefore, prices fell.”", "Example & rephrasing — For example / For instance (illustration), In other words (restating): “Some skills are fading — for example, handwriting.”"] },
-      { h: "Punctuation", b: ["A fronted (opening) adverbial takes a comma after it: “Therefore, the project was cancelled.”", "A comma alone cannot join two independent clauses (the comma-splice trap). Put a full stop or a semicolon before ‘however’: “Costs rose; however, profits held.” — not “Costs rose, however, profits held.”", "Mid-sentence, ‘however’ is fenced by commas but still does not join clauses: “Profits, however, held steady.”", "A fronted prepositional phrase also needs a comma: “Despite the setback, the team continued.”"] },
-      { h: "Precision & overuse", b: ["One linker per idea — never stack two from the same family: ✗ “But however, …” → pick one: “However, …”", "Never put a full clause after a preposition-type linker: ✗ “Despite it was raining” → “Despite the rain, …” or “Although it was raining, …”", "‘because’ + clause vs ‘because of’ + noun: “because prices rose” but “because of higher prices”.", "Match register and vary your linkers: ‘Furthermore / Consequently’ suit formal essays, while ‘so / but’ are fine but lighter — don't repeat the same connector in every sentence."] },
+      { h: "Three grammatical families", b: ["A conjunction joins two clauses inside ONE sentence (but, so, because, although, while, whereas): “Revenue declined, but profits surged.” Both halves have their own subject and verb.","A sentence adverbial OPENS a new sentence and takes a comma (However, / Therefore, / Furthermore, / In addition, / As a result, / In contrast,): “Expenditure escalated. However, profits remained stable.”","A preposition is followed by a NOUN or an -ing form, never a full clause (despite, in spite of, due to, because of, in addition to, as a result of): “Despite the downpour, the match went ahead.” / “Despite feeling exhausted, she kept working.”","Read the slot first: a full clause (subject + verb) needs a conjunction or adverbial; a noun or -ing phrase needs a preposition-type linker."] },
+      { h: "Function groups", b: ["Addition — Furthermore, Moreover, In addition, In addition to: “The proposal is costly. Moreover, it is sluggish.”","Contrast / concession — However, Nevertheless, In contrast, whereas, although, even though, despite, in spite of: “Prices plummeted; however, demand remained subdued.”","Cause — because (+ clause), due to / because of / as a result of (+ noun): “The delay was due to adverse weather.”","Result — so, therefore, as a result, consequently: “Demand dwindled; therefore, prices fell.”","Example & rephrasing — For example / For instance (illustration), In other words (restating): “Some skills are becoming obsolete — for example, handwriting.”"] },
+      { h: "Punctuation", b: ["A fronted (opening) adverbial takes a comma after it: “Therefore, the initiative was abandoned.”","A comma alone cannot join two independent clauses (the comma-splice trap). Put a full stop or a semicolon before ‘however’: “Overheads rose; however, profits held.” — not “Overheads rose, however, profits held.”","Mid-sentence, ‘however’ is fenced by commas but still does not join clauses: “Margins, however, held steady.”","A fronted prepositional phrase also needs a comma: “Despite the setback, the team persevered.”"] },
+      { h: "Precision & overuse", b: ["One linker per idea — never stack two from the same family: ✗ “But however, …” → pick one: “However, …”","Never put a full clause after a preposition-type linker: ✗ “Despite it was raining” → “Despite the rain, …” or “Although it was raining, …”","‘because’ + clause vs ‘because of’ + noun: “because prices escalated” but “because of escalating prices”.","Match register and vary your linkers: ‘Furthermore / Consequently’ suit formal essays, while ‘so / but’ are fine but lighter — don't repeat the same connector in every sentence."] },
     ],
     quiz: [
       { q: "___ the sharp rise in production costs, the company’s profits remained stable.", opts: ["Although","Despite","However","Because"], a: 1, ex: "A noun phrase (‘the sharp rise…’) follows, so the preposition-type linker ‘despite’ fits. ‘Although’ needs a full clause, ‘however’ opens a new sentence, and ‘because’ shows cause rather than concession." },
@@ -556,10 +414,10 @@ export const UNITS = [
   {
     id: 17, title: "Pronouns & Reference", tag: "it, they, this, one, such",
     learn: [
-      { h: "Agreement basics", b: ["In formal writing a company or institution is treated as singular, so use it/its, not they. “The company increased its profits.”", "The government, the committee, the team and a bank all take singular it/its in academic English. “The government defended its policy.”", "Uncountable nouns such as research, information, evidence and advice take it. “The evidence is strong; it supports the theory.”", "Plural nouns take they/them/their. “Prices rose because they were affected by demand.”", "Check the noun's number and type before you choose the pronoun. “Data are limited, so they must be read with care.”"] },
-      { h: "this/that/these/those for ideas", b: ["Use this/that to point back to a whole idea in the previous sentence, not only to one noun. “Sales fell sharply. This decline surprised managers.”", "Add a summary noun after this/that to keep the reference clear. “Many workers resigned. This trend continued for months.”", "Use these/those before a plural summary noun. “Costs and delays increased. These problems damaged the project.”", "that/those can mark distance or a contrast with earlier figures. “Those results differ from this year's.”", "A bare 'this' with no noun is often vague in academic writing, so a summary noun improves cohesion. “This finding…” is clearer than “This…”."] },
-      { h: "Substitution tools", b: ["one/ones replaces a countable noun already mentioned: one is singular, ones is plural. “The old design failed, so engineers built a new one.”", "Use the former / the latter for the first and the second of two things. “Tea and coffee are popular; the former is calming, the latter is stimulating.”", "such + noun refers back to a type just described; note the pattern 'such a + adjective + noun + that'. “It was such a large sample that the results were reliable.”", "do so is a formal way to stand in for a whole action mentioned before. “Companies must cut waste, and many are trying to do so.”", "Substitution lets you avoid repeating the same words and keeps the writing smooth. “Old buses were replaced with electric ones.”"] },
-      { h: "Clear reference", b: ["Avoid an ambiguous it/they that could point to two different nouns; repeat the noun if the reference is unclear. “The manager told the worker that the report was wrong.”", "Use there is/are to introduce something new, but it is to comment, usually with an adjective + that/to. “There is a problem.” vs “It is clear that costs rose.”", "there + be states existence, so never start such a sentence with it. “There are three reasons…” (not “It are…”).", "its (no apostrophe) is possessive, while it's means 'it is' or 'it has'. “The city improved its transport, and it's now faster.”", "Reread each pronoun and confirm exactly what it refers to before you submit your essay. “The results were strong; they justified the method.”"] },
+      { h: "Agreement basics", b: ["In formal writing a company or institution is treated as singular, so use it/its, not they. “The corporation increased its revenue.”","The government, the committee, the team and a bank all take singular it/its in academic English. “The government defended its stance.”","Uncountable nouns such as research, information, evidence and advice take it. “The evidence is compelling; it corroborates the theory.”","Plural nouns take they/them/their. “Prices surged because they were influenced by demand.”","Check the noun's number and type before you choose the pronoun. “Data are scarce, so they must be interpreted with caution.”"] },
+      { h: "this/that/these/those for ideas", b: ["Use this/that to point back to a whole idea in the previous sentence, not only to one noun. “Sales plummeted sharply. This decline astonished managers.”","Add a summary noun after this/that to keep the reference clear. “Numerous employees resigned. This trend persisted for months.”","Use these/those before a plural summary noun. “Costs and delays mounted. These setbacks jeopardised the project.”","that/those can mark distance or a contrast with earlier figures. “Those findings diverge from this year's.”","A bare 'this' with no noun is often vague in academic writing, so a summary noun enhances cohesion. “This finding…” is clearer than “This…”."] },
+      { h: "Substitution tools", b: ["one/ones replaces a countable noun already mentioned: one is singular, ones is plural. “The obsolete design failed, so engineers devised a new one.”","Use the former / the latter for the first and the second of two things. “Tea and coffee are popular; the former is soothing, the latter is stimulating.”","such + noun refers back to a type just described; note the pattern 'such a + adjective + noun + that'. “It was such a substantial sample that the results were reliable.”","do so is a formal way to stand in for a whole action mentioned before. “Corporations must curb waste, and many are endeavouring to do so.”","Substitution lets you avoid repeating the same words and keeps the writing smooth. “Ageing buses were replaced with electric ones.”"] },
+      { h: "Clear reference", b: ["Avoid an ambiguous it/they that could point to two different nouns; repeat the noun if the reference is unclear. “The supervisor informed the employee that the report was flawed.”","Use there is/are to introduce something new, but it is to comment, usually with an adjective + that/to. “There is a flaw.” vs “It is evident that costs escalated.”","there + be states existence, so never start such a sentence with it. “There are three factors…” (not “It are…”).","its (no apostrophe) is possessive, while it's means 'it is' or 'it has'. “The city upgraded its transport network, and it's now faster.”","Reread each pronoun and confirm exactly what it refers to before you submit your essay. “The results were compelling; they justified the methodology.”"] },
     ],
     quiz: [
       { q: "The corporation performed well last year, and ___ share price rose sharply.", opts: ["their","its","it's"], a: 1, ex: "In formal English a corporation is singular, so use the possessive 'its'. 'It's' means 'it is', and 'their' would treat the company as plural." },
@@ -581,10 +439,10 @@ export const UNITS = [
   {
     id: 18, title: "Noun Phrases & Adjective Order", tag: "Building longer noun phrases",
     learn: [
-      { h: "Anatomy of a noun phrase", b: ["A noun phrase is built around a head noun in a fixed shape: determiner + (adverb) + adjective(s) + head noun + prepositional phrase, as in “a significant increase in oil production”.", "The determiner comes first and fixes the reference (a, the, this, some, each): “the results”, “a tendency”, “this pattern”.", "An adverb can grade the adjective right before it: in “a remarkably large deficit”, “remarkably” modifies “large”, not the noun.", "The prepositional phrase after the head noun usually carries the key detail: “a decline in birth rates”, “the impact of tourism”.", "In academic writing most meaning sits inside long noun phrases, so read to the end of the phrase before deciding what the sentence is really about."] },
-      { h: "Adjective order", b: ["When adjectives stack before a noun, English follows a fixed order: opinion → size → age → shape → colour → origin → material → purpose, giving “a beautiful small wooden box”.", "Opinion adjectives (nice, useful, beautiful) always come first; factual ones follow: “a useful little tool”, not “a little useful tool”.", "Material and purpose sit closest to the noun: “an old stone wall”, “a plastic shopping bag”.", "Use commas only between coordinate adjectives of the same type — ones you could reverse or join with “and”: “a cold, wet morning” but “a small wooden box” (no comma).", "Quick test: if you can add “and” or swap the pair naturally, use a comma; if not, leave it out."] },
-      { h: "Noun+noun & of-phrases", b: ["Two nouns can combine, with the first acting like an adjective and staying singular: “government policy”, “city centre”, “oil production”.", "Noun+noun compounds are compact and common in reports and headlines: “traffic congestion”, “energy consumption”.", "Use “of” for possession, a part, or a specific measured result: “the results of the survey”, “the roof of the building”.", "Prefer “of” when the idea is a defined thing with “the”: “the aims of the study” sounds more formal than “the study aims”.", "Some pairings only work one way and the meaning changes: “a cup of coffee” (contents) versus “a coffee cup” (a type of cup)."] },
-      { h: "Nominalisation for academic style", b: ["Nominalisation turns a verb or adjective into a noun so you pack more into fewer clauses: grow → “growth in”, reduce → “a reduction in”, improve → “an improvement in”.", "Instead of “Prices grew and this worried people”, write “The growth in prices caused concern” — one noun phrase does the work of a whole clause.", "Watch the preposition: it is “increase in”, “growth in”, “a reduction in” — never “increase of” for a rise in amount.", "Other useful patterns: “a tendency to” + base verb (“a tendency to overspend”), “a decline in”, “the introduction of”.", "Nominalisation makes writing denser and more formal, which suits IELTS Task 1 and Task 2 — but overusing it makes sentences hard to read."] },
+      { h: "Anatomy of a noun phrase", b: ["A noun phrase is built around a head noun in a fixed shape: determiner + (adverb) + adjective(s) + head noun + prepositional phrase, as in “a substantial increase in oil production”.","The determiner comes first and fixes the reference (a, the, this, some, each): “the findings”, “a tendency”, “this phenomenon”.","An adverb can grade the adjective right before it: in “a remarkably large deficit”, “remarkably” modifies “large”, not the noun.","The prepositional phrase after the head noun usually carries the key detail: “a decline in birth rates”, “the impact of tourism”.","In academic writing most meaning sits inside long noun phrases, so read to the end of the phrase before deciding what the sentence is really about."] },
+      { h: "Adjective order", b: ["When adjectives stack before a noun, English follows a fixed order: opinion → size → age → shape → colour → origin → material → purpose, giving “an elegant small wooden box”.","Opinion adjectives (nice, useful, beautiful) always come first; factual ones follow: “a practical little device”, not “a little practical device”.","Material and purpose sit closest to the noun: “an ancient stone wall”, “a plastic shopping bag”.","Use commas only between coordinate adjectives of the same type — ones you could reverse or join with “and”: “a bleak, wet morning” but “a small wooden box” (no comma).","Quick test: if you can add “and” or swap the pair naturally, use a comma; if not, leave it out."] },
+      { h: "Noun+noun & of-phrases", b: ["Two nouns can combine, with the first acting like an adjective and staying singular: “government policy”, “city centre”, “oil production”.","Noun+noun compounds are compact and common in reports and headlines: “traffic congestion”, “energy consumption”.","Use “of” for possession, a part, or a specific measured result: “the findings of the survey”, “the roof of the building”.","Prefer “of” when the idea is a defined thing with “the”: “the objectives of the study” sounds more formal than “the study objectives”.","Some pairings only work one way and the meaning changes: “a cup of coffee” (contents) versus “a coffee cup” (a type of cup)."] },
+      { h: "Nominalisation for academic style", b: ["Nominalisation turns a verb or adjective into a noun so you pack more into fewer clauses: grow → “growth in”, reduce → “a reduction in”, improve → “an improvement in”.","Instead of “Prices grew and this alarmed consumers”, write “The growth in prices caused concern” — one noun phrase does the work of a whole clause.","Watch the preposition: it is “increase in”, “growth in”, “a reduction in” — never “increase of” for a rise in amount.","Other useful patterns: “a tendency to” + base verb (“a tendency to overspend”), “a decline in”, “the introduction of”.","Nominalisation makes writing denser and more formal, which suits IELTS Task 1 and Task 2 — but overusing it makes sentences hard to read."] },
     ],
     quiz: [
       { q: "Which phrase follows the normal adjective order?", opts: ["a wooden small beautiful box","a beautiful small wooden box","a small beautiful wooden box"], a: 1, ex: "Adjectives follow opinion → size → age → shape → colour → origin → material → purpose. So opinion (beautiful) comes before size (small), and material (wooden) sits last: “a beautiful small wooden box”." },
@@ -606,10 +464,10 @@ export const UNITS = [
   {
     id: 19, title: "Questions & Question Tags", tag: "Direct, indirect & tags",
     learn: [
-      { h: "Direct questions", b: ["In yes-no questions, put the auxiliary before the subject (inversion): “Is the trend rising?”, “Have the numbers changed?”", "When will, can, be or have is already there, just swap it with the subject: “Will the figure double by 2030?”, “Can we see the data?”", "In the simple present and past there is no auxiliary, so add do/does/did + base verb: “Does the chart show growth?”, “Did sales fall last year?”", "Wh-questions keep the same inversion after the question word: “Where do the figures come from?”, “How much did prices rise?”", "Mark the tense only once: say “Did it increase?”, never ✗ “Did it increased?”"] },
-      { h: "Indirect (embedded) questions", b: ["After openers like “Could you tell me…”, “I wonder…” or “Do you know…”, the embedded question uses statement word order — subject before verb: “Could you tell me where the station is?”", "There is no inversion and no do/does/did inside the embedded part: “I don't know why the results vary.”, not ✗ “why do the results vary”.", "For yes-no questions, join the two clauses with if or whether: “Do you know whether the library is open?”", "Embedded questions sound more polite and formal — useful in the speaking test: “I wonder how long the experiment took.”", "Common error: ✗ “Could you tell me where is the station?” — the verb must come after the subject: “…where the station is?”"] },
-      { h: "Question tags", b: ["A positive statement takes a negative tag, and a negative statement takes a positive tag: “The graph is clear, isn't it?”, “You didn't save the file, did you?”", "The tag copies the auxiliary in the statement, or uses do/does/did when there is none: “They don't agree, do they?”, “She has finished, hasn't she?”", "Learn the specials: “I'm right, aren't I?” · “Let's start, shall we?” · “Close the door, will you?”", "With there is / there are, keep there in the tag: “There is a mistake, isn't there?”", "Match the tense and auxiliary exactly: “You called him, didn't you?”, not ✗ “…haven't you?”"] },
-      { h: "Subject vs object questions", b: ["When who/what is the subject (the doer), use no do-support and keep statement order: “Who called you?”, “What caused the delay?”", "When who/what is the object, use normal do-support: “Who did you call?”, “What did the study show?”", "Compare the pair: subject question “Who wrote it?” has no do; object question “Who did they blame?” does.", "In subject questions the verb agrees with a singular idea: “Who wants coffee?”, not ✗ “Who want coffee?”", "Common error: adding do to a subject question: ✗ “Who did call you?” → “Who called you?”"] },
+      { h: "Direct questions", b: ["In yes-no questions, put the auxiliary before the subject (inversion): “Is the trend accelerating?”, “Have the statistics shifted?”","When will, can, be or have is already there, just swap it with the subject: “Will the deficit double by 2030?”, “Can we scrutinise the data?”","In the simple present and past there is no auxiliary, so add do/does/did + base verb: “Does the chart demonstrate growth?”, “Did revenue decline last year?”","Wh-questions keep the same inversion after the question word: “Where do the statistics originate?”, “How much did expenditure rise?”","Mark the tense only once: say “Did it escalate?”, never ✗ “Did it escalated?”"] },
+      { h: "Indirect (embedded) questions", b: ["After openers like “Could you tell me…”, “I wonder…” or “Do you know…”, the embedded question uses statement word order — subject before verb: “Could you tell me where the headquarters is?”","There is no inversion and no do/does/did inside the embedded part: “I don't know why the outcomes fluctuate.”, not ✗ “why do the outcomes fluctuate”.","For yes-no questions, join the two clauses with if or whether: “Do you know whether the archive is accessible?”","Embedded questions sound more polite and formal — useful in the speaking test: “I wonder how long the investigation took.”","Common error: ✗ “Could you tell me where is the headquarters?” — the verb must come after the subject: “…where the headquarters is?”"] },
+      { h: "Question tags", b: ["A positive statement takes a negative tag, and a negative statement takes a positive tag: “The diagram is coherent, isn't it?”, “You didn't archive the document, did you?”","The tag copies the auxiliary in the statement, or uses do/does/did when there is none: “They don't concur, do they?”, “She has concluded, hasn't she?”","Learn the specials: “I'm correct, aren't I?” · “Let's proceed, shall we?” · “Close the window, will you?”","With there is / there are, keep there in the tag: “There is a discrepancy, isn't there?”","Match the tense and auxiliary exactly: “You contacted him, didn't you?”, not ✗ “…haven't you?”"] },
+      { h: "Subject vs object questions", b: ["When who/what is the subject (the doer), use no do-support and keep statement order: “Who notified you?”, “What prompted the delay?”","When who/what is the object, use normal do-support: “Who did you consult?”, “What did the study reveal?”","Compare the pair: subject question “Who authored it?” has no do; object question “Who did they accuse?” does.","In subject questions the verb agrees with a singular idea: “Who requires assistance?”, not ✗ “Who require assistance?”","Common error: adding do to a subject question: ✗ “Who did notify you?” → “Who notified you?”"] },
     ],
     quiz: [
       { q: "___ the two graphs show exactly the same pattern of growth?", opts: ["Do","Does","Are"], a: 0, ex: "The subject ‘the two graphs’ is plural and ‘show’ is the main verb, so the simple present needs do-support: ‘Do … show?’." },
@@ -631,10 +489,10 @@ export const UNITS = [
   {
     id: 20, title: "Punctuation & Parallelism", tag: "Commas, semicolons & balanced lists",
     learn: [
-      { h: "S1 — Commas that matter", b: ["Put a comma before a FANBOYS conjunction (for, and, nor, but, or, yet, so) when it joins two independent clauses: “The test was hard, but everyone passed.”", "Add a comma after a fronted subordinate clause: “Because the data was limited, the writer stayed cautious.” Drop it when the main clause comes first: “The writer stayed cautious because the data was limited.”", "Use a comma after a linking adverbial that opens a sentence: “In addition, the survey covered rural areas.”", "Separate three or more list items with commas: “The diet cut sugar, salt, and fat.”", "The comma splice is the key error — two independent clauses joined by only a comma: ✗ “The results were clear, the team celebrated.” Fix it with a semicolon, a full stop, or a comma + FANBOYS."] },
-      { h: "S2 — Semicolon & colon", b: ["Use a semicolon between two closely related independent clauses: “Exports rose; imports fell.”", "Use a semicolon before a linking adverb such as 'however' or 'therefore', with a comma after it: “The plan was cheap; however, it was slow.”", "Use a colon to introduce a list, but only after a complete clause: “The chart shows three trends: growth, decline, and recovery.”", "Use a colon to introduce an explanation: “The reason was simple: demand had collapsed.”", "Never place a colon after an incomplete clause: ✗ “The factors include: cost and time.” Keep the clause whole first."] },
-      { h: "S3 — Small marks, big penalties", b: ["“Its” (no apostrophe) shows possession: “The city raised its budget.” “It’s” means 'it is' or 'it has': “It’s a common mistake.”", "Capitalise the first word of every sentence and all proper nouns: “The study, led by Oxford researchers, took ten years.”", "Avoid exclamation marks in academic writing — they sound informal: ✗ “The rise was huge!” → “The rise was significant.”", "Do not use capitals for emphasis: ✗ “This is VERY important.” → “This is very important.”"] },
-      { h: "S4 — Parallel structure", b: ["Items in a list must share one grammatical form: “The course builds reading, writing, and listening.”", "Keep comparisons parallel: “Cycling is cheaper than driving,” not ✗ “cheaper than to drive.”", "Paired connectors must join equal forms: “both fast and cheap”, “either online or in person”.", "'Not only … but also' balances the same structure: “not only cheaper but also faster,” not ✗ “not only cheaper but also it saves time.”", "'Neither … nor' follows the same rule: “The plan was neither clear nor realistic.”"] },
+      { h: "S1 — Commas that matter", b: ["Put a comma before a FANBOYS conjunction (for, and, nor, but, or, yet, so) when it joins two independent clauses: “The examination was demanding, but everyone passed.”","Add a comma after a fronted subordinate clause: “Because the data was insufficient, the author remained cautious.” Drop it when the main clause comes first: “The author remained cautious because the data was insufficient.”","Use a comma after a linking adverbial that opens a sentence: “In addition, the survey encompassed rural districts.”","Separate three or more list items with commas: “The revised diet reduced sugar, salt, and fat.”","The comma splice is the key error — two independent clauses joined by only a comma: ✗ “The results were conclusive, the team celebrated.” Fix it with a semicolon, a full stop, or a comma + FANBOYS."] },
+      { h: "S2 — Semicolon & colon", b: ["Use a semicolon between two closely related independent clauses: “Exports climbed; imports declined.”","Use a semicolon before a linking adverb such as 'however' or 'therefore', with a comma after it: “The proposal was inexpensive; however, it was sluggish.”","Use a colon to introduce a list, but only after a complete clause: “The chart illustrates three trends: expansion, contraction, and recovery.”","Use a colon to introduce an explanation: “The reason was straightforward: demand had collapsed.”","Never place a colon after an incomplete clause: ✗ “The determinants include: cost and time.” Keep the clause whole first."] },
+      { h: "S3 — Small marks, big penalties", b: ["“Its” (no apostrophe) shows possession: “The municipality raised its budget.” “It’s” means 'it is' or 'it has': “It’s a prevalent error.”","Capitalise the first word of every sentence and all proper nouns: “The investigation, conducted by Oxford researchers, spanned a decade.”","Avoid exclamation marks in academic writing — they sound informal: ✗ “The surge was immense!” → “The surge was considerable.”","Do not use capitals for emphasis: ✗ “This is VERY crucial.” → “This is very crucial.”"] },
+      { h: "S4 — Parallel structure", b: ["Items in a list must share one grammatical form: “The course cultivates reading, writing, and listening.”","Keep comparisons parallel: “Cycling is more economical than driving,” not ✗ “more economical than to drive.”","Paired connectors must join equal forms: “both rapid and economical”, “either online or in person”.","'Not only … but also' balances the same structure: “not only more economical but also faster,” not ✗ “not only more economical but also it saves time.”","'Neither … nor' follows the same rule: “The proposal was neither coherent nor feasible.”"] },
     ],
     quiz: [
       { q: "Which sentence is punctuated correctly?", opts: ["The graph rose sharply, it then levelled off.","The graph rose sharply; it then levelled off.","The graph rose sharply it then levelled off."], a: 1, ex: "Two independent clauses cannot be joined by a comma alone — that is a comma splice. Use a semicolon, a full stop, or a comma + FANBOYS." },
@@ -652,10 +510,10 @@ export const UNITS = [
   {
     id: 21, title: "Advanced Structures", tag: "so/such, inversion, causatives",
     learn: [
-      { h: "Emphasis with so/such", b: ["Use so before an adjective or adverb, then that + result: “The results were so consistent that no one questioned them.”", "Use such before a noun phrase — such + (a/an) + (adjective) + noun: “It was such a dramatic rise that analysts rechecked the figures.”", "With uncountable or plural nouns, drop the article: “There was such strong demand that stocks ran out.”", "Before much/many/little/few + noun, use so, not such: “There was so much interest that the venue had to be changed.”", "The that-clause is optional, but it is what makes the emphasis sound academic: keep so for qualities, such for things."] },
-      { h: "Inversion for emphasis", b: ["Start with a negative adverbial, then invert to auxiliary + subject + verb: “Not only did prices fall, but demand also rose.”", "The same pattern follows Rarely, Seldom, Never before, Hardly and Only then: “Rarely have researchers seen such a shift.”", "Under no circumstances signals a strong ban: “Under no circumstances should the sample be reused.”", "Conditional inversion replaces if: “Had the government acted sooner, the crisis would have eased.” = If the government had acted…", "Also “Were this to happen, output would collapse.” and “Should you need help, contact the tutor.” — a formal register, so use it sparingly."] },
-      { h: "Causatives", b: ["have/get something done = arrange for someone else to do it: “The company had the bridge inspected.”", "make + somebody + bare infinitive (force) and let + somebody + bare infinitive (allow): “The teacher made the class rewrite it; they let visitors take photos.”", "get + somebody + to-infinitive (persuade): “We got a specialist to review the data.”", "Contrast with the passive: “have sth done” stresses that you arranged the service, not merely that it happened to the object.", "Watch the participle: it is “I had my car repaired”, never “I had my car repair”."] },
-      { h: "The subjunctive", b: ["After suggest, recommend, insist, demand + that, use the base verb for every subject: “The panel recommended that the policy be revised.”", "The third person takes no -s: “The report insists that she take responsibility.” (not takes)", "After It is essential/vital/important that, also use the base verb: “It is essential that every student take the test.”", "The negative uses not + base, with no auxiliary: “They demanded that he not attend.”", "This is formal; in casual English many speakers add should (“…that she should take…”), so save the bare subjunctive for academic writing."] },
+      { h: "Emphasis with so/such", b: ["Use so before an adjective or adverb, then that + result: “The findings were so consistent that no one disputed them.”","Use such before a noun phrase — such + (a/an) + (adjective) + noun: “It was such a dramatic surge that analysts re-examined the figures.”","With uncountable or plural nouns, drop the article: “There was such overwhelming demand that supplies were exhausted.”","Before much/many/little/few + noun, use so, not such: “There was so much enthusiasm that the venue had to be relocated.”","The that-clause is optional, but it is what makes the emphasis sound academic: keep so for qualities, such for things."] },
+      { h: "Inversion for emphasis", b: ["Start with a negative adverbial, then invert to auxiliary + subject + verb: “Not only did prices plummet, but demand also surged.”","The same pattern follows Rarely, Seldom, Never before, Hardly and Only then: “Rarely have researchers witnessed such a shift.”","Under no circumstances signals a strong ban: “Under no circumstances should the specimen be reused.”","Conditional inversion replaces if: “Had the authorities intervened sooner, the crisis would have eased.” = If the authorities had intervened…","Also “Were this to occur, output would collapse.” and “Should you require assistance, contact the tutor.” — a formal register, so use it sparingly."] },
+      { h: "Causatives", b: ["have/get something done = arrange for someone else to do it: “The corporation had the bridge inspected.”","make + somebody + bare infinitive (force) and let + somebody + bare infinitive (allow): “The instructor made the class rewrite it; they let visitors take photographs.”","get + somebody + to-infinitive (persuade): “We got a specialist to scrutinise the data.”","Contrast with the passive: “have sth done” stresses that you arranged the service, not merely that it happened to the object.","Watch the participle: it is “I had my vehicle repaired”, never “I had my vehicle repair”."] },
+      { h: "The subjunctive", b: ["After suggest, recommend, insist, demand + that, use the base verb for every subject: “The committee recommended that the regulation be revised.”","The third person takes no -s: “The report insists that she assume responsibility.” (not assumes)","After It is essential/vital/important that, also use the base verb: “It is essential that every candidate take the test.”","The negative uses not + base, with no auxiliary: “They demanded that he not intervene.”","This is formal; in casual English many speakers add should (“…that she should assume…”), so save the bare subjunctive for academic writing."] },
     ],
     quiz: [
       { q: "In the report, the upward trend was ___ steady that forecasters barely adjusted their models.", opts: ["such","so","very","too"], a: 1, ex: "Before an adjective (steady) use ‘so … that’ to introduce a result. ‘such’ needs a noun, and ‘very/too’ cannot lead into a that-result clause." },
