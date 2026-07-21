@@ -42,6 +42,149 @@ export const VOCAB = [
   "theme": "uk_health"
  },
  {
+  "w": "a blessing in disguise",
+  "pos": "idiom",
+  "def": "something that seems bad at first but turns out to be good",
+  "defId": "sesuatu yang tampak buruk pada awalnya tapi ternyata membawa kebaikan",
+  "ex": "Losing that job was a blessing in disguise because it pushed me to start my own business.",
+  "exId": "Kehilangan pekerjaan itu ternyata berkah tersembunyi karena mendorong saya memulai usaha sendiri.",
+  "colloc": [
+   "unexpected positive outcome",
+   "'turned out to be a blessing in disguise'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "a double-edged sword",
+  "pos": "idiom",
+  "def": "something that has both good and bad effects",
+  "defId": "sesuatu yang punya sisi baik sekaligus sisi buruk; bermata dua",
+  "ex": "Social media is a double-edged sword: it connects people but can harm mental health.",
+  "exId": "Media sosial ibarat pedang bermata dua: menghubungkan orang tapi bisa merusak kesehatan mental.",
+  "colloc": [
+   "mixed pros and cons",
+   "'a double-edged sword'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "a far cry from",
+  "pos": "idiom",
+  "def": "very different from something, usually worse",
+  "defId": "sangat berbeda dari sesuatu, biasanya lebih buruk",
+  "ex": "This tiny flat is a far cry from the house we had before.",
+  "exId": "Apartemen mungil ini sangat jauh berbeda dari rumah yang dulu kami miliki.",
+  "colloc": [
+   "big difference",
+   "'a far cry from what'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "a game changer",
+  "pos": "idiom",
+  "def": "something that significantly changes a situation",
+  "defId": "sesuatu yang mengubah keadaan secara signifikan; pembawa perubahan besar",
+  "ex": "The smartphone was a game changer for how we communicate.",
+  "exId": "Telepon pintar adalah pengubah besar bagi cara kita berkomunikasi.",
+  "colloc": [
+   "major innovation",
+   "'a real game changer'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "a grey area",
+  "pos": "idiom",
+  "def": "a situation where the rules are unclear or something is not clearly right or wrong",
+  "defId": "situasi abu-abu; hal yang tidak jelas benar atau salahnya",
+  "ex": "Using someone's work without paying is a grey area in the law.",
+  "exId": "Menggunakan karya orang lain tanpa membayar adalah wilayah abu-abu dalam hukum.",
+  "colloc": [
+   "unclear rules",
+   "'it's a grey area'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "a mixed blessing",
+  "pos": "idiom",
+  "def": "something that has both advantages and disadvantages",
+  "defId": "sesuatu yang membawa keuntungan sekaligus kerugian",
+  "ex": "Working from home is a mixed blessing: it's convenient but can feel lonely.",
+  "exId": "Bekerja dari rumah punya sisi baik dan buruk: praktis tapi bisa terasa sepi.",
+  "colloc": [
+   "good and bad sides",
+   "'a mixed blessing'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "a piece of cake",
+  "pos": "idiom",
+  "def": "something very easy to do",
+  "defId": "sesuatu yang sangat mudah dilakukan; gampang sekali",
+  "ex": "I was nervous about the driving test, but it turned out to be a piece of cake.",
+  "exId": "Saya gugup menghadapi ujian mengemudi, tapi ternyata gampang sekali.",
+  "colloc": [
+   "easy task",
+   "'it was a piece of cake'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "a rule of thumb",
+  "pos": "idiom",
+  "def": "a general guideline based on experience rather than exact rules",
+  "defId": "pedoman umum berdasarkan pengalaman, bukan aturan pasti",
+  "ex": "As a rule of thumb, you should drink about two litres of water a day.",
+  "exId": "Sebagai patokan umum, kamu sebaiknya minum sekitar dua liter air sehari.",
+  "colloc": [
+   "practical guideline",
+   "'as a rule of thumb'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "a slippery slope",
+  "pos": "idiom",
+  "def": "a course of action that is likely to lead to something bad",
+  "defId": "jalan yang berbahaya karena bisa berujung pada hal buruk",
+  "ex": "Skipping one lecture can be a slippery slope to falling behind completely.",
+  "exId": "Melewatkan satu kuliah bisa menjadi awal berbahaya yang membuat kita tertinggal jauh.",
+  "colloc": [
+   "risky progression",
+   "'a slippery slope towards'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "a stone's throw away",
+  "pos": "idiom",
+  "def": "very close in distance",
+  "defId": "sangat dekat jaraknya; hanya beberapa langkah",
+  "ex": "My new flat is just a stone's throw away from the train station.",
+  "exId": "Apartemen baru saya hanya sepelemparan batu dari stasiun kereta.",
+  "colloc": [
+   "short distance",
+   "'a stone's throw from'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "a wake-up call",
+  "pos": "idiom",
+  "def": "an event that makes people realise they must act on a problem",
+  "defId": "peristiwa yang menyadarkan orang bahwa mereka harus bertindak",
+  "ex": "The health scare was a wake-up call for him to start exercising.",
+  "exId": "Masalah kesehatan itu menjadi peringatan baginya untuk mulai berolahraga.",
+  "colloc": [
+   "a warning event",
+   "'serve as a wake-up call'"
+  ],
+  "theme": "idioms"
+ },
+ {
   "w": "A&E",
   "pos": "noun",
   "def": "Accident and Emergency; the hospital department that treats serious injuries and emergencies.",
@@ -54,6 +197,20 @@ export const VOCAB = [
    "the A&E waiting room"
   ],
   "theme": "uk_health"
+ },
+ {
+  "w": "abate",
+  "pos": "verb",
+  "def": "(of pain or symptoms) to become less intense or severe",
+  "defId": "(tentang nyeri atau gejala) mereda atau berkurang intensitasnya",
+  "ex": "The doctor advised her to rest until the swelling began to abate.",
+  "exId": "Dokter menyarankannya untuk beristirahat sampai pembengkakan mulai mereda.",
+  "colloc": [
+   "the pain abated",
+   "abate gradually",
+   "symptoms abate"
+  ],
+  "theme": "health"
  },
  {
   "w": "abbreviation",
@@ -153,6 +310,20 @@ export const VOCAB = [
   "theme": "philosophy"
  },
  {
+  "w": "absorb",
+  "pos": "verb",
+  "def": "to take in or soak up a substance, gas or energy.",
+  "defId": "menyerap suatu zat, gas, atau energi.",
+  "ex": "Wetlands absorb excess rainwater and reduce the risk of flooding downstream.",
+  "exId": "Lahan basah menyerap kelebihan air hujan dan mengurangi risiko banjir di hilir.",
+  "colloc": [
+   "absorb carbon dioxide",
+   "absorb pollutants",
+   "absorb water"
+  ],
+  "theme": "environment"
+ },
+ {
   "w": "abstain",
   "pos": "verb",
   "def": "to choose not to do or have something, especially something harmful",
@@ -192,6 +363,19 @@ export const VOCAB = [
    "purely abstract"
   ],
   "theme": "arts"
+ },
+ {
+  "w": "abstraction",
+  "pos": "noun",
+  "def": "a general idea or quality considered apart from any specific object or instance",
+  "defId": "abstraksi; hal abstrak",
+  "ex": "Justice remains an abstraction until it is applied to real cases.",
+  "exId": "Keadilan tetaplah sebuah abstraksi sampai diterapkan pada kasus nyata.",
+  "colloc": [
+   "a mere abstraction",
+   "level of abstraction"
+  ],
+  "theme": "academic"
  },
  {
   "w": "abundant",
@@ -234,6 +418,20 @@ export const VOCAB = [
    "accelerate the process"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "acceleration",
+  "pos": "n",
+  "def": "the rate at which the speed of an object increases",
+  "defId": "laju bertambahnya kecepatan suatu benda",
+  "ex": "Gravity gives a falling object a constant acceleration.",
+  "exId": "Gravitasi memberi benda yang jatuh percepatan yang konstan.",
+  "colloc": [
+   "constant acceleration",
+   "rate of acceleration",
+   "acceleration due to gravity"
+  ],
+  "theme": "science"
  },
  {
   "w": "accelerator",
@@ -332,6 +530,46 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "accord",
+  "pos": "noun",
+  "def": "a formal agreement or treaty between parties or countries",
+  "defId": "kesepakatan; perjanjian resmi antara pihak-pihak atau negara",
+  "ex": "After months of negotiation, the rival sides finally reached a peace accord.",
+  "exId": "Setelah berbulan-bulan bernegosiasi, pihak-pihak yang berseteru akhirnya mencapai kesepakatan damai.",
+  "colloc": [
+   "peace accord",
+   "reach an accord"
+  ],
+  "theme": "politics"
+ },
+ {
+  "w": "accordingly",
+  "pos": "adverb",
+  "def": "in a way that suits the situation; as a result",
+  "defId": "sesuai dengan itu",
+  "ex": "The rules have changed, and staff must act accordingly.",
+  "exId": "Aturannya telah berubah, dan staf harus bertindak sesuai dengan itu.",
+  "colloc": [
+   "act accordingly",
+   "accordingly, ..."
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "account for",
+  "pos": "phrasal verb",
+  "def": "to be the explanation or cause of something",
+  "defId": "menjelaskan penyebab; menjadi penyebab",
+  "ex": "Rising fuel prices account for much of the recent inflation.",
+  "exId": "Naiknya harga bahan bakar menjadi penyebab sebagian besar inflasi baru-baru ini.",
+  "colloc": [
+   "account for the difference",
+   "account for a rise",
+   "account for the majority"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "accountability",
   "pos": "noun",
   "def": "the fact of being responsible for your decisions and having to explain them to the public",
@@ -344,6 +582,19 @@ export const VOCAB = [
    "lack of accountability"
   ],
   "theme": "politics"
+ },
+ {
+  "w": "accountant",
+  "pos": "noun",
+  "def": "a person whose job is to keep or inspect financial records",
+  "defId": "akuntan",
+  "ex": "Our accountant prepares the company's tax return each year.",
+  "exId": "Akuntan kami menyiapkan surat pemberitahuan pajak perusahaan setiap tahun.",
+  "colloc": [
+   "chartered accountant",
+   "hire an accountant"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "accreditation",
@@ -359,6 +610,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "acculturate",
+  "pos": "verb",
+  "def": "to adopt the cultural traits of another group through prolonged contact",
+  "defId": "mengadopsi ciri budaya kelompok lain melalui kontak yang berkepanjangan",
+  "ex": "Second-generation immigrants often acculturate faster than their parents do.",
+  "exId": "Imigran generasi kedua sering berakulturasi lebih cepat daripada orang tua mereka.",
+  "colloc": [
+   "acculturate quickly",
+   "acculturate to a new society",
+   "fail to acculturate"
+  ],
+  "theme": "globalisation"
+ },
+ {
   "w": "accumulate",
   "pos": "verb",
   "def": "to gradually gather or increase in amount over time",
@@ -371,6 +636,33 @@ export const VOCAB = [
    "accumulate data"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "accuracy",
+  "pos": "noun",
+  "def": "the quality of being exact or correct, without mistakes",
+  "defId": "akurasi; ketepatan",
+  "ex": "The accuracy of the forecast depends on the quality of the data collected.",
+  "exId": "Akurasi ramalan itu bergantung pada kualitas data yang dikumpulkan.",
+  "colloc": [
+   "a high degree of accuracy",
+   "improve accuracy"
+  ],
+  "theme": "numbers"
+ },
+ {
+  "w": "ache",
+  "pos": "noun",
+  "def": "a continuous or prolonged dull pain in a part of the body",
+  "defId": "rasa nyeri tumpul yang terus-menerus pada bagian tubuh",
+  "ex": "After the long hike, she had a dull ache in her lower back that lasted for days.",
+  "exId": "Setelah pendakian panjang, ia merasakan nyeri tumpul di punggung bawahnya yang berlangsung berhari-hari.",
+  "colloc": [
+   "a dull ache",
+   "muscle ache",
+   "aches and pains"
+  ],
+  "theme": "health"
  },
  {
   "w": "acid",
@@ -497,6 +789,20 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "acrid",
+  "pos": "adjective",
+  "def": "having a sharp, bitter smell or taste that stings",
+  "defId": "menyengat; berbau atau berasa tajam dan pahit yang menusuk",
+  "ex": "The acrid smell of burning plastic filled the corridor.",
+  "exId": "Bau menyengat plastik terbakar memenuhi lorong itu.",
+  "colloc": [
+   "acrid smoke",
+   "acrid smell",
+   "acrid taste"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "acronym",
   "pos": "noun",
   "def": "a word formed from the first letters of a series of words",
@@ -537,6 +843,33 @@ export const VOCAB = [
   "theme": "politics"
  },
  {
+  "w": "actuary",
+  "pos": "noun",
+  "def": "a person who calculates insurance risks and premiums using statistics",
+  "defId": "aktuaris",
+  "ex": "The actuary estimated the likelihood of the claims being made.",
+  "exId": "Aktuaris itu memperkirakan kemungkinan klaim akan diajukan.",
+  "colloc": [
+   "qualified actuary",
+   "actuary's report"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "acumen",
+  "pos": "noun",
+  "def": "the ability to make good judgements and quick, effective decisions",
+  "defId": "ketajaman pikiran; kemampuan membuat penilaian yang baik dan keputusan yang cepat serta tepat",
+  "ex": "Her business acumen turned a small shop into a national chain.",
+  "exId": "Ketajaman bisnisnya mengubah sebuah toko kecil menjadi jaringan nasional.",
+  "colloc": [
+   "business acumen",
+   "political acumen",
+   "sharp acumen"
+  ],
+  "theme": "psychology"
+ },
+ {
   "w": "acute",
   "pos": "adjective",
   "def": "of an illness, severe and coming on suddenly rather than lasting long",
@@ -548,6 +881,20 @@ export const VOCAB = [
    "acute condition"
   ],
   "theme": "health"
+ },
+ {
+  "w": "adamant",
+  "pos": "adjective",
+  "def": "determined not to change your opinion or decision",
+  "defId": "teguh dan bersikeras tidak mau mengubah pendapat",
+  "ex": "She was adamant that students should be allowed more freedom in choosing subjects.",
+  "exId": "Dia bersikeras bahwa siswa harus diberi lebih banyak kebebasan memilih mata pelajaran.",
+  "colloc": [
+   "remain adamant",
+   "adamant that",
+   "absolutely adamant"
+  ],
+  "theme": "opinions"
  },
  {
   "w": "adapt",
@@ -590,6 +937,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "add-on",
+  "pos": "noun",
+  "def": "an optional extra component or feature that can be attached to a main product",
+  "defId": "komponen atau fitur tambahan opsional yang dapat dipasang pada produk utama",
+  "ex": "The premium add-on unlocks extra storage and priority support.",
+  "exId": "Add-on premium itu membuka ruang penyimpanan tambahan dan dukungan prioritas.",
+  "colloc": [
+   "optional add-on",
+   "browser add-on",
+   "paid add-on"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "addiction",
   "pos": "noun",
   "def": "a strong need to keep doing or using something that is hard to stop",
@@ -604,6 +965,18 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "additionally",
+  "pos": "adverb",
+  "def": "as an extra factor or circumstance; also",
+  "defId": "selain itu",
+  "ex": "The scheme creates jobs; additionally, it boosts local tourism.",
+  "exId": "Skema itu menciptakan lapangan kerja; selain itu, ia mendorong pariwisata lokal.",
+  "colloc": [
+   "additionally, ..."
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "additive",
   "pos": "noun",
   "def": "a substance added to food to improve its taste, colour or shelf life",
@@ -616,6 +989,45 @@ export const VOCAB = [
    "chemical additive"
   ],
   "theme": "food"
+ },
+ {
+  "w": "adhesive",
+  "pos": "noun",
+  "def": "a substance used to make things stick firmly together",
+  "defId": "perekat",
+  "ex": "A strong adhesive will bond the tiles to the floor.",
+  "exId": "Perekat yang kuat akan merekatkan ubin ke lantai.",
+  "colloc": [
+   "strong adhesive",
+   "apply adhesive"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "adjourn",
+  "pos": "verb",
+  "def": "to stop a meeting or trial for a period of time",
+  "defId": "menunda atau menskors sidang atau rapat untuk sementara",
+  "ex": "The judge decided to adjourn the trial until the following morning.",
+  "exId": "Hakim memutuskan untuk menunda persidangan hingga keesokan paginya.",
+  "colloc": [
+   "adjourn the trial",
+   "adjourn a hearing"
+  ],
+  "theme": "law"
+ },
+ {
+  "w": "adjudicate",
+  "pos": "verb",
+  "def": "to act as a judge and make an official decision about a dispute",
+  "defId": "mengadili; memutuskan suatu perselisihan secara resmi",
+  "ex": "An independent panel was appointed to adjudicate the dispute between the two firms.",
+  "exId": "Sebuah panel independen ditunjuk untuk mengadili perselisihan antara kedua perusahaan itu.",
+  "colloc": [
+   "adjudicate a dispute",
+   "adjudicate on"
+  ],
+  "theme": "law"
  },
  {
   "w": "adjust",
@@ -642,6 +1054,18 @@ export const VOCAB = [
    "administer a programme",
    "administer a test",
    "administer funds"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "admittedly",
+  "pos": "adverb",
+  "def": "used to acknowledge something is true before making a contrasting point",
+  "defId": "harus diakui",
+  "ex": "Admittedly, the study was small, but its findings are still significant.",
+  "exId": "Harus diakui, penelitian itu berskala kecil, tetapi temuannya tetap penting.",
+  "colloc": [
+   "admittedly, ..."
   ],
   "theme": "academic"
  },
@@ -752,6 +1176,20 @@ export const VOCAB = [
    "aerobic capacity"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "aesthete",
+  "pos": "noun",
+  "def": "a person who has a deep appreciation of beauty and art",
+  "defId": "orang yang memiliki apresiasi mendalam terhadap keindahan dan seni",
+  "ex": "A committed aesthete, he furnished his home with nothing but hand-crafted objects.",
+  "exId": "Sebagai penikmat keindahan sejati, ia menghias rumahnya hanya dengan benda-benda buatan tangan.",
+  "colloc": [
+   "a true aesthete",
+   "refined aesthete",
+   "the tastes of an aesthete"
+  ],
+  "theme": "arts"
  },
  {
   "w": "aesthetic",
@@ -889,6 +1327,20 @@ export const VOCAB = [
   "theme": "money"
  },
  {
+  "w": "affordability",
+  "pos": "noun",
+  "def": "The extent to which something is cheap enough for people to buy.",
+  "defId": "Keterjangkauan; sejauh mana sesuatu cukup murah untuk dibeli orang.",
+  "ex": "Rising prices have worsened housing affordability for young families.",
+  "exId": "Kenaikan harga telah memperburuk keterjangkauan perumahan bagi keluarga muda.",
+  "colloc": [
+   "housing affordability",
+   "an affordability crisis",
+   "improve affordability"
+  ],
+  "theme": "economy"
+ },
+ {
   "w": "affordable",
   "pos": "adjective",
   "def": "cheap enough that most people are able to pay for it",
@@ -972,6 +1424,20 @@ export const VOCAB = [
   "theme": "uk_social"
  },
  {
+  "w": "aftertaste",
+  "pos": "noun",
+  "def": "the taste that lingers in the mouth after eating or drinking something",
+  "defId": "rasa yang masih tertinggal di mulut setelah makan atau minum sesuatu",
+  "ex": "The coffee was pleasant but left a slightly bitter aftertaste.",
+  "exId": "Kopi itu enak tetapi meninggalkan sedikit rasa pahit di lidah.",
+  "colloc": [
+   "a bitter aftertaste",
+   "a pleasant aftertaste",
+   "leave an aftertaste"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "age-old",
   "pos": "adjective",
   "def": "having existed for a very long time",
@@ -997,6 +1463,20 @@ export const VOCAB = [
    "cope with an ageing population"
   ],
   "theme": "society"
+ },
+ {
+  "w": "agenda",
+  "pos": "noun",
+  "def": "A list of matters to be discussed or dealt with at a meeting.",
+  "defId": "agenda; daftar hal-hal yang akan dibahas atau ditangani dalam suatu rapat",
+  "ex": "The first item on the agenda is next year's recruitment plan.",
+  "exId": "Butir pertama dalam agenda adalah rencana perekrutan tahun depan.",
+  "colloc": [
+   "on the agenda",
+   "set the agenda",
+   "a packed agenda"
+  ],
+  "theme": "work"
  },
  {
   "w": "aggravate",
@@ -1038,6 +1518,20 @@ export const VOCAB = [
    "the aggrieved party"
   ],
   "theme": "emotion"
+ },
+ {
+  "w": "agile",
+  "pos": "adjective",
+  "def": "describing a flexible working method based on quick, incremental development and adaptation",
+  "defId": "menggambarkan metode kerja fleksibel berbasis pengembangan cepat dan bertahap",
+  "ex": "Adopting an agile approach let the team ship features faster and respond to change.",
+  "exId": "Menerapkan pendekatan tangkas memungkinkan tim merilis fitur lebih cepat dan menanggapi perubahan.",
+  "colloc": [
+   "agile methodology",
+   "agile approach",
+   "agile team"
+  ],
+  "theme": "business"
  },
  {
   "w": "agility",
@@ -1094,6 +1588,19 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "ahead of the curve",
+  "pos": "idiom",
+  "def": "more advanced or modern than others",
+  "defId": "lebih maju atau lebih cepat daripada yang lain; selangkah lebih depan",
+  "ex": "That company stays ahead of the curve by investing heavily in research.",
+  "exId": "Perusahaan itu tetap selangkah lebih maju dengan berinvestasi besar dalam riset.",
+  "colloc": [
+   "being innovative",
+   "'stay ahead of the curve'"
+  ],
+  "theme": "idioms"
+ },
+ {
   "w": "aid",
   "pos": "noun",
   "def": "money, food or other help given to countries or people in need",
@@ -1103,6 +1610,20 @@ export const VOCAB = [
   "colloc": [
    "foreign aid",
    "provide aid"
+  ],
+  "theme": "globalisation"
+ },
+ {
+  "w": "aid-dependent",
+  "pos": "adjective",
+  "def": "relying heavily on financial help from other countries or organisations to function",
+  "defId": "sangat bergantung pada bantuan keuangan dari negara atau organisasi lain untuk berfungsi",
+  "ex": "Decades of conflict left the country aid-dependent and unable to fund basic services.",
+  "exId": "Puluhan tahun konflik membuat negara itu bergantung pada bantuan dan tak mampu mendanai layanan dasar.",
+  "colloc": [
+   "aid-dependent economy",
+   "become aid-dependent",
+   "aid-dependent nation"
   ],
   "theme": "globalisation"
  },
@@ -1119,6 +1640,20 @@ export const VOCAB = [
    "treat an ailment"
   ],
   "theme": "health"
+ },
+ {
+  "w": "airborne",
+  "pos": "adjective",
+  "def": "carried or transported through the air.",
+  "defId": "terbawa atau tersebar melalui udara.",
+  "ex": "Airborne pollutants from the factory can travel for many kilometres.",
+  "exId": "Polutan yang terbawa udara dari pabrik itu dapat berpindah hingga bermil-mil jauhnya.",
+  "colloc": [
+   "airborne particles",
+   "airborne pollutants",
+   "airborne contamination"
+  ],
+  "theme": "environment"
  },
  {
   "w": "aircraft",
@@ -1162,6 +1697,20 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "airy",
+  "pos": "adjective",
+  "def": "having plenty of light, space and fresh air",
+  "defId": "lapang dan berudara segar",
+  "ex": "The renovated loft is bright and airy, with tall windows on three sides.",
+  "exId": "Loteng yang direnovasi itu terang dan lapang, dengan jendela tinggi di tiga sisi.",
+  "colloc": [
+   "an airy room",
+   "a light and airy space",
+   "an airy interior"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "aisle",
   "pos": "noun",
   "def": "a long passage between shelves in a shop or supermarket",
@@ -1187,6 +1736,46 @@ export const VOCAB = [
    "prefer an aisle seat"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "akin",
+  "pos": "adjective",
+  "def": "similar to or having some of the same qualities as something",
+  "defId": "mirip dengan atau memiliki sifat yang sama dengan sesuatu",
+  "ex": "Learning a language is akin to learning a musical instrument.",
+  "exId": "Belajar bahasa itu mirip dengan belajar alat musik.",
+  "colloc": [
+   "akin to",
+   "something akin"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "albeit",
+  "pos": "conjunction",
+  "def": "although; even though (introducing a qualifying phrase)",
+  "defId": "meskipun",
+  "ex": "The reforms brought progress, albeit at a slow pace.",
+  "exId": "Reformasi itu membawa kemajuan, meskipun dengan laju yang lambat.",
+  "colloc": [
+   "albeit slowly",
+   "albeit ..."
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "alertness",
+  "pos": "noun",
+  "def": "the state of being watchful and quick to notice or respond to things",
+  "defId": "kewaspadaan; keadaan siaga dan cepat menyadari atau menanggapi sesuatu",
+  "ex": "Air traffic controllers must maintain constant alertness throughout their shift.",
+  "exId": "Pengatur lalu lintas udara harus mempertahankan kewaspadaan terus-menerus sepanjang giliran kerja mereka.",
+  "colloc": [
+   "mental alertness",
+   "maintain alertness",
+   "heightened alertness"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "algorithm",
@@ -1228,6 +1817,32 @@ export const VOCAB = [
    "sense of alienation"
   ],
   "theme": "society"
+ },
+ {
+  "w": "align",
+  "pos": "verb",
+  "def": "to be in agreement with, or to arrange things so they match",
+  "defId": "sejalan atau selaras dengan; menyelaraskan",
+  "ex": "The company's goals align closely with the needs of its customers.",
+  "exId": "Tujuan perusahaan itu sangat sejalan dengan kebutuhan pelanggannya.",
+  "colloc": [
+   "align with",
+   "closely aligned"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "alike",
+  "pos": "adjective",
+  "def": "similar to one another in appearance or nature",
+  "defId": "serupa satu sama lain dalam penampilan atau sifat",
+  "ex": "The twin cities look remarkably alike despite being in different countries.",
+  "exId": "Kedua kota kembar itu tampak sangat serupa meski berada di negara yang berbeda.",
+  "colloc": [
+   "look alike",
+   "treat alike"
+  ],
+  "theme": "academic"
  },
  {
   "w": "alkaline",
@@ -1281,6 +1896,20 @@ export const VOCAB = [
    "allege that",
    "alleged misconduct",
    "allege wrongdoing"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "allegedly",
+  "pos": "adverb",
+  "def": "used to say something is claimed to be true without it being proven",
+  "defId": "diduga; konon",
+  "ex": "The company allegedly ignored safety warnings for years.",
+  "exId": "Perusahaan itu diduga mengabaikan peringatan keselamatan selama bertahun-tahun.",
+  "colloc": [
+   "allegedly involved",
+   "allegedly responsible",
+   "allegedly false"
   ],
   "theme": "academic"
  },
@@ -1407,6 +2036,19 @@ export const VOCAB = [
   "theme": "money"
  },
  {
+  "w": "alloy",
+  "pos": "noun",
+  "def": "a metal made by combining two or more metallic elements",
+  "defId": "paduan logam",
+  "ex": "Bronze is an alloy of copper and tin.",
+  "exId": "Perunggu adalah paduan logam dari tembaga dan timah.",
+  "colloc": [
+   "metal alloy",
+   "light alloy"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "allude",
   "pos": "verb",
   "def": "to refer to something in an indirect way, without mentioning it openly",
@@ -1488,6 +2130,18 @@ export const VOCAB = [
   "theme": "fashion"
  },
  {
+  "w": "alternatively",
+  "pos": "adverb",
+  "def": "used to suggest another possibility or option",
+  "defId": "sebagai alternatif",
+  "ex": "Governments could raise taxes; alternatively, they could cut spending.",
+  "exId": "Pemerintah dapat menaikkan pajak; sebagai alternatif, mereka dapat memangkas pengeluaran.",
+  "colloc": [
+   "alternatively, ..."
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "altitude",
   "pos": "noun",
   "def": "the height of an object or place above sea level, especially of an aircraft in flight",
@@ -1515,6 +2169,19 @@ export const VOCAB = [
   "theme": "personality"
  },
  {
+  "w": "aluminium",
+  "pos": "noun",
+  "def": "a lightweight silvery metal that resists corrosion",
+  "defId": "aluminium",
+  "ex": "The ladder is made of aluminium, so it's light but strong.",
+  "exId": "Tangga itu terbuat dari aluminium, jadi ringan tapi kuat.",
+  "colloc": [
+   "aluminium foil",
+   "lightweight aluminium"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "alumnus",
   "pos": "noun",
   "def": "a former student of a particular school, college, or university",
@@ -1540,6 +2207,33 @@ export const VOCAB = [
    "amateur level"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "ambassador",
+  "pos": "noun",
+  "def": "a senior official who represents their country in a foreign state",
+  "defId": "duta besar; pejabat senior yang mewakili negaranya di negara asing",
+  "ex": "The new ambassador presented her credentials to the host government.",
+  "exId": "Duta besar baru itu menyerahkan surat kepercayaannya kepada pemerintah tuan rumah.",
+  "colloc": [
+   "appoint an ambassador",
+   "ambassador to France"
+  ],
+  "theme": "politics"
+ },
+ {
+  "w": "amber",
+  "pos": "adjective",
+  "def": "a warm yellowish-orange colour",
+  "defId": "kuning keemasan; warna ambar (jingga kekuningan)",
+  "ex": "The street lamps cast a soft amber glow over the pavement.",
+  "exId": "Lampu jalan memancarkan cahaya kuning keemasan yang lembut ke trotoar.",
+  "colloc": [
+   "amber glow",
+   "amber light",
+   "warm amber"
+  ],
+  "theme": "colours"
  },
  {
   "w": "ambiguity",
@@ -1595,6 +2289,34 @@ export const VOCAB = [
    "ambivalence towards"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "ambivalent",
+  "pos": "adjective",
+  "def": "having mixed or conflicting feelings about something",
+  "defId": "memiliki perasaan yang mendua atau bertentangan tentang sesuatu",
+  "ex": "I feel rather ambivalent about globalisation, as it brings both benefits and harm.",
+  "exId": "Saya cukup mendua soal globalisasi, karena membawa manfaat sekaligus kerugian.",
+  "colloc": [
+   "ambivalent about",
+   "feel ambivalent",
+   "deeply ambivalent"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "amble",
+  "pos": "verb",
+  "def": "to walk at a slow, relaxed pace without hurry",
+  "defId": "berjalan santai tanpa tergesa",
+  "ex": "They ambled through the old town, stopping at every little shop.",
+  "exId": "Mereka berjalan santai menyusuri kota tua, berhenti di setiap toko kecil.",
+  "colloc": [
+   "amble along",
+   "amble slowly",
+   "amble down the lane"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "ambulance",
@@ -1708,6 +2430,19 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "amnesty",
+  "pos": "noun",
+  "def": "an official decision to pardon people or forgive past offences",
+  "defId": "amnesti; pengampunan resmi atas pelanggaran di masa lalu",
+  "ex": "The government offered an amnesty to anyone who surrendered illegal weapons.",
+  "exId": "Pemerintah menawarkan amnesti kepada siapa pun yang menyerahkan senjata ilegal.",
+  "colloc": [
+   "grant an amnesty",
+   "general amnesty"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "amoral",
   "pos": "adjective",
   "def": "lacking any sense of, or concern with, right and wrong",
@@ -1732,6 +2467,19 @@ export const VOCAB = [
    "debt amortisation"
   ],
   "theme": "business"
+ },
+ {
+  "w": "amount",
+  "pos": "noun",
+  "def": "how much of something there is, especially when it cannot be counted individually",
+  "defId": "jumlah; kuantitas",
+  "ex": "The amount of waste sent to landfill dropped significantly after 2015.",
+  "exId": "Jumlah sampah yang dikirim ke tempat pembuangan akhir turun signifikan setelah tahun 2015.",
+  "colloc": [
+   "a large amount",
+   "the total amount"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "amphibian",
@@ -1776,6 +2524,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "amplitude",
+  "pos": "n",
+  "def": "the maximum extent of a vibration or wave, measured from its resting position",
+  "defId": "besar maksimum getaran atau gelombang, diukur dari posisi diamnya",
+  "ex": "A louder sound corresponds to a wave of greater amplitude.",
+  "exId": "Suara yang lebih keras berkaitan dengan gelombang beramplitudo lebih besar.",
+  "colloc": [
+   "wave amplitude",
+   "greater amplitude",
+   "amplitude of oscillation"
+  ],
+  "theme": "science"
+ },
+ {
   "w": "anaesthetic",
   "pos": "noun",
   "def": "a substance that causes loss of sensation, used during surgery",
@@ -1788,6 +2550,19 @@ export const VOCAB = [
    "under anaesthetic"
   ],
   "theme": "health"
+ },
+ {
+  "w": "analogous",
+  "pos": "adjective",
+  "def": "similar in a way that makes a comparison possible",
+  "defId": "serupa sehingga dapat diperbandingkan; analog",
+  "ex": "The human brain is often described as analogous to a powerful computer.",
+  "exId": "Otak manusia sering digambarkan analog dengan komputer yang canggih.",
+  "colloc": [
+   "analogous to",
+   "broadly analogous"
+  ],
+  "theme": "academic"
  },
  {
   "w": "analogy",
@@ -1887,6 +2662,33 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "anecdotal",
+  "pos": "adjective",
+  "def": "based on personal accounts rather than reliable research or data",
+  "defId": "berdasar cerita pribadi, bukan data",
+  "ex": "The evidence is largely anecdotal and cannot be generalised.",
+  "exId": "Buktinya sebagian besar berdasar cerita pribadi dan tidak dapat digeneralisasi.",
+  "colloc": [
+   "anecdotal evidence",
+   "purely anecdotal"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "angel investor",
+  "pos": "noun",
+  "def": "A wealthy individual who provides money to a startup in its early stages.",
+  "defId": "Investor malaikat; individu kaya yang mendanai perusahaan rintisan pada tahap awal.",
+  "ex": "An angel investor gave the founders their first hundred thousand dollars.",
+  "exId": "Seorang investor malaikat memberi para pendiri seratus ribu dolar pertama mereka.",
+  "colloc": [
+   "attract angel investors",
+   "an angel investor",
+   "angel investor funding"
+  ],
+  "theme": "economy"
+ },
+ {
   "w": "angling",
   "pos": "noun",
   "def": "the pastime of fishing with a rod, line, and hook",
@@ -1901,6 +2703,20 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "angst",
+  "pos": "noun",
+  "def": "a strong feeling of anxiety or emotional turmoil about life",
+  "defId": "kegalauan; perasaan cemas atau pergolakan emosi yang kuat tentang kehidupan",
+  "ex": "The novel vividly captures the angst of teenagers searching for identity.",
+  "exId": "Novel itu dengan gamblang menangkap kegalauan remaja yang mencari jati diri.",
+  "colloc": [
+   "teenage angst",
+   "existential angst",
+   "full of angst"
+  ],
+  "theme": "psychology"
+ },
+ {
   "w": "anguish",
   "pos": "noun",
   "def": "severe mental or physical suffering",
@@ -1912,6 +2728,20 @@ export const VOCAB = [
    "in anguish"
   ],
   "theme": "emotion"
+ },
+ {
+  "w": "angular",
+  "pos": "adjective",
+  "def": "having sharp corners and straight edges rather than curves",
+  "defId": "bersudut tajam; menyiku",
+  "ex": "The building had a striking angular design full of sharp corners.",
+  "exId": "Gedung itu memiliki desain bersudut tajam yang mencolok dengan banyak sudut lancip.",
+  "colloc": [
+   "angular shape",
+   "angular design",
+   "sharply angular"
+  ],
+  "theme": "colours"
  },
  {
   "w": "animated",
@@ -1941,6 +2771,19 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "annual",
+  "pos": "adjective",
+  "def": "happening once every year; yearly",
+  "defId": "tahunan; setiap tahun",
+  "ex": "The company publishes an annual review of its financial performance.",
+  "exId": "Perusahaan itu menerbitkan tinjauan tahunan atas kinerja keuangannya.",
+  "colloc": [
+   "annual event",
+   "annual growth"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "annual leave",
   "pos": "noun",
   "def": "the paid holiday that an employee is entitled to take each year",
@@ -1966,6 +2809,19 @@ export const VOCAB = [
    "annual report and accounts"
   ],
   "theme": "business"
+ },
+ {
+  "w": "annul",
+  "pos": "verb",
+  "def": "to declare officially that something such as a marriage or law no longer exists",
+  "defId": "membatalkan; menyatakan tidak berlaku secara resmi",
+  "ex": "The court agreed to annul the marriage on the grounds of fraud.",
+  "exId": "Pengadilan setuju untuk membatalkan pernikahan itu atas dasar penipuan.",
+  "colloc": [
+   "annul a marriage",
+   "annul a contract"
+  ],
+  "theme": "law"
  },
  {
   "w": "anomaly",
@@ -2008,6 +2864,19 @@ export const VOCAB = [
    "the film's antagonist"
   ],
   "theme": "film"
+ },
+ {
+  "w": "antecedent",
+  "pos": "noun",
+  "def": "a thing or event that comes before another and may have influenced it",
+  "defId": "pendahulu; hal yang mendahului",
+  "ex": "Historians trace the antecedents of the revolution back several decades.",
+  "exId": "Para sejarawan menelusuri pendahulu revolusi itu hingga beberapa dekade sebelumnya.",
+  "colloc": [
+   "historical antecedent",
+   "the antecedents of"
+  ],
+  "theme": "academic"
  },
  {
   "w": "anthem",
@@ -2064,6 +2933,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "antihero",
+  "pos": "noun",
+  "def": "a central character who lacks conventional heroic qualities such as morality or courage",
+  "defId": "tokoh utama yang tidak memiliki kualitas kepahlawanan konvensional seperti moralitas atau keberanian",
+  "ex": "Audiences were fascinated by the flawed antihero, a thief who was impossible not to like.",
+  "exId": "Penonton terpesona oleh antihero yang cacat itu, seorang pencuri yang mustahil untuk tidak disukai.",
+  "colloc": [
+   "flawed antihero",
+   "brooding antihero",
+   "the antihero of the story"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "antiquated",
   "pos": "adjective",
   "def": "old-fashioned or outdated; no longer suited to modern needs",
@@ -2103,6 +2986,19 @@ export const VOCAB = [
    "apply antiseptic"
   ],
   "theme": "health"
+ },
+ {
+  "w": "antithesis",
+  "pos": "noun",
+  "def": "a direct opposite, or the sharp contrast between two ideas",
+  "defId": "antitesis; kebalikan langsung",
+  "ex": "His calm response was the antithesis of the panic around him.",
+  "exId": "Tanggapannya yang tenang adalah antitesis dari kepanikan di sekelilingnya.",
+  "colloc": [
+   "the antithesis of",
+   "stark antithesis"
+  ],
+  "theme": "academic"
  },
  {
   "w": "antonym",
@@ -2213,6 +3109,20 @@ export const VOCAB = [
   "theme": "fashion"
  },
  {
+  "w": "apparently",
+  "pos": "adverb",
+  "def": "based on what is known or seen, though it may not be certain",
+  "defId": "rupanya; tampaknya",
+  "ex": "Apparently, the results have not yet been independently verified.",
+  "exId": "Rupanya, hasil tersebut belum diverifikasi secara independen.",
+  "colloc": [
+   "apparently random",
+   "apparently unaware",
+   "quite apparently"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "appeal",
   "pos": "noun",
   "def": "a formal request to a higher court to change a legal decision",
@@ -2227,6 +3137,34 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "appear to",
+  "pos": "verb",
+  "def": "to seem to be true based on what can be observed",
+  "defId": "tampaknya; terlihat",
+  "ex": "The data appear to support the researcher's original hypothesis.",
+  "exId": "Data tersebut tampaknya mendukung hipotesis awal peneliti.",
+  "colloc": [
+   "appear to suggest",
+   "appear to be",
+   "appear to indicate"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "appetiser",
+  "pos": "noun",
+  "def": "a small dish of food or a drink served before the main part of a meal to stimulate the appetite",
+  "defId": "hidangan pembuka kecil yang disajikan sebelum menu utama untuk membangkitkan selera makan",
+  "ex": "We shared a plate of grilled prawns as an appetiser before our steaks arrived.",
+  "exId": "Kami berbagi sepiring udang bakar sebagai hidangan pembuka sebelum steik kami datang.",
+  "colloc": [
+   "a light appetiser",
+   "order an appetiser",
+   "serve as an appetiser"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "appetising",
   "pos": "adjective",
   "def": "looking or smelling good enough to make you want to eat.",
@@ -2238,6 +3176,47 @@ export const VOCAB = [
    "look appetising"
   ],
   "theme": "food"
+ },
+ {
+  "w": "appliance",
+  "pos": "noun",
+  "def": "a machine, usually electrical, used in the home for tasks such as cooking or cleaning",
+  "defId": "peralatan rumah tangga (listrik)",
+  "ex": "Every kitchen appliance, from the fridge to the kettle, was included in the rent.",
+  "exId": "Setiap peralatan dapur, dari kulkas hingga ketel, sudah termasuk dalam harga sewa.",
+  "colloc": [
+   "kitchen appliance",
+   "household appliance",
+   "electrical appliance"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "applicable",
+  "pos": "adjective",
+  "def": "able to be used in a particular situation or case",
+  "defId": "dapat diterapkan",
+  "ex": "These findings are applicable to a wide range of industries.",
+  "exId": "Temuan ini dapat diterapkan pada berbagai industri.",
+  "colloc": [
+   "widely applicable",
+   "directly applicable"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "applicant",
+  "pos": "noun",
+  "def": "A person who formally applies for a job, place, or position.",
+  "defId": "pelamar; orang yang secara resmi mengajukan lamaran untuk suatu pekerjaan atau posisi",
+  "ex": "Only three applicants were shortlisted for the final round of interviews.",
+  "exId": "Hanya tiga pelamar yang masuk daftar pendek untuk babak wawancara terakhir.",
+  "colloc": [
+   "a suitable applicant",
+   "shortlist applicants",
+   "the successful applicant"
+  ],
+  "theme": "work"
  },
  {
   "w": "appointment",
@@ -2268,6 +3247,20 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "appraise",
+  "pos": "verb",
+  "def": "To formally assess the performance, value, or quality of someone or something.",
+  "defId": "menilai; mengevaluasi secara resmi kinerja, nilai, atau kualitas seseorang atau sesuatu",
+  "ex": "Managers are expected to appraise each team member's performance twice a year.",
+  "exId": "Para manajer diharapkan menilai kinerja setiap anggota tim dua kali dalam setahun.",
+  "colloc": [
+   "appraise performance",
+   "appraise staff",
+   "critically appraise"
+  ],
+  "theme": "work"
+ },
+ {
   "w": "appreciable",
   "pos": "adjective",
   "def": "large or noticeable enough to have an effect or be measured",
@@ -2280,6 +3273,20 @@ export const VOCAB = [
    "appreciable effect"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "appreciate",
+  "pos": "verb",
+  "def": "to recognise the good qualities or value of something",
+  "defId": "menghargai atau memahami nilai baik dari sesuatu",
+  "ex": "As I get older, I increasingly appreciate the value of a good education.",
+  "exId": "Seiring bertambahnya usia, saya semakin menghargai pentingnya pendidikan yang baik.",
+  "colloc": [
+   "fully appreciate",
+   "appreciate the value",
+   "appreciate the importance"
+  ],
+  "theme": "opinions"
  },
  {
   "w": "appreciation",
@@ -2321,6 +3328,19 @@ export const VOCAB = [
   "theme": "emotion"
  },
  {
+  "w": "apprentice",
+  "pos": "noun",
+  "def": "a person who learns a skilled trade by working for a qualified employer",
+  "defId": "peserta magang",
+  "ex": "The apprentice learned carpentry from a master craftsman.",
+  "exId": "Peserta magang itu belajar pertukangan kayu dari seorang perajin ahli.",
+  "colloc": [
+   "young apprentice",
+   "take on an apprentice"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "apprenticeship",
   "pos": "noun",
   "def": "a period of time during which someone learns a skilled job by working alongside an experienced person",
@@ -2346,6 +3366,33 @@ export const VOCAB = [
    "seem approachable"
   ],
   "theme": "relationships"
+ },
+ {
+  "w": "approve",
+  "pos": "verb",
+  "def": "to have a positive opinion of something or to officially accept it",
+  "defId": "menyetujui atau memandang baik sesuatu",
+  "ex": "Not everyone will approve of the plan, but I think its benefits outweigh the costs.",
+  "exId": "Tidak semua orang akan menyetujui rencana itu, tetapi menurut saya manfaatnya melebihi biayanya.",
+  "colloc": [
+   "approve of",
+   "strongly approve",
+   "approve a plan"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "approximately",
+  "pos": "adverb",
+  "def": "used to show that a number or amount is not exact but close to it",
+  "defId": "kira-kira; sekitar",
+  "ex": "The chart shows that approximately 40% of respondents preferred online shopping.",
+  "exId": "Grafik itu menunjukkan bahwa sekitar 40% responden lebih memilih belanja daring.",
+  "colloc": [
+   "approximately half",
+   "approximately equal"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "aptitude",
@@ -2415,6 +3462,20 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "arbitrage",
+  "pos": "noun",
+  "def": "The practice of buying and selling in different markets to profit from price differences.",
+  "defId": "Arbitrase; praktik membeli dan menjual di pasar berbeda untuk meraih untung dari selisih harga.",
+  "ex": "Traders used arbitrage to exploit the price gap between the two exchanges.",
+  "exId": "Para pedagang memanfaatkan arbitrase untuk mengeksploitasi selisih harga antara dua bursa.",
+  "colloc": [
+   "an arbitrage opportunity",
+   "currency arbitrage",
+   "engage in arbitrage"
+  ],
+  "theme": "economy"
+ },
+ {
   "w": "arbitrary",
   "pos": "adjective",
   "def": "based on chance or personal choice rather than a clear reason",
@@ -2469,6 +3530,19 @@ export const VOCAB = [
    "a field of archaeology"
   ],
   "theme": "history"
+ },
+ {
+  "w": "archetype",
+  "pos": "noun",
+  "def": "a very typical example or original model of a person or thing",
+  "defId": "arketipe; contoh dasar",
+  "ex": "The self-made entrepreneur has become an archetype of modern success.",
+  "exId": "Pengusaha yang meniti karier dari nol telah menjadi arketipe kesuksesan modern.",
+  "colloc": [
+   "the classic archetype",
+   "an archetype of"
+  ],
+  "theme": "academic"
  },
  {
   "w": "archipelago",
@@ -2526,6 +3600,32 @@ export const VOCAB = [
   "theme": "history"
  },
  {
+  "w": "archivist",
+  "pos": "noun",
+  "def": "a person who maintains and organises historical records and documents",
+  "defId": "arsiparis",
+  "ex": "The archivist catalogued thousands of old letters and photographs.",
+  "exId": "Arsiparis itu mengatalogkan ribuan surat dan foto lama.",
+  "colloc": [
+   "national archivist",
+   "archivist's records"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "arguably",
+  "pos": "adverb",
+  "def": "used to say something may reasonably be argued or claimed",
+  "defId": "bisa dikatakan",
+  "ex": "Climate change is arguably the greatest challenge of our time.",
+  "exId": "Perubahan iklim bisa dikatakan sebagai tantangan terbesar di zaman kita.",
+  "colloc": [
+   "arguably the most",
+   "arguably, ..."
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "argument",
   "pos": "noun",
   "def": "a set of reasons given to support or oppose an idea or claim",
@@ -2552,6 +3652,20 @@ export const VOCAB = [
    "arid conditions"
   ],
   "theme": "weather"
+ },
+ {
+  "w": "arise from",
+  "pos": "phrasal verb",
+  "def": "to happen or exist as a result of a particular situation",
+  "defId": "timbul dari; muncul akibat",
+  "ex": "Several disputes have arisen from the unclear wording of the contract.",
+  "exId": "Beberapa perselisihan timbul dari kata-kata kontrak yang tidak jelas.",
+  "colloc": [
+   "arise from a situation",
+   "problems arise from",
+   "arise from misunderstanding"
+  ],
+  "theme": "academic"
  },
  {
   "w": "aristocracy",
@@ -2582,6 +3696,20 @@ export const VOCAB = [
   "theme": "history"
  },
  {
+  "w": "aroma",
+  "pos": "noun",
+  "def": "a strong, usually pleasant smell of food or drink",
+  "defId": "aroma; bau kuat yang biasanya sedap dari makanan atau minuman",
+  "ex": "The rich aroma of fresh coffee filled the small café.",
+  "exId": "Aroma kopi segar yang pekat memenuhi kafe kecil itu.",
+  "colloc": [
+   "rich aroma",
+   "aroma of coffee",
+   "fill with aroma"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "aromatic",
   "pos": "adjective",
   "def": "having a pleasant, noticeable smell, often from herbs or spices.",
@@ -2593,6 +3721,19 @@ export const VOCAB = [
    "aromatic spices"
   ],
   "theme": "food"
+ },
+ {
+  "w": "arraign",
+  "pos": "verb",
+  "def": "to bring someone to court to formally hear the charges against them",
+  "defId": "menghadapkan tersangka ke pengadilan untuk mendengarkan dakwaan",
+  "ex": "The suspect was arraigned on charges of fraud the next morning.",
+  "exId": "Tersangka dihadapkan ke pengadilan atas dakwaan penipuan keesokan paginya.",
+  "colloc": [
+   "arraign on charges",
+   "arraign before a court"
+  ],
+  "theme": "law"
  },
  {
   "w": "arrest",
@@ -2678,6 +3819,19 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "arterial",
+  "pos": "adj",
+  "def": "Describing a major road that carries a large amount of traffic through or between cities.",
+  "defId": "Menggambarkan jalan utama yang mengangkut lalu lintas dalam jumlah besar melalui atau antar kota.",
+  "ex": "An accident on the main arterial road brought the whole city centre to a standstill.",
+  "exId": "Sebuah kecelakaan di jalan arteri utama membuat seluruh pusat kota lumpuh total.",
+  "colloc": [
+   "arterial road",
+   "arterial route"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "artery",
   "pos": "noun",
   "def": "a tube that carries blood away from the heart to the rest of the body",
@@ -2690,6 +3844,20 @@ export const VOCAB = [
    "carotid artery"
   ],
   "theme": "body"
+ },
+ {
+  "w": "articulacy",
+  "pos": "noun",
+  "def": "the ability to express thoughts and ideas clearly and effectively in words",
+  "defId": "kemampuan mengungkapkan pikiran dan gagasan secara jelas dan efektif melalui kata-kata",
+  "ex": "The debate coach was praised for the articulacy she developed in even her quietest students.",
+  "exId": "Pelatih debat itu dipuji atas kefasihan berbicara yang ia kembangkan bahkan pada murid-muridnya yang paling pendiam.",
+  "colloc": [
+   "remarkable articulacy",
+   "develop articulacy",
+   "articulacy and confidence"
+  ],
+  "theme": "language"
  },
  {
   "w": "articulate",
@@ -2748,6 +3916,18 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "as opposed to",
+  "pos": "phrase",
+  "def": "in contrast with; rather than",
+  "defId": "berbeda dengan; alih-alih",
+  "ex": "The study focused on natural sleep, as opposed to sleep induced by drugs.",
+  "exId": "Studi itu berfokus pada tidur alami, berbeda dengan tidur yang dipicu oleh obat.",
+  "colloc": [
+   "as opposed to"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "ascertain",
   "pos": "verb",
   "def": "to find out or make certain of something, usually by careful checking",
@@ -2789,6 +3969,19 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "asphalt",
+  "pos": "n",
+  "def": "A black, sticky substance mixed with gravel and used to surface roads and paths.",
+  "defId": "Bahan hitam lengket yang dicampur kerikil dan digunakan untuk melapisi jalan dan jalur.",
+  "ex": "The council resurfaced the potholed street with fresh asphalt over the summer.",
+  "exId": "Pemerintah kota melapisi ulang jalan berlubang itu dengan aspal baru selama musim panas.",
+  "colloc": [
+   "lay asphalt",
+   "asphalt surface"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "aspiration",
   "pos": "noun",
   "def": "a strong hope or wish to achieve something, especially in your career",
@@ -2817,6 +4010,19 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "assembly",
+  "pos": "noun",
+  "def": "a regular meeting of all the students and staff of a school, especially at the start of the day",
+  "defId": "pertemuan rutin seluruh siswa dan staf sekolah, terutama di awal hari",
+  "ex": "The whole school gathered in the hall for the weekly assembly.",
+  "exId": "Seluruh sekolah berkumpul di aula untuk apel mingguan.",
+  "colloc": [
+   "morning assembly",
+   "a school assembly"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "assert",
   "pos": "verb",
   "def": "to state something firmly and confidently as true, often without giving proof",
@@ -2827,6 +4033,19 @@ export const VOCAB = [
    "assert that",
    "boldly assert",
    "assert one's authority"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "assertion",
+  "pos": "noun",
+  "def": "a confident and forceful statement of fact or belief",
+  "defId": "pernyataan tegas; penegasan",
+  "ex": "The report offers no evidence to support its bold assertion.",
+  "exId": "Laporan itu tidak menyajikan bukti untuk mendukung pernyataan tegasnya.",
+  "colloc": [
+   "make an assertion",
+   "bold assertion"
   ],
   "theme": "academic"
  },
@@ -2983,6 +4202,19 @@ export const VOCAB = [
   "theme": "space"
  },
  {
+  "w": "astronomer",
+  "pos": "noun",
+  "def": "a scientist who studies stars, planets, and other objects in space",
+  "defId": "astronom",
+  "ex": "The astronomer discovered a new comet through the telescope.",
+  "exId": "Astronom itu menemukan komet baru melalui teleskop.",
+  "colloc": [
+   "amateur astronomer",
+   "professional astronomer"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "astronomy",
   "pos": "noun",
   "def": "the scientific study of stars, planets and other objects in space",
@@ -3034,6 +4266,46 @@ export const VOCAB = [
    "grant asylum"
   ],
   "theme": "globalisation"
+ },
+ {
+  "w": "asylum seeker",
+  "pos": "noun",
+  "def": "a person who has left their country and is seeking protection in another",
+  "defId": "pencari suaka; orang yang meninggalkan negaranya dan mencari perlindungan di negara lain",
+  "ex": "The charity provides legal advice to asylum seekers awaiting a decision.",
+  "exId": "Lembaga amal itu memberi nasihat hukum kepada pencari suaka yang menunggu keputusan.",
+  "colloc": [
+   "destitute asylum seeker",
+   "support asylum seekers",
+   "asylum seeker application"
+  ],
+  "theme": "society"
+ },
+ {
+  "w": "at odds",
+  "pos": "phrase",
+  "def": "in disagreement or conflict with someone or something",
+  "defId": "bertentangan atau berselisih dengan sesuatu atau seseorang",
+  "ex": "His findings are strangely at odds with the accepted view.",
+  "exId": "Temuannya secara aneh bertentangan dengan pandangan yang diterima umum.",
+  "colloc": [
+   "at odds with",
+   "be at odds"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "at the end of the day",
+  "pos": "idiom",
+  "def": "used to say what is most important after considering everything",
+  "defId": "pada akhirnya; yang terpenting setelah mempertimbangkan segalanya",
+  "ex": "At the end of the day, what matters most is that my family is healthy.",
+  "exId": "Pada akhirnya, yang paling penting adalah keluarga saya sehat.",
+  "colloc": [
+   "stating a conclusion",
+   "'at the end of the day'"
+  ],
+  "theme": "idioms"
  },
  {
   "w": "atelier",
@@ -3120,6 +4392,20 @@ export const VOCAB = [
   "theme": "weather"
  },
  {
+  "w": "atom",
+  "pos": "n",
+  "def": "the smallest unit of a chemical element that can exist",
+  "defId": "unit terkecil dari suatu unsur kimia yang dapat berdiri sendiri",
+  "ex": "Every atom consists of a nucleus surrounded by electrons.",
+  "exId": "Setiap atom terdiri dari inti yang dikelilingi elektron.",
+  "colloc": [
+   "carbon atom",
+   "atom consists of",
+   "split the atom"
+  ],
+  "theme": "science"
+ },
+ {
   "w": "atrium",
   "pos": "noun",
   "def": "A large open space, often with a glass roof, in the centre of a building.",
@@ -3176,6 +4462,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "attendee",
+  "pos": "noun",
+  "def": "A person who attends a meeting, conference, or event.",
+  "defId": "peserta; orang yang menghadiri rapat, konferensi, atau acara",
+  "ex": "Every attendee at the workshop received a certificate of participation.",
+  "exId": "Setiap peserta lokakarya menerima sertifikat keikutsertaan.",
+  "colloc": [
+   "conference attendees",
+   "register attendees",
+   "a regular attendee"
+  ],
+  "theme": "work"
+ },
+ {
   "w": "attention",
   "pos": "noun",
   "def": "the act of focusing your mind on something or someone",
@@ -3216,6 +4516,34 @@ export const VOCAB = [
    "traditional attire"
   ],
   "theme": "fashion"
+ },
+ {
+  "w": "attractive",
+  "pos": "adjective",
+  "def": "pleasant to look at; good-looking",
+  "defId": "menarik dan enak dipandang",
+  "ex": "He was an attractive man with a warm, easy smile.",
+  "exId": "Dia pria menarik dengan senyum yang hangat dan santai.",
+  "colloc": [
+   "attractive man",
+   "attractive features",
+   "physically attractive"
+  ],
+  "theme": "describe_people"
+ },
+ {
+  "w": "attributable",
+  "pos": "adjective",
+  "def": "likely to have been caused by a particular thing",
+  "defId": "dapat dikaitkan dengan; disebabkan oleh",
+  "ex": "Many respiratory illnesses are directly attributable to air pollution.",
+  "exId": "Banyak penyakit pernapasan yang secara langsung dapat dikaitkan dengan polusi udara.",
+  "colloc": [
+   "attributable to",
+   "directly attributable",
+   "largely attributable"
+  ],
+  "theme": "academic"
  },
  {
   "w": "attribute",
@@ -3285,6 +4613,19 @@ export const VOCAB = [
    "attend an audition"
   ],
   "theme": "music"
+ },
+ {
+  "w": "auditor",
+  "pos": "noun",
+  "def": "a person who officially examines the financial accounts of a company or organisation",
+  "defId": "auditor",
+  "ex": "The auditor found several errors in the annual accounts.",
+  "exId": "Auditor itu menemukan beberapa kesalahan dalam laporan keuangan tahunan.",
+  "colloc": [
+   "external auditor",
+   "independent auditor"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "augment",
@@ -3365,6 +4706,19 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "authoritative",
+  "pos": "adjective",
+  "def": "respected and trusted as accurate and reliable",
+  "defId": "otoritatif; sangat tepercaya",
+  "ex": "This textbook is regarded as the authoritative work on the subject.",
+  "exId": "Buku teks ini dianggap sebagai karya otoritatif tentang topik tersebut.",
+  "colloc": [
+   "an authoritative source",
+   "an authoritative account"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "autobiography",
   "pos": "noun",
   "def": "An account of a person's life written by that person.",
@@ -3403,6 +4757,20 @@ export const VOCAB = [
    "gifted autodidact"
   ],
   "theme": "education"
+ },
+ {
+  "w": "automate",
+  "pos": "verb",
+  "def": "to make a process operate by machine or software with little human effort",
+  "defId": "membuat suatu proses berjalan dengan mesin atau perangkat lunak dengan sedikit campur tangan manusia",
+  "ex": "We used a script to automate the boring task of renaming thousands of files.",
+  "exId": "Kami menggunakan skrip untuk mengotomatiskan tugas membosankan mengganti nama ribuan berkas.",
+  "colloc": [
+   "automate a process",
+   "fully automate",
+   "automate tasks"
+  ],
+  "theme": "technology"
  },
  {
   "w": "automation",
@@ -3501,6 +4869,19 @@ export const VOCAB = [
   "theme": "urban"
  },
  {
+  "w": "average",
+  "pos": "noun",
+  "def": "a value found by adding several amounts and dividing by their number",
+  "defId": "rata-rata",
+  "ex": "On average, temperatures in the region rose by two degrees each decade.",
+  "exId": "Rata-rata, suhu di wilayah itu naik dua derajat setiap dekade.",
+  "colloc": [
+   "on average",
+   "above average"
+  ],
+  "theme": "numbers"
+ },
+ {
   "w": "aversion",
   "pos": "noun",
   "def": "a strong feeling of dislike towards, or wish to avoid, something",
@@ -3555,6 +4936,33 @@ export const VOCAB = [
   "theme": "emotion"
  },
  {
+  "w": "awe-inspiring",
+  "pos": "adjective",
+  "def": "so impressive or magnificent that it fills you with wonder",
+  "defId": "begitu mengesankan atau megah sehingga membuatmu takjub",
+  "ex": "The view from the summit was truly awe-inspiring.",
+  "exId": "Pemandangan dari puncak sungguh memukau.",
+  "colloc": [
+   "awe-inspiring scenery",
+   "an awe-inspiring sight",
+   "awe-inspiring beauty"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "axiom",
+  "pos": "noun",
+  "def": "a statement regarded as self-evidently true and accepted without proof",
+  "defId": "aksioma; kebenaran yang diterima begitu saja",
+  "ex": "It is almost an axiom that hard work leads to success.",
+  "exId": "Hampir menjadi aksioma bahwa kerja keras membawa kesuksesan.",
+  "colloc": [
+   "a basic axiom",
+   "accept as an axiom"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "axle",
   "pos": "noun",
   "def": "a rod connecting a pair of wheels on a vehicle",
@@ -3569,6 +4977,19 @@ export const VOCAB = [
   "theme": "transport"
  },
  {
+  "w": "back to square one",
+  "pos": "idiom",
+  "def": "back to the very beginning after a failed attempt",
+  "defId": "kembali ke titik awal setelah usaha yang gagal",
+  "ex": "The design was rejected, so we're back to square one.",
+  "exId": "Desainnya ditolak, jadi kami harus kembali ke titik awal.",
+  "colloc": [
+   "starting over",
+   "'back to square one'"
+  ],
+  "theme": "idioms"
+ },
+ {
   "w": "backbencher",
   "pos": "noun",
   "def": "a member of parliament who does not hold an official position in the government or opposition",
@@ -3581,6 +5002,20 @@ export const VOCAB = [
    "senior backbencher"
   ],
   "theme": "politics"
+ },
+ {
+  "w": "backcountry",
+  "pos": "noun",
+  "def": "remote, sparsely inhabited rural areas far from towns and roads",
+  "defId": "daerah pedalaman terpencil yang jarang penduduknya, jauh dari kota dan jalan",
+  "ex": "Experienced hikers often disappear into the backcountry for days.",
+  "exId": "Pendaki berpengalaman sering menghilang ke pedalaman selama berhari-hari.",
+  "colloc": [
+   "a backcountry trail",
+   "remote backcountry",
+   "backcountry skiing"
+  ],
+  "theme": "travel"
  },
  {
   "w": "backdrop",
@@ -3610,6 +5045,20 @@ export const VOCAB = [
   "theme": "music"
  },
  {
+  "w": "backlash",
+  "pos": "noun",
+  "def": "a strong negative reaction by many people against a recent event or development",
+  "defId": "reaksi keras; reaksi balik",
+  "ex": "The company faced a fierce backlash after raising its prices.",
+  "exId": "Perusahaan itu menghadapi reaksi keras setelah menaikkan harga.",
+  "colloc": [
+   "a public backlash",
+   "face a backlash",
+   "provoke a backlash"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "backlog",
   "pos": "noun",
   "def": "an accumulation of work or tasks that still need to be done",
@@ -3624,6 +5073,20 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "backorder",
+  "pos": "noun",
+  "def": "an order for a product that cannot be filled immediately because it is out of stock",
+  "defId": "pesanan barang yang belum bisa dipenuhi karena stok habis",
+  "ex": "The popular model sold out so fast that most customers were placed on backorder for weeks.",
+  "exId": "Model populer itu terjual habis begitu cepat sehingga sebagian besar pelanggan masuk daftar tunggu pesanan selama berminggu-minggu.",
+  "colloc": [
+   "on backorder",
+   "clear the backorder",
+   "backorder queue"
+  ],
+  "theme": "business"
+ },
+ {
   "w": "backpacking",
   "pos": "noun",
   "def": "the activity of travelling cheaply while carrying your belongings in a backpack",
@@ -3636,6 +5099,20 @@ export const VOCAB = [
    "backpacking holiday"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "backstage",
+  "pos": "adverb",
+  "def": "in or towards the area behind the stage where performers prepare and equipment is kept",
+  "defId": "di atau menuju area di belakang panggung tempat para pemain bersiap dan peralatan disimpan",
+  "ex": "The nervous singer paced backstage, waiting for her cue to walk on.",
+  "exId": "Penyanyi yang gugup itu mondar-mandir di belakang panggung, menunggu isyarat untuk naik.",
+  "colloc": [
+   "go backstage",
+   "backstage pass",
+   "backstage crew"
+  ],
+  "theme": "arts"
  },
  {
   "w": "backup",
@@ -3787,6 +5264,20 @@ export const VOCAB = [
   "theme": "architecture"
  },
  {
+  "w": "balding",
+  "pos": "adjective",
+  "def": "gradually losing the hair on one's head",
+  "defId": "mulai botak",
+  "ex": "The balding manager combed the last few strands over his scalp.",
+  "exId": "Manajer yang mulai botak itu menyisir beberapa helai rambut terakhir ke atas kepalanya.",
+  "colloc": [
+   "balding man",
+   "balding head",
+   "slightly balding"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "ballad",
   "pos": "noun",
   "def": "a slow, emotional song, often about love",
@@ -3829,6 +5320,20 @@ export const VOCAB = [
   "theme": "weather"
  },
  {
+  "w": "bandage",
+  "pos": "noun",
+  "def": "a strip of material used to bind a wound or injury",
+  "defId": "kain pembalut yang digunakan untuk membalut luka atau cedera",
+  "ex": "She wrapped a clean bandage around his sprained wrist.",
+  "exId": "Ia membalut pergelangan tangannya yang terkilir dengan perban bersih.",
+  "colloc": [
+   "wrap a bandage",
+   "apply a bandage",
+   "a tight bandage"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "bandwidth",
   "pos": "noun",
   "def": "the amount of data a network can send in a fixed amount of time",
@@ -3841,6 +5346,20 @@ export const VOCAB = [
    "network bandwidth"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "bang",
+  "pos": "verb",
+  "def": "to make a sudden, loud, sharp noise, or to hit something violently",
+  "defId": "berdentum; menggebrak",
+  "ex": "He banged the door shut so hard that the whole house shook.",
+  "exId": "Ia menggebrak menutup pintu begitu keras sampai seluruh rumah bergetar.",
+  "colloc": [
+   "bang the door",
+   "bang loudly",
+   "a banging noise"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "bank holiday",
@@ -3869,6 +5388,20 @@ export const VOCAB = [
    "declare bankruptcy"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "banquet",
+  "pos": "noun",
+  "def": "a large formal meal for many people, often held to mark a special occasion",
+  "defId": "jamuan makan resmi berskala besar untuk banyak orang, sering diadakan untuk peristiwa istimewa",
+  "ex": "The award ceremony ended with a lavish banquet in the grand hall.",
+  "exId": "Acara penghargaan itu ditutup dengan jamuan mewah di aula utama.",
+  "colloc": [
+   "a lavish banquet",
+   "hold a banquet",
+   "a wedding banquet"
+  ],
+  "theme": "food"
  },
  {
   "w": "banter",
@@ -3911,6 +5444,19 @@ export const VOCAB = [
    "load a barge"
   ],
   "theme": "transport"
+ },
+ {
+  "w": "barista",
+  "pos": "noun",
+  "def": "a person who prepares and serves coffee in a café",
+  "defId": "barista",
+  "ex": "The barista made a perfect cappuccino with a leaf pattern.",
+  "exId": "Barista itu membuat cappuccino yang sempurna dengan pola daun.",
+  "colloc": [
+   "skilled barista",
+   "barista training"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "barometer",
@@ -3979,6 +5525,33 @@ export const VOCAB = [
    "barter for"
   ],
   "theme": "shopping"
+ },
+ {
+  "w": "baseless",
+  "pos": "adjective",
+  "def": "having no facts or good reasons to support it",
+  "defId": "tanpa dasar",
+  "ex": "The accusation was dismissed as baseless and politically motivated.",
+  "exId": "Tuduhan itu ditolak karena tanpa dasar dan bermotif politik.",
+  "colloc": [
+   "baseless accusations",
+   "baseless allegations"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "baseline",
+  "pos": "n",
+  "def": "a starting measurement used as a basis for comparison",
+  "defId": "pengukuran awal yang dijadikan dasar perbandingan",
+  "ex": "Researchers recorded a baseline before introducing the new drug.",
+  "exId": "Para peneliti mencatat garis dasar sebelum memperkenalkan obat baru.",
+  "colloc": [
+   "baseline measurement",
+   "establish a baseline",
+   "baseline data"
+  ],
+  "theme": "science"
  },
  {
   "w": "basement",
@@ -4063,6 +5636,20 @@ export const VOCAB = [
   "theme": "conflict"
  },
  {
+  "w": "be in two minds",
+  "pos": "phrase",
+  "def": "to be unable to decide between two options or opinions",
+  "defId": "bimbang; ragu antara dua pilihan atau pendapat",
+  "ex": "When it comes to online learning, I tend to be in two minds about its real value.",
+  "exId": "Soal pembelajaran daring, saya cenderung bimbang tentang manfaat sebenarnya.",
+  "colloc": [
+   "be in two minds about",
+   "still be in two minds",
+   "rather in two minds"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "beam",
   "pos": "noun",
   "def": "A long, sturdy piece of timber or metal used to support a structure.",
@@ -4075,6 +5662,34 @@ export const VOCAB = [
    "support beam"
   ],
   "theme": "architecture"
+ },
+ {
+  "w": "bear market",
+  "pos": "noun",
+  "def": "A period during which share prices are falling and investors are pessimistic.",
+  "defId": "Pasar bearish; periode saat harga saham turun dan investor pesimis.",
+  "ex": "Many funds lost value when the bear market dragged on for months.",
+  "exId": "Banyak reksa dana kehilangan nilai ketika pasar bearish berlarut-larut selama berbulan-bulan.",
+  "colloc": [
+   "enter a bear market",
+   "a prolonged bear market",
+   "a bear market rally"
+  ],
+  "theme": "economy"
+ },
+ {
+  "w": "bearded",
+  "pos": "adjective",
+  "def": "having a beard, that is hair growing on the chin and cheeks",
+  "defId": "berjanggut",
+  "ex": "A tall, bearded stranger knocked on the door after midnight.",
+  "exId": "Seorang asing tinggi berjanggut mengetuk pintu setelah tengah malam.",
+  "colloc": [
+   "bearded man",
+   "heavily bearded",
+   "bearded face"
+  ],
+  "theme": "describe_people"
  },
  {
   "w": "bed and breakfast",
@@ -4090,6 +5705,86 @@ export const VOCAB = [
   "theme": "tourism"
  },
  {
+  "w": "bedsit",
+  "pos": "n",
+  "def": "A single rented room used for both living and sleeping, common in cities (British English).",
+  "defId": "Satu kamar sewaan yang digunakan sekaligus untuk tinggal dan tidur, umum di kota (Inggris British).",
+  "ex": "As a student she rented a cramped bedsit above a chip shop.",
+  "exId": "Sebagai mahasiswa, dia menyewa sebuah kamar kos sempit di atas toko keripik kentang.",
+  "colloc": [
+   "cramped bedsit",
+   "rent a bedsit"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "beforehand",
+  "pos": "adverb",
+  "def": "earlier than a particular event; in advance",
+  "defId": "sebelumnya; terlebih dahulu",
+  "ex": "It is wise to research the company beforehand so you can prepare for the interview.",
+  "exId": "Bijaksana untuk meneliti perusahaan itu terlebih dahulu agar kamu bisa mempersiapkan wawancara.",
+  "colloc": [
+   "prepare beforehand",
+   "arrange beforehand"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "beg to differ",
+  "pos": "phrase",
+  "def": "a polite way of saying that you disagree with someone",
+  "defId": "cara sopan untuk menyatakan ketidaksetujuan",
+  "ex": "Many claim that money buys happiness, but I would beg to differ.",
+  "exId": "Banyak yang mengklaim uang membeli kebahagiaan, tetapi saya justru tidak sependapat.",
+  "colloc": [
+   "I beg to differ",
+   "would beg to differ",
+   "must beg to differ"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "behaviourism",
+  "pos": "noun",
+  "def": "a theory that explains learning as a response to rewards and punishments rather than to internal thought",
+  "defId": "teori yang menjelaskan pembelajaran sebagai respons terhadap penghargaan dan hukuman, bukan pikiran internal",
+  "ex": "Behaviourism influenced classrooms where good conduct is reinforced with rewards.",
+  "exId": "Behaviorisme memengaruhi ruang kelas tempat perilaku baik diperkuat dengan penghargaan.",
+  "colloc": [
+   "classical behaviourism",
+   "rooted in behaviourism"
+  ],
+  "theme": "education"
+ },
+ {
+  "w": "beige",
+  "pos": "adjective",
+  "def": "a pale sandy fawn colour; a light yellowish-brown",
+  "defId": "krem kecokelatan; warna pasir",
+  "ex": "They decorated the living room in neutral beige and cream tones.",
+  "exId": "Mereka mendekorasi ruang tamu dengan nuansa netral krem kecokelatan dan krem.",
+  "colloc": [
+   "beige tones",
+   "pale beige",
+   "beige carpet"
+  ],
+  "theme": "colours"
+ },
+ {
+  "w": "belatedly",
+  "pos": "adverb",
+  "def": "later than it should have happened; after some delay",
+  "defId": "dengan terlambat; telat dari yang seharusnya",
+  "ex": "The company belatedly apologised for the delay in shipping the goods.",
+  "exId": "Perusahaan itu belakangan meminta maaf atas keterlambatan pengiriman barang.",
+  "colloc": [
+   "belatedly realise",
+   "belatedly acknowledge"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "belief",
   "pos": "noun",
   "def": "the feeling that something is true or that something exists, especially in a religious sense",
@@ -4102,6 +5797,20 @@ export const VOCAB = [
    "system of belief"
   ],
   "theme": "religion"
+ },
+ {
+  "w": "belonging",
+  "pos": "noun",
+  "def": "the feeling of being accepted as a member of a group or place",
+  "defId": "rasa memiliki; perasaan diterima sebagai bagian dari suatu kelompok atau tempat",
+  "ex": "Community events give isolated residents a much-needed sense of belonging.",
+  "exId": "Acara komunitas memberi penghuni yang terisolasi rasa memiliki yang sangat dibutuhkan.",
+  "colloc": [
+   "sense of belonging",
+   "feeling of belonging",
+   "foster belonging"
+  ],
+  "theme": "society"
  },
  {
   "w": "benchmark",
@@ -4172,6 +5881,20 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "berth",
+  "pos": "noun",
+  "def": "a bed or sleeping space on a ship or train, or a place for a ship to dock",
+  "defId": "tempat tidur di kapal atau kereta, atau tempat berlabuh bagi kapal",
+  "ex": "I booked a lower berth on the overnight train to Hanoi.",
+  "exId": "Aku memesan tempat tidur bawah di kereta malam menuju Hanoi.",
+  "colloc": [
+   "a sleeping berth",
+   "book a berth",
+   "a lower berth"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "besiege",
   "pos": "verb",
   "def": "to surround a place with armed forces in order to capture it",
@@ -4211,6 +5934,20 @@ export const VOCAB = [
    "a number-one bestseller"
   ],
   "theme": "literature"
+ },
+ {
+  "w": "beta",
+  "pos": "noun",
+  "def": "a test version of software released to a limited group before its final launch",
+  "defId": "versi uji perangkat lunak yang dirilis ke kelompok terbatas sebelum peluncuran akhirnya",
+  "ex": "I signed up for the beta so I could try the app before everyone else.",
+  "exId": "Saya mendaftar untuk beta agar bisa mencoba aplikasi itu sebelum orang lain.",
+  "colloc": [
+   "closed beta",
+   "beta version",
+   "beta tester"
+  ],
+  "theme": "technology"
  },
  {
   "w": "betrayal",
@@ -4254,6 +5991,32 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "biased",
+  "pos": "adjective",
+  "def": "unfairly favouring one side, person or point of view",
+  "defId": "berat sebelah; bias",
+  "ex": "The report was criticised for using a biased sample of respondents.",
+  "exId": "Laporan itu dikritik karena menggunakan sampel responden yang bias.",
+  "colloc": [
+   "a biased sample",
+   "politically biased"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "biennial",
+  "pos": "adjective",
+  "def": "happening once every two years",
+  "defId": "dua tahunan; sekali dalam dua tahun",
+  "ex": "The biennial conference attracts researchers from around the world every two years.",
+  "exId": "Konferensi dua tahunan itu menarik para peneliti dari seluruh dunia setiap dua tahun.",
+  "colloc": [
+   "biennial conference",
+   "biennial review"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "big-headed",
   "pos": "adjective",
   "def": "thinking you are better or more important than you really are",
@@ -4292,6 +6055,19 @@ export const VOCAB = [
    "use bike hire"
   ],
   "theme": "uk_transport"
+ },
+ {
+  "w": "bilateral",
+  "pos": "adjective",
+  "def": "involving or agreed by two countries or parties",
+  "defId": "bilateral; melibatkan atau disepakati oleh dua negara atau pihak",
+  "ex": "The two nations signed a bilateral agreement to boost trade and investment.",
+  "exId": "Kedua negara menandatangani perjanjian bilateral untuk mendorong perdagangan dan investasi.",
+  "colloc": [
+   "bilateral talks",
+   "bilateral agreement"
+  ],
+  "theme": "politics"
  },
  {
   "w": "bilingual",
@@ -4416,6 +6192,19 @@ export const VOCAB = [
   "theme": "literature"
  },
  {
+  "w": "biologist",
+  "pos": "noun",
+  "def": "a scientist who studies living organisms and their processes",
+  "defId": "ahli biologi",
+  "ex": "The biologist studied the effects of pollution on river fish.",
+  "exId": "Ahli biologi itu mempelajari dampak polusi terhadap ikan sungai.",
+  "colloc": [
+   "marine biologist",
+   "molecular biologist"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "biomass",
   "pos": "noun",
   "def": "organic material such as wood or plants burned as fuel to produce energy",
@@ -4428,6 +6217,20 @@ export const VOCAB = [
    "biomass power plant"
   ],
   "theme": "energy"
+ },
+ {
+  "w": "biome",
+  "pos": "noun",
+  "def": "a large community of plants and animals adapted to a particular climate or region.",
+  "defId": "komunitas besar tumbuhan dan hewan yang beradaptasi dengan iklim atau wilayah tertentu.",
+  "ex": "Rising temperatures are shifting the boundaries of many natural biomes.",
+  "exId": "Kenaikan suhu menggeser batas-batas banyak bioma alami.",
+  "colloc": [
+   "natural biome",
+   "desert biome",
+   "fragile biome"
+  ],
+  "theme": "environment"
  },
  {
   "w": "biometric residence permit",
@@ -4524,6 +6327,33 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "bite the bullet",
+  "pos": "idiom",
+  "def": "to force yourself to do something difficult or unpleasant",
+  "defId": "memaksakan diri melakukan sesuatu yang sulit atau tidak menyenangkan",
+  "ex": "I finally bit the bullet and booked the dentist appointment I'd been avoiding.",
+  "exId": "Akhirnya saya memberanikan diri dan membuat janji ke dokter gigi yang selama ini saya hindari.",
+  "colloc": [
+   "facing something hard",
+   "'just bite the bullet'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "bitrate",
+  "pos": "noun",
+  "def": "the amount of data processed per second in an audio or video file, affecting its quality",
+  "defId": "jumlah data yang diproses per detik dalam berkas audio atau video, yang memengaruhi kualitasnya",
+  "ex": "Streaming at a higher bitrate gives clearer sound but uses more data.",
+  "exId": "Menyiarkan dengan bitrate lebih tinggi menghasilkan suara lebih jernih tetapi memakai lebih banyak data.",
+  "colloc": [
+   "high bitrate",
+   "low bitrate",
+   "bitrate setting"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "bitter",
   "pos": "adjective",
   "def": "(of weather) extremely and unpleasantly cold",
@@ -4592,6 +6422,32 @@ export const VOCAB = [
   "theme": "energy"
  },
  {
+  "w": "blacksmith",
+  "pos": "noun",
+  "def": "a person who makes and repairs iron objects by hand at a forge",
+  "defId": "pandai besi",
+  "ex": "The blacksmith forged a new set of horseshoes.",
+  "exId": "Pandai besi itu menempa seperangkat sepatu kuda baru.",
+  "colloc": [
+   "village blacksmith",
+   "blacksmith's forge"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "blade",
+  "pos": "noun",
+  "def": "the flat sharp cutting part of a tool or knife",
+  "defId": "bilah mata pisau",
+  "ex": "Replace the blunt blade before you cut anything else.",
+  "exId": "Ganti bilah yang tumpul sebelum kamu memotong apa pun lagi.",
+  "colloc": [
+   "sharp blade",
+   "replace a blade"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "blanch",
   "pos": "verb",
   "def": "to briefly boil vegetables and then plunge them into cold water.",
@@ -4630,6 +6486,20 @@ export const VOCAB = [
    "school blazer"
   ],
   "theme": "fashion"
+ },
+ {
+  "w": "bleak",
+  "pos": "adjective",
+  "def": "bare, exposed and cheerless",
+  "defId": "gersang dan muram",
+  "ex": "In winter the moor is bleak and windswept, with not a tree in sight.",
+  "exId": "Di musim dingin padang rumput itu gersang dan muram, tanpa satu pohon pun terlihat.",
+  "colloc": [
+   "a bleak landscape",
+   "a bleak moor",
+   "bleak surroundings"
+  ],
+  "theme": "describe_places"
  },
  {
   "w": "blended learning",
@@ -4672,6 +6542,20 @@ export const VOCAB = [
   "theme": "urban"
  },
  {
+  "w": "blind",
+  "pos": "noun",
+  "def": "a window covering, usually of fabric or slats, that can be rolled or pulled up and down",
+  "defId": "tirai gulung atau kerai",
+  "ex": "He lowered the blind to stop the glare on his computer screen.",
+  "exId": "Dia menurunkan tirai gulung untuk menghilangkan silau di layar komputernya.",
+  "colloc": [
+   "a roller blind",
+   "lower the blind",
+   "a Venetian blind"
+  ],
+  "theme": "household"
+ },
+ {
   "w": "blind date",
   "pos": "noun",
   "def": "a romantic meeting between two people who have never met before",
@@ -4699,6 +6583,20 @@ export const VOCAB = [
   "theme": "body"
  },
  {
+  "w": "blister",
+  "pos": "noun",
+  "def": "a small bubble on the skin filled with fluid, caused by rubbing or burning",
+  "defId": "gelembung kecil berisi cairan pada kulit akibat gesekan atau luka bakar",
+  "ex": "The new shoes gave her a painful blister on her heel.",
+  "exId": "Sepatu baru itu menyebabkan lepuh yang menyakitkan di tumitnya.",
+  "colloc": [
+   "a painful blister",
+   "get a blister",
+   "burst a blister"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "blizzard",
   "pos": "noun",
   "def": "a severe snowstorm with strong winds",
@@ -4711,6 +6609,33 @@ export const VOCAB = [
    "caught in a blizzard"
   ],
   "theme": "weather"
+ },
+ {
+  "w": "bloated",
+  "pos": "adjective",
+  "def": "swollen with fluid or gas, especially in the stomach",
+  "defId": "kembung karena cairan atau gas, terutama di perut",
+  "ex": "She felt uncomfortably bloated after eating such a large meal.",
+  "exId": "Ia merasa kembung yang tidak nyaman setelah makan dalam porsi besar.",
+  "colloc": [
+   "feel bloated",
+   "a bloated stomach",
+   "bloated and uncomfortable"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "bloc",
+  "pos": "noun",
+  "def": "a group of countries or parties that act together for a shared political purpose",
+  "defId": "blok; kelompok negara atau partai yang bertindak bersama demi tujuan politik yang sama",
+  "ex": "The trading bloc negotiated as a single unit to strengthen its bargaining power.",
+  "exId": "Blok perdagangan itu bernegosiasi sebagai satu kesatuan untuk memperkuat posisi tawarnya.",
+  "colloc": [
+   "voting bloc",
+   "trading bloc"
+  ],
+  "theme": "politics"
  },
  {
   "w": "blockade",
@@ -4795,6 +6720,48 @@ export const VOCAB = [
   "theme": "body"
  },
  {
+  "w": "bloom",
+  "pos": "verb",
+  "def": "(of a plant or flower) to produce flowers; to be in flower",
+  "defId": "berbunga; mekar",
+  "ex": "The orchids on the windowsill bloom twice a year if they are cared for properly.",
+  "exId": "Anggrek di ambang jendela itu mekar dua kali setahun jika dirawat dengan baik.",
+  "colloc": [
+   "bloom in spring",
+   "flowers bloom",
+   "begin to bloom"
+  ],
+  "theme": "garden"
+ },
+ {
+  "w": "blossom",
+  "pos": "noun",
+  "def": "the flowers on a tree or bush, especially a fruit tree, seen in large numbers",
+  "defId": "bunga (pada pohon); mekar bunga",
+  "ex": "In April the cherry trees are covered in delicate pink blossom.",
+  "exId": "Pada bulan April, pohon ceri dipenuhi bunga merah muda yang halus.",
+  "colloc": [
+   "cherry blossom",
+   "in blossom",
+   "spring blossom"
+  ],
+  "theme": "garden"
+ },
+ {
+  "w": "blue-chip",
+  "pos": "adjective",
+  "def": "Relating to shares in large, well-established and financially sound companies.",
+  "defId": "Blue-chip; berkaitan dengan saham perusahaan besar, mapan, dan sehat secara finansial.",
+  "ex": "Cautious investors often prefer blue-chip stocks for their stability.",
+  "exId": "Investor yang berhati-hati sering memilih saham blue-chip karena stabilitasnya.",
+  "colloc": [
+   "blue-chip stocks",
+   "a blue-chip company",
+   "blue-chip shares"
+  ],
+  "theme": "economy"
+ },
+ {
   "w": "blueprint",
   "pos": "noun",
   "def": "A detailed technical plan or drawing for a building.",
@@ -4833,6 +6800,20 @@ export const VOCAB = [
    "write a blurb"
   ],
   "theme": "literature"
+ },
+ {
+  "w": "blurry",
+  "pos": "adjective",
+  "def": "not clear in shape or outline",
+  "defId": "tidak jelas bentuk atau garisnya; buram",
+  "ex": "Without my glasses, every road sign looks blurry to me.",
+  "exId": "Tanpa kacamata, setiap rambu jalan terlihat buram bagiku.",
+  "colloc": [
+   "blurry image",
+   "blurry vision",
+   "go blurry"
+  ],
+  "theme": "senses"
  },
  {
   "w": "board game",
@@ -4888,6 +6869,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "boardwalk",
+  "pos": "noun",
+  "def": "a raised wooden walkway, typically along a beach or through wetlands",
+  "defId": "jalan setapak kayu yang ditinggikan, biasanya di sepanjang pantai atau melintasi lahan basah",
+  "ex": "The boardwalk wound through the dunes down to the shore.",
+  "exId": "Jalan kayu itu berkelok melewati bukit pasir menuju tepi pantai.",
+  "colloc": [
+   "a wooden boardwalk",
+   "stroll the boardwalk",
+   "a beachfront boardwalk"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "body language",
   "pos": "noun",
   "def": "the way people show their feelings or thoughts through posture and movement",
@@ -4916,6 +6911,20 @@ export const VOCAB = [
   "theme": "uk_home"
  },
  {
+  "w": "bold",
+  "pos": "adjective",
+  "def": "(of a colour or design) strong, bright and clearly noticeable",
+  "defId": "mencolok; berani (warna atau desain yang kuat dan menonjol)",
+  "ex": "She wore a dress in a bold red that stood out in the crowd.",
+  "exId": "Dia mengenakan gaun berwarna merah mencolok yang menonjol di keramaian.",
+  "colloc": [
+   "bold colours",
+   "bold pattern",
+   "bold stripes"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "bolster",
   "pos": "verb",
   "def": "to support or strengthen something, such as an argument or confidence",
@@ -4928,6 +6937,19 @@ export const VOCAB = [
    "bolster support"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "bolt",
+  "pos": "noun",
+  "def": "a thick metal pin with a threaded end, used with a nut to fasten things",
+  "defId": "baut",
+  "ex": "The two beams are held together by a single steel bolt.",
+  "exId": "Kedua balok itu disatukan oleh sebuah baut baja.",
+  "colloc": [
+   "nuts and bolts",
+   "tighten a bolt"
+  ],
+  "theme": "tools"
  },
  {
   "w": "bombardment",
@@ -4999,6 +7021,48 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "boomtown",
+  "pos": "noun",
+  "def": "A town that grows very quickly because of sudden economic prosperity.",
+  "defId": "Kota yang berkembang pesat; kota yang tumbuh sangat cepat karena kemakmuran ekonomi yang mendadak.",
+  "ex": "The discovery of oil turned the quiet village into a thriving boomtown almost overnight.",
+  "exId": "Penemuan minyak mengubah desa yang sepi itu menjadi kota berkembang pesat nyaris dalam semalam.",
+  "colloc": [
+   "a mining boomtown",
+   "become a boomtown",
+   "a boomtown economy"
+  ],
+  "theme": "economy"
+ },
+ {
+  "w": "bootstrap",
+  "pos": "verb",
+  "def": "to start and grow a business using only personal or internal funds, without outside investment",
+  "defId": "memulai dan mengembangkan bisnis hanya dengan dana pribadi atau internal tanpa investasi luar",
+  "ex": "They chose to bootstrap the company rather than give away equity to investors.",
+  "exId": "Mereka memilih membiayai sendiri perusahaan itu daripada melepas saham kepada investor.",
+  "colloc": [
+   "bootstrap a startup",
+   "bootstrap the business",
+   "bootstrapped company"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "borderless",
+  "pos": "adjective",
+  "def": "having no boundaries or restrictions between countries",
+  "defId": "tanpa batas atau hambatan antarnegara",
+  "ex": "Digital platforms have created a borderless marketplace where goods and ideas flow freely.",
+  "exId": "Platform digital telah menciptakan pasar tanpa batas tempat barang dan ide mengalir dengan bebas.",
+  "colloc": [
+   "borderless world",
+   "borderless economy",
+   "borderless trade"
+  ],
+  "theme": "globalisation"
+ },
+ {
   "w": "borrow",
   "pos": "verb",
   "def": "to take and use money that you will pay back later",
@@ -5011,6 +7075,20 @@ export const VOCAB = [
    "borrow against"
   ],
   "theme": "money"
+ },
+ {
+  "w": "botanical",
+  "pos": "adjective",
+  "def": "relating to plants or the scientific study of them",
+  "defId": "botani; berkaitan dengan tumbuhan",
+  "ex": "We spent the afternoon wandering through the botanical gardens admiring rare plants.",
+  "exId": "Kami menghabiskan sore hari berjalan-jalan di kebun raya sambil mengagumi tanaman langka.",
+  "colloc": [
+   "botanical garden",
+   "botanical name",
+   "botanical illustration"
+  ],
+  "theme": "garden"
  },
  {
   "w": "bottleneck",
@@ -5094,6 +7172,19 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "bracket",
+  "pos": "noun",
+  "def": "a support fixed to a wall to hold up a shelf or fixture",
+  "defId": "braket penyangga",
+  "ex": "Screw a metal bracket to the wall to support the shelf.",
+  "exId": "Sekrupkan braket logam ke dinding untuk menyangga rak.",
+  "colloc": [
+   "mounting bracket",
+   "L-shaped bracket"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "brain drain",
   "pos": "noun",
   "def": "the loss of skilled or educated people who leave to work in another country",
@@ -5103,6 +7194,20 @@ export const VOCAB = [
   "colloc": [
    "a serious brain drain",
    "reverse the brain drain"
+  ],
+  "theme": "globalisation"
+ },
+ {
+  "w": "brain gain",
+  "pos": "noun",
+  "def": "the arrival of skilled or educated people into a country",
+  "defId": "kedatangan orang berketerampilan atau berpendidikan ke suatu negara",
+  "ex": "By offering research grants, the country turned a brain drain into a brain gain.",
+  "exId": "Dengan menawarkan hibah riset, negara itu mengubah pelarian otak menjadi masuknya otak.",
+  "colloc": [
+   "brain gain",
+   "reverse into brain gain",
+   "achieve a brain gain"
   ],
   "theme": "globalisation"
  },
@@ -5189,6 +7294,19 @@ export const VOCAB = [
   "theme": "business"
  },
  {
+  "w": "brass",
+  "pos": "noun",
+  "def": "a yellowish alloy of copper and zinc",
+  "defId": "kuningan",
+  "ex": "The door handles are made of polished brass.",
+  "exId": "Gagang pintunya terbuat dari kuningan yang mengilap.",
+  "colloc": [
+   "polished brass",
+   "brass fitting"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "breach",
   "pos": "noun",
   "def": "An act of breaking a law, rule, or agreement.",
@@ -5228,6 +7346,19 @@ export const VOCAB = [
    "family breadwinner"
   ],
   "theme": "family"
+ },
+ {
+  "w": "break the ice",
+  "pos": "idiom",
+  "def": "to make people feel more relaxed in a social situation",
+  "defId": "mencairkan suasana; membuat orang lebih santai saat pertama berkenalan",
+  "ex": "The host told a funny story to break the ice at the start of the meeting.",
+  "exId": "Tuan rumah menceritakan kisah lucu untuk mencairkan suasana di awal pertemuan.",
+  "colloc": [
+   "starting a conversation",
+   "'break the ice with a joke'"
+  ],
+  "theme": "idioms"
  },
  {
   "w": "break-even",
@@ -5299,6 +7430,20 @@ export const VOCAB = [
   "theme": "relationships"
  },
  {
+  "w": "breathless",
+  "pos": "adjective",
+  "def": "having difficulty breathing; gasping for air",
+  "defId": "sulit bernapas; terengah-engah",
+  "ex": "He was breathless after climbing the four flights of stairs.",
+  "exId": "Ia terengah-engah setelah menaiki empat lantai tangga.",
+  "colloc": [
+   "breathless after exercise",
+   "leave someone breathless",
+   "feel breathless"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "breathtaking",
   "pos": "adjective",
   "def": "extremely beautiful or impressive, so as to make you gasp",
@@ -5366,6 +7511,90 @@ export const VOCAB = [
    "repair the brickwork"
   ],
   "theme": "architecture"
+ },
+ {
+  "w": "briefing",
+  "pos": "noun",
+  "def": "A meeting or document that gives people instructions or up-to-date information.",
+  "defId": "pengarahan; pertemuan atau dokumen yang memberi instruksi atau informasi terkini",
+  "ex": "There will be a short briefing before the team starts the new project.",
+  "exId": "Akan ada pengarahan singkat sebelum tim memulai proyek baru.",
+  "colloc": [
+   "hold a briefing",
+   "a press briefing",
+   "attend a briefing"
+  ],
+  "theme": "work"
+ },
+ {
+  "w": "bright",
+  "pos": "adjective",
+  "def": "(of a colour) strong, vivid and full of light",
+  "defId": "cerah; terang (warna yang kuat dan penuh cahaya)",
+  "ex": "The children's room was decorated in bright yellow and blue.",
+  "exId": "Kamar anak-anak itu dihias dengan warna kuning dan biru cerah.",
+  "colloc": [
+   "bright colours",
+   "bright red",
+   "bright shades"
+  ],
+  "theme": "colours"
+ },
+ {
+  "w": "bring about",
+  "pos": "phrasal verb",
+  "def": "to make something happen or cause it to occur",
+  "defId": "menyebabkan; mewujudkan",
+  "ex": "Advances in technology have brought about huge changes in the workplace.",
+  "exId": "Kemajuan teknologi telah menyebabkan perubahan besar di tempat kerja.",
+  "colloc": [
+   "bring about change",
+   "bring about reform",
+   "bring about improvement"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "brittle",
+  "pos": "adjective",
+  "def": "hard but easily broken or snapped",
+  "defId": "getas; keras tetapi mudah patah atau retak",
+  "ex": "The dry autumn leaves were so brittle they crumbled at a touch.",
+  "exId": "Dedaunan musim gugur yang kering itu begitu rapuh hingga hancur saat disentuh.",
+  "colloc": [
+   "brittle bones",
+   "dry and brittle",
+   "brittle texture"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "broach",
+  "pos": "verb",
+  "def": "to raise a difficult or sensitive subject for discussion",
+  "defId": "mengangkat topik yang sulit atau sensitif untuk dibahas",
+  "ex": "She waited for the right moment to broach the subject of a pay rise.",
+  "exId": "Dia menunggu saat yang tepat untuk mengangkat topik kenaikan gaji.",
+  "colloc": [
+   "broach the subject",
+   "broach a topic",
+   "broach the matter"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "broad-shouldered",
+  "pos": "adjective",
+  "def": "having wide, strong-looking shoulders",
+  "defId": "berbahu bidang",
+  "ex": "The swimmer was tall and broad-shouldered, with a powerful build.",
+  "exId": "Perenang itu tinggi dan berbahu bidang, dengan tubuh yang kuat.",
+  "colloc": [
+   "broad-shouldered man",
+   "tall and broad-shouldered",
+   "broad-shouldered frame"
+  ],
+  "theme": "describe_people"
  },
  {
   "w": "broadband",
@@ -5450,6 +7679,19 @@ export const VOCAB = [
   "theme": "nature"
  },
  {
+  "w": "broom",
+  "pos": "noun",
+  "def": "a long-handled brush used for sweeping floors",
+  "defId": "sapu",
+  "ex": "He grabbed a broom and swept the crumbs off the kitchen floor.",
+  "exId": "Dia mengambil sapu dan menyapu remah-remah dari lantai dapur.",
+  "colloc": [
+   "sweep with a broom",
+   "a broom cupboard"
+  ],
+  "theme": "household"
+ },
+ {
   "w": "brownfield",
   "pos": "adjective",
   "def": "describing land previously built on and now available for redevelopment, often former industrial sites",
@@ -5491,6 +7733,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "bruised",
+  "pos": "adjective",
+  "def": "marked with a bruise; injured so that a dark mark appears on the skin",
+  "defId": "memar; terluka sehingga muncul bercak gelap pada kulit",
+  "ex": "His knee was badly bruised after he fell off his bike.",
+  "exId": "Lututnya memar parah setelah terjatuh dari sepeda.",
+  "colloc": [
+   "badly bruised",
+   "bruised arm",
+   "bruised and battered"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "brushstroke",
   "pos": "noun",
   "def": "a mark made by a single movement of a paintbrush across a surface",
@@ -5503,6 +7759,33 @@ export const VOCAB = [
    "visible brushstrokes"
   ],
   "theme": "arts"
+ },
+ {
+  "w": "bucket",
+  "pos": "noun",
+  "def": "an open container with a handle, used for carrying or holding liquids",
+  "defId": "ember",
+  "ex": "She filled a bucket with soapy water to wash the floor.",
+  "exId": "Dia mengisi ember dengan air sabun untuk mengepel lantai.",
+  "colloc": [
+   "a bucket of water",
+   "a mop and bucket"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "bud",
+  "pos": "noun",
+  "def": "a small swelling on a plant that will develop into a leaf, flower or shoot",
+  "defId": "kuncup; tunas",
+  "ex": "The rose bushes are covered in buds that will open within a week.",
+  "exId": "Semak mawar itu penuh dengan kuncup yang akan mekar dalam seminggu.",
+  "colloc": [
+   "flower bud",
+   "in bud",
+   "buds open"
+  ],
+  "theme": "garden"
  },
  {
   "w": "budget",
@@ -5533,6 +7816,34 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "buffering",
+  "pos": "noun",
+  "def": "the process of preloading data into a temporary memory area so a video or audio stream can play without interruption",
+  "defId": "proses memuat data terlebih dahulu ke memori sementara agar video atau audio dapat diputar tanpa terputus",
+  "ex": "The stream kept pausing for buffering because the connection was too slow.",
+  "exId": "Siaran itu terus berhenti untuk buffering karena koneksinya terlalu lambat.",
+  "colloc": [
+   "constant buffering",
+   "buffering time",
+   "reduce buffering"
+  ],
+  "theme": "technology"
+ },
+ {
+  "w": "buffet",
+  "pos": "noun",
+  "def": "a meal where guests serve themselves from a range of dishes laid out on a table",
+  "defId": "jamuan makan di mana tamu mengambil sendiri dari berbagai hidangan yang tersaji di meja",
+  "ex": "The hotel offers an all-you-can-eat breakfast buffet every morning.",
+  "exId": "Hotel itu menyediakan prasmanan sarapan sepuasnya setiap pagi.",
+  "colloc": [
+   "a lavish buffet",
+   "a buffet lunch",
+   "help yourself at the buffet"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "built-up",
   "pos": "adjective",
   "def": "covered with many buildings and having little open space",
@@ -5544,6 +7855,34 @@ export const VOCAB = [
    "densely built-up"
   ],
   "theme": "urban"
+ },
+ {
+  "w": "bulb",
+  "pos": "noun",
+  "def": "a rounded underground part of certain plants from which the plant grows again each year",
+  "defId": "umbi (tanaman)",
+  "ex": "Daffodil bulbs should be planted in autumn so they flower in spring.",
+  "exId": "Umbi bunga bakung sebaiknya ditanam pada musim gugur agar mekar di musim semi.",
+  "colloc": [
+   "plant bulbs",
+   "spring bulbs",
+   "daffodil bulb"
+  ],
+  "theme": "garden"
+ },
+ {
+  "w": "bull market",
+  "pos": "noun",
+  "def": "A period during which share prices are rising and investors are confident.",
+  "defId": "Pasar bullish; periode saat harga saham naik dan investor optimis.",
+  "ex": "Investors made large gains during the long bull market.",
+  "exId": "Para investor meraih keuntungan besar selama pasar bullish yang panjang.",
+  "colloc": [
+   "during a bull market",
+   "a raging bull market",
+   "a bull market run"
+  ],
+  "theme": "economy"
  },
  {
   "w": "bulletin",
@@ -5586,6 +7925,33 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "buoyant",
+  "pos": "adjective",
+  "def": "(Of an economy or market) successful and tending to rise or stay high.",
+  "defId": "Bergairah; (tentang ekonomi atau pasar) sedang kuat dan cenderung naik.",
+  "ex": "A buoyant housing market encouraged more people to put their homes up for sale.",
+  "exId": "Pasar perumahan yang bergairah mendorong lebih banyak orang menjual rumah mereka.",
+  "colloc": [
+   "a buoyant economy",
+   "buoyant demand",
+   "a buoyant market"
+  ],
+  "theme": "economy"
+ },
+ {
+  "w": "bureau",
+  "pos": "noun",
+  "def": "a government department or agency responsible for a specific type of work",
+  "defId": "biro; departemen atau lembaga pemerintah yang menangani jenis pekerjaan tertentu",
+  "ex": "The federal bureau was tasked with investigating cases of large-scale corruption.",
+  "exId": "Biro federal itu ditugaskan menyelidiki kasus korupsi berskala besar.",
+  "colloc": [
+   "federal bureau",
+   "statistics bureau"
+  ],
+  "theme": "politics"
+ },
+ {
   "w": "bureaucracy",
   "pos": "noun",
   "def": "a system of government or administration with many complicated official rules and procedures",
@@ -5612,6 +7978,33 @@ export const VOCAB = [
    "burglary victim"
   ],
   "theme": "crime"
+ },
+ {
+  "w": "burly",
+  "pos": "adjective",
+  "def": "large, strong and heavily built",
+  "defId": "besar, kuat, dan bertubuh kekar",
+  "ex": "Two burly security guards escorted him out of the building.",
+  "exId": "Dua petugas keamanan bertubuh kekar mengawalnya keluar dari gedung.",
+  "colloc": [
+   "burly man",
+   "burly figure",
+   "burly guards"
+  ],
+  "theme": "describe_people"
+ },
+ {
+  "w": "burn the midnight oil",
+  "pos": "idiom",
+  "def": "to work or study late into the night",
+  "defId": "bekerja atau belajar hingga larut malam",
+  "ex": "I had to burn the midnight oil to finish my dissertation on time.",
+  "exId": "Saya harus begadang untuk menyelesaikan disertasi tepat waktu.",
+  "colloc": [
+   "studying late",
+   "'burn the midnight oil'"
+  ],
+  "theme": "idioms"
  },
  {
   "w": "burnout",
@@ -5737,6 +8130,74 @@ export const VOCAB = [
   "theme": "business"
  },
  {
+  "w": "buzz",
+  "pos": "verb",
+  "def": "to make a continuous, low humming sound like that of a bee",
+  "defId": "berdengung",
+  "ex": "A fly buzzed around the room all afternoon, refusing to settle.",
+  "exId": "Seekor lalat berdengung mengitari ruangan sepanjang sore, enggan hinggap.",
+  "colloc": [
+   "bees buzz",
+   "buzz around",
+   "a buzzing sound"
+  ],
+  "theme": "sound_movement"
+ },
+ {
+  "w": "buzzing",
+  "pos": "adjective",
+  "def": "lively and full of activity and excitement",
+  "defId": "riuh dan penuh gairah",
+  "ex": "On weekends the market square is buzzing with musicians, stalls and crowds.",
+  "exId": "Pada akhir pekan alun-alun pasar riuh semarak dengan musisi, kios, dan kerumunan.",
+  "colloc": [
+   "a buzzing atmosphere",
+   "a buzzing city",
+   "buzzing with life"
+  ],
+  "theme": "describe_places"
+ },
+ {
+  "w": "by and large",
+  "pos": "phrase",
+  "def": "generally; when considered as a whole",
+  "defId": "secara umum; pada umumnya",
+  "ex": "By and large, the reforms have been well received by the public.",
+  "exId": "Secara umum, reformasi tersebut diterima dengan baik oleh masyarakat.",
+  "colloc": [
+   "by and large successful",
+   "by and large true",
+   "by and large positive"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "by comparison",
+  "pos": "phrase",
+  "def": "used to show how one thing differs when set against another",
+  "defId": "digunakan untuk menunjukkan perbedaan suatu hal jika dibandingkan dengan yang lain",
+  "ex": "The first exam was demanding; the second, by comparison, was easy.",
+  "exId": "Ujian pertama menuntut; ujian kedua, jika dibandingkan, mudah.",
+  "colloc": [
+   "by comparison",
+   "pale by comparison"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "by-election",
+  "pos": "noun",
+  "def": "an election held between general elections to fill a single vacant seat",
+  "defId": "pemilihan sela; pemilihan yang digelar di antara pemilihan umum untuk mengisi satu kursi yang kosong",
+  "ex": "The party lost the by-election, signalling a drop in public support.",
+  "exId": "Partai itu kalah dalam pemilihan sela, menandakan menurunnya dukungan publik.",
+  "colloc": [
+   "lose a by-election",
+   "trigger a by-election"
+  ],
+  "theme": "politics"
+ },
+ {
   "w": "bygone",
   "pos": "adjective",
   "def": "belonging to an earlier time that has passed",
@@ -5749,6 +8210,19 @@ export const VOCAB = [
    "bygone times"
   ],
   "theme": "history"
+ },
+ {
+  "w": "bylaw",
+  "pos": "noun",
+  "def": "a rule made by a local authority or organisation to control its own affairs",
+  "defId": "peraturan lokal atau internal suatu organisasi",
+  "ex": "Parking on the green is prohibited under a council bylaw.",
+  "exId": "Parkir di lapangan hijau dilarang menurut peraturan lokal dewan kota.",
+  "colloc": [
+   "council bylaw",
+   "breach a bylaw"
+  ],
+  "theme": "law"
  },
  {
   "w": "byline",
@@ -5778,6 +8252,34 @@ export const VOCAB = [
   "theme": "urban"
  },
  {
+  "w": "byproduct",
+  "pos": "noun",
+  "def": "something that happens as an additional result of an action or process",
+  "defId": "produk sampingan; akibat sampingan",
+  "ex": "Increased stress is often a byproduct of a demanding job.",
+  "exId": "Meningkatnya stres sering kali merupakan akibat sampingan dari pekerjaan yang menuntut.",
+  "colloc": [
+   "a byproduct of",
+   "an unintended byproduct",
+   "a natural byproduct"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "bystander",
+  "pos": "noun",
+  "def": "a person who is present at an event but does not take part in it",
+  "defId": "orang yang menyaksikan; orang yang hadir pada suatu peristiwa tetapi tidak ikut terlibat",
+  "ex": "An innocent bystander stepped in to help the injured cyclist.",
+  "exId": "Seorang penonton tak bersalah turun tangan menolong pesepeda yang terluka.",
+  "colloc": [
+   "innocent bystander",
+   "a passive bystander",
+   "bystander effect"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "cabin crew",
   "pos": "noun",
   "def": "the staff who look after passengers and safety on board an aircraft",
@@ -5803,6 +8305,19 @@ export const VOCAB = [
    "cabinet meeting"
   ],
   "theme": "politics"
+ },
+ {
+  "w": "cable",
+  "pos": "noun",
+  "def": "a thick wire or bundle of wires that carries power or signals",
+  "defId": "kabel",
+  "ex": "Run the power cable along the skirting board so no one trips over it.",
+  "exId": "Rentangkan kabel listrik di sepanjang lis lantai supaya tidak ada yang tersandung.",
+  "colloc": [
+   "power cable",
+   "fibre-optic cable"
+  ],
+  "theme": "tools"
  },
  {
   "w": "cable car",
@@ -5831,6 +8346,61 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "cacophony",
+  "pos": "noun",
+  "def": "a harsh, discordant mixture of loud sounds",
+  "defId": "hiruk-pikuk; campuran suara keras yang kasar dan tidak selaras",
+  "ex": "A cacophony of car horns greeted us in the city centre.",
+  "exId": "Hiruk-pikuk klakson mobil menyambut kami di pusat kota.",
+  "colloc": [
+   "a cacophony of",
+   "cacophony of sound",
+   "cacophony of noise"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "cadence",
+  "pos": "noun",
+  "def": "the rhythmic rise and fall of the voice in speech",
+  "defId": "naik-turunnya nada suara yang berirama dalam tuturan",
+  "ex": "The gentle cadence of her voice made even a dry topic pleasant to listen to.",
+  "exId": "Irama lembut suaranya membuat topik yang kering pun enak didengar.",
+  "colloc": [
+   "natural cadence",
+   "the cadence of speech",
+   "a soothing cadence"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "cadenza",
+  "pos": "noun",
+  "def": "a virtuosic solo passage in a concerto, often improvised, near the end of a movement",
+  "defId": "bagian solo virtuosik dalam konserto, sering kali improvisasi, menjelang akhir sebuah gerakan",
+  "ex": "The violinist's dazzling cadenza drew gasps from the audience.",
+  "exId": "Kadenza yang memukau dari sang pemain biola membuat penonton terkesiap.",
+  "colloc": [
+   "dazzling cadenza",
+   "improvised cadenza",
+   "play a cadenza"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "calculate",
+  "pos": "verb",
+  "def": "to work out a number or amount using mathematics",
+  "defId": "menghitung",
+  "ex": "You can calculate the average by dividing the total by the number of items.",
+  "exId": "Anda dapat menghitung rata-rata dengan membagi total dengan jumlah item.",
+  "colloc": [
+   "calculate the total",
+   "calculate the average"
+  ],
+  "theme": "numbers"
+ },
+ {
   "w": "calibrate",
   "pos": "verb",
   "def": "to adjust an instrument or process precisely so that results are accurate",
@@ -5843,6 +8413,20 @@ export const VOCAB = [
    "calibrate a device"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "calibration",
+  "pos": "n",
+  "def": "the process of adjusting an instrument so that its readings are accurate",
+  "defId": "proses menyetel alat agar hasil pembacaannya akurat",
+  "ex": "Regular calibration of the sensors keeps the data reliable.",
+  "exId": "Kalibrasi rutin pada sensor menjaga data tetap andal.",
+  "colloc": [
+   "regular calibration",
+   "instrument calibration",
+   "require calibration"
+  ],
+  "theme": "science"
  },
  {
   "w": "calligraphy",
@@ -5859,6 +8443,20 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "calling",
+  "pos": "noun",
+  "def": "A strong inner urge to pursue a particular career or type of work.",
+  "defId": "panggilan hidup; dorongan kuat dari dalam diri untuk menekuni pekerjaan atau profesi tertentu",
+  "ex": "She left banking to become a teacher because she felt it was her true calling.",
+  "exId": "Dia meninggalkan dunia perbankan untuk menjadi guru karena merasa itulah panggilan hidupnya yang sejati.",
+  "colloc": [
+   "find one's calling",
+   "answer the calling",
+   "a higher calling"
+  ],
+  "theme": "work"
+ },
+ {
   "w": "callous",
   "pos": "adjective",
   "def": "cruel and showing no sympathy for other people's suffering",
@@ -5870,6 +8468,20 @@ export const VOCAB = [
    "cold and callous"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "calorific",
+  "pos": "adjective",
+  "def": "containing a large number of calories and likely to be fattening",
+  "defId": "mengandung banyak kalori dan cenderung membuat gemuk",
+  "ex": "Deep-fried snacks are delicious but extremely calorific.",
+  "exId": "Camilan yang digoreng rendam memang lezat tetapi sangat tinggi kalori.",
+  "colloc": [
+   "highly calorific",
+   "a calorific meal",
+   "calorific content"
+  ],
+  "theme": "food"
  },
  {
   "w": "camaraderie",
@@ -5954,6 +8566,19 @@ export const VOCAB = [
   "theme": "tourism"
  },
  {
+  "w": "campus",
+  "pos": "noun",
+  "def": "the grounds and buildings of a university or college",
+  "defId": "area dan bangunan sebuah universitas atau perguruan tinggi",
+  "ex": "The new library sits at the heart of the campus, a short walk from the halls.",
+  "exId": "Perpustakaan baru itu berada di jantung kampus, hanya beberapa langkah dari asrama.",
+  "colloc": [
+   "on campus",
+   "a university campus"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "candid",
   "pos": "adjective",
   "def": "honest and direct, saying what you really think even if it is uncomfortable",
@@ -5965,6 +8590,19 @@ export const VOCAB = [
    "brutally candid"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "candidate",
+  "pos": "noun",
+  "def": "a person who stands for election to a political office",
+  "defId": "kandidat; orang yang mencalonkan diri dalam pemilihan untuk suatu jabatan",
+  "ex": "Each candidate was given equal airtime to present their policies before the election.",
+  "exId": "Setiap kandidat diberi waktu tayang yang sama untuk memaparkan kebijakan mereka sebelum pemilihan.",
+  "colloc": [
+   "presidential candidate",
+   "field a candidate"
+  ],
+  "theme": "politics"
  },
  {
   "w": "canopy",
@@ -6008,6 +8646,19 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "canvass",
+  "pos": "verb",
+  "def": "to visit people in an area to seek their votes or opinions, especially before an election",
+  "defId": "berkampanye dari pintu ke pintu; mendatangi warga untuk meminta dukungan suara atau pendapat",
+  "ex": "Volunteers spent the weekend canvassing the neighbourhood on behalf of the local candidate.",
+  "exId": "Para relawan menghabiskan akhir pekan mendatangi warga lingkungan itu atas nama kandidat setempat.",
+  "colloc": [
+   "canvass voters",
+   "canvass door to door"
+  ],
+  "theme": "politics"
+ },
+ {
   "w": "capacity",
   "pos": "noun",
   "def": "the maximum amount that something can produce or hold",
@@ -6022,6 +8673,20 @@ export const VOCAB = [
   "theme": "energy"
  },
  {
+  "w": "capacity-building",
+  "pos": "noun",
+  "def": "the process of developing the skills and resources a community needs to develop",
+  "defId": "proses mengembangkan keterampilan dan sumber daya yang dibutuhkan masyarakat untuk berkembang",
+  "ex": "The programme focuses on capacity-building so that local staff can eventually run the project alone.",
+  "exId": "Program itu berfokus pada pengembangan kapasitas agar staf lokal akhirnya dapat menjalankan proyek sendiri.",
+  "colloc": [
+   "capacity-building programme",
+   "invest in capacity-building",
+   "institutional capacity-building"
+  ],
+  "theme": "globalisation"
+ },
+ {
   "w": "capital",
   "pos": "noun",
   "def": "wealth in the form of money or assets used to invest in producing goods",
@@ -6031,6 +8696,20 @@ export const VOCAB = [
   "colloc": [
    "raise capital",
    "capital investment"
+  ],
+  "theme": "economy"
+ },
+ {
+  "w": "capital flight",
+  "pos": "noun",
+  "def": "The rapid movement of money out of a country, usually because of instability.",
+  "defId": "Pelarian modal; perpindahan uang secara cepat ke luar negeri, biasanya karena ketidakstabilan.",
+  "ex": "Political turmoil triggered massive capital flight from the country.",
+  "exId": "Gejolak politik memicu pelarian modal besar-besaran dari negara itu.",
+  "colloc": [
+   "trigger capital flight",
+   "massive capital flight",
+   "stem capital flight"
   ],
   "theme": "economy"
  },
@@ -6073,6 +8752,20 @@ export const VOCAB = [
    "captain's armband"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "captcha",
+  "pos": "noun",
+  "def": "a test on a website used to tell human users apart from automated bots",
+  "defId": "uji pada situs web yang digunakan untuk membedakan pengguna manusia dari bot otomatis",
+  "ex": "I had to solve a captcha by selecting all the images with traffic lights.",
+  "exId": "Saya harus menyelesaikan captcha dengan memilih semua gambar yang ada lampu lalu lintasnya.",
+  "colloc": [
+   "solve a captcha",
+   "captcha verification",
+   "enter the captcha"
+  ],
+  "theme": "technology"
  },
  {
   "w": "caption",
@@ -6127,6 +8820,20 @@ export const VOCAB = [
    "caramelise slowly"
   ],
   "theme": "food"
+ },
+ {
+  "w": "caravan",
+  "pos": "noun",
+  "def": "a group of travellers journeying together, or a towed vehicle for living in on holiday",
+  "defId": "rombongan pelancong yang bepergian bersama, atau kendaraan gandeng untuk ditinggali saat berlibur",
+  "ex": "A caravan of traders crossed the desert to reach the coastal city.",
+  "exId": "Serombongan pedagang menyeberangi gurun untuk mencapai kota pesisir.",
+  "colloc": [
+   "a caravan of camels",
+   "a caravan park",
+   "tow a caravan"
+  ],
+  "theme": "travel"
  },
  {
   "w": "carbon",
@@ -6207,6 +8914,20 @@ export const VOCAB = [
    "carbon-neutral target"
   ],
   "theme": "energy"
+ },
+ {
+  "w": "carcinogen",
+  "pos": "noun",
+  "def": "a substance capable of causing cancer in living tissue.",
+  "defId": "zat yang dapat menyebabkan kanker pada jaringan hidup.",
+  "ex": "Several industrial solvents are known carcinogens that pollute the air.",
+  "exId": "Beberapa pelarut industri diketahui sebagai karsinogen yang mencemari udara.",
+  "colloc": [
+   "known carcinogen",
+   "potential carcinogen",
+   "exposure to carcinogens"
+  ],
+  "theme": "environment"
  },
  {
   "w": "cardigan",
@@ -6317,6 +9038,33 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "carpenter",
+  "pos": "noun",
+  "def": "a person who makes and repairs wooden objects and structures",
+  "defId": "tukang kayu",
+  "ex": "The carpenter built a set of shelves for the study.",
+  "exId": "Tukang kayu itu membuat serangkaian rak untuk ruang belajar.",
+  "colloc": [
+   "skilled carpenter",
+   "carpenter's tools"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "carpet",
+  "pos": "noun",
+  "def": "a heavy woven floor covering, usually fitted from wall to wall",
+  "defId": "karpet (menutupi seluruh lantai)",
+  "ex": "They laid a thick grey carpet throughout the living room.",
+  "exId": "Mereka memasang karpet abu-abu tebal di seluruh ruang tamu.",
+  "colloc": [
+   "fitted carpet",
+   "lay a carpet",
+   "vacuum the carpet"
+  ],
+  "theme": "household"
+ },
+ {
   "w": "carriage",
   "pos": "noun",
   "def": "a separate section of a passenger train where people sit",
@@ -6383,6 +9131,20 @@ export const VOCAB = [
    "cartilage between joints"
   ],
   "theme": "body"
+ },
+ {
+  "w": "caseload",
+  "pos": "noun",
+  "def": "The number of cases or clients a worker is responsible for at one time.",
+  "defId": "beban kasus; jumlah kasus atau klien yang menjadi tanggung jawab seseorang pada satu waktu",
+  "ex": "Social workers here often struggle with an unmanageable caseload.",
+  "exId": "Para pekerja sosial di sini sering kesulitan dengan beban kasus yang tak tertangani.",
+  "colloc": [
+   "a heavy caseload",
+   "manage a caseload",
+   "reduce the caseload"
+  ],
+  "theme": "work"
  },
  {
   "w": "cash flow",
@@ -6454,6 +9216,20 @@ export const VOCAB = [
   "theme": "film"
  },
  {
+  "w": "caste",
+  "pos": "noun",
+  "def": "a fixed social class into which a person is born and cannot easily leave",
+  "defId": "kasta; kelas sosial tetap tempat seseorang dilahirkan dan sulit ditinggalkan",
+  "ex": "Reformers campaigned for decades to dismantle discrimination based on caste.",
+  "exId": "Para pembaru berkampanye selama puluhan tahun untuk membongkar diskriminasi berdasarkan kasta.",
+  "colloc": [
+   "caste system",
+   "lower caste",
+   "caste discrimination"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "casualty",
   "pos": "noun",
   "def": "a person killed or injured in a war or accident",
@@ -6466,6 +9242,20 @@ export const VOCAB = [
    "casualty figures"
   ],
   "theme": "conflict"
+ },
+ {
+  "w": "catalyse",
+  "pos": "verb",
+  "def": "to cause or speed up a change, action, or process",
+  "defId": "mengatalisis; mempercepat atau memicu",
+  "ex": "The invention of the printing press catalysed the spread of knowledge.",
+  "exId": "Penemuan mesin cetak mempercepat penyebaran pengetahuan.",
+  "colloc": [
+   "catalyse change",
+   "catalyse growth",
+   "catalyse a reaction"
+  ],
+  "theme": "academic"
  },
  {
   "w": "catalyst",
@@ -6506,6 +9296,20 @@ export const VOCAB = [
    "catchy melody"
   ],
   "theme": "music"
+ },
+ {
+  "w": "categorical",
+  "pos": "adjective",
+  "def": "stated with absolute certainty and without conditions",
+  "defId": "kategoris; mutlak",
+  "ex": "The minister issued a categorical denial of the allegations.",
+  "exId": "Menteri itu mengeluarkan bantahan kategoris atas tuduhan tersebut.",
+  "colloc": [
+   "categorical denial",
+   "categorical assurance",
+   "categorical statement"
+  ],
+  "theme": "academic"
  },
  {
   "w": "categorise",
@@ -6563,6 +9367,46 @@ export const VOCAB = [
   "theme": "fashion"
  },
  {
+  "w": "caucus",
+  "pos": "noun",
+  "def": "a meeting of members of a political party to choose candidates or decide policy",
+  "defId": "kaukus; pertemuan anggota partai politik untuk memilih kandidat atau menentukan kebijakan",
+  "ex": "Party members gathered in a caucus to select their preferred candidate for the coming election.",
+  "exId": "Anggota partai berkumpul dalam kaukus untuk memilih kandidat yang mereka dukung pada pemilihan mendatang.",
+  "colloc": [
+   "party caucus",
+   "caucus meeting"
+  ],
+  "theme": "politics"
+ },
+ {
+  "w": "causal",
+  "pos": "adjective",
+  "def": "relating to or showing the connection between a cause and its effect",
+  "defId": "kausal; bersifat sebab-akibat",
+  "ex": "Researchers found a clear causal link between smoking and lung disease.",
+  "exId": "Para peneliti menemukan hubungan sebab-akibat yang jelas antara merokok dan penyakit paru-paru.",
+  "colloc": [
+   "causal link",
+   "causal relationship",
+   "causal factor"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "causality",
+  "pos": "noun",
+  "def": "the relationship between cause and effect",
+  "defId": "kausalitas; hubungan sebab-akibat",
+  "ex": "Correlation does not necessarily imply causality between two events.",
+  "exId": "Korelasi tidak selalu menyiratkan kausalitas antara dua peristiwa.",
+  "colloc": [
+   "establish causality",
+   "a chain of causality"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "causation",
   "pos": "noun",
   "def": "the relationship in which one event directly produces another",
@@ -6575,6 +9419,34 @@ export const VOCAB = [
    "correlation and causation"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "cause",
+  "pos": "verb",
+  "def": "to make something happen, especially something bad",
+  "defId": "menyebabkan",
+  "ex": "Careless driving causes thousands of accidents every year.",
+  "exId": "Mengemudi yang ceroboh menyebabkan ribuan kecelakaan setiap tahun.",
+  "colloc": [
+   "cause damage",
+   "cause problems",
+   "cause harm"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "causeway",
+  "pos": "noun",
+  "def": "a raised road or path across water or marshy ground",
+  "defId": "jalan atau jalur yang ditinggikan melintasi air atau tanah berawa",
+  "ex": "At high tide, the causeway to the island disappears under the sea.",
+  "exId": "Saat air pasang, jalan lintas ke pulau itu lenyap di bawah laut.",
+  "colloc": [
+   "a stone causeway",
+   "cross the causeway",
+   "a tidal causeway"
+  ],
+  "theme": "travel"
  },
  {
   "w": "cautious",
@@ -6673,6 +9545,20 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "census",
+  "pos": "noun",
+  "def": "an official count and survey of a population and its characteristics",
+  "defId": "sensus; pencacahan dan survei resmi atas jumlah penduduk beserta karakteristiknya",
+  "ex": "The latest census revealed a sharp rise in single-person households.",
+  "exId": "Sensus terbaru mengungkap lonjakan tajam rumah tangga satu orang.",
+  "colloc": [
+   "national census",
+   "conduct a census",
+   "census data"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "central bank",
   "pos": "noun",
   "def": "the institution that manages a country's currency, money supply and interest rates",
@@ -6684,6 +9570,19 @@ export const VOCAB = [
    "independent central bank"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "centralised",
+  "pos": "adjective",
+  "def": "controlled or organised from a single central authority",
+  "defId": "tersentralisasi; dikendalikan atau diatur dari satu otoritas pusat",
+  "ex": "A highly centralised government can make swift decisions but may ignore local needs.",
+  "exId": "Pemerintahan yang sangat tersentralisasi dapat mengambil keputusan cepat tetapi mungkin mengabaikan kebutuhan lokal.",
+  "colloc": [
+   "centralised power",
+   "highly centralised"
+  ],
+  "theme": "politics"
  },
  {
   "w": "century",
@@ -6742,6 +9641,20 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "chain reaction",
+  "pos": "noun",
+  "def": "a series of events in which each one causes the next",
+  "defId": "reaksi berantai",
+  "ex": "The stock market crash set off a chain reaction of business failures.",
+  "exId": "Kejatuhan pasar saham memicu reaksi berantai berupa kebangkrutan usaha.",
+  "colloc": [
+   "set off a chain reaction",
+   "trigger a chain reaction",
+   "a chain reaction of events"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "challenge",
   "pos": "verb",
   "def": "to question whether something is true, right, or legal",
@@ -6794,6 +9707,19 @@ export const VOCAB = [
    "strong characterisation"
   ],
   "theme": "literature"
+ },
+ {
+  "w": "characteristic",
+  "pos": "noun",
+  "def": "a typical feature or quality that helps to identify or distinguish something or someone",
+  "defId": "ciri; karakteristik",
+  "ex": "Patience is a defining characteristic of a successful language learner.",
+  "exId": "Kesabaran adalah karakteristik utama seorang pembelajar bahasa yang sukses.",
+  "colloc": [
+   "defining characteristic",
+   "distinctive characteristic"
+  ],
+  "theme": "academic"
  },
  {
   "w": "charcoal",
@@ -6863,6 +9789,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "charitable",
+  "pos": "adjective",
+  "def": "relating to or characterised by the giving of help to those in need",
+  "defId": "amal; berkaitan dengan atau bersifat memberi bantuan kepada yang membutuhkan",
+  "ex": "The company donates a share of its profits to charitable causes each year.",
+  "exId": "Perusahaan itu menyumbangkan sebagian labanya untuk kegiatan amal setiap tahun.",
+  "colloc": [
+   "charitable donation",
+   "charitable cause",
+   "charitable organisation"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "charity shop",
   "pos": "noun",
   "def": "a shop run by a charity that sells second-hand donated goods",
@@ -6875,6 +9815,33 @@ export const VOCAB = [
    "browse the charity shop"
   ],
   "theme": "uk_daily"
+ },
+ {
+  "w": "charming",
+  "pos": "adjective",
+  "def": "very pleasant and attractive",
+  "defId": "menawan dan memikat",
+  "ex": "Its narrow lanes and flower-filled balconies make it one of the most charming towns in the region.",
+  "exId": "Gang-gang sempit dan balkon penuh bunga membuatnya menjadi salah satu kota paling menawan di kawasan itu.",
+  "colloc": [
+   "a charming village",
+   "a charming old town",
+   "charming architecture"
+  ],
+  "theme": "describe_places"
+ },
+ {
+  "w": "charter",
+  "pos": "noun",
+  "def": "a formal document stating the rights, aims, or principles of a group",
+  "defId": "piagam; dokumen resmi yang menyatakan hak atau asas suatu kelompok",
+  "ex": "The organisation's charter guarantees every member the right to vote.",
+  "exId": "Piagam organisasi itu menjamin hak setiap anggota untuk memberikan suara.",
+  "colloc": [
+   "a charter of rights",
+   "under the charter"
+  ],
+  "theme": "law"
  },
  {
   "w": "chassis",
@@ -6930,6 +9897,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "checked",
+  "pos": "adjective",
+  "def": "having a pattern of squares, often in two or more colours",
+  "defId": "kotak-kotak",
+  "ex": "The picnic blanket had a red and white checked pattern.",
+  "exId": "Alas piknik itu bermotif kotak-kotak merah dan putih.",
+  "colloc": [
+   "checked pattern",
+   "checked shirt",
+   "checked design"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "checkout",
   "pos": "noun",
   "def": "the time by which you must leave a hotel room, or the act of leaving and paying",
@@ -6942,6 +9923,20 @@ export const VOCAB = [
    "express checkout"
   ],
   "theme": "tourism"
+ },
+ {
+  "w": "checkpoint",
+  "pos": "noun",
+  "def": "a place where travellers are stopped for inspection, especially at a border",
+  "defId": "tempat para pelancong dihentikan untuk pemeriksaan, terutama di perbatasan",
+  "ex": "The bus was held up for an hour at the border checkpoint.",
+  "exId": "Bus itu tertahan selama satu jam di pos pemeriksaan perbatasan.",
+  "colloc": [
+   "a border checkpoint",
+   "pass through a checkpoint",
+   "a security checkpoint"
+  ],
+  "theme": "travel"
  },
  {
   "w": "cheeky",
@@ -6985,6 +9980,19 @@ export const VOCAB = [
   "theme": "uk_daily"
  },
  {
+  "w": "chef",
+  "pos": "noun",
+  "def": "a professional cook, especially the most senior cook in a restaurant",
+  "defId": "koki",
+  "ex": "The chef prepared a five-course meal for the guests.",
+  "exId": "Koki itu menyiapkan hidangan lima menu untuk para tamu.",
+  "colloc": [
+   "head chef",
+   "celebrity chef"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "chemist",
   "pos": "noun",
   "def": "(informal) An everyday British word for a pharmacy or the pharmacist who works there.",
@@ -7026,6 +10034,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "cherish",
+  "pos": "verb",
+  "def": "to value and care for something deeply because it is important to you",
+  "defId": "sangat menghargai dan menyayangi sesuatu yang berharga",
+  "ex": "I cherish the freedom to express my own opinions without fear.",
+  "exId": "Saya sangat menghargai kebebasan untuk menyuarakan pendapat tanpa rasa takut.",
+  "colloc": [
+   "cherish memories",
+   "dearly cherish",
+   "cherish freedom"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "chess",
   "pos": "noun",
   "def": "a strategic board game for two players, each using sixteen pieces",
@@ -7052,6 +10074,20 @@ export const VOCAB = [
    "chew slowly"
   ],
   "theme": "body"
+ },
+ {
+  "w": "chewy",
+  "pos": "adjective",
+  "def": "needing to be chewed a lot before it can be swallowed",
+  "defId": "perlu dikunyah cukup lama sebelum dapat ditelan",
+  "ex": "The caramel was so chewy that it stuck to my teeth.",
+  "exId": "Karamel itu begitu kenyal hingga menempel di gigi saya.",
+  "colloc": [
+   "a chewy texture",
+   "chewy caramel",
+   "pleasantly chewy"
+  ],
+  "theme": "food"
  },
  {
   "w": "chiaroscuro",
@@ -7096,6 +10132,20 @@ export const VOCAB = [
   "theme": "weather"
  },
  {
+  "w": "chime",
+  "pos": "verb",
+  "def": "(of a bell or clock) to ring out with a clear, musical sound",
+  "defId": "berdentang merdu; berbunyi (lonceng)",
+  "ex": "The church bells chimed to mark the beginning of the ceremony.",
+  "exId": "Lonceng gereja berdentang menandai dimulainya upacara.",
+  "colloc": [
+   "bells chime",
+   "the clock chimes",
+   "chime the hour"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "chinwag",
   "pos": "noun (informal)",
   "def": "A chat or gossip with someone; a friendly, informal conversation.",
@@ -7122,6 +10172,19 @@ export const VOCAB = [
    "a bag of chips from the chippy"
   ],
   "theme": "uk_daily"
+ },
+ {
+  "w": "chisel",
+  "pos": "noun",
+  "def": "a hand tool with a sharp bevelled edge for shaping wood or stone",
+  "defId": "pahat",
+  "ex": "The carpenter shaped the joint with a sharp chisel.",
+  "exId": "Tukang kayu itu membentuk sambungan dengan pahat yang tajam.",
+  "colloc": [
+   "wood chisel",
+   "cold chisel"
+  ],
+  "theme": "tools"
  },
  {
   "w": "choir",
@@ -7248,6 +10311,19 @@ export const VOCAB = [
   "theme": "history"
  },
  {
+  "w": "chronological",
+  "pos": "adjective",
+  "def": "arranged in the order in which events happened over time",
+  "defId": "kronologis; menurut urutan waktu",
+  "ex": "The exhibition presents the artist's work in chronological order.",
+  "exId": "Pameran itu menyajikan karya seniman itu dalam urutan kronologis.",
+  "colloc": [
+   "chronological order",
+   "chronological sequence"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "chronology",
   "pos": "noun",
   "def": "the arrangement of events in the order in which they occurred",
@@ -7262,6 +10338,20 @@ export const VOCAB = [
   "theme": "history"
  },
  {
+  "w": "chubby",
+  "pos": "adjective",
+  "def": "slightly fat in a way that is often considered attractive, especially of children",
+  "defId": "gemuk montok (sering untuk anak)",
+  "ex": "The baby had chubby cheeks and a wide, toothless smile.",
+  "exId": "Bayi itu memiliki pipi montok dan senyum lebar tanpa gigi.",
+  "colloc": [
+   "chubby cheeks",
+   "chubby baby",
+   "chubby fingers"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "chuffed",
   "pos": "adjective (informal)",
   "def": "Very pleased or proud about something.",
@@ -7274,6 +10364,20 @@ export const VOCAB = [
    "well chuffed"
   ],
   "theme": "uk_social"
+ },
+ {
+  "w": "churn",
+  "pos": "noun",
+  "def": "the rate at which customers stop doing business with a company over a given period",
+  "defId": "laju pelanggan berhenti berbisnis dengan suatu perusahaan dalam periode tertentu",
+  "ex": "High customer churn forced the subscription service to rethink its pricing.",
+  "exId": "Tingginya perputaran pelanggan memaksa layanan langganan itu memikirkan ulang harganya.",
+  "colloc": [
+   "customer churn",
+   "churn rate",
+   "reduce churn"
+  ],
+  "theme": "business"
  },
  {
   "w": "cinema",
@@ -7357,6 +10461,20 @@ export const VOCAB = [
   "theme": "body"
  },
  {
+  "w": "circumnavigate",
+  "pos": "verb",
+  "def": "to sail or travel all the way around something, especially the world",
+  "defId": "berlayar atau bepergian mengelilingi sesuatu sepenuhnya, terutama dunia",
+  "ex": "It took the crew nine months to circumnavigate the globe.",
+  "exId": "Awak kapal butuh sembilan bulan untuk mengelilingi dunia.",
+  "colloc": [
+   "circumnavigate the globe",
+   "circumnavigate the world",
+   "circumnavigate the island"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "cite",
   "pos": "verb",
   "def": "to mention a source or example as evidence for an argument",
@@ -7368,6 +10486,20 @@ export const VOCAB = [
    "cite evidence"
   ],
   "theme": "language"
+ },
+ {
+  "w": "citizenry",
+  "pos": "noun",
+  "def": "all the citizens of a place regarded collectively",
+  "defId": "warga negara secara keseluruhan; segenap penduduk suatu tempat",
+  "ex": "An informed citizenry is essential to the healthy functioning of any democracy.",
+  "exId": "Warga negara yang terinformasi sangat penting bagi berjalannya demokrasi yang sehat.",
+  "colloc": [
+   "informed citizenry",
+   "engaged citizenry",
+   "the wider citizenry"
+  ],
+  "theme": "society"
  },
  {
   "w": "citizenship",
@@ -7424,6 +10556,20 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "civic duty",
+  "pos": "noun",
+  "def": "a responsibility that citizens are expected to fulfil for the good of society",
+  "defId": "kewajiban sipil; tanggung jawab yang diharapkan dipenuhi warga demi kebaikan masyarakat",
+  "ex": "Many people regard voting not merely as a right but as a civic duty.",
+  "exId": "Banyak orang menganggap memilih bukan sekadar hak melainkan kewajiban sipil.",
+  "colloc": [
+   "fulfil a civic duty",
+   "sense of civic duty",
+   "perform your civic duty"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "civil",
   "pos": "adjective",
   "def": "relating to the ordinary citizens of a country and their rights, rather than to crime or the military",
@@ -7436,6 +10582,19 @@ export const VOCAB = [
    "civil liberties"
   ],
   "theme": "society"
+ },
+ {
+  "w": "civil servant",
+  "pos": "noun",
+  "def": "a person employed in the government administration of a country",
+  "defId": "pegawai negeri",
+  "ex": "As a civil servant, she works for the Ministry of Health.",
+  "exId": "Sebagai pegawai negeri, dia bekerja untuk Kementerian Kesehatan.",
+  "colloc": [
+   "senior civil servant",
+   "retired civil servant"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "civil society",
@@ -7493,6 +10652,19 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "claimant",
+  "pos": "noun",
+  "def": "a person who makes a legal claim, especially in a civil case",
+  "defId": "penggugat; pihak yang mengajukan tuntutan hukum",
+  "ex": "The claimant is seeking damages for breach of contract.",
+  "exId": "Penggugat menuntut ganti rugi atas pelanggaran kontrak.",
+  "colloc": [
+   "the claimant alleges",
+   "successful claimant"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "clammy",
   "pos": "adjective",
   "def": "unpleasantly damp, cool and sticky",
@@ -7519,6 +10691,34 @@ export const VOCAB = [
    "remove the clamp"
   ],
   "theme": "uk_transport"
+ },
+ {
+  "w": "clan",
+  "pos": "noun",
+  "def": "a large group of families descended from a common ancestor, often bound by loyalty",
+  "defId": "klan; kelompok besar keluarga yang berasal dari satu leluhur dan terikat kesetiaan",
+  "ex": "In the highlands, each clan traditionally controlled its own valley and grazing land.",
+  "exId": "Di dataran tinggi, setiap klan secara tradisional menguasai lembah dan padang gembalaannya sendiri.",
+  "colloc": [
+   "rival clans",
+   "a powerful clan",
+   "clan loyalty"
+  ],
+  "theme": "society"
+ },
+ {
+  "w": "clang",
+  "pos": "verb",
+  "def": "to make a loud, resonant, metallic ringing sound",
+  "defId": "berdentang (logam)",
+  "ex": "The heavy metal gate clanged shut behind the prisoners.",
+  "exId": "Gerbang logam berat itu berdentang tertutup di belakang para tahanan.",
+  "colloc": [
+   "a bell clangs",
+   "clang shut",
+   "clanging metal"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "clarify",
@@ -7576,6 +10776,19 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "classification",
+  "pos": "noun",
+  "def": "the arrangement of things into groups according to shared qualities",
+  "defId": "klasifikasi; penggolongan",
+  "ex": "The classification of species relies on both anatomy and genetics.",
+  "exId": "Klasifikasi spesies bergantung pada anatomi maupun genetika.",
+  "colloc": [
+   "system of classification",
+   "broad classification"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "classified ad",
   "pos": "noun",
   "def": "a small newspaper advertisement grouped with others by category",
@@ -7601,6 +10814,33 @@ export const VOCAB = [
    "classify into groups"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "classmate",
+  "pos": "noun",
+  "def": "a person who is or was in the same class as you at school",
+  "defId": "orang yang berada di kelas yang sama denganmu di sekolah; teman sekelas",
+  "ex": "She still keeps in touch with several classmates from primary school.",
+  "exId": "Dia masih menjaga hubungan dengan beberapa teman sekelas dari sekolah dasar.",
+  "colloc": [
+   "a former classmate",
+   "a group of classmates"
+  ],
+  "theme": "education"
+ },
+ {
+  "w": "clatter",
+  "pos": "verb",
+  "def": "to make a loud, irregular rattling noise, as of hard objects striking together",
+  "defId": "bergemerincing; bergemertak",
+  "ex": "The plates clattered to the floor when the tray slipped from his hands.",
+  "exId": "Piring-piring itu bergemertak jatuh ke lantai ketika nampan itu terlepas dari tangannya.",
+  "colloc": [
+   "dishes clatter",
+   "clatter down",
+   "hooves clattering"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "clause",
@@ -7630,6 +10870,20 @@ export const VOCAB = [
   "theme": "urban"
  },
  {
+  "w": "clean-shaven",
+  "pos": "adjective",
+  "def": "having no beard or moustache; with the face freshly shaved",
+  "defId": "tidak berjanggut atau berkumis; wajah bersih",
+  "ex": "He arrived at the interview clean-shaven and smartly dressed.",
+  "exId": "Dia tiba di wawancara dengan wajah bersih tanpa janggut dan berpakaian rapi.",
+  "colloc": [
+   "clean-shaven face",
+   "clean-shaven man",
+   "neatly clean-shaven"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "clearance",
   "pos": "noun",
   "def": "a sale in which goods are sold off cheaply to get rid of old stock",
@@ -7642,6 +10896,19 @@ export const VOCAB = [
    "on clearance"
   ],
   "theme": "shopping"
+ },
+ {
+  "w": "clemency",
+  "pos": "noun",
+  "def": "kindness shown by reducing a punishment; mercy from those in power",
+  "defId": "keringanan hukuman; belas kasihan dari pihak yang berwenang",
+  "ex": "The defence lawyers appealed to the court for clemency.",
+  "exId": "Para pengacara pembela memohon keringanan hukuman kepada pengadilan.",
+  "colloc": [
+   "appeal for clemency",
+   "grant clemency"
+  ],
+  "theme": "law"
  },
  {
   "w": "clergy",
@@ -7754,6 +11021,20 @@ export const VOCAB = [
   "theme": "weather"
  },
  {
+  "w": "climax",
+  "pos": "noun",
+  "def": "the most intense or decisive point in a story or performance",
+  "defId": "titik paling intens atau menentukan dalam sebuah cerita atau pertunjukan",
+  "ex": "The novel builds slowly towards a dramatic climax in the final chapter.",
+  "exId": "Novel itu perlahan membangun menuju klimaks dramatis di bab terakhir.",
+  "colloc": [
+   "dramatic climax",
+   "build to a climax",
+   "reach a climax"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "clinch",
   "pos": "verb",
   "def": "to secure a victory, title, or place in a decisive way",
@@ -7765,6 +11046,48 @@ export const VOCAB = [
    "clinch victory"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "clinic",
+  "pos": "noun",
+  "def": "a place where patients receive medical treatment or advice",
+  "defId": "tempat pasien menerima perawatan atau nasihat medis",
+  "ex": "There is a walk-in clinic near the station that treats minor injuries.",
+  "exId": "Ada klinik tanpa janji dekat stasiun yang menangani cedera ringan.",
+  "colloc": [
+   "a private clinic",
+   "attend a clinic",
+   "a walk-in clinic"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "clipboard",
+  "pos": "noun",
+  "def": "a temporary storage area that holds text or images you have copied",
+  "defId": "area penyimpanan sementara yang menyimpan teks atau gambar yang telah Anda salin",
+  "ex": "Copy the link and it will stay on your clipboard until you paste it.",
+  "exId": "Salin tautannya dan ia akan tersimpan di clipboard sampai Anda menempelkannya.",
+  "colloc": [
+   "copy to the clipboard",
+   "clipboard history",
+   "paste from the clipboard"
+  ],
+  "theme": "technology"
+ },
+ {
+  "w": "clock in",
+  "pos": "phrasal verb",
+  "def": "To record the time you arrive at work, usually using a machine or system.",
+  "defId": "absen masuk; mencatat waktu kedatangan di tempat kerja, biasanya dengan mesin atau sistem",
+  "ex": "Employees have to clock in by nine or their pay is docked.",
+  "exId": "Karyawan harus absen masuk sebelum pukul sembilan atau gaji mereka akan dipotong.",
+  "colloc": [
+   "clock in on time",
+   "clock in and out",
+   "forget to clock in"
+  ],
+  "theme": "work"
  },
  {
   "w": "close-knit",
@@ -7834,6 +11157,19 @@ export const VOCAB = [
   "theme": "transport"
  },
  {
+  "w": "clutter",
+  "pos": "noun",
+  "def": "a disorganised collection of things that fills a space and makes it untidy",
+  "defId": "barang berserakan atau kekacauan",
+  "ex": "The desk was buried under a clutter of papers, cables, and empty mugs.",
+  "exId": "Meja itu tertimbun tumpukan kertas, kabel, dan cangkir kosong yang berantakan.",
+  "colloc": [
+   "a clutter of",
+   "clear the clutter"
+  ],
+  "theme": "household"
+ },
+ {
   "w": "coach",
   "pos": "noun",
   "def": "A comfortable long-distance bus used for travel between towns and cities.",
@@ -7876,6 +11212,34 @@ export const VOCAB = [
   "theme": "politics"
  },
  {
+  "w": "coarse",
+  "pos": "adjective",
+  "def": "rough in texture, made of thick or large particles",
+  "defId": "kasar teksturnya; terdiri dari butiran besar atau tebal",
+  "ex": "The beach was covered in coarse sand that felt gritty underfoot.",
+  "exId": "Pantai itu tertutup pasir kasar yang terasa berpasir di bawah kaki.",
+  "colloc": [
+   "coarse sand",
+   "coarse fabric",
+   "coarse texture"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "coastal",
+  "pos": "adjective",
+  "def": "relating to or located near the coast",
+  "defId": "di pesisir atau tepi pantai",
+  "ex": "The coastal path winds along the cliffs with sweeping views of the sea.",
+  "exId": "Jalur pesisir itu berkelok di sepanjang tebing dengan pemandangan laut yang luas.",
+  "colloc": [
+   "a coastal town",
+   "a coastal path",
+   "coastal scenery"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "coastline",
   "pos": "noun",
   "def": "the outline or shape of a coast where land meets the sea",
@@ -7887,6 +11251,33 @@ export const VOCAB = [
    "stretch of coastline"
   ],
   "theme": "nature"
+ },
+ {
+  "w": "cobbled",
+  "pos": "adjective",
+  "def": "paved with rounded stones set into the ground",
+  "defId": "berbatu bulat",
+  "ex": "We wandered through narrow cobbled streets that had barely changed in centuries.",
+  "exId": "Kami berjalan menyusuri jalan-jalan sempit berbatu bulat yang nyaris tak berubah selama berabad-abad.",
+  "colloc": [
+   "a cobbled street",
+   "cobbled lanes",
+   "a cobbled square"
+  ],
+  "theme": "describe_places"
+ },
+ {
+  "w": "cobbler",
+  "pos": "noun",
+  "def": "a person whose job is to make and repair shoes",
+  "defId": "tukang sepatu",
+  "ex": "The cobbler replaced the worn heels on my boots.",
+  "exId": "Tukang sepatu itu mengganti hak yang aus pada sepatu bot saya.",
+  "colloc": [
+   "local cobbler",
+   "cobbler's shop"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "cockpit",
@@ -7915,6 +11306,47 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "codec",
+  "pos": "noun",
+  "def": "software or hardware that compresses and decompresses digital audio or video",
+  "defId": "perangkat lunak atau keras yang memampatkan dan mengurai audio atau video digital",
+  "ex": "The video wouldn't play because my computer was missing the right codec.",
+  "exId": "Video itu tidak mau diputar karena komputer saya tidak memiliki codec yang tepat.",
+  "colloc": [
+   "video codec",
+   "audio codec",
+   "install a codec"
+  ],
+  "theme": "technology"
+ },
+ {
+  "w": "codify",
+  "pos": "verb",
+  "def": "to arrange laws or rules into a clear, organised system",
+  "defId": "mengkodifikasi; menyusun hukum menjadi satu sistem tertulis yang teratur",
+  "ex": "The new act aims to codify decades of scattered employment law.",
+  "exId": "Undang-undang baru itu bertujuan mengkodifikasi hukum ketenagakerjaan yang tersebar selama puluhan tahun.",
+  "colloc": [
+   "codify the law",
+   "codify rules"
+  ],
+  "theme": "law"
+ },
+ {
+  "w": "coefficient",
+  "pos": "n",
+  "def": "a number that measures a particular property or relationship",
+  "defId": "angka yang mengukur suatu sifat atau hubungan tertentu",
+  "ex": "The correlation coefficient was close to one, showing a strong link.",
+  "exId": "Koefisien korelasi mendekati satu, menunjukkan hubungan yang kuat.",
+  "colloc": [
+   "correlation coefficient",
+   "coefficient of friction",
+   "high coefficient"
+  ],
+  "theme": "science"
+ },
+ {
   "w": "coercion",
   "pos": "noun",
   "def": "the practice of forcing someone to do something through threats or pressure",
@@ -7926,6 +11358,34 @@ export const VOCAB = [
    "threat of coercion"
   ],
   "theme": "philosophy"
+ },
+ {
+  "w": "coexistence",
+  "pos": "noun",
+  "def": "the state of living together peacefully despite differences",
+  "defId": "koeksistensi; keadaan hidup berdampingan secara damai meski ada perbedaan",
+  "ex": "Decades of peaceful coexistence between the two communities are a source of pride.",
+  "exId": "Puluhan tahun koeksistensi damai antara kedua komunitas menjadi sumber kebanggaan.",
+  "colloc": [
+   "peaceful coexistence",
+   "harmonious coexistence",
+   "coexistence between groups"
+  ],
+  "theme": "society"
+ },
+ {
+  "w": "cogent",
+  "pos": "adjective",
+  "def": "clear, logical, and convincing",
+  "defId": "meyakinkan; kuat (argumen)",
+  "ex": "She made a cogent case for reforming the examination system.",
+  "exId": "Ia menyampaikan argumen yang meyakinkan untuk mereformasi sistem ujian.",
+  "colloc": [
+   "cogent argument",
+   "cogent case",
+   "cogent reasons"
+  ],
+  "theme": "academic"
  },
  {
   "w": "cognate",
@@ -8024,6 +11484,20 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "cohesive",
+  "pos": "adjective",
+  "def": "united and working well together as a whole",
+  "defId": "kohesif; bersatu dan berfungsi baik sebagai satu kesatuan",
+  "ex": "Shared festivals help keep the village a cohesive and supportive community.",
+  "exId": "Perayaan bersama membantu menjaga desa itu tetap sebagai komunitas yang kohesif dan saling mendukung.",
+  "colloc": [
+   "socially cohesive",
+   "a cohesive society",
+   "cohesive community"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "cohort",
   "pos": "noun",
   "def": "a group of students who start a course or programme together at the same time",
@@ -8036,6 +11510,19 @@ export const VOCAB = [
    "cohort of students"
   ],
   "theme": "education"
+ },
+ {
+  "w": "coincide",
+  "pos": "verb",
+  "def": "to happen at the same time, or to be in agreement",
+  "defId": "terjadi pada waktu yang sama; bertepatan atau selaras",
+  "ex": "Her views on education coincide with those of most leading experts.",
+  "exId": "Pandangannya tentang pendidikan selaras dengan pandangan sebagian besar pakar terkemuka.",
+  "colloc": [
+   "coincide with",
+   "views coincide"
+  ],
+  "theme": "academic"
  },
  {
   "w": "collaboration",
@@ -8066,6 +11553,20 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "collapse",
+  "pos": "verb",
+  "def": "to fall down suddenly, usually because of illness or exhaustion",
+  "defId": "tiba-tiba jatuh, biasanya karena sakit atau kelelahan",
+  "ex": "The runner collapsed at the finish line and was rushed to hospital.",
+  "exId": "Pelari itu ambruk di garis finis dan segera dilarikan ke rumah sakit.",
+  "colloc": [
+   "collapse from exhaustion",
+   "suddenly collapse",
+   "collapse in the street"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "collateral",
   "pos": "noun",
   "def": "property or assets promised to a lender as security for a loan",
@@ -8091,6 +11592,19 @@ export const VOCAB = [
    "senior colleague"
   ],
   "theme": "work"
+ },
+ {
+  "w": "collectively",
+  "pos": "adverb",
+  "def": "as a group; taken together",
+  "defId": "secara kolektif",
+  "ex": "Collectively, small changes in behaviour can have a large environmental impact.",
+  "exId": "Secara kolektif, perubahan kecil dalam perilaku dapat berdampak besar bagi lingkungan.",
+  "colloc": [
+   "collectively, ...",
+   "collectively responsible"
+  ],
+  "theme": "academic"
  },
  {
   "w": "collector",
@@ -8218,6 +11732,20 @@ export const VOCAB = [
   "theme": "conflict"
  },
  {
+  "w": "combustible",
+  "pos": "adj",
+  "def": "able to catch fire and burn easily",
+  "defId": "dapat terbakar dengan mudah",
+  "ex": "The laboratory stores all combustible materials in a fireproof cabinet.",
+  "exId": "Laboratorium menyimpan semua bahan yang dapat terbakar di lemari tahan api.",
+  "colloc": [
+   "combustible material",
+   "highly combustible",
+   "combustible gas"
+  ],
+  "theme": "science"
+ },
+ {
   "w": "combustion",
   "pos": "noun",
   "def": "the process of burning a substance to release energy",
@@ -8259,6 +11787,20 @@ export const VOCAB = [
   "theme": "space"
  },
  {
+  "w": "comfort food",
+  "pos": "noun",
+  "def": "food that gives a feeling of emotional wellbeing, often simple and nostalgic",
+  "defId": "makanan yang memberi rasa nyaman secara emosional, sering sederhana dan membangkitkan kenangan",
+  "ex": "On a rainy evening, macaroni cheese is the ultimate comfort food.",
+  "exId": "Di malam yang hujan, makaroni keju adalah makanan pelipur yang paling utama.",
+  "colloc": [
+   "classic comfort food",
+   "crave comfort food",
+   "the ultimate comfort food"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "commemorate",
   "pos": "verb",
   "def": "to honour and remember an important person or event, often with a ceremony or memorial",
@@ -8271,6 +11813,32 @@ export const VOCAB = [
    "a plaque commemorating"
   ],
   "theme": "history"
+ },
+ {
+  "w": "commencement",
+  "pos": "noun",
+  "def": "a ceremony at which students formally receive their academic degrees",
+  "defId": "upacara wisuda tempat mahasiswa secara resmi menerima gelar akademik mereka",
+  "ex": "A well-known author delivered the speech at this year's commencement.",
+  "exId": "Seorang penulis terkenal menyampaikan pidato pada upacara wisuda tahun ini.",
+  "colloc": [
+   "commencement ceremony",
+   "commencement speech"
+  ],
+  "theme": "education"
+ },
+ {
+  "w": "commensurate",
+  "pos": "adjective",
+  "def": "matching in size, quality, or degree; in proportion",
+  "defId": "sepadan dalam ukuran, kualitas, atau tingkat; sebanding",
+  "ex": "Employees expect a salary commensurate with their skills and experience.",
+  "exId": "Karyawan mengharapkan gaji yang sepadan dengan keterampilan dan pengalaman mereka.",
+  "colloc": [
+   "commensurate with",
+   "commensurate reward"
+  ],
+  "theme": "academic"
  },
  {
   "w": "comment section",
@@ -8369,6 +11937,20 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "common good",
+  "pos": "noun",
+  "def": "the benefit or interests of the community as a whole",
+  "defId": "kebaikan bersama; manfaat atau kepentingan masyarakat secara keseluruhan",
+  "ex": "They called on residents to set aside private gain and act for the common good.",
+  "exId": "Mereka menyeru warga mengesampingkan keuntungan pribadi dan bertindak demi kebaikan bersama.",
+  "colloc": [
+   "serve the common good",
+   "for the common good",
+   "promote the common good"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "common ground",
   "pos": "noun",
   "def": "shared interests, opinions, or beliefs that people can agree on",
@@ -8380,6 +11962,20 @@ export const VOCAB = [
    "seek common ground"
   ],
   "theme": "relationships"
+ },
+ {
+  "w": "communal",
+  "pos": "adjective",
+  "def": "shared by or belonging to all members of a community",
+  "defId": "komunal; dimiliki atau digunakan bersama oleh seluruh anggota komunitas",
+  "ex": "Residents of the block share a communal garden and a laundry room.",
+  "exId": "Penghuni blok itu berbagi taman komunal dan ruang cuci bersama.",
+  "colloc": [
+   "communal spaces",
+   "communal living",
+   "communal facilities"
+  ],
+  "theme": "society"
  },
  {
   "w": "community centre",
@@ -8463,6 +12059,20 @@ export const VOCAB = [
   "theme": "urban"
  },
  {
+  "w": "compact",
+  "pos": "adjective",
+  "def": "small and neatly arranged in a limited space",
+  "defId": "ringkas dan padat",
+  "ex": "The city centre is wonderfully compact, so you can walk to almost everything.",
+  "exId": "Pusat kota itu sangat ringkas dan padat, jadi Anda bisa berjalan kaki ke hampir semua tempat.",
+  "colloc": [
+   "a compact city centre",
+   "a compact town",
+   "a compact layout"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "companion",
   "pos": "noun",
   "def": "a person who spends time with or accompanies another",
@@ -8491,6 +12101,19 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "comparable",
+  "pos": "adjective",
+  "def": "similar enough to be compared, or of roughly equal quality",
+  "defId": "cukup mirip untuk dibandingkan; sebanding",
+  "ex": "Houses of comparable size cost far more in the city centre.",
+  "exId": "Rumah dengan ukuran sebanding harganya jauh lebih mahal di pusat kota.",
+  "colloc": [
+   "comparable to",
+   "comparable in size"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "comparative advantage",
   "pos": "noun",
   "def": "a country's ability to produce a good at a lower opportunity cost than others",
@@ -8502,6 +12125,19 @@ export const VOCAB = [
    "gain a comparative advantage"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "comparison",
+  "pos": "noun",
+  "def": "the act of examining things to see how they are similar or different",
+  "defId": "tindakan memeriksa hal-hal untuk melihat kesamaan atau perbedaannya",
+  "ex": "A careful comparison of the two systems reveals surprising differences.",
+  "exId": "Perbandingan yang cermat atas kedua sistem itu mengungkap perbedaan yang mengejutkan.",
+  "colloc": [
+   "draw a comparison",
+   "in comparison"
+  ],
+  "theme": "academic"
  },
  {
   "w": "compassion",
@@ -8654,6 +12290,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "complexion",
+  "pos": "noun",
+  "def": "the natural colour and condition of the skin on a person's face",
+  "defId": "warna dan kondisi kulit wajah",
+  "ex": "Regular exercise and sleep gave her a clear, healthy complexion.",
+  "exId": "Olahraga dan tidur teratur memberinya kulit wajah yang bersih dan sehat.",
+  "colloc": [
+   "clear complexion",
+   "fair complexion",
+   "healthy complexion"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "compliance",
   "pos": "noun",
   "def": "The act of obeying a law, rule, or official requirement.",
@@ -8710,6 +12360,19 @@ export const VOCAB = [
   "theme": "music"
  },
  {
+  "w": "composite",
+  "pos": "noun",
+  "def": "something made up of several distinct parts or elements",
+  "defId": "gabungan; komposit",
+  "ex": "The final report is a composite of findings from several studies.",
+  "exId": "Laporan akhir itu merupakan gabungan temuan dari beberapa penelitian.",
+  "colloc": [
+   "a composite of",
+   "composite picture"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "composition",
   "pos": "noun",
   "def": "the way the different parts of a work of art or piece of music are arranged",
@@ -8722,6 +12385,20 @@ export const VOCAB = [
    "composition of the painting"
   ],
   "theme": "arts"
+ },
+ {
+  "w": "compost",
+  "pos": "noun",
+  "def": "decayed organic matter used as a natural fertiliser for soil.",
+  "defId": "bahan organik yang telah terurai dan digunakan sebagai pupuk alami untuk tanah.",
+  "ex": "She turns vegetable peelings into compost instead of throwing them away.",
+  "exId": "Dia mengolah kulit sayuran menjadi kompos alih-alih membuangnya.",
+  "colloc": [
+   "make compost",
+   "compost heap",
+   "kitchen compost"
+  ],
+  "theme": "environment"
  },
  {
   "w": "compostable",
@@ -8778,6 +12455,19 @@ export const VOCAB = [
   "theme": "money"
  },
  {
+  "w": "comprehend",
+  "pos": "verb",
+  "def": "to understand something fully",
+  "defId": "memahami sesuatu secara menyeluruh",
+  "ex": "Young learners often struggle to comprehend abstract mathematical ideas.",
+  "exId": "Pelajar muda sering kesulitan memahami gagasan matematika yang abstrak.",
+  "colloc": [
+   "fully comprehend",
+   "comprehend the material"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "comprehension",
   "pos": "noun",
   "def": "the ability to understand something, especially what you read or hear",
@@ -8806,6 +12496,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "compression",
+  "pos": "noun",
+  "def": "the process of encoding data so that it takes up less storage space or bandwidth",
+  "defId": "proses mengodekan data agar menempati ruang penyimpanan atau lebar pita yang lebih kecil",
+  "ex": "Image compression lets you email large photos without exceeding the size limit.",
+  "exId": "Kompresi gambar memungkinkan Anda mengirim foto besar lewat surel tanpa melebihi batas ukuran.",
+  "colloc": [
+   "file compression",
+   "lossless compression",
+   "compression ratio"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "comprise",
   "pos": "verb",
   "def": "to consist of or be made up of particular parts or members",
@@ -8832,6 +12536,19 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "compulsory",
+  "pos": "adjective",
+  "def": "required by rules or laws; that must be done",
+  "defId": "wajib; yang harus dilakukan sesuai aturan",
+  "ex": "Mathematics is a compulsory subject until the age of sixteen.",
+  "exId": "Matematika adalah mata pelajaran wajib hingga usia enam belas tahun.",
+  "colloc": [
+   "compulsory education",
+   "a compulsory subject"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "concede",
   "pos": "verb",
   "def": "to admit, often reluctantly, that something is true or valid",
@@ -8842,6 +12559,20 @@ export const VOCAB = [
    "concede that",
    "concede a point",
    "readily concede"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "conceivably",
+  "pos": "adverb",
+  "def": "used to say that something is possible to imagine or believe",
+  "defId": "mungkin saja; dapat dibayangkan",
+  "ex": "Automation could conceivably replace half of these jobs within a decade.",
+  "exId": "Otomatisasi mungkin saja menggantikan separuh pekerjaan ini dalam satu dekade.",
+  "colloc": [
+   "could conceivably",
+   "conceivably lead to",
+   "conceivably true"
   ],
   "theme": "academic"
  },
@@ -8860,6 +12591,34 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "concentration",
+  "pos": "n",
+  "def": "the amount of a substance contained in a given volume of a mixture",
+  "defId": "jumlah suatu zat yang terkandung dalam volume campuran tertentu",
+  "ex": "A higher concentration of the acid speeds up the reaction.",
+  "exId": "Konsentrasi asam yang lebih tinggi mempercepat reaksi.",
+  "colloc": [
+   "high concentration",
+   "concentration of",
+   "measure the concentration"
+  ],
+  "theme": "science"
+ },
+ {
+  "w": "concentric",
+  "pos": "adjective",
+  "def": "(of circles) sharing the same centre, one inside another",
+  "defId": "konsentris; sepusat (lingkaran dalam lingkaran)",
+  "ex": "The target was made up of concentric circles in red and white.",
+  "exId": "Sasaran itu terdiri atas lingkaran-lingkaran konsentris merah dan putih.",
+  "colloc": [
+   "concentric circles",
+   "concentric rings",
+   "concentric pattern"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "concept",
   "pos": "noun",
   "def": "an abstract idea or general notion",
@@ -8872,6 +12631,33 @@ export const VOCAB = [
    "grasp a concept"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "conception",
+  "pos": "noun",
+  "def": "the way in which something is perceived, understood, or formed in the mind",
+  "defId": "konsepsi; pemahaman",
+  "ex": "Our modern conception of privacy differs greatly from that of previous centuries.",
+  "exId": "Konsepsi modern kita tentang privasi sangat berbeda dari abad-abad sebelumnya.",
+  "colloc": [
+   "a clear conception",
+   "conception of"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "concerto",
+  "pos": "noun",
+  "def": "a musical composition for a solo instrument accompanied by an orchestra",
+  "defId": "komposisi musik untuk satu instrumen solo yang diiringi orkestra",
+  "ex": "She performed a demanding piano concerto that showcased her extraordinary technique.",
+  "exId": "Ia membawakan sebuah konserto piano yang menuntut, yang memamerkan tekniknya yang luar biasa.",
+  "colloc": [
+   "piano concerto",
+   "violin concerto",
+   "perform a concerto"
+  ],
+  "theme": "arts"
  },
  {
   "w": "concierge",
@@ -8943,6 +12729,33 @@ export const VOCAB = [
   "theme": "architecture"
  },
  {
+  "w": "concur",
+  "pos": "verb",
+  "def": "to agree with someone or something",
+  "defId": "sependapat; setuju",
+  "ex": "Most economists concur that the measure will help curb inflation.",
+  "exId": "Sebagian besar ekonom sependapat bahwa langkah itu akan membantu menekan inflasi.",
+  "colloc": [
+   "concur with",
+   "experts concur",
+   "concur that"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "concurrently",
+  "pos": "adverb",
+  "def": "happening or existing at the same time as something else",
+  "defId": "secara serentak; berjalan bersamaan",
+  "ex": "She studied for her degree while working full-time concurrently.",
+  "exId": "Dia menempuh gelarnya sambil bekerja penuh waktu secara bersamaan.",
+  "colloc": [
+   "run concurrently",
+   "serve concurrently"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "concussion",
   "pos": "noun",
   "def": "a temporary brain injury caused by a blow to the head",
@@ -8954,6 +12767,20 @@ export const VOCAB = [
    "mild concussion"
   ],
   "theme": "health"
+ },
+ {
+  "w": "condense",
+  "pos": "v",
+  "def": "to change from a gas into a liquid, usually by cooling",
+  "defId": "berubah dari gas menjadi cairan, biasanya karena pendinginan",
+  "ex": "Water vapour condenses on the cold glass, forming droplets.",
+  "exId": "Uap air mengembun pada kaca dingin, membentuk tetesan.",
+  "colloc": [
+   "condense into liquid",
+   "vapour condenses",
+   "condense on a surface"
+  ],
+  "theme": "science"
  },
  {
   "w": "condiment",
@@ -8982,6 +12809,34 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "condone",
+  "pos": "verb",
+  "def": "to accept or allow behaviour that is generally considered wrong or immoral",
+  "defId": "membiarkan atau memaklumi perilaku yang dianggap salah",
+  "ex": "I understand her frustration, but I can't condone the way she reacted.",
+  "exId": "Saya memahami kekesalannya, tetapi saya tidak bisa memaklumi cara dia bereaksi.",
+  "colloc": [
+   "condone violence",
+   "cannot condone",
+   "condone cheating"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "conducive",
+  "pos": "adjective",
+  "def": "providing conditions that make a particular outcome likely or easier",
+  "defId": "kondusif; menunjang",
+  "ex": "A quiet environment is conducive to effective studying.",
+  "exId": "Lingkungan yang tenang kondusif untuk belajar secara efektif.",
+  "colloc": [
+   "conducive to learning",
+   "conducive to growth",
+   "conducive environment"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "conduct",
   "pos": "verb",
   "def": "to organise and carry out a particular activity, especially research",
@@ -8994,6 +12849,20 @@ export const VOCAB = [
    "conduct an experiment"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "conductivity",
+  "pos": "n",
+  "def": "the degree to which a material allows heat or electricity to pass through it",
+  "defId": "sejauh mana suatu bahan memungkinkan panas atau listrik mengalir melaluinya",
+  "ex": "Copper's high conductivity makes it ideal for electrical wiring.",
+  "exId": "Konduktivitas tembaga yang tinggi membuatnya ideal untuk kabel listrik.",
+  "colloc": [
+   "electrical conductivity",
+   "thermal conductivity",
+   "high conductivity"
+  ],
+  "theme": "science"
  },
  {
   "w": "conductor",
@@ -9051,6 +12920,20 @@ export const VOCAB = [
   "theme": "personality"
  },
  {
+  "w": "configure",
+  "pos": "verb",
+  "def": "to set up the options and controls of a device or program so it works as required",
+  "defId": "menyiapkan opsi dan kontrol suatu perangkat atau program agar bekerja sesuai kebutuhan",
+  "ex": "The technician helped me configure the router for a more secure connection.",
+  "exId": "Teknisi membantu saya mengonfigurasi router untuk koneksi yang lebih aman.",
+  "colloc": [
+   "configure the settings",
+   "configure a network",
+   "correctly configure"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "confirmation bias",
   "pos": "noun",
   "def": "the tendency to favour information that supports one's existing beliefs",
@@ -9076,6 +12959,20 @@ export const VOCAB = [
    "conformity to norms"
   ],
   "theme": "society"
+ },
+ {
+  "w": "confounding variable",
+  "pos": "n",
+  "def": "an unwanted factor that distorts the apparent relationship between two variables",
+  "defId": "faktor tak diinginkan yang mengaburkan hubungan antara dua variabel",
+  "ex": "The team controlled for age as a possible confounding variable.",
+  "exId": "Tim itu mengendalikan usia sebagai kemungkinan variabel perancu.",
+  "colloc": [
+   "confounding variable",
+   "control for a confounding variable",
+   "identify confounding variables"
+  ],
+  "theme": "science"
  },
  {
   "w": "congenital",
@@ -9158,6 +13055,19 @@ export const VOCAB = [
    "church congregation"
   ],
   "theme": "religion"
+ },
+ {
+  "w": "congruent",
+  "pos": "adjective",
+  "def": "in agreement or harmony with something; matching",
+  "defId": "sejalan atau selaras dengan sesuatu; cocok",
+  "ex": "A company's actions should be congruent with its stated values.",
+  "exId": "Tindakan sebuah perusahaan seharusnya sejalan dengan nilai-nilai yang dinyatakannya.",
+  "colloc": [
+   "congruent with",
+   "broadly congruent"
+  ],
+  "theme": "academic"
  },
  {
   "w": "conjecture",
@@ -9309,6 +13219,32 @@ export const VOCAB = [
   "theme": "philosophy"
  },
  {
+  "w": "consecutively",
+  "pos": "adverb",
+  "def": "following one after another in a continuous, unbroken order",
+  "defId": "secara berturut-turut; berurutan tanpa jeda",
+  "ex": "The team won the championship for three years consecutively.",
+  "exId": "Tim itu memenangkan kejuaraan selama tiga tahun berturut-turut.",
+  "colloc": [
+   "numbered consecutively",
+   "three times consecutively"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "consensual",
+  "pos": "adjective",
+  "def": "agreed to by everyone involved; based on mutual consent",
+  "defId": "berdasarkan persetujuan bersama; disepakati oleh semua pihak",
+  "ex": "The contract is only valid if it results from a consensual agreement between both parties.",
+  "exId": "Kontrak itu hanya sah jika berasal dari kesepakatan atas dasar persetujuan kedua belah pihak.",
+  "colloc": [
+   "consensual agreement",
+   "fully consensual"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "consensus",
   "pos": "noun",
   "def": "a general agreement reached by a group",
@@ -9337,6 +13273,47 @@ export const VOCAB = [
   "theme": "philosophy"
  },
  {
+  "w": "consequence",
+  "pos": "noun",
+  "def": "a result or effect of an action or condition, often an unwelcome one",
+  "defId": "konsekuensi; akibat",
+  "ex": "Ignoring the warning signs could have serious consequences.",
+  "exId": "Mengabaikan tanda-tanda peringatan itu bisa menimbulkan konsekuensi yang serius.",
+  "colloc": [
+   "serious consequences",
+   "as a consequence",
+   "face the consequences"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "consequential",
+  "pos": "adjective",
+  "def": "following as a result or effect; important because of its likely consequences",
+  "defId": "sebagai akibat; berdampak besar",
+  "ex": "The decision proved highly consequential for the company's future.",
+  "exId": "Keputusan itu ternyata sangat berdampak besar bagi masa depan perusahaan.",
+  "colloc": [
+   "consequential damage",
+   "highly consequential",
+   "consequential decision"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "consequently",
+  "pos": "adverb",
+  "def": "as a result of something that happened before",
+  "defId": "akibatnya",
+  "ex": "Demand rose sharply and, consequently, prices increased.",
+  "exId": "Permintaan naik tajam dan, akibatnya, harga pun meningkat.",
+  "colloc": [
+   "consequently, ...",
+   "and consequently"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "conservation",
   "pos": "noun",
   "def": "the protection of nature, wildlife, and natural resources.",
@@ -9362,6 +13339,20 @@ export const VOCAB = [
    "wildlife conservationist"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "conservatory",
+  "pos": "noun",
+  "def": "a room with glass walls and roof attached to a house, used for growing plants or sitting in",
+  "defId": "ruang kaca (untuk tanaman)",
+  "ex": "They grow orchids and ferns in the warm, sunny conservatory.",
+  "exId": "Mereka menanam anggrek dan pakis di ruang kaca yang hangat dan cerah.",
+  "colloc": [
+   "glass conservatory",
+   "build a conservatory",
+   "sunny conservatory"
+  ],
+  "theme": "garden"
  },
  {
   "w": "conserve",
@@ -9403,6 +13394,33 @@ export const VOCAB = [
    "thoughtful and considerate"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "consistent",
+  "pos": "adjective",
+  "def": "in agreement with something, or always behaving in the same way",
+  "defId": "selaras dengan sesuatu; konsisten atau tidak berubah-ubah",
+  "ex": "Her account of the events is entirely consistent with the evidence.",
+  "exId": "Penuturannya tentang kejadian itu sepenuhnya selaras dengan bukti yang ada.",
+  "colloc": [
+   "consistent with",
+   "remarkably consistent"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "consolation",
+  "pos": "noun",
+  "def": "comfort received after a disappointment, failure, or loss",
+  "defId": "penghiburan; kenyamanan yang diterima setelah kekecewaan, kegagalan, atau kehilangan",
+  "ex": "It was some consolation that the team had at least played well.",
+  "exId": "Setidaknya menjadi penghiburan bahwa tim itu bermain dengan baik.",
+  "colloc": [
+   "small consolation",
+   "consolation prize",
+   "offer consolation"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "consolidate",
@@ -9500,6 +13518,19 @@ export const VOCAB = [
    "impose a constraint"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "constructivism",
+  "pos": "noun",
+  "def": "a theory of learning which holds that people build new knowledge on the basis of what they already understand",
+  "defId": "teori belajar yang menyatakan bahwa orang membangun pengetahuan baru berdasarkan pemahaman yang sudah dimiliki",
+  "ex": "Under constructivism, learners are seen as active builders of their own understanding.",
+  "exId": "Menurut konstruktivisme, pelajar dipandang sebagai pembangun aktif pemahamannya sendiri.",
+  "colloc": [
+   "social constructivism",
+   "the theory of constructivism"
+  ],
+  "theme": "education"
  },
  {
   "w": "consultant",
@@ -9626,6 +13657,20 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "contaminate",
+  "pos": "verb",
+  "def": "to make something impure or harmful by adding a dangerous or polluting substance.",
+  "defId": "mencemari sesuatu dengan menambahkan zat berbahaya atau pencemar.",
+  "ex": "Leaking pesticides had contaminated the groundwater beneath the farm.",
+  "exId": "Pestisida yang bocor telah mencemari air tanah di bawah pertanian itu.",
+  "colloc": [
+   "contaminate water",
+   "contaminate the soil",
+   "heavily contaminated"
+  ],
+  "theme": "environment"
+ },
+ {
   "w": "contamination",
   "pos": "noun",
   "def": "the process of making something dirty or poisonous, especially with harmful substances.",
@@ -9665,6 +13710,20 @@ export const VOCAB = [
    "contemporary style"
   ],
   "theme": "arts"
+ },
+ {
+  "w": "contempt",
+  "pos": "noun",
+  "def": "a strong feeling that someone or something is worthless or beneath respect",
+  "defId": "penghinaan; perasaan kuat bahwa seseorang atau sesuatu tidak berharga atau tidak pantas dihormati",
+  "ex": "She looked at the cheating candidate with utter contempt.",
+  "exId": "Dia menatap kandidat yang curang itu dengan penuh penghinaan.",
+  "colloc": [
+   "utter contempt",
+   "hold in contempt",
+   "contempt for"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "contend",
@@ -9717,6 +13776,32 @@ export const VOCAB = [
    "independent content creator"
   ],
   "theme": "internet"
+ },
+ {
+  "w": "contention",
+  "pos": "noun",
+  "def": "an assertion or argument put forward in a debate or dispute",
+  "defId": "pendapat; dalil yang dikemukakan",
+  "ex": "It is my contention that stricter regulation would harm small businesses.",
+  "exId": "Pendapat saya adalah bahwa regulasi yang lebih ketat akan merugikan usaha kecil.",
+  "colloc": [
+   "main contention",
+   "central contention"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "contentious",
+  "pos": "adjective",
+  "def": "likely to cause disagreement or argument",
+  "defId": "kontroversial; memicu perdebatan",
+  "ex": "Immigration remains one of the most contentious issues in the debate.",
+  "exId": "Imigrasi tetap menjadi salah satu isu paling memicu perdebatan dalam debat itu.",
+  "colloc": [
+   "a contentious issue",
+   "highly contentious"
+  ],
+  "theme": "academic"
  },
  {
   "w": "contentment",
@@ -9784,6 +13869,32 @@ export const VOCAB = [
    "contingency fund"
   ],
   "theme": "business"
+ },
+ {
+  "w": "continuous assessment",
+  "pos": "noun",
+  "def": "a system of evaluating a student's work regularly throughout a course rather than by a single final exam",
+  "defId": "sistem menilai pekerjaan siswa secara berkala sepanjang kursus, bukan melalui satu ujian akhir",
+  "ex": "The course relies on continuous assessment, so attendance and coursework matter throughout the year.",
+  "exId": "Kursus itu mengandalkan penilaian berkelanjutan, sehingga kehadiran dan tugas penting sepanjang tahun.",
+  "colloc": [
+   "a system of continuous assessment",
+   "rely on continuous assessment"
+  ],
+  "theme": "education"
+ },
+ {
+  "w": "continuum",
+  "pos": "noun",
+  "def": "a continuous sequence in which adjacent elements are barely different, though the extremes are distinct",
+  "defId": "rangkaian kesinambungan; kontinum",
+  "ex": "Gender and sexuality are increasingly viewed as a continuum rather than as fixed categories.",
+  "exId": "Gender dan seksualitas semakin dipandang sebagai suatu kontinum, bukan kategori yang tetap.",
+  "colloc": [
+   "a broad continuum",
+   "along a continuum"
+  ],
+  "theme": "academic"
  },
  {
   "w": "contract",
@@ -9870,6 +13981,20 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "contribute to",
+  "pos": "phrasal verb",
+  "def": "to be one of the causes that helps make something happen",
+  "defId": "berkontribusi terhadap; turut menyebabkan",
+  "ex": "Deforestation contributes significantly to climate change.",
+  "exId": "Penggundulan hutan berkontribusi besar terhadap perubahan iklim.",
+  "colloc": [
+   "contribute to growth",
+   "contribute to a problem",
+   "contribute to success"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "control freak",
   "pos": "noun",
   "def": "a person who feels a strong need to control everything around them",
@@ -9896,6 +14021,19 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "controversial",
+  "pos": "adjective",
+  "def": "causing strong public disagreement or discussion",
+  "defId": "kontroversial",
+  "ex": "The scientist's controversial theory divided the academic community.",
+  "exId": "Teori kontroversial ilmuwan itu memecah belah komunitas akademik.",
+  "colloc": [
+   "a controversial claim",
+   "deeply controversial"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "conurbation",
   "pos": "noun",
   "def": "a large area where several towns and cities have grown and merged together into one continuous built-up region",
@@ -9920,6 +14058,59 @@ export const VOCAB = [
    "period of convalescence"
   ],
   "theme": "health"
+ },
+ {
+  "w": "convergence",
+  "pos": "noun",
+  "def": "the process by which different things come together or become similar",
+  "defId": "konvergensi; pertemuan atau penyatuan",
+  "ex": "The convergence of phones and cameras transformed photography.",
+  "exId": "Konvergensi antara telepon dan kamera mengubah dunia fotografi.",
+  "colloc": [
+   "convergence of",
+   "technological convergence"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "converse",
+  "pos": "verb",
+  "def": "to talk with someone in an informal, exchanging way",
+  "defId": "berbincang dengan seseorang secara informal dan saling bertukar kata",
+  "ex": "Being able to converse comfortably in English takes far more than memorising grammar.",
+  "exId": "Mampu bercakap dengan nyaman dalam bahasa Inggris membutuhkan jauh lebih dari sekadar menghafal tata bahasa.",
+  "colloc": [
+   "converse fluently",
+   "converse with someone",
+   "converse freely"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "conversely",
+  "pos": "adverb",
+  "def": "introducing a statement that is the opposite of one just made",
+  "defId": "sebaliknya",
+  "ex": "Wealthy nations produce most waste; conversely, poorer nations bear its effects.",
+  "exId": "Negara kaya menghasilkan sebagian besar limbah; sebaliknya, negara miskin menanggung dampaknya.",
+  "colloc": [
+   "conversely, ..."
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "conversion",
+  "pos": "noun",
+  "def": "the point at which a prospective customer completes a desired action, such as making a purchase",
+  "defId": "titik ketika calon pelanggan menyelesaikan tindakan yang diinginkan, seperti melakukan pembelian",
+  "ex": "Redesigning the checkout page lifted the site's conversion rate by fifteen percent.",
+  "exId": "Mendesain ulang halaman pembayaran menaikkan tingkat konversi situs sebesar lima belas persen.",
+  "colloc": [
+   "conversion rate",
+   "boost conversion",
+   "conversion funnel"
+  ],
+  "theme": "business"
  },
  {
   "w": "convert",
@@ -9976,6 +14167,46 @@ export const VOCAB = [
    "wrongful conviction"
   ],
   "theme": "crime"
+ },
+ {
+  "w": "convince",
+  "pos": "verb",
+  "def": "to cause someone to firmly believe that something is true",
+  "defId": "meyakinkan seseorang bahwa sesuatu itu benar",
+  "ex": "Nothing will convince me that studying online is as effective as a real classroom.",
+  "exId": "Tidak ada yang bisa meyakinkan saya bahwa belajar daring seefektif ruang kelas nyata.",
+  "colloc": [
+   "convince someone",
+   "fully convince",
+   "convince of"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "convincing",
+  "pos": "adjective",
+  "def": "able to make you believe that something is true or right",
+  "defId": "meyakinkan",
+  "ex": "The author presents a convincing case for reforming the education system.",
+  "exId": "Penulis menyajikan argumen yang meyakinkan untuk mereformasi sistem pendidikan.",
+  "colloc": [
+   "a convincing argument",
+   "convincing evidence"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "convocation",
+  "pos": "noun",
+  "def": "a large formal ceremony, especially the one at which university students receive their degrees",
+  "defId": "upacara resmi besar, terutama saat mahasiswa menerima gelar mereka",
+  "ex": "Graduates gathered in their gowns for the annual convocation.",
+  "exId": "Para lulusan berkumpul dengan toga mereka untuk konvokasi tahunan.",
+  "colloc": [
+   "graduation convocation",
+   "attend convocation"
+  ],
+  "theme": "education"
  },
  {
   "w": "convoy",
@@ -10100,6 +14331,19 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "copper",
+  "pos": "noun",
+  "def": "a reddish-brown metal that conducts heat and electricity well",
+  "defId": "tembaga",
+  "ex": "The old house was rewired throughout with copper wiring.",
+  "exId": "Rumah tua itu dipasangi ulang kabel tembaga di seluruh bagiannya.",
+  "colloc": [
+   "copper wire",
+   "copper pipe"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "copywriter",
   "pos": "noun",
   "def": "a person who writes the text used in advertisements and marketing",
@@ -10152,6 +14396,32 @@ export const VOCAB = [
    "a corner shop owner"
   ],
   "theme": "uk_daily"
+ },
+ {
+  "w": "cornerstone",
+  "pos": "noun",
+  "def": "a fundamental basis on which something is built or depends",
+  "defId": "landasan utama; batu penjuru",
+  "ex": "Free education is regarded as a cornerstone of a fair society.",
+  "exId": "Pendidikan gratis dianggap sebagai landasan utama masyarakat yang adil.",
+  "colloc": [
+   "the cornerstone of",
+   "lay the cornerstone"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "corollary",
+  "pos": "noun",
+  "def": "a proposition or result that follows naturally from another",
+  "defId": "konsekuensi logis; akibat wajar",
+  "ex": "Increased screen time is often a corollary of remote working.",
+  "exId": "Bertambahnya waktu layar sering kali menjadi akibat wajar dari kerja jarak jauh.",
+  "colloc": [
+   "a natural corollary",
+   "corollary of"
+  ],
+  "theme": "academic"
  },
  {
   "w": "corporate",
@@ -10209,6 +14479,19 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "correspond",
+  "pos": "verb",
+  "def": "to match or be equivalent to something",
+  "defId": "sesuai atau setara dengan sesuatu",
+  "ex": "The survey results correspond closely to what the theory had predicted.",
+  "exId": "Hasil survei itu sangat sesuai dengan apa yang diprediksi teori tersebut.",
+  "colloc": [
+   "correspond to",
+   "closely correspond"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "correspondent",
   "pos": "noun",
   "def": "a journalist who reports from a particular place or on a topic",
@@ -10221,6 +14504,19 @@ export const VOCAB = [
    "political correspondent"
   ],
   "theme": "media"
+ },
+ {
+  "w": "correspondingly",
+  "pos": "adverb",
+  "def": "in a way that matches or relates to something else",
+  "defId": "secara sepadan",
+  "ex": "As incomes rise, consumption correspondingly increases.",
+  "exId": "Seiring naiknya pendapatan, konsumsi pun meningkat secara sepadan.",
+  "colloc": [
+   "correspondingly higher",
+   "correspondingly, ..."
+  ],
+  "theme": "academic"
  },
  {
   "w": "corridor",
@@ -10259,6 +14555,20 @@ export const VOCAB = [
   "colloc": [
    "corrode metal",
    "begin to corrode"
+  ],
+  "theme": "science"
+ },
+ {
+  "w": "corrosive",
+  "pos": "adj",
+  "def": "capable of gradually destroying materials, especially metals, by chemical action",
+  "defId": "mampu perlahan merusak bahan, terutama logam, melalui aksi kimia",
+  "ex": "Corrosive chemicals must be handled with protective gloves.",
+  "exId": "Bahan kimia korosif harus ditangani dengan sarung tangan pelindung.",
+  "colloc": [
+   "corrosive substance",
+   "highly corrosive",
+   "corrosive acid"
   ],
   "theme": "science"
  },
@@ -10344,6 +14654,19 @@ export const VOCAB = [
   "theme": "space"
  },
  {
+  "w": "cost an arm and a leg",
+  "pos": "idiom",
+  "def": "to be extremely expensive",
+  "defId": "sangat mahal; menguras banyak uang",
+  "ex": "Renting a flat in the city centre can cost an arm and a leg for students.",
+  "exId": "Menyewa apartemen di pusat kota bisa sangat mahal bagi mahasiswa.",
+  "colloc": [
+   "talking about high prices",
+   "'it cost an arm and a leg'"
+  ],
+  "theme": "idioms"
+ },
+ {
   "w": "cost of living",
   "pos": "noun",
   "def": "the amount of money needed to cover basic expenses such as food, housing and clothing",
@@ -10355,6 +14678,47 @@ export const VOCAB = [
    "cost of living crisis"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "cost-effective",
+  "pos": "adjective",
+  "def": "Giving good value or results in relation to the money spent.",
+  "defId": "Hemat biaya; memberi hasil yang sepadan dengan uang yang dikeluarkan.",
+  "ex": "Solar panels have become a cost-effective way to reduce energy bills.",
+  "exId": "Panel surya telah menjadi cara yang hemat biaya untuk menekan tagihan energi.",
+  "colloc": [
+   "a cost-effective solution",
+   "more cost-effective",
+   "a cost-effective way"
+  ],
+  "theme": "economy"
+ },
+ {
+  "w": "costume",
+  "pos": "noun",
+  "def": "a set of clothes worn by an actor or performer to portray a character",
+  "defId": "seperangkat pakaian yang dikenakan aktor atau pemain untuk memerankan tokoh",
+  "ex": "Each costume was hand-sewn to reflect the fashion of the medieval period.",
+  "exId": "Setiap kostum dijahit tangan untuk mencerminkan mode zaman abad pertengahan.",
+  "colloc": [
+   "period costume",
+   "costume design",
+   "change costume"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "cosy",
+  "pos": "adjective",
+  "def": "giving a feeling of comfort, warmth, and relaxation",
+  "defId": "nyaman dan hangat",
+  "ex": "They spent the evening in a cosy living room with a fire crackling.",
+  "exId": "Mereka menghabiskan malam di ruang tamu yang nyaman dengan api perapian yang berderak.",
+  "colloc": [
+   "a cosy room",
+   "cosy and warm"
+  ],
+  "theme": "household"
  },
  {
   "w": "council tax",
@@ -10371,6 +14735,19 @@ export const VOCAB = [
   "theme": "uk_home"
  },
  {
+  "w": "counsel",
+  "pos": "noun",
+  "def": "a lawyer or group of lawyers who represent someone in court",
+  "defId": "penasihat hukum; pengacara yang mewakili seseorang di pengadilan",
+  "ex": "The defence counsel argued that the evidence had been obtained unlawfully.",
+  "exId": "Penasihat hukum pembela berpendapat bahwa bukti itu diperoleh secara tidak sah.",
+  "colloc": [
+   "defence counsel",
+   "legal counsel"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "counselling",
   "pos": "noun",
   "def": "professional guidance to help people cope with personal or psychological problems",
@@ -10383,6 +14760,19 @@ export const VOCAB = [
    "counselling session"
   ],
   "theme": "psychology"
+ },
+ {
+  "w": "counsellor",
+  "pos": "noun",
+  "def": "a person trained to give advice and emotional support for personal problems",
+  "defId": "konselor",
+  "ex": "The school counsellor spoke to students about coping with exam stress.",
+  "exId": "Konselor sekolah itu berbicara kepada para siswa tentang cara mengatasi stres ujian.",
+  "colloc": [
+   "school counsellor",
+   "student counsellor"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "counter",
@@ -10399,6 +14789,47 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "counteract",
+  "pos": "verb",
+  "def": "to reduce or cancel the effect of something by acting against it",
+  "defId": "menetralkan; melawan pengaruh",
+  "ex": "The medicine is designed to counteract the effects of the poison.",
+  "exId": "Obat itu dirancang untuk menetralkan efek racun.",
+  "colloc": [
+   "counteract the effects",
+   "counteract a trend",
+   "counteract the damage"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "counterbalance",
+  "pos": "verb",
+  "def": "to have an equal but opposite effect that balances something",
+  "defId": "mengimbangi sesuatu dengan pengaruh yang setara namun berlawanan",
+  "ex": "For many buyers, the benefits of the policy counterbalance its higher costs.",
+  "exId": "Bagi banyak pembeli, manfaat kebijakan itu mengimbangi biayanya yang lebih tinggi.",
+  "colloc": [
+   "counterbalance the effect",
+   "help counterbalance"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "counterculture",
+  "pos": "noun",
+  "def": "a way of life and set of values that opposes the accepted norms of mainstream society",
+  "defId": "budaya tandingan; cara hidup dan nilai-nilai yang menentang norma umum masyarakat arus utama",
+  "ex": "The music of the era gave voice to a counterculture that rejected consumerism.",
+  "exId": "Musik pada era itu menyuarakan budaya tandingan yang menolak konsumerisme.",
+  "colloc": [
+   "youth counterculture",
+   "emerging counterculture",
+   "counterculture movement"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "counterfeit",
   "pos": "adjective",
   "def": "made to look exactly like a genuine product in order to deceive people",
@@ -10411,6 +14842,32 @@ export const VOCAB = [
    "sell counterfeit"
   ],
   "theme": "shopping"
+ },
+ {
+  "w": "counterpart",
+  "pos": "noun",
+  "def": "a person or thing that has the same role or function as another",
+  "defId": "orang atau hal yang memiliki peran atau fungsi setara dengan yang lain",
+  "ex": "British students study fewer subjects than their European counterparts.",
+  "exId": "Siswa Inggris mempelajari lebih sedikit mata pelajaran dibandingkan rekan-rekan Eropa mereka.",
+  "colloc": [
+   "European counterpart",
+   "exact counterpart"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "coup",
+  "pos": "noun",
+  "def": "a sudden, often violent, seizure of power from a government",
+  "defId": "kudeta; perebutan kekuasaan secara tiba-tiba, sering dengan kekerasan, dari pemerintah",
+  "ex": "The elected leader was overthrown in a military coup that shocked the region.",
+  "exId": "Pemimpin terpilih itu digulingkan dalam kudeta militer yang mengejutkan kawasan tersebut.",
+  "colloc": [
+   "military coup",
+   "stage a coup"
+  ],
+  "theme": "politics"
  },
  {
   "w": "coupon",
@@ -10562,6 +15019,20 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "crackle",
+  "pos": "verb",
+  "def": "to make a series of short, sharp popping sounds",
+  "defId": "bergemeretak; berderak",
+  "ex": "The logs crackled in the fireplace as we warmed our hands.",
+  "exId": "Kayu-kayu itu bergemeretak di perapian saat kami menghangatkan tangan.",
+  "colloc": [
+   "a fire crackles",
+   "crackle with static",
+   "crackling flames"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "craft",
   "pos": "noun",
   "def": "an activity that involves skill in making things by hand",
@@ -10603,6 +15074,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "cramp",
+  "pos": "noun",
+  "def": "a sudden painful tightening of a muscle",
+  "defId": "pengencangan otot yang tiba-tiba dan menyakitkan",
+  "ex": "The swimmer got a cramp in her leg and had to stop halfway.",
+  "exId": "Perenang itu mengalami kram di kakinya dan harus berhenti di tengah jalan.",
+  "colloc": [
+   "get a cramp",
+   "a muscle cramp",
+   "stomach cramps"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "cramped",
   "pos": "adjective",
   "def": "Uncomfortably small or crowded.",
@@ -10615,6 +15100,20 @@ export const VOCAB = [
    "cramped flat"
   ],
   "theme": "architecture"
+ },
+ {
+  "w": "crash",
+  "pos": "verb",
+  "def": "to make a sudden loud noise by breaking, falling, or colliding",
+  "defId": "berdebam; bertabrakan dengan suara keras",
+  "ex": "Thunder crashed overhead as the storm reached its peak.",
+  "exId": "Guntur berdebam di atas kepala saat badai mencapai puncaknya.",
+  "colloc": [
+   "waves crash",
+   "crash to the ground",
+   "cymbals crash"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "crater",
@@ -10644,6 +15143,34 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "crawl",
+  "pos": "verb",
+  "def": "to move forward on the hands and knees, or to move very slowly",
+  "defId": "merangkak; bergerak sangat lambat",
+  "ex": "Traffic crawled along the motorway for hours after the accident.",
+  "exId": "Lalu lintas merayap di sepanjang jalan tol selama berjam-jam setelah kecelakaan.",
+  "colloc": [
+   "crawl along",
+   "traffic crawls",
+   "crawl on hands and knees"
+  ],
+  "theme": "sound_movement"
+ },
+ {
+  "w": "creak",
+  "pos": "verb",
+  "def": "to make a long, harsh sound when something old or under strain moves",
+  "defId": "berderit",
+  "ex": "The old wooden staircase creaked loudly with every step she took.",
+  "exId": "Tangga kayu tua itu berderit keras setiap kali ia melangkah.",
+  "colloc": [
+   "floorboards creak",
+   "a creaking door",
+   "creak under weight"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "cream tea",
   "pos": "noun",
   "def": "Afternoon tea of scones served with clotted cream and jam, especially popular in the West Country.",
@@ -10658,6 +15185,33 @@ export const VOCAB = [
   "theme": "uk_social"
  },
  {
+  "w": "credential",
+  "pos": "noun",
+  "def": "a qualification or achievement that shows a person is suitable or qualified for something",
+  "defId": "kualifikasi atau pencapaian yang menunjukkan seseorang layak untuk sesuatu",
+  "ex": "A postgraduate degree is a valuable credential in the competitive job market.",
+  "exId": "Gelar pascasarjana adalah kredensial berharga di pasar kerja yang kompetitif.",
+  "colloc": [
+   "an academic credential",
+   "professional credentials"
+  ],
+  "theme": "education"
+ },
+ {
+  "w": "credentials",
+  "pos": "noun",
+  "def": "The qualifications, achievements, or experience that make someone suitable for a job.",
+  "defId": "kualifikasi; kelayakan berupa gelar, prestasi, atau pengalaman yang membuat seseorang cocok untuk suatu pekerjaan",
+  "ex": "Her academic credentials made her the strongest candidate for the post.",
+  "exId": "Kualifikasi akademiknya menjadikannya kandidat terkuat untuk jabatan itu.",
+  "colloc": [
+   "impressive credentials",
+   "check credentials",
+   "academic credentials"
+  ],
+  "theme": "work"
+ },
+ {
   "w": "credibility",
   "pos": "noun",
   "def": "the quality of being trusted and believed",
@@ -10670,6 +15224,19 @@ export const VOCAB = [
    "credibility gap"
   ],
   "theme": "media"
+ },
+ {
+  "w": "credible",
+  "pos": "adjective",
+  "def": "able to be believed or trusted; convincing",
+  "defId": "kredibel; dapat dipercaya",
+  "ex": "For a conclusion to be accepted, it must rest on credible evidence.",
+  "exId": "Agar sebuah kesimpulan diterima, ia harus bertumpu pada bukti yang kredibel.",
+  "colloc": [
+   "credible evidence",
+   "a credible source"
+  ],
+  "theme": "academic"
  },
  {
   "w": "credit",
@@ -10739,6 +15306,20 @@ export const VOCAB = [
   "theme": "religion"
  },
  {
+  "w": "creep",
+  "pos": "verb",
+  "def": "to move slowly and quietly in order to avoid being noticed",
+  "defId": "mengendap-endap; menyelinap perlahan",
+  "ex": "The cat crept silently towards the unsuspecting bird.",
+  "exId": "Kucing itu mengendap-endap tanpa suara menuju burung yang lengah.",
+  "colloc": [
+   "creep up on",
+   "creep silently",
+   "creep forward"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "crescendo",
   "pos": "noun",
   "def": "a gradual increase in the loudness of music",
@@ -10764,6 +15345,20 @@ export const VOCAB = [
    "hidden crevasse"
   ],
   "theme": "nature"
+ },
+ {
+  "w": "crimson",
+  "pos": "adjective",
+  "def": "a deep, rich red colour",
+  "defId": "merah tua; merah menyala (kirmizi)",
+  "ex": "The sky turned a deep crimson as the sun set over the hills.",
+  "exId": "Langit berubah menjadi merah tua ketika matahari terbenam di balik bukit.",
+  "colloc": [
+   "deep crimson",
+   "crimson red",
+   "crimson petals"
+  ],
+  "theme": "colours"
  },
  {
   "w": "crisp",
@@ -10835,6 +15430,19 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "crockery",
+  "pos": "noun",
+  "def": "plates, cups, bowls, and other dishes, especially made of earthenware or china",
+  "defId": "peralatan makan dari keramik (piring, cangkir)",
+  "ex": "All the crockery was stacked in the cupboard above the counter.",
+  "exId": "Semua peralatan makan keramik ditumpuk di lemari di atas meja dapur.",
+  "colloc": [
+   "a set of crockery",
+   "wash the crockery"
+  ],
+  "theme": "household"
+ },
+ {
   "w": "crop",
   "pos": "noun",
   "def": "a plant grown by farmers for food or profit",
@@ -10849,6 +15457,47 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "cross that bridge when we come to it",
+  "pos": "idiom",
+  "def": "to deal with a problem only when it actually happens",
+  "defId": "mengurus masalah nanti saat benar-benar terjadi, bukan sekarang",
+  "ex": "We might need more funding later, but we'll cross that bridge when we come to it.",
+  "exId": "Kita mungkin butuh dana lebih nanti, tapi kita urus itu kalau saatnya tiba.",
+  "colloc": [
+   "delaying a worry",
+   "'cross that bridge when we come to it'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "cross-border",
+  "pos": "adjective",
+  "def": "involving movement or activity between two or more countries",
+  "defId": "melibatkan pergerakan atau aktivitas antara dua negara atau lebih",
+  "ex": "Cross-border trade has grown rapidly since tariffs on the region were lowered.",
+  "exId": "Perdagangan lintas batas tumbuh pesat sejak tarif di kawasan itu diturunkan.",
+  "colloc": [
+   "cross-border trade",
+   "cross-border flows",
+   "cross-border cooperation"
+  ],
+  "theme": "globalisation"
+ },
+ {
+  "w": "cross-cultural",
+  "pos": "adjective",
+  "def": "involving or comparing two or more different cultures",
+  "defId": "melibatkan atau membandingkan dua budaya berbeda atau lebih",
+  "ex": "Cross-cultural training helps expatriate managers avoid offending their local colleagues.",
+  "exId": "Pelatihan lintas budaya membantu manajer ekspatriat menghindari menyinggung rekan lokal mereka.",
+  "colloc": [
+   "cross-cultural training",
+   "cross-cultural communication",
+   "cross-cultural understanding"
+  ],
+  "theme": "globalisation"
+ },
+ {
   "w": "cross-functional",
   "pos": "adjective",
   "def": "involving people or teams from different departments or areas of expertise",
@@ -10861,6 +15510,47 @@ export const VOCAB = [
    "a cross-functional project"
   ],
   "theme": "work"
+ },
+ {
+  "w": "cross-platform",
+  "pos": "adjective",
+  "def": "able to run or work on more than one type of operating system or device",
+  "defId": "mampu berjalan atau bekerja pada lebih dari satu jenis sistem operasi atau perangkat",
+  "ex": "The app is cross-platform, so it works on both Windows and Mac.",
+  "exId": "Aplikasi itu bersifat lintas platform, sehingga berjalan di Windows maupun Mac.",
+  "colloc": [
+   "cross-platform app",
+   "cross-platform support",
+   "cross-platform compatibility"
+  ],
+  "theme": "technology"
+ },
+ {
+  "w": "cross-sell",
+  "pos": "verb",
+  "def": "to sell a customer additional related products alongside their main purchase",
+  "defId": "menjual produk terkait tambahan kepada pelanggan bersama pembelian utamanya",
+  "ex": "The bank tries to cross-sell insurance to everyone who opens a new account.",
+  "exId": "Bank itu berusaha menjual silang asuransi kepada setiap orang yang membuka rekening baru.",
+  "colloc": [
+   "cross-sell products",
+   "cross-sell opportunity",
+   "cross-sell to customers"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "crossroads",
+  "pos": "n",
+  "def": "A place where two or more roads meet and cross each other.",
+  "defId": "Tempat di mana dua jalan atau lebih bertemu dan bersilangan.",
+  "ex": "There is a small chapel standing at the crossroads in the middle of the village.",
+  "exId": "Ada sebuah kapel kecil berdiri di persimpangan di tengah desa itu.",
+  "colloc": [
+   "busy crossroads",
+   "at the crossroads"
+  ],
+  "theme": "urban"
  },
  {
   "w": "crossword",
@@ -10890,6 +15580,32 @@ export const VOCAB = [
   "theme": "internet"
  },
  {
+  "w": "crucial",
+  "pos": "adjective",
+  "def": "extremely important because it affects the result of something",
+  "defId": "sangat penting; krusial",
+  "ex": "Timing is crucial when it comes to responding to a crisis.",
+  "exId": "Waktu sangat penting ketika menanggapi sebuah krisis.",
+  "colloc": [
+   "a crucial factor",
+   "crucial evidence"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "crucially",
+  "pos": "adverb",
+  "def": "in a way that is extremely important or decisive",
+  "defId": "yang terpenting",
+  "ex": "Crucially, the plan includes funding for teacher training.",
+  "exId": "Yang terpenting, rencana itu mencakup pendanaan untuk pelatihan guru.",
+  "colloc": [
+   "crucially, ...",
+   "crucially important"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "crude oil",
   "pos": "noun",
   "def": "unrefined petroleum extracted from the ground",
@@ -10916,6 +15632,90 @@ export const VOCAB = [
    "a luxury cruise"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "crumbling",
+  "pos": "adjective",
+  "def": "gradually breaking apart and falling into decay",
+  "defId": "rapuh meruntuh dan lapuk",
+  "ex": "The crumbling city walls are a reminder of the town's medieval past.",
+  "exId": "Tembok kota yang rapuh meruntuh itu menjadi pengingat masa lalu kota di abad pertengahan.",
+  "colloc": [
+   "a crumbling building",
+   "crumbling walls",
+   "crumbling ruins"
+  ],
+  "theme": "describe_places"
+ },
+ {
+  "w": "crumbly",
+  "pos": "adjective",
+  "def": "easily breaking into small fragments or crumbs",
+  "defId": "mudah hancur menjadi kepingan atau remah kecil",
+  "ex": "The cheese was pale and crumbly, perfect for grating over salad.",
+  "exId": "Kejunya pucat dan mudah remuk, sempurna untuk diparut di atas salad.",
+  "colloc": [
+   "a crumbly texture",
+   "crumbly cheese",
+   "dry and crumbly"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "crunch",
+  "pos": "verb",
+  "def": "to make a loud, crushing sound, as of something being crushed underfoot",
+  "defId": "berderak; berkeriuk",
+  "ex": "The fresh snow crunched beneath our boots as we hiked up the hill.",
+  "exId": "Salju segar berderak di bawah sepatu bot kami saat mendaki bukit.",
+  "colloc": [
+   "gravel crunches",
+   "crunch underfoot",
+   "crunch loudly"
+  ],
+  "theme": "sound_movement"
+ },
+ {
+  "w": "crunchy",
+  "pos": "adjective",
+  "def": "firm and making a sharp noise when bitten or crushed",
+  "defId": "renyah; keras dan berbunyi tajam saat digigit atau diremukkan",
+  "ex": "The salad was full of fresh, crunchy vegetables.",
+  "exId": "Salad itu penuh dengan sayuran segar yang renyah.",
+  "colloc": [
+   "crunchy texture",
+   "crunchy snack",
+   "crisp and crunchy"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "crutches",
+  "pos": "noun",
+  "def": "a pair of supports that fit under the arms to help an injured person walk",
+  "defId": "sepasang tongkat penyangga di bawah ketiak untuk membantu orang yang cedera berjalan",
+  "ex": "He had to walk on crutches for a month after breaking his leg.",
+  "exId": "Ia harus berjalan dengan tongkat ketiak selama sebulan setelah kakinya patah.",
+  "colloc": [
+   "walk on crutches",
+   "a pair of crutches",
+   "on crutches"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "crux",
+  "pos": "noun",
+  "def": "the most important or central point of a problem, argument, or discussion",
+  "defId": "poin terpenting atau inti dari suatu masalah, argumen, atau pembahasan",
+  "ex": "The crux of her argument was that fluency matters more than perfect grammar.",
+  "exId": "Inti dari argumennya adalah bahwa kelancaran lebih penting daripada tata bahasa yang sempurna.",
+  "colloc": [
+   "the crux of the matter",
+   "get to the crux",
+   "crux of the argument"
+  ],
+  "theme": "language"
  },
  {
   "w": "cryptocurrency",
@@ -11015,6 +15815,32 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "culmination",
+  "pos": "noun",
+  "def": "the highest or final point of something, reached after a long process",
+  "defId": "puncak; klimaks; hasil akhir dari suatu proses panjang",
+  "ex": "Winning the award was the culmination of years of hard work.",
+  "exId": "Memenangkan penghargaan itu adalah puncak dari kerja keras bertahun-tahun.",
+  "colloc": [
+   "culmination of",
+   "final culmination"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "culpable",
+  "pos": "adjective",
+  "def": "deserving blame for having done something wrong",
+  "defId": "bersalah; layak dipersalahkan atas kesalahan",
+  "ex": "The inquiry found the manager culpable for ignoring the safety warnings.",
+  "exId": "Penyelidikan menemukan bahwa manajer itu bersalah karena mengabaikan peringatan keselamatan.",
+  "colloc": [
+   "culpable of",
+   "held culpable"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "culprit",
   "pos": "noun",
   "def": "a person who is responsible for a crime or wrongdoing",
@@ -11081,6 +15907,19 @@ export const VOCAB = [
    "cumulative impact"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "cupboard",
+  "pos": "noun",
+  "def": "a piece of furniture with a door and shelves, used for storing crockery, food, or clothes",
+  "defId": "lemari (dapur atau dinding)",
+  "ex": "The cupboard above the sink was full of mismatched mugs and plates.",
+  "exId": "Lemari di atas wastafel penuh dengan cangkir dan piring yang tidak seragam.",
+  "colloc": [
+   "kitchen cupboard",
+   "a cupboard under the stairs"
+  ],
+  "theme": "household"
  },
  {
   "w": "cuppa",
@@ -11166,6 +16005,20 @@ export const VOCAB = [
   "theme": "personality"
  },
  {
+  "w": "curly",
+  "pos": "adjective",
+  "def": "having hair that forms curls or spirals",
+  "defId": "keriting (rambut)",
+  "ex": "Her curly red hair bounced as she ran across the playground.",
+  "exId": "Rambut merahnya yang keriting bergoyang saat dia berlari di taman bermain.",
+  "colloc": [
+   "curly hair",
+   "tightly curly",
+   "curly locks"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "currency",
   "pos": "noun",
   "def": "the system of money that is used in a particular country",
@@ -11208,6 +16061,59 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "curtain",
+  "pos": "noun",
+  "def": "a piece of hanging fabric used to cover a window or divide a space",
+  "defId": "gorden atau tirai",
+  "ex": "She drew the curtains to keep the afternoon sun out of the room.",
+  "exId": "Dia menutup gorden untuk menghalangi sinar matahari sore masuk ke ruangan.",
+  "colloc": [
+   "draw the curtains",
+   "a pair of curtains"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "curved",
+  "pos": "adjective",
+  "def": "having a smoothly bending line or surface rather than a straight one",
+  "defId": "melengkung; berlekuk",
+  "ex": "The modern sofa had a gently curved back that hugged the wall.",
+  "exId": "Sofa modern itu memiliki sandaran yang sedikit melengkung mengikuti dinding.",
+  "colloc": [
+   "curved edge",
+   "gently curved",
+   "curved surface"
+  ],
+  "theme": "colours"
+ },
+ {
+  "w": "cushion",
+  "pos": "noun",
+  "def": "a fabric bag filled with soft material, used to make a seat more comfortable",
+  "defId": "bantal kursi atau sofa",
+  "ex": "He plumped up the cushions before the guests arrived.",
+  "exId": "Dia menepuk-nepuk bantal sofa agar mengembang sebelum para tamu datang.",
+  "colloc": [
+   "a sofa cushion",
+   "plump up a cushion"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "custodial",
+  "pos": "adjective",
+  "def": "relating to being kept in prison, or to having legal care of someone",
+  "defId": "berkaitan dengan penahanan di penjara atau dengan hak asuh",
+  "ex": "The judge handed down a custodial sentence of five years.",
+  "exId": "Hakim menjatuhkan hukuman penjara selama lima tahun.",
+  "colloc": [
+   "custodial sentence",
+   "custodial care"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "custody",
   "pos": "noun",
   "def": "the state of being held by the police or kept in prison",
@@ -11220,6 +16126,33 @@ export const VOCAB = [
    "remand in custody"
   ],
   "theme": "society"
+ },
+ {
+  "w": "customary",
+  "pos": "adjective",
+  "def": "according to usual practice; commonly done",
+  "defId": "yang lazim; sesuai kebiasaan; adat",
+  "ex": "It is customary to remove your shoes before entering the house.",
+  "exId": "Sudah lazim untuk melepas sepatu sebelum memasuki rumah.",
+  "colloc": [
+   "customary practice",
+   "as is customary"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "customise",
+  "pos": "verb",
+  "def": "to change the settings or appearance of something to suit your own preferences",
+  "defId": "mengubah pengaturan atau tampilan sesuatu agar sesuai dengan preferensi sendiri",
+  "ex": "You can customise the home screen by dragging the icons wherever you like.",
+  "exId": "Anda dapat menyesuaikan layar beranda dengan menyeret ikon ke mana pun Anda suka.",
+  "colloc": [
+   "customise settings",
+   "fully customise",
+   "customise the layout"
+  ],
+  "theme": "technology"
  },
  {
   "w": "customs",
@@ -11248,6 +16181,33 @@ export const VOCAB = [
    "cut back on expenses"
   ],
   "theme": "money"
+ },
+ {
+  "w": "cut corners",
+  "pos": "idiom",
+  "def": "to do something in the cheapest or quickest way, often reducing quality",
+  "defId": "mengambil jalan pintas demi hemat atau cepat, biasanya mengorbankan kualitas",
+  "ex": "If you cut corners on safety, you may regret it later.",
+  "exId": "Kalau kamu mengambil jalan pintas soal keselamatan, kamu mungkin akan menyesal nanti.",
+  "colloc": [
+   "reducing quality to save time",
+   "'cut corners on'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "cutlery",
+  "pos": "noun",
+  "def": "knives, forks, and spoons used for eating and serving food",
+  "defId": "peralatan makan (sendok, garpu, pisau)",
+  "ex": "She laid out the cutlery neatly on either side of each plate.",
+  "exId": "Dia menata peralatan makan dengan rapi di kedua sisi setiap piring.",
+  "colloc": [
+   "lay out the cutlery",
+   "a cutlery drawer",
+   "silver cutlery"
+  ],
+  "theme": "household"
  },
  {
   "w": "cutting-edge",
@@ -11344,6 +16304,19 @@ export const VOCAB = [
   "theme": "urban"
  },
  {
+  "w": "cyclical",
+  "pos": "adjective",
+  "def": "occurring in repeated cycles or regularly recurring patterns",
+  "defId": "yang bersifat siklus; berulang secara berkala",
+  "ex": "The industry is highly cyclical, with demand rising and falling every few years.",
+  "exId": "Industri itu sangat bersifat siklus, dengan permintaan naik dan turun setiap beberapa tahun.",
+  "colloc": [
+   "cyclical pattern",
+   "cyclical downturn"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "cyclist",
   "pos": "noun",
   "def": "a person who rides a bicycle, especially as a regular means of transport",
@@ -11370,6 +16343,20 @@ export const VOCAB = [
    "cyclone warning"
   ],
   "theme": "weather"
+ },
+ {
+  "w": "cylindrical",
+  "pos": "adjective",
+  "def": "shaped like a cylinder, with straight sides and circular ends",
+  "defId": "berbentuk silinder; berbentuk tabung",
+  "ex": "The vase had a tall cylindrical shape that suited the long stems.",
+  "exId": "Vas itu berbentuk silinder tinggi yang cocok untuk tangkai-tangkai panjang.",
+  "colloc": [
+   "cylindrical shape",
+   "cylindrical container",
+   "cylindrical body"
+  ],
+  "theme": "colours"
  },
  {
   "w": "cynical",
@@ -11469,6 +16456,62 @@ export const VOCAB = [
   "theme": "fashion"
  },
  {
+  "w": "daredevil",
+  "pos": "noun",
+  "def": "a person who takes reckless risks and enjoys dangerous activities",
+  "defId": "orang yang mengambil risiko nekat dan menikmati kegiatan berbahaya",
+  "ex": "Only a daredevil would attempt to bungee jump off that bridge.",
+  "exId": "Hanya orang nekat yang mau mencoba lompat bungee dari jembatan itu.",
+  "colloc": [
+   "a real daredevil",
+   "a daredevil stunt",
+   "a daredevil traveller"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "dart",
+  "pos": "verb",
+  "def": "to move suddenly and quickly in a particular direction",
+  "defId": "melesat; menyelinap cepat",
+  "ex": "The child darted between the parked cars, giving her mother a fright.",
+  "exId": "Anak itu melesat di antara mobil-mobil yang terparkir, membuat ibunya terkejut.",
+  "colloc": [
+   "dart forward",
+   "dart across",
+   "eyes darting"
+  ],
+  "theme": "sound_movement"
+ },
+ {
+  "w": "dash",
+  "pos": "verb",
+  "def": "to run or move somewhere very quickly",
+  "defId": "berlari kencang; melesat",
+  "ex": "She dashed to the station but still missed the last train home.",
+  "exId": "Ia berlari kencang ke stasiun tetapi tetap ketinggalan kereta terakhir menuju rumah.",
+  "colloc": [
+   "dash off",
+   "dash across",
+   "dash to the door"
+  ],
+  "theme": "sound_movement"
+ },
+ {
+  "w": "dashboard",
+  "pos": "noun",
+  "def": "a screen that displays key information and controls in one easy-to-read place",
+  "defId": "layar yang menampilkan informasi dan kontrol penting di satu tempat yang mudah dibaca",
+  "ex": "The analytics dashboard shows visitor numbers updating in real time.",
+  "exId": "Dasbor analitik itu menampilkan jumlah pengunjung yang diperbarui secara langsung.",
+  "colloc": [
+   "analytics dashboard",
+   "admin dashboard",
+   "dashboard view"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "dashcam",
   "pos": "noun",
   "def": "A small camera fitted to a car's windscreen that records the road ahead while you drive.",
@@ -11481,6 +16524,19 @@ export const VOCAB = [
    "fit a dashcam"
   ],
   "theme": "uk_transport"
+ },
+ {
+  "w": "data",
+  "pos": "noun",
+  "def": "facts or information, often in the form of numbers, used for analysis",
+  "defId": "data",
+  "ex": "The data reveal a clear upward trend in online purchases.",
+  "exId": "Data itu mengungkap tren peningkatan yang jelas dalam pembelian daring.",
+  "colloc": [
+   "collect data",
+   "raw data"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "database",
@@ -11497,6 +16553,19 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "dataset",
+  "pos": "noun",
+  "def": "a collection of related pieces of data treated as a single unit",
+  "defId": "kumpulan data (dataset)",
+  "ex": "Researchers compared two datasets covering the same ten-year period.",
+  "exId": "Para peneliti membandingkan dua kumpulan data yang mencakup periode sepuluh tahun yang sama.",
+  "colloc": [
+   "a large dataset",
+   "analyse a dataset"
+  ],
+  "theme": "numbers"
+ },
+ {
   "w": "date back",
   "pos": "phrasal verb",
   "def": "to have existed since a particular time in the past",
@@ -11508,6 +16577,20 @@ export const VOCAB = [
    "to date back to"
   ],
   "theme": "history"
+ },
+ {
+  "w": "dated",
+  "pos": "adjective",
+  "def": "old-fashioned and no longer modern",
+  "defId": "ketinggalan zaman",
+  "ex": "The shopping centre looks rather dated now, with its 1980s tiles and dim lighting.",
+  "exId": "Pusat perbelanjaan itu tampak agak ketinggalan zaman sekarang, dengan ubin tahun 1980-an dan pencahayaan redup.",
+  "colloc": [
+   "a dated interior",
+   "a dated design",
+   "look dated"
+  ],
+  "theme": "describe_places"
  },
  {
   "w": "day travelcard",
@@ -11535,6 +16618,48 @@ export const VOCAB = [
    "go on a day trip"
   ],
   "theme": "tourism"
+ },
+ {
+  "w": "dazzling",
+  "pos": "adjective",
+  "def": "so bright that it temporarily blinds you",
+  "defId": "begitu terang sampai membuat mata silau sesaat",
+  "ex": "The dazzling reflection off the snow forced us to wear sunglasses.",
+  "exId": "Pantulan menyilaukan dari salju memaksa kami memakai kacamata hitam.",
+  "colloc": [
+   "dazzling light",
+   "dazzling display",
+   "dazzling white"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "dead against",
+  "pos": "phrase",
+  "def": "completely opposed to something (informal, emphatic)",
+  "defId": "sangat menentang sesuatu (informal, tegas)",
+  "ex": "My grandparents were dead against the idea of moving to the city.",
+  "exId": "Kakek-nenek saya sangat menentang gagasan pindah ke kota.",
+  "colloc": [
+   "dead against the idea",
+   "be dead against",
+   "dead against it"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "deadhead",
+  "pos": "verb",
+  "def": "to remove dead flower heads from a plant to encourage new flowers",
+  "defId": "membuang bunga layu (agar tumbuh bunga baru)",
+  "ex": "If you deadhead the geraniums regularly, they will keep flowering all summer.",
+  "exId": "Jika kamu rutin membuang bunga geranium yang layu, mereka akan terus berbunga sepanjang musim panas.",
+  "colloc": [
+   "deadhead the roses",
+   "regularly deadhead",
+   "deadhead flowers"
+  ],
+  "theme": "garden"
  },
  {
   "w": "deadline",
@@ -11565,6 +16690,61 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "deafening",
+  "pos": "adjective",
+  "def": "so loud that you cannot hear anything else",
+  "defId": "memekakkan telinga; begitu keras sampai tak terdengar apa pun lagi",
+  "ex": "The deafening roar of the engines made conversation impossible.",
+  "exId": "Deru mesin yang memekakkan telinga membuat percakapan mustahil.",
+  "colloc": [
+   "deafening noise",
+   "deafening roar",
+   "deafening silence"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "dean",
+  "pos": "noun",
+  "def": "a senior official in a university or college who is in charge of a faculty or of student affairs",
+  "defId": "pejabat senior di universitas yang mengepalai sebuah fakultas atau urusan kemahasiswaan",
+  "ex": "The dean of the faculty welcomed the new students at the opening ceremony.",
+  "exId": "Dekan fakultas menyambut para mahasiswa baru pada upacara pembukaan.",
+  "colloc": [
+   "dean of students",
+   "the faculty dean"
+  ],
+  "theme": "education"
+ },
+ {
+  "w": "dearth",
+  "pos": "noun",
+  "def": "A scarcity or lack of something.",
+  "defId": "Kelangkaan; kekurangan sesuatu.",
+  "ex": "There is a dearth of skilled workers in the manufacturing sector.",
+  "exId": "Terdapat kelangkaan tenaga kerja terampil di sektor manufaktur.",
+  "colloc": [
+   "a dearth of talent",
+   "a dearth of investment",
+   "a dearth of jobs"
+  ],
+  "theme": "economy"
+ },
+ {
+  "w": "debatable",
+  "pos": "adjective",
+  "def": "open to argument or discussion; not certain",
+  "defId": "masih bisa diperdebatkan",
+  "ex": "Whether the policy actually reduced poverty is highly debatable.",
+  "exId": "Apakah kebijakan itu benar-benar mengurangi kemiskinan masih sangat bisa diperdebatkan.",
+  "colloc": [
+   "highly debatable",
+   "debatable point",
+   "debatable whether"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "debrief",
   "pos": "noun",
   "def": "a meeting to review and discuss a task or project after it has finished",
@@ -11591,6 +16771,34 @@ export const VOCAB = [
    "be in debt"
   ],
   "theme": "money"
+ },
+ {
+  "w": "debt relief",
+  "pos": "noun",
+  "def": "the partial or total cancellation of money owed by a poor country",
+  "defId": "penghapusan sebagian atau seluruh utang yang ditanggung negara miskin",
+  "ex": "Campaigners argued that debt relief would free up funds for schools and hospitals.",
+  "exId": "Para pegiat berpendapat bahwa pengurangan utang akan membebaskan dana untuk sekolah dan rumah sakit.",
+  "colloc": [
+   "debt relief programme",
+   "grant debt relief",
+   "call for debt relief"
+  ],
+  "theme": "globalisation"
+ },
+ {
+  "w": "debt trap",
+  "pos": "noun",
+  "def": "a situation in which a borrower cannot repay a loan and keeps sinking deeper into debt",
+  "defId": "keadaan ketika peminjam tak mampu melunasi pinjaman dan terus terjerat utang lebih dalam",
+  "ex": "Small farmers who borrow at high interest rates often fall into a debt trap.",
+  "exId": "Petani kecil yang meminjam dengan bunga tinggi sering terjerumus ke dalam jerat utang.",
+  "colloc": [
+   "fall into a debt trap",
+   "debt trap diplomacy",
+   "escape a debt trap"
+  ],
+  "theme": "globalisation"
  },
  {
   "w": "debtor",
@@ -11647,6 +16855,20 @@ export const VOCAB = [
   "theme": "history"
  },
  {
+  "w": "decadent",
+  "pos": "adjective",
+  "def": "of food, extremely rich, luxurious and self-indulgent",
+  "defId": "tentang makanan, sangat kaya, mewah, dan memanjakan diri",
+  "ex": "The dessert was a decadent layering of cream, chocolate and caramel.",
+  "exId": "Hidangan penutup itu adalah tumpukan mewah krim, cokelat, dan karamel.",
+  "colloc": [
+   "a decadent dessert",
+   "decadent chocolate",
+   "rich and decadent"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "decarbonise",
   "pos": "verb",
   "def": "to reduce or remove the carbon emissions produced by an activity or economy",
@@ -11672,6 +16894,46 @@ export const VOCAB = [
    "decelerating economy"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "decentralisation",
+  "pos": "noun",
+  "def": "the transfer of power or authority from a central government to regional or local bodies",
+  "defId": "desentralisasi; pengalihan kekuasaan atau wewenang dari pemerintah pusat ke daerah atau lembaga lokal",
+  "ex": "Decentralisation gave local councils greater control over their own budgets.",
+  "exId": "Desentralisasi memberi dewan lokal kendali lebih besar atas anggaran mereka sendiri.",
+  "colloc": [
+   "fiscal decentralisation",
+   "push for decentralisation"
+  ],
+  "theme": "politics"
+ },
+ {
+  "w": "deciduous",
+  "pos": "adjective",
+  "def": "(of a tree or shrub) shedding its leaves every year, usually in autumn",
+  "defId": "meranggas (menggugurkan daun tiap tahun)",
+  "ex": "Deciduous trees such as maples lose all their leaves before winter.",
+  "exId": "Pohon yang meranggas seperti mapel menggugurkan seluruh daunnya sebelum musim dingin.",
+  "colloc": [
+   "deciduous tree",
+   "deciduous woodland",
+   "deciduous forest"
+  ],
+  "theme": "garden"
+ },
+ {
+  "w": "decimal",
+  "pos": "noun",
+  "def": "a number that uses a point to show values smaller than one",
+  "defId": "desimal",
+  "ex": "The results were rounded to one decimal place for clarity.",
+  "exId": "Hasilnya dibulatkan ke satu angka desimal agar lebih jelas.",
+  "colloc": [
+   "decimal place",
+   "decimal point"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "decipher",
@@ -11715,6 +16977,19 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "declutter",
+  "pos": "verb",
+  "def": "to remove unnecessary or unwanted items from a place to make it tidier",
+  "defId": "membereskan dan menyingkirkan barang berlebih",
+  "ex": "Before moving house, they spent a weekend trying to declutter the attic.",
+  "exId": "Sebelum pindah rumah, mereka menghabiskan akhir pekan membereskan loteng.",
+  "colloc": [
+   "declutter your home",
+   "declutter a room"
+  ],
+  "theme": "household"
+ },
+ {
   "w": "decommission",
   "pos": "verb",
   "def": "to permanently take a power station or plant out of service",
@@ -11727,6 +17002,20 @@ export const VOCAB = [
    "safely decommission"
   ],
   "theme": "energy"
+ },
+ {
+  "w": "decompose",
+  "pos": "verb",
+  "def": "to break down gradually into simpler substances through natural biological processes.",
+  "defId": "terurai secara bertahap menjadi zat yang lebih sederhana melalui proses biologis alami.",
+  "ex": "Food scraps decompose quickly when they are mixed with garden soil.",
+  "exId": "Sisa makanan cepat terurai ketika dicampur dengan tanah kebun.",
+  "colloc": [
+   "decompose naturally",
+   "organic matter decomposes",
+   "slowly decompose"
+  ],
+  "theme": "environment"
  },
  {
   "w": "decree",
@@ -11753,6 +17042,33 @@ export const VOCAB = [
    "deduce that",
    "deduce from",
    "reasonably deduce"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "deduction",
+  "pos": "noun",
+  "def": "the process of reaching a conclusion by reasoning from general principles",
+  "defId": "deduksi; penarikan kesimpulan",
+  "ex": "The detective solved the case through careful deduction rather than luck.",
+  "exId": "Detektif itu memecahkan kasusnya melalui deduksi yang cermat, bukan keberuntungan.",
+  "colloc": [
+   "logical deduction",
+   "by deduction"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "deem",
+  "pos": "verb",
+  "def": "to consider or judge something in a particular way",
+  "defId": "menganggap; memandang",
+  "ex": "The proposal was deemed impractical by the committee.",
+  "exId": "Usulan itu dianggap tidak praktis oleh komite.",
+  "colloc": [
+   "deemed necessary",
+   "deemed appropriate",
+   "deemed unacceptable"
   ],
   "theme": "academic"
  },
@@ -11784,6 +17100,20 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "default",
+  "pos": "noun",
+  "def": "a setting or option that a system uses automatically unless the user changes it",
+  "defId": "pengaturan atau pilihan yang digunakan sistem secara otomatis kecuali diubah oleh pengguna",
+  "ex": "By default, the app saves your files to the cloud rather than the device.",
+  "exId": "Secara default, aplikasi menyimpan berkas Anda ke awan alih-alih ke perangkat.",
+  "colloc": [
+   "by default",
+   "default setting",
+   "restore defaults"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "defence mechanism",
   "pos": "noun",
   "def": "an unconscious strategy the mind uses to protect itself from anxiety",
@@ -11809,6 +17139,20 @@ export const VOCAB = [
    "the defendant pleaded"
   ],
   "theme": "crime"
+ },
+ {
+  "w": "defiance",
+  "pos": "noun",
+  "def": "open resistance to or bold disobedience of authority or opposition",
+  "defId": "pembangkangan; perlawanan terbuka atau ketidakpatuhan berani terhadap otoritas",
+  "ex": "In an act of defiance, the workers refused to leave the factory.",
+  "exId": "Dalam sebuah tindakan pembangkangan, para pekerja menolak meninggalkan pabrik.",
+  "colloc": [
+   "open defiance",
+   "an act of defiance",
+   "in defiance of"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "deficiency",
@@ -11837,6 +17181,20 @@ export const VOCAB = [
    "reduce the deficit"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "definitive",
+  "pos": "adjective",
+  "def": "final and not able to be questioned or changed",
+  "defId": "definitif; pasti",
+  "ex": "No definitive answer has yet emerged from the research.",
+  "exId": "Belum ada jawaban definitif yang muncul dari penelitian ini.",
+  "colloc": [
+   "definitive answer",
+   "definitive proof",
+   "definitive conclusion"
+  ],
+  "theme": "academic"
  },
  {
   "w": "deflation",
@@ -11880,6 +17238,20 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "degrade",
+  "pos": "verb",
+  "def": "to cause the natural quality or condition of the environment to deteriorate.",
+  "defId": "menyebabkan kualitas atau kondisi alami lingkungan memburuk.",
+  "ex": "Intensive farming has degraded the soil across large parts of the region.",
+  "exId": "Pertanian intensif telah merusak tanah di sebagian besar wilayah itu.",
+  "colloc": [
+   "degrade the environment",
+   "degrade habitats",
+   "environmentally degraded"
+  ],
+  "theme": "environment"
+ },
+ {
   "w": "dehydration",
   "pos": "noun",
   "def": "a condition caused by not having enough water in your body",
@@ -11892,6 +17264,20 @@ export const VOCAB = [
    "signs of dehydration"
   ],
   "theme": "health"
+ },
+ {
+  "w": "deindustrialisation",
+  "pos": "noun",
+  "def": "The decline of manufacturing industry in a region or country.",
+  "defId": "Deindustrialisasi; kemerosotan industri manufaktur di suatu daerah atau negara.",
+  "ex": "Deindustrialisation left many former mining towns with high unemployment.",
+  "exId": "Deindustrialisasi membuat banyak bekas kota tambang mengalami pengangguran tinggi.",
+  "colloc": [
+   "rapid deindustrialisation",
+   "the effects of deindustrialisation",
+   "regional deindustrialisation"
+  ],
+  "theme": "economy"
  },
  {
   "w": "deity",
@@ -11933,6 +17319,20 @@ export const VOCAB = [
    "delegate to"
   ],
   "theme": "work"
+ },
+ {
+  "w": "deliberation",
+  "pos": "noun",
+  "def": "long and careful consideration before making a decision",
+  "defId": "pertimbangan matang; pemikiran yang panjang dan cermat sebelum mengambil keputusan",
+  "ex": "After much deliberation, the jury finally reached a verdict.",
+  "exId": "Setelah pertimbangan yang matang, juri akhirnya mencapai keputusan.",
+  "colloc": [
+   "careful deliberation",
+   "after much deliberation",
+   "hours of deliberation"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "delicacy",
@@ -12027,6 +17427,19 @@ export const VOCAB = [
    "under a delusion"
   ],
   "theme": "psychology"
+ },
+ {
+  "w": "demagogue",
+  "pos": "noun",
+  "def": "a political leader who wins support by appealing to popular emotions and prejudices",
+  "defId": "demagog; pemimpin politik yang meraih dukungan dengan membangkitkan emosi dan prasangka rakyat",
+  "ex": "The demagogue stirred up fear of outsiders to rally his followers.",
+  "exId": "Demagog itu mengobarkan ketakutan terhadap orang luar untuk menggalang para pengikutnya.",
+  "colloc": [
+   "dangerous demagogue",
+   "populist demagogue"
+  ],
+  "theme": "politics"
  },
  {
   "w": "demand",
@@ -12182,6 +17595,20 @@ export const VOCAB = [
   "theme": "fashion"
  },
  {
+  "w": "denizen",
+  "pos": "noun",
+  "def": "a person, animal or plant that lives or is often found in a particular place",
+  "defId": "penghuni; orang, hewan, atau tumbuhan yang menetap atau sering ditemukan di suatu tempat",
+  "ex": "As a long-time denizen of the old quarter, she knew every shopkeeper by name.",
+  "exId": "Sebagai penghuni lama kawasan tua itu, dia mengenal setiap pemilik toko dengan nama.",
+  "colloc": [
+   "a denizen of the city",
+   "local denizens",
+   "denizen of the forest"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "denomination",
   "pos": "noun",
   "def": "a recognised branch of a larger religion",
@@ -12196,6 +17623,20 @@ export const VOCAB = [
   "theme": "religion"
  },
  {
+  "w": "denotation",
+  "pos": "noun",
+  "def": "the literal, dictionary meaning of a word, as opposed to its associations",
+  "defId": "makna harfiah suatu kata sesuai kamus, berbeda dari asosiasinya",
+  "ex": "The denotation of 'home' is simply a place to live, but its associations are far richer.",
+  "exId": "Makna harfiah 'rumah' hanyalah tempat tinggal, tetapi asosiasinya jauh lebih kaya.",
+  "colloc": [
+   "literal denotation",
+   "the denotation of a word",
+   "denotation and connotation"
+  ],
+  "theme": "language"
+ },
+ {
   "w": "denote",
   "pos": "verb",
   "def": "to be a sign of something; to mean or refer to something specific",
@@ -12207,6 +17648,34 @@ export const VOCAB = [
    "commonly denote"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "denouement",
+  "pos": "noun",
+  "def": "the final part of a narrative in which the plot's strands are resolved",
+  "defId": "bagian akhir sebuah narasi di mana benang-benang alur cerita diselesaikan",
+  "ex": "In the satisfying denouement, every mystery is explained and the lovers are reunited.",
+  "exId": "Dalam penyelesaian yang memuaskan, setiap misteri dijelaskan dan pasangan kekasih bersatu kembali.",
+  "colloc": [
+   "satisfying denouement",
+   "final denouement",
+   "the denouement of the plot"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "denounce",
+  "pos": "verb",
+  "def": "to criticise someone or something strongly and publicly",
+  "defId": "mengecam seseorang atau sesuatu dengan keras di depan umum",
+  "ex": "Community leaders were quick to denounce the discriminatory policy.",
+  "exId": "Para tokoh masyarakat cepat mengecam kebijakan diskriminatif itu.",
+  "colloc": [
+   "publicly denounce",
+   "denounce corruption",
+   "denounce as unfair"
+  ],
+  "theme": "opinions"
  },
  {
   "w": "densely populated",
@@ -12360,6 +17829,20 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "deplore",
+  "pos": "verb",
+  "def": "to strongly disapprove of something and feel it is very bad",
+  "defId": "sangat menyayangkan dan mengecam sesuatu",
+  "ex": "Many parents deplore the amount of violence shown on television.",
+  "exId": "Banyak orang tua menyayangkan banyaknya kekerasan yang ditayangkan di televisi.",
+  "colloc": [
+   "deplore the lack of",
+   "deeply deplore",
+   "deplore the decision"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "deployment",
   "pos": "noun",
   "def": "the movement of troops or equipment into position for military action",
@@ -12372,6 +17855,20 @@ export const VOCAB = [
    "military deployment"
   ],
   "theme": "conflict"
+ },
+ {
+  "w": "deportation",
+  "pos": "noun",
+  "def": "the official removal of a foreign national from a country",
+  "defId": "deportasi; pengusiran resmi seorang warga asing dari suatu negara",
+  "ex": "The family launched an appeal to avoid deportation.",
+  "exId": "Keluarga itu mengajukan banding untuk menghindari deportasi.",
+  "colloc": [
+   "face deportation",
+   "threat of deportation",
+   "deportation order"
+  ],
+  "theme": "society"
  },
  {
   "w": "deposit",
@@ -12400,6 +17897,33 @@ export const VOCAB = [
    "register the deposit"
   ],
   "theme": "uk_home"
+ },
+ {
+  "w": "deposition",
+  "pos": "noun",
+  "def": "a formal, written statement made under oath for use in court",
+  "defId": "kesaksian tertulis di bawah sumpah untuk digunakan di pengadilan",
+  "ex": "The lawyer read out the witness's deposition during the trial.",
+  "exId": "Pengacara membacakan kesaksian tertulis saksi itu selama persidangan.",
+  "colloc": [
+   "give a deposition",
+   "sworn deposition"
+  ],
+  "theme": "law"
+ },
+ {
+  "w": "deprecated",
+  "pos": "adjective",
+  "def": "describing a feature or function that is outdated and discouraged from use, often to be removed",
+  "defId": "menggambarkan fitur atau fungsi yang usang dan tidak dianjurkan digunakan, sering kali akan dihapus",
+  "ex": "That command is now deprecated, so developers should use the newer method instead.",
+  "exId": "Perintah itu kini deprecated, sehingga pengembang sebaiknya memakai metode yang lebih baru.",
+  "colloc": [
+   "deprecated feature",
+   "deprecated function",
+   "now deprecated"
+  ],
+  "theme": "technology"
  },
  {
   "w": "depreciation",
@@ -12440,6 +17964,20 @@ export const VOCAB = [
    "socially deprived"
   ],
   "theme": "urban"
+ },
+ {
+  "w": "deputise",
+  "pos": "verb",
+  "def": "To act or stand in for someone in a more senior role temporarily.",
+  "defId": "mewakili; menggantikan sementara tugas seseorang yang berkedudukan lebih tinggi",
+  "ex": "When the director is away, her assistant deputises for her at board meetings.",
+  "exId": "Ketika direktur sedang tidak ada, asistennya mewakili beliau dalam rapat direksi.",
+  "colloc": [
+   "deputise for someone",
+   "deputise at a meeting",
+   "asked to deputise"
+  ],
+  "theme": "work"
  },
  {
   "w": "deregulation",
@@ -12536,6 +18074,20 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "deserted",
+  "pos": "adjective",
+  "def": "empty, with no people present",
+  "defId": "sepi tak berpenghuni",
+  "ex": "By midnight the streets were completely deserted and slightly eerie.",
+  "exId": "Menjelang tengah malam jalanan benar-benar sepi tak berpenghuni dan sedikit menyeramkan.",
+  "colloc": [
+   "a deserted street",
+   "a deserted beach",
+   "a deserted town"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "desertification",
   "pos": "noun",
   "def": "the process by which fertile land turns into desert, usually through misuse",
@@ -12563,6 +18115,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "desolate",
+  "pos": "adjective",
+  "def": "empty, bleak and depressing",
+  "defId": "sunyi, tandus dan menyedihkan",
+  "ex": "The abandoned mining town felt desolate, with boarded-up houses on every corner.",
+  "exId": "Kota tambang yang terbengkalai itu terasa sunyi tandus, dengan rumah-rumah bertutup papan di setiap sudut.",
+  "colloc": [
+   "a desolate landscape",
+   "a desolate place",
+   "desolate moorland"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "despair",
   "pos": "noun",
   "def": "the complete loss or absence of hope",
@@ -12574,6 +18140,61 @@ export const VOCAB = [
    "drive to despair"
   ],
   "theme": "emotion"
+ },
+ {
+  "w": "despise",
+  "pos": "verb",
+  "def": "to dislike and have a very low opinion of someone or something",
+  "defId": "sangat membenci dan memandang rendah sesuatu",
+  "ex": "I despise the way some advertisements deliberately mislead consumers.",
+  "exId": "Saya sangat membenci cara sebagian iklan sengaja menyesatkan konsumen.",
+  "colloc": [
+   "despise dishonesty",
+   "utterly despise",
+   "despise the idea"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "despondency",
+  "pos": "noun",
+  "def": "a state of low spirits caused by loss of hope or courage",
+  "defId": "keputusasaan; keadaan murung akibat hilangnya harapan atau keberanian",
+  "ex": "Repeated rejections gradually pushed him into despondency.",
+  "exId": "Penolakan yang berulang secara bertahap membuatnya jatuh ke dalam keputusasaan.",
+  "colloc": [
+   "deep despondency",
+   "a mood of despondency",
+   "sink into despondency"
+  ],
+  "theme": "psychology"
+ },
+ {
+  "w": "despot",
+  "pos": "noun",
+  "def": "a ruler who holds absolute power and often uses it cruelly",
+  "defId": "penguasa lalim; pemimpin yang memegang kekuasaan mutlak dan sering menggunakannya secara kejam",
+  "ex": "Under the despot, all opposition was silenced and the press was tightly controlled.",
+  "exId": "Di bawah penguasa lalim itu, semua oposisi dibungkam dan pers dikendalikan ketat.",
+  "colloc": [
+   "ruthless despot",
+   "rule as a despot"
+  ],
+  "theme": "politics"
+ },
+ {
+  "w": "dessert",
+  "pos": "noun",
+  "def": "sweet food eaten at the end of a meal",
+  "defId": "makanan manis yang disantap di akhir jamuan",
+  "ex": "We were too full for dessert, so we skipped the chocolate cake.",
+  "exId": "Kami terlalu kenyang untuk hidangan penutup, jadi kami melewatkan kue cokelatnya.",
+  "colloc": [
+   "a rich dessert",
+   "have dessert",
+   "the dessert menu"
+  ],
+  "theme": "food"
  },
  {
   "w": "destination",
@@ -12588,6 +18209,20 @@ export const VOCAB = [
    "final destination"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "destitute",
+  "pos": "adjective",
+  "def": "Without money, food, or the means to live; extremely poor.",
+  "defId": "Melarat; tanpa uang, makanan, atau sarana untuk hidup; sangat miskin.",
+  "ex": "The floods left thousands of families destitute and homeless.",
+  "exId": "Banjir itu membuat ribuan keluarga melarat dan kehilangan tempat tinggal.",
+  "colloc": [
+   "left destitute",
+   "utterly destitute",
+   "the destitute poor"
+  ],
+  "theme": "economy"
  },
  {
   "w": "destitution",
@@ -12642,6 +18277,20 @@ export const VOCAB = [
    "detention centre"
   ],
   "theme": "crime"
+ },
+ {
+  "w": "detergent",
+  "pos": "noun",
+  "def": "a chemical substance, usually liquid or powder, used for washing clothes or dishes",
+  "defId": "deterjen atau sabun cuci",
+  "ex": "Add one scoop of detergent to the drawer before starting the wash.",
+  "exId": "Tambahkan satu takar deterjen ke laci sebelum memulai pencucian.",
+  "colloc": [
+   "washing detergent",
+   "liquid detergent",
+   "a scoop of detergent"
+  ],
+  "theme": "household"
  },
  {
   "w": "deteriorate",
@@ -12804,6 +18453,32 @@ export const VOCAB = [
    "acts of deviance"
   ],
   "theme": "society"
+ },
+ {
+  "w": "deviate",
+  "pos": "verb",
+  "def": "to move away from an expected course, standard, or norm",
+  "defId": "menyimpang dari jalur, standar, atau norma yang diharapkan",
+  "ex": "His conclusions deviate significantly from established research.",
+  "exId": "Kesimpulannya menyimpang secara signifikan dari penelitian yang sudah mapan.",
+  "colloc": [
+   "deviate from",
+   "deviate significantly"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "deviation",
+  "pos": "noun",
+  "def": "the amount by which a value differs from a standard or expected value",
+  "defId": "deviasi; simpangan",
+  "ex": "A small deviation from the average may still affect the overall trend.",
+  "exId": "Deviasi kecil dari rata-rata masih dapat memengaruhi tren secara keseluruhan.",
+  "colloc": [
+   "standard deviation",
+   "slight deviation"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "device",
@@ -12999,6 +18674,19 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "dictate",
+  "pos": "verb",
+  "def": "to control or strongly influence how something happens",
+  "defId": "menentukan; mendikte",
+  "ex": "Market forces increasingly dictate what universities choose to teach.",
+  "exId": "Kekuatan pasar semakin menentukan apa yang dipilih universitas untuk diajarkan.",
+  "colloc": [
+   "dictate terms",
+   "dictate the outcome"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "dictatorship",
   "pos": "noun",
   "def": "a country governed by one leader or small group with total power and no free elections",
@@ -13024,6 +18712,19 @@ export const VOCAB = [
    "poor diction"
   ],
   "theme": "language"
+ },
+ {
+  "w": "didactic",
+  "pos": "adjective",
+  "def": "intended to teach, especially in a way that gives moral instruction",
+  "defId": "bertujuan mengajar, terutama dengan cara yang memberi pengajaran moral",
+  "ex": "The novel is openly didactic, teaching readers a lesson on almost every page.",
+  "exId": "Novel itu terang-terangan bersifat didaktis, mengajarkan pelajaran kepada pembaca di hampir setiap halaman.",
+  "colloc": [
+   "a didactic approach",
+   "a didactic tone"
+  ],
+  "theme": "education"
  },
  {
   "w": "diesel",
@@ -13052,6 +18753,32 @@ export const VOCAB = [
    "vegetarian diet"
   ],
   "theme": "food"
+ },
+ {
+  "w": "differ",
+  "pos": "verb",
+  "def": "to be unlike or dissimilar to something else",
+  "defId": "berbeda dengan sesuatu yang lain",
+  "ex": "Opinions differ widely on whether homework benefits young children.",
+  "exId": "Pendapat sangat berbeda mengenai apakah pekerjaan rumah bermanfaat bagi anak kecil.",
+  "colloc": [
+   "differ widely",
+   "differ from"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "difference",
+  "pos": "noun",
+  "def": "a way in which two or more things are not the same",
+  "defId": "segi di mana dua hal atau lebih tidak sama; perbedaan",
+  "ex": "The main difference between the two plans lies in their overall cost.",
+  "exId": "Perbedaan utama antara kedua rencana itu terletak pada biaya keseluruhannya.",
+  "colloc": [
+   "key difference",
+   "marked difference"
+  ],
+  "theme": "academic"
  },
  {
   "w": "differentiate",
@@ -13093,6 +18820,19 @@ export const VOCAB = [
    "poor digestion"
   ],
   "theme": "health"
+ },
+ {
+  "w": "digit",
+  "pos": "noun",
+  "def": "any of the single numbers from 0 to 9",
+  "defId": "digit; angka satuan",
+  "ex": "Growth reached double digits, climbing to eleven per cent that year.",
+  "exId": "Pertumbuhan mencapai dua digit, naik menjadi sebelas persen pada tahun itu.",
+  "colloc": [
+   "double digits",
+   "single digit"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "digital",
@@ -13230,6 +18970,20 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "dilute",
+  "pos": "v",
+  "def": "to make a liquid weaker or thinner by adding water or another liquid",
+  "defId": "membuat cairan menjadi lebih encer dengan menambahkan air atau cairan lain",
+  "ex": "You must dilute the acid before using it in the experiment.",
+  "exId": "Kamu harus mengencerkan asam itu sebelum memakainya dalam eksperimen.",
+  "colloc": [
+   "dilute the solution",
+   "dilute with water",
+   "heavily diluted"
+  ],
+  "theme": "science"
+ },
+ {
   "w": "dimension",
   "pos": "noun",
   "def": "a particular aspect or feature of a situation",
@@ -13271,6 +19025,20 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "dimples",
+  "pos": "noun",
+  "def": "small natural hollows that appear in the cheeks or chin when smiling",
+  "defId": "lesung pipi",
+  "ex": "When she laughed, deep dimples appeared in both cheeks.",
+  "exId": "Saat dia tertawa, lesung pipi yang dalam muncul di kedua pipinya.",
+  "colloc": [
+   "deep dimples",
+   "have dimples",
+   "dimples appear"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "diplomacy",
   "pos": "noun",
   "def": "the activity of managing relations between countries through negotiation rather than force",
@@ -13283,6 +19051,19 @@ export const VOCAB = [
    "resort to diplomacy"
   ],
   "theme": "politics"
+ },
+ {
+  "w": "diplomat",
+  "pos": "noun",
+  "def": "an official who represents their country's interests in another country",
+  "defId": "diplomat",
+  "ex": "The diplomat was posted to the embassy in Tokyo.",
+  "exId": "Diplomat itu ditugaskan ke kedutaan besar di Tokyo.",
+  "colloc": [
+   "senior diplomat",
+   "career diplomat"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "diplomatic",
@@ -13352,6 +19133,34 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "disagree",
+  "pos": "verb",
+  "def": "to have or express a different opinion from someone else",
+  "defId": "tidak setuju atau berbeda pendapat",
+  "ex": "I strongly disagree with the view that young people today are lazier than before.",
+  "exId": "Saya sangat tidak setuju dengan pandangan bahwa anak muda kini lebih malas dari dulu.",
+  "colloc": [
+   "strongly disagree",
+   "disagree with",
+   "respectfully disagree"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "disapprove",
+  "pos": "verb",
+  "def": "to think that something is bad, wrong or unacceptable",
+  "defId": "tidak menyetujui atau menganggap sesuatu buruk",
+  "ex": "Many older people disapprove of the way teenagers spend hours on their phones.",
+  "exId": "Banyak orang tua tidak menyetujui cara remaja menghabiskan berjam-jam dengan ponsel.",
+  "colloc": [
+   "disapprove of",
+   "strongly disapprove",
+   "disapprove of the idea"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "disarmament",
   "pos": "noun",
   "def": "the reduction or elimination of a country's weapons and armed forces",
@@ -13364,6 +19173,19 @@ export const VOCAB = [
    "complete disarmament"
   ],
   "theme": "conflict"
+ },
+ {
+  "w": "disband",
+  "pos": "verb",
+  "def": "to stop existing as an organisation or group, or to cause this to happen",
+  "defId": "membubarkan; bubar",
+  "ex": "The committee agreed to disband once the investigation was complete.",
+  "exId": "Komite setuju untuk membubarkan diri setelah penyelidikan selesai.",
+  "colloc": [
+   "disband a group",
+   "disband the team"
+  ],
+  "theme": "academic"
  },
  {
   "w": "discerning",
@@ -13489,6 +19311,19 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "discriminate",
+  "pos": "verb",
+  "def": "to recognise or perceive a difference between two things",
+  "defId": "mengenali atau membedakan perbedaan antara dua hal",
+  "ex": "Young children may struggle to discriminate between very similar sounds.",
+  "exId": "Anak kecil mungkin kesulitan membedakan antara bunyi yang sangat mirip.",
+  "colloc": [
+   "discriminate between",
+   "discriminate carefully"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "discrimination",
   "pos": "noun",
   "def": "the unfair treatment of people because of their race, gender, age, or other differences",
@@ -13501,6 +19336,20 @@ export const VOCAB = [
    "face discrimination"
   ],
   "theme": "society"
+ },
+ {
+  "w": "disdain",
+  "pos": "noun",
+  "def": "a feeling that someone or something is unworthy of one's respect",
+  "defId": "sikap meremehkan; perasaan bahwa seseorang atau sesuatu tidak layak dihormati",
+  "ex": "He treated the tabloid press with open disdain.",
+  "exId": "Dia memperlakukan pers tabloid dengan sikap meremehkan yang terang-terangan.",
+  "colloc": [
+   "open disdain",
+   "disdain for",
+   "barely concealed disdain"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "disembark",
@@ -13529,6 +19378,19 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "disentangle",
+  "pos": "verb",
+  "def": "to separate things that are twisted together or difficult to distinguish",
+  "defId": "mengurai; memisahkan",
+  "ex": "It is hard to disentangle the economic causes from the political ones.",
+  "exId": "Sulit untuk memisahkan penyebab ekonomi dari penyebab politik.",
+  "colloc": [
+   "disentangle the facts",
+   "disentangle the causes"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "disheartened",
   "pos": "adjective",
   "def": "having lost confidence or determination; discouraged",
@@ -13540,6 +19402,47 @@ export const VOCAB = [
    "disheartened by"
   ],
   "theme": "emotion"
+ },
+ {
+  "w": "dishevelled",
+  "pos": "adjective",
+  "def": "having untidy hair, clothes or general appearance",
+  "defId": "acak-acakan dan berantakan",
+  "ex": "He arrived dishevelled and out of breath, having overslept.",
+  "exId": "Dia datang dengan penampilan acak-acakan dan terengah-engah karena kesiangan.",
+  "colloc": [
+   "dishevelled hair",
+   "dishevelled appearance",
+   "look dishevelled"
+  ],
+  "theme": "describe_people"
+ },
+ {
+  "w": "dishwasher",
+  "pos": "noun",
+  "def": "a machine that automatically washes dishes, glasses, and cutlery",
+  "defId": "mesin pencuci piring",
+  "ex": "Stack your plate in the dishwasher when you've finished eating.",
+  "exId": "Taruh piringmu di mesin pencuci piring kalau sudah selesai makan.",
+  "colloc": [
+   "load the dishwasher",
+   "stack the dishwasher",
+   "a dishwasher tablet"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "disincentivise",
+  "pos": "verb",
+  "def": "to make someone less willing to do something by removing a reward or reason",
+  "defId": "mengurangi insentif; membuat enggan",
+  "ex": "High taxes on savings may disincentivise people from putting money aside.",
+  "exId": "Pajak tinggi atas tabungan dapat membuat orang enggan menyisihkan uang.",
+  "colloc": [
+   "disincentivise investment",
+   "disincentivise effort"
+  ],
+  "theme": "academic"
  },
  {
   "w": "disinformation",
@@ -13597,6 +19500,32 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "disparage",
+  "pos": "verb",
+  "def": "to speak about someone or something in a way that shows you think they have little value",
+  "defId": "merendahkan; meremehkan",
+  "ex": "It is unfair to disparage traditional methods simply because they are old.",
+  "exId": "Tidak adil merendahkan metode tradisional hanya karena metode itu tua.",
+  "colloc": [
+   "disparage a rival",
+   "disparage the effort"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "disparate",
+  "pos": "adjective",
+  "def": "very different in kind and not easily compared",
+  "defId": "sangat berbeda jenis dan tidak mudah dibandingkan",
+  "ex": "The committee had to reconcile the disparate interests of many groups.",
+  "exId": "Komite itu harus mendamaikan kepentingan yang sangat berbeda dari banyak kelompok.",
+  "colloc": [
+   "disparate groups",
+   "wildly disparate"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "disparity",
   "pos": "noun",
   "def": "a great difference, especially one that is unfair",
@@ -13623,6 +19552,58 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "dispel",
+  "pos": "verb",
+  "def": "to make a feeling, belief, or false idea disappear",
+  "defId": "menghalau; menghilangkan",
+  "ex": "The spokesperson tried to dispel rumours about the company's finances.",
+  "exId": "Juru bicara berusaha menghilangkan rumor tentang keuangan perusahaan.",
+  "colloc": [
+   "dispel a myth",
+   "dispel doubts"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "dispense",
+  "pos": "verb",
+  "def": "to give out or provide something, especially in measured amounts",
+  "defId": "membagikan; menyalurkan",
+  "ex": "The charity dispenses food and medicine to families in remote areas.",
+  "exId": "Lembaga amal itu menyalurkan makanan dan obat kepada keluarga di daerah terpencil.",
+  "colloc": [
+   "dispense advice",
+   "dispense medication"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "disperse",
+  "pos": "verb",
+  "def": "to spread over a wide area, or to make people or things do so",
+  "defId": "menyebar; membubarkan",
+  "ex": "Police moved in to disperse the crowd after the demonstration.",
+  "exId": "Polisi bergerak untuk membubarkan kerumunan setelah demonstrasi.",
+  "colloc": [
+   "disperse a crowd",
+   "widely dispersed"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "displace",
+  "pos": "verb",
+  "def": "to force something or someone out of its usual place or position",
+  "defId": "menggeser; menggusur",
+  "ex": "New technologies often displace workers in traditional industries.",
+  "exId": "Teknologi baru sering menggeser pekerja di industri tradisional.",
+  "colloc": [
+   "displace workers",
+   "displaced people"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "displacement",
   "pos": "noun",
   "def": "the forced movement of people away from their homes",
@@ -13634,6 +19615,20 @@ export const VOCAB = [
    "forced displacement"
   ],
   "theme": "globalisation"
+ },
+ {
+  "w": "disposable",
+  "pos": "adjective",
+  "def": "designed to be thrown away after being used once or only a few times.",
+  "defId": "dirancang untuk dibuang setelah digunakan sekali atau beberapa kali saja.",
+  "ex": "Campaigners are urging cafés to stop handing out disposable coffee cups.",
+  "exId": "Para aktivis mendesak kafe untuk berhenti membagikan gelas kopi sekali pakai.",
+  "colloc": [
+   "disposable cups",
+   "disposable plastics",
+   "disposable products"
+  ],
+  "theme": "environment"
  },
  {
   "w": "disposable income",
@@ -13691,6 +19686,19 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "disprove",
+  "pos": "verb",
+  "def": "to show that something is not true or correct",
+  "defId": "membantah; membuktikan salah",
+  "ex": "A single counterexample is enough to disprove the theory.",
+  "exId": "Satu contoh penyangkal saja cukup untuk membuktikan teori itu salah.",
+  "colloc": [
+   "disprove a claim",
+   "disprove the hypothesis"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "dispute",
   "pos": "verb",
   "def": "to argue that something is not true, valid, or correct",
@@ -13716,6 +19724,33 @@ export const VOCAB = [
    "be disqualified"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "disquiet",
+  "pos": "noun",
+  "def": "a feeling of worry or uneasiness, often shared by many people",
+  "defId": "keresahan; perasaan khawatir atau tidak tenang, sering dirasakan banyak orang",
+  "ex": "The report caused considerable disquiet among parents.",
+  "exId": "Laporan itu menimbulkan keresahan yang cukup besar di kalangan orang tua.",
+  "colloc": [
+   "public disquiet",
+   "cause disquiet",
+   "growing disquiet"
+  ],
+  "theme": "psychology"
+ },
+ {
+  "w": "disregard",
+  "pos": "verb",
+  "def": "to ignore something or treat it as unimportant",
+  "defId": "mengabaikan",
+  "ex": "The report warns that we cannot disregard the long-term effects of pollution.",
+  "exId": "Laporan itu memperingatkan bahwa kita tidak dapat mengabaikan dampak jangka panjang polusi.",
+  "colloc": [
+   "disregard the warning",
+   "disregard the rules"
+  ],
+  "theme": "academic"
  },
  {
   "w": "disrupt",
@@ -13800,6 +19835,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "dissident",
+  "pos": "noun",
+  "def": "a person who publicly opposes the policies of the government or an established authority",
+  "defId": "pembangkang; orang yang secara terbuka menentang kebijakan pemerintah atau otoritas mapan",
+  "ex": "The exiled dissident continued to write critical essays about the regime.",
+  "exId": "Pembangkang yang diasingkan itu terus menulis esai kritis tentang rezim.",
+  "colloc": [
+   "political dissident",
+   "exiled dissident",
+   "dissident voices"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "dissolve",
   "pos": "verb",
   "def": "to mix into a liquid and become part of it, forming a solution",
@@ -13811,6 +19860,19 @@ export const VOCAB = [
    "dissolve completely"
   ],
   "theme": "science"
+ },
+ {
+  "w": "dissuade",
+  "pos": "verb",
+  "def": "to persuade someone not to do something",
+  "defId": "mencegah; membujuk agar tidak",
+  "ex": "Higher taxes may dissuade people from buying larger cars.",
+  "exId": "Pajak yang lebih tinggi dapat mencegah orang membeli mobil yang lebih besar.",
+  "colloc": [
+   "dissuade someone from",
+   "try to dissuade"
+  ],
+  "theme": "academic"
  },
  {
   "w": "distance learning",
@@ -13867,6 +19929,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "distinctive",
+  "pos": "adjective",
+  "def": "having a special quality that makes someone easy to recognise",
+  "defId": "khas dan mudah dikenali",
+  "ex": "His distinctive silver hair made him easy to spot in a crowd.",
+  "exId": "Rambut peraknya yang khas membuatnya mudah dikenali di keramaian.",
+  "colloc": [
+   "distinctive features",
+   "distinctive appearance",
+   "distinctive voice"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "distinguish",
   "pos": "verb",
   "def": "to recognise or show the difference between two or more things",
@@ -13895,6 +19971,20 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "distraction",
+  "pos": "noun",
+  "def": "something that takes your attention away from what you are trying to do",
+  "defId": "pengalih perhatian; sesuatu yang mengalihkan perhatian dari apa yang sedang dikerjakan",
+  "ex": "Smartphones are a constant distraction for students trying to revise.",
+  "exId": "Ponsel pintar menjadi pengalih perhatian yang terus-menerus bagi pelajar yang sedang berusaha mengulang pelajaran.",
+  "colloc": [
+   "a major distraction",
+   "avoid distractions",
+   "welcome distraction"
+  ],
+  "theme": "psychology"
+ },
+ {
   "w": "distress",
   "pos": "noun",
   "def": "extreme anxiety, sorrow, or pain",
@@ -13906,6 +19996,19 @@ export const VOCAB = [
    "in distress"
   ],
   "theme": "emotion"
+ },
+ {
+  "w": "distribution",
+  "pos": "noun",
+  "def": "the way in which something is shared out or spread across a group or area",
+  "defId": "distribusi; persebaran",
+  "ex": "The map illustrates the uneven distribution of wealth across the country.",
+  "exId": "Peta itu menggambarkan distribusi kekayaan yang tidak merata di seluruh negeri.",
+  "colloc": [
+   "uneven distribution",
+   "age distribution"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "distributor",
@@ -13920,6 +20023,59 @@ export const VOCAB = [
    "appoint a distributor"
   ],
   "theme": "business"
+ },
+ {
+  "w": "district",
+  "pos": "n",
+  "def": "An area of a city or town, often with a particular character or official function.",
+  "defId": "Wilayah atau kawasan tertentu di dalam kota, sering kali dengan ciri khas atau fungsi resmi.",
+  "ex": "The financial district empties out completely once the offices close for the weekend.",
+  "exId": "Kawasan finansial itu benar-benar sepi begitu kantor-kantor tutup untuk akhir pekan.",
+  "colloc": [
+   "business district",
+   "historic district",
+   "shopping district"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "diverge",
+  "pos": "verb",
+  "def": "to become different or move apart from a common point",
+  "defId": "menjadi berbeda atau memisah dari titik yang sama",
+  "ex": "The two theories agree at first but diverge on how memory actually works.",
+  "exId": "Kedua teori itu sepakat pada awalnya tetapi berbeda tentang cara kerja memori sebenarnya.",
+  "colloc": [
+   "diverge from",
+   "opinions diverge"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "divergence",
+  "pos": "noun",
+  "def": "the process of becoming different or moving apart",
+  "defId": "divergensi; perbedaan atau penyimpangan",
+  "ex": "There is a growing divergence between rich and poor regions.",
+  "exId": "Terdapat divergensi yang kian melebar antara wilayah kaya dan miskin.",
+  "colloc": [
+   "a wide divergence",
+   "divergence between"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "divergent",
+  "pos": "adjective",
+  "def": "tending to be different or to develop in different directions",
+  "defId": "cenderung berbeda atau berkembang ke arah yang berlainan",
+  "ex": "The two studies produced sharply divergent findings.",
+  "exId": "Kedua studi itu menghasilkan temuan yang sangat berbeda.",
+  "colloc": [
+   "divergent views",
+   "sharply divergent"
+  ],
+  "theme": "academic"
  },
  {
   "w": "diversification",
@@ -13976,6 +20132,20 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "divestment",
+  "pos": "noun",
+  "def": "the act of selling off part of a business or its assets",
+  "defId": "tindakan menjual sebagian bisnis atau asetnya",
+  "ex": "The group announced the divestment of its loss-making retail division to focus on logistics.",
+  "exId": "Grup itu mengumumkan pelepasan divisi ritelnya yang merugi untuk fokus pada logistik.",
+  "colloc": [
+   "divestment of assets",
+   "announce a divestment",
+   "divestment strategy"
+  ],
+  "theme": "business"
+ },
+ {
   "w": "dividend",
   "pos": "noun",
   "def": "a part of a company's profit that is paid to the people who own shares in it",
@@ -14013,6 +20183,20 @@ export const VOCAB = [
   "colloc": [
    "sudden dizziness",
    "cause dizziness"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "dizzy",
+  "pos": "adjective",
+  "def": "having a whirling sensation and a tendency to fall or lose balance",
+  "defId": "merasa pusing berputar dan cenderung kehilangan keseimbangan",
+  "ex": "She felt dizzy and had to sit down before she fainted.",
+  "exId": "Ia merasa pusing dan harus duduk sebelum pingsan.",
+  "colloc": [
+   "feel dizzy",
+   "a dizzy spell",
+   "dizzy and light-headed"
   ],
   "theme": "health"
  },
@@ -14155,6 +20339,33 @@ export const VOCAB = [
   "theme": "wildlife"
  },
  {
+  "w": "dominate",
+  "pos": "verb",
+  "def": "to have a controlling or very strong position over something or someone",
+  "defId": "mendominasi; menguasai",
+  "ex": "A handful of firms now dominate the global technology market.",
+  "exId": "Segelintir perusahaan kini mendominasi pasar teknologi global.",
+  "colloc": [
+   "dominate the market",
+   "dominate the debate"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "domino effect",
+  "pos": "noun",
+  "def": "a situation in which one event causes a series of similar events, one after another",
+  "defId": "efek domino",
+  "ex": "The closure of one bank triggered a domino effect throughout the industry.",
+  "exId": "Penutupan satu bank memicu efek domino di seluruh industri.",
+  "colloc": [
+   "a domino effect",
+   "trigger a domino effect",
+   "create a domino effect"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "doomscrolling",
   "pos": "noun",
   "def": "the habit of continuously reading negative news online even though it makes you feel worse",
@@ -14166,6 +20377,19 @@ export const VOCAB = [
    "stop doomscrolling"
   ],
   "theme": "internet"
+ },
+ {
+  "w": "doormat",
+  "pos": "noun",
+  "def": "a mat placed at a doorway for people to wipe their shoes on",
+  "defId": "keset",
+  "ex": "Wipe your feet on the doormat before you come inside.",
+  "exId": "Bersihkan sepatumu di keset sebelum masuk ke dalam.",
+  "colloc": [
+   "wipe your feet on the doormat",
+   "a welcome doormat"
+  ],
+  "theme": "household"
  },
  {
   "w": "dopamine",
@@ -14222,6 +20446,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "dose",
+  "pos": "noun",
+  "def": "a measured amount of medicine to be taken at one time",
+  "defId": "takaran obat yang diminum dalam satu kali pemakaian",
+  "ex": "Make sure you take the correct dose of antibiotics three times a day.",
+  "exId": "Pastikan Anda meminum dosis antibiotik yang tepat tiga kali sehari.",
+  "colloc": [
+   "a daily dose",
+   "take a dose",
+   "the correct dose"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "doting",
   "pos": "adjective",
   "def": "showing excessive fondness and love for someone",
@@ -14233,6 +20471,20 @@ export const VOCAB = [
    "a doting grandmother"
   ],
   "theme": "family"
+ },
+ {
+  "w": "doubt",
+  "pos": "verb",
+  "def": "to feel uncertain about or to consider something unlikely to be true",
+  "defId": "meragukan atau tidak yakin akan kebenaran sesuatu",
+  "ex": "I doubt that stricter rules alone will solve the problem of pollution.",
+  "exId": "Saya ragu aturan yang lebih ketat saja akan menyelesaikan masalah polusi.",
+  "colloc": [
+   "seriously doubt",
+   "doubt whether",
+   "have no doubt"
+  ],
+  "theme": "opinions"
  },
  {
   "w": "down-to-earth",
@@ -14344,6 +20596,32 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "dozen",
+  "pos": "noun",
+  "def": "a group or set of twelve",
+  "defId": "lusin; dua belas",
+  "ex": "The survey covered several dozen households in each district.",
+  "exId": "Survei itu mencakup beberapa lusin rumah tangga di setiap distrik.",
+  "colloc": [
+   "half a dozen",
+   "dozens of"
+  ],
+  "theme": "numbers"
+ },
+ {
+  "w": "drainage",
+  "pos": "n",
+  "def": "The system of pipes and channels that carry away excess water or waste.",
+  "defId": "Sistem pipa dan saluran yang membuang kelebihan air atau limbah.",
+  "ex": "Poor drainage means that this part of the city floods after every heavy downpour.",
+  "exId": "Drainase yang buruk membuat bagian kota ini banjir setiap kali hujan deras.",
+  "colloc": [
+   "drainage system",
+   "poor drainage"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "drastic",
   "pos": "adjective",
   "def": "extreme in effect and often sudden or severe",
@@ -14372,6 +20650,34 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "drawer",
+  "pos": "noun",
+  "def": "a box-shaped container that slides in and out of a piece of furniture and is used for storage",
+  "defId": "laci",
+  "ex": "He kept his socks in the top drawer of the dresser.",
+  "exId": "Dia menyimpan kaus kakinya di laci paling atas lemari.",
+  "colloc": [
+   "top drawer",
+   "open a drawer",
+   "a chest of drawers"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "drawl",
+  "pos": "verb",
+  "def": "to speak slowly, lengthening the vowel sounds",
+  "defId": "berbicara pelan sambil memanjangkan bunyi vokal",
+  "ex": "He tends to drawl his vowels, which makes his accent instantly recognisable.",
+  "exId": "Dia cenderung memanjangkan bunyi vokalnya, yang membuat aksennya langsung dikenali.",
+  "colloc": [
+   "drawl the words",
+   "a slow drawl",
+   "drawl lazily"
+  ],
+  "theme": "language"
+ },
+ {
   "w": "dread",
   "pos": "noun",
   "def": "a strong feeling of fear about something that may happen",
@@ -14383,6 +20689,20 @@ export const VOCAB = [
    "fill with dread"
   ],
   "theme": "emotion"
+ },
+ {
+  "w": "dreary",
+  "pos": "adjective",
+  "def": "dull, gloomy and depressing",
+  "defId": "suram dan membosankan",
+  "ex": "Row after row of dreary grey tower blocks stretched into the distance.",
+  "exId": "Barisan demi barisan blok menara kelabu yang suram membentang hingga kejauhan.",
+  "colloc": [
+   "a dreary town",
+   "dreary weather",
+   "a dreary suburb"
+  ],
+  "theme": "describe_places"
  },
  {
   "w": "dress code",
@@ -14423,6 +20743,19 @@ export const VOCAB = [
    "drift apart over time"
   ],
   "theme": "relationships"
+ },
+ {
+  "w": "drill",
+  "pos": "noun",
+  "def": "a tool or machine used for boring holes in wood, metal or walls",
+  "defId": "bor",
+  "ex": "He borrowed an electric drill to put up the shelves.",
+  "exId": "Dia meminjam bor listrik untuk memasang rak.",
+  "colloc": [
+   "cordless drill",
+   "drill bit"
+  ],
+  "theme": "tools"
  },
  {
   "w": "drilling",
@@ -14535,6 +20868,20 @@ export const VOCAB = [
   "theme": "weather"
  },
  {
+  "w": "drowsy",
+  "pos": "adjective",
+  "def": "sleepy and lacking energy, often as a side effect of medicine",
+  "defId": "mengantuk dan kurang bertenaga, sering sebagai efek samping obat",
+  "ex": "This medication can make you drowsy, so avoid driving after taking it.",
+  "exId": "Obat ini bisa membuat Anda mengantuk, jadi hindari mengemudi setelah meminumnya.",
+  "colloc": [
+   "feel drowsy",
+   "a drowsy side effect",
+   "drowsy after lunch"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "dual carriageway",
   "pos": "noun",
   "def": "A road with two lanes in each direction separated by a central barrier or strip.",
@@ -14549,6 +20896,19 @@ export const VOCAB = [
   "theme": "uk_transport"
  },
  {
+  "w": "dualism",
+  "pos": "noun",
+  "def": "the division of something into two contrasted or opposed parts",
+  "defId": "dualisme; pembagian dua",
+  "ex": "The mind-body dualism has long been debated by philosophers.",
+  "exId": "Dualisme antara pikiran dan tubuh telah lama diperdebatkan para filsuf.",
+  "colloc": [
+   "mind-body dualism",
+   "a strict dualism"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "dubbing",
   "pos": "noun",
   "def": "replacing the original speech in a film with another language",
@@ -14561,6 +20921,20 @@ export const VOCAB = [
    "dubbing studio"
   ],
   "theme": "film"
+ },
+ {
+  "w": "dubious",
+  "pos": "adjective",
+  "def": "not to be relied on; of doubtful quality or truth",
+  "defId": "meragukan; dipertanyakan",
+  "ex": "The claim rests on dubious statistical assumptions.",
+  "exId": "Klaim itu bertumpu pada asumsi statistik yang meragukan.",
+  "colloc": [
+   "dubious claim",
+   "highly dubious",
+   "dubious value"
+  ],
+  "theme": "academic"
  },
  {
   "w": "duck",
@@ -14590,6 +20964,34 @@ export const VOCAB = [
   "theme": "business"
  },
  {
+  "w": "dull",
+  "pos": "adjective",
+  "def": "lacking brightness, shine or vividness",
+  "defId": "kusam; suram (kurang cerah atau berkilau)",
+  "ex": "The old paint had turned a dull grey after years in the sun.",
+  "exId": "Cat lama itu berubah menjadi abu-abu kusam setelah bertahun-tahun terkena matahari.",
+  "colloc": [
+   "dull colour",
+   "dull finish",
+   "dull grey"
+  ],
+  "theme": "colours"
+ },
+ {
+  "w": "dumping",
+  "pos": "noun",
+  "def": "the act of getting rid of waste carelessly or illegally in an unauthorised place.",
+  "defId": "tindakan membuang limbah secara sembarangan atau ilegal di tempat yang tidak semestinya.",
+  "ex": "Illegal dumping of chemical waste has poisoned the local river.",
+  "exId": "Pembuangan limbah kimia secara ilegal telah meracuni sungai setempat.",
+  "colloc": [
+   "illegal dumping",
+   "waste dumping",
+   "dumping ground"
+  ],
+  "theme": "environment"
+ },
+ {
   "w": "dune",
   "pos": "noun",
   "def": "a hill or ridge of sand shaped by the wind",
@@ -14601,6 +21003,32 @@ export const VOCAB = [
    "shifting dune"
   ],
   "theme": "nature"
+ },
+ {
+  "w": "duration",
+  "pos": "noun",
+  "def": "the length of time that something continues or lasts",
+  "defId": "durasi; lama waktu berlangsungnya sesuatu",
+  "ex": "The duration of the course is roughly six months.",
+  "exId": "Durasi kursus itu kira-kira enam bulan.",
+  "colloc": [
+   "for the duration",
+   "long duration"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "dust",
+  "pos": "verb",
+  "def": "to remove dust from surfaces by wiping them with a cloth",
+  "defId": "membersihkan debu dengan mengelap",
+  "ex": "I need to dust the shelves before the guests arrive.",
+  "exId": "Aku perlu membersihkan debu di rak-rak sebelum para tamu datang.",
+  "colloc": [
+   "dust the shelves",
+   "dust the furniture"
+  ],
+  "theme": "household"
  },
  {
   "w": "duty",
@@ -14628,6 +21056,19 @@ export const VOCAB = [
    "duty-free allowance"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "duvet",
+  "pos": "noun",
+  "def": "a soft, thick quilt filled with feathers or synthetic fibres, used instead of a top sheet and blankets",
+  "defId": "selimut tebal (duvet)",
+  "ex": "On cold nights she pulled the duvet right up to her chin.",
+  "exId": "Di malam yang dingin dia menarik selimut tebal itu hingga ke dagu.",
+  "colloc": [
+   "a duvet cover",
+   "pull up the duvet"
+  ],
+  "theme": "household"
  },
  {
   "w": "dwell",
@@ -14807,6 +21248,19 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "easier said than done",
+  "pos": "idiom",
+  "def": "much harder to do than to talk about",
+  "defId": "lebih mudah diucapkan daripada dilakukan",
+  "ex": "Saving money every month sounds simple, but it's easier said than done.",
+  "exId": "Menabung setiap bulan terdengar sederhana, tapi lebih mudah diucapkan daripada dilakukan.",
+  "colloc": [
+   "hard in practice",
+   "'it's easier said than done'"
+  ],
+  "theme": "idioms"
+ },
+ {
   "w": "easy-going",
   "pos": "adjective",
   "def": "relaxed and tolerant, not easily worried or upset",
@@ -14818,6 +21272,20 @@ export const VOCAB = [
    "easy-going manner"
   ],
   "theme": "personality"
+ },
+ {
+  "w": "echo",
+  "pos": "noun",
+  "def": "a sound that is reflected back and heard again",
+  "defId": "gema; suara yang memantul dan terdengar kembali",
+  "ex": "Our footsteps produced a hollow echo in the empty hall.",
+  "exId": "Langkah kaki kami menghasilkan gema kosong di aula yang kosong itu.",
+  "colloc": [
+   "hear an echo",
+   "faint echo",
+   "echo of footsteps"
+  ],
+  "theme": "senses"
  },
  {
   "w": "echo chamber",
@@ -14845,6 +21313,20 @@ export const VOCAB = [
    "witness an eclipse"
   ],
   "theme": "space"
+ },
+ {
+  "w": "eco-conscious",
+  "pos": "adjective",
+  "def": "aware of and concerned about the impact of one's actions on the environment.",
+  "defId": "sadar dan peduli terhadap dampak tindakan seseorang pada lingkungan.",
+  "ex": "Eco-conscious shoppers increasingly avoid products with excessive packaging.",
+  "exId": "Konsumen yang peduli lingkungan semakin menghindari produk dengan kemasan berlebihan.",
+  "colloc": [
+   "eco-conscious consumer",
+   "eco-conscious lifestyle",
+   "eco-conscious choices"
+  ],
+  "theme": "environment"
  },
  {
   "w": "eco-friendly",
@@ -14886,6 +21368,20 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "economic migrant",
+  "pos": "noun",
+  "def": "a person who moves to another country mainly to find better work or income",
+  "defId": "orang yang pindah ke negara lain terutama untuk mencari pekerjaan atau pendapatan yang lebih baik",
+  "ex": "Many economic migrants send a large share of their earnings home each month.",
+  "exId": "Banyak migran ekonomi mengirimkan sebagian besar penghasilannya ke kampung halaman setiap bulan.",
+  "colloc": [
+   "economic migrant",
+   "influx of economic migrants",
+   "economic migrants and refugees"
+  ],
+  "theme": "globalisation"
+ },
+ {
   "w": "economies of scale",
   "pos": "noun",
   "def": "the cost savings a firm gains by producing goods in larger quantities",
@@ -14897,6 +21393,19 @@ export const VOCAB = [
    "benefit from economies of scale"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "economist",
+  "pos": "noun",
+  "def": "a person who studies or is an expert in economics",
+  "defId": "ekonom",
+  "ex": "The economist predicted that inflation would fall next year.",
+  "exId": "Ekonom itu memprediksi bahwa inflasi akan turun tahun depan.",
+  "colloc": [
+   "leading economist",
+   "chief economist"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "ecosystem",
@@ -14954,6 +21463,19 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "edict",
+  "pos": "noun",
+  "def": "an official order or proclamation issued by a person in authority",
+  "defId": "maklumat; perintah atau pengumuman resmi yang dikeluarkan oleh penguasa",
+  "ex": "The ruler issued an edict forbidding public gatherings after dark.",
+  "exId": "Penguasa itu mengeluarkan maklumat yang melarang pertemuan umum setelah gelap.",
+  "colloc": [
+   "issue an edict",
+   "royal edict"
+  ],
+  "theme": "politics"
+ },
+ {
   "w": "editor",
   "pos": "noun",
   "def": "the person who decides what a publication prints and revises writers' work before publication",
@@ -14979,6 +21501,20 @@ export const VOCAB = [
    "editorial page"
   ],
   "theme": "media"
+ },
+ {
+  "w": "effect",
+  "pos": "noun",
+  "def": "a change that results from a particular cause or action",
+  "defId": "efek; akibat",
+  "ex": "Rising temperatures are already having a noticeable effect on crop yields.",
+  "exId": "Naiknya suhu sudah memberikan efek yang nyata terhadap hasil panen.",
+  "colloc": [
+   "have an effect on",
+   "a lasting effect",
+   "the desired effect"
+  ],
+  "theme": "academic"
  },
  {
   "w": "efficiency",
@@ -15075,6 +21611,33 @@ export const VOCAB = [
   "theme": "emotion"
  },
  {
+  "w": "elderly",
+  "pos": "adjective",
+  "def": "used politely to describe someone who is old",
+  "defId": "lanjut usia (sopan)",
+  "ex": "An elderly gentleman offered his seat to the pregnant woman.",
+  "exId": "Seorang pria lanjut usia menawarkan tempat duduknya kepada wanita hamil itu.",
+  "colloc": [
+   "elderly gentleman",
+   "elderly relative",
+   "frail and elderly"
+  ],
+  "theme": "describe_people"
+ },
+ {
+  "w": "elective",
+  "pos": "noun",
+  "def": "a subject or course that a student can choose to study but is not required to take",
+  "defId": "mata kuliah atau pelajaran pilihan yang boleh diambil siswa tetapi tidak diwajibkan",
+  "ex": "In her final year she took an elective in astronomy alongside her core subjects.",
+  "exId": "Pada tahun terakhirnya, dia mengambil mata kuliah pilihan astronomi di samping mata kuliah wajibnya.",
+  "colloc": [
+   "take an elective",
+   "an elective course"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "electorate",
   "pos": "noun",
   "def": "all the people who are entitled to vote in an election",
@@ -15102,6 +21665,19 @@ export const VOCAB = [
   "theme": "transport"
  },
  {
+  "w": "electrician",
+  "pos": "noun",
+  "def": "a person whose job is to install and repair electrical equipment",
+  "defId": "teknisi listrik",
+  "ex": "We hired an electrician to rewire the old house.",
+  "exId": "Kami menyewa seorang teknisi listrik untuk memasang ulang kabel rumah tua itu.",
+  "colloc": [
+   "qualified electrician",
+   "call an electrician"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "electron",
   "pos": "noun",
   "def": "a negatively charged particle that moves around the nucleus of an atom",
@@ -15114,6 +21690,20 @@ export const VOCAB = [
    "electron shell"
   ],
   "theme": "science"
+ },
+ {
+  "w": "elegant",
+  "pos": "adjective",
+  "def": "graceful and stylish in appearance or manner",
+  "defId": "anggun dan bergaya",
+  "ex": "She looked effortlessly elegant in a simple black dress.",
+  "exId": "Dia tampak anggun tanpa usaha dengan gaun hitam yang sederhana.",
+  "colloc": [
+   "elegant woman",
+   "elegant appearance",
+   "effortlessly elegant"
+  ],
+  "theme": "describe_people"
  },
  {
   "w": "element",
@@ -15130,6 +21720,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "elicit",
+  "pos": "verb",
+  "def": "to draw out a reaction, answer, or information from someone",
+  "defId": "memancing keluar; membangkitkan (tanggapan)",
+  "ex": "The teacher's question elicited a thoughtful response from the students.",
+  "exId": "Pertanyaan guru itu memancing tanggapan yang mendalam dari para siswa.",
+  "colloc": [
+   "elicit a response",
+   "elicit information",
+   "elicit a reaction"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "elite",
   "pos": "noun",
   "def": "A small group of people who hold the most power, wealth, or influence in society.",
@@ -15141,6 +21745,20 @@ export const VOCAB = [
    "political elite"
   ],
   "theme": "society"
+ },
+ {
+  "w": "elongated",
+  "pos": "adjective",
+  "def": "made longer than usual, or stretched into a long thin shape",
+  "defId": "memanjang; menjulur",
+  "ex": "The sculpture had an elongated form that seemed to reach upwards.",
+  "exId": "Patung itu berbentuk memanjang yang seolah menjulur ke atas.",
+  "colloc": [
+   "elongated shape",
+   "elongated form",
+   "slightly elongated"
+  ],
+  "theme": "colours"
  },
  {
   "w": "eloquent",
@@ -15185,6 +21803,19 @@ export const VOCAB = [
   "theme": "history"
  },
  {
+  "w": "embankment",
+  "pos": "n",
+  "def": "A raised wall of earth or stone that holds back water or carries a road or railway.",
+  "defId": "Tanggul dari tanah atau batu yang menahan air atau menopang jalan atau rel kereta.",
+  "ex": "Joggers followed the river embankment all the way to the bridge.",
+  "exId": "Para pelari mengikuti tanggul sungai sampai ke jembatan.",
+  "colloc": [
+   "river embankment",
+   "railway embankment"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "embargo",
   "pos": "noun",
   "def": "an official order that bans trade with a particular country",
@@ -15225,6 +21856,46 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "embodiment",
+  "pos": "noun",
+  "def": "a tangible or visible form of an idea, quality, or feeling",
+  "defId": "perwujudan; penjelmaan",
+  "ex": "The volunteer was the embodiment of selfless dedication.",
+  "exId": "Relawan itu adalah perwujudan dari pengabdian tanpa pamrih.",
+  "colloc": [
+   "the embodiment of",
+   "living embodiment"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "embody",
+  "pos": "verb",
+  "def": "to represent or express a quality or idea in a clear and visible form",
+  "defId": "mewujudkan; menjelmakan",
+  "ex": "The new constitution was meant to embody the values of the revolution.",
+  "exId": "Konstitusi baru itu dimaksudkan untuk mewujudkan nilai-nilai revolusi.",
+  "colloc": [
+   "embody an ideal",
+   "embody the spirit"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "embrace",
+  "pos": "verb",
+  "def": "to accept a new idea, opinion or change willingly and enthusiastically",
+  "defId": "menerima gagasan atau perubahan baru dengan antusias",
+  "ex": "Younger generations tend to embrace new technology more readily than older ones.",
+  "exId": "Generasi muda cenderung lebih siap merangkul teknologi baru dibanding generasi tua.",
+  "colloc": [
+   "embrace change",
+   "fully embrace",
+   "embrace new ideas"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "embroidery",
   "pos": "noun",
   "def": "decorative patterns sewn onto cloth with coloured thread",
@@ -15237,6 +21908,20 @@ export const VOCAB = [
    "hand embroidery"
   ],
   "theme": "fashion"
+ },
+ {
+  "w": "emerald",
+  "pos": "adjective",
+  "def": "a bright, rich green colour",
+  "defId": "hijau zamrud; hijau cerah pekat",
+  "ex": "The hills were covered in emerald green after the spring rains.",
+  "exId": "Bukit-bukit itu diselimuti hijau zamrud setelah hujan musim semi.",
+  "colloc": [
+   "emerald green",
+   "deep emerald",
+   "emerald waters"
+  ],
+  "theme": "colours"
  },
  {
   "w": "emerging economy",
@@ -15375,6 +22060,19 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "empiricism",
+  "pos": "noun",
+  "def": "the theory that knowledge comes mainly from observation and experience",
+  "defId": "empirisme; paham berdasar pengalaman",
+  "ex": "Modern science is grounded in empiricism rather than speculation.",
+  "exId": "Ilmu pengetahuan modern berlandaskan empirisme, bukan spekulasi.",
+  "colloc": [
+   "scientific empiricism",
+   "rooted in empiricism"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "empower",
   "pos": "verb",
   "def": "to give someone the confidence, power or means to control their own life",
@@ -15425,6 +22123,33 @@ export const VOCAB = [
    "recently enacted"
   ],
   "theme": "politics"
+ },
+ {
+  "w": "encapsulate",
+  "pos": "verb",
+  "def": "to express or show the most important facts about something in a very short form",
+  "defId": "merangkum; menyarikan",
+  "ex": "The slogan neatly encapsulates the aims of the whole campaign.",
+  "exId": "Slogan itu dengan rapi merangkum tujuan seluruh kampanye.",
+  "colloc": [
+   "encapsulate an idea",
+   "neatly encapsulate"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "enclave",
+  "pos": "noun",
+  "def": "a distinct area whose inhabitants differ culturally or socially from those around them",
+  "defId": "enklaf; kawasan tersendiri yang penghuninya berbeda budaya atau sosial dari sekitarnya",
+  "ex": "The district became an enclave for artists priced out of the city centre.",
+  "exId": "Distrik itu menjadi enklaf bagi para seniman yang tersingkir dari pusat kota karena harga.",
+  "colloc": [
+   "ethnic enclave",
+   "a wealthy enclave",
+   "cultural enclave"
+  ],
+  "theme": "society"
  },
  {
   "w": "encompass",
@@ -15482,6 +22207,20 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "endorse",
+  "pos": "verb",
+  "def": "to publicly express support for or approval of something or someone",
+  "defId": "mendukung atau menyetujui sesuatu secara terbuka",
+  "ex": "Most experts endorse the idea that reading widely improves your vocabulary.",
+  "exId": "Sebagian besar pakar mendukung gagasan bahwa banyak membaca meningkatkan kosakata.",
+  "colloc": [
+   "publicly endorse",
+   "endorse a proposal",
+   "endorse a candidate"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "endorsement",
   "pos": "noun",
   "def": "a public statement of support for a person or product",
@@ -15496,6 +22235,19 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "endowment",
+  "pos": "noun",
+  "def": "a large sum of money given to a school or university to provide it with an income",
+  "defId": "sejumlah besar dana yang diberikan kepada sekolah atau universitas sebagai sumber pendapatan tetap",
+  "ex": "The university's endowment funds dozens of scholarships every year.",
+  "exId": "Dana abadi universitas itu membiayai puluhan beasiswa setiap tahun.",
+  "colloc": [
+   "university endowment",
+   "endowment fund"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "endurance",
   "pos": "noun",
   "def": "the ability to keep doing something difficult or tiring for a long time",
@@ -15508,6 +22260,19 @@ export const VOCAB = [
    "endurance test"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "enduring",
+  "pos": "adjective",
+  "def": "continuing to exist or last for a long time",
+  "defId": "yang bertahan lama; abadi; awet",
+  "ex": "The novel's enduring popularity has lasted for over a century.",
+  "exId": "Popularitas novel itu yang bertahan lama telah berlangsung lebih dari satu abad.",
+  "colloc": [
+   "enduring legacy",
+   "enduring popularity"
+  ],
+  "theme": "academic"
  },
  {
   "w": "enemy",
@@ -15552,6 +22317,19 @@ export const VOCAB = [
   "theme": "law"
  },
  {
+  "w": "enforceable",
+  "pos": "adjective",
+  "def": "able to be made effective or obeyed by law",
+  "defId": "dapat ditegakkan atau dipaksakan menurut hukum",
+  "ex": "A purely verbal promise is rarely enforceable in a court of law.",
+  "exId": "Janji yang hanya bersifat lisan jarang dapat ditegakkan di pengadilan.",
+  "colloc": [
+   "legally enforceable",
+   "enforceable contract"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "engagement",
   "pos": "noun",
   "def": "a formal agreement to marry someone",
@@ -15564,6 +22342,33 @@ export const VOCAB = [
    "an engagement ring"
   ],
   "theme": "relationships"
+ },
+ {
+  "w": "engender",
+  "pos": "verb",
+  "def": "to cause a feeling, situation, or condition to exist",
+  "defId": "menimbulkan; membangkitkan",
+  "ex": "A fair reward system can engender loyalty among employees.",
+  "exId": "Sistem penghargaan yang adil dapat menimbulkan loyalitas di antara karyawan.",
+  "colloc": [
+   "engender trust",
+   "engender loyalty",
+   "engender support"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "engineer",
+  "pos": "noun",
+  "def": "a person who designs, builds, or maintains machines, structures, or systems",
+  "defId": "insinyur",
+  "ex": "The engineer inspected the bridge for signs of stress.",
+  "exId": "Insinyur itu memeriksa jembatan untuk mencari tanda-tanda tekanan.",
+  "colloc": [
+   "civil engineer",
+   "software engineer"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "engraving",
@@ -15648,6 +22453,33 @@ export const VOCAB = [
   "theme": "fashion"
  },
  {
+  "w": "ensue",
+  "pos": "verb",
+  "def": "to happen after or as a result of another event",
+  "defId": "menyusul terjadi; terjadi sebagai akibat",
+  "ex": "When the power failed, complete chaos ensued.",
+  "exId": "Ketika listrik padam, kekacauan total pun terjadi menyusul.",
+  "colloc": [
+   "chaos ensued",
+   "a debate ensued",
+   "in the ensuing days"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "ensuing",
+  "pos": "adjective",
+  "def": "happening or coming afterwards, often as a result",
+  "defId": "yang menyusul kemudian; yang terjadi setelahnya",
+  "ex": "The policy was announced, and in the ensuing weeks demand rose sharply.",
+  "exId": "Kebijakan itu diumumkan, dan pada minggu-minggu berikutnya permintaan melonjak tajam.",
+  "colloc": [
+   "ensuing chaos",
+   "ensuing debate"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "entail",
   "pos": "verb",
   "def": "to involve something as a necessary or unavoidable part or consequence",
@@ -15689,6 +22521,19 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "entitled",
+  "pos": "adjective",
+  "def": "having the legal right to have or do something",
+  "defId": "berhak; memiliki hak atas sesuatu",
+  "ex": "Every worker is entitled to a minimum period of paid leave each year.",
+  "exId": "Setiap pekerja berhak atas masa cuti berbayar minimum setiap tahun.",
+  "colloc": [
+   "entitled to",
+   "legally entitled"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "entitlement",
   "pos": "noun",
   "def": "The right to have or receive something under the law or rules.",
@@ -15701,6 +22546,34 @@ export const VOCAB = [
    "holiday entitlement"
   ],
   "theme": "law"
+ },
+ {
+  "w": "entrée",
+  "pos": "noun",
+  "def": "the main dish of a meal, or in some traditions a dish served before the main course",
+  "defId": "hidangan utama dalam suatu jamuan, atau di sebagian tradisi hidangan sebelum menu utama",
+  "ex": "The restaurant's signature entrée is a slow-roasted lamb shank with rosemary.",
+  "exId": "Hidangan utama andalan restoran itu adalah kaki domba panggang perlahan dengan rosemary.",
+  "colloc": [
+   "a hearty entrée",
+   "the main entrée",
+   "order an entrée"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "entrenched",
+  "pos": "adjective",
+  "def": "firmly established and very difficult to change",
+  "defId": "mengakar; tertanam kuat dan sangat sulit diubah",
+  "ex": "Deeply entrenched attitudes about gender roles change slowly.",
+  "exId": "Sikap yang mengakar tentang peran gender berubah dengan lambat.",
+  "colloc": [
+   "deeply entrenched",
+   "entrenched inequality",
+   "become entrenched"
+  ],
+  "theme": "society"
  },
  {
   "w": "entrepreneur",
@@ -15767,6 +22640,33 @@ export const VOCAB = [
    "openly envious"
   ],
   "theme": "emotion"
+ },
+ {
+  "w": "environs",
+  "pos": "noun",
+  "def": "the surrounding area or district of a place",
+  "defId": "daerah atau kawasan di sekitar suatu tempat",
+  "ex": "The guide showed us the cathedral and its immediate environs.",
+  "exId": "Pemandu menunjukkan kepada kami katedral dan lingkungan sekitarnya.",
+  "colloc": [
+   "the environs of the city",
+   "surrounding environs",
+   "explore the environs"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "envoy",
+  "pos": "noun",
+  "def": "a person sent by a government to represent it in dealings with another state",
+  "defId": "utusan; orang yang dikirim pemerintah untuk mewakilinya dalam berhubungan dengan negara lain",
+  "ex": "A special envoy was dispatched to broker a ceasefire between the two nations.",
+  "exId": "Seorang utusan khusus dikirim untuk menengahi gencatan senjata antara kedua negara.",
+  "colloc": [
+   "special envoy",
+   "peace envoy"
+  ],
+  "theme": "politics"
  },
  {
   "w": "envy",
@@ -15836,6 +22736,32 @@ export const VOCAB = [
   "theme": "film"
  },
  {
+  "w": "epitome",
+  "pos": "noun",
+  "def": "a perfect example of a particular quality or type",
+  "defId": "contoh sempurna; lambang",
+  "ex": "The design is the epitome of simplicity and elegance.",
+  "exId": "Desain itu adalah contoh sempurna dari kesederhanaan dan keanggunan.",
+  "colloc": [
+   "the epitome of",
+   "regarded as the epitome"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "epitomise",
+  "pos": "verb",
+  "def": "to be a perfect example of a quality or type of thing",
+  "defId": "menjadi contoh sempurna; melambangkan",
+  "ex": "For many, this building epitomises the ambition of the modern city.",
+  "exId": "Bagi banyak orang, bangunan ini melambangkan ambisi kota modern.",
+  "colloc": [
+   "epitomise an era",
+   "perfectly epitomise"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "epoch",
   "pos": "noun",
   "def": "a particular period of time in history, especially one marked by notable events",
@@ -15861,6 +22787,33 @@ export const VOCAB = [
    "equality of opportunity"
   ],
   "theme": "philosophy"
+ },
+ {
+  "w": "equanimity",
+  "pos": "noun",
+  "def": "mental calmness and composure, especially in a difficult situation",
+  "defId": "ketenangan batin; kestabilan dan ketenangan pikiran, terutama dalam situasi sulit",
+  "ex": "He accepted the harsh criticism with surprising equanimity.",
+  "exId": "Dia menerima kritik pedas itu dengan ketenangan batin yang mengejutkan.",
+  "colloc": [
+   "with equanimity",
+   "maintain equanimity",
+   "restore equanimity"
+  ],
+  "theme": "psychology"
+ },
+ {
+  "w": "equate",
+  "pos": "verb",
+  "def": "to regard two things as equal or the same",
+  "defId": "menganggap dua hal sebagai setara atau sama",
+  "ex": "People often wrongly equate wealth with happiness.",
+  "exId": "Orang sering keliru menyamakan kekayaan dengan kebahagiaan.",
+  "colloc": [
+   "equate with",
+   "wrongly equate"
+  ],
+  "theme": "academic"
  },
  {
   "w": "equilibrium",
@@ -15904,6 +22857,33 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "equivalent",
+  "pos": "adjective",
+  "def": "equal in value, amount, function, or meaning",
+  "defId": "setara dalam nilai, jumlah, fungsi, atau makna",
+  "ex": "A diploma from that college is roughly equivalent to a university degree.",
+  "exId": "Diploma dari perguruan tinggi itu kurang lebih setara dengan gelar universitas.",
+  "colloc": [
+   "roughly equivalent",
+   "equivalent to"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "equivocal",
+  "pos": "adjective",
+  "def": "open to more than one interpretation; ambiguous",
+  "defId": "ambigu; mendua arti",
+  "ex": "The experiment produced equivocal results that satisfied neither side.",
+  "exId": "Eksperimen itu menghasilkan hasil yang ambigu dan tidak memuaskan kedua pihak.",
+  "colloc": [
+   "equivocal results",
+   "equivocal response",
+   "remain equivocal"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "era",
   "pos": "noun",
   "def": "a long and distinct period of history with a particular feature or character",
@@ -15916,6 +22896,20 @@ export const VOCAB = [
    "a bygone era"
   ],
   "theme": "history"
+ },
+ {
+  "w": "ergonomic",
+  "pos": "adjective",
+  "def": "designed to be comfortable and efficient for people to use, reducing physical strain",
+  "defId": "dirancang agar nyaman dan efisien digunakan sehingga mengurangi ketegangan fisik",
+  "ex": "An ergonomic keyboard can prevent wrist pain during long hours of typing.",
+  "exId": "Papan ketik ergonomis dapat mencegah nyeri pergelangan tangan saat mengetik berjam-jam.",
+  "colloc": [
+   "ergonomic design",
+   "ergonomic chair",
+   "ergonomic keyboard"
+  ],
+  "theme": "technology"
  },
  {
   "w": "erosion",
@@ -15946,6 +22940,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "escapade",
+  "pos": "noun",
+  "def": "an exciting or daring adventure, often a reckless one",
+  "defId": "petualangan yang seru atau nekat, sering kali ceroboh",
+  "ex": "The travellers still laugh about their late-night escapade in Bangkok.",
+  "exId": "Para pelancong itu masih menertawakan petualangan tengah malam mereka di Bangkok.",
+  "colloc": [
+   "a wild escapade",
+   "a daring escapade",
+   "childhood escapades"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "escarpment",
   "pos": "noun",
   "def": "a long, steep slope at the edge of a plateau or between areas of different height",
@@ -15971,6 +22979,19 @@ export const VOCAB = [
    "act of espionage"
   ],
   "theme": "conflict"
+ },
+ {
+  "w": "esplanade",
+  "pos": "n",
+  "def": "A long, open walkway, especially one beside the sea where people go for a walk.",
+  "defId": "Jalur terbuka yang panjang dan datar, terutama di tepi laut, tempat orang berjalan-jalan.",
+  "ex": "Tourists gathered on the esplanade to watch the fireworks over the bay.",
+  "exId": "Wisatawan berkumpul di esplanade untuk menonton kembang api di atas teluk.",
+  "colloc": [
+   "seaside esplanade",
+   "along the esplanade"
+  ],
+  "theme": "urban"
  },
  {
   "w": "espouse",
@@ -16000,6 +23021,19 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "essentially",
+  "pos": "adverb",
+  "def": "in the most basic and important respect; fundamentally",
+  "defId": "pada dasarnya",
+  "ex": "The two arguments are essentially the same, despite their different wording.",
+  "exId": "Kedua argumen itu pada dasarnya sama, meskipun kata-katanya berbeda.",
+  "colloc": [
+   "essentially, ...",
+   "essentially the same"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "estate agent",
   "pos": "noun phrase",
   "def": "a company or person whose job is to sell or let houses and flats.",
@@ -16012,6 +23046,19 @@ export const VOCAB = [
    "estate agent's window"
   ],
   "theme": "uk_home"
+ },
+ {
+  "w": "estimate",
+  "pos": "verb",
+  "def": "to calculate the approximate value or size of something",
+  "defId": "memperkirakan",
+  "ex": "Analysts estimate that the figure will rise sharply over the next five years.",
+  "exId": "Para analis memperkirakan angka itu akan naik tajam dalam lima tahun ke depan.",
+  "colloc": [
+   "roughly estimate",
+   "estimate the cost"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "estranged",
@@ -16068,6 +23115,20 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "ethernet",
+  "pos": "noun",
+  "def": "a system for connecting devices to a wired local network using cables",
+  "defId": "sistem untuk menghubungkan perangkat ke jaringan lokal berkabel menggunakan kabel",
+  "ex": "Plugging into an ethernet cable gives a far more stable connection than Wi-Fi.",
+  "exId": "Menyambung ke kabel ethernet memberikan koneksi yang jauh lebih stabil daripada Wi-Fi.",
+  "colloc": [
+   "ethernet cable",
+   "ethernet port",
+   "wired ethernet"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "ethics",
   "pos": "noun",
   "def": "moral principles that govern a person's or group's behaviour",
@@ -16094,6 +23155,19 @@ export const VOCAB = [
    "mixed ethnicity"
   ],
   "theme": "society"
+ },
+ {
+  "w": "ethos",
+  "pos": "noun",
+  "def": "the characteristic spirit, values, or beliefs of a community, group, or institution",
+  "defId": "etos; semangat dan nilai khas",
+  "ex": "The school promotes an ethos of respect and cooperation.",
+  "exId": "Sekolah itu menanamkan etos saling menghormati dan bekerja sama.",
+  "colloc": [
+   "a strong ethos",
+   "work ethos"
+  ],
+  "theme": "academic"
  },
  {
   "w": "etymology",
@@ -16176,6 +23250,34 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "evaporate",
+  "pos": "v",
+  "def": "to change from a liquid into a gas",
+  "defId": "berubah dari cairan menjadi gas",
+  "ex": "As the solution is heated, the water begins to evaporate.",
+  "exId": "Saat larutan dipanaskan, air mulai menguap.",
+  "colloc": [
+   "evaporate quickly",
+   "water evaporates",
+   "allow to evaporate"
+  ],
+  "theme": "science"
+ },
+ {
+  "w": "evergreen",
+  "pos": "adjective",
+  "def": "(of a plant or tree) having green leaves throughout the whole year",
+  "defId": "selalu hijau (sepanjang tahun)",
+  "ex": "An evergreen hedge gives the garden privacy even in the middle of winter.",
+  "exId": "Pagar tanaman yang selalu hijau memberi privasi pada taman bahkan di tengah musim dingin.",
+  "colloc": [
+   "evergreen shrub",
+   "evergreen tree",
+   "evergreen foliage"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "eviction",
   "pos": "noun",
   "def": "the legal process of forcing a tenant to leave a property.",
@@ -16188,6 +23290,18 @@ export const VOCAB = [
    "illegal eviction"
   ],
   "theme": "uk_home"
+ },
+ {
+  "w": "evidently",
+  "pos": "adverb",
+  "def": "in a way that is clear or obvious; apparently",
+  "defId": "jelas",
+  "ex": "The bridge was evidently designed to withstand heavy floods.",
+  "exId": "Jembatan itu jelas dirancang untuk menahan banjir besar.",
+  "colloc": [
+   "evidently, ..."
+  ],
+  "theme": "academic"
  },
  {
   "w": "evocative",
@@ -16218,6 +23332,33 @@ export const VOCAB = [
   "theme": "wildlife"
  },
  {
+  "w": "exacerbate",
+  "pos": "verb",
+  "def": "to make a problem or bad situation worse",
+  "defId": "memperburuk; memperparah",
+  "ex": "Cutting the budget will only exacerbate the current shortage of staff.",
+  "exId": "Memangkas anggaran hanya akan memperparah kekurangan staf saat ini.",
+  "colloc": [
+   "exacerbate a problem",
+   "exacerbate tensions",
+   "exacerbate the situation"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "exactly",
+  "pos": "adverb",
+  "def": "used to emphasise that an amount or figure is completely accurate",
+  "defId": "tepat; persis",
+  "ex": "The population reached exactly two million by the end of the decade.",
+  "exId": "Populasi mencapai tepat dua juta pada akhir dekade itu.",
+  "colloc": [
+   "exactly the same",
+   "exactly half"
+  ],
+  "theme": "numbers"
+ },
+ {
   "w": "excavation",
   "pos": "noun",
   "def": "the process of digging carefully to uncover buried remains or structures",
@@ -16230,6 +23371,19 @@ export const VOCAB = [
    "the excavation site"
   ],
   "theme": "history"
+ },
+ {
+  "w": "exceed",
+  "pos": "verb",
+  "def": "to be greater than a number, amount, or expected level",
+  "defId": "melebihi suatu angka, jumlah, atau tingkat yang diharapkan",
+  "ex": "Demand for the course far exceeds the number of available places.",
+  "exId": "Permintaan untuk kursus itu jauh melebihi jumlah tempat yang tersedia.",
+  "colloc": [
+   "exceed expectations",
+   "far exceed"
+  ],
+  "theme": "academic"
  },
  {
   "w": "excerpt",
@@ -16367,6 +23521,19 @@ export const VOCAB = [
   "theme": "business"
  },
  {
+  "w": "exemplar",
+  "pos": "noun",
+  "def": "a person or thing serving as a typical or ideal example",
+  "defId": "teladan; contoh ideal",
+  "ex": "Her career is often cited as an exemplar of perseverance.",
+  "exId": "Kariernya sering dijadikan teladan ketekunan.",
+  "colloc": [
+   "an exemplar of",
+   "a shining exemplar"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "exemplify",
   "pos": "verb",
   "def": "to be a typical example of something, or to illustrate it with an example",
@@ -16378,6 +23545,19 @@ export const VOCAB = [
    "perfectly exemplify"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "exempt",
+  "pos": "adjective",
+  "def": "free from a duty, rule, or payment that applies to others",
+  "defId": "dikecualikan; bebas dari suatu kewajiban atau aturan",
+  "ex": "Diplomats are exempt from prosecution under the laws of the host country.",
+  "exId": "Para diplomat dikecualikan dari penuntutan menurut hukum negara tuan rumah.",
+  "colloc": [
+   "exempt from",
+   "tax-exempt"
+  ],
+  "theme": "law"
  },
  {
   "w": "exert",
@@ -16406,6 +23586,33 @@ export const VOCAB = [
    "inhale and exhale"
   ],
   "theme": "body"
+ },
+ {
+  "w": "exhaust",
+  "pos": "noun",
+  "def": "waste gases expelled from an engine, especially those released by a vehicle.",
+  "defId": "gas buang yang dikeluarkan oleh mesin, terutama dari kendaraan.",
+  "ex": "Vehicle exhaust is one of the main causes of poor air quality in cities.",
+  "exId": "Gas buang kendaraan adalah salah satu penyebab utama buruknya kualitas udara di kota.",
+  "colloc": [
+   "car exhaust",
+   "exhaust emissions",
+   "exhaust pipe"
+  ],
+  "theme": "environment"
+ },
+ {
+  "w": "exhaustive",
+  "pos": "adjective",
+  "def": "complete and thorough, including every possible detail",
+  "defId": "menyeluruh; tuntas",
+  "ex": "The team carried out an exhaustive review of all the available literature.",
+  "exId": "Tim itu melakukan tinjauan yang menyeluruh atas semua literatur yang tersedia.",
+  "colloc": [
+   "an exhaustive study",
+   "exhaustive research"
+  ],
+  "theme": "academic"
  },
  {
   "w": "exhibition",
@@ -16601,6 +23808,19 @@ export const VOCAB = [
   "theme": "money"
  },
  {
+  "w": "experiential",
+  "pos": "adjective",
+  "def": "based on or gained through direct experience and practical activity",
+  "defId": "berdasarkan atau diperoleh melalui pengalaman langsung dan kegiatan praktis",
+  "ex": "Field trips are a form of experiential learning that lessons in a textbook cannot match.",
+  "exId": "Kunjungan lapangan adalah bentuk pembelajaran berbasis pengalaman yang tak tertandingi oleh pelajaran di buku teks.",
+  "colloc": [
+   "experiential learning",
+   "experiential activities"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "experiment",
   "pos": "noun",
   "def": "a scientific test carried out to discover something or to check whether an idea is true",
@@ -16613,6 +23833,20 @@ export const VOCAB = [
    "laboratory experiment"
   ],
   "theme": "science"
+ },
+ {
+  "w": "expertise",
+  "pos": "noun",
+  "def": "Expert skill or knowledge in a particular field.",
+  "defId": "keahlian; kemampuan atau pengetahuan mendalam dalam bidang tertentu",
+  "ex": "We hired a consultant whose expertise in tax law was invaluable.",
+  "exId": "Kami menyewa seorang konsultan yang keahliannya dalam hukum pajak sangat berharga.",
+  "colloc": [
+   "technical expertise",
+   "draw on expertise",
+   "areas of expertise"
+  ],
+  "theme": "work"
  },
  {
   "w": "exploitation",
@@ -16666,6 +23900,20 @@ export const VOCAB = [
    "publish an exposé"
   ],
   "theme": "media"
+ },
+ {
+  "w": "exposition",
+  "pos": "noun",
+  "def": "the part of a narrative that introduces background information about characters and setting",
+  "defId": "bagian narasi yang memperkenalkan informasi latar tentang tokoh dan setting",
+  "ex": "The clumsy exposition crammed too much backstory into the opening scene.",
+  "exId": "Eksposisi yang canggung itu menjejalkan terlalu banyak latar belakang ke dalam adegan pembuka.",
+  "colloc": [
+   "clumsy exposition",
+   "exposition dump",
+   "narrative exposition"
+  ],
+  "theme": "arts"
  },
  {
   "w": "exposure",
@@ -16830,6 +24078,46 @@ export const VOCAB = [
    "extracurricular programme"
   ],
   "theme": "education"
+ },
+ {
+  "w": "extradition",
+  "pos": "noun",
+  "def": "the official sending of an accused person back to another country to stand trial",
+  "defId": "ekstradisi; penyerahan tersangka ke negara lain untuk diadili",
+  "ex": "The suspect is fighting extradition to the country where the crime took place.",
+  "exId": "Tersangka melawan ekstradisi ke negara tempat kejahatan itu terjadi.",
+  "colloc": [
+   "extradition treaty",
+   "fight extradition"
+  ],
+  "theme": "law"
+ },
+ {
+  "w": "extramural",
+  "pos": "adjective",
+  "def": "connected with study done off the main campus, or with activities outside regular lessons",
+  "defId": "berkaitan dengan pembelajaran di luar kampus utama atau kegiatan di luar pelajaran reguler",
+  "ex": "The college offers extramural courses for adults who work during the day.",
+  "exId": "Perguruan tinggi itu menawarkan kursus ekstramural bagi orang dewasa yang bekerja pada siang hari.",
+  "colloc": [
+   "extramural courses",
+   "extramural studies"
+  ],
+  "theme": "education"
+ },
+ {
+  "w": "extrapolate",
+  "pos": "v",
+  "def": "to estimate unknown values by extending a known trend or pattern",
+  "defId": "memperkirakan nilai yang tidak diketahui dengan memperluas tren yang sudah diketahui",
+  "ex": "Scientists extrapolate future sea levels from current warming rates.",
+  "exId": "Para ilmuwan mengekstrapolasi tinggi permukaan laut di masa depan dari laju pemanasan saat ini.",
+  "colloc": [
+   "extrapolate from data",
+   "extrapolate a trend",
+   "extrapolate results"
+  ],
+  "theme": "science"
  },
  {
   "w": "extraterrestrial",
@@ -17020,6 +24308,33 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "faction",
+  "pos": "noun",
+  "def": "a small organised group within a larger party that holds differing views",
+  "defId": "faksi; kelompok kecil terorganisir di dalam partai yang lebih besar dengan pandangan berbeda",
+  "ex": "A rebel faction within the party threatened to vote against the leadership's proposed budget.",
+  "exId": "Sebuah faksi pembangkang di dalam partai mengancam akan menentang anggaran yang diusulkan pimpinan.",
+  "colloc": [
+   "rival faction",
+   "warring factions"
+  ],
+  "theme": "politics"
+ },
+ {
+  "w": "factor",
+  "pos": "noun",
+  "def": "one of the things that influences or contributes to a particular result",
+  "defId": "faktor",
+  "ex": "Cost was the deciding factor in their choice of supplier.",
+  "exId": "Biaya menjadi faktor penentu dalam pemilihan pemasok mereka.",
+  "colloc": [
+   "a key factor",
+   "a contributing factor",
+   "a deciding factor"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "faculty",
   "pos": "noun",
   "def": "a department or group of related departments in a university, or its teaching staff",
@@ -17034,6 +24349,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "faded",
+  "pos": "adjective",
+  "def": "having lost brightness or colour, usually over time",
+  "defId": "pudar; luntur",
+  "ex": "The curtains had a faded look after being washed so many times.",
+  "exId": "Tirai itu tampak pudar setelah dicuci berkali-kali.",
+  "colloc": [
+   "faded colour",
+   "faded jeans",
+   "faded pattern"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "faff",
   "pos": "noun / verb (informal)",
   "def": "A lot of unnecessary fuss or effort; to waste time doing something in a disorganised way.",
@@ -17046,6 +24375,20 @@ export const VOCAB = [
    "what a faff"
   ],
   "theme": "uk_social"
+ },
+ {
+  "w": "faint",
+  "pos": "adjective",
+  "def": "not strong or clear; hard to perceive",
+  "defId": "samar; lemah atau tidak jelas",
+  "ex": "There was only a faint smell of smoke drifting through the room.",
+  "exId": "Hanya ada bau asap samar yang mengambang di ruangan itu.",
+  "colloc": [
+   "faint smell",
+   "faint sound",
+   "faint trace"
+  ],
+  "theme": "senses"
  },
  {
   "w": "fair trade",
@@ -17128,6 +24471,48 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "fallout",
+  "pos": "noun",
+  "def": "the bad effects or results that follow an event or situation",
+  "defId": "dampak buruk; imbas",
+  "ex": "The political fallout from the scandal lasted for months.",
+  "exId": "Dampak politik dari skandal itu berlangsung selama berbulan-bulan.",
+  "colloc": [
+   "political fallout",
+   "the fallout from",
+   "economic fallout"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "falsetto",
+  "pos": "noun",
+  "def": "a method of singing in a voice higher than one's natural range",
+  "defId": "cara bernyanyi dengan suara yang lebih tinggi dari jangkauan alami seseorang",
+  "ex": "He slipped into a delicate falsetto for the song's soaring chorus.",
+  "exId": "Ia beralih ke falseto yang lembut untuk bagian refrein lagu yang melambung.",
+  "colloc": [
+   "sing in falsetto",
+   "delicate falsetto",
+   "falsetto voice"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "falsifiable",
+  "pos": "adj",
+  "def": "capable of being proved false by evidence or experiment",
+  "defId": "dapat dibuktikan salah melalui bukti atau eksperimen",
+  "ex": "For a theory to be scientific, it must be falsifiable.",
+  "exId": "Agar sebuah teori bersifat ilmiah, teori itu harus dapat difalsifikasi.",
+  "colloc": [
+   "falsifiable hypothesis",
+   "falsifiable claim",
+   "must be falsifiable"
+  ],
+  "theme": "science"
+ },
+ {
   "w": "famine",
   "pos": "noun",
   "def": "an extreme and widespread shortage of food",
@@ -17153,6 +24538,46 @@ export const VOCAB = [
    "far-flung corners"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "far-reaching",
+  "pos": "adjective",
+  "def": "having a wide influence or a great many effects",
+  "defId": "berdampak luas dan jauh",
+  "ex": "The decision had far-reaching consequences for the whole industry.",
+  "exId": "Keputusan itu memiliki konsekuensi yang berdampak luas bagi seluruh industri.",
+  "colloc": [
+   "far-reaching consequences",
+   "far-reaching implications"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "farmer",
+  "pos": "noun",
+  "def": "a person who owns or manages a farm, growing crops or raising animals",
+  "defId": "petani",
+  "ex": "The farmer harvested the wheat before the rain arrived.",
+  "exId": "Petani itu memanen gandum sebelum hujan turun.",
+  "colloc": [
+   "dairy farmer",
+   "local farmer"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "fascination",
+  "pos": "noun",
+  "def": "a very strong interest in or attraction to something",
+  "defId": "pesona; minat atau daya tarik yang sangat kuat terhadap sesuatu",
+  "ex": "Children often have a natural fascination with dinosaurs.",
+  "exId": "Anak-anak sering memiliki ketertarikan yang alami terhadap dinosaurus.",
+  "colloc": [
+   "a lifelong fascination",
+   "fascination with",
+   "endless fascination"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "fast fashion",
@@ -17211,6 +24636,20 @@ export const VOCAB = [
   "theme": "wildlife"
  },
  {
+  "w": "favour",
+  "pos": "verb",
+  "def": "to prefer or support one option or approach over others",
+  "defId": "lebih memilih atau mendukung suatu pilihan dibanding yang lain",
+  "ex": "Personally, I favour public transport over driving in big cities.",
+  "exId": "Secara pribadi, saya lebih memilih transportasi umum daripada menyetir di kota besar.",
+  "colloc": [
+   "favour an approach",
+   "strongly favour",
+   "favour over"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "feasibility",
   "pos": "noun",
   "def": "the degree to which something is possible or practical to do",
@@ -17223,6 +24662,34 @@ export const VOCAB = [
    "the feasibility of"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "feasible",
+  "pos": "adjective",
+  "def": "possible and practical to achieve or carry out",
+  "defId": "layak; dapat dilaksanakan",
+  "ex": "Switching entirely to renewable energy is technically feasible.",
+  "exId": "Beralih sepenuhnya ke energi terbarukan secara teknis layak dilakukan.",
+  "colloc": [
+   "technically feasible",
+   "economically feasible",
+   "not feasible"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "feast",
+  "pos": "noun",
+  "def": "a large, elaborate meal, typically to celebrate something",
+  "defId": "santapan besar dan berlimpah, biasanya untuk merayakan sesuatu",
+  "ex": "The family prepared a feast of roast turkey and countless side dishes.",
+  "exId": "Keluarga itu menyiapkan santapan besar berupa kalkun panggang dan aneka lauk pendamping.",
+  "colloc": [
+   "a lavish feast",
+   "prepare a feast",
+   "a wedding feast"
+  ],
+  "theme": "food"
  },
  {
   "w": "feature film",
@@ -17249,6 +24716,19 @@ export const VOCAB = [
    "federal government",
    "federal system",
    "federal law"
+  ],
+  "theme": "politics"
+ },
+ {
+  "w": "federation",
+  "pos": "noun",
+  "def": "a union of states or regions under a central government that shares power with them",
+  "defId": "federasi; persatuan negara bagian atau wilayah di bawah pemerintah pusat yang berbagi kekuasaan",
+  "ex": "In a federation, individual states retain considerable authority over local matters.",
+  "exId": "Dalam sebuah federasi, masing-masing negara bagian mempertahankan wewenang cukup besar atas urusan lokal.",
+  "colloc": [
+   "form a federation",
+   "loose federation"
   ],
   "theme": "politics"
  },
@@ -17321,6 +24801,20 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "fern",
+  "pos": "noun",
+  "def": "a green plant with feathery leaves and no flowers that grows in damp, shady places",
+  "defId": "pakis; paku-pakuan",
+  "ex": "A cluster of ferns thrived in the damp, shaded corner of the garden.",
+  "exId": "Sekelompok pakis tumbuh subur di sudut taman yang lembap dan teduh.",
+  "colloc": [
+   "leafy fern",
+   "ferns thrive",
+   "fern fronds"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "ferry",
   "pos": "noun",
   "def": "A boat that carries people and often vehicles across water on a regular route.",
@@ -17335,6 +24829,20 @@ export const VOCAB = [
   "theme": "uk_transport"
  },
  {
+  "w": "fertile",
+  "pos": "adjective",
+  "def": "rich and productive, able to grow good crops",
+  "defId": "subur dan produktif",
+  "ex": "The region's fertile soil has supported vineyards and orchards for centuries.",
+  "exId": "Tanah subur di kawasan itu telah menopang kebun anggur dan kebun buah selama berabad-abad.",
+  "colloc": [
+   "fertile land",
+   "fertile soil",
+   "a fertile valley"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "fertiliser",
   "pos": "noun",
   "def": "a substance added to soil to help plants grow better",
@@ -17347,6 +24855,20 @@ export const VOCAB = [
    "organic fertiliser"
   ],
   "theme": "food"
+ },
+ {
+  "w": "fervour",
+  "pos": "noun",
+  "def": "intense and passionate feeling or enthusiasm",
+  "defId": "gairah membara; perasaan atau antusiasme yang kuat dan penuh semangat",
+  "ex": "The fans sang the national anthem with patriotic fervour.",
+  "exId": "Para penggemar menyanyikan lagu kebangsaan dengan gairah patriotik yang membara.",
+  "colloc": [
+   "religious fervour",
+   "patriotic fervour",
+   "revolutionary fervour"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "festival",
@@ -17377,6 +24899,20 @@ export const VOCAB = [
   "theme": "uk_social"
  },
  {
+  "w": "fetid",
+  "pos": "adjective",
+  "def": "smelling extremely unpleasant and rotten",
+  "defId": "berbau sangat busuk dan menyengat",
+  "ex": "A fetid odour rose from the neglected drain behind the building.",
+  "exId": "Bau busuk menyengat naik dari selokan terbengkalai di belakang gedung.",
+  "colloc": [
+   "fetid smell",
+   "fetid water",
+   "fetid air"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "feud",
   "pos": "noun",
   "def": "a long and bitter quarrel between people or groups",
@@ -17405,6 +24941,46 @@ export const VOCAB = [
   "theme": "history"
  },
  {
+  "w": "feverish",
+  "pos": "adjective",
+  "def": "having or showing the symptoms of a fever; abnormally hot",
+  "defId": "mengalami atau menunjukkan gejala demam; suhu tubuh sangat tinggi",
+  "ex": "The child was feverish and kept complaining of a headache.",
+  "exId": "Anak itu demam dan terus mengeluh sakit kepala.",
+  "colloc": [
+   "feel feverish",
+   "feverish and shivering",
+   "a feverish child"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "few and far between",
+  "pos": "idiom",
+  "def": "very rare; not happening often",
+  "defId": "sangat jarang; tidak sering terjadi",
+  "ex": "Good job opportunities in this field are few and far between.",
+  "exId": "Kesempatan kerja yang bagus di bidang ini sangat jarang ada.",
+  "colloc": [
+   "rarely available",
+   "'few and far between'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "fibreglass",
+  "pos": "noun",
+  "def": "a strong lightweight material made from glass fibres set in resin",
+  "defId": "fiberglass",
+  "ex": "The boat's hull is moulded from fibreglass.",
+  "exId": "Lambung kapal itu dicetak dari fiberglass.",
+  "colloc": [
+   "fibreglass insulation",
+   "moulded fibreglass"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "fiction",
   "pos": "noun",
   "def": "Literature that describes imaginary events and people.",
@@ -17431,6 +25007,87 @@ export const VOCAB = [
    "in a figurative sense"
   ],
   "theme": "language"
+ },
+ {
+  "w": "figure",
+  "pos": "noun",
+  "def": "a number representing a particular amount, especially in official data",
+  "defId": "angka (statistik)",
+  "ex": "The latest unemployment figure was the lowest recorded in twenty years.",
+  "exId": "Angka pengangguran terbaru adalah yang terendah tercatat dalam dua puluh tahun.",
+  "colloc": [
+   "the latest figures",
+   "sales figures"
+  ],
+  "theme": "numbers"
+ },
+ {
+  "w": "figurehead",
+  "pos": "noun",
+  "def": "A person who is officially the leader but has no real power or authority.",
+  "defId": "pemimpin simbolis; orang yang secara resmi menjadi pemimpin tetapi tidak memiliki kekuasaan nyata",
+  "ex": "The chairman is really just a figurehead; the managing director runs the company.",
+  "exId": "Ketua itu sebenarnya hanya pemimpin simbolis; direktur pengelola yang benar-benar menjalankan perusahaan.",
+  "colloc": [
+   "a mere figurehead",
+   "act as a figurehead",
+   "a figurehead role"
+  ],
+  "theme": "work"
+ },
+ {
+  "w": "file",
+  "pos": "noun",
+  "def": "a hand tool with a rough surface used for smoothing or shaping hard material",
+  "defId": "kikir",
+  "ex": "Use a file to smooth the rough edges of the metal.",
+  "exId": "Gunakan kikir untuk menghaluskan tepi logam yang kasar.",
+  "colloc": [
+   "metal file",
+   "nail file"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "filibuster",
+  "pos": "noun",
+  "def": "a prolonged speech used to delay or obstruct the passing of a law in a legislature",
+  "defId": "filibuster; pidato berkepanjangan untuk mengulur atau menghalangi pengesahan undang-undang",
+  "ex": "The senator staged a filibuster, speaking for hours to block the controversial bill.",
+  "exId": "Senator itu melancarkan filibuster, berbicara berjam-jam untuk menghalangi rancangan undang-undang yang kontroversial.",
+  "colloc": [
+   "stage a filibuster",
+   "break a filibuster"
+  ],
+  "theme": "politics"
+ },
+ {
+  "w": "filling",
+  "pos": "adjective",
+  "def": "of food, making you feel full and satisfied",
+  "defId": "tentang makanan, membuat merasa kenyang dan puas",
+  "ex": "Porridge is a cheap and filling breakfast on cold mornings.",
+  "exId": "Bubur adalah sarapan yang murah dan mengenyangkan di pagi yang dingin.",
+  "colloc": [
+   "a filling meal",
+   "surprisingly filling",
+   "cheap and filling"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "filter",
+  "pos": "verb",
+  "def": "to pass a liquid or gas through a device in order to remove unwanted particles or impurities.",
+  "defId": "menyaring cairan atau gas melalui alat untuk menghilangkan partikel atau kotoran yang tidak diinginkan.",
+  "ex": "Reed beds are used to filter contaminants out of wastewater naturally.",
+  "exId": "Rumpun alang-alang digunakan untuk menyaring kontaminan dari air limbah secara alami.",
+  "colloc": [
+   "filter water",
+   "filter out impurities",
+   "filter pollutants"
+  ],
+  "theme": "environment"
  },
  {
   "w": "filter bubble",
@@ -17592,6 +25249,33 @@ export const VOCAB = [
   "theme": "uk_social"
  },
  {
+  "w": "fisherman",
+  "pos": "noun",
+  "def": "a person who catches fish, either as a job or for sport",
+  "defId": "nelayan",
+  "ex": "The fisherman hauled in a heavy net full of cod.",
+  "exId": "Nelayan itu menarik jaring berat yang penuh ikan kod.",
+  "colloc": [
+   "local fisherman",
+   "commercial fisherman"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "fixation",
+  "pos": "noun",
+  "def": "an obsessive interest in or attachment to someone or something",
+  "defId": "keterpakuan; ketertarikan atau keterikatan yang berlebihan pada seseorang atau sesuatu",
+  "ex": "His fixation on being perfect eventually harmed his mental health.",
+  "exId": "Keterpakuannya untuk menjadi sempurna akhirnya merusak kesehatan mentalnya.",
+  "colloc": [
+   "an unhealthy fixation",
+   "fixation with",
+   "develop a fixation"
+  ],
+  "theme": "psychology"
+ },
+ {
   "w": "fixture",
   "pos": "noun",
   "def": "a sports match arranged for a particular date",
@@ -17632,6 +25316,20 @@ export const VOCAB = [
   "theme": "shopping"
  },
  {
+  "w": "flaky",
+  "pos": "adjective",
+  "def": "of pastry or fish, breaking easily into thin light layers or pieces",
+  "defId": "tentang kue kering atau ikan, mudah pecah menjadi lapisan atau serpihan tipis dan ringan",
+  "ex": "A good croissant should be light, buttery and flaky.",
+  "exId": "Croissant yang bagus semestinya ringan, gurih mentega, dan berlapis renyah.",
+  "colloc": [
+   "flaky pastry",
+   "light and flaky",
+   "a flaky crust"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "flamboyant",
   "pos": "adjective",
   "def": "strikingly bold, colourful and attention-grabbing in style",
@@ -17644,6 +25342,34 @@ export const VOCAB = [
    "flamboyant colours"
   ],
   "theme": "fashion"
+ },
+ {
+  "w": "flammable",
+  "pos": "adj",
+  "def": "easily set on fire",
+  "defId": "mudah menyala atau terbakar",
+  "ex": "The warning label reminds staff that the liquid is highly flammable.",
+  "exId": "Label peringatan mengingatkan staf bahwa cairan itu sangat mudah terbakar.",
+  "colloc": [
+   "highly flammable",
+   "flammable liquid",
+   "flammable gas"
+  ],
+  "theme": "science"
+ },
+ {
+  "w": "flare-up",
+  "pos": "noun",
+  "def": "a sudden recurrence or worsening of a condition or symptoms",
+  "defId": "kambuhnya atau memburuknya suatu kondisi atau gejala secara tiba-tiba",
+  "ex": "Cold weather often triggers a flare-up of his arthritis.",
+  "exId": "Cuaca dingin sering memicu kambuhnya radang sendinya.",
+  "colloc": [
+   "a flare-up of symptoms",
+   "trigger a flare-up",
+   "a sudden flare-up"
+  ],
+  "theme": "health"
  },
  {
   "w": "flattering",
@@ -17674,6 +25400,33 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "flavourful",
+  "pos": "adjective",
+  "def": "having a strong and pleasant taste",
+  "defId": "memiliki rasa yang kuat dan sedap",
+  "ex": "A handful of fresh herbs made the sauce far more flavourful.",
+  "exId": "Segenggam rempah segar membuat sausnya jauh lebih beraroma dan sedap.",
+  "colloc": [
+   "deeply flavourful",
+   "a flavourful dish",
+   "rich and flavourful"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "flawed",
+  "pos": "adjective",
+  "def": "containing a mistake or weakness that spoils its value",
+  "defId": "cacat; mengandung kelemahan",
+  "ex": "The study reached the wrong conclusion because its method was deeply flawed.",
+  "exId": "Penelitian itu mencapai kesimpulan yang salah karena metodenya sangat cacat.",
+  "colloc": [
+   "a flawed argument",
+   "fundamentally flawed"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "fleet",
   "pos": "noun",
   "def": "a group of vehicles, ships, or aircraft owned or operated by one organization",
@@ -17686,6 +25439,19 @@ export const VOCAB = [
    "fleet management"
   ],
   "theme": "transport"
+ },
+ {
+  "w": "fleeting",
+  "pos": "adjective",
+  "def": "lasting for only a very short time",
+  "defId": "sekilas; sekejap; sangat singkat",
+  "ex": "She caught only a fleeting glimpse of the passing train.",
+  "exId": "Dia hanya menangkap sekilas pandangan kereta yang lewat.",
+  "colloc": [
+   "fleeting moment",
+   "fleeting glimpse"
+  ],
+  "theme": "academic"
  },
  {
   "w": "flex",
@@ -17744,6 +25510,19 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "flipped classroom",
+  "pos": "noun",
+  "def": "a teaching method in which students study new material at home and do practice work in class",
+  "defId": "metode pengajaran ketika siswa mempelajari materi baru di rumah dan mengerjakan latihan di kelas",
+  "ex": "In a flipped classroom, pupils watch recorded lectures before the lesson and use class time for problem-solving.",
+  "exId": "Dalam kelas terbalik, murid menonton rekaman kuliah sebelum pelajaran dan menggunakan waktu kelas untuk memecahkan masalah.",
+  "colloc": [
+   "the flipped classroom model",
+   "adopt a flipped classroom"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "flock",
   "pos": "noun",
   "def": "a group of birds or sheep that gather or travel together",
@@ -17786,6 +25565,33 @@ export const VOCAB = [
   "theme": "wildlife"
  },
  {
+  "w": "floral",
+  "pos": "adjective",
+  "def": "decorated with a pattern of flowers",
+  "defId": "bermotif bunga; floral",
+  "ex": "The curtains had a delicate floral pattern in soft pinks.",
+  "exId": "Tirai itu bermotif bunga yang halus dengan warna merah muda lembut.",
+  "colloc": [
+   "floral pattern",
+   "floral print",
+   "floral design"
+  ],
+  "theme": "colours"
+ },
+ {
+  "w": "florist",
+  "pos": "noun",
+  "def": "a person who sells and arranges cut flowers",
+  "defId": "penjual bunga",
+  "ex": "The florist arranged a beautiful bouquet of roses for the wedding.",
+  "exId": "Penjual bunga itu merangkai buket mawar yang indah untuk pernikahan.",
+  "colloc": [
+   "local florist",
+   "order from a florist"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "flotation",
   "pos": "noun",
   "def": "the process of offering a company's shares for sale on the stock market for the first time",
@@ -17813,6 +25619,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "flowerbed",
+  "pos": "noun",
+  "def": "an area of soil in a garden where flowers are grown",
+  "defId": "petak bunga; bedeng bunga",
+  "ex": "She weeded the flowerbed before planting the tulip bulbs.",
+  "exId": "Dia menyiangi petak bunga sebelum menanam umbi tulip.",
+  "colloc": [
+   "plant a flowerbed",
+   "weed the flowerbed",
+   "raised flowerbed"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "fluctuate",
   "pos": "verb",
   "def": "to change often in level, amount, or value, going up and down",
@@ -17825,6 +25645,19 @@ export const VOCAB = [
    "fluctuate between"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "fluctuation",
+  "pos": "noun",
+  "def": "a change that involves rising and falling irregularly in number or amount",
+  "defId": "fluktuasi; naik-turun",
+  "ex": "The line chart shows sharp fluctuations in oil prices over the year.",
+  "exId": "Grafik garis itu menunjukkan fluktuasi tajam harga minyak sepanjang tahun.",
+  "colloc": [
+   "sharp fluctuations",
+   "price fluctuation"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "fluency",
@@ -17855,6 +25688,34 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "fluffy",
+  "pos": "adjective",
+  "def": "soft, light and full of air, like fur or wool",
+  "defId": "gembur dan lembut; ringan serta penuh udara seperti bulu",
+  "ex": "The towels came out of the dryer warm and fluffy.",
+  "exId": "Handuk-handuk itu keluar dari pengering dalam keadaan hangat dan gembur.",
+  "colloc": [
+   "fluffy towel",
+   "soft and fluffy",
+   "fluffy clouds"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "fluorescent",
+  "pos": "adjective",
+  "def": "extremely bright and vivid, appearing to glow",
+  "defId": "neon; berpendar sangat terang",
+  "ex": "Workers wore fluorescent orange jackets so they could be seen easily.",
+  "exId": "Para pekerja mengenakan jaket oranye neon agar mudah terlihat.",
+  "colloc": [
+   "fluorescent colours",
+   "fluorescent light",
+   "fluorescent yellow"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "flustered",
   "pos": "adjective",
   "def": "agitated, nervous, or confused",
@@ -17880,6 +25741,19 @@ export const VOCAB = [
    "concrete flyover"
   ],
   "theme": "urban"
+ },
+ {
+  "w": "foam",
+  "pos": "noun",
+  "def": "a light spongy material full of tiny bubbles, used for padding or insulation",
+  "defId": "busa",
+  "ex": "The tools are packed in foam to stop them rattling around.",
+  "exId": "Perkakas itu dikemas dalam busa agar tidak bergoyang-goyang.",
+  "colloc": [
+   "foam padding",
+   "expanding foam"
+  ],
+  "theme": "tools"
  },
  {
   "w": "fog",
@@ -17937,6 +25811,19 @@ export const VOCAB = [
   "theme": "internet"
  },
  {
+  "w": "food for thought",
+  "pos": "idiom",
+  "def": "something worth thinking about seriously",
+  "defId": "sesuatu yang patut direnungkan; bahan pemikiran",
+  "ex": "The lecture on climate change really gave me food for thought.",
+  "exId": "Kuliah tentang perubahan iklim itu benar-benar memberi saya bahan pemikiran.",
+  "colloc": [
+   "something to reflect on",
+   "'give someone food for thought'"
+  ],
+  "theme": "idioms"
+ },
+ {
   "w": "footage",
   "pos": "noun",
   "def": "film or video of an event",
@@ -17992,6 +25879,19 @@ export const VOCAB = [
   "theme": "nature"
  },
  {
+  "w": "footpath",
+  "pos": "n",
+  "def": "A path or track intended for people to walk along, not for vehicles.",
+  "defId": "Jalan setapak yang diperuntukkan bagi pejalan kaki, bukan untuk kendaraan.",
+  "ex": "A well-kept footpath winds through the park to the far side of town.",
+  "exId": "Jalan setapak yang terawat baik berkelok melewati taman menuju sisi kota yang jauh.",
+  "colloc": [
+   "public footpath",
+   "riverside footpath"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "footprint",
   "pos": "noun",
   "def": "the amount of environmental damage caused by a person or activity, especially through carbon emissions.",
@@ -18034,6 +25934,20 @@ export const VOCAB = [
   "theme": "wildlife"
  },
  {
+  "w": "foray",
+  "pos": "noun",
+  "def": "a brief expedition or venture into an unfamiliar place or activity",
+  "defId": "penjelajahan atau kunjungan singkat ke tempat atau kegiatan yang asing",
+  "ex": "Their weekend foray into the mountains left them exhausted but exhilarated.",
+  "exId": "Penjelajahan akhir pekan mereka ke pegunungan membuat mereka lelah tetapi bersemangat.",
+  "colloc": [
+   "make a foray",
+   "a foray into",
+   "a brief foray"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "forebear",
   "pos": "noun",
   "def": "an ancestor; a person from whom one is descended",
@@ -18044,6 +25958,20 @@ export const VOCAB = [
    "distant forebears"
   ],
   "theme": "family"
+ },
+ {
+  "w": "foreboding",
+  "pos": "noun",
+  "def": "a strong feeling that something bad is going to happen",
+  "defId": "firasat buruk; perasaan kuat bahwa sesuatu yang buruk akan terjadi",
+  "ex": "A sense of foreboding filled her as the phone rang at midnight.",
+  "exId": "Firasat buruk memenuhi dirinya ketika telepon berdering tengah malam.",
+  "colloc": [
+   "a sense of foreboding",
+   "dark foreboding",
+   "fill with foreboding"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "forecast",
@@ -18058,6 +25986,47 @@ export const VOCAB = [
    "a gloomy forecast"
   ],
   "theme": "weather"
+ },
+ {
+  "w": "foreclosure",
+  "pos": "noun",
+  "def": "The legal process by which a lender takes possession of a property when the owner fails to pay the mortgage.",
+  "defId": "Penyitaan rumah; proses hukum saat pemberi pinjaman menyita properti karena pemilik gagal membayar cicilan.",
+  "ex": "Falling house prices led to a wave of foreclosures across the region.",
+  "exId": "Anjloknya harga rumah memicu gelombang penyitaan rumah di seluruh kawasan itu.",
+  "colloc": [
+   "face foreclosure",
+   "a wave of foreclosures",
+   "foreclosure proceedings"
+  ],
+  "theme": "economy"
+ },
+ {
+  "w": "forecourt",
+  "pos": "n",
+  "def": "An open, paved area in front of a large building or petrol station.",
+  "defId": "Area terbuka beraspal di depan sebuah bangunan besar atau pom bensin.",
+  "ex": "Cars queued on the forecourt of the petrol station during the fuel shortage.",
+  "exId": "Mobil mengantre di halaman depan pom bensin selama kelangkaan bahan bakar.",
+  "colloc": [
+   "station forecourt",
+   "petrol station forecourt"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "foreign aid",
+  "pos": "noun",
+  "def": "money, goods or services given by one country to help another develop",
+  "defId": "uang, barang, atau jasa yang diberikan satu negara untuk membantu negara lain berkembang",
+  "ex": "Critics argue that poorly targeted foreign aid can foster dependency rather than growth.",
+  "exId": "Para pengritik berpendapat bantuan luar negeri yang salah sasaran dapat memupuk ketergantungan alih-alih pertumbuhan.",
+  "colloc": [
+   "foreign aid budget",
+   "receive foreign aid",
+   "cut foreign aid"
+  ],
+  "theme": "globalisation"
  },
  {
   "w": "foreign exchange",
@@ -18111,6 +26080,19 @@ export const VOCAB = [
    "use foreshadowing"
   ],
   "theme": "literature"
+ },
+ {
+  "w": "forester",
+  "pos": "noun",
+  "def": "a person who manages and cares for forests and woodland",
+  "defId": "rimbawan",
+  "ex": "The forester marked the trees that were ready to be felled.",
+  "exId": "Rimbawan itu menandai pohon-pohon yang siap ditebang.",
+  "colloc": [
+   "experienced forester",
+   "forester's work"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "foreword",
@@ -18192,6 +26174,47 @@ export const VOCAB = [
    "formulate a plan"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "forthcoming",
+  "pos": "adjective",
+  "def": "planned to happen or appear in the near future",
+  "defId": "yang akan datang; mendatang",
+  "ex": "Details of the forthcoming election will be published next month.",
+  "exId": "Rincian pemilihan yang akan datang akan diterbitkan bulan depan.",
+  "colloc": [
+   "forthcoming election",
+   "forthcoming report"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "forthright",
+  "pos": "adjective",
+  "def": "expressing opinions directly and honestly without hesitation",
+  "defId": "menyatakan pendapat secara langsung dan jujur tanpa ragu",
+  "ex": "Colleagues respected her forthright manner because she always said what she meant.",
+  "exId": "Rekan-rekan menghargai gayanya yang blak-blakan karena dia selalu mengatakan maksud sebenarnya.",
+  "colloc": [
+   "forthright manner",
+   "forthright and honest",
+   "a forthright answer"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "fortitude",
+  "pos": "noun",
+  "def": "courage and strength of mind in facing pain, danger, or difficulty",
+  "defId": "keteguhan hati; keberanian dan kekuatan mental dalam menghadapi rasa sakit, bahaya, atau kesulitan",
+  "ex": "She bore the long illness with quiet fortitude.",
+  "exId": "Dia menanggung sakit yang panjang itu dengan keteguhan hati yang tenang.",
+  "colloc": [
+   "mental fortitude",
+   "show fortitude",
+   "great fortitude"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "fortnight",
@@ -18318,6 +26341,48 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "fragmented",
+  "pos": "adjective",
+  "def": "broken up into separate parts that no longer work together well",
+  "defId": "terfragmentasi; terpecah menjadi bagian-bagian terpisah yang tak lagi menyatu",
+  "ex": "Long working hours have left many families feeling increasingly fragmented.",
+  "exId": "Jam kerja yang panjang membuat banyak keluarga merasa semakin terfragmentasi.",
+  "colloc": [
+   "increasingly fragmented",
+   "a fragmented society",
+   "fragmented community"
+  ],
+  "theme": "society"
+ },
+ {
+  "w": "fragrant",
+  "pos": "adjective",
+  "def": "having a pleasant, sweet smell",
+  "defId": "harum; berbau manis yang menyenangkan",
+  "ex": "The garden was full of fragrant roses in early summer.",
+  "exId": "Taman itu penuh dengan mawar harum di awal musim panas.",
+  "colloc": [
+   "fragrant flowers",
+   "fragrant herbs",
+   "sweetly fragrant"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "frail",
+  "pos": "adjective",
+  "def": "physically weak and delicate, especially through age or illness",
+  "defId": "lemah dan rapuh secara fisik",
+  "ex": "The frail old man needed a walking stick to cross the room.",
+  "exId": "Pria tua yang rapuh itu membutuhkan tongkat untuk menyeberangi ruangan.",
+  "colloc": [
+   "frail old man",
+   "frail health",
+   "increasingly frail"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "framework",
   "pos": "noun",
   "def": "a basic structure of ideas used to organise research or thinking",
@@ -18346,6 +26411,34 @@ export const VOCAB = [
   "theme": "business"
  },
  {
+  "w": "frankly",
+  "pos": "adverb",
+  "def": "used to say what you really think in an honest and direct way",
+  "defId": "terus terang; digunakan untuk berkata jujur dan langsung",
+  "ex": "Frankly, I don't think celebrities deserve the huge salaries they receive.",
+  "exId": "Terus terang, saya rasa selebritas tidak pantas mendapat gaji sebesar itu.",
+  "colloc": [
+   "quite frankly",
+   "frankly speaking",
+   "frankly, I doubt"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "fraternity",
+  "pos": "noun",
+  "def": "a feeling of friendship and mutual support within a group of people",
+  "defId": "persaudaraan; rasa persahabatan dan saling mendukung dalam suatu kelompok",
+  "ex": "A strong sense of fraternity binds the members of the fishing community together.",
+  "exId": "Rasa persaudaraan yang kuat mengikat para anggota komunitas nelayan itu.",
+  "colloc": [
+   "sense of fraternity",
+   "spirit of fraternity",
+   "the medical fraternity"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "fraud",
   "pos": "noun",
   "def": "the crime of deceiving people to gain money or advantage",
@@ -18372,6 +26465,20 @@ export const VOCAB = [
    "become frayed"
   ],
   "theme": "fashion"
+ },
+ {
+  "w": "freckled",
+  "pos": "adjective",
+  "def": "covered with small light-brown spots on the skin",
+  "defId": "berbintik-bintik (freckle) di kulit",
+  "ex": "The freckled little boy grinned up at the camera.",
+  "exId": "Anak lelaki kecil berbintik-bintik itu tersenyum lebar ke arah kamera.",
+  "colloc": [
+   "freckled face",
+   "freckled skin",
+   "freckled nose"
+  ],
+  "theme": "describe_people"
  },
  {
   "w": "free spirit",
@@ -18467,6 +26574,20 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "freezer",
+  "pos": "noun",
+  "def": "an appliance or compartment that keeps food frozen for long-term storage",
+  "defId": "pembeku atau freezer",
+  "ex": "She took a bag of peas out of the freezer for dinner.",
+  "exId": "Dia mengambil sekantong kacang polong dari freezer untuk makan malam.",
+  "colloc": [
+   "a chest freezer",
+   "the freezer compartment",
+   "store in the freezer"
+  ],
+  "theme": "household"
+ },
+ {
   "w": "freight",
   "pos": "noun",
   "def": "goods transported in bulk by truck, train, ship, or aircraft",
@@ -18522,6 +26643,19 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "fresher",
+  "pos": "noun",
+  "def": "a student in their first year at a university or college",
+  "defId": "mahasiswa tahun pertama di universitas atau perguruan tinggi",
+  "ex": "During fresher's week, new students join clubs and make friends.",
+  "exId": "Selama pekan mahasiswa baru, para mahasiswa bergabung dengan klub dan berkenalan.",
+  "colloc": [
+   "fresher's week",
+   "a nervous fresher"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "friction",
   "pos": "noun",
   "def": "the force that resists motion when one surface moves against another",
@@ -18533,6 +26667,34 @@ export const VOCAB = [
    "friction force"
   ],
   "theme": "science"
+ },
+ {
+  "w": "fridge",
+  "pos": "noun",
+  "def": "an appliance kept cool inside to store food and drinks",
+  "defId": "kulkas atau lemari es",
+  "ex": "There's some milk in the fridge if you want a coffee.",
+  "exId": "Ada susu di kulkas kalau kamu mau minum kopi.",
+  "colloc": [
+   "put in the fridge",
+   "a fridge-freezer",
+   "clean out the fridge"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "frond",
+  "pos": "noun",
+  "def": "a large leaf of a fern or palm, usually divided into many sections",
+  "defId": "pelepah; daun paku besar",
+  "ex": "The ferns unfurled their green fronds in the shade of the wall.",
+  "exId": "Pakis itu membuka pelepah hijaunya di bawah naungan tembok.",
+  "colloc": [
+   "palm frond",
+   "fern frond",
+   "unfurl fronds"
+  ],
+  "theme": "garden"
  },
  {
   "w": "front",
@@ -18576,6 +26738,20 @@ export const VOCAB = [
   "theme": "sport"
  },
  {
+  "w": "frontier",
+  "pos": "noun",
+  "def": "the border between two countries, or the edge of settled, explored territory",
+  "defId": "perbatasan antara dua negara, atau tepi wilayah yang telah dihuni dan dijelajahi",
+  "ex": "The old trading town lies right on the frontier between the two nations.",
+  "exId": "Kota dagang tua itu terletak tepat di perbatasan antara kedua negara.",
+  "colloc": [
+   "cross the frontier",
+   "a frontier town",
+   "the final frontier"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "frost",
   "pos": "noun",
   "def": "a thin layer of ice that forms on surfaces when it is very cold",
@@ -18601,6 +26777,20 @@ export const VOCAB = [
    "frugal with money"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "frugality",
+  "pos": "noun",
+  "def": "The quality of being economical and sparing with money or food.",
+  "defId": "Kehematan; sikap berhemat dalam pengeluaran uang atau makanan.",
+  "ex": "Years of frugality during the recession helped the couple pay off their debts.",
+  "exId": "Bertahun-tahun berhemat selama resesi membantu pasangan itu melunasi utang mereka.",
+  "colloc": [
+   "strict frugality",
+   "a life of frugality",
+   "enforced frugality"
+  ],
+  "theme": "economy"
  },
  {
   "w": "frumpy",
@@ -18670,6 +26860,20 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "fulfilment",
+  "pos": "noun",
+  "def": "the process of receiving, packing and delivering customer orders",
+  "defId": "proses menerima, mengemas, dan mengirim pesanan pelanggan",
+  "ex": "The retailer opened a new fulfilment centre to speed up next-day delivery.",
+  "exId": "Peritel itu membuka pusat pemenuhan pesanan baru untuk mempercepat pengiriman keesokan hari.",
+  "colloc": [
+   "order fulfilment",
+   "fulfilment centre",
+   "fulfilment costs"
+  ],
+  "theme": "business"
+ },
+ {
   "w": "full board",
   "pos": "noun",
   "def": "a hotel arrangement that includes all three meals a day",
@@ -18723,6 +26927,33 @@ export const VOCAB = [
   "theme": "tourism"
  },
  {
+  "w": "fumes",
+  "pos": "noun",
+  "def": "gas or vapour, often toxic or strong-smelling, given off by a substance.",
+  "defId": "gas atau uap, sering beracun atau berbau menyengat, yang dikeluarkan oleh suatu zat.",
+  "ex": "Residents complained about the choking fumes drifting from the chemical plant.",
+  "exId": "Warga mengeluhkan asap menyesakkan yang mengalir dari pabrik kimia.",
+  "colloc": [
+   "toxic fumes",
+   "exhaust fumes",
+   "noxious fumes"
+  ],
+  "theme": "environment"
+ },
+ {
+  "w": "fundamentally",
+  "pos": "adverb",
+  "def": "in a basic and important way; at the deepest level",
+  "defId": "secara mendasar",
+  "ex": "The internet has fundamentally changed how information is shared.",
+  "exId": "Internet telah secara mendasar mengubah cara informasi dibagikan.",
+  "colloc": [
+   "fundamentally different",
+   "fundamentally, ..."
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "furious",
   "pos": "adjective",
   "def": "extremely angry",
@@ -18734,6 +26965,59 @@ export const VOCAB = [
    "furious with"
   ],
   "theme": "emotion"
+ },
+ {
+  "w": "furlough",
+  "pos": "noun",
+  "def": "A temporary leave of workers, often without pay, during a downturn.",
+  "defId": "Perumahan sementara; pemberhentian pekerja untuk sementara, sering tanpa upah, saat kelesuan ekonomi.",
+  "ex": "Thousands of staff were placed on furlough when the factories closed.",
+  "exId": "Ribuan pekerja dirumahkan sementara ketika pabrik-pabrik tutup.",
+  "colloc": [
+   "on furlough",
+   "a furlough scheme",
+   "place on furlough"
+  ],
+  "theme": "economy"
+ },
+ {
+  "w": "furnished",
+  "pos": "adjective",
+  "def": "(of accommodation) supplied with furniture",
+  "defId": "sudah berperabot",
+  "ex": "They rented a fully furnished flat, so they didn't need to buy any furniture.",
+  "exId": "Mereka menyewa apartemen yang sudah lengkap berperabot, jadi tak perlu membeli perabot.",
+  "colloc": [
+   "a furnished flat",
+   "fully furnished"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "furniture",
+  "pos": "noun",
+  "def": "movable objects such as tables, chairs, and beds that make a room suitable for living or working",
+  "defId": "perabot rumah",
+  "ex": "The new flat came with hardly any furniture, so we had to buy a bed and a sofa.",
+  "exId": "Apartemen baru itu hampir tidak dilengkapi perabot, jadi kami harus membeli tempat tidur dan sofa.",
+  "colloc": [
+   "a piece of furniture",
+   "antique furniture",
+   "office furniture"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "furthermore",
+  "pos": "adverb",
+  "def": "in addition to what has already been said; moreover",
+  "defId": "lebih lanjut",
+  "ex": "The policy is costly; furthermore, it fails to address the root cause.",
+  "exId": "Kebijakan itu mahal; lebih lanjut, kebijakan itu gagal mengatasi akar masalah.",
+  "colloc": [
+   "furthermore, ..."
+  ],
+  "theme": "academic"
  },
  {
   "w": "gable",
@@ -18791,6 +27075,20 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "gait",
+  "pos": "noun",
+  "def": "a person's particular way of walking",
+  "defId": "cara berjalan; gaya langkah",
+  "ex": "You could recognise him from a distance by his slow, rolling gait.",
+  "exId": "Kamu bisa mengenalinya dari kejauhan melalui cara berjalannya yang lambat dan bergoyang.",
+  "colloc": [
+   "unsteady gait",
+   "distinctive gait",
+   "rolling gait"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "galaxy",
   "pos": "noun",
   "def": "a very large group of stars, gas and dust held together by gravity",
@@ -18831,6 +27129,34 @@ export const VOCAB = [
    "gallery of paintings"
   ],
   "theme": "arts"
+ },
+ {
+  "w": "gallivant",
+  "pos": "verb",
+  "def": "to travel around from place to place in pursuit of pleasure",
+  "defId": "berkeliling dari satu tempat ke tempat lain demi mencari kesenangan",
+  "ex": "They spent their retirement gallivanting around Europe.",
+  "exId": "Mereka menghabiskan masa pensiun dengan berkelana keliling Eropa demi kesenangan.",
+  "colloc": [
+   "gallivant around",
+   "gallivant off",
+   "go gallivanting"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "galvanise",
+  "pos": "verb",
+  "def": "to shock or excite someone into taking action",
+  "defId": "menggerakkan; membangkitkan semangat untuk bertindak",
+  "ex": "The disaster galvanised the community into raising funds.",
+  "exId": "Bencana itu menggerakkan masyarakat untuk mengumpulkan dana.",
+  "colloc": [
+   "galvanise support",
+   "galvanise into action",
+   "galvanise public opinion"
+  ],
+  "theme": "academic"
  },
  {
   "w": "gaming",
@@ -18886,6 +27212,20 @@ export const VOCAB = [
    "keen on gardening"
   ],
   "theme": "leisure"
+ },
+ {
+  "w": "gardening leave",
+  "pos": "noun",
+  "def": "A period when an employee who is leaving is paid to stay away from work during their notice.",
+  "defId": "cuti masa pemberitahuan; masa ketika karyawan yang akan keluar tetap digaji tetapi diminta tidak masuk kerja",
+  "ex": "He was put on gardening leave for three months before joining a rival firm.",
+  "exId": "Dia diminta menjalani cuti masa pemberitahuan selama tiga bulan sebelum bergabung dengan perusahaan pesaing.",
+  "colloc": [
+   "put on gardening leave",
+   "a period of gardening leave",
+   "placed on gardening leave"
+  ],
+  "theme": "work"
  },
  {
   "w": "garish",
@@ -18957,6 +27297,47 @@ export const VOCAB = [
   "theme": "uk_home"
  },
  {
+  "w": "gastronomy",
+  "pos": "noun",
+  "def": "the art and practice of cooking and eating good food",
+  "defId": "seni dan praktik memasak serta menikmati makanan yang lezat",
+  "ex": "The city is famous for its gastronomy, drawing food lovers from around the world.",
+  "exId": "Kota itu terkenal dengan seni kulinernya, menarik para pencinta makanan dari seluruh dunia.",
+  "colloc": [
+   "local gastronomy",
+   "fine gastronomy",
+   "the art of gastronomy"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "gauge",
+  "pos": "noun",
+  "def": "an instrument for measuring, or a standard measure of thickness or width",
+  "defId": "alat ukur",
+  "ex": "Check the tyre pressure with a gauge before the trip.",
+  "exId": "Periksa tekanan ban dengan alat ukur sebelum bepergian.",
+  "colloc": [
+   "pressure gauge",
+   "wire gauge"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "gaunt",
+  "pos": "adjective",
+  "def": "very thin and bony, especially from illness or hunger",
+  "defId": "kurus kering dan cekung",
+  "ex": "After weeks in hospital he looked pale and gaunt.",
+  "exId": "Setelah berminggu-minggu di rumah sakit, dia tampak pucat dan kurus kering.",
+  "colloc": [
+   "gaunt face",
+   "gaunt features",
+   "thin and gaunt"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "gender equality",
   "pos": "noun",
   "def": "The state in which people of all genders have equal rights, opportunities, and treatment.",
@@ -19025,6 +27406,20 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "generational",
+  "pos": "adjective",
+  "def": "relating to or affecting a particular generation, or differences between generations",
+  "defId": "terkait generasi; berkaitan dengan atau memengaruhi generasi tertentu maupun perbedaan antargenerasi",
+  "ex": "Attitudes towards home ownership reveal a sharp generational divide.",
+  "exId": "Sikap terhadap kepemilikan rumah menunjukkan jurang antargenerasi yang tajam.",
+  "colloc": [
+   "generational divide",
+   "generational change",
+   "generational shift"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "generator",
   "pos": "noun",
   "def": "a machine that converts mechanical energy into electricity",
@@ -19065,6 +27460,20 @@ export const VOCAB = [
    "prevent genocide"
   ],
   "theme": "conflict"
+ },
+ {
+  "w": "genome",
+  "pos": "n",
+  "def": "the complete set of genetic material in an organism",
+  "defId": "keseluruhan materi genetik dalam suatu organisme",
+  "ex": "Scientists have now mapped the entire human genome.",
+  "exId": "Para ilmuwan kini telah memetakan seluruh genom manusia.",
+  "colloc": [
+   "human genome",
+   "map the genome",
+   "genome sequencing"
+  ],
+  "theme": "science"
  },
  {
   "w": "genre",
@@ -19109,6 +27518,33 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "geologist",
+  "pos": "noun",
+  "def": "a scientist who studies the structure, materials, and history of the Earth",
+  "defId": "ahli geologi",
+  "ex": "The geologist examined the rock samples for traces of oil.",
+  "exId": "Ahli geologi itu memeriksa sampel batuan untuk mencari jejak minyak.",
+  "colloc": [
+   "field geologist",
+   "marine geologist"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "geometric",
+  "pos": "adjective",
+  "def": "made up of regular shapes and lines such as squares, circles and triangles",
+  "defId": "geometris; bermotif bangun beraturan",
+  "ex": "The rug featured a bold geometric pattern of triangles and squares.",
+  "exId": "Karpet itu menampilkan motif geometris mencolok berupa segitiga dan persegi.",
+  "colloc": [
+   "geometric pattern",
+   "geometric shapes",
+   "geometric design"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "geotag",
   "pos": "verb",
   "def": "to add geographical location information to a photo or online post",
@@ -19134,6 +27570,46 @@ export const VOCAB = [
    "geothermal plant"
   ],
   "theme": "energy"
+ },
+ {
+  "w": "germane",
+  "pos": "adjective",
+  "def": "closely and relevantly connected to the topic being discussed",
+  "defId": "relevan; berkaitan erat",
+  "ex": "That objection, while interesting, is not germane to our discussion.",
+  "exId": "Keberatan itu, meski menarik, tidak berkaitan erat dengan diskusi kita.",
+  "colloc": [
+   "germane to the topic",
+   "directly germane"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "germinate",
+  "pos": "verb",
+  "def": "(of a seed) to begin to grow and develop into a plant",
+  "defId": "berkecambah; bertunas",
+  "ex": "These seeds will only germinate if the soil is kept warm and moist.",
+  "exId": "Benih-benih ini hanya akan berkecambah jika tanah tetap hangat dan lembap.",
+  "colloc": [
+   "seeds germinate",
+   "germinate quickly",
+   "fail to germinate"
+  ],
+  "theme": "garden"
+ },
+ {
+  "w": "gerrymander",
+  "pos": "verb",
+  "def": "to manipulate the boundaries of an electoral district in order to favour one party",
+  "defId": "menggerrymander; memanipulasi batas daerah pemilihan agar menguntungkan satu partai",
+  "ex": "Critics accused the ruling party of gerrymandering the districts to secure an unfair advantage.",
+  "exId": "Para pengkritik menuduh partai penguasa memanipulasi batas daerah pemilihan untuk memperoleh keunggulan yang tidak adil.",
+  "colloc": [
+   "gerrymander a district",
+   "gerrymandered boundaries"
+  ],
+  "theme": "politics"
  },
  {
   "w": "gestation",
@@ -19177,6 +27653,19 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "get cold feet",
+  "pos": "idiom",
+  "def": "to suddenly become too nervous to do something you planned",
+  "defId": "tiba-tiba jadi gugup atau ragu untuk melakukan sesuatu yang sudah direncanakan",
+  "ex": "He was going to give the speech, but he got cold feet at the last minute.",
+  "exId": "Dia berniat menyampaikan pidato, tapi tiba-tiba jadi gugup di menit terakhir.",
+  "colloc": [
+   "losing nerve",
+   "'get cold feet before'"
+  ],
+  "theme": "idioms"
+ },
+ {
   "w": "get on",
   "pos": "phrasal verb",
   "def": "to have a friendly relationship with someone (British English)",
@@ -19189,6 +27678,19 @@ export const VOCAB = [
    "get on like a house on fire"
   ],
   "theme": "relationships"
+ },
+ {
+  "w": "get the ball rolling",
+  "pos": "idiom",
+  "def": "to start something or make it begin",
+  "defId": "memulai sesuatu; membuat sesuatu mulai berjalan",
+  "ex": "Let's get the ball rolling by introducing ourselves one by one.",
+  "exId": "Mari kita mulai dengan memperkenalkan diri satu per satu.",
+  "colloc": [
+   "starting a process",
+   "'get the ball rolling'"
+  ],
+  "theme": "idioms"
  },
  {
   "w": "getaway",
@@ -19270,6 +27772,20 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "gigabyte",
+  "pos": "noun",
+  "def": "a unit of digital storage equal to about one thousand megabytes",
+  "defId": "satuan penyimpanan digital yang setara dengan sekitar seribu megabita",
+  "ex": "This video file alone takes up nearly two gigabytes of space.",
+  "exId": "Berkas video ini saja menghabiskan hampir dua gigabita ruang.",
+  "colloc": [
+   "a gigabyte of data",
+   "several gigabytes",
+   "gigabyte limit"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "girder",
   "pos": "noun",
   "def": "A large metal beam used as a main support in buildings or bridges.",
@@ -19296,6 +27812,20 @@ export const VOCAB = [
    "catch the gist"
   ],
   "theme": "language"
+ },
+ {
+  "w": "give rise to",
+  "pos": "phrase",
+  "def": "to cause something to begin to exist or happen",
+  "defId": "menimbulkan; memunculkan",
+  "ex": "Rapid urbanisation has given rise to serious housing shortages.",
+  "exId": "Urbanisasi yang cepat telah menimbulkan kekurangan perumahan yang serius.",
+  "colloc": [
+   "give rise to concern",
+   "give rise to problems",
+   "give rise to speculation"
+  ],
+  "theme": "academic"
  },
  {
   "w": "glacier",
@@ -19365,6 +27895,62 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "gleam",
+  "pos": "verb",
+  "def": "to shine brightly, especially with reflected light",
+  "defId": "bersinar terang, terutama dari pantulan cahaya",
+  "ex": "The freshly polished knives gleam under the kitchen lights.",
+  "exId": "Pisau-pisau yang baru dipoles berkilau di bawah lampu dapur.",
+  "colloc": [
+   "gleam brightly",
+   "eyes gleam",
+   "gleam with polish"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "glide",
+  "pos": "verb",
+  "def": "to move smoothly, quietly, and effortlessly",
+  "defId": "meluncur mulus; melayang",
+  "ex": "The swan glided gracefully across the still surface of the lake.",
+  "exId": "Angsa itu meluncur anggun di atas permukaan danau yang tenang.",
+  "colloc": [
+   "glide across",
+   "glide smoothly",
+   "glide through the air"
+  ],
+  "theme": "sound_movement"
+ },
+ {
+  "w": "glimmer",
+  "pos": "noun",
+  "def": "a faint or unsteady light",
+  "defId": "kerlip; cahaya samar atau tidak tetap",
+  "ex": "We could see a distant glimmer of lights across the dark bay.",
+  "exId": "Kami bisa melihat kerlip cahaya jauh di seberang teluk yang gelap.",
+  "colloc": [
+   "a glimmer of",
+   "faint glimmer",
+   "glimmer of light"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "glisten",
+  "pos": "verb",
+  "def": "to shine because of being wet or oily",
+  "defId": "berkilau karena basah atau berminyak",
+  "ex": "Drops of dew began to glisten on the grass as the sun rose.",
+  "exId": "Tetesan embun mulai berkilau di rerumputan saat matahari terbit.",
+  "colloc": [
+   "glisten with sweat",
+   "glisten in the sun",
+   "eyes glisten"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "glitch",
   "pos": "noun",
   "def": "a small fault or problem that stops a device or program working correctly",
@@ -19377,6 +27963,62 @@ export const VOCAB = [
    "fix a glitch"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "global citizenship",
+  "pos": "noun",
+  "def": "the idea that people have responsibilities to the whole world, not just their own nation",
+  "defId": "gagasan bahwa orang memiliki tanggung jawab terhadap seluruh dunia, bukan hanya bangsanya sendiri",
+  "ex": "Schools increasingly teach global citizenship to prepare students for an interdependent world.",
+  "exId": "Sekolah semakin mengajarkan kewargaan global untuk menyiapkan siswa menghadapi dunia yang saling bergantung.",
+  "colloc": [
+   "global citizenship",
+   "sense of global citizenship",
+   "promote global citizenship"
+  ],
+  "theme": "globalisation"
+ },
+ {
+  "w": "Global North",
+  "pos": "noun",
+  "def": "the wealthy, industrialised nations of the world, mostly in the northern hemisphere",
+  "defId": "negara-negara kaya dan terindustrialisasi di dunia, sebagian besar di belahan bumi utara",
+  "ex": "Critics say trade rules are still written to favour the Global North.",
+  "exId": "Para pengritik mengatakan aturan perdagangan masih dibuat untuk menguntungkan Negara Utara.",
+  "colloc": [
+   "the Global North",
+   "favour the Global North",
+   "Global North and South"
+  ],
+  "theme": "globalisation"
+ },
+ {
+  "w": "Global South",
+  "pos": "noun",
+  "def": "the poorer, less industrialised countries of Africa, Asia and Latin America",
+  "defId": "negara-negara yang lebih miskin dan kurang terindustrialisasi di Afrika, Asia, dan Amerika Latin",
+  "ex": "Much of the Global South bears the heaviest costs of a climate crisis it did little to cause.",
+  "exId": "Sebagian besar Negara Selatan menanggung biaya terberat krisis iklim yang nyaris tak mereka sebabkan.",
+  "colloc": [
+   "the Global South",
+   "countries of the Global South",
+   "across the Global South"
+  ],
+  "theme": "globalisation"
+ },
+ {
+  "w": "global village",
+  "pos": "noun",
+  "def": "the world viewed as a single community linked by communication and technology",
+  "defId": "dunia yang dipandang sebagai satu komunitas yang terhubung oleh komunikasi dan teknologi",
+  "ex": "The internet has turned the planet into a global village where news spreads within seconds.",
+  "exId": "Internet telah mengubah planet ini menjadi desa global tempat berita menyebar dalam hitungan detik.",
+  "colloc": [
+   "global village",
+   "become a global village",
+   "concept of the global village"
+  ],
+  "theme": "globalisation"
  },
  {
   "w": "global warming",
@@ -19418,6 +28060,34 @@ export const VOCAB = [
   "theme": "tourism"
  },
  {
+  "w": "globetrotting",
+  "pos": "noun",
+  "def": "the activity of travelling widely to many different countries",
+  "defId": "kegiatan bepergian ke banyak negara berbeda di seluruh dunia",
+  "ex": "After years of globetrotting, she finally settled down in a quiet village.",
+  "exId": "Setelah bertahun-tahun keliling dunia, dia akhirnya menetap di sebuah desa yang tenang.",
+  "colloc": [
+   "a globetrotting lifestyle",
+   "years of globetrotting",
+   "a globetrotting journalist"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "glocalisation",
+  "pos": "noun",
+  "def": "the adaptation of a global product or idea to fit local conditions",
+  "defId": "penyesuaian produk atau gagasan global agar cocok dengan kondisi lokal",
+  "ex": "Glocalisation means a fast-food giant sells rice dishes in Asia but burgers in Europe.",
+  "exId": "Glokalisasi berarti raksasa makanan cepat saji menjual hidangan nasi di Asia tetapi burger di Eropa.",
+  "colloc": [
+   "strategy of glocalisation",
+   "glocalisation of brands",
+   "embrace glocalisation"
+  ],
+  "theme": "globalisation"
+ },
+ {
   "w": "gloomy",
   "pos": "adjective",
   "def": "feeling or causing sadness and low spirits; pessimistic",
@@ -19429,6 +28099,60 @@ export const VOCAB = [
    "feel gloomy"
   ],
   "theme": "emotion"
+ },
+ {
+  "w": "glossy",
+  "pos": "adjective",
+  "def": "smooth and shiny in a way that reflects light",
+  "defId": "mengkilap dan halus sehingga memantulkan cahaya",
+  "ex": "The magazine was printed on thick, glossy paper that reflected the light.",
+  "exId": "Majalah itu dicetak di atas kertas tebal dan mengkilap yang memantulkan cahaya.",
+  "colloc": [
+   "glossy paper",
+   "glossy finish",
+   "glossy coat"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "glue",
+  "pos": "noun",
+  "def": "a sticky substance used for joining things together",
+  "defId": "lem",
+  "ex": "Apply a thin layer of glue to both surfaces before pressing them together.",
+  "exId": "Oleskan lem tipis pada kedua permukaan sebelum menekannya.",
+  "colloc": [
+   "wood glue",
+   "a tube of glue"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "glut",
+  "pos": "noun",
+  "def": "A supply of something that is far greater than the demand for it.",
+  "defId": "Kelebihan pasokan; jumlah barang yang jauh melebihi permintaan.",
+  "ex": "A global glut of oil pushed prices down to record lows.",
+  "exId": "Kelebihan pasokan minyak global menekan harga ke titik terendah.",
+  "colloc": [
+   "a glut of supply",
+   "an oil glut",
+   "a market glut"
+  ],
+  "theme": "economy"
+ },
+ {
+  "w": "go the extra mile",
+  "pos": "idiom",
+  "def": "to make more effort than is expected of you",
+  "defId": "berusaha lebih keras dari yang diharapkan; memberi usaha ekstra",
+  "ex": "Great teachers always go the extra mile to help their students succeed.",
+  "exId": "Guru yang hebat selalu memberi usaha ekstra untuk membantu murid mereka berhasil.",
+  "colloc": [
+   "extra effort",
+   "'go the extra mile for'"
+  ],
+  "theme": "idioms"
  },
  {
   "w": "go-getter",
@@ -19468,6 +28192,20 @@ export const VOCAB = [
    "offer a golden handshake"
   ],
   "theme": "work"
+ },
+ {
+  "w": "goodwill",
+  "pos": "noun",
+  "def": "the established reputation and customer loyalty of a business, treated as an intangible asset",
+  "defId": "reputasi mapan dan loyalitas pelanggan suatu bisnis yang dianggap aset takberwujud",
+  "ex": "Much of the acquisition price reflected the goodwill built up over decades of trading.",
+  "exId": "Sebagian besar harga akuisisi mencerminkan goodwill yang terbangun selama puluhan tahun berbisnis.",
+  "colloc": [
+   "build goodwill",
+   "goodwill of a business",
+   "goodwill on the balance sheet"
+  ],
+  "theme": "business"
  },
  {
   "w": "gorge",
@@ -19552,6 +28290,19 @@ export const VOCAB = [
   "theme": "uk_health"
  },
  {
+  "w": "grade inflation",
+  "pos": "noun",
+  "def": "the tendency for academic grades to rise over time without a matching rise in achievement",
+  "defId": "kecenderungan nilai akademik meningkat dari waktu ke waktu tanpa disertai peningkatan prestasi",
+  "ex": "Critics argue that grade inflation makes it harder to tell strong students apart.",
+  "exId": "Para kritikus berpendapat bahwa inflasi nilai mempersulit membedakan siswa yang unggul.",
+  "colloc": [
+   "combat grade inflation",
+   "rampant grade inflation"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "gradual",
   "pos": "adjective",
   "def": "happening slowly over a long period rather than suddenly",
@@ -19580,6 +28331,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "graft",
+  "pos": "verb",
+  "def": "to join a shoot or bud of one plant onto another so that they grow together",
+  "defId": "menyambung; okulasi (pada tanaman)",
+  "ex": "Gardeners often graft a fruiting branch onto a stronger rootstock.",
+  "exId": "Tukang kebun sering menyambung cabang berbuah ke batang bawah yang lebih kuat.",
+  "colloc": [
+   "graft onto",
+   "graft a branch",
+   "grafting technique"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "grammar",
   "pos": "noun",
   "def": "the set of rules that govern how words combine to form sentences",
@@ -19593,6 +28358,20 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "grand",
+  "pos": "adjective",
+  "def": "impressive, large and splendid",
+  "defId": "megah dan mewah",
+  "ex": "The hotel occupies a grand nineteenth-century mansion with marble staircases.",
+  "exId": "Hotel itu menempati sebuah rumah mewah abad kesembilan belas yang megah dengan tangga marmer.",
+  "colloc": [
+   "a grand building",
+   "a grand entrance",
+   "grand architecture"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "grandstand",
   "pos": "noun",
   "def": "the main seating structure for spectators at a sports ground",
@@ -19604,6 +28383,32 @@ export const VOCAB = [
    "grandstand seats"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "graphic designer",
+  "pos": "noun",
+  "def": "a person who creates visual designs and layouts for print or digital media",
+  "defId": "desainer grafis",
+  "ex": "The graphic designer created a striking new logo for the brand.",
+  "exId": "Desainer grafis itu membuat logo baru yang mencolok untuk merek tersebut.",
+  "colloc": [
+   "freelance graphic designer",
+   "hire a graphic designer"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "grasp",
+  "pos": "verb",
+  "def": "to come to understand something, especially something difficult",
+  "defId": "memahami sesuatu, terutama hal yang sulit",
+  "ex": "It took her a while to grasp the underlying concept, but once she did, the rest was easy.",
+  "exId": "Butuh waktu baginya untuk memahami konsep dasar itu, tetapi begitu paham, sisanya menjadi mudah.",
+  "colloc": [
+   "grasp a concept",
+   "grasp the basics"
+  ],
+  "theme": "education"
  },
  {
   "w": "grassroots",
@@ -19631,6 +28436,20 @@ export const VOCAB = [
    "finely grated"
   ],
   "theme": "food"
+ },
+ {
+  "w": "gratification",
+  "pos": "noun",
+  "def": "the pleasure that comes from having a desire or need satisfied",
+  "defId": "pemuasan; kesenangan yang muncul karena keinginan atau kebutuhan terpenuhi",
+  "ex": "Social media offers instant gratification that can be hard to resist.",
+  "exId": "Media sosial menawarkan pemuasan instan yang bisa sulit ditolak.",
+  "colloc": [
+   "instant gratification",
+   "delayed gratification",
+   "seek gratification"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "gratitude",
@@ -19743,6 +28562,19 @@ export const VOCAB = [
   "theme": "urban"
  },
  {
+  "w": "greenfield",
+  "pos": "adj",
+  "def": "Describing an area of undeveloped land, especially one being considered for building.",
+  "defId": "Menggambarkan lahan yang belum pernah dibangun, terutama yang sedang dipertimbangkan untuk pembangunan.",
+  "ex": "Campaigners opposed building the estate on a greenfield site outside the town.",
+  "exId": "Para aktivis menentang pembangunan permukiman itu di lahan hijau di luar kota.",
+  "colloc": [
+   "greenfield site",
+   "greenfield development"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "greenhouse",
   "pos": "noun",
   "def": "relating to gases that trap the sun's heat in the atmosphere and cause the Earth to warm.",
@@ -19783,6 +28615,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "greying",
+  "pos": "adjective",
+  "def": "having hair that is turning grey with age",
+  "defId": "mulai beruban",
+  "ex": "His greying temples gave him a distinguished, mature look.",
+  "exId": "Pelipisnya yang mulai beruban memberinya kesan berwibawa dan matang.",
+  "colloc": [
+   "greying hair",
+   "greying temples",
+   "greying beard"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "grid",
   "pos": "noun",
   "def": "the network of cables that carries electricity across a country",
@@ -19809,6 +28655,19 @@ export const VOCAB = [
    "traffic gridlock"
   ],
   "theme": "uk_transport"
+ },
+ {
+  "w": "gridlocked",
+  "pos": "adj",
+  "def": "Describing traffic that is so heavy that vehicles cannot move at all.",
+  "defId": "Menggambarkan lalu lintas yang begitu padat sehingga kendaraan sama sekali tidak bisa bergerak.",
+  "ex": "By eight in the morning the ring road is completely gridlocked.",
+  "exId": "Menjelang pukul delapan pagi, jalan lingkar itu benar-benar macet total.",
+  "colloc": [
+   "gridlocked traffic",
+   "gridlocked streets"
+  ],
+  "theme": "urban"
  },
  {
   "w": "grief",
@@ -19838,6 +28697,20 @@ export const VOCAB = [
   "theme": "law"
  },
  {
+  "w": "grim",
+  "pos": "adjective",
+  "def": "unattractive and depressing in appearance",
+  "defId": "muram dan tak menarik",
+  "ex": "The industrial outskirts were fairly grim, dominated by factories and derelict warehouses.",
+  "exId": "Pinggiran industri itu cukup muram, didominasi pabrik dan gudang terbengkalai.",
+  "colloc": [
+   "a grim neighbourhood",
+   "grim surroundings",
+   "a grim estate"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "grip",
   "pos": "verb",
   "def": "to hold something tightly with the hands",
@@ -19863,6 +28736,34 @@ export const VOCAB = [
    "a gripping read"
   ],
   "theme": "literature"
+ },
+ {
+  "w": "gritty",
+  "pos": "adjective",
+  "def": "containing or covered with small, hard rough particles",
+  "defId": "berpasir; mengandung atau terlapisi butiran keras yang kasar",
+  "ex": "The spinach still felt gritty because it had not been washed properly.",
+  "exId": "Bayam itu masih terasa berpasir karena belum dicuci dengan benar.",
+  "colloc": [
+   "gritty texture",
+   "gritty sand",
+   "gritty feel"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "groan",
+  "pos": "verb",
+  "def": "to make a long, low sound expressing pain, despair, or displeasure",
+  "defId": "mengerang; mengeluh",
+  "ex": "The passengers groaned when the flight was delayed yet again.",
+  "exId": "Para penumpang mengeluh ketika penerbangan ditunda lagi.",
+  "colloc": [
+   "groan in pain",
+   "groan with disappointment",
+   "groan loudly"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "gross",
@@ -19892,6 +28793,33 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "gross misconduct",
+  "pos": "noun",
+  "def": "Serious wrongdoing by an employee that is bad enough to justify instant dismissal.",
+  "defId": "pelanggaran berat; kesalahan serius oleh karyawan yang cukup parah untuk membenarkan pemecatan langsung",
+  "ex": "Falsifying the accounts was treated as gross misconduct and he was dismissed at once.",
+  "exId": "Memalsukan pembukuan dianggap sebagai pelanggaran berat, dan dia langsung dipecat.",
+  "colloc": [
+   "dismissed for gross misconduct",
+   "amount to gross misconduct",
+   "a case of gross misconduct"
+  ],
+  "theme": "work"
+ },
+ {
+  "w": "groundbreaking",
+  "pos": "adjective",
+  "def": "introducing new ideas or methods for the first time",
+  "defId": "terobosan; perintis",
+  "ex": "His groundbreaking research changed how scientists view the brain.",
+  "exId": "Penelitiannya yang menjadi terobosan mengubah cara ilmuwan memandang otak.",
+  "colloc": [
+   "groundbreaking research",
+   "a groundbreaking study"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "groundwater",
   "pos": "noun",
   "def": "water held underground in the soil and rock beneath the surface",
@@ -19916,6 +28844,33 @@ export const VOCAB = [
    "avoid groupthink"
   ],
   "theme": "psychology"
+ },
+ {
+  "w": "grout",
+  "pos": "noun",
+  "def": "a thin mortar or paste used to fill the gaps between tiles",
+  "defId": "nat ubin",
+  "ex": "Scrub the grout between the tiles to remove the mould.",
+  "exId": "Sikat nat di antara ubin untuk menghilangkan jamur.",
+  "colloc": [
+   "tile grout",
+   "mouldy grout"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "growl",
+  "pos": "verb",
+  "def": "to make a low, threatening sound in the throat, as an angry animal does",
+  "defId": "menggeram",
+  "ex": "The dog growled at the stranger who approached the gate.",
+  "exId": "Anjing itu menggeram pada orang asing yang mendekati gerbang.",
+  "colloc": [
+   "a dog growls",
+   "growl menacingly",
+   "growl a warning"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "guarantee",
@@ -19944,6 +28899,20 @@ export const VOCAB = [
    "UK-based guarantor"
   ],
   "theme": "uk_home"
+ },
+ {
+  "w": "guarded",
+  "pos": "adjective",
+  "def": "cautious and careful not to reveal too much",
+  "defId": "hati-hati; berhati-hati",
+  "ex": "Experts remain guarded in their predictions about the economy.",
+  "exId": "Para ahli tetap berhati-hati dalam prediksi mereka tentang ekonomi.",
+  "colloc": [
+   "guarded optimism",
+   "guarded response",
+   "cautiously guarded"
+  ],
+  "theme": "academic"
  },
  {
   "w": "guardian",
@@ -19987,6 +28956,20 @@ export const VOCAB = [
   "theme": "tourism"
  },
  {
+  "w": "guidebook",
+  "pos": "noun",
+  "def": "a book giving travellers information about a place they are visiting",
+  "defId": "buku yang memberi pelancong informasi tentang tempat yang mereka kunjungi",
+  "ex": "According to the guidebook, the temple opens at dawn.",
+  "exId": "Menurut buku panduan, candi itu buka saat fajar.",
+  "colloc": [
+   "a travel guidebook",
+   "consult a guidebook",
+   "according to the guidebook"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "guided tour",
   "pos": "noun",
   "def": "a visit to a place led by an expert who explains its history and features",
@@ -19998,6 +28981,19 @@ export const VOCAB = [
    "guided walking tour"
   ],
   "theme": "tourism"
+ },
+ {
+  "w": "gulf",
+  "pos": "noun",
+  "def": "a large difference or gap between two people, groups, or things",
+  "defId": "perbedaan atau jurang besar antara dua orang, kelompok, atau hal",
+  "ex": "There is a widening gulf between the richest and poorest households.",
+  "exId": "Terdapat jurang yang semakin melebar antara rumah tangga terkaya dan termiskin.",
+  "colloc": [
+   "widening gulf",
+   "gulf between"
+  ],
+  "theme": "academic"
  },
  {
   "w": "gullible",
@@ -20024,6 +29020,20 @@ export const VOCAB = [
    "dry gully"
   ],
   "theme": "nature"
+ },
+ {
+  "w": "gurgle",
+  "pos": "verb",
+  "def": "to make a low, bubbling sound like water flowing unevenly",
+  "defId": "bergemericik; berbunyi berkumur",
+  "ex": "The stream gurgled cheerfully over the smooth pebbles.",
+  "exId": "Anak sungai itu bergemericik riang di atas kerikil yang halus.",
+  "colloc": [
+   "water gurgles",
+   "a gurgling brook",
+   "the baby gurgled"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "gust",
@@ -20054,6 +29064,19 @@ export const VOCAB = [
   "theme": "uk_social"
  },
  {
+  "w": "gutter",
+  "pos": "n",
+  "def": "A channel at the edge of a road or roof that carries away rainwater.",
+  "defId": "Saluran di tepi jalan atau atap yang mengalirkan air hujan.",
+  "ex": "After the storm, leaves and litter clogged the gutter along the whole street.",
+  "exId": "Setelah badai, daun dan sampah menyumbat selokan tepi jalan di sepanjang jalan itu.",
+  "colloc": [
+   "clogged gutter",
+   "roadside gutter"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "gymnastics",
   "pos": "noun",
   "def": "a sport involving physical exercises that require strength, balance, and agility, often on apparatus",
@@ -20079,6 +29102,19 @@ export const VOCAB = [
    "destroy a habitat"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "habitual",
+  "pos": "adjective",
+  "def": "done regularly or repeatedly as a habit",
+  "defId": "yang menjadi kebiasaan; lazim dilakukan",
+  "ex": "His habitual lateness eventually cost him the job.",
+  "exId": "Keterlambatannya yang menjadi kebiasaan akhirnya membuatnya kehilangan pekerjaan.",
+  "colloc": [
+   "habitual behaviour",
+   "habitual offender"
+  ],
+  "theme": "academic"
  },
  {
   "w": "habituation",
@@ -20172,6 +29208,32 @@ export const VOCAB = [
   "theme": "sport"
  },
  {
+  "w": "hallmark",
+  "pos": "noun",
+  "def": "a distinctive feature or characteristic typical of a person or thing",
+  "defId": "ciri khas; penanda",
+  "ex": "Meticulous attention to detail is the hallmark of her work.",
+  "exId": "Perhatian yang cermat terhadap detail adalah ciri khas karyanya.",
+  "colloc": [
+   "the hallmark of",
+   "bear the hallmarks of"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "halls of residence",
+  "pos": "noun",
+  "def": "a university building where students live during their studies",
+  "defId": "gedung universitas tempat mahasiswa tinggal selama masa studi",
+  "ex": "Most first-year students live in halls of residence close to the lecture theatres.",
+  "exId": "Sebagian besar mahasiswa tahun pertama tinggal di asrama dekat ruang kuliah.",
+  "colloc": [
+   "live in halls of residence",
+   "university halls of residence"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "hallucination",
   "pos": "noun",
   "def": "a perception of something that is not actually present",
@@ -20184,6 +29246,47 @@ export const VOCAB = [
    "experience hallucinations"
   ],
   "theme": "psychology"
+ },
+ {
+  "w": "halting",
+  "pos": "adjective",
+  "def": "stopping and starting frequently because of uncertainty or hesitation, especially in speech",
+  "defId": "sering berhenti dan mulai lagi karena ketidakpastian atau keraguan, terutama saat berbicara",
+  "ex": "He answered in halting English, pausing after almost every other word.",
+  "exId": "Dia menjawab dalam bahasa Inggris yang tersendat, berhenti hampir setiap dua kata.",
+  "colloc": [
+   "halting speech",
+   "in halting English",
+   "halting delivery"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "hammer",
+  "pos": "noun",
+  "def": "a hand tool with a heavy metal head used for driving in nails or breaking things",
+  "defId": "palu",
+  "ex": "He used a hammer to drive the nail into the wall.",
+  "exId": "Dia menggunakan palu untuk memukul paku ke dinding.",
+  "colloc": [
+   "claw hammer",
+   "swing a hammer"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "hamper",
+  "pos": "verb",
+  "def": "to make it difficult for something to happen or for someone to do something",
+  "defId": "menghambat; merintangi",
+  "ex": "The rescue operation was hampered by bad weather.",
+  "exId": "Operasi penyelamatan itu terhambat oleh cuaca buruk.",
+  "colloc": [
+   "hamper efforts",
+   "hamper progress",
+   "severely hamper"
+  ],
+  "theme": "academic"
  },
  {
   "w": "hand-me-down",
@@ -20238,6 +29341,20 @@ export const VOCAB = [
    "username handle"
   ],
   "theme": "internet"
+ },
+ {
+  "w": "handout",
+  "pos": "noun",
+  "def": "Money or goods given free to someone in need, often by the state.",
+  "defId": "Bantuan cuma-cuma; uang atau barang yang diberikan gratis kepada yang membutuhkan, sering oleh negara.",
+  "ex": "Critics argued that generous handouts discouraged people from finding work.",
+  "exId": "Para pengkritik berpendapat bahwa bantuan cuma-cuma yang murah hati membuat orang enggan mencari kerja.",
+  "colloc": [
+   "government handouts",
+   "rely on handouts",
+   "cash handouts"
+  ],
+  "theme": "economy"
  },
  {
   "w": "handover",
@@ -20363,6 +29480,20 @@ export const VOCAB = [
   "theme": "energy"
  },
  {
+  "w": "harsh",
+  "pos": "adjective",
+  "def": "unpleasantly rough, loud or grating to the senses",
+  "defId": "kasar; tidak enak, keras atau mengganggu indra",
+  "ex": "The harsh grinding of metal on metal set my teeth on edge.",
+  "exId": "Suara gesekan logam yang kasar membuat gigiku ngilu.",
+  "colloc": [
+   "harsh sound",
+   "harsh light",
+   "harsh voice"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "harvest",
   "pos": "verb",
   "def": "to gather a crop from the fields when it is ripe",
@@ -20419,6 +29550,20 @@ export const VOCAB = [
   "theme": "transport"
  },
  {
+  "w": "have reservations",
+  "pos": "phrase",
+  "def": "to feel some doubt or hesitation about accepting or supporting something",
+  "defId": "memiliki keraguan atau keberatan tentang sesuatu",
+  "ex": "I have reservations about relying too heavily on technology in the classroom.",
+  "exId": "Saya punya keraguan soal terlalu bergantung pada teknologi di ruang kelas.",
+  "colloc": [
+   "have serious reservations",
+   "have reservations about",
+   "express reservations"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "hazardous",
   "pos": "adjective",
   "def": "dangerous, especially to people's health or the environment.",
@@ -20429,6 +29574,20 @@ export const VOCAB = [
    "hazardous waste",
    "hazardous chemicals",
    "hazardous materials"
+  ],
+  "theme": "environment"
+ },
+ {
+  "w": "haze",
+  "pos": "noun",
+  "def": "a thin mist of dust, smoke or pollution that reduces visibility in the air.",
+  "defId": "kabut tipis dari debu, asap, atau polusi yang mengurangi jarak pandang di udara.",
+  "ex": "A thick haze of pollution hung over the city for most of the week.",
+  "exId": "Kabut polusi tebal menyelimuti kota selama hampir sepanjang minggu.",
+  "colloc": [
+   "a haze of pollution",
+   "smoky haze",
+   "haze hangs over"
   ],
   "theme": "environment"
  },
@@ -20500,6 +29659,33 @@ export const VOCAB = [
    "global headquarters"
   ],
   "theme": "business"
+ },
+ {
+  "w": "headteacher",
+  "pos": "noun",
+  "def": "the teacher who is in charge of a school",
+  "defId": "guru yang memimpin sebuah sekolah; kepala sekolah",
+  "ex": "The new headteacher introduced stricter rules on punctuality.",
+  "exId": "Kepala sekolah baru memberlakukan aturan yang lebih ketat soal ketepatan waktu.",
+  "colloc": [
+   "appoint a headteacher",
+   "the school headteacher"
+  ],
+  "theme": "education"
+ },
+ {
+  "w": "heal",
+  "pos": "verb",
+  "def": "to become healthy again; (of a wound) to close and mend",
+  "defId": "menjadi sehat kembali; (tentang luka) menutup dan sembuh",
+  "ex": "The cut on his hand took nearly two weeks to heal completely.",
+  "exId": "Luka di tangannya butuh hampir dua minggu untuk sembuh sepenuhnya.",
+  "colloc": [
+   "heal a wound",
+   "heal naturally",
+   "time to heal"
+  ],
+  "theme": "health"
  },
  {
   "w": "hearing",
@@ -20582,6 +29768,20 @@ export const VOCAB = [
   "theme": "business"
  },
  {
+  "w": "hedge fund",
+  "pos": "noun",
+  "def": "An investment fund that uses risky strategies to try to earn high returns.",
+  "defId": "Dana lindung nilai (hedge fund); dana investasi yang memakai strategi berisiko demi imbal hasil tinggi.",
+  "ex": "The hedge fund bet heavily against the falling currency.",
+  "exId": "Hedge fund itu bertaruh besar melawan mata uang yang sedang jatuh.",
+  "colloc": [
+   "a hedge fund manager",
+   "run a hedge fund",
+   "hedge fund investors"
+  ],
+  "theme": "economy"
+ },
+ {
   "w": "hedonism",
   "pos": "noun",
   "def": "the pursuit of pleasure as the most important goal in life",
@@ -20647,6 +29847,20 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "helping",
+  "pos": "noun",
+  "def": "an amount of food given to someone at one time during a meal",
+  "defId": "jumlah makanan yang diberikan kepada seseorang dalam sekali makan",
+  "ex": "He went back for a second helping of mashed potatoes.",
+  "exId": "Dia kembali untuk mengambil tambahan kentang tumbuk.",
+  "colloc": [
+   "a second helping",
+   "a generous helping",
+   "a large helping"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "hem",
   "pos": "noun",
   "def": "the edge of a piece of cloth that has been folded and sewn",
@@ -20686,6 +29900,45 @@ export const VOCAB = [
    "a hen weekend"
   ],
   "theme": "uk_social"
+ },
+ {
+  "w": "hence",
+  "pos": "adverb",
+  "def": "for this reason; therefore",
+  "defId": "maka dari itu",
+  "ex": "The city is prone to flooding; hence the need for better drainage.",
+  "exId": "Kota itu rawan banjir; maka dari itu, dibutuhkan drainase yang lebih baik.",
+  "colloc": [
+   "hence the need",
+   "hence, ..."
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "henceforth",
+  "pos": "adverb",
+  "def": "from this time on; in the future",
+  "defId": "mulai sekarang",
+  "ex": "Henceforth, all applications must be submitted online.",
+  "exId": "Mulai sekarang, semua lamaran harus diajukan secara daring.",
+  "colloc": [
+   "henceforth, ..."
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "herbaceous",
+  "pos": "adjective",
+  "def": "relating to plants that have soft, green stems rather than woody ones",
+  "defId": "herba (berbatang lunak)",
+  "ex": "A colourful herbaceous border ran the full length of the garden.",
+  "exId": "Bedeng tanaman herba yang berwarna-warni membentang di sepanjang taman.",
+  "colloc": [
+   "herbaceous border",
+   "herbaceous plant",
+   "herbaceous perennial"
+  ],
+  "theme": "garden"
  },
  {
   "w": "herbivore",
@@ -20756,6 +30009,33 @@ export const VOCAB = [
   "theme": "tourism"
  },
  {
+  "w": "hesitant",
+  "pos": "adjective",
+  "def": "pausing or slow to speak or act because of uncertainty or lack of confidence",
+  "defId": "berhenti sejenak atau lambat berbicara atau bertindak karena ragu atau kurang percaya diri",
+  "ex": "Her hesitant delivery made a strong argument sound far less convincing.",
+  "exId": "Penyampaiannya yang ragu-ragu membuat argumen yang kuat terdengar jauh kurang meyakinkan.",
+  "colloc": [
+   "hesitant delivery",
+   "sound hesitant",
+   "hesitant to speak"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "heterogeneous",
+  "pos": "adjective",
+  "def": "consisting of parts or people that are very different from one another",
+  "defId": "terdiri dari bagian atau orang yang sangat berbeda satu sama lain; heterogen",
+  "ex": "Modern cities tend to have highly heterogeneous populations.",
+  "exId": "Kota modern cenderung memiliki penduduk yang sangat heterogen.",
+  "colloc": [
+   "heterogeneous group",
+   "highly heterogeneous"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "heuristic",
   "pos": "noun",
   "def": "a mental shortcut that allows people to make quick decisions",
@@ -20768,6 +30048,19 @@ export const VOCAB = [
    "availability heuristic"
   ],
   "theme": "psychology"
+ },
+ {
+  "w": "hiatus",
+  "pos": "noun",
+  "def": "a pause or gap in a continuous activity or series",
+  "defId": "jeda; masa berhenti sementara",
+  "ex": "The band returned to touring after a five-year hiatus.",
+  "exId": "Band itu kembali menggelar tur setelah jeda selama lima tahun.",
+  "colloc": [
+   "brief hiatus",
+   "after a hiatus"
+  ],
+  "theme": "academic"
  },
  {
   "w": "hibernate",
@@ -20839,6 +30132,20 @@ export const VOCAB = [
   "theme": "urban"
  },
  {
+  "w": "highbrow",
+  "pos": "adjective",
+  "def": "intellectually sophisticated and appealing to cultivated tastes",
+  "defId": "canggih secara intelektual dan menarik bagi selera yang terpelajar",
+  "ex": "The festival mixes highbrow opera with popular street theatre.",
+  "exId": "Festival itu memadukan opera berselera tinggi dengan teater jalanan yang populer.",
+  "colloc": [
+   "highbrow culture",
+   "highbrow tastes",
+   "highbrow criticism"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "highlight",
   "pos": "verb",
   "def": "to draw special attention to something important",
@@ -20867,6 +30174,20 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "hilly",
+  "pos": "adjective",
+  "def": "having many hills and steep slopes",
+  "defId": "berbukit-bukit",
+  "ex": "The city is famously hilly, so be prepared for some steep climbs between the sights.",
+  "exId": "Kota itu terkenal berbukit-bukit, jadi bersiaplah untuk beberapa tanjakan curam di antara objek wisata.",
+  "colloc": [
+   "a hilly area",
+   "hilly terrain",
+   "a hilly landscape"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "hinder",
   "pos": "verb",
   "def": "to make it more difficult for something to happen or develop",
@@ -20879,6 +30200,47 @@ export const VOCAB = [
    "hinder development"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "hinge",
+  "pos": "noun",
+  "def": "a movable joint that allows a door, lid or gate to swing open and shut",
+  "defId": "engsel",
+  "ex": "The cupboard door squeaks because the hinge needs oiling.",
+  "exId": "Pintu lemari itu berderit karena engselnya perlu diminyaki.",
+  "colloc": [
+   "door hinge",
+   "oil the hinge"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "hinterland",
+  "pos": "noun",
+  "def": "the remote areas of a country lying beyond the coast or major cities",
+  "defId": "daerah terpencil suatu negara yang terletak di luar pesisir atau kota-kota besar",
+  "ex": "Few tourists venture into the rugged hinterland behind the resorts.",
+  "exId": "Sedikit wisatawan yang berani menjelajahi pedalaman terjal di balik resor-resor itu.",
+  "colloc": [
+   "a rural hinterland",
+   "a vast hinterland",
+   "the coastal hinterland"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "hiss",
+  "pos": "verb",
+  "def": "to make a sharp sound like a prolonged letter 's'",
+  "defId": "mendesis",
+  "ex": "The steam hissed loudly as it escaped from the old radiator.",
+  "exId": "Uap itu mendesis keras saat keluar dari radiator tua itu.",
+  "colloc": [
+   "a snake hisses",
+   "hiss softly",
+   "steam hissing"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "historian",
@@ -20936,6 +30298,19 @@ export const VOCAB = [
   "theme": "relationships"
  },
  {
+  "w": "hit the nail on the head",
+  "pos": "idiom",
+  "def": "to describe exactly what is causing a problem or to be exactly right",
+  "defId": "mengatakan sesuatu dengan sangat tepat; tepat sasaran",
+  "ex": "You really hit the nail on the head when you said the main issue is a lack of planning.",
+  "exId": "Kamu benar-benar tepat sasaran saat bilang masalah utamanya adalah kurangnya perencanaan.",
+  "colloc": [
+   "being exactly right",
+   "'you hit the nail on the head'"
+  ],
+  "theme": "idioms"
+ },
+ {
   "w": "hitchhike",
   "pos": "verb",
   "def": "to travel by getting free rides in other people's vehicles",
@@ -20947,6 +30322,19 @@ export const VOCAB = [
    "hitchhike home"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "hitherto",
+  "pos": "adverb",
+  "def": "until now or until the point being discussed",
+  "defId": "hingga kini",
+  "ex": "The discovery challenges a theory that was hitherto widely accepted.",
+  "exId": "Penemuan itu menantang teori yang hingga kini diterima secara luas.",
+  "colloc": [
+   "hitherto unknown",
+   "hitherto, ..."
+  ],
+  "theme": "academic"
  },
  {
   "w": "HMRC",
@@ -20961,6 +30349,47 @@ export const VOCAB = [
    "an HMRC tax code"
   ],
   "theme": "uk_money"
+ },
+ {
+  "w": "hoarding",
+  "pos": "n",
+  "def": "A large board on which advertisements are displayed, or a temporary fence around a building site.",
+  "defId": "Papan besar tempat memasang iklan, atau pagar sementara di sekeliling lokasi pembangunan.",
+  "ex": "A huge hoarding advertising the new shopping centre dominated the roundabout.",
+  "exId": "Papan reklame raksasa yang mengiklankan pusat perbelanjaan baru mendominasi bundaran itu.",
+  "colloc": [
+   "advertising hoarding",
+   "construction hoarding"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "hoarse",
+  "pos": "adjective",
+  "def": "sounding rough and harsh, especially the voice",
+  "defId": "serak; terdengar kasar dan parau, terutama suara",
+  "ex": "After shouting all match, his voice had become hoarse.",
+  "exId": "Setelah berteriak sepanjang pertandingan, suaranya menjadi serak.",
+  "colloc": [
+   "hoarse voice",
+   "go hoarse",
+   "hoarse whisper"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "hob",
+  "pos": "noun",
+  "def": "the flat top part of a cooker with rings or plates on which pans are heated",
+  "defId": "tungku atau bagian atas kompor",
+  "ex": "She left the sauce simmering on the hob while she chopped the vegetables.",
+  "exId": "Dia membiarkan sausnya mendidih pelan di atas kompor sambil memotong sayuran.",
+  "colloc": [
+   "a gas hob",
+   "an induction hob",
+   "on the hob"
+  ],
+  "theme": "household"
  },
  {
   "w": "hobby",
@@ -21032,6 +30461,20 @@ export const VOCAB = [
   "theme": "urban"
  },
  {
+  "w": "homemade",
+  "pos": "adjective",
+  "def": "made at home rather than bought from a shop or made in a factory",
+  "defId": "dibuat sendiri di rumah, bukan dibeli dari toko atau diproduksi di pabrik",
+  "ex": "Nothing beats a bowl of homemade soup made from fresh vegetables.",
+  "exId": "Tidak ada yang mengalahkan semangkuk sup buatan rumah dari sayuran segar.",
+  "colloc": [
+   "homemade bread",
+   "a homemade meal",
+   "freshly homemade"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "homemaker",
   "pos": "noun",
   "def": "a person who manages a household, especially one without a paid job outside the home",
@@ -21058,6 +30501,19 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "homework",
+  "pos": "noun",
+  "def": "school work that a pupil is required to do at home",
+  "defId": "pekerjaan sekolah yang harus dikerjakan murid di rumah",
+  "ex": "Teachers set homework to reinforce what has been learned in class.",
+  "exId": "Guru memberi pekerjaan rumah untuk memperkuat apa yang telah dipelajari di kelas.",
+  "colloc": [
+   "set homework",
+   "hand in homework"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "homicide",
   "pos": "noun",
   "def": "the crime of killing another person",
@@ -21069,6 +30525,19 @@ export const VOCAB = [
    "homicide detective"
   ],
   "theme": "crime"
+ },
+ {
+  "w": "homogeneous",
+  "pos": "adjective",
+  "def": "consisting of parts or people that are all the same kind",
+  "defId": "terdiri dari bagian atau orang yang semuanya sejenis; homogen",
+  "ex": "The town once had a homogeneous population, but it is now very diverse.",
+  "exId": "Kota itu dulunya berpenduduk homogen, tetapi kini sangat beragam.",
+  "colloc": [
+   "homogeneous group",
+   "culturally homogeneous"
+  ],
+  "theme": "academic"
  },
  {
   "w": "homogenisation",
@@ -21109,6 +30578,19 @@ export const VOCAB = [
    "honeymoon destination"
   ],
   "theme": "tourism"
+ },
+ {
+  "w": "hoover",
+  "pos": "verb",
+  "def": "to clean a floor or carpet using a vacuum cleaner",
+  "defId": "menyedot debu dengan vacuum",
+  "ex": "Could you hoover the living room before the visitors arrive?",
+  "exId": "Bisakah kamu menyedot debu ruang tamu sebelum para tamu datang?",
+  "colloc": [
+   "hoover the carpet",
+   "hoover the stairs"
+  ],
+  "theme": "household"
  },
  {
   "w": "hopeful",
@@ -21221,6 +30703,20 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "hotspot",
+  "pos": "noun",
+  "def": "a location or device that provides wireless internet access to nearby devices",
+  "defId": "lokasi atau perangkat yang menyediakan akses internet nirkabel ke perangkat di sekitarnya",
+  "ex": "I turned my phone into a hotspot so my laptop could get online on the train.",
+  "exId": "Saya mengubah ponsel saya menjadi hotspot agar laptop bisa daring di kereta.",
+  "colloc": [
+   "Wi-Fi hotspot",
+   "mobile hotspot",
+   "public hotspot"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "household",
   "pos": "noun",
   "def": "all the people who live together in one house",
@@ -21274,6 +30770,19 @@ export const VOCAB = [
    "hovercraft service"
   ],
   "theme": "transport"
+ },
+ {
+  "w": "however",
+  "pos": "adverb",
+  "def": "used to introduce a contrast with a previous statement",
+  "defId": "namun",
+  "ex": "The theory is elegant; however, it lacks empirical support.",
+  "exId": "Teori itu elegan; namun, teori itu kurang didukung bukti empiris.",
+  "colloc": [
+   "however, ...",
+   "; however,"
+  ],
+  "theme": "academic"
  },
  {
   "w": "hub",
@@ -21440,6 +30949,19 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "hustings",
+  "pos": "noun",
+  "def": "the campaign meetings and public events at which candidates present themselves to voters",
+  "defId": "kampanye pemilu; pertemuan dan acara publik tempat para kandidat memperkenalkan diri kepada pemilih",
+  "ex": "On the hustings, the candidates debated fiercely over the future of public services.",
+  "exId": "Dalam kampanye pemilu, para kandidat berdebat sengit tentang masa depan layanan publik.",
+  "colloc": [
+   "on the hustings",
+   "take to the hustings"
+  ],
+  "theme": "politics"
+ },
+ {
   "w": "hustle and bustle",
   "pos": "noun",
   "def": "the busy, noisy activity of a crowded place",
@@ -21451,6 +30973,20 @@ export const VOCAB = [
    "escape the hustle and bustle"
   ],
   "theme": "urban"
+ },
+ {
+  "w": "hybridise",
+  "pos": "verb",
+  "def": "to combine two different elements, such as cultures, into a single new form",
+  "defId": "menggabungkan dua unsur berbeda, seperti budaya, menjadi satu bentuk baru",
+  "ex": "Global cuisine often hybridises local ingredients with foreign cooking techniques.",
+  "exId": "Masakan global sering memadukan bahan lokal dengan teknik memasak asing.",
+  "colloc": [
+   "hybridise cultures",
+   "hybridise styles",
+   "hybridise traditions"
+  ],
+  "theme": "globalisation"
  },
  {
   "w": "hydrocarbon",
@@ -21615,6 +31151,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "hypothetically",
+  "pos": "adverb",
+  "def": "in a way that is imagined or assumed rather than real",
+  "defId": "secara hipotetis; andaikan",
+  "ex": "Hypothetically, if funding doubled, the programme could reach far more people.",
+  "exId": "Secara hipotetis, jika pendanaan digandakan, program itu bisa menjangkau jauh lebih banyak orang.",
+  "colloc": [
+   "hypothetically speaking",
+   "purely hypothetically",
+   "hypothetically possible"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "icebreaker",
   "pos": "noun",
   "def": "something you say or do to help people relax and start talking at a social event",
@@ -21653,6 +31203,19 @@ export const VOCAB = [
    "political idealism"
   ],
   "theme": "philosophy"
+ },
+ {
+  "w": "identical",
+  "pos": "adjective",
+  "def": "exactly the same in every detail",
+  "defId": "sama persis dalam setiap detail",
+  "ex": "The two independent reports reached almost identical conclusions.",
+  "exId": "Kedua laporan independen itu mencapai kesimpulan yang hampir sama persis.",
+  "colloc": [
+   "virtually identical",
+   "identical to"
+  ],
+  "theme": "academic"
  },
  {
   "w": "identity theft",
@@ -21696,6 +31259,34 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "idiomatic",
+  "pos": "adjective",
+  "def": "using expressions that are natural to a native speaker of a language",
+  "defId": "menggunakan ungkapan yang alami bagi penutur asli suatu bahasa",
+  "ex": "Her writing was grammatically correct but not always idiomatic English.",
+  "exId": "Tulisannya benar secara tata bahasa tetapi tidak selalu berbahasa Inggris yang alami.",
+  "colloc": [
+   "idiomatic English",
+   "idiomatic expression",
+   "sound idiomatic"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "idyllic",
+  "pos": "adjective",
+  "def": "perfectly peaceful, beautiful and pleasant",
+  "defId": "permai bagai surga",
+  "ex": "The whitewashed houses above an idyllic bay look like something from a postcard.",
+  "exId": "Rumah-rumah putih di atas teluk yang permai bagai surga itu tampak seperti dari kartu pos.",
+  "colloc": [
+   "an idyllic setting",
+   "an idyllic village",
+   "an idyllic retreat"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "ignition",
   "pos": "noun",
   "def": "the electrical system that starts a vehicle's engine",
@@ -21710,6 +31301,19 @@ export const VOCAB = [
   "theme": "transport"
  },
  {
+  "w": "illicit",
+  "pos": "adjective",
+  "def": "not allowed by law or by social rules; illegal",
+  "defId": "terlarang; gelap dan tidak sah menurut hukum",
+  "ex": "The police seized a large quantity of illicit drugs during the raid.",
+  "exId": "Polisi menyita sejumlah besar narkoba ilegal saat penggerebekan.",
+  "colloc": [
+   "illicit trade",
+   "illicit drugs"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "illiteracy",
   "pos": "noun",
   "def": "the inability to read or write",
@@ -21721,6 +31325,32 @@ export const VOCAB = [
    "reduce illiteracy"
   ],
   "theme": "language"
+ },
+ {
+  "w": "illuminate",
+  "pos": "verb",
+  "def": "to help to explain something or make it clearer",
+  "defId": "menjelaskan; menerangi",
+  "ex": "The study illuminates the link between diet and long-term health.",
+  "exId": "Studi itu menjelaskan hubungan antara pola makan dan kesehatan jangka panjang.",
+  "colloc": [
+   "illuminate the issue",
+   "illuminate a topic"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "illuminating",
+  "pos": "adjective",
+  "def": "helping to make something clearer and easier to understand",
+  "defId": "mencerahkan; memperjelas",
+  "ex": "The comparison with other countries is particularly illuminating.",
+  "exId": "Perbandingan dengan negara lain sangat mencerahkan.",
+  "colloc": [
+   "an illuminating example",
+   "an illuminating discussion"
+  ],
+  "theme": "academic"
  },
  {
   "w": "illustrate",
@@ -21749,6 +31379,34 @@ export const VOCAB = [
    "rich imagery"
   ],
   "theme": "literature"
+ },
+ {
+  "w": "imbalance",
+  "pos": "noun",
+  "def": "a situation in which two things are not equal or fairly distributed",
+  "defId": "keadaan ketika dua hal tidak seimbang atau tidak terbagi secara adil",
+  "ex": "The trade imbalance between the two nations has widened over the past decade.",
+  "exId": "Ketimpangan perdagangan antara kedua negara semakin melebar selama dekade terakhir.",
+  "colloc": [
+   "trade imbalance",
+   "power imbalance",
+   "address an imbalance"
+  ],
+  "theme": "globalisation"
+ },
+ {
+  "w": "immaculate",
+  "pos": "adjective",
+  "def": "perfectly clean, neat and tidy in appearance",
+  "defId": "sangat rapi dan tanpa cela",
+  "ex": "His suit was immaculate, without a single crease or stain.",
+  "exId": "Setelannya sangat rapi, tanpa satu pun kerutan atau noda.",
+  "colloc": [
+   "immaculate appearance",
+   "immaculately dressed",
+   "immaculate suit"
+  ],
+  "theme": "describe_people"
  },
  {
   "w": "immense",
@@ -21792,6 +31450,19 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "imminently",
+  "pos": "adverb",
+  "def": "in a way that is about to happen very soon",
+  "defId": "segera; dalam waktu yang sangat dekat",
+  "ex": "A decision on the proposed merger is expected imminently.",
+  "exId": "Keputusan mengenai penggabungan yang diusulkan diperkirakan segera diambil.",
+  "colloc": [
+   "expected imminently",
+   "loom imminently"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "immune",
   "pos": "adjective",
   "def": "protected against a disease so that you cannot catch it",
@@ -21831,6 +31502,60 @@ export const VOCAB = [
    "immunity to disease"
   ],
   "theme": "health"
+ },
+ {
+  "w": "impact",
+  "pos": "noun",
+  "def": "the powerful effect that something has on a situation or person",
+  "defId": "dampak; pengaruh",
+  "ex": "The new policy had a significant impact on small businesses.",
+  "exId": "Kebijakan baru itu memberikan dampak signifikan pada usaha kecil.",
+  "colloc": [
+   "a significant impact",
+   "have an impact on",
+   "environmental impact"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "impartial",
+  "pos": "adjective",
+  "def": "not favouring one side more than another; fair and neutral",
+  "defId": "tidak memihak; adil",
+  "ex": "An impartial review of the data found no evidence of fraud.",
+  "exId": "Tinjauan yang tidak memihak atas data itu tidak menemukan bukti kecurangan.",
+  "colloc": [
+   "an impartial observer",
+   "impartial assessment"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "impasto",
+  "pos": "noun",
+  "def": "paint applied so thickly that the brush or knife strokes stand out from the surface",
+  "defId": "cat yang diaplikasikan begitu tebal sehingga goresan kuas atau pisau menonjol dari permukaan",
+  "ex": "Van Gogh's thick impasto gives his skies a swirling, three-dimensional energy.",
+  "exId": "Impasto tebal Van Gogh memberi langitnya energi tiga dimensi yang berpusar.",
+  "colloc": [
+   "thick impasto",
+   "impasto technique",
+   "layers of impasto"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "impeachment",
+  "pos": "noun",
+  "def": "the formal process of charging a public official with serious misconduct while in office",
+  "defId": "pemakzulan; proses resmi mendakwa pejabat publik atas pelanggaran serius selama menjabat",
+  "ex": "The scandal led to impeachment proceedings against the president.",
+  "exId": "Skandal itu memicu proses pemakzulan terhadap presiden.",
+  "colloc": [
+   "impeachment proceedings",
+   "face impeachment"
+  ],
+  "theme": "politics"
  },
  {
   "w": "impede",
@@ -21913,6 +31638,33 @@ export const VOCAB = [
    "seem to imply"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "importantly",
+  "pos": "adverb",
+  "def": "used to emphasise a significant point",
+  "defId": "yang penting",
+  "ex": "More importantly, the reform improves access for low-income families.",
+  "exId": "Yang lebih penting, reformasi itu meningkatkan akses bagi keluarga berpenghasilan rendah.",
+  "colloc": [
+   "more importantly",
+   "importantly, ..."
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "imposing",
+  "pos": "adjective",
+  "def": "impressive and grand in size or appearance",
+  "defId": "megah menjulang dan mengesankan",
+  "ex": "An imposing stone cathedral dominates the skyline of the old city.",
+  "exId": "Sebuah katedral batu yang megah menjulang mendominasi cakrawala kota tua.",
+  "colloc": [
+   "an imposing building",
+   "an imposing facade",
+   "an imposing structure"
+  ],
+  "theme": "describe_places"
  },
  {
   "w": "impoverished",
@@ -22023,6 +31775,46 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "in a nutshell",
+  "pos": "idiom",
+  "def": "in a very brief way; using as few words as possible",
+  "defId": "secara singkat; dengan sedikit kata; intinya",
+  "ex": "In a nutshell, the plan is to cut costs and improve service.",
+  "exId": "Singkatnya, rencananya adalah menekan biaya dan meningkatkan layanan.",
+  "colloc": [
+   "summarising briefly",
+   "'in a nutshell, ...'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "in common",
+  "pos": "phrase",
+  "def": "shared by two or more people or things",
+  "defId": "dimiliki bersama oleh dua orang atau hal atau lebih",
+  "ex": "Despite their many differences, the two writers have a great deal in common.",
+  "exId": "Meskipun banyak perbedaan, kedua penulis itu memiliki banyak kesamaan.",
+  "colloc": [
+   "have in common",
+   "in common with"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "in favour of",
+  "pos": "phrase",
+  "def": "supporting or agreeing with a particular idea, plan or option",
+  "defId": "mendukung atau setuju dengan suatu gagasan atau pilihan tertentu",
+  "ex": "I am strongly in favour of making public transport free for students.",
+  "exId": "Saya sangat mendukung agar transportasi umum digratiskan bagi pelajar.",
+  "colloc": [
+   "strongly in favour of",
+   "argue in favour of",
+   "come out in favour of"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "in the black",
   "pos": "idiom",
   "def": "having money in your account and not owing any",
@@ -22076,6 +31868,45 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "inarticulate",
+  "pos": "adjective",
+  "def": "unable to express oneself clearly or fluently in words",
+  "defId": "tidak mampu mengungkapkan diri dengan jelas atau lancar melalui kata-kata",
+  "ex": "Overwhelmed by the question, he became inarticulate and could barely finish a sentence.",
+  "exId": "Kewalahan oleh pertanyaan itu, dia jadi terbata-bata dan hampir tak bisa menyelesaikan kalimat.",
+  "colloc": [
+   "inarticulate with rage",
+   "become inarticulate",
+   "inarticulate mumbling"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "inasmuch",
+  "pos": "adverb",
+  "def": "to the extent that; in that (usually 'inasmuch as')",
+  "defId": "sejauh",
+  "ex": "The policy is fair inasmuch as it treats all citizens equally.",
+  "exId": "Kebijakan itu adil sejauh ia memperlakukan semua warga secara setara.",
+  "colloc": [
+   "inasmuch as"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "inauguration",
+  "pos": "noun",
+  "def": "the formal ceremony marking the beginning of a leader's term of office",
+  "defId": "pelantikan; upacara resmi yang menandai dimulainya masa jabatan seorang pemimpin",
+  "ex": "Crowds gathered in the capital to witness the president's inauguration.",
+  "exId": "Kerumunan berkumpul di ibu kota untuk menyaksikan pelantikan presiden.",
+  "colloc": [
+   "inauguration ceremony",
+   "presidential inauguration"
+  ],
+  "theme": "politics"
+ },
+ {
   "w": "incarceration",
   "pos": "noun",
   "def": "the state of being kept in prison",
@@ -22103,6 +31934,45 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "incentivise",
+  "pos": "verb",
+  "def": "to motivate someone to act in a particular way by offering a reward or advantage",
+  "defId": "mendorong seseorang bertindak dengan cara tertentu melalui imbalan atau keuntungan",
+  "ex": "The company introduced bonuses to incentivise staff to hit their sales targets.",
+  "exId": "Perusahaan memperkenalkan bonus untuk memotivasi staf mencapai target penjualan mereka.",
+  "colloc": [
+   "incentivise staff",
+   "incentivise sales",
+   "financially incentivise"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "incessantly",
+  "pos": "adverb",
+  "def": "continuing without pause or interruption",
+  "defId": "tanpa henti; terus-menerus",
+  "ex": "The phone rang incessantly until she finally unplugged it.",
+  "exId": "Telepon berdering tanpa henti sampai akhirnya dia mencabutnya.",
+  "colloc": [
+   "talk incessantly",
+   "rain incessantly"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "incidentally",
+  "pos": "adverb",
+  "def": "used to introduce a related but less important point; by the way",
+  "defId": "sebagai catatan",
+  "ex": "The museum, incidentally, was founded by a former student.",
+  "exId": "Museum itu, sebagai catatan, didirikan oleh seorang mantan mahasiswa.",
+  "colloc": [
+   "incidentally, ..."
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "incineration",
   "pos": "noun",
   "def": "the burning of waste at high temperatures as a means of disposal",
@@ -22114,6 +31984,46 @@ export const VOCAB = [
    "incineration plant"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "incinerator",
+  "pos": "noun",
+  "def": "a furnace or device designed to burn waste materials at high temperatures.",
+  "defId": "tungku atau alat yang dirancang untuk membakar limbah pada suhu tinggi.",
+  "ex": "The city built a modern incinerator to burn household waste and generate electricity.",
+  "exId": "Kota itu membangun insinerator modern untuk membakar sampah rumah tangga dan menghasilkan listrik.",
+  "colloc": [
+   "waste incinerator",
+   "municipal incinerator",
+   "incinerator emissions"
+  ],
+  "theme": "environment"
+ },
+ {
+  "w": "incisive",
+  "pos": "adjective",
+  "def": "showing clear thought and getting quickly to the main point",
+  "defId": "tajam dan tepat sasaran",
+  "ex": "Her incisive analysis cut straight to the flaw in the argument.",
+  "exId": "Analisisnya yang tajam langsung menusuk kelemahan dalam argumen itu.",
+  "colloc": [
+   "an incisive analysis",
+   "incisive commentary"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "inclination",
+  "pos": "noun",
+  "def": "a natural tendency or feeling that makes someone likely to behave or think in a particular way",
+  "defId": "kecenderungan; kecondongan",
+  "ex": "Despite the risks, his inclination was always to trust people.",
+  "exId": "Meskipun ada risikonya, kecenderungannya selalu untuk memercayai orang.",
+  "colloc": [
+   "a natural inclination",
+   "have no inclination"
+  ],
+  "theme": "academic"
  },
  {
   "w": "incline",
@@ -22143,6 +32053,20 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "inclusivity",
+  "pos": "noun",
+  "def": "the practice of ensuring that all kinds of people feel welcomed and valued",
+  "defId": "inklusivitas; upaya memastikan semua kalangan merasa diterima dan dihargai",
+  "ex": "The school promotes inclusivity by celebrating the many cultures of its pupils.",
+  "exId": "Sekolah itu mendorong inklusivitas dengan merayakan beragam budaya murid-muridnya.",
+  "colloc": [
+   "promote inclusivity",
+   "greater inclusivity",
+   "a culture of inclusivity"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "income",
   "pos": "noun",
   "def": "the money a person receives regularly, usually from work or investments",
@@ -22155,6 +32079,20 @@ export const VOCAB = [
    "monthly income"
   ],
   "theme": "money"
+ },
+ {
+  "w": "inconclusive",
+  "pos": "adjective",
+  "def": "not leading to a clear or definite result",
+  "defId": "tidak meyakinkan; tidak konklusif",
+  "ex": "The evidence on this issue remains largely inconclusive.",
+  "exId": "Bukti mengenai isu ini masih sebagian besar tidak meyakinkan.",
+  "colloc": [
+   "inconclusive results",
+   "inconclusive evidence",
+   "remain inconclusive"
+  ],
+  "theme": "academic"
  },
  {
   "w": "incorporate",
@@ -22213,6 +32151,20 @@ export const VOCAB = [
   "theme": "politics"
  },
  {
+  "w": "indebted",
+  "pos": "adjective",
+  "def": "Owing money; in debt.",
+  "defId": "Berutang; menanggung utang.",
+  "ex": "Many students remain heavily indebted for years after graduating.",
+  "exId": "Banyak mahasiswa tetap terlilit utang berat selama bertahun-tahun setelah lulus.",
+  "colloc": [
+   "heavily indebted",
+   "deeply indebted",
+   "an indebted nation"
+  ],
+  "theme": "economy"
+ },
+ {
   "w": "indecisive",
   "pos": "adjective",
   "def": "unable to make decisions quickly or easily",
@@ -22222,6 +32174,46 @@ export const VOCAB = [
   "colloc": [
    "notoriously indecisive",
    "indecisive about"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "indeed",
+  "pos": "adverb",
+  "def": "used to emphasise or confirm a statement, often adding a stronger one",
+  "defId": "memang",
+  "ex": "The results are impressive; indeed, they exceed all expectations.",
+  "exId": "Hasilnya mengesankan; memang, hasilnya melampaui semua harapan.",
+  "colloc": [
+   "indeed, ...",
+   "very ... indeed"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "indemnify",
+  "pos": "verb",
+  "def": "to promise to pay someone for any loss or damage they suffer",
+  "defId": "mengganti rugi; menjamin ganti rugi atas kerugian",
+  "ex": "The clause requires the company to indemnify its clients against any legal costs.",
+  "exId": "Klausul itu mewajibkan perusahaan untuk mengganti rugi kliennya atas segala biaya hukum.",
+  "colloc": [
+   "indemnify against",
+   "indemnify a party"
+  ],
+  "theme": "law"
+ },
+ {
+  "w": "indicate",
+  "pos": "verb",
+  "def": "to show or point to something, often as evidence",
+  "defId": "menunjukkan; mengindikasikan",
+  "ex": "Recent studies indicate a clear link between sleep and productivity.",
+  "exId": "Studi terbaru menunjukkan adanya kaitan yang jelas antara tidur dan produktivitas.",
+  "colloc": [
+   "data indicate",
+   "clearly indicate",
+   "seem to indicate"
   ],
   "theme": "academic"
  },
@@ -22307,6 +32299,46 @@ export const VOCAB = [
   "theme": "emotion"
  },
  {
+  "w": "indispensable",
+  "pos": "adjective",
+  "def": "so important or useful that it is impossible to manage without",
+  "defId": "sangat diperlukan; mutlak perlu",
+  "ex": "The internet has become indispensable to modern research.",
+  "exId": "Internet telah menjadi sesuatu yang mutlak diperlukan dalam penelitian modern.",
+  "colloc": [
+   "indispensable tool",
+   "absolutely indispensable"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "indisputable",
+  "pos": "adjective",
+  "def": "so certain that it cannot be argued against",
+  "defId": "tak terbantahkan; tak tersangkal",
+  "ex": "The link between smoking and cancer is now indisputable.",
+  "exId": "Kaitan antara merokok dan kanker kini tak terbantahkan.",
+  "colloc": [
+   "indisputable fact",
+   "indisputable proof",
+   "virtually indisputable"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "indistinguishable",
+  "pos": "adjective",
+  "def": "impossible to tell apart because of being so similar",
+  "defId": "tidak dapat dibedakan karena sangat mirip",
+  "ex": "The forgery is virtually indistinguishable from the original painting.",
+  "exId": "Pemalsuan itu hampir tak dapat dibedakan dari lukisan aslinya.",
+  "colloc": [
+   "indistinguishable from",
+   "virtually indistinguishable"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "induce",
   "pos": "verb",
   "def": "to cause a particular condition, reaction, or state to happen",
@@ -22332,6 +32364,20 @@ export const VOCAB = [
    "induction session"
   ],
   "theme": "education"
+ },
+ {
+  "w": "indulgent",
+  "pos": "adjective",
+  "def": "of food, rich and luxurious, often eaten as a treat rather than for nourishment",
+  "defId": "tentang makanan, kaya dan mewah, sering disantap sebagai kesenangan alih-alih untuk gizi",
+  "ex": "A slice of that indulgent chocolate torte is my favourite weekend treat.",
+  "exId": "Sepotong torte cokelat yang mewah itu adalah kesenangan akhir pekan favorit saya.",
+  "colloc": [
+   "an indulgent dessert",
+   "an indulgent treat",
+   "rich and indulgent"
+  ],
+  "theme": "food"
  },
  {
   "w": "industrialisation",
@@ -22361,6 +32407,20 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "inequity",
+  "pos": "noun",
+  "def": "a situation of unfairness in the way people are treated or resources are shared",
+  "defId": "ketidakadilan; kondisi tidak adil dalam perlakuan terhadap orang atau pembagian sumber daya",
+  "ex": "Campaigners highlighted the glaring inequity in access to healthcare.",
+  "exId": "Para pegiat menyoroti ketidakadilan mencolok dalam akses layanan kesehatan.",
+  "colloc": [
+   "glaring inequity",
+   "address inequity",
+   "social inequity"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "inert",
   "pos": "adjective",
   "def": "chemically inactive and not reacting easily with other substances",
@@ -22370,6 +32430,20 @@ export const VOCAB = [
   "colloc": [
    "inert gas",
    "chemically inert"
+  ],
+  "theme": "science"
+ },
+ {
+  "w": "inertia",
+  "pos": "n",
+  "def": "the tendency of an object to resist a change in its motion",
+  "defId": "kecenderungan benda untuk menolak perubahan gerak",
+  "ex": "A heavy trolley has greater inertia and is harder to stop.",
+  "exId": "Troli yang berat memiliki inersia lebih besar dan lebih sulit dihentikan.",
+  "colloc": [
+   "law of inertia",
+   "overcome inertia",
+   "greater inertia"
   ],
   "theme": "science"
  },
@@ -22468,6 +32542,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "inflamed",
+  "pos": "adjective",
+  "def": "red, hot, and swollen because of infection or injury",
+  "defId": "merah, panas, dan bengkak karena infeksi atau cedera",
+  "ex": "The doctor said the wound had become inflamed and prescribed antibiotics.",
+  "exId": "Dokter mengatakan lukanya menjadi meradang dan meresepkan antibiotik.",
+  "colloc": [
+   "inflamed skin",
+   "become inflamed",
+   "inflamed joint"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "inflammation",
   "pos": "noun",
   "def": "redness, swelling and pain in a part of the body caused by injury or infection",
@@ -22509,6 +32597,20 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "influence",
+  "pos": "noun",
+  "def": "the power to affect the way something develops or how someone behaves",
+  "defId": "pengaruh",
+  "ex": "Advertising has a strong influence on consumer behaviour.",
+  "exId": "Iklan memiliki pengaruh yang kuat terhadap perilaku konsumen.",
+  "colloc": [
+   "a strong influence",
+   "influence on",
+   "exert influence"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "influencer",
   "pos": "noun",
   "def": "a person who affects others' opinions or buying through social media",
@@ -22521,6 +32623,19 @@ export const VOCAB = [
    "influencer marketing"
   ],
   "theme": "media"
+ },
+ {
+  "w": "influential",
+  "pos": "adjective",
+  "def": "having a strong effect on people's ideas or actions",
+  "defId": "berpengaruh",
+  "ex": "The book became one of the most influential texts in modern philosophy.",
+  "exId": "Buku itu menjadi salah satu teks paling berpengaruh dalam filsafat modern.",
+  "colloc": [
+   "highly influential",
+   "an influential figure"
+  ],
+  "theme": "academic"
  },
  {
   "w": "influx",
@@ -22577,6 +32692,33 @@ export const VOCAB = [
   "theme": "urban"
  },
  {
+  "w": "infringe",
+  "pos": "verb",
+  "def": "to break a law or rule, or to limit someone's rights",
+  "defId": "melanggar hukum atau aturan; menyalahi hak seseorang",
+  "ex": "The new surveillance powers could infringe citizens' right to privacy.",
+  "exId": "Kewenangan pengawasan yang baru dapat melanggar hak privasi warga.",
+  "colloc": [
+   "infringe a right",
+   "infringe copyright"
+  ],
+  "theme": "law"
+ },
+ {
+  "w": "ingenuity",
+  "pos": "noun",
+  "def": "the quality of being clever, original, and inventive in solving problems",
+  "defId": "kecerdikan; kualitas cerdas, orisinal, dan penuh akal dalam memecahkan masalah",
+  "ex": "Solving the escape-room puzzle required real ingenuity.",
+  "exId": "Memecahkan teka-teki escape room itu membutuhkan kecerdikan yang nyata.",
+  "colloc": [
+   "human ingenuity",
+   "require ingenuity",
+   "technical ingenuity"
+  ],
+  "theme": "psychology"
+ },
+ {
   "w": "ingredient",
   "pos": "noun",
   "def": "one of the foods that are combined to make a particular dish",
@@ -22617,6 +32759,20 @@ export const VOCAB = [
    "inhale smoke"
   ],
   "theme": "body"
+ },
+ {
+  "w": "inhaler",
+  "pos": "noun",
+  "def": "a small device used to breathe in medicine, especially for asthma",
+  "defId": "alat kecil untuk menghirup obat, terutama untuk asma",
+  "ex": "She always carries an inhaler in case she has an asthma attack.",
+  "exId": "Ia selalu membawa inhaler untuk berjaga-jaga jika serangan asma datang.",
+  "colloc": [
+   "use an inhaler",
+   "an asthma inhaler",
+   "reach for an inhaler"
+  ],
+  "theme": "health"
  },
  {
   "w": "inherent",
@@ -22756,6 +32912,20 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "innuendo",
+  "pos": "noun",
+  "def": "an indirect remark that hints at something rude, critical, or suggestive",
+  "defId": "ucapan tidak langsung yang menyiratkan sesuatu yang kasar, kritis, atau berkonotasi",
+  "ex": "Rather than accuse anyone openly, she relied on innuendo to make her point.",
+  "exId": "Alih-alih menuduh secara terbuka, dia menggunakan sindiran untuk menyampaikan maksudnya.",
+  "colloc": [
+   "sexual innuendo",
+   "veiled innuendo",
+   "full of innuendo"
+  ],
+  "theme": "language"
+ },
+ {
   "w": "inoculate",
   "pos": "verb",
   "def": "to protect against a disease by introducing a vaccine into the body",
@@ -22765,6 +32935,20 @@ export const VOCAB = [
   "colloc": [
    "inoculate against disease",
    "inoculate children"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "inpatient",
+  "pos": "noun",
+  "def": "a patient who stays in hospital while receiving treatment",
+  "defId": "pasien yang menginap di rumah sakit selama menerima perawatan",
+  "ex": "He was admitted as an inpatient and spent five nights on the ward.",
+  "exId": "Ia dirawat sebagai pasien rawat inap dan menghabiskan lima malam di bangsal.",
+  "colloc": [
+   "inpatient care",
+   "admitted as an inpatient",
+   "inpatient treatment"
   ],
   "theme": "health"
  },
@@ -22824,6 +33008,19 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "insightful",
+  "pos": "adjective",
+  "def": "showing a deep and accurate understanding of something",
+  "defId": "penuh wawasan mendalam",
+  "ex": "Her insightful critique exposed the hidden assumptions in the theory.",
+  "exId": "Kritiknya yang penuh wawasan mengungkap asumsi tersembunyi dalam teori itu.",
+  "colloc": [
+   "an insightful analysis",
+   "insightful comment"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "insignificant",
   "pos": "adjective",
   "def": "too small or unimportant to be worth considering",
@@ -22834,6 +33031,32 @@ export const VOCAB = [
    "insignificant amount",
    "statistically insignificant",
    "seemingly insignificant"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "insist",
+  "pos": "verb",
+  "def": "to state or demand something firmly and refuse to accept any other view",
+  "defId": "menegaskan atau bersikeras dengan tegas",
+  "ex": "I would insist that hard work matters more than natural talent in the long run.",
+  "exId": "Saya akan menegaskan bahwa kerja keras lebih penting daripada bakat alami dalam jangka panjang.",
+  "colloc": [
+   "insist that",
+   "strongly insist",
+   "insist on"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "insofar",
+  "pos": "adverb",
+  "def": "to the extent that (usually 'insofar as')",
+  "defId": "sejauh",
+  "ex": "The theory is useful insofar as it explains everyday behaviour.",
+  "exId": "Teori itu berguna sejauh ia mampu menjelaskan perilaku sehari-hari.",
+  "colloc": [
+   "insofar as"
   ],
   "theme": "academic"
  },
@@ -22850,6 +33073,20 @@ export const VOCAB = [
    "insolvency proceedings"
   ],
   "theme": "business"
+ },
+ {
+  "w": "insolvent",
+  "pos": "adjective",
+  "def": "Unable to pay debts owed because liabilities exceed assets.",
+  "defId": "Tak mampu bayar/bangkrut; tidak dapat melunasi utang karena kewajiban melebihi aset.",
+  "ex": "The airline was declared insolvent after failing to repay its lenders.",
+  "exId": "Maskapai itu dinyatakan bangkrut setelah gagal membayar para krediturnya.",
+  "colloc": [
+   "declared insolvent",
+   "become insolvent",
+   "technically insolvent"
+  ],
+  "theme": "economy"
  },
  {
   "w": "insomnia",
@@ -22891,6 +33128,20 @@ export const VOCAB = [
    "first instalment"
   ],
   "theme": "shopping"
+ },
+ {
+  "w": "instigate",
+  "pos": "verb",
+  "def": "to cause an event or situation to happen, often something bad",
+  "defId": "menghasut; memprakarsai",
+  "ex": "A small group of activists instigated the reforms that followed.",
+  "exId": "Sekelompok kecil aktivis memprakarsai reformasi yang menyusul kemudian.",
+  "colloc": [
+   "instigate change",
+   "instigate a revolt",
+   "instigate reforms"
+  ],
+  "theme": "academic"
  },
  {
   "w": "instinct",
@@ -22977,6 +33228,19 @@ export const VOCAB = [
   "theme": "conflict"
  },
  {
+  "w": "integral",
+  "pos": "adjective",
+  "def": "forming an essential part of something and necessary to it",
+  "defId": "tak terpisahkan; menyatu",
+  "ex": "Feedback is an integral part of the learning process.",
+  "exId": "Umpan balik merupakan bagian tak terpisahkan dari proses belajar.",
+  "colloc": [
+   "an integral part",
+   "integral to the design"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "integrate",
   "pos": "verb",
   "def": "to combine two or more things so they work together as one system",
@@ -23047,6 +33311,46 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "interchange",
+  "pos": "n",
+  "def": "A large junction where motorways meet, or a station where passengers change lines.",
+  "defId": "Persimpangan besar tempat jalan tol bertemu, atau stasiun tempat penumpang berganti jalur.",
+  "ex": "The new transport interchange links the buses, trams and trains under one roof.",
+  "exId": "Titik pertukaran transportasi baru itu menghubungkan bus, trem, dan kereta dalam satu atap.",
+  "colloc": [
+   "transport interchange",
+   "motorway interchange"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "interchangeable",
+  "pos": "adjective",
+  "def": "so similar that one can be used in place of the other",
+  "defId": "begitu mirip sehingga yang satu bisa dipakai menggantikan yang lain; dapat dipertukarkan",
+  "ex": "The two words are so close in meaning that they are almost interchangeable.",
+  "exId": "Kedua kata itu begitu dekat maknanya sehingga hampir dapat dipertukarkan.",
+  "colloc": [
+   "virtually interchangeable",
+   "interchangeable terms"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "interconnected",
+  "pos": "adjective",
+  "def": "linked or related so that each part affects the others",
+  "defId": "saling terhubung sehingga tiap bagian saling memengaruhi",
+  "ex": "In an interconnected world economy, a banking crisis in one country can trigger recessions elsewhere.",
+  "exId": "Dalam ekonomi dunia yang saling terhubung, krisis perbankan di satu negara dapat memicu resesi di tempat lain.",
+  "colloc": [
+   "interconnected world",
+   "deeply interconnected",
+   "interconnected markets"
+  ],
+  "theme": "globalisation"
+ },
+ {
   "w": "interdependence",
   "pos": "noun",
   "def": "a situation in which people, countries or things rely on each other",
@@ -23101,6 +33405,19 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "interim",
+  "pos": "adjective",
+  "def": "intended to last only for a short time until something permanent is arranged",
+  "defId": "sementara; interim; untuk sementara waktu",
+  "ex": "An interim manager was appointed while the search for a replacement continued.",
+  "exId": "Seorang manajer sementara ditunjuk sementara pencarian pengganti berlanjut.",
+  "colloc": [
+   "interim measure",
+   "interim report"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "interior",
   "pos": "noun",
   "def": "The inside part or space of a building.",
@@ -23115,6 +33432,34 @@ export const VOCAB = [
   "theme": "architecture"
  },
  {
+  "w": "interject",
+  "pos": "verb",
+  "def": "to interrupt a conversation by adding a short remark",
+  "defId": "menyela percakapan dengan menambahkan komentar singkat",
+  "ex": "She waited for a pause before daring to interject with a brief question.",
+  "exId": "Dia menunggu jeda sebelum berani menyela dengan pertanyaan singkat.",
+  "colloc": [
+   "interject a comment",
+   "interject briefly",
+   "interject a remark"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "intermediary",
+  "pos": "noun",
+  "def": "a person or organisation that acts as a link between two parties in a transaction",
+  "defId": "pihak atau organisasi yang menjadi penghubung antara dua pihak dalam suatu transaksi",
+  "ex": "The broker serves as an intermediary between buyers and sellers, taking a small commission.",
+  "exId": "Pialang itu bertindak sebagai perantara antara pembeli dan penjual dengan mengambil komisi kecil.",
+  "colloc": [
+   "financial intermediary",
+   "act as an intermediary",
+   "trusted intermediary"
+  ],
+  "theme": "business"
+ },
+ {
   "w": "intermittent",
   "pos": "adjective",
   "def": "stopping and starting at irregular intervals; not continuous",
@@ -23127,6 +33472,32 @@ export const VOCAB = [
    "intermittent failures"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "intermittently",
+  "pos": "adverb",
+  "def": "happening at irregular intervals, not continuously",
+  "defId": "sesekali; hilang timbul; terputus-putus",
+  "ex": "The rain fell intermittently throughout the afternoon.",
+  "exId": "Hujan turun sesekali sepanjang sore itu.",
+  "colloc": [
+   "rain intermittently",
+   "work intermittently"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "internalise",
+  "pos": "verb",
+  "def": "to make an idea, value, or way of behaving part of your own thinking through learning or experience",
+  "defId": "menyerap dan menjadikan suatu gagasan atau nilai sebagai bagian dari diri sendiri",
+  "ex": "Good language teaching helps students internalise grammar rules rather than memorising them mechanically.",
+  "exId": "Pengajaran bahasa yang baik membantu siswa menyerap aturan tata bahasa alih-alih menghafalnya secara mekanis.",
+  "colloc": [
+   "internalise values",
+   "internalise the rules"
+  ],
+  "theme": "education"
  },
  {
   "w": "Internet of Things",
@@ -23169,6 +33540,33 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "interplay",
+  "pos": "noun",
+  "def": "the way in which two or more things affect or influence each other",
+  "defId": "keterkaitan; interaksi timbal balik",
+  "ex": "Human behaviour results from the interplay of genes and environment.",
+  "exId": "Perilaku manusia muncul dari keterkaitan antara gen dan lingkungan.",
+  "colloc": [
+   "the interplay of",
+   "complex interplay"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "interpolate",
+  "pos": "v",
+  "def": "to estimate a value that lies between two known values",
+  "defId": "memperkirakan nilai yang terletak di antara dua nilai yang diketahui",
+  "ex": "The software interpolates the missing points between the two readings.",
+  "exId": "Perangkat lunak itu menginterpolasi titik-titik yang hilang di antara dua pembacaan.",
+  "colloc": [
+   "interpolate values",
+   "interpolate between points",
+   "linearly interpolate"
+  ],
+  "theme": "science"
+ },
+ {
   "w": "interpret",
   "pos": "verb",
   "def": "to explain the meaning of something, or to translate speech from one language to another",
@@ -23181,6 +33579,19 @@ export const VOCAB = [
    "interpret a language"
   ],
   "theme": "language"
+ },
+ {
+  "w": "interpreter",
+  "pos": "noun",
+  "def": "a person who orally translates speech from one language into another as it is spoken",
+  "defId": "juru bahasa",
+  "ex": "An interpreter helped the witness give evidence in court.",
+  "exId": "Seorang juru bahasa membantu saksi memberikan keterangan di pengadilan.",
+  "colloc": [
+   "court interpreter",
+   "sign-language interpreter"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "interrogation",
@@ -23223,6 +33634,19 @@ export const VOCAB = [
    "interstellar dust"
   ],
   "theme": "space"
+ },
+ {
+  "w": "interval",
+  "pos": "noun",
+  "def": "a period of time between two events or points",
+  "defId": "selang waktu; jeda; interval",
+  "ex": "Buses depart at regular intervals of fifteen minutes.",
+  "exId": "Bus berangkat pada interval teratur setiap lima belas menit.",
+  "colloc": [
+   "at regular intervals",
+   "short interval"
+  ],
+  "theme": "academic"
  },
  {
   "w": "intimacy",
@@ -23279,6 +33703,20 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "intricate",
+  "pos": "adjective",
+  "def": "having many small, complex details arranged in a delicate way",
+  "defId": "rumit; berdetail halus",
+  "ex": "The carpet was woven with an intricate pattern of interlocking shapes.",
+  "exId": "Karpet itu ditenun dengan motif rumit berupa bentuk-bentuk yang saling mengunci.",
+  "colloc": [
+   "intricate pattern",
+   "intricate detail",
+   "intricate design"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "introspection",
   "pos": "noun",
   "def": "the careful examination of your own thoughts and feelings",
@@ -23320,6 +33758,20 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "intuitive",
+  "pos": "adjective",
+  "def": "easy to use and understand without needing much instruction or training",
+  "defId": "mudah digunakan dan dipahami tanpa perlu banyak petunjuk atau pelatihan",
+  "ex": "The interface is so intuitive that my grandmother learned it in minutes.",
+  "exId": "Antarmukanya begitu intuitif sehingga nenek saya menguasainya dalam hitungan menit.",
+  "colloc": [
+   "intuitive interface",
+   "intuitive design",
+   "remarkably intuitive"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "invalidate",
   "pos": "verb",
   "def": "to prove that an argument, theory, or conclusion is wrong or not valid",
@@ -23329,6 +33781,19 @@ export const VOCAB = [
   "colloc": [
    "invalidate a claim",
    "invalidate the results"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "invariably",
+  "pos": "adverb",
+  "def": "always; in every case, without exception",
+  "defId": "selalu",
+  "ex": "Such projects invariably run over budget and behind schedule.",
+  "exId": "Proyek semacam itu selalu melebihi anggaran dan terlambat dari jadwal.",
+  "colloc": [
+   "invariably, ...",
+   "almost invariably"
   ],
   "theme": "academic"
  },
@@ -23345,6 +33810,20 @@ export const VOCAB = [
    "to repel an invasion"
   ],
   "theme": "history"
+ },
+ {
+  "w": "invasive",
+  "pos": "adjective",
+  "def": "(of a plant or animal) tending to spread aggressively and harm native species.",
+  "defId": "(tentang tumbuhan atau hewan) cenderung menyebar secara agresif dan merugikan spesies asli.",
+  "ex": "The invasive weed has choked native plants along the entire riverbank.",
+  "exId": "Gulma invasif itu telah menghimpit tanaman asli di sepanjang tepi sungai.",
+  "colloc": [
+   "invasive species",
+   "invasive plant",
+   "highly invasive"
+  ],
+  "theme": "environment"
  },
  {
   "w": "inventory",
@@ -23416,6 +33895,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "inviting",
+  "pos": "adjective",
+  "def": "attractive and tempting to enter or spend time in",
+  "defId": "mengundang dan menggoda untuk disinggahi",
+  "ex": "Soft lighting and comfortable sofas make the café feel warm and inviting.",
+  "exId": "Pencahayaan lembut dan sofa yang nyaman membuat kafe itu terasa hangat dan mengundang.",
+  "colloc": [
+   "an inviting space",
+   "an inviting atmosphere",
+   "look inviting"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "invoice",
   "pos": "noun",
   "def": "A document that lists goods or services provided and asks for payment.",
@@ -23444,6 +33937,33 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "iridescent",
+  "pos": "adjective",
+  "def": "showing shifting rainbow colours when seen from different angles",
+  "defId": "berkilau warna-warni yang berubah bila dilihat dari sudut berbeda",
+  "ex": "The iridescent wings of the beetle shimmered green and blue.",
+  "exId": "Sayap kumbang yang berkilau warna-warni itu memancarkan hijau dan biru.",
+  "colloc": [
+   "iridescent sheen",
+   "iridescent colours",
+   "iridescent scales"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "iron",
+  "pos": "noun",
+  "def": "a hand-held appliance with a flat heated base used to smooth creases out of clothes",
+  "defId": "setrika",
+  "ex": "Be careful, the iron is still hot from pressing those shirts.",
+  "exId": "Hati-hati, setrikanya masih panas bekas menyetrika kemeja-kemeja itu.",
+  "colloc": [
+   "a steam iron",
+   "a hot iron"
+  ],
+  "theme": "household"
+ },
+ {
   "w": "irrational",
   "pos": "adjective",
   "def": "not based on clear thinking or reason",
@@ -23455,6 +33975,20 @@ export const VOCAB = [
    "irrational behaviour"
   ],
   "theme": "psychology"
+ },
+ {
+  "w": "irrefutable",
+  "pos": "adjective",
+  "def": "impossible to prove wrong; completely certain",
+  "defId": "tak terbantahkan",
+  "ex": "The prosecution presented irrefutable evidence of fraud.",
+  "exId": "Pihak penuntut menyajikan bukti penipuan yang tak terbantahkan.",
+  "colloc": [
+   "irrefutable evidence",
+   "irrefutable proof",
+   "irrefutable argument"
+  ],
+  "theme": "academic"
  },
  {
   "w": "irrigation",
@@ -23485,6 +34019,20 @@ export const VOCAB = [
   "theme": "uk_money"
  },
  {
+  "w": "isolated",
+  "pos": "adjective",
+  "def": "far from other places and difficult to reach",
+  "defId": "terpencil dan terisolasi",
+  "ex": "The farmhouse is so isolated that the nearest shop is an hour's drive away.",
+  "exId": "Rumah pertanian itu begitu terpencil sehingga toko terdekat berjarak satu jam berkendara.",
+  "colloc": [
+   "an isolated village",
+   "an isolated location",
+   "isolated communities"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "isotope",
   "pos": "noun",
   "def": "one of two or more forms of a chemical element that differ in their number of neutrons",
@@ -23511,6 +34059,34 @@ export const VOCAB = [
   "theme": "nature"
  },
  {
+  "w": "itchy",
+  "pos": "adjective",
+  "def": "having or producing an uncomfortable feeling that makes you want to scratch",
+  "defId": "terasa gatal sehingga ingin menggaruk",
+  "ex": "The insect bites on my legs were red and itchy all night.",
+  "exId": "Gigitan serangga di kaki saya merah dan gatal sepanjang malam.",
+  "colloc": [
+   "itchy skin",
+   "an itchy rash",
+   "itchy eyes"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "iteration",
+  "pos": "noun",
+  "def": "a repeated version of a product refined through successive rounds of improvement",
+  "defId": "versi berulang dari suatu produk yang disempurnakan melalui putaran perbaikan berturut",
+  "ex": "Each iteration of the app addressed feedback gathered from the previous release.",
+  "exId": "Setiap iterasi aplikasi itu menanggapi masukan yang dikumpulkan dari rilis sebelumnya.",
+  "colloc": [
+   "next iteration",
+   "rapid iteration",
+   "product iteration"
+  ],
+  "theme": "business"
+ },
+ {
   "w": "itinerary",
   "pos": "noun",
   "def": "a detailed plan or schedule of a journey, showing the route and places to visit",
@@ -23523,6 +34099,20 @@ export const VOCAB = [
    "travel itinerary"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "ivy",
+  "pos": "noun",
+  "def": "an evergreen climbing plant with shiny, dark green leaves that clings to walls and trees",
+  "defId": "tanaman ivi (sejenis tanaman merambat)",
+  "ex": "Thick ivy had climbed up and covered the entire brick wall.",
+  "exId": "Ivi yang lebat telah merambat menutupi seluruh dinding bata.",
+  "colloc": [
+   "climbing ivy",
+   "ivy-covered wall",
+   "dense ivy"
+  ],
+  "theme": "garden"
  },
  {
   "w": "jab",
@@ -23539,6 +34129,20 @@ export const VOCAB = [
   "theme": "uk_health"
  },
  {
+  "w": "jagged",
+  "pos": "adjective",
+  "def": "having a rough, uneven edge with sharp points",
+  "defId": "bergerigi; kasar dan tajam tak beraturan",
+  "ex": "The broken glass left a jagged edge along the window frame.",
+  "exId": "Pecahan kaca itu meninggalkan tepi bergerigi di sepanjang bingkai jendela.",
+  "colloc": [
+   "jagged edge",
+   "jagged rocks",
+   "jagged outline"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "jargon",
   "pos": "noun",
   "def": "special words used by a particular profession or group that are hard for others to understand",
@@ -23551,6 +34155,20 @@ export const VOCAB = [
    "full of jargon"
   ],
   "theme": "language"
+ },
+ {
+  "w": "jaunt",
+  "pos": "noun",
+  "def": "a short journey taken for pleasure",
+  "defId": "perjalanan singkat yang dilakukan untuk bersenang-senang",
+  "ex": "We took a quick jaunt to the coast before the weather turned.",
+  "exId": "Kami melakukan perjalanan singkat ke pantai sebelum cuaca berubah.",
+  "colloc": [
+   "a little jaunt",
+   "a weekend jaunt",
+   "go on a jaunt"
+  ],
+  "theme": "travel"
  },
  {
   "w": "jealousy",
@@ -23591,6 +34209,20 @@ export const VOCAB = [
    "jet-setter lifestyle"
   ],
   "theme": "tourism"
+ },
+ {
+  "w": "jetty",
+  "pos": "noun",
+  "def": "a small landing pier where boats can be tied up",
+  "defId": "dermaga kecil tempat perahu dapat ditambatkan",
+  "ex": "We waited on the jetty for the ferry to arrive.",
+  "exId": "Kami menunggu di dermaga kecil sampai kapal feri tiba.",
+  "colloc": [
+   "a wooden jetty",
+   "stand on the jetty",
+   "tie up at the jetty"
+  ],
+  "theme": "travel"
  },
  {
   "w": "jigsaw",
@@ -23662,6 +34294,20 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "jobseeker",
+  "pos": "noun",
+  "def": "A person who is unemployed and looking for a job.",
+  "defId": "pencari kerja; orang yang sedang menganggur dan mencari pekerjaan",
+  "ex": "The website offers advice to help every jobseeker write a stronger CV.",
+  "exId": "Situs web itu menawarkan saran untuk membantu setiap pencari kerja menulis CV yang lebih baik.",
+  "colloc": [
+   "a young jobseeker",
+   "help jobseekers",
+   "jobseeker's allowance"
+  ],
+  "theme": "work"
+ },
+ {
   "w": "joint",
   "pos": "noun",
   "def": "a place where two bones meet, allowing the body to bend and move",
@@ -23674,6 +34320,20 @@ export const VOCAB = [
    "joint pain"
   ],
   "theme": "body"
+ },
+ {
+  "w": "joint venture",
+  "pos": "noun",
+  "def": "a commercial enterprise undertaken jointly by two companies that otherwise remain independent",
+  "defId": "usaha komersial yang dijalankan bersama oleh dua perusahaan yang tetap berdiri sendiri",
+  "ex": "The carmaker set up a joint venture with a local firm to gain access to the Asian market.",
+  "exId": "Produsen mobil itu membentuk usaha patungan dengan perusahaan lokal untuk memasuki pasar Asia.",
+  "colloc": [
+   "set up a joint venture",
+   "joint venture agreement",
+   "50-50 joint venture"
+  ],
+  "theme": "business"
  },
  {
   "w": "joist",
@@ -23702,6 +34362,19 @@ export const VOCAB = [
    "quality journalism"
   ],
   "theme": "media"
+ },
+ {
+  "w": "journalist",
+  "pos": "noun",
+  "def": "a person who writes for or reports news to newspapers, television, or online media",
+  "defId": "jurnalis",
+  "ex": "The journalist interviewed several witnesses for her article.",
+  "exId": "Jurnalis itu mewawancarai beberapa saksi untuk artikelnya.",
+  "colloc": [
+   "investigative journalist",
+   "freelance journalist"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "journey",
@@ -23744,6 +34417,19 @@ export const VOCAB = [
   "theme": "law"
  },
  {
+  "w": "judiciary",
+  "pos": "noun",
+  "def": "the branch of government responsible for interpreting the law and administering justice through the courts",
+  "defId": "lembaga peradilan; cabang pemerintahan yang menafsirkan hukum dan menegakkan keadilan lewat pengadilan",
+  "ex": "An independent judiciary is essential for holding the government accountable and protecting citizens' rights.",
+  "exId": "Lembaga peradilan yang independen sangat penting untuk meminta pertanggungjawaban pemerintah dan melindungi hak warga negara.",
+  "colloc": [
+   "independent judiciary",
+   "the judiciary and the executive"
+  ],
+  "theme": "politics"
+ },
+ {
   "w": "jumble sale",
   "pos": "noun",
   "def": "An event where second-hand goods are sold cheaply, usually to raise money for a church, school or charity.",
@@ -23756,6 +34442,19 @@ export const VOCAB = [
    "bric-a-brac"
   ],
   "theme": "uk_social"
+ },
+ {
+  "w": "jump on the bandwagon",
+  "pos": "idiom",
+  "def": "to join an activity or trend because it is popular",
+  "defId": "ikut-ikutan sesuatu karena sedang populer",
+  "ex": "Many companies jumped on the bandwagon and started selling eco-friendly products.",
+  "exId": "Banyak perusahaan ikut-ikutan tren dan mulai menjual produk ramah lingkungan.",
+  "colloc": [
+   "following a trend",
+   "'jump on the bandwagon'"
+  ],
+  "theme": "idioms"
  },
  {
   "w": "jumper",
@@ -23784,6 +34483,33 @@ export const VOCAB = [
    "busy junction"
   ],
   "theme": "transport"
+ },
+ {
+  "w": "juncture",
+  "pos": "noun",
+  "def": "a particular point in time, especially a critical one in a process",
+  "defId": "titik penting; persimpangan waktu",
+  "ex": "At this critical juncture, the country must decide its future direction.",
+  "exId": "Pada titik penting ini, negara itu harus menentukan arah masa depannya.",
+  "colloc": [
+   "at this juncture",
+   "a critical juncture"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "junket",
+  "pos": "noun",
+  "def": "a trip made by an official and paid for by someone else, often for pleasure",
+  "defId": "perjalanan yang dilakukan pejabat dan dibiayai orang lain, sering kali untuk bersenang-senang",
+  "ex": "Critics accused the ministers of enjoying a lavish junket abroad.",
+  "exId": "Para pengkritik menuduh para menteri menikmati pelesiran mewah di luar negeri.",
+  "colloc": [
+   "a press junket",
+   "a lavish junket",
+   "go on a junket"
+  ],
+  "theme": "travel"
  },
  {
   "w": "jurisdiction",
@@ -23897,6 +34623,74 @@ export const VOCAB = [
   "theme": "religion"
  },
  {
+  "w": "keep an open mind",
+  "pos": "idiom",
+  "def": "to be willing to consider new ideas or opinions",
+  "defId": "bersikap terbuka terhadap gagasan atau pendapat baru",
+  "ex": "Try to keep an open mind before judging a culture you don't know well.",
+  "exId": "Cobalah bersikap terbuka sebelum menilai budaya yang belum kamu kenal baik.",
+  "colloc": [
+   "being receptive",
+   "'keep an open mind about'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "kerb",
+  "pos": "n",
+  "def": "The raised stone or concrete edge between a pavement and the road.",
+  "defId": "Tepi batu atau beton yang meninggi antara trotoar dan jalan raya.",
+  "ex": "She waited at the kerb for the traffic lights to change before crossing.",
+  "exId": "Dia menunggu di tepi trotoar sampai lampu lalu lintas berubah sebelum menyeberang.",
+  "colloc": [
+   "step off the kerb",
+   "park at the kerb"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "kernel",
+  "pos": "noun",
+  "def": "the core part of an operating system that controls the hardware and basic functions",
+  "defId": "bagian inti sistem operasi yang mengendalikan perangkat keras dan fungsi-fungsi dasar",
+  "ex": "A crash in the kernel can bring the entire operating system to a halt.",
+  "exId": "Kegagalan pada kernel dapat menghentikan seluruh sistem operasi.",
+  "colloc": [
+   "operating system kernel",
+   "kernel update",
+   "kernel panic"
+  ],
+  "theme": "technology"
+ },
+ {
+  "w": "kettle",
+  "pos": "noun",
+  "def": "a container with a lid, spout, and handle used for boiling water",
+  "defId": "ketel atau teko pemanas air",
+  "ex": "Put the kettle on and I'll make us a cup of tea.",
+  "exId": "Nyalakan ketelnya dan aku akan membuatkan kita secangkir teh.",
+  "colloc": [
+   "put the kettle on",
+   "boil the kettle",
+   "an electric kettle"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "keynote",
+  "pos": "noun",
+  "def": "The main speech or central theme of a conference or event.",
+  "defId": "pidato utama; pembicaraan atau tema pokok dalam sebuah konferensi atau acara",
+  "ex": "The CEO delivered the keynote at the annual industry conference.",
+  "exId": "Direktur utama menyampaikan pidato utama di konferensi industri tahunan.",
+  "colloc": [
+   "keynote speech",
+   "keynote speaker",
+   "deliver the keynote"
+  ],
+  "theme": "work"
+ },
+ {
   "w": "kick-off",
   "pos": "noun",
   "def": "the start of a football match, when the ball is first played",
@@ -23951,6 +34745,19 @@ export const VOCAB = [
   "theme": "energy"
  },
  {
+  "w": "kinaesthetic",
+  "pos": "adjective",
+  "def": "relating to learning through physical activity and movement rather than by watching or listening",
+  "defId": "berkaitan dengan belajar melalui aktivitas fisik dan gerakan, bukan dengan melihat atau mendengar",
+  "ex": "Kinaesthetic learners tend to absorb ideas best when they can handle objects and move around.",
+  "exId": "Pelajar kinestetik cenderung paling menyerap gagasan ketika dapat memegang benda dan bergerak.",
+  "colloc": [
+   "a kinaesthetic learner",
+   "kinaesthetic learning"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "kindred spirit",
   "pos": "noun",
   "def": "a person whose interests or attitudes are similar to your own",
@@ -23991,6 +34798,20 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "kitsch",
+  "pos": "noun",
+  "def": "art or design considered garish, sentimental, or in poor taste, often knowingly so",
+  "defId": "seni atau desain yang dianggap norak, sentimental, atau berselera buruk, sering kali secara sengaja",
+  "ex": "Her flat was full of pink flamingos and plastic shrines, a joyful celebration of kitsch.",
+  "exId": "Apartemennya penuh dengan flamingo merah muda dan patung plastik, sebuah perayaan gembira akan kitsch.",
+  "colloc": [
+   "retro kitsch",
+   "a celebration of kitsch",
+   "pure kitsch"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "knackered",
   "pos": "adjective",
   "def": "(informal) extremely tired; also, worn out or broken",
@@ -24003,6 +34824,20 @@ export const VOCAB = [
    "knackered out"
   ],
   "theme": "uk_daily"
+ },
+ {
+  "w": "knapsack",
+  "pos": "noun",
+  "def": "a bag carried on the back for supplies while travelling or hiking",
+  "defId": "tas yang dibawa di punggung untuk membawa perbekalan saat bepergian atau mendaki",
+  "ex": "He slung his knapsack over one shoulder and set off down the trail.",
+  "exId": "Dia menyampirkan ranselnya di satu bahu dan berangkat menyusuri jalur.",
+  "colloc": [
+   "pack a knapsack",
+   "a heavy knapsack",
+   "sling a knapsack"
+  ],
+  "theme": "travel"
  },
  {
   "w": "knead",
@@ -24046,6 +34881,20 @@ export const VOCAB = [
   "theme": "fashion"
  },
  {
+  "w": "knock-on",
+  "pos": "adjective",
+  "def": "causing a series of related effects on other things",
+  "defId": "berantai; beruntun (efek)",
+  "ex": "A delay at one station has a knock-on effect on the entire rail network.",
+  "exId": "Keterlambatan di satu stasiun menimbulkan efek berantai pada seluruh jaringan kereta.",
+  "colloc": [
+   "knock-on effect",
+   "knock-on impact",
+   "knock-on consequences"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "knockout",
   "pos": "noun",
   "def": "a stage of a competition in which the loser is immediately eliminated",
@@ -24057,6 +34906,34 @@ export const VOCAB = [
    "knockout round"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "know-how",
+  "pos": "noun",
+  "def": "Practical knowledge or skill needed to do a particular task or job.",
+  "defId": "pengetahuan praktis; keterampilan nyata yang diperlukan untuk melakukan tugas atau pekerjaan tertentu",
+  "ex": "The firm lacks the technical know-how to develop the product in-house.",
+  "exId": "Perusahaan itu kekurangan pengetahuan praktis teknis untuk mengembangkan produk secara mandiri.",
+  "colloc": [
+   "technical know-how",
+   "practical know-how",
+   "the know-how to do something"
+  ],
+  "theme": "work"
+ },
+ {
+  "w": "knuckle down",
+  "pos": "phrasal verb",
+  "def": "To start working hard and seriously at a task.",
+  "defId": "mulai bekerja keras; menekuni suatu tugas dengan sungguh-sungguh",
+  "ex": "With the deadline approaching, everyone needs to knuckle down and finish the report today.",
+  "exId": "Dengan tenggat yang semakin dekat, semua orang perlu mulai bekerja keras dan menyelesaikan laporan itu hari ini.",
+  "colloc": [
+   "knuckle down to work",
+   "really knuckle down",
+   "knuckle down and study"
+  ],
+  "theme": "work"
  },
  {
   "w": "KPI",
@@ -24114,6 +34991,46 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "labyrinthine",
+  "pos": "adjective",
+  "def": "like a maze, with many intricate, confusing passages",
+  "defId": "berliku bak labirin",
+  "ex": "The old quarter is a labyrinthine tangle of alleys where it's easy to get lost.",
+  "exId": "Kawasan kota tua itu adalah jalinan gang yang berliku bak labirin di mana mudah tersesat.",
+  "colloc": [
+   "labyrinthine streets",
+   "a labyrinthine old town",
+   "labyrinthine alleys"
+  ],
+  "theme": "describe_places"
+ },
+ {
+  "w": "ladder",
+  "pos": "noun",
+  "def": "a structure of rungs between two supports, used for climbing up and down",
+  "defId": "tangga",
+  "ex": "He climbed the ladder to clean the gutters.",
+  "exId": "Dia menaiki tangga untuk membersihkan talang air.",
+  "colloc": [
+   "step ladder",
+   "extension ladder"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "lag",
+  "pos": "verb",
+  "def": "to move or develop more slowly than others",
+  "defId": "bergerak atau berkembang lebih lambat daripada yang lain; tertinggal",
+  "ex": "Rural areas often lag behind cities in terms of internet access.",
+  "exId": "Daerah pedesaan sering tertinggal dari kota dalam hal akses internet.",
+  "colloc": [
+   "lag behind",
+   "lag far"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "lagoon",
   "pos": "noun",
   "def": "a shallow body of water separated from the sea by a reef or sandbank",
@@ -24138,6 +35055,20 @@ export const VOCAB = [
    "laid-back approach"
   ],
   "theme": "personality"
+ },
+ {
+  "w": "laissez-faire",
+  "pos": "adjective",
+  "def": "Favouring minimal government interference in economic affairs.",
+  "defId": "Laissez-faire; menganjurkan campur tangan pemerintah yang minimal dalam urusan ekonomi.",
+  "ex": "Supporters of a laissez-faire approach argue that markets work best when left alone.",
+  "exId": "Pendukung pendekatan laissez-faire berpendapat bahwa pasar bekerja paling baik jika dibiarkan.",
+  "colloc": [
+   "a laissez-faire approach",
+   "laissez-faire economics",
+   "laissez-faire policies"
+  ],
+  "theme": "economy"
  },
  {
   "w": "land use",
@@ -24165,6 +35096,20 @@ export const VOCAB = [
    "landfill waste"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "landlocked",
+  "pos": "adjective",
+  "def": "surrounded by land, with no coastline",
+  "defId": "terkurung daratan tanpa pantai",
+  "ex": "Being a landlocked country, it has no ports and relies on its neighbours for sea trade.",
+  "exId": "Sebagai negara yang terkurung daratan, ia tidak memiliki pelabuhan dan bergantung pada tetangganya untuk perdagangan laut.",
+  "colloc": [
+   "a landlocked country",
+   "a landlocked region",
+   "a landlocked nation"
+  ],
+  "theme": "describe_places"
  },
  {
   "w": "landlord",
@@ -24222,6 +35167,33 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "landslide",
+  "pos": "noun",
+  "def": "an overwhelming victory in an election by one candidate or party",
+  "defId": "kemenangan telak; kemenangan besar dalam pemilihan oleh satu kandidat atau partai",
+  "ex": "The governing party won the election by a landslide, taking almost every seat in parliament.",
+  "exId": "Partai penguasa memenangkan pemilihan secara telak, meraih hampir seluruh kursi di parlemen.",
+  "colloc": [
+   "landslide victory",
+   "win by a landslide"
+  ],
+  "theme": "politics"
+ },
+ {
+  "w": "lanky",
+  "pos": "adjective",
+  "def": "awkwardly tall and thin",
+  "defId": "tinggi kurus dan kaku",
+  "ex": "The lanky teenager towered over his classmates in the photo.",
+  "exId": "Remaja tinggi kurus itu menjulang di atas teman-teman sekelasnya dalam foto itu.",
+  "colloc": [
+   "lanky teenager",
+   "tall and lanky",
+   "lanky frame"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "lapel",
   "pos": "noun",
   "def": "the part of a jacket's collar that folds back on the chest",
@@ -24263,6 +35235,19 @@ export const VOCAB = [
   "theme": "uk_social"
  },
  {
+  "w": "lasting",
+  "pos": "adjective",
+  "def": "continuing or remaining effective for a long time",
+  "defId": "yang bertahan lama; berkesan lama",
+  "ex": "The trip left a lasting impression on everyone who took part.",
+  "exId": "Perjalanan itu meninggalkan kesan yang mendalam bagi semua yang ikut serta.",
+  "colloc": [
+   "lasting impression",
+   "lasting impact"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "latency",
   "pos": "noun",
   "def": "the delay between an action and the system's response, especially over a network",
@@ -24287,6 +35272,47 @@ export const VOCAB = [
    "rocket launch pad"
   ],
   "theme": "space"
+ },
+ {
+  "w": "laundry",
+  "pos": "noun",
+  "def": "clothes and linen that need washing or have been washed",
+  "defId": "cucian atau pakaian kotor",
+  "ex": "There was a huge pile of laundry waiting to be folded on the bed.",
+  "exId": "Ada setumpuk besar cucian yang menunggu dilipat di atas tempat tidur.",
+  "colloc": [
+   "do the laundry",
+   "a pile of laundry",
+   "dirty laundry"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "lawful",
+  "pos": "adjective",
+  "def": "allowed or recognised by law; legal",
+  "defId": "sah menurut hukum; dibenarkan oleh undang-undang",
+  "ex": "Peaceful protest is a lawful way for citizens to express their dissent.",
+  "exId": "Protes damai adalah cara yang sah bagi warga untuk menyatakan ketidaksetujuan mereka.",
+  "colloc": [
+   "lawful activity",
+   "lawful owner"
+  ],
+  "theme": "law"
+ },
+ {
+  "w": "lawn",
+  "pos": "noun",
+  "def": "an area of ground covered with short, regularly cut grass, especially in a garden or park",
+  "defId": "halaman rumput",
+  "ex": "Every Sunday he mows the lawn until the grass is perfectly even.",
+  "exId": "Setiap Minggu dia memangkas halaman rumput sampai rumputnya benar-benar rata.",
+  "colloc": [
+   "mow the lawn",
+   "manicured lawn",
+   "lawn mower"
+  ],
+  "theme": "garden"
  },
  {
   "w": "lawsuit",
@@ -24345,6 +35371,34 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "leach",
+  "pos": "verb",
+  "def": "to drain away from soil or waste, or to dissolve out gradually through the action of water.",
+  "defId": "merembes keluar dari tanah atau limbah, atau larut secara bertahap akibat air.",
+  "ex": "Fertilisers can leach into rivers and cause harmful algae to bloom.",
+  "exId": "Pupuk dapat merembes ke sungai dan menyebabkan ganggang berbahaya berkembang.",
+  "colloc": [
+   "leach into groundwater",
+   "leach out",
+   "chemicals leach"
+  ],
+  "theme": "environment"
+ },
+ {
+  "w": "leachate",
+  "pos": "noun",
+  "def": "liquid that drains from a landfill, often carrying dissolved contaminants.",
+  "defId": "cairan yang merembes dari tempat pembuangan sampah, sering membawa kontaminan terlarut.",
+  "ex": "Toxic leachate from the landfill seeped into the surrounding farmland.",
+  "exId": "Lindi beracun dari tempat pembuangan sampah merembes ke lahan pertanian di sekitarnya.",
+  "colloc": [
+   "landfill leachate",
+   "toxic leachate",
+   "leachate treatment"
+  ],
+  "theme": "environment"
+ },
+ {
   "w": "lead time",
   "pos": "noun",
   "def": "the amount of time between the start of a process and its completion, such as from order to delivery",
@@ -24356,6 +35410,20 @@ export const VOCAB = [
    "long lead time"
   ],
   "theme": "business"
+ },
+ {
+  "w": "lead to",
+  "pos": "phrasal verb",
+  "def": "to cause something to happen or exist as a consequence",
+  "defId": "menyebabkan; mengarah pada",
+  "ex": "A lack of exercise can lead to a range of health problems.",
+  "exId": "Kurangnya olahraga dapat menyebabkan berbagai masalah kesehatan.",
+  "colloc": [
+   "lead to problems",
+   "lead to success",
+   "lead to change"
+  ],
+  "theme": "academic"
  },
  {
   "w": "leafy",
@@ -24399,6 +35467,20 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "lean",
+  "pos": "adjective",
+  "def": "thin in a healthy, fit way, without excess fat",
+  "defId": "ramping dan berotot tanpa lemak berlebih",
+  "ex": "Years of running had given him a lean, athletic body.",
+  "exId": "Bertahun-tahun berlari memberinya tubuh yang ramping dan atletis.",
+  "colloc": [
+   "lean physique",
+   "lean and muscular",
+   "lean body"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "learner driver",
   "pos": "noun",
   "def": "Someone who is learning to drive and has not yet passed their driving test.",
@@ -24427,6 +35509,32 @@ export const VOCAB = [
   "theme": "uk_home"
  },
  {
+  "w": "lecture hall",
+  "pos": "noun",
+  "def": "a large room, usually at a university, where lectures are given",
+  "defId": "ruang besar di universitas tempat kuliah disampaikan",
+  "ex": "The first-year lecture hall was packed with over three hundred students.",
+  "exId": "Ruang kuliah tahun pertama itu dipadati lebih dari tiga ratus mahasiswa.",
+  "colloc": [
+   "a packed lecture hall",
+   "a crowded lecture hall"
+  ],
+  "theme": "education"
+ },
+ {
+  "w": "lecturer",
+  "pos": "noun",
+  "def": "a person who teaches at a university or college",
+  "defId": "dosen",
+  "ex": "The lecturer gave a fascinating talk on ancient history.",
+  "exId": "Dosen itu memberikan kuliah yang menarik tentang sejarah kuno.",
+  "colloc": [
+   "university lecturer",
+   "senior lecturer"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "leftovers",
   "pos": "noun",
   "def": "food that remains uneaten after a meal.",
@@ -24452,6 +35560,19 @@ export const VOCAB = [
    "a cultural legacy"
   ],
   "theme": "history"
+ },
+ {
+  "w": "legality",
+  "pos": "noun",
+  "def": "the fact of being allowed by law; whether something is legal",
+  "defId": "keabsahan menurut hukum; legalitas suatu tindakan",
+  "ex": "Campaigners questioned the legality of detaining the protesters without charge.",
+  "exId": "Para aktivis mempertanyakan legalitas penahanan para demonstran tanpa dakwaan.",
+  "colloc": [
+   "question the legality",
+   "the legality of"
+  ],
+  "theme": "law"
  },
  {
   "w": "legislation",
@@ -24551,6 +35672,34 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "lethargic",
+  "pos": "adjective",
+  "def": "lacking energy and enthusiasm; sluggish and tired",
+  "defId": "kurang bertenaga dan bersemangat; lesu dan lelah",
+  "ex": "The illness left him feeling weak and lethargic for weeks.",
+  "exId": "Penyakit itu membuatnya merasa lemah dan lesu selama berminggu-minggu.",
+  "colloc": [
+   "feel lethargic",
+   "lethargic and tired",
+   "become lethargic"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "lethargy",
+  "pos": "noun",
+  "def": "a lack of energy, enthusiasm, and mental alertness",
+  "defId": "kelesuan; kurangnya energi, semangat, dan kesigapan mental",
+  "ex": "A poor diet can lead to lethargy and poor concentration.",
+  "exId": "Pola makan yang buruk dapat menyebabkan kelesuan dan konsentrasi yang buruk.",
+  "colloc": [
+   "a feeling of lethargy",
+   "overcome lethargy",
+   "general lethargy"
+  ],
+  "theme": "psychology"
+ },
+ {
   "w": "letting agent",
   "pos": "noun phrase",
   "def": "a company or person that finds tenants and manages rented homes on behalf of landlords.",
@@ -24591,6 +35740,20 @@ export const VOCAB = [
    "level off at"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "level playing field",
+  "pos": "noun",
+  "def": "a situation in which everyone competes under the same fair conditions",
+  "defId": "keadaan ketika semua pihak bersaing dalam kondisi yang sama dan adil",
+  "ex": "Small exporters demand a level playing field rather than subsidies that favour giant firms.",
+  "exId": "Eksportir kecil menuntut lapangan bermain yang setara alih-alih subsidi yang menguntungkan perusahaan raksasa.",
+  "colloc": [
+   "create a level playing field",
+   "ensure a level playing field",
+   "level playing field for trade"
+  ],
+  "theme": "globalisation"
  },
  {
   "w": "level-headed",
@@ -24687,6 +35850,20 @@ export const VOCAB = [
   "theme": "law"
  },
  {
+  "w": "liaise",
+  "pos": "verb",
+  "def": "To communicate and cooperate with others to coordinate work or share information.",
+  "defId": "berkoordinasi; berhubungan dan bertukar informasi dengan pihak lain untuk menyelaraskan pekerjaan",
+  "ex": "Part of my role is to liaise with suppliers and keep the schedule on track.",
+  "exId": "Sebagian dari tugas saya adalah berkoordinasi dengan para pemasok dan menjaga jadwal tetap sesuai rencana.",
+  "colloc": [
+   "liaise with",
+   "liaise closely",
+   "liaise between departments"
+  ],
+  "theme": "work"
+ },
+ {
   "w": "libel",
   "pos": "noun",
   "def": "a published false statement that damages a person's reputation",
@@ -24698,6 +35875,20 @@ export const VOCAB = [
    "a libel case"
   ],
   "theme": "media"
+ },
+ {
+  "w": "liberalise",
+  "pos": "verb",
+  "def": "to remove or loosen government controls on trade or the economy",
+  "defId": "menghapus atau melonggarkan kendali pemerintah atas perdagangan atau ekonomi",
+  "ex": "When the government liberalised the market, foreign investors rushed in.",
+  "exId": "Ketika pemerintah meliberalisasi pasar, investor asing berdatangan.",
+  "colloc": [
+   "liberalise trade",
+   "liberalise the economy",
+   "liberalise markets"
+  ],
+  "theme": "globalisation"
  },
  {
   "w": "liberty",
@@ -24713,6 +35904,19 @@ export const VOCAB = [
   "theme": "philosophy"
  },
  {
+  "w": "librarian",
+  "pos": "noun",
+  "def": "a person in charge of or working in a library",
+  "defId": "pustakawan",
+  "ex": "The librarian helped me find the reference books I needed.",
+  "exId": "Pustakawan itu membantu saya menemukan buku referensi yang saya butuhkan.",
+  "colloc": [
+   "school librarian",
+   "ask the librarian"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "libretto",
   "pos": "noun",
   "def": "the words or text of an opera or other long musical work",
@@ -24725,6 +35929,33 @@ export const VOCAB = [
    "an original libretto"
   ],
   "theme": "arts"
+ },
+ {
+  "w": "licensing",
+  "pos": "noun",
+  "def": "the practice of granting official permission to use a product, brand or technology in exchange for a fee",
+  "defId": "pemberian izin resmi untuk memakai produk, merek, atau teknologi dengan imbalan biaya",
+  "ex": "The studio earns millions through licensing its characters to toy manufacturers.",
+  "exId": "Studio itu meraup jutaan melalui pemberian lisensi karakternya kepada produsen mainan.",
+  "colloc": [
+   "licensing agreement",
+   "licensing fee",
+   "brand licensing"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "licit",
+  "pos": "adjective",
+  "def": "permitted by law; the opposite of illicit",
+  "defId": "diperbolehkan secara hukum; kebalikan dari terlarang",
+  "ex": "The report clearly distinguishes between the licit and illicit use of firearms.",
+  "exId": "Laporan itu dengan jelas membedakan antara penggunaan senjata api yang legal dan yang ilegal.",
+  "colloc": [
+   "licit trade",
+   "licit use"
+  ],
+  "theme": "law"
  },
  {
   "w": "life expectancy",
@@ -24781,6 +36012,46 @@ export const VOCAB = [
   "theme": "weather"
  },
  {
+  "w": "likely",
+  "pos": "adjective",
+  "def": "probable; expected to happen or to be true",
+  "defId": "besar kemungkinan; mungkin",
+  "ex": "It is likely that urbanisation will continue to accelerate in the coming years.",
+  "exId": "Besar kemungkinan urbanisasi akan terus meningkat pada tahun-tahun mendatang.",
+  "colloc": [
+   "highly likely",
+   "likely outcome",
+   "less likely"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "likeness",
+  "pos": "noun",
+  "def": "the fact of being similar in appearance to someone or something",
+  "defId": "kemiripan dalam penampilan dengan seseorang atau sesuatu",
+  "ex": "There is a striking likeness between the two cousins.",
+  "exId": "Ada kemiripan mencolok antara kedua sepupu itu.",
+  "colloc": [
+   "striking likeness",
+   "family likeness"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "likewise",
+  "pos": "adverb",
+  "def": "in the same way; also",
+  "defId": "begitu pula",
+  "ex": "Parents should read regularly; teachers, likewise, should model good habits.",
+  "exId": "Orang tua sebaiknya membaca secara rutin; guru, begitu pula, harus mencontohkan kebiasaan baik.",
+  "colloc": [
+   "likewise, ...",
+   "do likewise"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "limb",
   "pos": "noun",
   "def": "an arm or a leg of the body",
@@ -24793,6 +36064,34 @@ export const VOCAB = [
    "stretch a limb"
   ],
   "theme": "body"
+ },
+ {
+  "w": "limelight",
+  "pos": "noun",
+  "def": "the focus of public attention and fame, especially in the arts",
+  "defId": "pusat perhatian publik dan ketenaran, terutama di dunia seni",
+  "ex": "After years in supporting roles, the young dancer finally stepped into the limelight.",
+  "exId": "Setelah bertahun-tahun berperan pendukung, penari muda itu akhirnya menjadi pusat perhatian.",
+  "colloc": [
+   "step into the limelight",
+   "steal the limelight",
+   "in the limelight"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "limp",
+  "pos": "verb",
+  "def": "to walk with difficulty because one leg or foot is injured",
+  "defId": "berjalan pincang; terpincang-pincang",
+  "ex": "After twisting his ankle, he limped painfully off the football pitch.",
+  "exId": "Setelah terkilir pergelangan kakinya, ia terpincang-pincang meninggalkan lapangan sepak bola.",
+  "colloc": [
+   "limp badly",
+   "limp off",
+   "limp along"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "line manager",
@@ -24946,6 +36245,33 @@ export const VOCAB = [
   "theme": "literature"
  },
  {
+  "w": "lithograph",
+  "pos": "noun",
+  "def": "a print made from a design drawn on a flat stone or metal plate",
+  "defId": "cetakan yang dibuat dari desain yang digambar pada batu datar atau lempeng logam",
+  "ex": "The gallery sells signed lithographs of the artist's most celebrated works.",
+  "exId": "Galeri itu menjual litograf bertanda tangan dari karya-karya paling terkenal sang seniman.",
+  "colloc": [
+   "signed lithograph",
+   "original lithograph",
+   "a lithograph print"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "litigant",
+  "pos": "noun",
+  "def": "a person who is involved in a lawsuit",
+  "defId": "pihak yang berperkara dalam gugatan pengadilan",
+  "ex": "Both litigants were ordered to attend a mediation session before the hearing.",
+  "exId": "Kedua pihak yang berperkara diperintahkan menghadiri sesi mediasi sebelum sidang.",
+  "colloc": [
+   "a litigant in person",
+   "the losing litigant"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "litigation",
   "pos": "noun",
   "def": "The process of resolving a dispute by taking it through the courts.",
@@ -24958,6 +36284,20 @@ export const VOCAB = [
    "involved in litigation"
   ],
   "theme": "law"
+ },
+ {
+  "w": "litter",
+  "pos": "noun",
+  "def": "rubbish, such as paper and packaging, left lying in an open or public place.",
+  "defId": "sampah, seperti kertas dan kemasan, yang dibiarkan berserakan di tempat umum.",
+  "ex": "The beach was covered in litter after the busy summer weekend.",
+  "exId": "Pantai itu dipenuhi sampah setelah akhir pekan musim panas yang ramai.",
+  "colloc": [
+   "drop litter",
+   "pick up litter",
+   "litter louts"
+  ],
+  "theme": "environment"
  },
  {
   "w": "live within your means",
@@ -24996,6 +36336,20 @@ export const VOCAB = [
    "lose one's livelihood"
   ],
   "theme": "globalisation"
+ },
+ {
+  "w": "lively",
+  "pos": "adjective",
+  "def": "full of energy, activity and excitement",
+  "defId": "ramai dan penuh semangat",
+  "ex": "The old fishing village has become a lively resort full of cafés and street performers.",
+  "exId": "Desa nelayan tua itu telah menjadi resor yang ramai penuh kafe dan pengamen jalanan.",
+  "colloc": [
+   "a lively atmosphere",
+   "a lively neighbourhood",
+   "lively nightlife"
+  ],
+  "theme": "describe_places"
  },
  {
   "w": "livestock",
@@ -25066,6 +36420,20 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "loathe",
+  "pos": "verb",
+  "def": "to feel intense dislike or hatred for something",
+  "defId": "sangat membenci atau muak terhadap sesuatu",
+  "ex": "I absolutely loathe waiting in long queues just to pay a bill.",
+  "exId": "Saya benar-benar benci mengantre panjang hanya untuk membayar tagihan.",
+  "colloc": [
+   "absolutely loathe",
+   "loathe the thought",
+   "loathe and detest"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "lobby",
   "pos": "verb",
   "def": "to try to persuade a government or politician to support a particular cause or decision",
@@ -25094,6 +36462,47 @@ export const VOCAB = [
   "theme": "uk_social"
  },
  {
+  "w": "locale",
+  "pos": "noun",
+  "def": "a place or setting where something happens, especially of a trip or event",
+  "defId": "tempat atau latar di mana sesuatu terjadi, terutama suatu perjalanan atau acara",
+  "ex": "The film's exotic locale drew crowds of curious tourists.",
+  "exId": "Lokasi eksotis film itu menarik kerumunan wisatawan yang penasaran.",
+  "colloc": [
+   "an exotic locale",
+   "a picturesque locale",
+   "the perfect locale"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "localise",
+  "pos": "verb",
+  "def": "to adapt a product or service to suit a particular country or region",
+  "defId": "menyesuaikan produk atau layanan agar cocok dengan negara atau kawasan tertentu",
+  "ex": "Streaming services localise their content by adding subtitles and region-specific shows.",
+  "exId": "Layanan streaming melokalkan kontennya dengan menambahkan subtitel dan acara khusus daerah.",
+  "colloc": [
+   "localise content",
+   "localise a product",
+   "localise marketing"
+  ],
+  "theme": "globalisation"
+ },
+ {
+  "w": "locksmith",
+  "pos": "noun",
+  "def": "a person who makes and repairs locks and keys",
+  "defId": "tukang kunci",
+  "ex": "The locksmith opened the door after I lost my keys.",
+  "exId": "Tukang kunci itu membuka pintu setelah saya kehilangan kunci saya.",
+  "colloc": [
+   "call a locksmith",
+   "emergency locksmith"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "locomotive",
   "pos": "noun",
   "def": "a powered railway vehicle that pulls the carriages of a train",
@@ -25119,6 +36528,20 @@ export const VOCAB = [
    "provide lodging"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "logging",
+  "pos": "noun",
+  "def": "the activity of cutting down trees for timber, often on a large commercial scale.",
+  "defId": "kegiatan menebang pohon untuk kayu, sering dalam skala komersial besar.",
+  "ex": "Illegal logging has destroyed vast areas of tropical rainforest.",
+  "exId": "Penebangan liar telah menghancurkan wilayah hutan hujan tropis yang luas.",
+  "colloc": [
+   "illegal logging",
+   "commercial logging",
+   "logging industry"
+  ],
+  "theme": "environment"
  },
  {
   "w": "logic",
@@ -25175,6 +36598,20 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "long-winded",
+  "pos": "adjective",
+  "def": "continuing to speak or write for far too long in a tedious way",
+  "defId": "terus berbicara atau menulis terlalu lama secara membosankan",
+  "ex": "His long-winded explanation lost the audience before he even reached his conclusion.",
+  "exId": "Penjelasannya yang bertele-tele membuat penonton kehilangan minat sebelum dia sampai ke kesimpulan.",
+  "colloc": [
+   "a long-winded explanation",
+   "long-winded speech",
+   "overly long-winded"
+  ],
+  "theme": "language"
+ },
+ {
   "w": "longevity",
   "pos": "noun",
   "def": "long life; the fact of living for a long time",
@@ -25187,6 +36624,34 @@ export const VOCAB = [
    "longevity and health"
   ],
   "theme": "health"
+ },
+ {
+  "w": "longing",
+  "pos": "noun",
+  "def": "a strong, persistent feeling of wanting something or someone",
+  "defId": "kerinduan; perasaan kuat dan terus-menerus untuk menginginkan sesuatu atau seseorang",
+  "ex": "There was a deep longing in his voice whenever he spoke of home.",
+  "exId": "Ada kerinduan yang dalam pada suaranya setiap kali dia berbicara tentang kampung halaman.",
+  "colloc": [
+   "a deep longing",
+   "longing for",
+   "fill with longing"
+  ],
+  "theme": "psychology"
+ },
+ {
+  "w": "longitudinal",
+  "pos": "adj",
+  "def": "involving the study of the same subjects over a long period of time",
+  "defId": "melibatkan pengamatan subjek yang sama selama periode yang panjang",
+  "ex": "A longitudinal study tracked the children's diet for twenty years.",
+  "exId": "Sebuah studi longitudinal melacak pola makan anak-anak itu selama dua puluh tahun.",
+  "colloc": [
+   "longitudinal study",
+   "longitudinal data",
+   "longitudinal research"
+  ],
+  "theme": "science"
  },
  {
   "w": "longstanding",
@@ -25216,6 +36681,34 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "loquacious",
+  "pos": "adjective",
+  "def": "tending to talk a great deal; very talkative",
+  "defId": "cenderung banyak bicara; sangat cerewet",
+  "ex": "Their loquacious host barely paused for breath during the whole dinner.",
+  "exId": "Tuan rumah mereka yang cerewet nyaris tak berhenti bicara sepanjang makan malam.",
+  "colloc": [
+   "a loquacious speaker",
+   "unusually loquacious",
+   "loquacious and charming"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "loss leader",
+  "pos": "noun",
+  "def": "a product sold at a loss to attract customers who will then buy other profitable goods",
+  "defId": "produk yang dijual rugi untuk menarik pelanggan agar membeli barang lain yang menguntungkan",
+  "ex": "The supermarket uses cheap milk as a loss leader to draw shoppers through the doors.",
+  "exId": "Supermarket itu memakai susu murah sebagai umpan rugi untuk menarik pembeli masuk.",
+  "colloc": [
+   "use as a loss leader",
+   "loss-leader pricing",
+   "classic loss leader"
+  ],
+  "theme": "business"
+ },
+ {
   "w": "love",
   "pos": "noun (informal)",
   "def": "A friendly, informal term of address used to strangers or acquaintances, common in shops and cafés.",
@@ -25230,6 +36723,20 @@ export const VOCAB = [
   "theme": "uk_social"
  },
  {
+  "w": "low-carbon",
+  "pos": "adjective",
+  "def": "producing or resulting in only a small amount of carbon emissions.",
+  "defId": "menghasilkan atau berdampak hanya sedikit emisi karbon.",
+  "ex": "The government is investing heavily in low-carbon technologies such as wind power.",
+  "exId": "Pemerintah berinvestasi besar pada teknologi rendah karbon seperti tenaga angin.",
+  "colloc": [
+   "low-carbon economy",
+   "low-carbon energy",
+   "low-carbon future"
+  ],
+  "theme": "environment"
+ },
+ {
   "w": "low-density",
   "pos": "adjective",
   "def": "having relatively few people or buildings spread over a large area",
@@ -25241,6 +36748,33 @@ export const VOCAB = [
    "low-density housing"
   ],
   "theme": "urban"
+ },
+ {
+  "w": "low-rise",
+  "pos": "adj",
+  "def": "Describing a building that has only a few floors, in contrast to a tall tower.",
+  "defId": "Menggambarkan bangunan yang hanya memiliki beberapa lantai, berbeda dengan menara tinggi.",
+  "ex": "The council favours low-rise housing that fits in with the surrounding streets.",
+  "exId": "Pemerintah kota lebih menyukai perumahan bertingkat rendah yang serasi dengan jalan-jalan sekitarnya.",
+  "colloc": [
+   "low-rise housing",
+   "low-rise development"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "lowbrow",
+  "pos": "adjective",
+  "def": "not intellectually demanding; appealing to popular or unrefined tastes",
+  "defId": "tidak menuntut intelektual; menarik bagi selera populer atau tidak terlatih",
+  "ex": "Critics dismissed the comedy as lowbrow, but audiences adored it.",
+  "exId": "Para kritikus mencap komedi itu sebagai selera rendahan, tetapi penonton menggemarinya.",
+  "colloc": [
+   "lowbrow entertainment",
+   "lowbrow humour",
+   "dismissed as lowbrow"
+  ],
+  "theme": "arts"
  },
  {
   "w": "loyalty",
@@ -25297,6 +36831,33 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "lukewarm",
+  "pos": "adjective",
+  "def": "only slightly warm, neither hot nor cold, often disappointingly so for food",
+  "defId": "hanya sedikit hangat, tidak panas dan tidak dingin, sering mengecewakan untuk makanan",
+  "ex": "By the time the meal arrived, the chips were already lukewarm.",
+  "exId": "Ketika makanannya tiba, kentang gorengnya sudah suam-suam kuku.",
+  "colloc": [
+   "lukewarm water",
+   "go lukewarm",
+   "only lukewarm"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "lumber",
+  "pos": "noun",
+  "def": "timber that has been sawn into planks or boards for building",
+  "defId": "kayu olahan",
+  "ex": "The yard sells lumber cut to almost any length you need.",
+  "exId": "Toko itu menjual kayu olahan yang dipotong hampir sesuai panjang apa pun.",
+  "colloc": [
+   "stack of lumber",
+   "treated lumber"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "luminous",
   "pos": "adjective",
   "def": "giving out or reflecting a bright light",
@@ -25339,6 +36900,20 @@ export const VOCAB = [
   "theme": "space"
  },
  {
+  "w": "lurch",
+  "pos": "verb",
+  "def": "to make an abrupt, unsteady, uncontrolled movement",
+  "defId": "terhuyung; tersentak",
+  "ex": "The bus lurched forward suddenly, throwing the standing passengers off balance.",
+  "exId": "Bus itu tersentak maju tiba-tiba, membuat penumpang yang berdiri kehilangan keseimbangan.",
+  "colloc": [
+   "lurch forward",
+   "lurch to one side",
+   "lurch violently"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "lurker",
   "pos": "noun",
   "def": "someone who reads online discussions regularly but rarely posts anything themselves",
@@ -25350,6 +36925,20 @@ export const VOCAB = [
    "forum lurker"
   ],
   "theme": "internet"
+ },
+ {
+  "w": "luscious",
+  "pos": "adjective",
+  "def": "having a rich, sweet taste or smell that is very pleasing",
+  "defId": "lezat dan menggoda; berasa atau beraroma manis yang kaya",
+  "ex": "She served a bowl of luscious ripe strawberries for dessert.",
+  "exId": "Dia menyajikan semangkuk stroberi matang yang lezat sebagai hidangan penutup.",
+  "colloc": [
+   "luscious fruit",
+   "luscious flavour",
+   "luscious and ripe"
+  ],
+  "theme": "senses"
  },
  {
   "w": "lush",
@@ -25419,6 +37008,20 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "maestro",
+  "pos": "noun",
+  "def": "a distinguished conductor or master of a musical art",
+  "defId": "seorang konduktor terkemuka atau ahli dalam seni musik",
+  "ex": "The veteran maestro raised his baton and the hall fell silent.",
+  "exId": "Sang maestro veteran mengangkat tongkatnya dan aula pun senyap.",
+  "colloc": [
+   "veteran maestro",
+   "the maestro's baton",
+   "conducting maestro"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "magistrate",
   "pos": "noun",
   "def": "An official who acts as a judge in a lower court dealing with minor cases.",
@@ -25446,6 +37049,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "magnetism",
+  "pos": "n",
+  "def": "the physical force by which certain materials attract or repel one another",
+  "defId": "gaya fisik yang membuat bahan tertentu saling tarik atau tolak",
+  "ex": "The experiment demonstrates how magnetism can move objects without touch.",
+  "exId": "Eksperimen itu menunjukkan bagaimana kemagnetan dapat menggerakkan benda tanpa sentuhan.",
+  "colloc": [
+   "study of magnetism",
+   "electricity and magnetism",
+   "residual magnetism"
+  ],
+  "theme": "science"
+ },
+ {
   "w": "magnitude",
   "pos": "noun",
   "def": "the great size, scale, or importance of something",
@@ -25458,6 +37075,20 @@ export const VOCAB = [
    "sheer magnitude"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "main course",
+  "pos": "noun",
+  "def": "the largest or most important dish of a meal, served after any starter",
+  "defId": "hidangan terbesar atau terpenting dalam santapan, disajikan setelah hidangan pembuka",
+  "ex": "After the salad, our main course was a rich mushroom risotto.",
+  "exId": "Setelah salad, hidangan utama kami adalah risotto jamur yang gurih.",
+  "colloc": [
+   "serve the main course",
+   "a filling main course",
+   "between courses"
+  ],
+  "theme": "food"
  },
  {
   "w": "mainstream",
@@ -25487,6 +37118,33 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "majestic",
+  "pos": "adjective",
+  "def": "grand, dignified and beautiful",
+  "defId": "agung dan menakjubkan",
+  "ex": "The palace stands in majestic gardens that stretch down to the river.",
+  "exId": "Istana itu berdiri di taman yang agung membentang hingga ke sungai.",
+  "colloc": [
+   "a majestic building",
+   "majestic scenery",
+   "a majestic view"
+  ],
+  "theme": "describe_places"
+ },
+ {
+  "w": "majority",
+  "pos": "noun",
+  "def": "the larger part or greater number of a group",
+  "defId": "mayoritas; sebagian besar",
+  "ex": "The vast majority of tourists visited the city during the summer months.",
+  "exId": "Sebagian besar wisatawan mengunjungi kota itu selama bulan-bulan musim panas.",
+  "colloc": [
+   "the vast majority",
+   "overwhelming majority"
+  ],
+  "theme": "numbers"
+ },
+ {
   "w": "make ends meet",
   "pos": "idiom",
   "def": "to have just enough money to pay for the things you need",
@@ -25513,6 +37171,20 @@ export const VOCAB = [
   "theme": "relationships"
  },
  {
+  "w": "malaise",
+  "pos": "noun",
+  "def": "a general feeling of discomfort, illness, or unease",
+  "defId": "perasaan tidak enak badan, sakit, atau gelisah secara umum",
+  "ex": "A vague sense of malaise came over him days before the fever appeared.",
+  "exId": "Perasaan tidak enak badan yang samar menghampirinya beberapa hari sebelum demam muncul.",
+  "colloc": [
+   "a general malaise",
+   "a sense of malaise",
+   "feel malaise"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "malignant",
   "pos": "adjective",
   "def": "of a tumour, cancerous and likely to spread through the body",
@@ -25524,6 +37196,32 @@ export const VOCAB = [
    "malignant cells"
   ],
   "theme": "health"
+ },
+ {
+  "w": "malleable",
+  "pos": "adjective",
+  "def": "able to be hammered or pressed into a new shape without breaking",
+  "defId": "mudah dibentuk",
+  "ex": "Gold is highly malleable, so it can be beaten into very thin sheets.",
+  "exId": "Emas sangat mudah dibentuk, sehingga bisa ditempa menjadi lembaran yang sangat tipis.",
+  "colloc": [
+   "malleable metal",
+   "highly malleable"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "mallet",
+  "pos": "noun",
+  "def": "a hammer with a large head of wood or rubber, used to avoid damaging surfaces",
+  "defId": "palu kayu",
+  "ex": "Tap the chisel gently with a wooden mallet.",
+  "exId": "Ketuk pahat itu perlahan dengan palu kayu.",
+  "colloc": [
+   "wooden mallet",
+   "rubber mallet"
+  ],
+  "theme": "tools"
  },
  {
   "w": "malnutrition",
@@ -25596,6 +37294,19 @@ export const VOCAB = [
   "theme": "politics"
  },
  {
+  "w": "mandatory",
+  "pos": "adjective",
+  "def": "required by law or by a rule; compulsory",
+  "defId": "wajib; diharuskan oleh hukum atau aturan",
+  "ex": "The law imposes a mandatory sentence on anyone convicted of the offence.",
+  "exId": "Undang-undang itu menjatuhkan hukuman wajib bagi siapa pun yang terbukti bersalah atas pelanggaran tersebut.",
+  "colloc": [
+   "mandatory sentence",
+   "mandatory requirement"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "mangrove",
   "pos": "noun",
   "def": "a tropical tree that grows in coastal swamps, with tangled roots above the water",
@@ -25609,6 +37320,19 @@ export const VOCAB = [
   "theme": "nature"
  },
  {
+  "w": "manhole",
+  "pos": "n",
+  "def": "A covered hole in a road giving access to the sewers or pipes beneath it.",
+  "defId": "Lubang bertutup di jalan yang memberi akses ke gorong-gorong atau pipa di bawahnya.",
+  "ex": "Workers lifted the manhole cover to inspect the cables running under the street.",
+  "exId": "Pekerja mengangkat penutup lubang got untuk memeriksa kabel yang membentang di bawah jalan.",
+  "colloc": [
+   "manhole cover",
+   "open manhole"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "manhunt",
   "pos": "noun",
   "def": "an organised search for a criminal or an escaped prisoner",
@@ -25620,6 +37344,33 @@ export const VOCAB = [
    "nationwide manhunt"
   ],
   "theme": "crime"
+ },
+ {
+  "w": "manicured",
+  "pos": "adjective",
+  "def": "very neatly trimmed and carefully cared for",
+  "defId": "terawat rapi dan terpangkas",
+  "ex": "The stately home is surrounded by immaculately manicured lawns and clipped hedges.",
+  "exId": "Rumah bangsawan itu dikelilingi hamparan rumput yang terawat rapi sempurna dan pagar tanaman terpangkas.",
+  "colloc": [
+   "a manicured lawn",
+   "manicured gardens",
+   "neatly manicured"
+  ],
+  "theme": "describe_places"
+ },
+ {
+  "w": "manifestation",
+  "pos": "noun",
+  "def": "a sign or example that clearly shows something, especially an abstract quality",
+  "defId": "manifestasi; perwujudan",
+  "ex": "Rising sea levels are one manifestation of climate change.",
+  "exId": "Naiknya permukaan laut adalah salah satu manifestasi perubahan iklim.",
+  "colloc": [
+   "a manifestation of",
+   "physical manifestation"
+  ],
+  "theme": "academic"
  },
  {
   "w": "manifesto",
@@ -25704,6 +37455,20 @@ export const VOCAB = [
   "theme": "sport"
  },
  {
+  "w": "march",
+  "pos": "verb",
+  "def": "to walk with regular, measured steps, often in a determined or military manner",
+  "defId": "berbaris; melangkah tegap",
+  "ex": "The soldiers marched across the square in perfect formation.",
+  "exId": "Para tentara berbaris melintasi lapangan dalam formasi yang sempurna.",
+  "colloc": [
+   "march in step",
+   "march forward",
+   "protesters march"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "margin",
   "pos": "noun",
   "def": "the difference between the cost of producing something and the price it sells for",
@@ -25757,6 +37522,20 @@ export const VOCAB = [
    "socially marginalised"
   ],
   "theme": "society"
+ },
+ {
+  "w": "marinade",
+  "pos": "noun",
+  "def": "a seasoned liquid mixture in which food is soaked before cooking to add flavour",
+  "defId": "campuran cairan berbumbu tempat makanan direndam sebelum dimasak untuk menambah rasa",
+  "ex": "Leave the chicken in the marinade overnight for the best flavour.",
+  "exId": "Rendam ayam dalam bumbu perendam semalaman untuk rasa terbaik.",
+  "colloc": [
+   "a tangy marinade",
+   "soak in a marinade",
+   "a spicy marinade"
+  ],
+  "theme": "food"
  },
  {
   "w": "marinate",
@@ -25868,6 +37647,19 @@ export const VOCAB = [
   "theme": "business"
  },
  {
+  "w": "marking",
+  "pos": "noun",
+  "def": "the activity of checking and grading students' written work",
+  "defId": "kegiatan memeriksa dan menilai pekerjaan tertulis siswa",
+  "ex": "The teacher spent the whole weekend on marking exam papers.",
+  "exId": "Guru itu menghabiskan sepanjang akhir pekan untuk menilai lembar ujian.",
+  "colloc": [
+   "a marking scheme",
+   "a pile of marking"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "markup",
   "pos": "noun",
   "def": "the amount added to the cost of goods to set the selling price",
@@ -25879,6 +37671,20 @@ export const VOCAB = [
    "retail markup"
   ],
   "theme": "shopping"
+ },
+ {
+  "w": "maroon",
+  "pos": "adjective",
+  "def": "a dark brownish-red colour",
+  "defId": "merah marun; merah kecokelatan tua",
+  "ex": "The school uniform included a maroon blazer and grey trousers.",
+  "exId": "Seragam sekolah itu mencakup jas marun dan celana abu-abu.",
+  "colloc": [
+   "dark maroon",
+   "maroon jumper",
+   "deep maroon"
+  ],
+  "theme": "colours"
  },
  {
   "w": "marrow",
@@ -25975,6 +37781,19 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "match",
+  "pos": "verb",
+  "def": "to be equal to or the same as something else",
+  "defId": "setara dengan atau sama dengan sesuatu yang lain; menyamai",
+  "ex": "Few competitors can match the quality of their handmade products.",
+  "exId": "Sedikit pesaing yang mampu menyamai kualitas produk buatan tangan mereka.",
+  "colloc": [
+   "match the quality",
+   "closely match"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "mate",
   "pos": "noun (informal)",
   "def": "A friend; also used as a friendly term of address to men, and sometimes to strangers.",
@@ -26043,6 +37862,20 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "matinee",
+  "pos": "noun",
+  "def": "a theatre or cinema performance that takes place in the afternoon",
+  "defId": "pertunjukan teater atau bioskop yang berlangsung pada siang hari",
+  "ex": "We booked tickets for the Saturday matinee because the evening shows were sold out.",
+  "exId": "Kami memesan tiket untuk pertunjukan siang hari Sabtu karena pertunjukan malam sudah habis terjual.",
+  "colloc": [
+   "afternoon matinee",
+   "matinee performance",
+   "catch a matinee"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "matriarch",
   "pos": "noun",
   "def": "a woman who is the head of a family",
@@ -26084,6 +37917,33 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "matte",
+  "pos": "adjective",
+  "def": "having a dull, flat surface without shine",
+  "defId": "doff; matte (permukaan tanpa kilau)",
+  "ex": "She chose a matte finish for the walls to avoid reflections.",
+  "exId": "Dia memilih hasil akhir doff untuk dindingnya agar tidak memantulkan cahaya.",
+  "colloc": [
+   "matte finish",
+   "matte black",
+   "matte surface"
+  ],
+  "theme": "colours"
+ },
+ {
+  "w": "mattress",
+  "pos": "noun",
+  "def": "a large, soft pad placed on a bed frame for sleeping on",
+  "defId": "kasur",
+  "ex": "After ten years, the old mattress had become lumpy and needed replacing.",
+  "exId": "Setelah sepuluh tahun, kasur tua itu jadi bergelombang dan perlu diganti.",
+  "colloc": [
+   "a firm mattress",
+   "a memory-foam mattress"
+  ],
+  "theme": "household"
+ },
+ {
   "w": "maturity",
   "pos": "noun",
   "def": "the quality of behaving in a sensible, adult way emotionally and mentally",
@@ -26096,6 +37956,19 @@ export const VOCAB = [
    "great maturity"
   ],
   "theme": "personality"
+ },
+ {
+  "w": "maximum",
+  "pos": "noun",
+  "def": "the greatest amount, size or value that is possible or recorded",
+  "defId": "maksimum; nilai tertinggi",
+  "ex": "Visitor numbers reached a maximum of five thousand in August.",
+  "exId": "Jumlah pengunjung mencapai maksimum lima ribu pada bulan Agustus.",
+  "colloc": [
+   "reach a maximum",
+   "maximum value"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "meadow",
@@ -26123,6 +37996,125 @@ export const VOCAB = [
    "meagre rations"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "mean",
+  "pos": "noun",
+  "def": "the mathematical average of a set of numbers",
+  "defId": "nilai rata-rata (mean)",
+  "ex": "The mean of the test scores was noticeably higher than the median.",
+  "exId": "Nilai rata-rata dari skor tes itu jauh lebih tinggi daripada mediannya.",
+  "colloc": [
+   "the mean value",
+   "arithmetic mean"
+  ],
+  "theme": "numbers"
+ },
+ {
+  "w": "meander",
+  "pos": "verb",
+  "def": "to follow a winding course, or to wander slowly without a fixed direction",
+  "defId": "berkelok-kelok atau berjalan santai tanpa tujuan yang pasti",
+  "ex": "We spent the afternoon meandering through the old town's narrow lanes.",
+  "exId": "Kami menghabiskan sore itu berjalan santai menyusuri gang-gang sempit kota tua.",
+  "colloc": [
+   "meander through",
+   "meander along",
+   "a meandering river"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "means-tested",
+  "pos": "adjective",
+  "def": "(Of benefits) given only to people whose income is below a certain level.",
+  "defId": "Berdasarkan uji kemampuan ekonomi; (tentang tunjangan) hanya diberikan kepada orang berpenghasilan di bawah batas tertentu.",
+  "ex": "The grant is means-tested, so only low-income households qualify.",
+  "exId": "Hibah itu berbasis uji kemampuan ekonomi, sehingga hanya rumah tangga berpenghasilan rendah yang memenuhi syarat.",
+  "colloc": [
+   "a means-tested benefit",
+   "means-tested support",
+   "strictly means-tested"
+  ],
+  "theme": "economy"
+ },
+ {
+  "w": "meanwhile",
+  "pos": "adverb",
+  "def": "at the same time; in the intervening period",
+  "defId": "sementara itu",
+  "ex": "Cities expand rapidly; meanwhile, rural populations continue to shrink.",
+  "exId": "Kota-kota berkembang pesat; sementara itu, populasi pedesaan terus menyusut.",
+  "colloc": [
+   "meanwhile, ..."
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "measure",
+  "pos": "verb",
+  "def": "to find the size, amount or degree of something using units",
+  "defId": "mengukur",
+  "ex": "The study measures how far income levels vary between the two cities.",
+  "exId": "Studi itu mengukur seberapa jauh tingkat pendapatan berbeda antara kedua kota.",
+  "colloc": [
+   "measure the impact",
+   "accurately measure"
+  ],
+  "theme": "numbers"
+ },
+ {
+  "w": "measurement",
+  "pos": "n",
+  "def": "the size, length, or amount of something, found by measuring it",
+  "defId": "ukuran, panjang, atau jumlah sesuatu yang diperoleh dengan mengukur",
+  "ex": "Accurate measurement of temperature is essential in this experiment.",
+  "exId": "Pengukuran suhu yang akurat sangat penting dalam eksperimen ini.",
+  "colloc": [
+   "accurate measurement",
+   "take a measurement",
+   "unit of measurement"
+  ],
+  "theme": "science"
+ },
+ {
+  "w": "mechanic",
+  "pos": "noun",
+  "def": "a person who repairs and maintains machinery, especially vehicle engines",
+  "defId": "montir",
+  "ex": "The mechanic said the car needed a new clutch.",
+  "exId": "Montir itu mengatakan mobilnya membutuhkan kopling baru.",
+  "colloc": [
+   "car mechanic",
+   "see a mechanic"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "mechanism",
+  "pos": "noun",
+  "def": "a process or system by which something takes place or is brought about",
+  "defId": "mekanisme; cara kerja",
+  "ex": "Scientists are still studying the mechanism behind the disease.",
+  "exId": "Para ilmuwan masih mempelajari mekanisme di balik penyakit itu.",
+  "colloc": [
+   "a mechanism for",
+   "underlying mechanism"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "median",
+  "pos": "noun",
+  "def": "the middle value in a set of numbers arranged in order",
+  "defId": "nilai tengah (median)",
+  "ex": "The median income gives a fairer picture than the average when a few people earn a great deal.",
+  "exId": "Pendapatan median memberi gambaran lebih adil daripada rata-rata ketika beberapa orang berpenghasilan sangat besar.",
+  "colloc": [
+   "median income",
+   "median age"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "mediate",
@@ -26263,6 +38255,20 @@ export const VOCAB = [
   "theme": "music"
  },
  {
+  "w": "melodious",
+  "pos": "adjective",
+  "def": "pleasant to listen to, like a tune",
+  "defId": "merdu; enak didengar bagai lagu",
+  "ex": "The melodious song of the blackbird drifted through the open window.",
+  "exId": "Kicauan merdu burung hitam itu mengalun lewat jendela yang terbuka.",
+  "colloc": [
+   "melodious voice",
+   "melodious song",
+   "softly melodious"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "melody",
   "pos": "noun",
   "def": "a sequence of musical notes that forms the main tune of a piece",
@@ -26275,6 +38281,20 @@ export const VOCAB = [
    "the main melody"
   ],
   "theme": "music"
+ },
+ {
+  "w": "melting pot",
+  "pos": "noun",
+  "def": "a place where many different peoples and cultures mix and blend together",
+  "defId": "tempat berbaurnya beragam bangsa dan budaya menjadi satu kesatuan",
+  "ex": "The port city has long been a melting pot of languages and traditions.",
+  "exId": "Kota pelabuhan itu telah lama menjadi tempat berbaurnya beragam bahasa dan tradisi.",
+  "colloc": [
+   "a cultural melting pot",
+   "melting pot of cultures",
+   "become a melting pot"
+  ],
+  "theme": "society"
  },
  {
   "w": "meltwater",
@@ -26318,6 +38338,20 @@ export const VOCAB = [
   "theme": "internet"
  },
  {
+  "w": "memo",
+  "pos": "noun",
+  "def": "A short written note or message circulated within a workplace.",
+  "defId": "memo; pesan atau catatan tertulis singkat yang diedarkan di dalam kantor",
+  "ex": "The manager sent a memo reminding everyone about the new dress code.",
+  "exId": "Manajer mengirim memo untuk mengingatkan semua orang tentang aturan berpakaian yang baru.",
+  "colloc": [
+   "send a memo",
+   "internal memo",
+   "circulate a memo"
+  ],
+  "theme": "work"
+ },
+ {
   "w": "memoir",
   "pos": "noun",
   "def": "A written account of the author's own personal experiences.",
@@ -26344,6 +38378,19 @@ export const VOCAB = [
   "theme": "tourism"
  },
  {
+  "w": "memorise",
+  "pos": "verb",
+  "def": "to learn something so that you can remember it exactly",
+  "defId": "menghafal sesuatu agar dapat mengingatnya dengan tepat",
+  "ex": "Rather than truly understanding the topic, many pupils simply memorise facts for the exam.",
+  "exId": "Alih-alih benar-benar memahami topiknya, banyak murid hanya menghafal fakta untuk ujian.",
+  "colloc": [
+   "memorise vocabulary",
+   "memorise by heart"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "memory",
   "pos": "noun",
   "def": "the mental ability to store and recall past experiences and information",
@@ -26356,6 +38403,20 @@ export const VOCAB = [
    "jog someone's memory"
   ],
   "theme": "psychology"
+ },
+ {
+  "w": "mend",
+  "pos": "verb",
+  "def": "to recover from illness or injury; to get better",
+  "defId": "sembuh dari sakit atau cedera; menjadi lebih baik",
+  "ex": "The doctor told her the broken bone would mend within six weeks.",
+  "exId": "Dokter memberitahunya bahwa tulang yang patah akan pulih dalam enam minggu.",
+  "colloc": [
+   "mend a fracture",
+   "on the mend",
+   "mend slowly"
+  ],
+  "theme": "health"
  },
  {
   "w": "mentor",
@@ -26508,6 +38569,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "metallic",
+  "pos": "adjective",
+  "def": "having the shiny appearance or colour of metal",
+  "defId": "metalik; berkilau seperti logam",
+  "ex": "The car was painted in a metallic silver that sparkled in the sun.",
+  "exId": "Mobil itu dicat dengan warna perak metalik yang berkilauan di bawah matahari.",
+  "colloc": [
+   "metallic finish",
+   "metallic sheen",
+   "metallic paint"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "metamorphosis",
   "pos": "noun",
   "def": "the process by which an animal changes completely in form as it develops",
@@ -26561,6 +38636,19 @@ export const VOCAB = [
    "study a meteorite"
   ],
   "theme": "space"
+ },
+ {
+  "w": "meteorologist",
+  "pos": "noun",
+  "def": "a scientist who studies the weather and produces forecasts",
+  "defId": "ahli meteorologi",
+  "ex": "The meteorologist warned that a severe storm was approaching.",
+  "exId": "Ahli meteorologi itu memperingatkan bahwa badai hebat akan datang.",
+  "colloc": [
+   "TV meteorologist",
+   "chief meteorologist"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "meteorology",
@@ -26726,6 +38814,20 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "microfinance",
+  "pos": "noun",
+  "def": "The provision of very small loans to poor people to help them start businesses.",
+  "defId": "Keuangan mikro; pemberian pinjaman sangat kecil kepada orang miskin untuk memulai usaha.",
+  "ex": "Microfinance has helped many rural women set up their own shops.",
+  "exId": "Keuangan mikro telah membantu banyak perempuan desa mendirikan toko mereka sendiri.",
+  "colloc": [
+   "a microfinance institution",
+   "microfinance loans",
+   "access to microfinance"
+  ],
+  "theme": "economy"
+ },
+ {
   "w": "micromanage",
   "pos": "verb",
   "def": "to control every small part of an employee's work in an excessive, controlling way",
@@ -26766,6 +38868,61 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "microwave",
+  "pos": "noun",
+  "def": "an oven that cooks or heats food quickly using high-frequency electromagnetic waves",
+  "defId": "oven microwave",
+  "ex": "She reheated the leftovers in the microwave for two minutes.",
+  "exId": "Dia menghangatkan sisa makanan di microwave selama dua menit.",
+  "colloc": [
+   "a microwave oven",
+   "heat in the microwave"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "middle-aged",
+  "pos": "adjective",
+  "def": "belonging to the period of life between about 45 and 65",
+  "defId": "berusia paruh baya",
+  "ex": "A middle-aged couple sat quietly reading in the corner of the café.",
+  "exId": "Sepasang suami istri paruh baya duduk membaca dengan tenang di sudut kafe.",
+  "colloc": [
+   "middle-aged man",
+   "middle-aged couple",
+   "middle-aged woman"
+  ],
+  "theme": "describe_people"
+ },
+ {
+  "w": "middleman",
+  "pos": "noun",
+  "def": "a person or business that buys goods from producers and sells them to retailers or consumers",
+  "defId": "orang atau usaha yang membeli barang dari produsen lalu menjualnya ke peritel atau konsumen",
+  "ex": "By selling directly online, the brand cut out the middleman and lowered its prices.",
+  "exId": "Dengan menjual langsung secara daring, merek itu memangkas perantara dan menurunkan harganya.",
+  "colloc": [
+   "cut out the middleman",
+   "act as a middleman",
+   "middleman fees"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "middleware",
+  "pos": "noun",
+  "def": "software that connects different applications or systems so they can work together",
+  "defId": "perangkat lunak yang menghubungkan berbagai aplikasi atau sistem agar dapat bekerja bersama",
+  "ex": "The middleware passes data smoothly between the app and the database.",
+  "exId": "Middleware itu meneruskan data dengan mulus antara aplikasi dan basis data.",
+  "colloc": [
+   "middleware layer",
+   "integration middleware",
+   "middleware component"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "midwife",
   "pos": "noun",
   "def": "A health professional trained to care for women during pregnancy, birth and just after.",
@@ -26791,6 +38948,34 @@ export const VOCAB = [
    "suffer from migraines"
   ],
   "theme": "health"
+ },
+ {
+  "w": "migrant",
+  "pos": "noun",
+  "def": "a person who moves from one place to another, especially to find work or better conditions",
+  "defId": "migran; orang yang berpindah dari satu tempat ke tempat lain, terutama untuk mencari kerja atau kehidupan lebih baik",
+  "ex": "Seasonal migrants make up a large share of the workforce during the harvest.",
+  "exId": "Migran musiman menyumbang sebagian besar tenaga kerja selama masa panen.",
+  "colloc": [
+   "economic migrant",
+   "seasonal migrant",
+   "migrant workers"
+  ],
+  "theme": "society"
+ },
+ {
+  "w": "migrant worker",
+  "pos": "noun",
+  "def": "a person who travels to another region or country to find work, often temporarily",
+  "defId": "orang yang bepergian ke daerah atau negara lain untuk mencari kerja, sering kali sementara",
+  "ex": "Migrant workers built much of the city yet enjoy few labour protections.",
+  "exId": "Pekerja migran membangun sebagian besar kota itu namun hanya menikmati sedikit perlindungan kerja.",
+  "colloc": [
+   "migrant worker",
+   "exploit migrant workers",
+   "migrant worker rights"
+  ],
+  "theme": "globalisation"
  },
  {
   "w": "migrate",
@@ -26877,6 +39062,20 @@ export const VOCAB = [
   "theme": "conflict"
  },
  {
+  "w": "millennial",
+  "pos": "noun",
+  "def": "a person born roughly between the early 1980s and the mid-1990s",
+  "defId": "milenial; orang yang lahir kira-kira antara awal 1980-an dan pertengahan 1990-an",
+  "ex": "Many millennials are delaying home ownership because of soaring prices.",
+  "exId": "Banyak milenial menunda kepemilikan rumah karena harga yang melonjak.",
+  "colloc": [
+   "young millennials",
+   "millennial generation",
+   "millennials and Gen Z"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "mindfulness",
   "pos": "noun",
   "def": "the practice of being fully aware of the present moment in a calm way",
@@ -26959,6 +39158,19 @@ export const VOCAB = [
   "theme": "architecture"
  },
  {
+  "w": "minimum",
+  "pos": "noun",
+  "def": "the smallest amount, size or value that is possible or recorded",
+  "defId": "minimum; nilai terendah",
+  "ex": "Rainfall fell to a minimum of ten millimetres in the driest month.",
+  "exId": "Curah hujan turun ke minimum sepuluh milimeter pada bulan terkering.",
+  "colloc": [
+   "a bare minimum",
+   "minimum level"
+  ],
+  "theme": "numbers"
+ },
+ {
   "w": "minimum wage",
   "pos": "noun phrase",
   "def": "The lowest hourly pay an employer is legally allowed to give a worker.",
@@ -26987,6 +39199,19 @@ export const VOCAB = [
   "theme": "energy"
  },
  {
+  "w": "ministry",
+  "pos": "noun",
+  "def": "a government department headed by a minister and responsible for a particular area",
+  "defId": "kementerian; departemen pemerintah yang dipimpin seorang menteri dan menangani bidang tertentu",
+  "ex": "The Ministry of Education announced sweeping reforms to the national curriculum.",
+  "exId": "Kementerian Pendidikan mengumumkan reformasi besar-besaran terhadap kurikulum nasional.",
+  "colloc": [
+   "ministry of finance",
+   "government ministry"
+  ],
+  "theme": "politics"
+ },
+ {
   "w": "minority",
   "pos": "noun",
   "def": "a small group within a larger group, especially one of a different race or religion",
@@ -26999,6 +39224,33 @@ export const VOCAB = [
    "minority rights"
   ],
   "theme": "society"
+ },
+ {
+  "w": "minutes",
+  "pos": "noun",
+  "def": "The official written record of what is said and decided at a meeting.",
+  "defId": "notulen; catatan resmi mengenai apa yang dibahas dan diputuskan dalam sebuah rapat",
+  "ex": "Could you take the minutes during today's staff meeting?",
+  "exId": "Bisakah kamu mencatat notulen selama rapat staf hari ini?",
+  "colloc": [
+   "take the minutes",
+   "meeting minutes",
+   "circulate the minutes"
+  ],
+  "theme": "work"
+ },
+ {
+  "w": "mirror",
+  "pos": "verb",
+  "def": "to be very similar to something or to reflect it closely",
+  "defId": "mencerminkan atau sangat mirip dengan sesuatu",
+  "ex": "The rise in obesity mirrors the growing consumption of processed food.",
+  "exId": "Peningkatan obesitas mencerminkan meningkatnya konsumsi makanan olahan.",
+  "colloc": [
+   "closely mirror",
+   "mirror a trend"
+  ],
+  "theme": "academic"
  },
  {
   "w": "mischievous",
@@ -27039,6 +39291,33 @@ export const VOCAB = [
    "charged with a misdemeanour"
   ],
   "theme": "crime"
+ },
+ {
+  "w": "misgiving",
+  "pos": "noun",
+  "def": "a feeling of doubt, distrust, or worry about a future event",
+  "defId": "keraguan; perasaan ragu, curiga, atau khawatir tentang suatu peristiwa yang akan datang",
+  "ex": "Despite his misgivings, he signed the contract anyway.",
+  "exId": "Meskipun ada keraguannya, dia tetap menandatangani kontrak itu.",
+  "colloc": [
+   "serious misgivings",
+   "have misgivings",
+   "express misgivings"
+  ],
+  "theme": "psychology"
+ },
+ {
+  "w": "misguided",
+  "pos": "adjective",
+  "def": "based on a mistaken understanding or wrong judgement",
+  "defId": "keliru; salah arah",
+  "ex": "Their misguided policy actually made the housing crisis worse.",
+  "exId": "Kebijakan mereka yang keliru justru memperparah krisis perumahan.",
+  "colloc": [
+   "a misguided attempt",
+   "misguided belief"
+  ],
+  "theme": "academic"
  },
  {
   "w": "misinformation",
@@ -27179,6 +39458,33 @@ export const VOCAB = [
   "theme": "conflict"
  },
  {
+  "w": "modality",
+  "pos": "noun",
+  "def": "a particular mode, method, or form in which something exists or is done",
+  "defId": "modalitas; cara atau bentuk",
+  "ex": "Online learning is now an established modality of higher education.",
+  "exId": "Pembelajaran daring kini menjadi modalitas yang mapan dalam pendidikan tinggi.",
+  "colloc": [
+   "a modality of",
+   "treatment modality"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "modem",
+  "pos": "noun",
+  "def": "a device that connects a computer or network to the internet via a telephone or cable line",
+  "defId": "perangkat yang menghubungkan komputer atau jaringan ke internet melalui saluran telepon atau kabel",
+  "ex": "After the storm I had to restart the modem to get my connection back.",
+  "exId": "Setelah badai, saya harus menyalakan ulang modem untuk memulihkan koneksi.",
+  "colloc": [
+   "restart the modem",
+   "cable modem",
+   "modem light"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "moderate",
   "pos": "verb",
   "def": "to become or make something less extreme or severe",
@@ -27274,6 +39580,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "moist",
+  "pos": "adjective",
+  "def": "of food, slightly and pleasantly wet, not dry",
+  "defId": "tentang makanan, sedikit basah dengan cara yang menyenangkan, tidak kering",
+  "ex": "The carrot cake was beautifully moist and rich with spices.",
+  "exId": "Kue wortel itu lembap sempurna dan kaya akan rempah.",
+  "colloc": [
+   "moist and tender",
+   "a moist cake",
+   "keep it moist"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "molecule",
   "pos": "noun",
   "def": "the smallest unit of a substance that keeps its chemical properties, made up of atoms",
@@ -27285,6 +39605,19 @@ export const VOCAB = [
    "complex molecule"
   ],
   "theme": "science"
+ },
+ {
+  "w": "momentarily",
+  "pos": "adverb",
+  "def": "for a very brief moment; lasting only an instant",
+  "defId": "sejenak; untuk sesaat",
+  "ex": "He paused momentarily before answering the difficult question.",
+  "exId": "Dia berhenti sejenak sebelum menjawab pertanyaan yang sulit itu.",
+  "colloc": [
+   "pause momentarily",
+   "hesitate momentarily"
+  ],
+  "theme": "academic"
  },
  {
   "w": "momentum",
@@ -27423,6 +39756,20 @@ export const VOCAB = [
   "theme": "religion"
  },
  {
+  "w": "monochrome",
+  "pos": "adjective",
+  "def": "using only one colour or shades of a single colour, or only black and white",
+  "defId": "monokrom; satu warna (atau hitam-putih)",
+  "ex": "The photographer preferred monochrome images in black and white.",
+  "exId": "Fotografer itu lebih menyukai gambar monokrom hitam dan putih.",
+  "colloc": [
+   "monochrome design",
+   "monochrome palette",
+   "monochrome print"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "monoculture",
   "pos": "noun",
   "def": "the farming of a single crop over a large area, which reduces biodiversity",
@@ -27447,6 +39794,20 @@ export const VOCAB = [
    "monolingual country"
   ],
   "theme": "language"
+ },
+ {
+  "w": "monologue",
+  "pos": "noun",
+  "def": "a long speech delivered by a single character or performer",
+  "defId": "pidato panjang yang disampaikan oleh satu tokoh atau pemain",
+  "ex": "Her opening monologue lasted five minutes and held the entire theatre spellbound.",
+  "exId": "Monolog pembukanya berlangsung lima menit dan membuat seluruh teater terpaku.",
+  "colloc": [
+   "opening monologue",
+   "dramatic monologue",
+   "deliver a monologue"
+  ],
+  "theme": "arts"
  },
  {
   "w": "monopoly",
@@ -27638,6 +39999,18 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "moreover",
+  "pos": "adverb",
+  "def": "used to add information that supports a previous statement",
+  "defId": "terlebih lagi",
+  "ex": "The evidence is weak; moreover, it comes from a single source.",
+  "exId": "Buktinya lemah; terlebih lagi, bukti itu berasal dari satu sumber saja.",
+  "colloc": [
+   "moreover, ..."
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "morpheme",
   "pos": "noun",
   "def": "the smallest unit of meaning in a language",
@@ -27649,6 +40022,20 @@ export const VOCAB = [
    "single morpheme"
   ],
   "theme": "language"
+ },
+ {
+  "w": "morsel",
+  "pos": "noun",
+  "def": "a very small piece of food",
+  "defId": "sepotong makanan yang sangat kecil",
+  "ex": "He savoured every morsel of the delicate pastry.",
+  "exId": "Dia menikmati setiap potongan kecil kue lembut itu.",
+  "colloc": [
+   "a tasty morsel",
+   "a tiny morsel",
+   "the last morsel"
+  ],
+  "theme": "food"
  },
  {
   "w": "mortality",
@@ -27719,6 +40106,20 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "moss",
+  "pos": "noun",
+  "def": "a small, soft green plant that grows in damp places, forming a low, spreading mat",
+  "defId": "lumut",
+  "ex": "Soft green moss had spread across the shady stone path.",
+  "exId": "Lumut hijau yang lembut telah menyebar di sepanjang jalan batu yang teduh.",
+  "colloc": [
+   "green moss",
+   "moss-covered",
+   "carpet of moss"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "MOT",
   "pos": "noun",
   "def": "A yearly test that checks whether a car over three years old is safe and roadworthy.",
@@ -27744,6 +40145,20 @@ export const VOCAB = [
    "speak your mother tongue"
   ],
   "theme": "language"
+ },
+ {
+  "w": "motherboard",
+  "pos": "noun",
+  "def": "the main circuit board of a computer that connects and holds the key components together",
+  "defId": "papan sirkuit utama komputer yang menghubungkan dan menyatukan komponen-komponen penting",
+  "ex": "When the motherboard failed, none of the other components would power on.",
+  "exId": "Ketika motherboard rusak, tidak ada satu pun komponen lain yang mau menyala.",
+  "colloc": [
+   "faulty motherboard",
+   "replace the motherboard",
+   "motherboard slot"
+  ],
+  "theme": "technology"
  },
  {
   "w": "motif",
@@ -27787,6 +40202,20 @@ export const VOCAB = [
   "theme": "uk_transport"
  },
  {
+  "w": "mottled",
+  "pos": "adjective",
+  "def": "marked with irregular patches of different colours or shades",
+  "defId": "belang-belang; berbercak tak beraturan",
+  "ex": "The marble had a mottled surface of grey and white.",
+  "exId": "Marmer itu memiliki permukaan belang-belang abu-abu dan putih.",
+  "colloc": [
+   "mottled surface",
+   "mottled skin",
+   "mottled pattern"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "moult",
   "pos": "verb",
   "def": "to shed old fur, feathers or skin so that new growth can replace it",
@@ -27799,6 +40228,47 @@ export const VOCAB = [
    "moult annually"
   ],
   "theme": "wildlife"
+ },
+ {
+  "w": "mouthful",
+  "pos": "noun",
+  "def": "an amount of food or drink that fills the mouth or is taken in one bite",
+  "defId": "jumlah makanan atau minuman yang memenuhi mulut atau diambil dalam satu suapan",
+  "ex": "After one mouthful of the curry, he reached for a glass of water.",
+  "exId": "Setelah satu suapan kari itu, dia langsung meraih segelas air.",
+  "colloc": [
+   "a single mouthful",
+   "take a mouthful",
+   "a mouthful of food"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "mow",
+  "pos": "verb",
+  "def": "to cut down grass or a crop with a machine or blade",
+  "defId": "memotong rumput",
+  "ex": "He mows the lawn every other weekend in the summer.",
+  "exId": "Dia memotong rumput halaman setiap dua minggu sekali di musim panas.",
+  "colloc": [
+   "mow the lawn",
+   "mow the grass"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "muffled",
+  "pos": "adjective",
+  "def": "made quieter or less clear, as if covered",
+  "defId": "teredam; menjadi lebih pelan atau tidak jelas seolah tertutup",
+  "ex": "We could hear the muffled voices of our neighbours through the wall.",
+  "exId": "Kami bisa mendengar suara tetangga yang teredam menembus dinding.",
+  "colloc": [
+   "muffled sound",
+   "muffled voices",
+   "muffled cry"
+  ],
+  "theme": "senses"
  },
  {
   "w": "mugging",
@@ -27826,6 +40296,33 @@ export const VOCAB = [
    "hot and muggy"
   ],
   "theme": "weather"
+ },
+ {
+  "w": "mulch",
+  "pos": "noun",
+  "def": "a layer of material such as bark or compost spread over soil to keep in moisture and hold back weeds",
+  "defId": "mulsa (lapisan penutup tanah)",
+  "ex": "A thick layer of mulch around the roses helps the soil stay moist in summer.",
+  "exId": "Lapisan mulsa tebal di sekitar mawar membantu tanah tetap lembap di musim panas.",
+  "colloc": [
+   "spread mulch",
+   "organic mulch",
+   "apply mulch"
+  ],
+  "theme": "garden"
+ },
+ {
+  "w": "multi-storey",
+  "pos": "adj",
+  "def": "Having several floors; often used of a car park with many parking levels.",
+  "defId": "Memiliki beberapa lantai; sering dipakai untuk gedung parkir dengan banyak tingkat.",
+  "ex": "We left the car in the multi-storey and walked into the centre.",
+  "exId": "Kami menaruh mobil di gedung parkir bertingkat dan berjalan kaki ke pusat kota.",
+  "colloc": [
+   "multi-storey car park",
+   "multi-storey building"
+  ],
+  "theme": "urban"
  },
  {
   "w": "multicultural",
@@ -27949,6 +40446,34 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "murky",
+  "pos": "adjective",
+  "def": "dark and dirty so that it is hard to see through",
+  "defId": "gelap dan keruh sehingga sulit ditembus pandangan",
+  "ex": "We could not see the bottom of the murky river water.",
+  "exId": "Kami tidak bisa melihat dasar air sungai yang keruh itu.",
+  "colloc": [
+   "murky water",
+   "murky depths",
+   "murky light"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "murmur",
+  "pos": "verb",
+  "def": "to say something very quietly, or to make a soft, continuous background sound",
+  "defId": "bergumam; berbisik lirih",
+  "ex": "The crowd murmured in disbelief when the result was announced.",
+  "exId": "Kerumunan itu bergumam tak percaya ketika hasilnya diumumkan.",
+  "colloc": [
+   "murmur softly",
+   "a murmuring stream",
+   "murmur approval"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "muscle",
   "pos": "noun",
   "def": "a body tissue that contracts and relaxes to produce movement",
@@ -27991,6 +40516,34 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "mushy",
+  "pos": "adjective",
+  "def": "soft, wet and pulpy in texture, often from being overcooked",
+  "defId": "bertekstur lembek, basah, dan berbubur, sering karena terlalu matang dimasak",
+  "ex": "If you boil the pasta too long, it turns mushy and loses its bite.",
+  "exId": "Jika pasta direbus terlalu lama, teksturnya menjadi lembek dan kehilangan kekenyalannya.",
+  "colloc": [
+   "mushy peas",
+   "go mushy",
+   "soft and mushy"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "musty",
+  "pos": "adjective",
+  "def": "smelling stale, damp and unpleasant",
+  "defId": "berbau apak, lembap dan tidak sedap",
+  "ex": "The old library had a musty smell of forgotten books.",
+  "exId": "Perpustakaan tua itu berbau apak dari buku-buku yang terlupakan.",
+  "colloc": [
+   "musty smell",
+   "musty air",
+   "musty odour"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "mutation",
   "pos": "noun",
   "def": "a permanent change in the genetic material of a cell or organism",
@@ -28016,6 +40569,20 @@ export const VOCAB = [
    "mute notifications"
   ],
   "theme": "internet"
+ },
+ {
+  "w": "muted",
+  "pos": "adjective",
+  "def": "(of a colour) soft, subdued and not bright",
+  "defId": "redup; kalem (warna yang lembut dan tidak mencolok)",
+  "ex": "He preferred muted colours like grey and olive for his office.",
+  "exId": "Dia lebih menyukai warna-warna redup seperti abu-abu dan hijau zaitun untuk kantornya.",
+  "colloc": [
+   "muted tones",
+   "muted colours",
+   "muted palette"
+  ],
+  "theme": "colours"
  },
  {
   "w": "mutter",
@@ -28059,6 +40626,31 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "nail",
+  "pos": "noun",
+  "def": "a thin pointed metal spike hammered in to fasten pieces of wood together",
+  "defId": "paku",
+  "ex": "Hammer the nail in at a slight angle so it holds firmly.",
+  "exId": "Pukul paku itu dengan sedikit miring supaya menancap kuat.",
+  "colloc": [
+   "hammer a nail",
+   "rusty nail"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "namely",
+  "pos": "adverb",
+  "def": "that is to say; used to specify exactly what one means",
+  "defId": "yaitu",
+  "ex": "One factor stands out, namely the lack of investment in education.",
+  "exId": "Satu faktor menonjol, yaitu kurangnya investasi dalam pendidikan.",
+  "colloc": [
+   "namely, ..."
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "namesake",
   "pos": "noun",
   "def": "a person named after another person",
@@ -28069,6 +40661,20 @@ export const VOCAB = [
    "one's namesake"
   ],
   "theme": "family"
+ },
+ {
+  "w": "narrate",
+  "pos": "verb",
+  "def": "to tell a story or describe a series of events, especially in order",
+  "defId": "menceritakan sebuah kisah atau menggambarkan rangkaian peristiwa, terutama secara berurutan",
+  "ex": "She was asked to narrate the events of that evening clearly and in sequence.",
+  "exId": "Dia diminta untuk menceritakan peristiwa malam itu dengan jelas dan berurutan.",
+  "colloc": [
+   "narrate a story",
+   "narrate events",
+   "narrate a documentary"
+  ],
+  "theme": "language"
  },
  {
   "w": "narration",
@@ -28192,6 +40798,33 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "nationalism",
+  "pos": "noun",
+  "def": "strong identification with and devotion to one's own nation, sometimes above others",
+  "defId": "nasionalisme; identifikasi dan pengabdian yang kuat terhadap bangsa sendiri, terkadang di atas bangsa lain",
+  "ex": "Rising nationalism made the government reluctant to sign the international agreement.",
+  "exId": "Nasionalisme yang menguat membuat pemerintah enggan menandatangani perjanjian internasional.",
+  "colloc": [
+   "rising nationalism",
+   "fervent nationalism"
+  ],
+  "theme": "politics"
+ },
+ {
+  "w": "nativism",
+  "pos": "noun",
+  "def": "a policy or attitude that favours the interests of native inhabitants over immigrants",
+  "defId": "nativisme; kebijakan atau sikap yang mengutamakan kepentingan penduduk asli di atas pendatang",
+  "ex": "The rise in nativism fuelled hostility towards recent arrivals.",
+  "exId": "Meningkatnya nativisme memicu permusuhan terhadap para pendatang baru.",
+  "colloc": [
+   "rising nativism",
+   "a wave of nativism",
+   "nativism and xenophobia"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "natter",
   "pos": "noun / verb (informal)",
   "def": "A long, relaxed, friendly chat about nothing in particular.",
@@ -28220,6 +40853,20 @@ export const VOCAB = [
   "theme": "energy"
  },
  {
+  "w": "naturalisation",
+  "pos": "noun",
+  "def": "the legal process by which a foreign resident becomes a citizen of a country",
+  "defId": "naturalisasi; proses hukum seorang penduduk asing menjadi warga negara",
+  "ex": "After five years of residence, she applied for naturalisation.",
+  "exId": "Setelah lima tahun bermukim, dia mengajukan naturalisasi.",
+  "colloc": [
+   "apply for naturalisation",
+   "naturalisation process",
+   "naturalisation ceremony"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "nature versus nurture",
   "pos": "noun",
   "def": "the debate over whether genes or environment shape behaviour more",
@@ -28245,6 +40892,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "nauseous",
+  "pos": "adjective",
+  "def": "feeling as if you are about to vomit",
+  "defId": "merasa mual seolah-olah hendak muntah",
+  "ex": "The strong smell of paint made her feel nauseous.",
+  "exId": "Bau cat yang menyengat membuatnya merasa mual.",
+  "colloc": [
+   "feel nauseous",
+   "a nauseous feeling",
+   "slightly nauseous"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "navigate",
   "pos": "verb",
   "def": "to find and follow a route through an unfamiliar or difficult place",
@@ -28256,6 +40917,20 @@ export const VOCAB = [
    "navigate by the stars"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "navy",
+  "pos": "adjective",
+  "def": "a very dark blue colour",
+  "defId": "biru dongker; biru tua",
+  "ex": "He wore a smart navy suit to the interview.",
+  "exId": "Dia mengenakan setelan biru dongker yang rapi ke wawancara.",
+  "colloc": [
+   "navy blue",
+   "dark navy",
+   "navy suit"
+  ],
+  "theme": "colours"
  },
  {
   "w": "nebula",
@@ -28282,6 +40957,20 @@ export const VOCAB = [
    "necessitate a review"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "nectar",
+  "pos": "noun",
+  "def": "a sweet liquid produced by flowers that attracts insects and birds",
+  "defId": "nektar (madu bunga)",
+  "ex": "Bees move from flower to flower collecting nectar all summer long.",
+  "exId": "Lebah berpindah dari bunga ke bunga mengumpulkan nektar sepanjang musim panas.",
+  "colloc": [
+   "collect nectar",
+   "rich in nectar",
+   "flower nectar"
+  ],
+  "theme": "garden"
  },
  {
   "w": "negligence",
@@ -28324,6 +41013,34 @@ export const VOCAB = [
    "negotiate terms"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "negotiation",
+  "pos": "noun",
+  "def": "formal discussion aimed at reaching an agreement on price, terms or conditions",
+  "defId": "pembahasan resmi untuk mencapai kesepakatan mengenai harga atau syarat",
+  "ex": "After months of tough negotiation, the two sides finally agreed on the contract terms.",
+  "exId": "Setelah berbulan-bulan negosiasi alot, kedua pihak akhirnya menyepakati ketentuan kontrak.",
+  "colloc": [
+   "contract negotiation",
+   "enter negotiation",
+   "break off negotiation"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "neocolonialism",
+  "pos": "noun",
+  "def": "the use of economic or political pressure to control a former colony indirectly",
+  "defId": "penggunaan tekanan ekonomi atau politik untuk mengendalikan bekas koloni secara tidak langsung",
+  "ex": "Some economists describe unfair loan conditions as a modern form of neocolonialism.",
+  "exId": "Sebagian ekonom menggambarkan syarat pinjaman yang tak adil sebagai bentuk modern neokolonialisme.",
+  "colloc": [
+   "economic neocolonialism",
+   "form of neocolonialism",
+   "accusations of neocolonialism"
+  ],
+  "theme": "globalisation"
  },
  {
   "w": "nepotism",
@@ -28529,6 +41246,33 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "nevertheless",
+  "pos": "adverb",
+  "def": "in spite of what has just been said; despite that",
+  "defId": "meskipun demikian",
+  "ex": "The results were disappointing; nevertheless, the team decided to continue the experiment.",
+  "exId": "Hasilnya mengecewakan; meskipun demikian, tim memutuskan untuk melanjutkan eksperimen.",
+  "colloc": [
+   "nevertheless, ...",
+   "but nevertheless"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "newcomer",
+  "pos": "noun",
+  "def": "a person who has recently arrived in a place, group or activity",
+  "defId": "pendatang baru; orang yang baru saja tiba di suatu tempat, kelompok, atau kegiatan",
+  "ex": "The neighbourhood association runs a welcome scheme to help newcomers settle in.",
+  "exId": "Perkumpulan lingkungan menjalankan program sambutan untuk membantu pendatang baru menyesuaikan diri.",
+  "colloc": [
+   "a relative newcomer",
+   "welcome newcomers",
+   "newcomer to the area"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "newsreader",
   "pos": "noun",
   "def": "a person who reads out the news on television or radio",
@@ -28606,6 +41350,20 @@ export const VOCAB = [
    "quote your NHS number"
   ],
   "theme": "uk_health"
+ },
+ {
+  "w": "nibble",
+  "pos": "verb",
+  "def": "to eat something by taking small bites, often slowly or without much appetite",
+  "defId": "memakan sesuatu dengan gigitan-gigitan kecil, sering perlahan atau tanpa banyak selera",
+  "ex": "She wasn't very hungry, so she just nibbled on a biscuit.",
+  "exId": "Dia tidak terlalu lapar, jadi dia hanya mengunyah biskuit sedikit demi sedikit.",
+  "colloc": [
+   "nibble on something",
+   "nibble at your food",
+   "nibble delicately"
+  ],
+  "theme": "food"
  },
  {
   "w": "niche",
@@ -28690,6 +41448,32 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "nominee",
+  "pos": "noun",
+  "def": "a person formally proposed or selected as a candidate for a position or award",
+  "defId": "orang yang dicalonkan; kandidat yang secara resmi diusulkan untuk suatu jabatan atau penghargaan",
+  "ex": "The party's nominee for the leadership was confirmed after a narrow internal vote.",
+  "exId": "Calon partai untuk jabatan pimpinan disahkan setelah pemungutan suara internal yang ketat.",
+  "colloc": [
+   "presidential nominee",
+   "confirm a nominee"
+  ],
+  "theme": "politics"
+ },
+ {
+  "w": "non-binding",
+  "pos": "adjective",
+  "def": "not legally forcing anyone to do what has been agreed",
+  "defId": "tidak mengikat secara hukum",
+  "ex": "The referendum was non-binding, so parliament was not obliged to act on the result.",
+  "exId": "Referendum itu tidak mengikat, sehingga parlemen tidak wajib menindaklanjuti hasilnya.",
+  "colloc": [
+   "non-binding agreement",
+   "non-binding resolution"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "non-fiction",
   "pos": "noun",
   "def": "Prose writing that is based on facts and real events.",
@@ -28715,6 +41499,33 @@ export const VOCAB = [
    "non-renewable sources"
   ],
   "theme": "energy"
+ },
+ {
+  "w": "nonconformist",
+  "pos": "noun",
+  "def": "a person who does not follow generally accepted customs, beliefs or behaviour",
+  "defId": "nonkonformis; orang yang tidak mengikuti adat, keyakinan, atau perilaku yang diterima umum",
+  "ex": "As a nonconformist, he refused to follow the conventions expected of him.",
+  "exId": "Sebagai seorang nonkonformis, dia menolak mengikuti konvensi yang diharapkan darinya.",
+  "colloc": [
+   "a lifelong nonconformist",
+   "social nonconformist",
+   "nonconformist views"
+  ],
+  "theme": "society"
+ },
+ {
+  "w": "nonetheless",
+  "pos": "adverb",
+  "def": "in spite of that; even so",
+  "defId": "walau begitu",
+  "ex": "The plan is expensive; nonetheless, it may prove worthwhile in the long run.",
+  "exId": "Rencana itu mahal; walau begitu, mungkin akan sepadan dalam jangka panjang.",
+  "colloc": [
+   "nonetheless, ...",
+   "but nonetheless"
+  ],
+  "theme": "academic"
  },
  {
   "w": "norm",
@@ -28786,6 +41597,45 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "notably",
+  "pos": "adverb",
+  "def": "especially; used to draw attention to an important example",
+  "defId": "terutama",
+  "ex": "Several countries, notably Japan, face rapidly ageing populations.",
+  "exId": "Beberapa negara, terutama Jepang, menghadapi populasi yang menua dengan cepat.",
+  "colloc": [
+   "most notably",
+   "notably, ..."
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "notarise",
+  "pos": "verb",
+  "def": "to have a document made official by a notary",
+  "defId": "mengesahkan dokumen di hadapan notaris",
+  "ex": "You must notarise the affidavit before it can be submitted to the court.",
+  "exId": "Anda harus mengesahkan surat pernyataan itu di hadapan notaris sebelum dapat diajukan ke pengadilan.",
+  "colloc": [
+   "notarise a document",
+   "a notarised copy"
+  ],
+  "theme": "law"
+ },
+ {
+  "w": "notary",
+  "pos": "noun",
+  "def": "a person with legal authority to witness signatures and certify official documents",
+  "defId": "notaris",
+  "ex": "The contract had to be signed in front of a notary.",
+  "exId": "Kontrak itu harus ditandatangani di hadapan seorang notaris.",
+  "colloc": [
+   "public notary",
+   "notary's seal"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "notice period",
   "pos": "noun phrase",
   "def": "the amount of time you must tell your landlord in advance before you move out.",
@@ -28824,6 +41674,19 @@ export const VOCAB = [
    "a common notion",
    "challenge a notion",
    "the notion that"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "notwithstanding",
+  "pos": "preposition / adverb",
+  "def": "in spite of; despite",
+  "defId": "kendati demikian",
+  "ex": "Notwithstanding the risks involved, many investors remain optimistic.",
+  "exId": "Terlepas dari risiko yang ada, banyak investor tetap optimis.",
+  "colloc": [
+   "notwithstanding the",
+   "the risks notwithstanding"
   ],
   "theme": "academic"
  },
@@ -28869,6 +41732,20 @@ export const VOCAB = [
   "theme": "literature"
  },
  {
+  "w": "noxious",
+  "pos": "adjective",
+  "def": "harmful, poisonous or very unpleasant, especially to health.",
+  "defId": "berbahaya, beracun, atau sangat tidak menyenangkan, terutama bagi kesehatan.",
+  "ex": "Noxious gases from the burning landfill forced residents to stay indoors.",
+  "exId": "Gas berbahaya dari tempat sampah yang terbakar memaksa warga tetap berada di dalam rumah.",
+  "colloc": [
+   "noxious gases",
+   "noxious fumes",
+   "noxious chemicals"
+  ],
+  "theme": "environment"
+ },
+ {
   "w": "nuance",
   "pos": "noun",
   "def": "a very slight difference in meaning, feeling or tone",
@@ -28881,6 +41758,19 @@ export const VOCAB = [
    "nuance of meaning"
   ],
   "theme": "language"
+ },
+ {
+  "w": "nuanced",
+  "pos": "adjective",
+  "def": "showing an awareness of small but important differences",
+  "defId": "cermat memperhatikan nuansa",
+  "ex": "A nuanced argument recognises that the evidence points in both directions.",
+  "exId": "Argumen yang cermat memperhatikan nuansa mengakui bahwa bukti mengarah ke dua arah.",
+  "colloc": [
+   "a nuanced argument",
+   "a nuanced view"
+  ],
+  "theme": "academic"
  },
  {
   "w": "nuclear",
@@ -28936,6 +41826,19 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "null",
+  "pos": "adjective",
+  "def": "having no legal force; invalid, especially in the phrase 'null and void'",
+  "defId": "batal; tidak berlaku, terutama dalam ungkapan 'null and void'",
+  "ex": "The marriage was declared null after evidence of fraud emerged.",
+  "exId": "Pernikahan itu dinyatakan batal setelah muncul bukti penipuan.",
+  "colloc": [
+   "null and void",
+   "render null"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "numb",
   "pos": "adjective",
   "def": "unable to feel anything in a part of the body",
@@ -28964,6 +41867,19 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "numerical",
+  "pos": "adjective",
+  "def": "relating to, expressed in or involving numbers",
+  "defId": "numerik; berupa angka",
+  "ex": "The table presents the results in numerical form for easy comparison.",
+  "exId": "Tabel itu menyajikan hasil dalam bentuk numerik agar mudah dibandingkan.",
+  "colloc": [
+   "numerical order",
+   "numerical value"
+  ],
+  "theme": "numbers"
+ },
+ {
   "w": "nurture",
   "pos": "verb",
   "def": "to care for and protect someone or something while it is growing",
@@ -28976,6 +41892,19 @@ export const VOCAB = [
    "nurture a relationship"
   ],
   "theme": "family"
+ },
+ {
+  "w": "nut",
+  "pos": "noun",
+  "def": "a small metal piece with a threaded hole that screws onto a bolt",
+  "defId": "mur",
+  "ex": "Screw the nut onto the bolt and tighten it firmly.",
+  "exId": "Pasang mur ke baut dan kencangkan dengan kuat.",
+  "colloc": [
+   "nut and bolt",
+   "lock nut"
+  ],
+  "theme": "tools"
  },
  {
   "w": "nutrient",
@@ -29062,6 +41991,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "object",
+  "pos": "verb",
+  "def": "to express disagreement with or disapproval of something",
+  "defId": "menyatakan keberatan atau ketidaksetujuan terhadap sesuatu",
+  "ex": "I would object to any policy that unfairly limits people's freedom.",
+  "exId": "Saya akan keberatan terhadap kebijakan apa pun yang secara tidak adil membatasi kebebasan orang.",
+  "colloc": [
+   "object to",
+   "strongly object",
+   "object on principle"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "objective",
   "pos": "adjective",
   "def": "based on facts and not influenced by personal feelings",
@@ -29076,6 +42019,19 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "objectivity",
+  "pos": "noun",
+  "def": "the quality of being fair and not influenced by personal feelings or opinions",
+  "defId": "objektivitas; sikap netral",
+  "ex": "Journalists are expected to report events with objectivity.",
+  "exId": "Jurnalis diharapkan melaporkan peristiwa dengan objektivitas.",
+  "colloc": [
+   "maintain objectivity",
+   "scientific objectivity"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "obligation",
   "pos": "noun",
   "def": "a moral or legal duty to do something",
@@ -29088,6 +42044,33 @@ export const VOCAB = [
    "legal obligation"
   ],
   "theme": "philosophy"
+ },
+ {
+  "w": "obligatory",
+  "pos": "adjective",
+  "def": "required by a rule, law, or custom; that you must do",
+  "defId": "wajib; bersifat keharusan yang tidak bisa dihindari",
+  "ex": "Disclosing any conflict of interest is obligatory under the new code of conduct.",
+  "exId": "Mengungkapkan setiap konflik kepentingan bersifat wajib menurut kode etik yang baru.",
+  "colloc": [
+   "legally obligatory",
+   "obligatory disclosure"
+  ],
+  "theme": "law"
+ },
+ {
+  "w": "observation",
+  "pos": "n",
+  "def": "the careful watching of something to gather information or notice details",
+  "defId": "pengamatan cermat terhadap sesuatu untuk mengumpulkan informasi",
+  "ex": "The researchers based their conclusions on months of careful observation in the field.",
+  "exId": "Para peneliti mendasarkan kesimpulan mereka pada berbulan-bulan pengamatan cermat di lapangan.",
+  "colloc": [
+   "careful observation",
+   "direct observation",
+   "make an observation"
+  ],
+  "theme": "science"
  },
  {
   "w": "observatory",
@@ -29185,6 +42168,20 @@ export const VOCAB = [
   "theme": "music"
  },
  {
+  "w": "odour",
+  "pos": "noun",
+  "def": "a smell, especially one that is strong or unpleasant",
+  "defId": "bau, terutama yang kuat atau tidak sedap",
+  "ex": "A strong odour of petrol lingered in the closed garage.",
+  "exId": "Bau bensin yang kuat masih tertinggal di garasi yang tertutup itu.",
+  "colloc": [
+   "strong odour",
+   "unpleasant odour",
+   "body odour"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "odyssey",
   "pos": "noun",
   "def": "a long, eventful journey full of experiences and challenges",
@@ -29196,6 +42193,20 @@ export const VOCAB = [
    "a personal odyssey"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "oeuvre",
+  "pos": "noun",
+  "def": "the complete body of work produced by an artist over a lifetime",
+  "defId": "keseluruhan karya yang dihasilkan seorang seniman sepanjang hidupnya",
+  "ex": "This late painting is widely regarded as the crowning achievement of her oeuvre.",
+  "exId": "Lukisan periode akhir ini secara luas dianggap sebagai pencapaian puncak dari keseluruhan karyanya.",
+  "colloc": [
+   "an artist's oeuvre",
+   "entire oeuvre",
+   "within his oeuvre"
+  ],
+  "theme": "arts"
  },
  {
   "w": "off the beaten track",
@@ -29222,6 +42233,19 @@ export const VOCAB = [
    "strictly off the record"
   ],
   "theme": "media"
+ },
+ {
+  "w": "off the top of my head",
+  "pos": "idiom",
+  "def": "giving an answer immediately from memory, without checking",
+  "defId": "menjawab langsung dari ingatan tanpa mengecek dulu",
+  "ex": "Off the top of my head, I'd say there were about fifty people at the event.",
+  "exId": "Kalau langsung dari ingatan saja, sepertinya ada sekitar lima puluh orang di acara itu.",
+  "colloc": [
+   "quick rough answer",
+   "'off the top of my head'"
+  ],
+  "theme": "idioms"
  },
  {
   "w": "off-grid",
@@ -29291,6 +42315,20 @@ export const VOCAB = [
    "buy off-the-peg"
   ],
   "theme": "fashion"
+ },
+ {
+  "w": "offbeat",
+  "pos": "adjective",
+  "def": "unconventional and unusual, away from mainstream or typical choices",
+  "defId": "tidak biasa dan tidak konvensional, jauh dari pilihan umum",
+  "ex": "The travel blog recommends offbeat destinations far from the crowds.",
+  "exId": "Blog perjalanan itu merekomendasikan destinasi tidak biasa yang jauh dari keramaian.",
+  "colloc": [
+   "an offbeat destination",
+   "an offbeat choice",
+   "offbeat charm"
+  ],
+  "theme": "travel"
  },
  {
   "w": "offence",
@@ -29363,6 +42401,20 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "offshoot",
+  "pos": "noun",
+  "def": "something that develops from something larger as a result of it",
+  "defId": "cabang; hasil turunan",
+  "ex": "The charity started as an offshoot of a larger religious organisation.",
+  "exId": "Badan amal itu bermula sebagai cabang dari organisasi keagamaan yang lebih besar.",
+  "colloc": [
+   "an offshoot of",
+   "a direct offshoot",
+   "an offshoot company"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "offshoring",
   "pos": "noun",
   "def": "the practice of moving a company's work or production to another country to cut costs",
@@ -29401,6 +42453,33 @@ export const VOCAB = [
    "produce offspring"
   ],
   "theme": "family"
+ },
+ {
+  "w": "ointment",
+  "pos": "noun",
+  "def": "a smooth greasy substance applied to the skin for healing",
+  "defId": "salep berminyak yang dioleskan pada kulit untuk penyembuhan",
+  "ex": "The nurse applied a soothing ointment to the burn.",
+  "exId": "Perawat mengoleskan salep penenang pada luka bakar itu.",
+  "colloc": [
+   "apply ointment",
+   "antiseptic ointment",
+   "a tube of ointment"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "oligarchy",
+  "pos": "noun",
+  "def": "a form of government in which power rests with a small group of people",
+  "defId": "oligarki; bentuk pemerintahan yang kekuasaannya berada di tangan sekelompok kecil orang",
+  "ex": "Critics argued that the country had become an oligarchy run by a handful of wealthy families.",
+  "exId": "Para pengkritik berpendapat bahwa negara itu telah menjadi oligarki yang dikendalikan segelintir keluarga kaya.",
+  "colloc": [
+   "ruling oligarchy",
+   "financial oligarchy"
+  ],
+  "theme": "politics"
  },
  {
   "w": "oligopoly",
@@ -29444,6 +42523,72 @@ export const VOCAB = [
   "theme": "wildlife"
  },
  {
+  "w": "on par",
+  "pos": "phrase",
+  "def": "at the same level or standard as something else",
+  "defId": "setara atau setingkat dengan sesuatu yang lain",
+  "ex": "The city's public transport is now on par with that of major capitals.",
+  "exId": "Transportasi umum kota itu kini setara dengan ibu kota besar.",
+  "colloc": [
+   "on par with",
+   "roughly on par"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "on the fence",
+  "pos": "idiom",
+  "def": "unable to decide between two options",
+  "defId": "belum bisa memutuskan; masih ragu di antara dua pilihan",
+  "ex": "I'm still on the fence about whether to study abroad or stay here.",
+  "exId": "Saya masih ragu apakah akan kuliah di luar negeri atau tetap di sini.",
+  "colloc": [
+   "being undecided",
+   "'sit on the fence'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "on the same page",
+  "pos": "idiom",
+  "def": "to agree or have the same understanding about something",
+  "defId": "memiliki pemahaman atau pendapat yang sama tentang sesuatu",
+  "ex": "Before we start the project, let's make sure everyone is on the same page.",
+  "exId": "Sebelum kita mulai proyek ini, mari pastikan semua orang memiliki pemahaman yang sama.",
+  "colloc": [
+   "shared understanding",
+   "'get everyone on the same page'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "on the whole",
+  "pos": "phrase",
+  "def": "considering everything; generally",
+  "defId": "secara keseluruhan",
+  "ex": "On the whole, the benefits of the scheme outweigh its drawbacks.",
+  "exId": "Secara keseluruhan, manfaat skema itu melebihi kekurangannya.",
+  "colloc": [
+   "on the whole positive",
+   "on the whole effective",
+   "on the whole satisfied"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "on thin ice",
+  "pos": "idiom",
+  "def": "in a risky situation that could easily lead to trouble",
+  "defId": "berada dalam situasi berisiko yang mudah berujung masalah",
+  "ex": "After being late so often, he's on thin ice with his manager.",
+  "exId": "Setelah begitu sering terlambat, posisinya sudah rawan di mata atasannya.",
+  "colloc": [
+   "risky position",
+   "'skating on thin ice'"
+  ],
+  "theme": "idioms"
+ },
+ {
   "w": "on-screen",
   "pos": "adjective",
   "def": "appearing in a film or on television",
@@ -29472,6 +42617,19 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "once in a blue moon",
+  "pos": "idiom",
+  "def": "very rarely; almost never",
+  "defId": "sangat jarang terjadi; hampir tidak pernah",
+  "ex": "My old school friends and I only meet up once in a blue moon these days.",
+  "exId": "Saya dan teman-teman lama sekolah hanya bertemu sangat jarang belakangan ini.",
+  "colloc": [
+   "describing rare events",
+   "'only happens once in a blue moon'"
+  ],
+  "theme": "idioms"
+ },
+ {
   "w": "one-way",
   "pos": "adjective",
   "def": "describing a ticket or journey that goes to a destination without a return",
@@ -29485,6 +42643,19 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "ongoing",
+  "pos": "adjective",
+  "def": "continuing to happen; still in progress",
+  "defId": "yang sedang berlangsung; berkelanjutan",
+  "ex": "The investigation is ongoing and may take several more months.",
+  "exId": "Penyelidikan itu masih berlangsung dan mungkin memakan waktu beberapa bulan lagi.",
+  "colloc": [
+   "ongoing process",
+   "ongoing debate"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "only child",
   "pos": "noun",
   "def": "a child who has no brothers or sisters",
@@ -29495,6 +42666,19 @@ export const VOCAB = [
    "an only child"
   ],
   "theme": "family"
+ },
+ {
+  "w": "onset",
+  "pos": "noun",
+  "def": "the beginning of something, especially something unpleasant",
+  "defId": "permulaan; awal mula (terutama sesuatu yang tidak menyenangkan)",
+  "ex": "The onset of winter brought heavy snowfall to the mountains.",
+  "exId": "Datangnya musim dingin membawa hujan salju lebat ke pegunungan.",
+  "colloc": [
+   "onset of winter",
+   "sudden onset"
+  ],
+  "theme": "academic"
  },
  {
   "w": "onslaught",
@@ -29524,6 +42708,20 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "opaque",
+  "pos": "adjective",
+  "def": "not able to be seen through; not transparent",
+  "defId": "tidak tembus pandang; tidak transparan",
+  "ex": "They fitted opaque glass in the bathroom window for privacy.",
+  "exId": "Mereka memasang kaca buram di jendela kamar mandi demi privasi.",
+  "colloc": [
+   "opaque glass",
+   "completely opaque",
+   "opaque screen"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "open-minded",
   "pos": "adjective",
   "def": "willing to consider new ideas and different opinions",
@@ -29535,6 +42733,20 @@ export const VOCAB = [
    "remain open-minded"
   ],
   "theme": "personality"
+ },
+ {
+  "w": "open-plan",
+  "pos": "adjective",
+  "def": "Describing an office or space with few or no internal dividing walls.",
+  "defId": "berkonsep terbuka; menggambarkan kantor atau ruang dengan sedikit atau tanpa sekat pemisah di dalamnya",
+  "ex": "Many staff complain that the open-plan office is too noisy to concentrate in.",
+  "exId": "Banyak karyawan mengeluh bahwa kantor berkonsep terbuka itu terlalu berisik untuk berkonsentrasi.",
+  "colloc": [
+   "open-plan office",
+   "an open-plan layout",
+   "work in open-plan"
+  ],
+  "theme": "work"
  },
  {
   "w": "open-source",
@@ -29562,6 +42774,20 @@ export const VOCAB = [
    "worthy opponent"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "oppose",
+  "pos": "verb",
+  "def": "to disagree with and try to prevent a plan, policy or idea",
+  "defId": "menentang dan berupaya mencegah suatu rencana atau gagasan",
+  "ex": "Local residents strongly oppose the plan to build a new motorway.",
+  "exId": "Warga setempat dengan tegas menentang rencana pembangunan jalan tol baru.",
+  "colloc": [
+   "strongly oppose",
+   "oppose a plan",
+   "oppose change"
+  ],
+  "theme": "opinions"
  },
  {
   "w": "opposition",
@@ -29634,6 +42860,20 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "opulence",
+  "pos": "noun",
+  "def": "Great wealth and luxury.",
+  "defId": "Kemewahan; kekayaan dan kemewahan yang melimpah.",
+  "ex": "The mansion's opulence reflected the family's vast business fortune.",
+  "exId": "Kemewahan rumah besar itu mencerminkan kekayaan bisnis keluarga tersebut yang luar biasa.",
+  "colloc": [
+   "sheer opulence",
+   "a display of opulence",
+   "surrounded by opulence"
+  ],
+  "theme": "economy"
+ },
+ {
   "w": "orbit",
   "pos": "noun",
   "def": "the curved path an object follows as it moves around a star, planet or moon",
@@ -29689,6 +42929,19 @@ export const VOCAB = [
   "theme": "religion"
  },
  {
+  "w": "ordinance",
+  "pos": "noun",
+  "def": "a rule or law made by a local authority or government",
+  "defId": "peraturan daerah; aturan atau undang-undang yang dibuat oleh otoritas atau pemerintah setempat",
+  "ex": "The city council passed an ordinance banning smoking in all public parks.",
+  "exId": "Dewan kota mengesahkan peraturan yang melarang merokok di semua taman umum.",
+  "colloc": [
+   "pass an ordinance",
+   "local ordinance"
+  ],
+  "theme": "politics"
+ },
+ {
   "w": "organ",
   "pos": "noun",
   "def": "a part of the body, such as the heart or liver, that performs a particular function",
@@ -29731,6 +42984,19 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "orientation",
+  "pos": "noun",
+  "def": "a person's basic attitudes and beliefs, or the direction of their interests",
+  "defId": "orientasi; arah pandangan",
+  "ex": "The company has a strong customer orientation that shapes every decision.",
+  "exId": "Perusahaan itu memiliki orientasi pelanggan yang kuat yang membentuk setiap keputusan.",
+  "colloc": [
+   "political orientation",
+   "market orientation"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "origami",
   "pos": "noun",
   "def": "the Japanese art of folding paper into decorative shapes",
@@ -29745,6 +43011,34 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "originate",
+  "pos": "verb",
+  "def": "to begin to exist or come from a particular place or source",
+  "defId": "berasal; bermula",
+  "ex": "The custom is thought to have originated in ancient China.",
+  "exId": "Kebiasaan itu diperkirakan berasal dari Tiongkok kuno.",
+  "colloc": [
+   "originate from",
+   "originate in",
+   "originate with"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "ornamental",
+  "pos": "adjective",
+  "def": "grown or used for decoration rather than for food or practical use",
+  "defId": "hias; untuk hiasan",
+  "ex": "The pond is surrounded by ornamental grasses that sway in the breeze.",
+  "exId": "Kolam itu dikelilingi rumput hias yang bergoyang tertiup angin.",
+  "colloc": [
+   "ornamental plant",
+   "ornamental grasses",
+   "ornamental pond"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "ornate",
   "pos": "adjective",
   "def": "decorated with a lot of complicated detail",
@@ -29757,6 +43051,33 @@ export const VOCAB = [
    "ornate carving"
   ],
   "theme": "arts"
+ },
+ {
+  "w": "oscillate",
+  "pos": "v",
+  "def": "to move or swing repeatedly back and forth between two positions",
+  "defId": "bergerak atau berayun berulang-ulang bolak-balik di antara dua posisi",
+  "ex": "A pendulum will oscillate at a steady rate once released.",
+  "exId": "Bandul akan berosilasi dengan laju tetap begitu dilepaskan.",
+  "colloc": [
+   "oscillate back and forth",
+   "oscillate rapidly",
+   "oscillate between"
+  ],
+  "theme": "science"
+ },
+ {
+  "w": "ostensibly",
+  "pos": "adverb",
+  "def": "as it appears on the surface, though perhaps not really so",
+  "defId": "seolah-olah",
+  "ex": "The law was ostensibly designed to protect consumers, but it mainly benefited big firms.",
+  "exId": "Undang-undang itu seolah-olah dirancang untuk melindungi konsumen, tetapi terutama menguntungkan perusahaan besar.",
+  "colloc": [
+   "ostensibly designed to",
+   "ostensibly, ..."
+  ],
+  "theme": "academic"
  },
  {
   "w": "ostracise",
@@ -29784,6 +43105,19 @@ export const VOCAB = [
    "go out of stock"
   ],
   "theme": "shopping"
+ },
+ {
+  "w": "out of the blue",
+  "pos": "idiom",
+  "def": "suddenly and unexpectedly",
+  "defId": "secara tiba-tiba dan tidak terduga",
+  "ex": "She called me out of the blue after years of no contact.",
+  "exId": "Dia menelepon saya secara tiba-tiba setelah bertahun-tahun tidak ada kabar.",
+  "colloc": [
+   "something unexpected",
+   "'came out of the blue'"
+  ],
+  "theme": "idioms"
  },
  {
   "w": "out of tune",
@@ -29814,6 +43148,34 @@ export const VOCAB = [
   "theme": "uk_health"
  },
  {
+  "w": "outback",
+  "pos": "noun",
+  "def": "the remote, sparsely populated inland regions of Australia",
+  "defId": "daerah pedalaman Australia yang terpencil dan jarang penduduknya",
+  "ex": "Driving through the outback, we saw nothing but red earth for hours.",
+  "exId": "Berkendara melintasi pedalaman, kami tidak melihat apa pun selain tanah merah berjam-jam.",
+  "colloc": [
+   "the Australian outback",
+   "deep in the outback",
+   "an outback town"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "outbid",
+  "pos": "verb",
+  "def": "to offer a higher price than someone else, especially in an auction or tender",
+  "defId": "menawar dengan harga lebih tinggi daripada orang lain, terutama dalam lelang atau tender",
+  "ex": "A larger conglomerate outbid us for the contract by offering a lower unit cost.",
+  "exId": "Sebuah konglomerat yang lebih besar mengalahkan tawaran kami untuk kontrak itu dengan menawarkan biaya per unit lebih rendah.",
+  "colloc": [
+   "outbid a rival",
+   "outbid competitors",
+   "be outbid"
+  ],
+  "theme": "business"
+ },
+ {
   "w": "outbreak",
   "pos": "noun",
   "def": "the sudden start of something bad, especially a disease, in an area",
@@ -29826,6 +43188,20 @@ export const VOCAB = [
    "contain an outbreak"
   ],
   "theme": "health"
+ },
+ {
+  "w": "outcome",
+  "pos": "noun",
+  "def": "the final result or effect of an action, process, or event",
+  "defId": "hasil; hasil akhir",
+  "ex": "The outcome of the negotiations will affect thousands of workers.",
+  "exId": "Hasil dari negosiasi itu akan memengaruhi ribuan pekerja.",
+  "colloc": [
+   "a positive outcome",
+   "the final outcome",
+   "affect the outcome"
+  ],
+  "theme": "academic"
  },
  {
   "w": "outgoing",
@@ -29855,6 +43231,34 @@ export const VOCAB = [
   "theme": "money"
  },
  {
+  "w": "outing",
+  "pos": "noun",
+  "def": "a short trip taken for pleasure or a specific purpose, usually in a group",
+  "defId": "perjalanan singkat untuk bersenang-senang atau tujuan tertentu, biasanya beramai-ramai",
+  "ex": "The whole office went on a day outing to the seaside resort.",
+  "exId": "Seluruh kantor pergi tamasya sehari ke resor tepi laut.",
+  "colloc": [
+   "a family outing",
+   "a day outing",
+   "go on an outing"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "outlay",
+  "pos": "noun",
+  "def": "An amount of money spent on something, especially as an initial investment.",
+  "defId": "Pengeluaran; sejumlah uang yang dibelanjakan, terutama sebagai modal awal.",
+  "ex": "Setting up the workshop required a large initial outlay on machinery.",
+  "exId": "Mendirikan bengkel itu memerlukan pengeluaran awal yang besar untuk mesin.",
+  "colloc": [
+   "initial outlay",
+   "a capital outlay",
+   "a large outlay"
+  ],
+  "theme": "economy"
+ },
+ {
   "w": "outlet",
   "pos": "noun",
   "def": "a newspaper, TV channel, or website that publishes news",
@@ -29869,6 +43273,59 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "outlier",
+  "pos": "noun",
+  "def": "a value that is very different from the others in a set of data",
+  "defId": "pencilan; data yang menyimpang jauh",
+  "ex": "One country was a clear outlier, with far higher spending than the rest.",
+  "exId": "Satu negara jelas merupakan pencilan, dengan pengeluaran jauh lebih tinggi daripada yang lain.",
+  "colloc": [
+   "a clear outlier",
+   "statistical outlier"
+  ],
+  "theme": "numbers"
+ },
+ {
+  "w": "outlook",
+  "pos": "noun",
+  "def": "a person's general attitude to life, or the likely future prospects of a situation",
+  "defId": "pandangan; prospek",
+  "ex": "Maintaining a positive outlook can improve both health and productivity.",
+  "exId": "Mempertahankan pandangan yang positif dapat meningkatkan kesehatan sekaligus produktivitas.",
+  "colloc": [
+   "positive outlook",
+   "economic outlook"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "outnumber",
+  "pos": "verb",
+  "def": "to be greater in number than another group",
+  "defId": "melebihi jumlah; lebih banyak daripada",
+  "ex": "In the chart, female graduates outnumber male graduates by two to one.",
+  "exId": "Dalam grafik itu, lulusan perempuan lebih banyak daripada lulusan laki-laki dengan perbandingan dua banding satu.",
+  "colloc": [
+   "greatly outnumber",
+   "outnumber by"
+  ],
+  "theme": "numbers"
+ },
+ {
+  "w": "outpatient",
+  "pos": "noun",
+  "def": "a patient who receives treatment without staying overnight in hospital",
+  "defId": "pasien yang menerima perawatan tanpa menginap di rumah sakit",
+  "ex": "She attends the clinic as an outpatient for weekly physiotherapy.",
+  "exId": "Ia datang ke klinik sebagai pasien rawat jalan untuk fisioterapi mingguan.",
+  "colloc": [
+   "an outpatient clinic",
+   "an outpatient appointment",
+   "treated as an outpatient"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "output",
   "pos": "noun",
   "def": "the amount of something produced, such as energy or electricity",
@@ -29881,6 +43338,33 @@ export const VOCAB = [
    "increase output"
   ],
   "theme": "energy"
+ },
+ {
+  "w": "outreach",
+  "pos": "noun",
+  "def": "an organisation's activity of contacting and engaging potential customers or communities",
+  "defId": "kegiatan organisasi menghubungi dan merangkul calon pelanggan atau komunitas",
+  "ex": "The firm's outreach to small businesses helped it win a whole new segment of clients.",
+  "exId": "Jangkauan perusahaan itu kepada usaha kecil membantunya meraih segmen klien yang benar-benar baru.",
+  "colloc": [
+   "customer outreach",
+   "outreach programme",
+   "community outreach"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "outset",
+  "pos": "noun",
+  "def": "the start or beginning of something",
+  "defId": "permulaan; awal (dari suatu kegiatan atau proses)",
+  "ex": "The rules were made clear to everyone from the outset.",
+  "exId": "Aturan-aturan itu dijelaskan kepada semua orang sejak awal.",
+  "colloc": [
+   "from the outset",
+   "at the outset"
+  ],
+  "theme": "academic"
  },
  {
   "w": "outskirts",
@@ -29911,6 +43395,61 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "outspoken",
+  "pos": "adjective",
+  "def": "expressing strong opinions openly, even when they may cause offence",
+  "defId": "menyatakan pendapat kuat secara terbuka, meski mungkin menyinggung",
+  "ex": "As an outspoken critic of the policy, she was often quoted in the press.",
+  "exId": "Sebagai pengkritik kebijakan yang vokal, dia sering dikutip di media.",
+  "colloc": [
+   "outspoken critic",
+   "outspoken about something",
+   "remain outspoken"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "outweigh",
+  "pos": "verb",
+  "def": "to be greater or more important than something else",
+  "defId": "lebih besar atau lebih penting daripada sesuatu yang lain",
+  "ex": "For most families, the advantages of moving abroad outweigh the drawbacks.",
+  "exId": "Bagi kebanyakan keluarga, keuntungan pindah ke luar negeri lebih besar daripada kerugiannya.",
+  "colloc": [
+   "benefits outweigh",
+   "far outweigh"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "oval",
+  "pos": "adjective",
+  "def": "having a rounded shape like an egg or a stretched circle",
+  "defId": "lonjong; oval (berbentuk seperti telur)",
+  "ex": "The mirror had an elegant oval frame above the fireplace.",
+  "exId": "Cermin itu memiliki bingkai oval yang elegan di atas perapian.",
+  "colloc": [
+   "oval shape",
+   "oval face",
+   "oval frame"
+  ],
+  "theme": "colours"
+ },
+ {
+  "w": "oven",
+  "pos": "noun",
+  "def": "an enclosed compartment, usually part of a cooker, in which food is baked or roasted",
+  "defId": "oven pemanggang",
+  "ex": "He preheated the oven before sliding in the tray of biscuits.",
+  "exId": "Dia memanaskan oven terlebih dahulu sebelum memasukkan loyang berisi biskuit.",
+  "colloc": [
+   "preheat the oven",
+   "a fan oven",
+   "in the oven"
+  ],
+  "theme": "household"
+ },
+ {
   "w": "over-the-counter",
   "pos": "adjective",
   "def": "Describing medicine you can buy without a prescription.",
@@ -29938,6 +43477,19 @@ export const VOCAB = [
   "theme": "tourism"
  },
  {
+  "w": "overburden",
+  "pos": "verb",
+  "def": "to give someone or something too much to carry, do, or deal with",
+  "defId": "membebani terlalu berat",
+  "ex": "Rising demand threatens to overburden the country's health system.",
+  "exId": "Permintaan yang meningkat mengancam akan membebani terlalu berat sistem kesehatan negara.",
+  "colloc": [
+   "overburden the system",
+   "overburdened with"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "overcast",
   "pos": "adjective",
   "def": "(of the sky) covered with cloud; dull and grey",
@@ -29963,6 +43515,20 @@ export const VOCAB = [
    "overconsumption of resources"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "overcooked",
+  "pos": "adjective",
+  "def": "cooked for too long, so the food becomes dry, tough or mushy",
+  "defId": "dimasak terlalu lama sehingga makanan menjadi kering, alot, atau lembek",
+  "ex": "The steak was overcooked and had turned grey and rubbery.",
+  "exId": "Steik itu terlalu matang hingga menjadi kelabu dan alot.",
+  "colloc": [
+   "badly overcooked",
+   "an overcooked steak",
+   "overcooked vegetables"
+  ],
+  "theme": "food"
  },
  {
   "w": "overcrowded",
@@ -30020,6 +43586,32 @@ export const VOCAB = [
   "theme": "money"
  },
  {
+  "w": "overemphasise",
+  "pos": "verb",
+  "def": "to place too much importance on something",
+  "defId": "terlalu menekankan",
+  "ex": "Some argue that schools overemphasise exams at the expense of creativity.",
+  "exId": "Sebagian berpendapat bahwa sekolah terlalu menekankan ujian dengan mengorbankan kreativitas.",
+  "colloc": [
+   "overemphasise the role",
+   "overemphasise results"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "overestimate",
+  "pos": "verb",
+  "def": "to think that something is larger, better, or more likely than it actually is",
+  "defId": "menaksir terlalu tinggi; menilai berlebihan",
+  "ex": "Many students overestimate how much they can revise in a single night.",
+  "exId": "Banyak siswa menaksir terlalu tinggi seberapa banyak yang bisa mereka pelajari dalam satu malam.",
+  "colloc": [
+   "overestimate the impact",
+   "greatly overestimate"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "overfishing",
   "pos": "noun",
   "def": "catching fish faster than they can reproduce, depleting their populations",
@@ -30031,6 +43623,34 @@ export const VOCAB = [
    "rampant overfishing"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "overgrazing",
+  "pos": "noun",
+  "def": "the practice of allowing animals to graze so much that the land is damaged.",
+  "defId": "praktik membiarkan hewan merumput berlebihan sehingga lahan menjadi rusak.",
+  "ex": "Overgrazing by cattle has stripped the hillsides of vegetation.",
+  "exId": "Perumputan berlebihan oleh ternak telah menggunduli lereng bukit dari tanaman.",
+  "colloc": [
+   "overgrazing by livestock",
+   "cause overgrazing",
+   "overgrazing degrades land"
+  ],
+  "theme": "environment"
+ },
+ {
+  "w": "overgrown",
+  "pos": "adjective",
+  "def": "covered with plants that have grown too large or been left untended",
+  "defId": "lebat tak terurus; ditumbuhi tanaman liar",
+  "ex": "The abandoned garden was completely overgrown with weeds and brambles.",
+  "exId": "Taman yang ditinggalkan itu benar-benar ditumbuhi gulma dan semak berduri.",
+  "colloc": [
+   "overgrown garden",
+   "completely overgrown",
+   "overgrown with weeds"
+  ],
+  "theme": "garden"
  },
  {
   "w": "overhaul",
@@ -30061,6 +43681,32 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "overlap",
+  "pos": "verb",
+  "def": "to cover part of the same area or share some features with something else",
+  "defId": "tumpang tindih; beririsan",
+  "ex": "The two studies overlap in their findings but differ in their conclusions.",
+  "exId": "Kedua studi itu beririsan dalam temuannya tetapi berbeda dalam kesimpulannya.",
+  "colloc": [
+   "overlap with",
+   "responsibilities overlap"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "overlook",
+  "pos": "verb",
+  "def": "to fail to notice or consider something",
+  "defId": "mengabaikan; luput memperhatikan",
+  "ex": "Policymakers often overlook the needs of rural communities.",
+  "exId": "Pembuat kebijakan sering mengabaikan kebutuhan masyarakat pedesaan.",
+  "colloc": [
+   "overlook a detail",
+   "easily overlooked"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "overpass",
   "pos": "noun",
   "def": "a bridge that carries one road or railway over another",
@@ -30072,6 +43718,19 @@ export const VOCAB = [
    "highway overpass"
   ],
   "theme": "transport"
+ },
+ {
+  "w": "overpopulation",
+  "pos": "n",
+  "def": "The condition of having more people in an area than can be supported comfortably.",
+  "defId": "Kondisi ketika jumlah penduduk di suatu wilayah melebihi daya dukung yang nyaman.",
+  "ex": "Overpopulation is putting enormous strain on the city's water and transport.",
+  "exId": "Kelebihan penduduk memberikan tekanan besar pada pasokan air dan transportasi kota itu.",
+  "colloc": [
+   "urban overpopulation",
+   "problem of overpopulation"
+  ],
+  "theme": "urban"
  },
  {
   "w": "overpriced",
@@ -30099,6 +43758,19 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "override",
+  "pos": "verb",
+  "def": "to be more important than something else, or to cancel a decision using authority",
+  "defId": "mengesampingkan; membatalkan",
+  "ex": "In an emergency, safety concerns override all other considerations.",
+  "exId": "Dalam keadaan darurat, masalah keselamatan mengesampingkan semua pertimbangan lain.",
+  "colloc": [
+   "override a decision",
+   "override concerns"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "oversee",
   "pos": "verb",
   "def": "to watch and manage a process or the work of others to ensure it is done properly",
@@ -30109,6 +43781,19 @@ export const VOCAB = [
    "oversee a project",
    "oversee operations",
    "oversee the process"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "overshadow",
+  "pos": "verb",
+  "def": "to make something seem less important by being more noticeable or successful",
+  "defId": "menutupi; membayangi",
+  "ex": "Concerns about the economy overshadowed the rest of the debate.",
+  "exId": "Kekhawatiran tentang ekonomi membayangi sisa perdebatan.",
+  "colloc": [
+   "overshadow the achievement",
+   "overshadowed by"
   ],
   "theme": "academic"
  },
@@ -30140,6 +43825,19 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "overstate",
+  "pos": "verb",
+  "def": "to describe something as larger, better, or more important than it really is",
+  "defId": "melebih-lebihkan",
+  "ex": "It would be easy to overstate the benefits of the new policy.",
+  "exId": "Sangat mudah untuk melebih-lebihkan manfaat kebijakan baru itu.",
+  "colloc": [
+   "overstate the case",
+   "overstate the risks"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "overthrow",
   "pos": "verb",
   "def": "to remove a government or ruler forcibly from power",
@@ -30168,6 +43866,20 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "overtone",
+  "pos": "noun",
+  "def": "an additional meaning or quality that is suggested but not stated directly",
+  "defId": "makna atau nuansa tambahan yang disiratkan tetapi tidak dinyatakan secara langsung",
+  "ex": "His polite reply carried an unmistakable overtone of sarcasm.",
+  "exId": "Balasannya yang sopan mengandung nuansa sarkasme yang jelas terasa.",
+  "colloc": [
+   "political overtones",
+   "carry an overtone",
+   "sinister overtones"
+  ],
+  "theme": "language"
+ },
+ {
   "w": "overtourism",
   "pos": "noun",
   "def": "the problem of too many tourists visiting a place, harming it and the lives of residents",
@@ -30179,6 +43891,20 @@ export const VOCAB = [
    "the effects of overtourism"
   ],
   "theme": "tourism"
+ },
+ {
+  "w": "overture",
+  "pos": "noun",
+  "def": "an orchestral piece played at the beginning of an opera, ballet, or concert",
+  "defId": "karya orkestra yang dimainkan di awal opera, balet, atau konser",
+  "ex": "The lights dimmed as the orchestra launched into the sweeping overture.",
+  "exId": "Lampu meredup saat orkestra memainkan overture yang megah.",
+  "colloc": [
+   "orchestral overture",
+   "play the overture",
+   "opening overture"
+  ],
+  "theme": "arts"
  },
  {
   "w": "overturn",
@@ -30233,6 +43959,20 @@ export const VOCAB = [
    "own-brand range"
   ],
   "theme": "shopping"
+ },
+ {
+  "w": "oxidise",
+  "pos": "v",
+  "def": "to combine or cause to combine with oxygen, often causing rust or decay",
+  "defId": "bergabung dengan oksigen, sering menyebabkan karat atau pembusukan",
+  "ex": "Iron oxidises rapidly when exposed to damp air.",
+  "exId": "Besi teroksidasi dengan cepat ketika terpapar udara lembap.",
+  "colloc": [
+   "oxidise rapidly",
+   "readily oxidise",
+   "metal oxidises"
+  ],
+  "theme": "science"
  },
  {
   "w": "Oyster card",
@@ -30304,6 +44044,20 @@ export const VOCAB = [
   "theme": "tourism"
  },
  {
+  "w": "packaging",
+  "pos": "noun",
+  "def": "the materials used to wrap or protect goods, much of which becomes waste.",
+  "defId": "bahan yang digunakan untuk membungkus atau melindungi barang, yang sebagian besar menjadi sampah.",
+  "ex": "Supermarkets are under pressure to cut down on single-use plastic packaging.",
+  "exId": "Supermarket ditekan untuk mengurangi kemasan plastik sekali pakai.",
+  "colloc": [
+   "plastic packaging",
+   "excessive packaging",
+   "recyclable packaging"
+  ],
+  "theme": "environment"
+ },
+ {
   "w": "page-turner",
   "pos": "noun",
   "def": "A book so exciting that the reader keeps turning the pages.",
@@ -30343,6 +44097,34 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "palate",
+  "pos": "noun",
+  "def": "a person's ability to appreciate and distinguish the tastes of food and drink",
+  "defId": "kemampuan seseorang untuk menghargai dan membedakan cita rasa makanan dan minuman",
+  "ex": "Years of tasting wine have given her a very refined palate.",
+  "exId": "Bertahun-tahun mencicipi anggur membuat lidahnya sangat peka terhadap rasa.",
+  "colloc": [
+   "a refined palate",
+   "a discerning palate",
+   "cleanse the palate"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "pale",
+  "pos": "adjective",
+  "def": "having skin with little colour, often looking unwell",
+  "defId": "pucat",
+  "ex": "She looked pale and tired after her long illness.",
+  "exId": "Dia terlihat pucat dan lelah setelah sakit berkepanjangan.",
+  "colloc": [
+   "pale complexion",
+   "pale skin",
+   "deathly pale"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "palette",
   "pos": "noun",
   "def": "the range of colours used by an artist or in a particular work",
@@ -30355,6 +44137,20 @@ export const VOCAB = [
    "limited palette"
   ],
   "theme": "arts"
+ },
+ {
+  "w": "palpitations",
+  "pos": "noun",
+  "def": "noticeably rapid, strong, or irregular heartbeats",
+  "defId": "detak jantung yang terasa cepat, kuat, atau tidak teratur",
+  "ex": "Too much caffeine can give some people heart palpitations.",
+  "exId": "Terlalu banyak kafein dapat menyebabkan jantung berdebar pada sebagian orang.",
+  "colloc": [
+   "heart palpitations",
+   "suffer palpitations",
+   "cause palpitations"
+  ],
+  "theme": "health"
  },
  {
   "w": "pampered",
@@ -30409,6 +44205,19 @@ export const VOCAB = [
   "theme": "uk_social"
  },
  {
+  "w": "pantry",
+  "pos": "noun",
+  "def": "a small room or large cupboard used for storing food and kitchen supplies",
+  "defId": "ruang atau lemari penyimpanan makanan",
+  "ex": "He kept jars of flour, rice, and pasta neatly labelled in the pantry.",
+  "exId": "Dia menyimpan toples tepung, beras, dan pasta yang diberi label rapi di ruang penyimpanan makanan.",
+  "colloc": [
+   "a walk-in pantry",
+   "stock the pantry"
+  ],
+  "theme": "household"
+ },
+ {
   "w": "paparazzi",
   "pos": "noun",
   "def": "photographers who aggressively pursue celebrities to take candid pictures",
@@ -30433,6 +44242,33 @@ export const VOCAB = [
    "in paperback"
   ],
   "theme": "literature"
+ },
+ {
+  "w": "paperwork",
+  "pos": "noun",
+  "def": "Routine written or administrative work such as filling in forms and documents.",
+  "defId": "pekerjaan administrasi; urusan dokumen dan formulir rutin di tempat kerja",
+  "ex": "The job involves a lot of tedious paperwork before any contract can be signed.",
+  "exId": "Pekerjaan itu melibatkan banyak urusan administrasi yang membosankan sebelum kontrak apa pun bisa ditandatangani.",
+  "colloc": [
+   "do the paperwork",
+   "fill in paperwork",
+   "a mountain of paperwork"
+  ],
+  "theme": "work"
+ },
+ {
+  "w": "par for the course",
+  "pos": "idiom",
+  "def": "what you would normally expect to happen",
+  "defId": "hal yang wajar terjadi; sudah biasa dalam situasi tertentu",
+  "ex": "Delays are par for the course when you travel during the holidays.",
+  "exId": "Keterlambatan sudah biasa terjadi kalau kamu bepergian saat musim liburan.",
+  "colloc": [
+   "typical outcome",
+   "'that's par for the course'"
+  ],
+  "theme": "idioms"
  },
  {
   "w": "paradigm",
@@ -30460,6 +44296,59 @@ export const VOCAB = [
    "resolve a paradox"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "paralegal",
+  "pos": "noun",
+  "def": "a person trained to assist a lawyer but not fully qualified as one",
+  "defId": "paralegal",
+  "ex": "The paralegal prepared the documents for the lawyer to review.",
+  "exId": "Paralegal itu menyiapkan dokumen untuk ditinjau oleh pengacara.",
+  "colloc": [
+   "experienced paralegal",
+   "paralegal work"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "parallel",
+  "pos": "noun",
+  "def": "a similarity or connection between two different things",
+  "defId": "kesamaan atau kaitan antara dua hal yang berbeda",
+  "ex": "There is a striking parallel between the two countries' rapid economic growth.",
+  "exId": "Ada kesamaan mencolok antara pertumbuhan ekonomi pesat kedua negara itu.",
+  "colloc": [
+   "draw a parallel",
+   "striking parallel"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "paramedic",
+  "pos": "noun",
+  "def": "a person trained to give emergency medical care, especially before or during transport to hospital",
+  "defId": "paramedis",
+  "ex": "A paramedic gave him oxygen at the scene of the accident.",
+  "exId": "Seorang paramedis memberinya oksigen di lokasi kecelakaan.",
+  "colloc": [
+   "call a paramedic",
+   "paramedic crew"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "parameter",
+  "pos": "n",
+  "def": "a measurable factor that defines a system or sets its limits",
+  "defId": "faktor terukur yang menentukan suatu sistem atau menetapkan batasnya",
+  "ex": "Temperature and pressure are key parameters in the model.",
+  "exId": "Suhu dan tekanan adalah parameter utama dalam model itu.",
+  "colloc": [
+   "key parameter",
+   "set the parameters",
+   "within parameters"
+  ],
+  "theme": "science"
  },
  {
   "w": "paramount",
@@ -30615,6 +44504,19 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "particularly",
+  "pos": "adverb",
+  "def": "to a higher degree than usual; especially",
+  "defId": "khususnya",
+  "ex": "Young people are particularly vulnerable to online misinformation.",
+  "exId": "Kaum muda khususnya rentan terhadap misinformasi daring.",
+  "colloc": [
+   "particularly, ...",
+   "not particularly"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "particulate",
   "pos": "noun",
   "def": "tiny solid particles suspended in the air that can harm the lungs",
@@ -30656,6 +44558,33 @@ export const VOCAB = [
   "theme": "relationships"
  },
  {
+  "w": "partnership",
+  "pos": "noun",
+  "def": "a formal business arrangement in which two or more parties share ownership, risks and profits",
+  "defId": "kesepakatan bisnis formal di mana dua pihak atau lebih berbagi kepemilikan, risiko, dan laba",
+  "ex": "The two firms entered a strategic partnership to develop the new payment platform together.",
+  "exId": "Kedua perusahaan menjalin kemitraan strategis untuk bersama-sama mengembangkan platform pembayaran baru.",
+  "colloc": [
+   "strategic partnership",
+   "enter a partnership",
+   "business partnership"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "pass mark",
+  "pos": "noun",
+  "def": "the minimum number of marks needed to pass an examination",
+  "defId": "nilai minimum yang dibutuhkan untuk lulus suatu ujian",
+  "ex": "The pass mark for the final exam was set at sixty percent.",
+  "exId": "Nilai kelulusan untuk ujian akhir ditetapkan sebesar enam puluh persen.",
+  "colloc": [
+   "reach the pass mark",
+   "set the pass mark"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "passport control",
   "pos": "noun",
   "def": "the point at a border or airport where officials check travellers' passports",
@@ -30667,6 +44596,20 @@ export const VOCAB = [
    "passport control desk"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "pastel",
+  "pos": "adjective",
+  "def": "(of a colour) soft, pale and light in tone",
+  "defId": "pastel; warna lembut dan pucat",
+  "ex": "The nursery was painted in gentle pastel shades of pink and lavender.",
+  "exId": "Kamar bayi itu dicat dengan warna-warna pastel lembut merah muda dan lavender.",
+  "colloc": [
+   "pastel shades",
+   "pastel colours",
+   "soft pastel"
+  ],
+  "theme": "colours"
  },
  {
   "w": "pasteurise",
@@ -30736,6 +44679,20 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "patch",
+  "pos": "noun",
+  "def": "a small update released to fix a bug or security flaw in software",
+  "defId": "pembaruan kecil yang dirilis untuk memperbaiki bug atau celah keamanan pada perangkat lunak",
+  "ex": "Developers released a patch overnight to close the security hole.",
+  "exId": "Pengembang merilis patch dalam semalam untuk menutup celah keamanan.",
+  "colloc": [
+   "security patch",
+   "release a patch",
+   "apply the patch"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "patent",
   "pos": "noun",
   "def": "an official right that stops others from copying or selling your invention",
@@ -30791,6 +44748,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "pathos",
+  "pos": "noun",
+  "def": "a quality in art or drama that evokes pity, sadness, or compassion",
+  "defId": "kualitas dalam seni atau drama yang membangkitkan rasa kasihan, kesedihan, atau belas kasihan",
+  "ex": "The old man's silent tears lent the final scene an unbearable pathos.",
+  "exId": "Air mata diam si pria tua memberi adegan terakhir kesedihan yang tak tertahankan.",
+  "colloc": [
+   "genuine pathos",
+   "evoke pathos",
+   "a sense of pathos"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "patience",
   "pos": "noun",
   "def": "the ability to stay calm and accept delays or problems without becoming annoyed",
@@ -30803,6 +44774,20 @@ export const VOCAB = [
    "test someone's patience"
   ],
   "theme": "personality"
+ },
+ {
+  "w": "patina",
+  "pos": "noun",
+  "def": "a soft sheen or greenish film that develops on an old surface, valued for its aged beauty",
+  "defId": "kilau lembut atau lapisan kehijauan yang muncul pada permukaan tua, dihargai karena keindahan usianya",
+  "ex": "Centuries of handling had given the bronze statue a rich green patina.",
+  "exId": "Berabad-abad sentuhan telah memberi patung perunggu itu patina hijau yang pekat.",
+  "colloc": [
+   "green patina",
+   "rich patina",
+   "a patina of age"
+  ],
+  "theme": "arts"
  },
  {
   "w": "patriarch",
@@ -30830,6 +44815,19 @@ export const VOCAB = [
    "traditional patriarchy"
   ],
   "theme": "society"
+ },
+ {
+  "w": "patriotism",
+  "pos": "noun",
+  "def": "love of and loyal support for one's country",
+  "defId": "patriotisme; kecintaan dan dukungan setia terhadap tanah air",
+  "ex": "The ceremony was designed to instil a sense of patriotism in young citizens.",
+  "exId": "Upacara itu dirancang untuk menanamkan rasa patriotisme pada warga muda.",
+  "colloc": [
+   "sense of patriotism",
+   "fervent patriotism"
+  ],
+  "theme": "politics"
  },
  {
   "w": "patrol",
@@ -30872,6 +44870,47 @@ export const VOCAB = [
    "under the patronage of"
   ],
   "theme": "arts"
+ },
+ {
+  "w": "patter",
+  "pos": "verb",
+  "def": "to make quick, light tapping sounds, as of rain or small feet",
+  "defId": "bergemericik; berketak-ketik ringan",
+  "ex": "Rain pattered gently against the windowpane as she fell asleep.",
+  "exId": "Hujan bergemericik lembut di kaca jendela saat ia tertidur.",
+  "colloc": [
+   "rain patters",
+   "patter of feet",
+   "patter against the roof"
+  ],
+  "theme": "sound_movement"
+ },
+ {
+  "w": "pave the way",
+  "pos": "phrase",
+  "def": "to create the conditions that make it possible for something to happen later",
+  "defId": "membuka jalan; merintis jalan",
+  "ex": "The new law paved the way for major reforms in education.",
+  "exId": "Undang-undang baru itu membuka jalan bagi reformasi besar dalam pendidikan.",
+  "colloc": [
+   "pave the way for change",
+   "pave the way for reform",
+   "pave the way for progress"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "paved",
+  "pos": "adj",
+  "def": "Covered with a hard, flat surface such as stone, brick, or concrete.",
+  "defId": "Ditutupi permukaan keras dan rata seperti batu, bata, atau beton.",
+  "ex": "A narrow paved alley led from the market square down to the river.",
+  "exId": "Sebuah gang sempit berpaving menuntun dari alun-alun pasar turun ke sungai.",
+  "colloc": [
+   "paved courtyard",
+   "paved footpath"
+  ],
+  "theme": "urban"
  },
  {
   "w": "pavement",
@@ -30971,6 +45010,20 @@ export const VOCAB = [
   "theme": "internet"
  },
  {
+  "w": "peaceful",
+  "pos": "adjective",
+  "def": "quiet and calm, with nothing to disturb you",
+  "defId": "damai dan tenang",
+  "ex": "After the city, the peaceful countryside felt like a completely different world.",
+  "exId": "Setelah kota, pedesaan yang damai terasa seperti dunia yang sama sekali berbeda.",
+  "colloc": [
+   "a peaceful spot",
+   "a peaceful atmosphere",
+   "peaceful surroundings"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "peacekeeping",
   "pos": "noun",
   "def": "the active maintenance of a ceasefire, usually by an international force",
@@ -31037,6 +45090,20 @@ export const VOCAB = [
    "degraded peatland"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "pecking order",
+  "pos": "noun",
+  "def": "The informal hierarchy of importance or rank among people in a group.",
+  "defId": "tatanan hierarki; urutan tak resmi mengenai kedudukan atau tingkat kepentingan orang dalam suatu kelompok",
+  "ex": "As the newest recruit, she was firmly at the bottom of the office pecking order.",
+  "exId": "Sebagai karyawan paling baru, dia jelas berada di posisi paling bawah dalam tatanan hierarki kantor.",
+  "colloc": [
+   "the pecking order",
+   "bottom of the pecking order",
+   "climb the pecking order"
+  ],
+  "theme": "work"
  },
  {
   "w": "peckish",
@@ -31120,6 +45187,33 @@ export const VOCAB = [
    "respected by peers"
   ],
   "theme": "relationships"
+ },
+ {
+  "w": "peer assessment",
+  "pos": "noun",
+  "def": "the evaluation of a student's work by other students of the same level",
+  "defId": "penilaian pekerjaan seorang siswa oleh siswa lain yang setara",
+  "ex": "Peer assessment encourages students to reflect critically on each other's essays.",
+  "exId": "Penilaian sejawat mendorong siswa untuk merefleksikan esai satu sama lain secara kritis.",
+  "colloc": [
+   "anonymous peer assessment",
+   "a peer assessment activity"
+  ],
+  "theme": "education"
+ },
+ {
+  "w": "peer group",
+  "pos": "noun",
+  "def": "a set of people of roughly the same age or status who influence one another",
+  "defId": "kelompok sebaya; sekumpulan orang seusia atau setingkat yang saling memengaruhi",
+  "ex": "Teenagers often adopt the tastes and opinions of their peer group.",
+  "exId": "Remaja sering mengadopsi selera dan pendapat kelompok sebaya mereka.",
+  "colloc": [
+   "immediate peer group",
+   "peer group pressure",
+   "influence of the peer group"
+  ],
+  "theme": "society"
  },
  {
   "w": "peer pressure",
@@ -31218,6 +45312,33 @@ export const VOCAB = [
   "theme": "money"
  },
  {
+  "w": "penthouse",
+  "pos": "n",
+  "def": "A luxurious flat or apartment on the top floor of a tall building.",
+  "defId": "Apartemen mewah di lantai paling atas sebuah gedung tinggi.",
+  "ex": "The developer is asking a fortune for the penthouse overlooking the river.",
+  "exId": "Pengembang itu meminta harga selangit untuk penthouse yang menghadap sungai.",
+  "colloc": [
+   "penthouse suite",
+   "luxury penthouse"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "penury",
+  "pos": "noun",
+  "def": "The state of being extremely poor.",
+  "defId": "Kemiskinan parah; keadaan sangat melarat.",
+  "ex": "After the business collapsed, the family was reduced to penury.",
+  "exId": "Setelah usaha itu bangkrut, keluarga tersebut jatuh ke dalam kemiskinan parah.",
+  "colloc": [
+   "reduced to penury",
+   "live in penury",
+   "lifelong penury"
+  ],
+  "theme": "economy"
+ },
+ {
   "w": "people person",
   "pos": "noun",
   "def": "someone who enjoys being with others and is good at dealing with them",
@@ -31256,6 +45377,32 @@ export const VOCAB = [
    "perceive as"
   ],
   "theme": "psychology"
+ },
+ {
+  "w": "percentage",
+  "pos": "noun",
+  "def": "an amount expressed as a part of a whole equal to one hundred",
+  "defId": "persentase",
+  "ex": "A high percentage of respondents said they relied on public transport daily.",
+  "exId": "Persentase responden yang tinggi mengatakan mereka mengandalkan transportasi umum setiap hari.",
+  "colloc": [
+   "a high percentage",
+   "a small percentage"
+  ],
+  "theme": "numbers"
+ },
+ {
+  "w": "percentile",
+  "pos": "noun",
+  "def": "one of 100 equal groups that a set of ranked data can be divided into",
+  "defId": "persentil",
+  "ex": "A child in the ninetieth percentile is taller than ninety per cent of peers.",
+  "exId": "Seorang anak pada persentil kesembilan puluh lebih tinggi daripada sembilan puluh persen teman sebayanya.",
+  "colloc": [
+   "the ninetieth percentile",
+   "top percentile"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "perception",
@@ -31299,6 +45446,19 @@ export const VOCAB = [
   "theme": "music"
  },
  {
+  "w": "perennial",
+  "pos": "adjective",
+  "def": "lasting or recurring continually through many years",
+  "defId": "yang terus-menerus; abadi; berulang setiap tahun",
+  "ex": "Housing affordability remains a perennial concern for young families.",
+  "exId": "Keterjangkauan perumahan tetap menjadi keprihatinan abadi bagi keluarga muda.",
+  "colloc": [
+   "perennial problem",
+   "perennial favourite"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "perfectionist",
   "pos": "noun",
   "def": "a person who wants everything to be exactly right and is rarely satisfied",
@@ -31324,6 +45484,60 @@ export const VOCAB = [
    "a positive performance review"
   ],
   "theme": "work"
+ },
+ {
+  "w": "pergola",
+  "pos": "noun",
+  "def": "a garden structure with a framework over which climbing plants are trained",
+  "defId": "pergola (rangka peneduh taman)",
+  "ex": "Wisteria draped over the pergola, creating a shady spot to sit.",
+  "exId": "Wisteria menjuntai di atas pergola, menciptakan tempat teduh untuk duduk.",
+  "colloc": [
+   "wooden pergola",
+   "climb over a pergola",
+   "shady pergola"
+  ],
+  "theme": "garden"
+ },
+ {
+  "w": "periodically",
+  "pos": "adverb",
+  "def": "at regular or fairly regular intervals from time to time",
+  "defId": "secara berkala; dari waktu ke waktu",
+  "ex": "The machinery is inspected periodically to ensure it remains safe.",
+  "exId": "Mesin itu diperiksa secara berkala untuk memastikan tetap aman.",
+  "colloc": [
+   "review periodically",
+   "check periodically"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "peripheral",
+  "pos": "noun",
+  "def": "an external device such as a mouse, keyboard or printer connected to a computer",
+  "defId": "perangkat eksternal seperti tetikus, papan ketik, atau pencetak yang terhubung ke komputer",
+  "ex": "You can plug any USB peripheral into the port on the side of the laptop.",
+  "exId": "Anda dapat mencolokkan peripheral USB apa pun ke porta di sisi laptop.",
+  "colloc": [
+   "computer peripheral",
+   "peripheral device",
+   "wireless peripheral"
+  ],
+  "theme": "technology"
+ },
+ {
+  "w": "periphery",
+  "pos": "n",
+  "def": "The outer edge or boundary of an area, away from its centre.",
+  "defId": "Tepi luar atau batas suatu wilayah, jauh dari pusatnya.",
+  "ex": "Cheap new housing is springing up on the periphery of the city.",
+  "exId": "Perumahan baru yang murah bermunculan di pinggiran kota.",
+  "colloc": [
+   "on the periphery",
+   "urban periphery"
+  ],
+  "theme": "urban"
  },
  {
   "w": "perishable",
@@ -31381,6 +45595,45 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "permanent",
+  "pos": "adjective",
+  "def": "lasting or intended to last indefinitely; not temporary",
+  "defId": "permanen; tetap; selamanya",
+  "ex": "After a year on contract, she was finally offered a permanent position.",
+  "exId": "Setelah setahun berkontrak, dia akhirnya ditawari posisi tetap.",
+  "colloc": [
+   "permanent position",
+   "permanent resident"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "permeate",
+  "pos": "verb",
+  "def": "to spread through every part of something",
+  "defId": "meresap; merasuki",
+  "ex": "A sense of optimism seemed to permeate the entire conference.",
+  "exId": "Rasa optimisme tampak merasuki seluruh konferensi.",
+  "colloc": [
+   "permeate society",
+   "permeate every aspect"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "permissible",
+  "pos": "adjective",
+  "def": "allowed by the rules or by the law",
+  "defId": "diperbolehkan; diizinkan menurut aturan atau hukum",
+  "ex": "The court ruled that such evidence was not permissible at trial.",
+  "exId": "Pengadilan memutuskan bahwa bukti semacam itu tidak diperbolehkan dalam persidangan.",
+  "colloc": [
+   "legally permissible",
+   "permissible limit"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "perpetrator",
   "pos": "noun",
   "def": "a person who commits a crime or a harmful act",
@@ -31392,6 +45645,32 @@ export const VOCAB = [
    "identify the perpetrator"
   ],
   "theme": "crime"
+ },
+ {
+  "w": "perpetually",
+  "pos": "adverb",
+  "def": "in a way that seems to continue forever or happen repeatedly",
+  "defId": "secara terus-menerus; selamanya; tanpa habisnya",
+  "ex": "The city is perpetually crowded, regardless of the season.",
+  "exId": "Kota itu selalu ramai, tanpa memandang musim.",
+  "colloc": [
+   "perpetually busy",
+   "perpetually changing"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "perpetuate",
+  "pos": "verb",
+  "def": "to cause something, especially something bad, to continue for a long time",
+  "defId": "melanggengkan; mengabadikan",
+  "ex": "Such stereotypes only serve to perpetuate inequality.",
+  "exId": "Stereotip semacam itu hanya melanggengkan ketidaksetaraan.",
+  "colloc": [
+   "perpetuate a myth",
+   "perpetuate inequality"
+  ],
+  "theme": "academic"
  },
  {
   "w": "perseverance",
@@ -31435,6 +45714,20 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "personally",
+  "pos": "adverb",
+  "def": "used to emphasise that you are giving your own opinion",
+  "defId": "secara pribadi; digunakan untuk menegaskan pendapat sendiri",
+  "ex": "Personally, I believe that reading books is far more rewarding than watching TV.",
+  "exId": "Secara pribadi, saya yakin membaca buku jauh lebih bermanfaat daripada menonton TV.",
+  "colloc": [
+   "personally speaking",
+   "personally, I think",
+   "personally I feel"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "personification",
   "pos": "noun",
   "def": "A figure of speech that gives human qualities to non-human things.",
@@ -31462,6 +45755,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "persuade",
+  "pos": "verb",
+  "def": "to make someone believe or do something by giving good reasons",
+  "defId": "membujuk atau meyakinkan seseorang dengan alasan yang baik",
+  "ex": "A good essay should persuade the reader that your opinion is well founded.",
+  "exId": "Esai yang baik harus meyakinkan pembaca bahwa pendapat Anda beralasan kuat.",
+  "colloc": [
+   "persuade someone",
+   "try to persuade",
+   "persuade of"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "persuasive",
   "pos": "adjective",
   "def": "good at making people agree to do or believe something",
@@ -31474,6 +45781,19 @@ export const VOCAB = [
    "persuasive essay"
   ],
   "theme": "language"
+ },
+ {
+  "w": "pertinent",
+  "pos": "adjective",
+  "def": "directly connected with and relevant to the matter being discussed",
+  "defId": "relevan; berkaitan langsung",
+  "ex": "The lawyer raised several pertinent questions about the evidence.",
+  "exId": "Pengacara itu mengajukan beberapa pertanyaan yang relevan tentang bukti tersebut.",
+  "colloc": [
+   "a pertinent question",
+   "pertinent information"
+  ],
+  "theme": "academic"
  },
  {
   "w": "pessimism",
@@ -31518,6 +45838,34 @@ export const VOCAB = [
   "theme": "uk_social"
  },
  {
+  "w": "petal",
+  "pos": "noun",
+  "def": "one of the coloured parts that together form the flower of a plant",
+  "defId": "kelopak bunga",
+  "ex": "A gust of wind scattered the rose petals across the lawn.",
+  "exId": "Hembusan angin menyebarkan kelopak mawar ke seluruh halaman rumput.",
+  "colloc": [
+   "delicate petals",
+   "rose petals",
+   "fallen petals"
+  ],
+  "theme": "garden"
+ },
+ {
+  "w": "petite",
+  "pos": "adjective",
+  "def": "small and slim in an attractive way, used of women",
+  "defId": "mungil dan ramping (untuk perempuan)",
+  "ex": "She is quite petite, so most off-the-peg clothes are too long for her.",
+  "exId": "Dia cukup mungil, jadi kebanyakan pakaian jadi terlalu panjang untuknya.",
+  "colloc": [
+   "petite frame",
+   "petite woman",
+   "petite build"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "petition",
   "pos": "noun",
   "def": "A formal written request, often signed by many people, appealing to authorities to act.",
@@ -31557,6 +45905,19 @@ export const VOCAB = [
    "crude petroleum"
   ],
   "theme": "energy"
+ },
+ {
+  "w": "pharmacist",
+  "pos": "noun",
+  "def": "a person qualified to prepare and dispense medicines",
+  "defId": "apoteker",
+  "ex": "The pharmacist explained how often I should take the tablets.",
+  "exId": "Apoteker itu menjelaskan seberapa sering saya harus meminum tabletnya.",
+  "colloc": [
+   "ask the pharmacist",
+   "qualified pharmacist"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "pharmacy",
@@ -31641,6 +46002,20 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "philharmonic",
+  "pos": "adjective",
+  "def": "devoted to or relating to the performance of classical orchestral music",
+  "defId": "yang mengabdikan diri pada atau berkaitan dengan pertunjukan musik orkestra klasik",
+  "ex": "The city's philharmonic orchestra gave a triumphant open-air concert.",
+  "exId": "Orkestra filharmoni kota itu menggelar konser terbuka yang gemilang.",
+  "colloc": [
+   "philharmonic orchestra",
+   "philharmonic society",
+   "philharmonic hall"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "phishing",
   "pos": "noun",
   "def": "the fraudulent practice of tricking people into revealing personal information online",
@@ -31692,6 +46067,19 @@ export const VOCAB = [
    "English phonetics"
   ],
   "theme": "language"
+ },
+ {
+  "w": "photographer",
+  "pos": "noun",
+  "def": "a person who takes photographs, especially as a profession",
+  "defId": "fotografer",
+  "ex": "The wedding photographer captured every important moment of the day.",
+  "exId": "Fotografer pernikahan itu mengabadikan setiap momen penting hari itu.",
+  "colloc": [
+   "professional photographer",
+   "wildlife photographer"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "photography",
@@ -31746,6 +46134,73 @@ export const VOCAB = [
    "common phrase"
   ],
   "theme": "language"
+ },
+ {
+  "w": "phrasebook",
+  "pos": "noun",
+  "def": "a book listing useful expressions in a foreign language for travellers",
+  "defId": "buku berisi ungkapan-ungkapan berguna dalam bahasa asing untuk pelancong",
+  "ex": "I fumbled through my phrasebook to ask for directions in Portuguese.",
+  "exId": "Aku membolak-balik buku frasa untuk menanyakan arah dalam bahasa Portugis.",
+  "colloc": [
+   "a pocket phrasebook",
+   "flick through a phrasebook",
+   "a French phrasebook"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "phrasing",
+  "pos": "noun",
+  "def": "the particular way in which words are chosen and arranged to express something",
+  "defId": "cara khusus kata-kata dipilih dan disusun untuk mengungkapkan sesuatu",
+  "ex": "A slight change of phrasing can make a blunt request sound perfectly polite.",
+  "exId": "Perubahan kecil pada susunan kata dapat membuat permintaan yang kasar terdengar sangat sopan.",
+  "colloc": [
+   "careful phrasing",
+   "awkward phrasing",
+   "change the phrasing"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "physician",
+  "pos": "noun",
+  "def": "a medical doctor, especially one who treats illness with medicine rather than surgery",
+  "defId": "dokter (penyakit dalam)",
+  "ex": "Her family physician referred her to a specialist for further tests.",
+  "exId": "Dokter keluarganya merujuknya ke seorang spesialis untuk pemeriksaan lebih lanjut.",
+  "colloc": [
+   "family physician",
+   "consult a physician"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "physicist",
+  "pos": "noun",
+  "def": "a scientist who studies matter, energy, and the laws that govern them",
+  "defId": "fisikawan",
+  "ex": "The physicist explained how particles behave at very high speeds.",
+  "exId": "Fisikawan itu menjelaskan bagaimana partikel berperilaku pada kecepatan sangat tinggi.",
+  "colloc": [
+   "nuclear physicist",
+   "theoretical physicist"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "physiotherapist",
+  "pos": "noun",
+  "def": "a person trained to treat injury or disease using exercise, movement, and massage",
+  "defId": "fisioterapis",
+  "ex": "The physiotherapist gave me exercises to strengthen my knee.",
+  "exId": "Fisioterapis itu memberi saya latihan untuk memperkuat lutut.",
+  "colloc": [
+   "see a physiotherapist",
+   "qualified physiotherapist"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "physiotherapy",
@@ -31814,6 +46269,20 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "piercing",
+  "pos": "adjective",
+  "def": "very high, loud and sharp enough to hurt the ears",
+  "defId": "menusuk; sangat tinggi, keras dan tajam sampai menyakiti telinga",
+  "ex": "A piercing scream cut through the quiet of the night.",
+  "exId": "Jeritan menusuk memecah keheningan malam.",
+  "colloc": [
+   "piercing scream",
+   "piercing sound",
+   "piercing whistle"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "pigment",
   "pos": "noun",
   "def": "a coloured substance used to make paint, ink, or dye",
@@ -31853,6 +46322,20 @@ export const VOCAB = [
    "marble pillar"
   ],
   "theme": "architecture"
+ },
+ {
+  "w": "pilot scheme",
+  "pos": "noun",
+  "def": "a small-scale trial run of a project used to test its feasibility before full launch",
+  "defId": "uji coba proyek berskala kecil untuk menguji kelayakan sebelum peluncuran penuh",
+  "ex": "Before the nationwide launch, the retailer ran a pilot scheme in three cities.",
+  "exId": "Sebelum peluncuran nasional, peritel itu menjalankan skema percontohan di tiga kota.",
+  "colloc": [
+   "run a pilot scheme",
+   "pilot scheme results",
+   "launch a pilot scheme"
+  ],
+  "theme": "business"
  },
  {
   "w": "pint",
@@ -31897,6 +46380,20 @@ export const VOCAB = [
   "theme": "energy"
  },
  {
+  "w": "piping hot",
+  "pos": "adjective",
+  "def": "very hot, especially freshly cooked or served",
+  "defId": "sangat panas, terutama makanan yang baru dimasak atau baru disajikan",
+  "ex": "There is nothing better than a bowl of piping hot soup on a winter day.",
+  "exId": "Tidak ada yang lebih nikmat daripada semangkuk sup panas mengepul di hari musim dingin.",
+  "colloc": [
+   "piping hot soup",
+   "served piping hot",
+   "piping hot food"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "pitch",
   "pos": "noun",
   "def": "how high or low a musical note sounds",
@@ -31925,6 +46422,33 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "pivot",
+  "pos": "verb",
+  "def": "to change a business's strategy or direction significantly in response to the market",
+  "defId": "mengubah strategi atau arah bisnis secara signifikan menyesuaikan pasar",
+  "ex": "When demand for hardware collapsed, the founders decided to pivot to selling software services instead.",
+  "exId": "Ketika permintaan perangkat keras anjlok, para pendiri memutuskan beralih total ke penjualan layanan perangkat lunak.",
+  "colloc": [
+   "pivot to",
+   "strategic pivot",
+   "pivot the business"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "pivotal",
+  "pos": "adjective",
+  "def": "of central importance to the success or outcome of something",
+  "defId": "sangat menentukan; poros",
+  "ex": "Access to clean water plays a pivotal role in public health.",
+  "exId": "Akses terhadap air bersih memainkan peran yang sangat menentukan dalam kesehatan masyarakat.",
+  "colloc": [
+   "a pivotal role",
+   "a pivotal moment"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "pixel",
   "pos": "noun",
   "def": "one of the tiny dots that make up an image on a screen",
@@ -31935,6 +46459,20 @@ export const VOCAB = [
    "million pixels",
    "pixel density",
    "high pixel count"
+  ],
+  "theme": "technology"
+ },
+ {
+  "w": "pixelated",
+  "pos": "adjective",
+  "def": "appearing blurry or blocky because the individual pixels of a digital image are visible",
+  "defId": "tampak buram atau kotak-kotak karena piksel-piksel gambar digital terlihat jelas",
+  "ex": "The old webcam made his face look pixelated during the call.",
+  "exId": "Kamera web lama itu membuat wajahnya terlihat pixelated saat panggilan berlangsung.",
+  "colloc": [
+   "pixelated image",
+   "heavily pixelated",
+   "pixelated screen"
   ],
   "theme": "technology"
  },
@@ -32048,6 +46586,19 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "plastic",
+  "pos": "noun",
+  "def": "a synthetic material that can be moulded into shape when soft",
+  "defId": "plastik",
+  "ex": "The handle is made of hard plastic so it won't rust.",
+  "exId": "Gagangnya terbuat dari plastik keras supaya tidak berkarat.",
+  "colloc": [
+   "recycled plastic",
+   "hard plastic"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "plateau",
   "pos": "verb",
   "def": "to reach a stable level and stop increasing; a period of little change",
@@ -32076,6 +46627,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "platitude",
+  "pos": "noun",
+  "def": "a remark that is dull and obvious and has been used too often to be meaningful",
+  "defId": "ucapan yang datar dan sudah jelas serta terlalu sering dipakai hingga tak lagi bermakna",
+  "ex": "His speech was full of empty platitudes about hard work and never giving up.",
+  "exId": "Pidatonya penuh dengan basa-basi kosong tentang kerja keras dan pantang menyerah.",
+  "colloc": [
+   "empty platitudes",
+   "utter platitudes",
+   "a string of platitudes"
+  ],
+  "theme": "language"
+ },
+ {
   "w": "platonic",
   "pos": "adjective",
   "def": "describing a close relationship that is friendly but not romantic or sexual",
@@ -32101,6 +46666,33 @@ export const VOCAB = [
    "highly plausible"
   ],
   "theme": "science"
+ },
+ {
+  "w": "plausibly",
+  "pos": "adverb",
+  "def": "in a way that seems reasonable or believable",
+  "defId": "secara masuk akal",
+  "ex": "One could plausibly argue that the two factors reinforce each other.",
+  "exId": "Seseorang secara masuk akal dapat berargumen bahwa kedua faktor itu saling memperkuat.",
+  "colloc": [
+   "plausibly argue",
+   "plausibly explain",
+   "plausibly claim"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "playground",
+  "pos": "noun",
+  "def": "an outdoor area at a school where children can play during breaks",
+  "defId": "area luar ruangan di sekolah tempat anak-anak bermain saat istirahat",
+  "ex": "Disputes that begin in the playground sometimes follow children into the classroom.",
+  "exId": "Perselisihan yang dimulai di halaman bermain terkadang terbawa anak-anak ke dalam kelas.",
+  "colloc": [
+   "a school playground",
+   "playground games"
+  ],
+  "theme": "education"
  },
  {
   "w": "playwright",
@@ -32158,6 +46750,19 @@ export const VOCAB = [
   "theme": "fashion"
  },
  {
+  "w": "plebiscite",
+  "pos": "noun",
+  "def": "a direct vote by the whole electorate on an important national question",
+  "defId": "plebisit; pemungutan suara langsung oleh seluruh rakyat mengenai persoalan penting nasional",
+  "ex": "The government called a plebiscite to let citizens decide on the proposed constitutional change.",
+  "exId": "Pemerintah menggelar plebisit agar warga dapat memutuskan usulan perubahan konstitusi.",
+  "colloc": [
+   "hold a plebiscite",
+   "national plebiscite"
+  ],
+  "theme": "politics"
+ },
+ {
   "w": "pledge",
   "pos": "verb",
   "def": "to make a serious public promise to do something",
@@ -32186,6 +46791,19 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "pliers",
+  "pos": "noun",
+  "def": "a hand tool with hinged jaws for gripping, bending or cutting wire",
+  "defId": "tang",
+  "ex": "She used pliers to pull out the bent nail.",
+  "exId": "Dia memakai tang untuk mencabut paku yang bengkok.",
+  "colloc": [
+   "a pair of pliers",
+   "needle-nose pliers"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "plight",
   "pos": "noun",
   "def": "A difficult, unfortunate, or dangerous situation that someone is in.",
@@ -32197,6 +46815,20 @@ export const VOCAB = [
    "highlight the plight of"
   ],
   "theme": "society"
+ },
+ {
+  "w": "plod",
+  "pos": "verb",
+  "def": "to walk slowly and heavily, as if with effort",
+  "defId": "berjalan tertatih-tatih dengan berat",
+  "ex": "The tired horse plodded steadily up the steep mountain track.",
+  "exId": "Kuda yang lelah itu berjalan berat namun mantap menaiki jalur gunung yang curam.",
+  "colloc": [
+   "plod along",
+   "plod uphill",
+   "plod steadily"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "plot",
@@ -32240,6 +46872,20 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "plug-in",
+  "pos": "noun",
+  "def": "a small piece of software added to a program to give it an extra feature",
+  "defId": "perangkat lunak kecil yang ditambahkan ke sebuah program untuk memberinya fitur tambahan",
+  "ex": "Install this plug-in if you want to edit audio directly in the browser.",
+  "exId": "Pasang plug-in ini jika Anda ingin menyunting audio langsung di peramban.",
+  "colloc": [
+   "install a plug-in",
+   "browser plug-in",
+   "third-party plug-in"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "plumage",
   "pos": "noun",
   "def": "the feathers covering a bird's body",
@@ -32252,6 +46898,19 @@ export const VOCAB = [
    "colourful plumage"
   ],
   "theme": "wildlife"
+ },
+ {
+  "w": "plumber",
+  "pos": "noun",
+  "def": "a person who fits and repairs water pipes and fittings",
+  "defId": "tukang ledeng",
+  "ex": "The plumber fixed the leaking pipe under the sink.",
+  "exId": "Tukang ledeng itu memperbaiki pipa yang bocor di bawah wastafel.",
+  "colloc": [
+   "call a plumber",
+   "emergency plumber"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "plumbing",
@@ -32282,6 +46941,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "plump",
+  "pos": "adjective",
+  "def": "pleasantly rounded and slightly overweight",
+  "defId": "berisi dan agak gemuk",
+  "ex": "His grandmother was a plump, cheerful woman who loved to cook.",
+  "exId": "Neneknya adalah wanita berisi yang ceria dan gemar memasak.",
+  "colloc": [
+   "plump cheeks",
+   "plump figure",
+   "rather plump"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "plunder",
   "pos": "verb",
   "def": "to steal goods violently from a place, especially during war",
@@ -32294,6 +46967,60 @@ export const VOCAB = [
    "to loot and plunder"
   ],
   "theme": "history"
+ },
+ {
+  "w": "plunge",
+  "pos": "verb",
+  "def": "to move or fall quickly and forcefully downward",
+  "defId": "terjun; menukik",
+  "ex": "The diver plunged into the deep blue water without hesitation.",
+  "exId": "Penyelam itu terjun ke air biru yang dalam tanpa ragu.",
+  "colloc": [
+   "plunge into",
+   "plunge downward",
+   "plunge headlong"
+  ],
+  "theme": "sound_movement"
+ },
+ {
+  "w": "pluralism",
+  "pos": "noun",
+  "def": "the peaceful coexistence of different social, cultural or religious groups in one society",
+  "defId": "pluralisme; hidup berdampingan secara damai berbagai kelompok sosial, budaya, atau agama dalam satu masyarakat",
+  "ex": "The country prides itself on a tradition of religious pluralism.",
+  "exId": "Negara itu bangga akan tradisi pluralisme agamanya.",
+  "colloc": [
+   "cultural pluralism",
+   "religious pluralism",
+   "embrace pluralism"
+  ],
+  "theme": "society"
+ },
+ {
+  "w": "plurality",
+  "pos": "noun",
+  "def": "the state of being many, or a large number of different things",
+  "defId": "pluralitas; keberagaman",
+  "ex": "A healthy democracy depends on a plurality of opinions.",
+  "exId": "Demokrasi yang sehat bergantung pada pluralitas pendapat.",
+  "colloc": [
+   "a plurality of",
+   "cultural plurality"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "plywood",
+  "pos": "noun",
+  "def": "board made of thin layers of wood glued together for strength",
+  "defId": "kayu lapis",
+  "ex": "They boarded up the broken window with a sheet of plywood.",
+  "exId": "Mereka menutup jendela yang pecah dengan selembar kayu lapis.",
+  "colloc": [
+   "sheet of plywood",
+   "marine plywood"
+  ],
+  "theme": "tools"
  },
  {
   "w": "poaching",
@@ -32378,6 +47105,20 @@ export const VOCAB = [
   "theme": "literature"
  },
  {
+  "w": "poise",
+  "pos": "noun",
+  "def": "a calm, confident, and controlled manner",
+  "defId": "ketenangan sikap; cara bersikap yang tenang, percaya diri, dan terkendali",
+  "ex": "She handled the difficult questions with remarkable poise.",
+  "exId": "Dia menangani pertanyaan-pertanyaan sulit itu dengan ketenangan sikap yang luar biasa.",
+  "colloc": [
+   "remarkable poise",
+   "maintain poise",
+   "poise under pressure"
+  ],
+  "theme": "psychology"
+ },
+ {
   "w": "polarisation",
   "pos": "noun",
   "def": "the division of people into two opposing groups with very different views",
@@ -32389,6 +47130,19 @@ export const VOCAB = [
    "growing polarisation"
   ],
   "theme": "globalisation"
+ },
+ {
+  "w": "polarising",
+  "pos": "adjective",
+  "def": "causing people to divide into two sharply opposed groups",
+  "defId": "memecah belah menjadi dua kubu",
+  "ex": "Few topics are as polarising as the debate over gun control.",
+  "exId": "Hanya sedikit topik yang sememecah belah perdebatan tentang pengendalian senjata.",
+  "colloc": [
+   "a polarising figure",
+   "a polarising issue"
+  ],
+  "theme": "academic"
  },
  {
   "w": "poll",
@@ -32403,6 +47157,20 @@ export const VOCAB = [
    "lead in the polls"
   ],
   "theme": "politics"
+ },
+ {
+  "w": "pollen",
+  "pos": "noun",
+  "def": "a fine powder produced by flowers that fertilises other plants of the same kind",
+  "defId": "serbuk sari",
+  "ex": "In spring the air is thick with pollen, which makes many people sneeze.",
+  "exId": "Di musim semi udara penuh dengan serbuk sari, yang membuat banyak orang bersin.",
+  "colloc": [
+   "fine pollen",
+   "spread pollen",
+   "pollen count"
+  ],
+  "theme": "garden"
  },
  {
   "w": "pollinate",
@@ -32474,6 +47242,34 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "ponytail",
+  "pos": "noun",
+  "def": "a hairstyle in which the hair is tied together at the back of the head",
+  "defId": "gaya rambut kuncir kuda",
+  "ex": "She pulled her hair back into a neat ponytail before the workout.",
+  "exId": "Dia mengikat rambutnya menjadi kuncir kuda yang rapi sebelum berolahraga.",
+  "colloc": [
+   "neat ponytail",
+   "tie a ponytail",
+   "high ponytail"
+  ],
+  "theme": "describe_people"
+ },
+ {
+  "w": "populace",
+  "pos": "noun",
+  "def": "the ordinary people who live in a country or area, considered as a whole",
+  "defId": "rakyat; penduduk biasa suatu negara atau wilayah secara keseluruhan",
+  "ex": "The reforms were designed to win the support of a sceptical populace.",
+  "exId": "Reformasi itu dirancang untuk memenangkan dukungan rakyat yang skeptis.",
+  "colloc": [
+   "general populace",
+   "local populace",
+   "inform the populace"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "populism",
   "pos": "noun",
   "def": "a style of politics that claims to represent ordinary people against the elite",
@@ -32488,6 +47284,33 @@ export const VOCAB = [
   "theme": "politics"
  },
  {
+  "w": "porcelain",
+  "pos": "noun",
+  "def": "a hard, white, translucent ceramic material used for fine ware and fittings",
+  "defId": "porselen",
+  "ex": "The sink is made of porcelain, which chips if something heavy is dropped on it.",
+  "exId": "Wastafel itu terbuat dari porselen, yang bisa gompal kalau kejatuhan benda berat.",
+  "colloc": [
+   "fine porcelain",
+   "porcelain tile"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "portable",
+  "pos": "adjective",
+  "def": "light and easy to carry or move from one place to another",
+  "defId": "ringan dan mudah dibawa atau dipindahkan dari satu tempat ke tempat lain",
+  "ex": "She bought a portable hard drive to back up her files while travelling.",
+  "exId": "Dia membeli hard drive portabel untuk mencadangkan berkasnya saat bepergian.",
+  "colloc": [
+   "portable device",
+   "portable charger",
+   "highly portable"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "portfolio",
   "pos": "noun",
   "def": "a collection of your work that shows your skills to potential employers or clients",
@@ -32500,6 +47323,20 @@ export const VOCAB = [
    "portfolio of work"
   ],
   "theme": "work"
+ },
+ {
+  "w": "portion",
+  "pos": "noun",
+  "def": "an amount of food served to or intended for one person",
+  "defId": "jumlah makanan yang disajikan untuk atau diperuntukkan bagi satu orang",
+  "ex": "The restaurant serves generous portions, so one dish is enough for two.",
+  "exId": "Restoran itu menyajikan porsi yang berlimpah, sehingga satu hidangan cukup untuk berdua.",
+  "colloc": [
+   "a generous portion",
+   "control your portions",
+   "a small portion"
+  ],
+  "theme": "food"
  },
  {
   "w": "portrait",
@@ -32571,6 +47408,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "positioning",
+  "pos": "noun",
+  "def": "the way a company shapes how its brand or product is perceived relative to competitors",
+  "defId": "cara perusahaan membentuk persepsi merek atau produknya dibandingkan pesaing",
+  "ex": "Clever brand positioning made the drink seem more premium than its rivals.",
+  "exId": "Penempatan merek yang cerdas membuat minuman itu terkesan lebih premium daripada pesaingnya.",
+  "colloc": [
+   "brand positioning",
+   "market positioning",
+   "positioning strategy"
+  ],
+  "theme": "business"
+ },
+ {
   "w": "postcode",
   "pos": "noun",
   "def": "the letters and numbers at the end of a UK address used for sorting post",
@@ -32626,6 +47477,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "potable",
+  "pos": "adjective",
+  "def": "safe and suitable for drinking.",
+  "defId": "aman dan layak untuk diminum.",
+  "ex": "Millions of people still lack access to clean, potable water.",
+  "exId": "Jutaan orang masih tidak memiliki akses terhadap air minum yang bersih dan layak.",
+  "colloc": [
+   "potable water",
+   "potable supply",
+   "safe and potable"
+  ],
+  "theme": "environment"
+ },
+ {
   "w": "potluck",
   "pos": "noun",
   "def": "A shared meal or party where each guest brings a dish of food to share with everyone.",
@@ -32654,6 +47519,20 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "potting",
+  "pos": "noun",
+  "def": "the activity of putting plants into pots filled with soil or compost",
+  "defId": "kegiatan menanam dalam pot",
+  "ex": "He keeps all his seed trays and tools in the potting shed.",
+  "exId": "Dia menyimpan semua nampan benih dan peralatannya di gudang pot.",
+  "colloc": [
+   "potting shed",
+   "potting compost",
+   "potting bench"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "poultry",
   "pos": "noun",
   "def": "birds such as chickens and ducks kept for their meat or eggs",
@@ -32679,6 +47558,20 @@ export const VOCAB = [
    "reduce poverty"
   ],
   "theme": "globalisation"
+ },
+ {
+  "w": "poverty line",
+  "pos": "noun",
+  "def": "The minimum level of income deemed adequate to meet basic living needs.",
+  "defId": "Garis kemiskinan; batas pendapatan minimum yang dianggap cukup untuk memenuhi kebutuhan hidup dasar.",
+  "ex": "Millions of families still live below the poverty line despite years of economic growth.",
+  "exId": "Jutaan keluarga masih hidup di bawah garis kemiskinan meskipun ekonomi telah tumbuh bertahun-tahun.",
+  "colloc": [
+   "below the poverty line",
+   "fall below the poverty line",
+   "the official poverty line"
+  ],
+  "theme": "economy"
  },
  {
   "w": "power outage",
@@ -32718,6 +47611,19 @@ export const VOCAB = [
   "colloc": [
    "pragmatic approach",
    "pragmatic solution"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "pragmatism",
+  "pos": "noun",
+  "def": "a practical approach that deals with problems in a realistic way",
+  "defId": "pragmatisme; sikap praktis",
+  "ex": "The negotiations succeeded because both sides showed pragmatism.",
+  "exId": "Perundingan itu berhasil karena kedua pihak menunjukkan pragmatisme.",
+  "colloc": [
+   "political pragmatism",
+   "a spirit of pragmatism"
   ],
   "theme": "academic"
  },
@@ -32763,6 +47669,32 @@ export const VOCAB = [
   "theme": "law"
  },
  {
+  "w": "preceding",
+  "pos": "adjective",
+  "def": "coming immediately before something in time or order",
+  "defId": "sebelumnya; yang mendahului",
+  "ex": "The results built on findings from the preceding decade of research.",
+  "exId": "Hasil itu dibangun di atas temuan dari dekade penelitian sebelumnya.",
+  "colloc": [
+   "preceding year",
+   "preceding chapter"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "precept",
+  "pos": "noun",
+  "def": "a general rule intended to regulate behaviour or thought",
+  "defId": "pedoman; kaidah",
+  "ex": "Honesty in all dealings was the guiding precept of the firm.",
+  "exId": "Kejujuran dalam segala urusan adalah pedoman utama perusahaan itu.",
+  "colloc": [
+   "moral precept",
+   "guiding precept"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "precinct",
   "pos": "noun",
   "def": "an area in a town, often closed to traffic, that is used for a particular purpose such as shopping",
@@ -32777,6 +47709,20 @@ export const VOCAB = [
   "theme": "urban"
  },
  {
+  "w": "precipitate",
+  "pos": "verb",
+  "def": "to cause something serious to happen suddenly or sooner than expected",
+  "defId": "mempercepat terjadinya; memicu secara tiba-tiba",
+  "ex": "The bank's collapse precipitated a wider financial crisis.",
+  "exId": "Runtuhnya bank itu memicu krisis keuangan yang lebih luas.",
+  "colloc": [
+   "precipitate a crisis",
+   "precipitate a collapse",
+   "precipitate conflict"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "precipitation",
   "pos": "noun",
   "def": "rain, snow, sleet or hail that falls from the sky",
@@ -32789,6 +47735,33 @@ export const VOCAB = [
    "levels of precipitation"
   ],
   "theme": "weather"
+ },
+ {
+  "w": "precisely",
+  "pos": "adverb",
+  "def": "exactly and accurately, with no room for error",
+  "defId": "secara tepat; persis",
+  "ex": "The graph records precisely how much energy each household consumed.",
+  "exId": "Grafik itu mencatat secara tepat berapa banyak energi yang digunakan setiap rumah tangga.",
+  "colloc": [
+   "measure precisely",
+   "precisely defined"
+  ],
+  "theme": "numbers"
+ },
+ {
+  "w": "precision",
+  "pos": "n",
+  "def": "the quality of being exact and accurate",
+  "defId": "kualitas ketepatan dan keakuratan",
+  "ex": "The instrument measures distance with remarkable precision.",
+  "exId": "Alat itu mengukur jarak dengan ketepatan yang luar biasa.",
+  "colloc": [
+   "remarkable precision",
+   "with precision",
+   "precision and accuracy"
+  ],
+  "theme": "science"
  },
  {
   "w": "predator",
@@ -32815,6 +47788,19 @@ export const VOCAB = [
    "predominant view",
    "predominant factor",
    "predominant role"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "predominantly",
+  "pos": "adverb",
+  "def": "mainly; for the most part",
+  "defId": "sebagian besar",
+  "ex": "The workforce is predominantly made up of young graduates.",
+  "exId": "Tenaga kerja itu sebagian besar terdiri dari lulusan muda.",
+  "colloc": [
+   "predominantly, ...",
+   "predominantly urban"
   ],
   "theme": "academic"
  },
@@ -32929,6 +47915,20 @@ export const VOCAB = [
   "theme": "money"
  },
  {
+  "w": "preoccupation",
+  "pos": "noun",
+  "def": "a state of thinking about something so much that you ignore other things",
+  "defId": "keasyikan pikiran; keadaan terlalu memikirkan sesuatu sehingga mengabaikan hal lain",
+  "ex": "Her preoccupation with grades left her little time to enjoy university life.",
+  "exId": "Keasyikannya memikirkan nilai membuatnya hanya punya sedikit waktu untuk menikmati kehidupan kuliah.",
+  "colloc": [
+   "a growing preoccupation",
+   "preoccupation with",
+   "constant preoccupation"
+  ],
+  "theme": "psychology"
+ },
+ {
   "w": "prequel",
   "pos": "noun",
   "def": "a film or book that tells the story taking place before an existing one",
@@ -32955,6 +47955,19 @@ export const VOCAB = [
    "essential prerequisite"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "prerogative",
+  "pos": "noun",
+  "def": "a special right or privilege held by a particular person or office",
+  "defId": "hak istimewa; hak khusus yang dimiliki seseorang atau suatu jabatan",
+  "ex": "Declaring a state of emergency is the prerogative of the head of state.",
+  "exId": "Menyatakan keadaan darurat adalah hak istimewa kepala negara.",
+  "colloc": [
+   "royal prerogative",
+   "exercise a prerogative"
+  ],
+  "theme": "politics"
  },
  {
   "w": "prescribe",
@@ -32997,6 +48010,20 @@ export const VOCAB = [
    "free prescriptions"
   ],
   "theme": "uk_health"
+ },
+ {
+  "w": "presentable",
+  "pos": "adjective",
+  "def": "looking clean and tidy enough to be seen by others",
+  "defId": "pantas dan rapi untuk tampil",
+  "ex": "He quickly combed his hair to make himself look presentable.",
+  "exId": "Dia cepat-cepat menyisir rambut agar tampak pantas dan rapi.",
+  "colloc": [
+   "look presentable",
+   "make yourself presentable",
+   "perfectly presentable"
+  ],
+  "theme": "describe_people"
  },
  {
   "w": "presenteeism",
@@ -33067,6 +48094,18 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "presumably",
+  "pos": "adverb",
+  "def": "used to say something is probably true, though not certain",
+  "defId": "agaknya",
+  "ex": "The author, presumably writing for experts, omits basic definitions.",
+  "exId": "Penulisnya, agaknya menulis untuk para ahli, mengabaikan definisi dasar.",
+  "colloc": [
+   "presumably, ..."
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "presume",
   "pos": "verb",
   "def": "to suppose that something is true based on probability, without proof",
@@ -33076,6 +48115,19 @@ export const VOCAB = [
   "colloc": [
    "presume that",
    "reasonably presume"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "presumption",
+  "pos": "noun",
+  "def": "an assumption that something is true until it is proven otherwise",
+  "defId": "praduga; anggapan",
+  "ex": "There is a legal presumption of innocence until guilt is proven.",
+  "exId": "Ada praduga tak bersalah secara hukum sampai kesalahan dibuktikan.",
+  "colloc": [
+   "presumption of innocence",
+   "reasonable presumption"
   ],
   "theme": "academic"
  },
@@ -33174,6 +48226,20 @@ export const VOCAB = [
   "theme": "shopping"
  },
  {
+  "w": "prickly",
+  "pos": "adjective",
+  "def": "covered with sharp points that feel rough or painful",
+  "defId": "berduri; tertutup ujung tajam yang terasa kasar atau menyakitkan",
+  "ex": "The woollen jumper felt prickly against my bare skin.",
+  "exId": "Sweter wol itu terasa menusuk di kulit telanjangku.",
+  "colloc": [
+   "prickly surface",
+   "prickly heat",
+   "prickly leaves"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "primetime",
   "pos": "noun",
   "def": "the evening hours when the largest television audience is watching",
@@ -33229,6 +48295,34 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "prioritise",
+  "pos": "verb",
+  "def": "to treat something as more important than other things",
+  "defId": "mengutamakan sesuatu di atas hal-hal lain",
+  "ex": "In my opinion, governments should prioritise education over military spending.",
+  "exId": "Menurut saya, pemerintah harus mengutamakan pendidikan daripada belanja militer.",
+  "colloc": [
+   "prioritise spending",
+   "prioritise the environment",
+   "prioritise safety"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "pristine",
+  "pos": "adjective",
+  "def": "clean, fresh and completely unspoiled",
+  "defId": "masih murni dan bersih tak tersentuh",
+  "ex": "The island's pristine beaches have hardly changed in a hundred years.",
+  "exId": "Pantai-pantai pulau itu yang masih murni nyaris tidak berubah dalam seratus tahun.",
+  "colloc": [
+   "a pristine beach",
+   "pristine wilderness",
+   "pristine condition"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "privatisation",
   "pos": "noun",
   "def": "the transfer of a business or industry from state to private ownership",
@@ -33267,6 +48361,34 @@ export const VOCAB = [
    "proactive in solving problems"
   ],
   "theme": "work"
+ },
+ {
+  "w": "probability",
+  "pos": "n",
+  "def": "the likelihood that a particular event will happen, often expressed as a number",
+  "defId": "kemungkinan suatu peristiwa terjadi, sering dinyatakan sebagai angka",
+  "ex": "The probability of the result occurring by chance was very low.",
+  "exId": "Probabilitas hasil itu terjadi secara kebetulan sangat kecil.",
+  "colloc": [
+   "high probability",
+   "probability of",
+   "calculate the probability"
+  ],
+  "theme": "science"
+ },
+ {
+  "w": "probable",
+  "pos": "adjective",
+  "def": "likely to be true or to happen",
+  "defId": "mungkin; besar kemungkinan",
+  "ex": "The most probable explanation is a combination of several factors.",
+  "exId": "Penjelasan yang paling mungkin adalah kombinasi dari beberapa faktor.",
+  "colloc": [
+   "probable cause",
+   "most probable",
+   "highly probable"
+  ],
+  "theme": "academic"
  },
  {
   "w": "probation",
@@ -33338,6 +48460,19 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "proclamation",
+  "pos": "noun",
+  "def": "a public and official announcement of something important",
+  "defId": "proklamasi; pengumuman resmi dan terbuka mengenai sesuatu yang penting",
+  "ex": "The king issued a proclamation declaring a national day of mourning.",
+  "exId": "Raja mengeluarkan proklamasi yang menetapkan hari berkabung nasional.",
+  "colloc": [
+   "issue a proclamation",
+   "official proclamation"
+  ],
+  "theme": "politics"
+ },
+ {
   "w": "procrastinate",
   "pos": "verb",
   "def": "to delay doing something that you should do, usually because it is unpleasant or boring",
@@ -33363,6 +48498,20 @@ export const VOCAB = [
    "procurement costs"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "prodigy",
+  "pos": "noun",
+  "def": "a young person with exceptional and precocious talent, especially in the arts",
+  "defId": "seorang muda dengan bakat luar biasa dan matang lebih dini, terutama dalam seni",
+  "ex": "A child prodigy, she was composing her own sonatas by the age of seven.",
+  "exId": "Sebagai anak ajaib, ia sudah menciptakan sonata sendiri pada usia tujuh tahun.",
+  "colloc": [
+   "child prodigy",
+   "musical prodigy",
+   "a prodigy at the piano"
+  ],
+  "theme": "arts"
  },
  {
   "w": "produce",
@@ -33432,6 +48581,20 @@ export const VOCAB = [
    "boost profitability"
   ],
   "theme": "business"
+ },
+ {
+  "w": "profitable",
+  "pos": "adjective",
+  "def": "Producing a financial gain or benefit.",
+  "defId": "Menguntungkan; menghasilkan keuntungan finansial.",
+  "ex": "The factory only became profitable after it switched to cheaper materials.",
+  "exId": "Pabrik itu baru menguntungkan setelah beralih ke bahan yang lebih murah.",
+  "colloc": [
+   "highly profitable",
+   "a profitable venture",
+   "profitable margins"
+  ],
+  "theme": "economy"
  },
  {
   "w": "profound",
@@ -33516,6 +48679,32 @@ export const VOCAB = [
   "theme": "literature"
  },
  {
+  "w": "prolonged",
+  "pos": "adjective",
+  "def": "continuing for a long time, often longer than usual or desirable",
+  "defId": "yang berkepanjangan; berlangsung lama",
+  "ex": "A prolonged drought devastated crops across the region.",
+  "exId": "Kekeringan yang berkepanjangan menghancurkan tanaman di seluruh wilayah itu.",
+  "colloc": [
+   "prolonged drought",
+   "prolonged exposure"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "promenade",
+  "pos": "n",
+  "def": "A wide, paved path for walking, usually beside the sea or a river.",
+  "defId": "Jalur pejalan kaki lebar yang beraspal, biasanya di tepi laut atau sungai.",
+  "ex": "Families strolled along the seafront promenade as the sun went down.",
+  "exId": "Keluarga-keluarga berjalan santai di sepanjang promenade tepi laut saat matahari terbenam.",
+  "colloc": [
+   "seafront promenade",
+   "stroll along the promenade"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "prominent",
   "pos": "adjective",
   "def": "important, well-known, or standing out noticeably",
@@ -33542,6 +48731,33 @@ export const VOCAB = [
    "internal promotion"
   ],
   "theme": "work"
+ },
+ {
+  "w": "prompt",
+  "pos": "verb",
+  "def": "to make someone decide to do something, or to cause something to happen",
+  "defId": "mendorong; memicu",
+  "ex": "The scandal prompted the government to introduce stricter regulations.",
+  "exId": "Skandal itu mendorong pemerintah untuk memberlakukan peraturan yang lebih ketat.",
+  "colloc": [
+   "prompt a decision",
+   "prompt action",
+   "prompt a review"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "promptly",
+  "pos": "adverb",
+  "def": "immediately and without delay",
+  "defId": "dengan segera; tanpa menunda",
+  "ex": "She responded promptly to every email she received.",
+  "exId": "Dia membalas dengan segera setiap surel yang diterimanya.",
+  "colloc": [
+   "respond promptly",
+   "pay promptly"
+  ],
+  "theme": "academic"
  },
  {
   "w": "pronounced",
@@ -33612,6 +48828,20 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "propagate",
+  "pos": "verb",
+  "def": "to grow new plants from a parent plant, for example from seeds or cuttings",
+  "defId": "memperbanyak (tanaman); membiakkan",
+  "ex": "You can easily propagate mint by taking cuttings and placing them in water.",
+  "exId": "Kamu bisa dengan mudah memperbanyak daun mint dengan mengambil stek dan menaruhnya di air.",
+  "colloc": [
+   "propagate from cuttings",
+   "propagate plants",
+   "propagate by seed"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "propeller",
   "pos": "noun",
   "def": "a device with rotating blades that drives a ship or aircraft forward",
@@ -33639,6 +48869,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "proponent",
+  "pos": "noun",
+  "def": "a person who argues in favour of an idea, cause or course of action",
+  "defId": "pendukung; orang yang berpendapat mendukung suatu gagasan, tujuan, atau tindakan",
+  "ex": "She is a leading proponent of affordable housing for low-income families.",
+  "exId": "Dia adalah pendukung utama perumahan terjangkau bagi keluarga berpenghasilan rendah.",
+  "colloc": [
+   "a leading proponent",
+   "vocal proponent",
+   "proponent of reform"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "proportion",
   "pos": "noun",
   "def": "a part or share of a whole, often shown as a fraction or percentage",
@@ -33651,6 +48895,20 @@ export const VOCAB = [
    "significant proportion"
   ],
   "theme": "science"
+ },
+ {
+  "w": "proposal",
+  "pos": "noun",
+  "def": "a formal written plan or suggestion put forward for consideration by others",
+  "defId": "rencana atau usulan tertulis resmi yang diajukan untuk dipertimbangkan",
+  "ex": "She submitted a detailed proposal outlining how the merger would cut operating costs.",
+  "exId": "Ia mengajukan proposal rinci yang menguraikan bagaimana merger itu akan memangkas biaya operasional.",
+  "colloc": [
+   "submit a proposal",
+   "business proposal",
+   "reject a proposal"
+  ],
+  "theme": "business"
  },
  {
   "w": "propose",
@@ -33693,6 +48951,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "props",
+  "pos": "noun",
+  "def": "portable objects used by actors on stage to support the action of a play",
+  "defId": "benda-benda yang dapat dipindahkan yang digunakan aktor di panggung untuk mendukung jalannya lakon",
+  "ex": "The stage manager checked that all the props were in place before the curtain rose.",
+  "exId": "Manajer panggung memastikan semua properti sudah pada tempatnya sebelum tirai terbuka.",
+  "colloc": [
+   "stage props",
+   "props department",
+   "gather the props"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "propulsion",
   "pos": "noun",
   "def": "the force or system that pushes a vehicle forward",
@@ -33705,6 +48977,20 @@ export const VOCAB = [
    "nuclear propulsion"
   ],
   "theme": "space"
+ },
+ {
+  "w": "proscenium",
+  "pos": "noun",
+  "def": "the arch or framed opening that separates the stage from the auditorium",
+  "defId": "lengkung atau bukaan berbingkai yang memisahkan panggung dari ruang penonton",
+  "ex": "The gilded proscenium framed the stage like a giant picture, drawing every eye forward.",
+  "exId": "Lengkung panggung berlapis emas itu membingkai panggung seperti lukisan raksasa, menarik semua pandangan ke depan.",
+  "colloc": [
+   "proscenium arch",
+   "gilded proscenium",
+   "proscenium stage"
+  ],
+  "theme": "arts"
  },
  {
   "w": "prose",
@@ -33846,6 +49132,20 @@ export const VOCAB = [
   "theme": "politics"
  },
  {
+  "w": "protocol",
+  "pos": "noun",
+  "def": "a set of rules that governs how devices communicate and exchange data on a network",
+  "defId": "seperangkat aturan yang mengatur cara perangkat berkomunikasi dan bertukar data di jaringan",
+  "ex": "Secure websites use the HTTPS protocol to encrypt your information.",
+  "exId": "Situs web yang aman menggunakan protokol HTTPS untuk mengenkripsi informasi Anda.",
+  "colloc": [
+   "network protocol",
+   "communication protocol",
+   "secure protocol"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "proton",
   "pos": "noun",
   "def": "a positively charged particle found in the nucleus of an atom",
@@ -33871,6 +49171,19 @@ export const VOCAB = [
    "test a prototype"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "protracted",
+  "pos": "adjective",
+  "def": "lasting longer than expected or necessary; drawn out",
+  "defId": "yang berlarut-larut; berkepanjangan",
+  "ex": "After protracted negotiations, the two sides finally reached an agreement.",
+  "exId": "Setelah negosiasi yang berlarut-larut, kedua pihak akhirnya mencapai kesepakatan.",
+  "colloc": [
+   "protracted negotiations",
+   "protracted dispute"
+  ],
+  "theme": "academic"
  },
  {
   "w": "provenance",
@@ -33901,6 +49214,20 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "provincial",
+  "pos": "adjective",
+  "def": "of the regions outside the capital, often seen as unsophisticated",
+  "defId": "kedaerahan dan berkesan kurang maju",
+  "ex": "After years in the capital, she found the provincial town quiet and a little dull.",
+  "exId": "Setelah bertahun-tahun di ibu kota, ia merasa kota kecil yang kedaerahan itu sepi dan agak membosankan.",
+  "colloc": [
+   "a provincial town",
+   "provincial life",
+   "a provincial city"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "provision",
   "pos": "noun",
   "def": "A condition or requirement included in a law or legal agreement.",
@@ -33913,6 +49240,20 @@ export const VOCAB = [
    "under the provisions of"
   ],
   "theme": "law"
+ },
+ {
+  "w": "provisional",
+  "pos": "adjective",
+  "def": "arranged for the present and likely to be changed later",
+  "defId": "sementara; provisional",
+  "ex": "These figures are provisional and may be revised next quarter.",
+  "exId": "Angka-angka ini bersifat sementara dan mungkin direvisi pada kuartal berikutnya.",
+  "colloc": [
+   "provisional figures",
+   "provisional agreement",
+   "provisional results"
+  ],
+  "theme": "academic"
  },
  {
   "w": "provisional licence",
@@ -33929,6 +49270,19 @@ export const VOCAB = [
   "theme": "uk_transport"
  },
  {
+  "w": "proviso",
+  "pos": "noun",
+  "def": "a condition or qualification attached to an agreement or statement",
+  "defId": "syarat; ketentuan tambahan",
+  "ex": "She agreed to the plan, with the proviso that costs would be shared equally.",
+  "exId": "Dia menyetujui rencana itu, dengan syarat bahwa biaya akan dibagi rata.",
+  "colloc": [
+   "with the proviso that",
+   "add a proviso"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "provocative",
   "pos": "adjective",
   "def": "intended to make people think or react strongly, sometimes by causing controversy",
@@ -33941,6 +49295,33 @@ export const VOCAB = [
    "provocative art"
   ],
   "theme": "arts"
+ },
+ {
+  "w": "provoke",
+  "pos": "verb",
+  "def": "to cause a particular reaction or feeling, often a strong or angry one",
+  "defId": "memancing; memicu (reaksi)",
+  "ex": "His controversial remarks provoked an angry response from the audience.",
+  "exId": "Komentar kontroversialnya memancing reaksi marah dari penonton.",
+  "colloc": [
+   "provoke anger",
+   "provoke a reaction",
+   "provoke debate"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "provost",
+  "pos": "noun",
+  "def": "a senior administrative officer in some universities, often second in seniority to the president",
+  "defId": "pejabat administratif senior di beberapa universitas yang biasanya menjadi orang kedua setelah rektor",
+  "ex": "The provost oversees all academic programmes across the university.",
+  "exId": "Provost mengawasi seluruh program akademik di universitas tersebut.",
+  "colloc": [
+   "university provost",
+   "the provost's office"
+  ],
+  "theme": "education"
  },
  {
   "w": "prowess",
@@ -33983,6 +49364,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "prune",
+  "pos": "verb",
+  "def": "to cut off branches or stems from a plant so that it grows better",
+  "defId": "memangkas (tanaman)",
+  "ex": "You should prune the apple tree in late winter before new growth begins.",
+  "exId": "Sebaiknya kamu memangkas pohon apel di akhir musim dingin sebelum tunas baru muncul.",
+  "colloc": [
+   "prune a tree",
+   "prune back",
+   "hard prune"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "psyche",
   "pos": "noun",
   "def": "the human mind, soul, or spirit as a whole",
@@ -33995,6 +49390,19 @@ export const VOCAB = [
    "damage the psyche"
   ],
   "theme": "psychology"
+ },
+ {
+  "w": "psychologist",
+  "pos": "noun",
+  "def": "a person who studies the mind and human behaviour, often to help people",
+  "defId": "psikolog",
+  "ex": "The psychologist helped her cope with her anxiety.",
+  "exId": "Psikolog itu membantunya mengatasi kecemasannya.",
+  "colloc": [
+   "clinical psychologist",
+   "child psychologist"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "pub",
@@ -34023,6 +49431,20 @@ export const VOCAB = [
    "a quiz team"
   ],
   "theme": "uk_social"
+ },
+ {
+  "w": "public interest",
+  "pos": "noun",
+  "def": "the welfare or well-being of the general public",
+  "defId": "kepentingan umum; kesejahteraan atau kebaikan masyarakat luas",
+  "ex": "The journalist argued that publishing the documents was clearly in the public interest.",
+  "exId": "Jurnalis itu berpendapat bahwa menerbitkan dokumen tersebut jelas demi kepentingan umum.",
+  "colloc": [
+   "in the public interest",
+   "serve the public interest",
+   "matter of public interest"
+  ],
+  "theme": "society"
  },
  {
   "w": "public transport",
@@ -34064,6 +49486,19 @@ export const VOCAB = [
    "find a publisher"
   ],
   "theme": "literature"
+ },
+ {
+  "w": "pull your weight",
+  "pos": "idiom",
+  "def": "to do your fair share of the work",
+  "defId": "melakukan bagian tugas secara adil; tidak menjadi beban orang lain",
+  "ex": "Everyone in the team needs to pull their weight to meet the deadline.",
+  "exId": "Setiap anggota tim harus melakukan bagiannya masing-masing agar tenggat terpenuhi.",
+  "colloc": [
+   "doing your share",
+   "'pull your weight in the team'"
+  ],
+  "theme": "idioms"
  },
  {
   "w": "pulse",
@@ -34160,6 +49595,48 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "purify",
+  "pos": "verb",
+  "def": "to remove harmful or dirty substances from something in order to make it clean.",
+  "defId": "menghilangkan zat berbahaya atau kotoran dari sesuatu agar menjadi bersih.",
+  "ex": "The plant uses ultraviolet light to purify drinking water before distribution.",
+  "exId": "Instalasi itu menggunakan sinar ultraviolet untuk memurnikan air minum sebelum didistribusikan.",
+  "colloc": [
+   "purify water",
+   "purify the air",
+   "purify wastewater"
+  ],
+  "theme": "environment"
+ },
+ {
+  "w": "purport",
+  "pos": "verb",
+  "def": "to claim to be or do something, often when this is not true",
+  "defId": "mengklaim; berpura-pura",
+  "ex": "The article purports to offer a balanced view, but it is clearly biased.",
+  "exId": "Artikel itu mengklaim menyajikan pandangan yang seimbang, tetapi jelas bias.",
+  "colloc": [
+   "purport to be",
+   "purport to show",
+   "purport to represent"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "purportedly",
+  "pos": "adverb",
+  "def": "as is claimed, though the claim may not be true",
+  "defId": "konon; diklaim",
+  "ex": "The document purportedly reveals the government's true intentions.",
+  "exId": "Dokumen itu konon mengungkap niat sebenarnya pemerintah.",
+  "colloc": [
+   "purportedly independent",
+   "purportedly leaked",
+   "purportedly written by"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "pursue",
   "pos": "verb",
   "def": "to follow or work towards a goal or activity over time",
@@ -34188,6 +49665,19 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "putty",
+  "pos": "noun",
+  "def": "a soft paste that hardens as it sets, used to fix glass or fill gaps",
+  "defId": "dempul",
+  "ex": "He smoothed putty around the pane to hold the glass in place.",
+  "exId": "Dia meratakan dempul di sekeliling kaca untuk menahannya pada tempatnya.",
+  "colloc": [
+   "window putty",
+   "apply putty"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "puzzle",
   "pos": "noun",
   "def": "a game or problem designed to test ingenuity or knowledge",
@@ -34200,6 +49690,33 @@ export const VOCAB = [
    "puzzle book"
   ],
   "theme": "leisure"
+ },
+ {
+  "w": "pylon",
+  "pos": "n",
+  "def": "A tall metal tower that supports high-voltage electricity cables across the landscape.",
+  "defId": "Menara logam tinggi yang menopang kabel listrik tegangan tinggi melintasi lanskap.",
+  "ex": "Rows of pylons march across the fields on the edge of the city.",
+  "exId": "Deretan menara listrik berbaris melintasi ladang di pinggiran kota.",
+  "colloc": [
+   "electricity pylon",
+   "row of pylons"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "quaint",
+  "pos": "adjective",
+  "def": "attractively old-fashioned or charmingly unusual",
+  "defId": "antik dan menarik",
+  "ex": "The quaint cobbled streets are lined with tiny shops selling handmade crafts.",
+  "exId": "Jalan-jalan berbatu yang antik dan menarik itu dipenuhi toko-toko kecil yang menjual kerajinan tangan.",
+  "colloc": [
+   "a quaint village",
+   "quaint cottages",
+   "a quaint atmosphere"
+  ],
+  "theme": "describe_places"
  },
  {
   "w": "qualification",
@@ -34282,6 +49799,20 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "qualm",
+  "pos": "noun",
+  "def": "a feeling of doubt or unease about whether you are doing the right thing",
+  "defId": "kebimbangan hati; perasaan ragu atau tidak nyaman tentang apakah tindakan itu benar",
+  "ex": "She had no qualms about telling him the truth.",
+  "exId": "Dia tidak punya kebimbangan sedikit pun untuk mengatakan yang sebenarnya kepadanya.",
+  "colloc": [
+   "have no qualms",
+   "without qualms",
+   "moral qualms"
+  ],
+  "theme": "psychology"
+ },
+ {
   "w": "quantify",
   "pos": "verb",
   "def": "to measure or express something as a number or amount",
@@ -34310,6 +49841,33 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "quantitative easing",
+  "pos": "noun",
+  "def": "A policy in which a central bank creates money to buy assets and stimulate the economy.",
+  "defId": "Pelonggaran kuantitatif; kebijakan bank sentral mencetak uang untuk membeli aset guna merangsang ekonomi.",
+  "ex": "The central bank launched quantitative easing to revive lending during the crisis.",
+  "exId": "Bank sentral meluncurkan pelonggaran kuantitatif untuk menghidupkan kembali penyaluran kredit selama krisis.",
+  "colloc": [
+   "a programme of quantitative easing",
+   "launch quantitative easing",
+   "quantitative easing measures"
+  ],
+  "theme": "economy"
+ },
+ {
+  "w": "quantity",
+  "pos": "noun",
+  "def": "an amount or number of something that can be measured",
+  "defId": "kuantitas; jumlah",
+  "ex": "The factory produced a huge quantity of goods during the peak season.",
+  "exId": "Pabrik itu memproduksi barang dalam jumlah besar selama musim puncak.",
+  "colloc": [
+   "a large quantity",
+   "in equal quantities"
+  ],
+  "theme": "numbers"
+ },
+ {
   "w": "quantum computing",
   "pos": "noun",
   "def": "a form of computing that uses quantum physics to solve certain problems far faster",
@@ -34334,6 +49892,19 @@ export const VOCAB = [
    "quarantine period"
   ],
   "theme": "health"
+ },
+ {
+  "w": "quarter",
+  "pos": "noun",
+  "def": "one of four equal parts of something; twenty-five per cent",
+  "defId": "seperempat",
+  "ex": "Nearly a quarter of the electricity was generated from renewable sources.",
+  "exId": "Hampir seperempat listrik dihasilkan dari sumber terbarukan.",
+  "colloc": [
+   "a quarter of",
+   "three quarters"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "quarterfinal",
@@ -34361,6 +49932,88 @@ export const VOCAB = [
    "quarterly results"
   ],
   "theme": "business"
+ },
+ {
+  "w": "quash",
+  "pos": "verb",
+  "def": "to officially reject or cancel a decision or conviction",
+  "defId": "membatalkan putusan atau vonis secara resmi",
+  "ex": "The appeal court quashed his conviction after new evidence came to light.",
+  "exId": "Pengadilan banding membatalkan vonisnya setelah muncul bukti baru.",
+  "colloc": [
+   "quash a conviction",
+   "quash a verdict"
+  ],
+  "theme": "law"
+ },
+ {
+  "w": "quay",
+  "pos": "noun",
+  "def": "a solid structure along the water where boats load and unload",
+  "defId": "bangunan kokoh di tepi air tempat perahu bongkar muat",
+  "ex": "Fishing boats were moored along the stone quay.",
+  "exId": "Perahu-perahu nelayan bersandar di sepanjang dermaga batu.",
+  "colloc": [
+   "moored at the quay",
+   "a stone quay",
+   "along the quay"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "quayside",
+  "pos": "n",
+  "def": "The paved area along a harbour or dock where boats are loaded and unloaded.",
+  "defId": "Area beraspal di sepanjang pelabuhan atau dermaga tempat kapal dimuat dan dibongkar.",
+  "ex": "Cafés and galleries now line the old quayside where cargo was once unloaded.",
+  "exId": "Kafe dan galeri kini berjejer di sepanjang dermaga tua tempat kargo dulu dibongkar.",
+  "colloc": [
+   "along the quayside",
+   "quayside café"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "queasy",
+  "pos": "adjective",
+  "def": "feeling slightly sick or nauseated, often in the stomach",
+  "defId": "merasa sedikit mual atau tidak enak di perut",
+  "ex": "The rocking of the boat left him feeling queasy all afternoon.",
+  "exId": "Goyangan perahu membuatnya merasa mual sepanjang sore.",
+  "colloc": [
+   "feel queasy",
+   "a queasy stomach",
+   "slightly queasy"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "question",
+  "pos": "verb",
+  "def": "to express doubt about whether something is true, valid or right",
+  "defId": "mempertanyakan atau meragukan kebenaran sesuatu",
+  "ex": "Some people question whether social media really brings us closer together.",
+  "exId": "Sebagian orang mempertanyakan apakah media sosial benar-benar mendekatkan kita.",
+  "colloc": [
+   "question the value",
+   "seriously question",
+   "question the assumption"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "questionable",
+  "pos": "adjective",
+  "def": "of doubtful truth, value, or honesty",
+  "defId": "meragukan; dipertanyakan",
+  "ex": "The study relied on data of questionable reliability.",
+  "exId": "Studi itu mengandalkan data yang keandalannya meragukan.",
+  "colloc": [
+   "questionable validity",
+   "questionable assumption",
+   "highly questionable"
+  ],
+  "theme": "academic"
  },
  {
   "w": "queue",
@@ -34432,6 +50085,19 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "quorum",
+  "pos": "noun",
+  "def": "the minimum number of members that must be present for a meeting's decisions to be valid",
+  "defId": "kuorum; jumlah minimum anggota yang harus hadir agar keputusan rapat sah",
+  "ex": "The session was adjourned because the assembly failed to reach a quorum.",
+  "exId": "Sidang ditunda karena majelis gagal mencapai kuorum.",
+  "colloc": [
+   "reach a quorum",
+   "lack a quorum"
+  ],
+  "theme": "politics"
+ },
+ {
   "w": "quota",
   "pos": "noun",
   "def": "an official limit on the amount or number of something, especially imports",
@@ -34458,6 +50124,34 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "race to the bottom",
+  "pos": "noun",
+  "def": "a damaging competition in which countries cut wages or standards to attract business",
+  "defId": "persaingan merugikan ketika negara memangkas upah atau standar demi menarik bisnis",
+  "ex": "Weak labour laws can start a race to the bottom as firms chase the cheapest workforce.",
+  "exId": "Hukum ketenagakerjaan yang lemah dapat memicu perlombaan menuju dasar saat perusahaan memburu tenaga kerja termurah.",
+  "colloc": [
+   "a race to the bottom",
+   "trigger a race to the bottom",
+   "regulatory race to the bottom"
+  ],
+  "theme": "globalisation"
+ },
+ {
+  "w": "radiant",
+  "pos": "adjective",
+  "def": "sending out bright light or warmth",
+  "defId": "berseri; memancarkan cahaya atau kehangatan terang",
+  "ex": "The radiant glow of the sunset filled the whole sky with orange.",
+  "exId": "Pancaran cahaya matahari terbenam memenuhi seluruh langit dengan warna jingga.",
+  "colloc": [
+   "radiant glow",
+   "radiant light",
+   "radiant heat"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "radiation",
   "pos": "noun",
   "def": "energy that travels through space as waves or particles",
@@ -34470,6 +50164,19 @@ export const VOCAB = [
    "radiation exposure"
   ],
   "theme": "space"
+ },
+ {
+  "w": "radiographer",
+  "pos": "noun",
+  "def": "a person trained to take X-rays and other medical images of the body",
+  "defId": "radiografer",
+  "ex": "The radiographer positioned my arm carefully before taking the X-ray.",
+  "exId": "Radiografer itu memposisikan lengan saya dengan hati-hati sebelum mengambil rontgen.",
+  "colloc": [
+   "diagnostic radiographer",
+   "trained radiographer"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "rafter",
@@ -34555,6 +50262,20 @@ export const VOCAB = [
   "theme": "money"
  },
  {
+  "w": "rally",
+  "pos": "verb",
+  "def": "(Of prices or markets) to recover and rise again after a fall.",
+  "defId": "Pulih dan naik kembali (tentang harga atau pasar) setelah menurun.",
+  "ex": "Share prices began to rally as soon as the central bank cut interest rates.",
+  "exId": "Harga saham mulai pulih naik begitu bank sentral memangkas suku bunga.",
+  "colloc": [
+   "stocks rally",
+   "markets rally",
+   "rally sharply"
+  ],
+  "theme": "economy"
+ },
+ {
   "w": "ramble",
   "pos": "verb",
   "def": "to talk for a long time in a confused way, without a clear point",
@@ -34596,6 +50317,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "ramshackle",
+  "pos": "adjective",
+  "def": "badly built or in poor repair and almost falling apart",
+  "defId": "reyot dan hampir ambruk",
+  "ex": "A row of ramshackle wooden huts leaned along the muddy riverbank.",
+  "exId": "Sederet gubuk kayu yang reyot bersandar di sepanjang tepi sungai berlumpur.",
+  "colloc": [
+   "a ramshackle building",
+   "a ramshackle hut",
+   "a ramshackle old house"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "rancid",
   "pos": "adjective",
   "def": "tasting or smelling unpleasant because it is no longer fresh, especially of fatty food.",
@@ -34607,6 +50342,33 @@ export const VOCAB = [
    "go rancid"
   ],
   "theme": "food"
+ },
+ {
+  "w": "randomise",
+  "pos": "v",
+  "def": "to arrange or assign in a random order so as to avoid bias",
+  "defId": "menyusun atau menempatkan secara acak untuk menghindari bias",
+  "ex": "Participants were randomised into treatment and control groups.",
+  "exId": "Para peserta diacak ke dalam kelompok perlakuan dan kelompok kontrol.",
+  "colloc": [
+   "randomise participants",
+   "randomised trial",
+   "randomise the sample"
+  ],
+  "theme": "science"
+ },
+ {
+  "w": "range",
+  "pos": "noun",
+  "def": "the difference between the highest and lowest values in a set",
+  "defId": "rentang; kisaran",
+  "ex": "Prices varied within a narrow range of two to three dollars per unit.",
+  "exId": "Harga bervariasi dalam rentang sempit dua hingga tiga dolar per unit.",
+  "colloc": [
+   "a wide range",
+   "within the range"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "ransom",
@@ -34650,6 +50412,20 @@ export const VOCAB = [
   "theme": "family"
  },
  {
+  "w": "rash",
+  "pos": "noun",
+  "def": "an area of red, irritated spots or patches on the skin",
+  "defId": "area bercak merah atau ruam yang iritasi pada kulit",
+  "ex": "An itchy rash spread across her arms after she touched the plant.",
+  "exId": "Ruam gatal menyebar di lengannya setelah ia menyentuh tanaman itu.",
+  "colloc": [
+   "a skin rash",
+   "develop a rash",
+   "an itchy rash"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "ratify",
   "pos": "verb",
   "def": "to make an agreement or treaty official by formally approving it",
@@ -34662,6 +50438,19 @@ export const VOCAB = [
    "ratify an agreement"
   ],
   "theme": "politics"
+ },
+ {
+  "w": "ratio",
+  "pos": "noun",
+  "def": "the relationship between two amounts expressed as one number divided by another",
+  "defId": "rasio; perbandingan",
+  "ex": "The ratio of students to teachers has fallen steadily over the past decade.",
+  "exId": "Rasio siswa terhadap guru terus menurun selama satu dekade terakhir.",
+  "colloc": [
+   "a two-to-one ratio",
+   "the ratio of"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "rational",
@@ -34716,6 +50505,20 @@ export const VOCAB = [
    "bounded rationality"
   ],
   "theme": "philosophy"
+ },
+ {
+  "w": "rattle",
+  "pos": "verb",
+  "def": "to make a rapid series of short, sharp knocking sounds",
+  "defId": "bergetar berbunyi; bergemeretak",
+  "ex": "The strong wind made the windows rattle throughout the night.",
+  "exId": "Angin kencang membuat jendela-jendela bergemeretak sepanjang malam.",
+  "colloc": [
+   "windows rattle",
+   "rattle a chain",
+   "the engine rattles"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "ravine",
@@ -34799,6 +50602,33 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "reagent",
+  "pos": "n",
+  "def": "a substance used to cause a chemical reaction or to detect another substance",
+  "defId": "zat yang digunakan untuk memicu reaksi kimia atau mendeteksi zat lain",
+  "ex": "The chemist added a reagent that turned the solution bright blue.",
+  "exId": "Ahli kimia menambahkan reagen yang membuat larutan berubah biru terang.",
+  "colloc": [
+   "add a reagent",
+   "chemical reagent",
+   "reagent bottle"
+  ],
+  "theme": "science"
+ },
+ {
+  "w": "reallocate",
+  "pos": "verb",
+  "def": "to distribute resources or funds in a different way",
+  "defId": "mengalokasikan ulang",
+  "ex": "The council voted to reallocate funds from advertising to public services.",
+  "exId": "Dewan memilih untuk mengalokasikan ulang dana dari iklan ke layanan publik.",
+  "colloc": [
+   "reallocate resources",
+   "reallocate the budget"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "realm",
   "pos": "noun",
   "def": "a particular area of activity, interest, or knowledge",
@@ -34809,6 +50639,19 @@ export const VOCAB = [
    "the realm of",
    "in the realm of",
    "beyond the realm"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "reappraise",
+  "pos": "verb",
+  "def": "to consider or judge the value of something again",
+  "defId": "menilai ulang; meninjau kembali",
+  "ex": "Critics have begun to reappraise the writer's earlier novels.",
+  "exId": "Para kritikus mulai menilai ulang novel-novel awal penulis itu.",
+  "colloc": [
+   "reappraise the evidence",
+   "reappraise a strategy"
   ],
   "theme": "academic"
  },
@@ -34825,6 +50668,60 @@ export const VOCAB = [
    "moral reasoning"
   ],
   "theme": "philosophy"
+ },
+ {
+  "w": "reassert",
+  "pos": "verb",
+  "def": "to state or claim something firmly again",
+  "defId": "menegaskan kembali",
+  "ex": "In her closing speech she reasserted the importance of press freedom.",
+  "exId": "Dalam pidato penutupnya, ia menegaskan kembali pentingnya kebebasan pers.",
+  "colloc": [
+   "reassert control",
+   "reassert authority"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "reassess",
+  "pos": "verb",
+  "def": "to evaluate something again, often to reach a different judgement",
+  "defId": "menilai ulang",
+  "ex": "Governments must regularly reassess their climate policies in light of new data.",
+  "exId": "Pemerintah harus secara berkala menilai ulang kebijakan iklim mereka berdasarkan data baru.",
+  "colloc": [
+   "reassess the situation",
+   "reassess priorities"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "reassurance",
+  "pos": "noun",
+  "def": "words or actions that remove someone's doubts or fears",
+  "defId": "penenteraman; kata atau tindakan yang menghilangkan keraguan atau ketakutan seseorang",
+  "ex": "The doctor offered reassurance that the symptoms were completely harmless.",
+  "exId": "Dokter memberikan penenteraman bahwa gejalanya sama sekali tidak berbahaya.",
+  "colloc": [
+   "constant reassurance",
+   "seek reassurance",
+   "offer reassurance"
+  ],
+  "theme": "psychology"
+ },
+ {
+  "w": "rebate",
+  "pos": "noun",
+  "def": "a partial refund given to a customer as a reduction on the amount paid",
+  "defId": "pengembalian sebagian uang kepada pelanggan sebagai potongan dari jumlah yang dibayar",
+  "ex": "Buyers who purchase before June qualify for a fifty-dollar rebate on the appliance.",
+  "exId": "Pembeli yang membeli sebelum Juni berhak atas rabat lima puluh dolar untuk peralatan itu.",
+  "colloc": [
+   "cash rebate",
+   "offer a rebate",
+   "claim a rebate"
+  ],
+  "theme": "business"
  },
  {
   "w": "rebellious",
@@ -34868,6 +50765,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "rebrand",
+  "pos": "verb",
+  "def": "to change the image, name or identity of a company or product",
+  "defId": "mengubah citra, nama, atau identitas suatu perusahaan atau produk",
+  "ex": "The airline decided to rebrand after years of poor customer reviews.",
+  "exId": "Maskapai itu memutuskan mengubah merek setelah bertahun-tahun ulasan pelanggan buruk.",
+  "colloc": [
+   "rebrand the company",
+   "completely rebrand",
+   "rebrand as"
+  ],
+  "theme": "business"
+ },
+ {
   "w": "rebut",
   "pos": "verb",
   "def": "to argue that a statement or accusation is not true, often with evidence",
@@ -34877,6 +50788,19 @@ export const VOCAB = [
   "colloc": [
    "rebut a claim",
    "rebut an allegation"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "recalibrate",
+  "pos": "verb",
+  "def": "to adjust something, especially expectations or methods, in response to new circumstances",
+  "defId": "mengkalibrasi ulang; menyesuaikan ulang",
+  "ex": "The bank had to recalibrate its forecasts after the sudden rate rise.",
+  "exId": "Bank harus menyesuaikan ulang perkiraannya setelah kenaikan suku bunga mendadak.",
+  "colloc": [
+   "recalibrate expectations",
+   "recalibrate the model"
   ],
   "theme": "academic"
  },
@@ -34990,6 +50914,19 @@ export const VOCAB = [
   "theme": "relationships"
  },
  {
+  "w": "reciprocate",
+  "pos": "verb",
+  "def": "to respond to an action or feeling by doing or giving something similar in return",
+  "defId": "membalas; bertukar setimpal",
+  "ex": "When one country lowers its tariffs, others are expected to reciprocate.",
+  "exId": "Ketika satu negara menurunkan tarifnya, negara lain diharapkan membalas.",
+  "colloc": [
+   "reciprocate a gesture",
+   "fail to reciprocate"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "recital",
   "pos": "noun",
   "def": "a public performance of music or poetry, usually by a soloist or small group",
@@ -35004,6 +50941,19 @@ export const VOCAB = [
   "theme": "music"
  },
  {
+  "w": "recite",
+  "pos": "verb",
+  "def": "to say a piece of writing aloud from memory, especially in front of an audience",
+  "defId": "melafalkan atau mengucapkan sesuatu dengan lantang dari ingatan",
+  "ex": "Each pupil was asked to recite a short poem in front of the whole class.",
+  "exId": "Setiap murid diminta melafalkan sebuah puisi pendek di depan seluruh kelas.",
+  "colloc": [
+   "recite a poem",
+   "recite from memory"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "reckless",
   "pos": "adjective",
   "def": "acting without thinking about the possible dangerous consequences",
@@ -35015,6 +50965,48 @@ export const VOCAB = [
    "reckless behaviour"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "reckon",
+  "pos": "verb",
+  "def": "to think or believe something after considering it",
+  "defId": "memperkirakan; berpendapat",
+  "ex": "Analysts reckon that prices will stabilise by the end of the year.",
+  "exId": "Para analis memperkirakan bahwa harga akan stabil pada akhir tahun.",
+  "colloc": [
+   "reckon that",
+   "widely reckoned",
+   "reckon it likely"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "reclaim",
+  "pos": "verb",
+  "def": "to recover useful material from waste, or to make damaged land suitable for use again.",
+  "defId": "memperoleh kembali bahan berguna dari limbah, atau menjadikan lahan yang rusak layak digunakan lagi.",
+  "ex": "Engineers plan to reclaim the derelict industrial site and turn it into parkland.",
+  "exId": "Para insinyur berencana merehabilitasi lahan industri terbengkalai itu dan mengubahnya menjadi taman.",
+  "colloc": [
+   "reclaim land",
+   "reclaim materials",
+   "reclaimed water"
+  ],
+  "theme": "environment"
+ },
+ {
+  "w": "recollection",
+  "pos": "noun",
+  "def": "the act or ability of remembering something; a memory",
+  "defId": "ingatan; tindakan atau kemampuan mengingat sesuatu; kenangan",
+  "ex": "My recollection of that evening is rather hazy.",
+  "exId": "Ingatan saya tentang malam itu agak samar.",
+  "colloc": [
+   "a vague recollection",
+   "to the best of my recollection",
+   "clear recollection"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "reconcile",
@@ -35044,6 +51036,19 @@ export const VOCAB = [
   "theme": "relationships"
  },
  {
+  "w": "reconfigure",
+  "pos": "verb",
+  "def": "to arrange the parts of something in a different way",
+  "defId": "menata ulang; mengonfigurasi ulang",
+  "ex": "The company had to reconfigure its supply chain during the crisis.",
+  "exId": "Perusahaan harus menata ulang rantai pasokannya selama krisis.",
+  "colloc": [
+   "reconfigure the system",
+   "reconfigure the layout"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "reconnaissance",
   "pos": "noun",
   "def": "military observation of an area to gather information about the enemy",
@@ -35056,6 +51061,45 @@ export const VOCAB = [
    "carry out reconnaissance"
   ],
   "theme": "conflict"
+ },
+ {
+  "w": "reconsider",
+  "pos": "verb",
+  "def": "to think about a decision or opinion again, especially in order to change it",
+  "defId": "mempertimbangkan kembali",
+  "ex": "The committee agreed to reconsider the proposal after hearing the new evidence.",
+  "exId": "Komite setuju untuk mempertimbangkan kembali proposal itu setelah mendengar bukti baru.",
+  "colloc": [
+   "reconsider a decision",
+   "reconsider your position"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "reconstruct",
+  "pos": "verb",
+  "def": "to build or form something again, or to piece together how something happened",
+  "defId": "membangun kembali; menyusun ulang",
+  "ex": "Historians used old letters to reconstruct the events of that period.",
+  "exId": "Sejarawan menggunakan surat-surat lama untuk menyusun ulang peristiwa masa itu.",
+  "colloc": [
+   "reconstruct the sequence",
+   "reconstruct a building"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "reconvene",
+  "pos": "verb",
+  "def": "to come together again for a meeting after a break",
+  "defId": "berkumpul kembali; bersidang lagi",
+  "ex": "The delegates agreed to reconvene the following morning to finalise the deal.",
+  "exId": "Para delegasi setuju untuk berkumpul kembali keesokan paginya guna menuntaskan kesepakatan.",
+  "colloc": [
+   "reconvene the meeting",
+   "reconvene talks"
+  ],
+  "theme": "academic"
  },
  {
   "w": "record-breaking",
@@ -35082,6 +51126,20 @@ export const VOCAB = [
    "recount events"
   ],
   "theme": "language"
+ },
+ {
+  "w": "recover",
+  "pos": "verb",
+  "def": "to return to normal health after an illness or injury",
+  "defId": "pulih kembali ke kondisi sehat setelah sakit atau cedera",
+  "ex": "It took him several weeks to fully recover from the operation.",
+  "exId": "Ia butuh beberapa minggu untuk pulih sepenuhnya dari operasi.",
+  "colloc": [
+   "recover from illness",
+   "fully recover",
+   "recover quickly"
+  ],
+  "theme": "health"
  },
  {
   "w": "recovery",
@@ -35126,6 +51184,20 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "rectangular",
+  "pos": "adjective",
+  "def": "shaped like a rectangle, with four right angles and opposite sides equal",
+  "defId": "berbentuk persegi panjang",
+  "ex": "The table was a simple rectangular design made of oak.",
+  "exId": "Meja itu berdesain persegi panjang sederhana yang terbuat dari kayu ek.",
+  "colloc": [
+   "rectangular shape",
+   "rectangular frame",
+   "long rectangular"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "recuperate",
   "pos": "verb",
   "def": "to recover from illness, injury or exhaustion",
@@ -35149,6 +51221,19 @@ export const VOCAB = [
    "recurrent problem",
    "recurrent theme",
    "recurrent issue"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "recurring",
+  "pos": "adjective",
+  "def": "happening again and again, often repeatedly",
+  "defId": "yang berulang; yang terjadi berulang kali",
+  "ex": "Traffic congestion is a recurring problem in the city centre.",
+  "exId": "Kemacetan lalu lintas adalah masalah yang berulang di pusat kota.",
+  "colloc": [
+   "recurring problem",
+   "recurring theme"
   ],
   "theme": "academic"
  },
@@ -35207,6 +51292,33 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "redefine",
+  "pos": "verb",
+  "def": "to change the meaning or nature of something completely",
+  "defId": "mendefinisikan ulang",
+  "ex": "The internet has redefined the way people communicate and work.",
+  "exId": "Internet telah mendefinisikan ulang cara orang berkomunikasi dan bekerja.",
+  "colloc": [
+   "redefine the concept",
+   "redefine boundaries"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "redeploy",
+  "pos": "verb",
+  "def": "To move employees or resources to a different job, task, or location.",
+  "defId": "menempatkan ulang; memindahkan karyawan atau sumber daya ke peran, tugas, atau lokasi lain",
+  "ex": "Instead of making cuts, the company chose to redeploy staff to busier departments.",
+  "exId": "Alih-alih melakukan pemangkasan, perusahaan memilih menempatkan ulang karyawan ke departemen yang lebih sibuk.",
+  "colloc": [
+   "redeploy staff",
+   "redeploy resources",
+   "redeploy to another role"
+  ],
+  "theme": "work"
+ },
+ {
   "w": "redevelopment",
   "pos": "noun",
   "def": "the act of building new structures or making major changes to an area after clearing the old ones",
@@ -35235,6 +51347,32 @@ export const VOCAB = [
   "theme": "law"
  },
  {
+  "w": "reductionism",
+  "pos": "noun",
+  "def": "the practice of explaining something complex by reducing it to simpler parts",
+  "defId": "reduksionisme; penyederhanaan berlebihan",
+  "ex": "Critics argue that blaming poverty on laziness is crude reductionism.",
+  "exId": "Para pengkritik berpendapat bahwa menyalahkan kemiskinan pada kemalasan adalah reduksionisme yang dangkal.",
+  "colloc": [
+   "crude reductionism",
+   "biological reductionism"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "reductive",
+  "pos": "adjective",
+  "def": "describing something complex in a way that is too simple",
+  "defId": "terlalu menyederhanakan; reduktif",
+  "ex": "It is reductive to explain human behaviour by genetics alone.",
+  "exId": "Terlalu reduktif menjelaskan perilaku manusia hanya dengan genetika.",
+  "colloc": [
+   "a reductive approach",
+   "reductive thinking"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "redundancy",
   "pos": "noun",
   "def": "a situation in which someone loses their job because they are no longer needed",
@@ -35249,6 +51387,19 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "redundant",
+  "pos": "adjective",
+  "def": "not needed because it repeats something already present",
+  "defId": "berlebihan; mubazir",
+  "ex": "The second paragraph is redundant and simply repeats the introduction.",
+  "exId": "Paragraf kedua itu mubazir dan hanya mengulangi bagian pendahuluan.",
+  "colloc": [
+   "redundant information",
+   "largely redundant"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "reef",
   "pos": "noun",
   "def": "a ridge of rock, sand or coral near the surface of the sea",
@@ -35260,6 +51411,20 @@ export const VOCAB = [
    "offshore reef"
   ],
   "theme": "nature"
+ },
+ {
+  "w": "reek",
+  "pos": "verb",
+  "def": "to smell very strongly and unpleasantly",
+  "defId": "berbau sangat kuat dan tidak sedap",
+  "ex": "His clothes reek of stale cigarette smoke.",
+  "exId": "Pakaiannya berbau menyengat asap rokok basi.",
+  "colloc": [
+   "reek of",
+   "reek of smoke",
+   "absolutely reek"
+  ],
+  "theme": "senses"
  },
  {
   "w": "referee",
@@ -35360,6 +51525,33 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "reformulate",
+  "pos": "verb",
+  "def": "to express or design something again in a different way",
+  "defId": "merumuskan ulang",
+  "ex": "The researchers had to reformulate their hypothesis after the experiment failed.",
+  "exId": "Para peneliti harus merumuskan ulang hipotesis mereka setelah eksperimen gagal.",
+  "colloc": [
+   "reformulate a policy",
+   "reformulate the argument"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "refraction",
+  "pos": "n",
+  "def": "the bending of light or sound as it passes from one medium into another",
+  "defId": "pembelokan cahaya atau suara saat melewati satu medium ke medium lain",
+  "ex": "The refraction of light through the prism produces a rainbow of colours.",
+  "exId": "Pembiasan cahaya melalui prisma menghasilkan pelangi warna.",
+  "colloc": [
+   "refraction of light",
+   "angle of refraction",
+   "index of refraction"
+  ],
+  "theme": "science"
+ },
+ {
   "w": "refugee",
   "pos": "noun",
   "def": "a person forced to leave their country because of war, persecution or disaster",
@@ -35415,6 +51607,32 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "regardless",
+  "pos": "adverb",
+  "def": "without being affected by something; in spite of everything",
+  "defId": "terlepas dari itu",
+  "ex": "The project will proceed regardless of the criticism it has attracted.",
+  "exId": "Proyek itu akan berjalan terlepas dari kritik yang diterimanya.",
+  "colloc": [
+   "regardless of",
+   "regardless, ..."
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "regenerate",
+  "pos": "v",
+  "def": "To improve a run-down urban area by rebuilding and bringing new activity to it.",
+  "defId": "Memperbaiki kawasan kota yang terpuruk dengan membangun kembali dan menghadirkan aktivitas baru.",
+  "ex": "Millions were invested to regenerate the derelict warehouses by the canal.",
+  "exId": "Jutaan diinvestasikan untuk meremajakan gudang-gudang terbengkalai di tepi kanal.",
+  "colloc": [
+   "regenerate a district",
+   "regenerate the docklands"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "regeneration",
   "pos": "noun",
   "def": "the process of making a poor or run-down urban area develop and improve again",
@@ -35454,6 +51672,20 @@ export const VOCAB = [
    "shift register"
   ],
   "theme": "language"
+ },
+ {
+  "w": "regression",
+  "pos": "n",
+  "def": "a statistical method for estimating the relationship between variables",
+  "defId": "metode statistik untuk memperkirakan hubungan antarvariabel",
+  "ex": "A regression analysis revealed a link between exercise and mood.",
+  "exId": "Analisis regresi mengungkap kaitan antara olahraga dan suasana hati.",
+  "colloc": [
+   "regression analysis",
+   "linear regression",
+   "run a regression"
+  ],
+  "theme": "science"
  },
  {
   "w": "regulate",
@@ -35581,6 +51813,32 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "reinstate",
+  "pos": "verb",
+  "def": "to bring back a rule, practice, or person to a former position or state",
+  "defId": "memberlakukan kembali; mengangkat kembali",
+  "ex": "The university decided to reinstate the entrance exam after several years.",
+  "exId": "Universitas memutuskan untuk memberlakukan kembali ujian masuk setelah beberapa tahun.",
+  "colloc": [
+   "reinstate a policy",
+   "reinstate an employee"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "reinvigorate",
+  "pos": "verb",
+  "def": "to give new energy or strength to something",
+  "defId": "menghidupkan kembali; menyegarkan kembali",
+  "ex": "The new investment aims to reinvigorate the struggling local economy.",
+  "exId": "Investasi baru itu bertujuan menghidupkan kembali perekonomian lokal yang lesu.",
+  "colloc": [
+   "reinvigorate the economy",
+   "reinvigorate interest"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "reiterate",
   "pos": "verb",
   "def": "to say something again, usually in order to emphasise it",
@@ -35590,6 +51848,33 @@ export const VOCAB = [
   "colloc": [
    "reiterate the point",
    "reiterate that"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "reject",
+  "pos": "verb",
+  "def": "to refuse to accept, believe or agree with something",
+  "defId": "menolak untuk menerima, mempercayai, atau menyetujui sesuatu",
+  "ex": "I firmly reject the argument that money is the key to happiness.",
+  "exId": "Saya dengan tegas menolak argumen bahwa uang adalah kunci kebahagiaan.",
+  "colloc": [
+   "reject an argument",
+   "firmly reject",
+   "reject outright"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "rejuvenate",
+  "pos": "verb",
+  "def": "to make something feel or look young, fresh, or lively again",
+  "defId": "meremajakan; menyegarkan kembali",
+  "ex": "The redevelopment project helped rejuvenate the run-down city centre.",
+  "exId": "Proyek pembangunan kembali itu membantu meremajakan pusat kota yang kumuh.",
+  "colloc": [
+   "rejuvenate a district",
+   "rejuvenate the brand"
   ],
   "theme": "academic"
  },
@@ -35618,6 +51903,20 @@ export const VOCAB = [
    "risk of relapse"
   ],
   "theme": "health"
+ },
+ {
+  "w": "relate",
+  "pos": "verb",
+  "def": "to tell or recount a story, event, or piece of information to someone",
+  "defId": "menceritakan atau mengisahkan suatu cerita, peristiwa, atau informasi kepada seseorang",
+  "ex": "He calmly related the whole incident to the police without leaving out a single detail.",
+  "exId": "Dia dengan tenang menceritakan seluruh kejadian itu kepada polisi tanpa melewatkan satu detail pun.",
+  "colloc": [
+   "relate a story",
+   "relate an anecdote",
+   "relate the events"
+  ],
+  "theme": "language"
  },
  {
   "w": "relative",
@@ -35672,6 +51971,19 @@ export const VOCAB = [
    "relegation zone"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "relevant",
+  "pos": "adjective",
+  "def": "closely connected with the subject being discussed",
+  "defId": "relevan",
+  "ex": "Only the most relevant data should be included in the summary.",
+  "exId": "Hanya data yang paling relevan yang perlu dimasukkan dalam ringkasan.",
+  "colloc": [
+   "directly relevant",
+   "relevant to the discussion"
+  ],
+  "theme": "academic"
  },
  {
   "w": "reliable",
@@ -35863,6 +52175,20 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "remit",
+  "pos": "noun",
+  "def": "The area of activity or responsibility officially given to a person or organisation.",
+  "defId": "lingkup wewenang; bidang tugas atau tanggung jawab yang secara resmi diberikan kepada seseorang atau lembaga",
+  "ex": "Handling customer complaints falls outside the marketing team's remit.",
+  "exId": "Menangani keluhan pelanggan berada di luar lingkup wewenang tim pemasaran.",
+  "colloc": [
+   "within one's remit",
+   "outside the remit",
+   "a broad remit"
+  ],
+  "theme": "work"
+ },
+ {
   "w": "remittance",
   "pos": "noun",
   "def": "money sent home by someone working in another country",
@@ -36029,6 +52355,33 @@ export const VOCAB = [
   "theme": "uk_home"
  },
  {
+  "w": "reorient",
+  "pos": "verb",
+  "def": "to change the focus or direction of something",
+  "defId": "mengarahkan ulang; mengubah orientasi",
+  "ex": "The firm decided to reorient its strategy towards younger consumers.",
+  "exId": "Perusahaan memutuskan untuk mengarahkan ulang strateginya kepada konsumen yang lebih muda.",
+  "colloc": [
+   "reorient the focus",
+   "reorient priorities"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "repatriate",
+  "pos": "verb",
+  "def": "to send someone or something back to their own country",
+  "defId": "memulangkan seseorang atau sesuatu ke negara asalnya",
+  "ex": "After the factory closed, the firm chose to repatriate its profits rather than reinvest locally.",
+  "exId": "Setelah pabrik tutup, perusahaan memilih memulangkan labanya ketimbang menanamkannya kembali secara lokal.",
+  "colloc": [
+   "repatriate profits",
+   "repatriate refugees",
+   "repatriate funds"
+  ],
+  "theme": "globalisation"
+ },
+ {
   "w": "repayment",
   "pos": "noun",
   "def": "the act of paying back money you have borrowed, or an amount paid back",
@@ -36099,6 +52452,20 @@ export const VOCAB = [
   "theme": "music"
  },
  {
+  "w": "rephrase",
+  "pos": "verb",
+  "def": "to say or write something again using different words to make it clearer",
+  "defId": "mengatakan atau menulis sesuatu kembali dengan kata-kata berbeda agar lebih jelas",
+  "ex": "When the listener looked confused, she rephrased the question in simpler terms.",
+  "exId": "Ketika pendengar tampak bingung, dia mengulang pertanyaan itu dengan kata-kata yang lebih sederhana.",
+  "colloc": [
+   "rephrase the question",
+   "let me rephrase",
+   "rephrase it clearly"
+  ],
+  "theme": "language"
+ },
+ {
   "w": "replacement bus service",
   "pos": "noun",
   "def": "Buses that run instead of trains when a rail line is closed, often for engineering work.",
@@ -36111,6 +52478,20 @@ export const VOCAB = [
    "run a replacement bus service"
   ],
   "theme": "uk_transport"
+ },
+ {
+  "w": "replenish",
+  "pos": "verb",
+  "def": "to fill up or restore a stock or supply to its former level.",
+  "defId": "mengisi kembali atau memulihkan persediaan ke tingkat semula.",
+  "ex": "It takes decades for a forest to replenish the nutrients lost after logging.",
+  "exId": "Butuh puluhan tahun bagi hutan untuk mengisi kembali nutrisi yang hilang setelah penebangan.",
+  "colloc": [
+   "replenish stocks",
+   "replenish supplies",
+   "naturally replenish"
+  ],
+  "theme": "environment"
  },
  {
   "w": "replica",
@@ -36141,6 +52522,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "reportedly",
+  "pos": "adverb",
+  "def": "according to what has been reported, though not confirmed",
+  "defId": "dilaporkan; kabarnya",
+  "ex": "The reform has reportedly cut hospital waiting times by half.",
+  "exId": "Reformasi itu dilaporkan telah memangkas waktu tunggu rumah sakit hingga setengahnya.",
+  "colloc": [
+   "reportedly rejected",
+   "reportedly planning",
+   "reportedly agreed"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "reporter",
   "pos": "noun",
   "def": "a journalist who gathers information and presents news stories for a newspaper, TV or radio",
@@ -36167,6 +52562,20 @@ export const VOCAB = [
   "theme": "internet"
  },
  {
+  "w": "repot",
+  "pos": "verb",
+  "def": "to move a plant into a larger pot so that it has more room to grow",
+  "defId": "mengganti ke pot lebih besar",
+  "ex": "The houseplant had outgrown its container, so she decided to repot it.",
+  "exId": "Tanaman hias itu sudah terlalu besar untuk potnya, jadi dia memutuskan menggantinya ke pot lebih besar.",
+  "colloc": [
+   "repot a plant",
+   "repot in spring",
+   "need repotting"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "repression",
   "pos": "noun",
   "def": "the unconscious blocking of painful thoughts or memories from awareness",
@@ -36180,6 +52589,19 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "reprieve",
+  "pos": "noun",
+  "def": "an official order stopping or delaying a punishment, especially an execution",
+  "defId": "penangguhan hukuman; pengampunan sementara",
+  "ex": "The prisoner was granted a last-minute reprieve by the governor.",
+  "exId": "Narapidana itu diberi penangguhan hukuman pada saat-saat terakhir oleh gubernur.",
+  "colloc": [
+   "grant a reprieve",
+   "a last-minute reprieve"
+  ],
+  "theme": "law"
+ },
+ {
   "w": "reprimand",
   "pos": "verb",
   "def": "to rebuke or scold someone formally for doing something wrong",
@@ -36191,6 +52613,34 @@ export const VOCAB = [
    "a stern reprimand"
   ],
   "theme": "family"
+ },
+ {
+  "w": "reprise",
+  "pos": "noun",
+  "def": "a repeated section of music or a return to an earlier theme in a performance",
+  "defId": "bagian musik yang diulang atau kembalinya tema sebelumnya dalam sebuah pertunjukan",
+  "ex": "The show ended with a joyful reprise of its most famous song.",
+  "exId": "Pertunjukan itu berakhir dengan pengulangan gembira lagu paling terkenalnya.",
+  "colloc": [
+   "a reprise of the theme",
+   "joyful reprise",
+   "reprise the melody"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "reproduce",
+  "pos": "v",
+  "def": "to produce the same result again when an experiment is repeated",
+  "defId": "menghasilkan kembali hasil yang sama ketika eksperimen diulang",
+  "ex": "Other teams failed to reproduce the study's surprising findings.",
+  "exId": "Tim lain gagal mereproduksi temuan mengejutkan dari studi itu.",
+  "colloc": [
+   "reproduce results",
+   "reproduce an experiment",
+   "reproduce findings"
+  ],
+  "theme": "science"
  },
  {
   "w": "reproducibility",
@@ -36229,6 +52679,60 @@ export const VOCAB = [
   "colloc": [
    "repudiate a claim",
    "firmly repudiate"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "repurpose",
+  "pos": "verb",
+  "def": "to adapt or reuse something for a different purpose than the one originally intended.",
+  "defId": "mengubah atau menggunakan kembali sesuatu untuk tujuan yang berbeda dari semula.",
+  "ex": "Old shipping containers can be repurposed into affordable, low-waste housing.",
+  "exId": "Kontainer bekas dapat diubah fungsinya menjadi hunian murah yang minim limbah.",
+  "colloc": [
+   "repurpose materials",
+   "repurpose waste",
+   "creatively repurpose"
+  ],
+  "theme": "environment"
+ },
+ {
+  "w": "rescind",
+  "pos": "verb",
+  "def": "to officially cancel a law, decision, or agreement",
+  "defId": "mencabut atau membatalkan hukum, keputusan, atau perjanjian secara resmi",
+  "ex": "The board voted to rescind the controversial policy.",
+  "exId": "Dewan memberikan suara untuk mencabut kebijakan yang kontroversial itu.",
+  "colloc": [
+   "rescind a decision",
+   "rescind a contract"
+  ],
+  "theme": "law"
+ },
+ {
+  "w": "resemblance",
+  "pos": "noun",
+  "def": "the fact of looking or being similar to someone",
+  "defId": "kemiripan",
+  "ex": "There is a strong resemblance between the twin sisters.",
+  "exId": "Ada kemiripan yang kuat di antara kedua saudari kembar itu.",
+  "colloc": [
+   "strong resemblance",
+   "bear a resemblance",
+   "striking resemblance"
+  ],
+  "theme": "describe_people"
+ },
+ {
+  "w": "resemble",
+  "pos": "verb",
+  "def": "to be similar to or look like someone or something else",
+  "defId": "menyerupai atau mirip dengan seseorang atau sesuatu",
+  "ex": "The two languages resemble each other in grammar but differ in vocabulary.",
+  "exId": "Kedua bahasa itu saling menyerupai dalam tata bahasa tetapi berbeda dalam kosakata.",
+  "colloc": [
+   "closely resemble",
+   "resemble each other"
   ],
   "theme": "academic"
  },
@@ -36301,6 +52805,34 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "reshoring",
+  "pos": "noun",
+  "def": "The practice of bringing manufacturing or services back to a company's home country.",
+  "defId": "Reshoring; praktik memindahkan kembali produksi atau jasa ke negara asal perusahaan.",
+  "ex": "Rising shipping costs have encouraged the reshoring of some factories.",
+  "exId": "Naiknya biaya pengiriman mendorong reshoring sebagian pabrik.",
+  "colloc": [
+   "the reshoring of jobs",
+   "encourage reshoring",
+   "a reshoring trend"
+  ],
+  "theme": "economy"
+ },
+ {
+  "w": "reshuffle",
+  "pos": "noun",
+  "def": "a reorganisation in which people or roles within a company are moved around",
+  "defId": "penataan ulang di mana orang atau jabatan dalam perusahaan dipindah-pindahkan",
+  "ex": "A boardroom reshuffle brought in a new chief executive to steer the turnaround.",
+  "exId": "Perombakan jajaran direksi mendatangkan direktur utama baru untuk memimpin pemulihan.",
+  "colloc": [
+   "management reshuffle",
+   "boardroom reshuffle",
+   "major reshuffle"
+  ],
+  "theme": "business"
+ },
+ {
   "w": "residential",
   "pos": "adjective",
   "def": "consisting mainly of homes rather than shops, offices or factories",
@@ -36312,6 +52844,20 @@ export const VOCAB = [
    "residential neighbourhood"
   ],
   "theme": "urban"
+ },
+ {
+  "w": "residue",
+  "pos": "noun",
+  "def": "a small amount of a substance that remains after a process is complete.",
+  "defId": "sejumlah kecil zat yang tersisa setelah suatu proses selesai.",
+  "ex": "Pesticide residue was detected on the imported fruit.",
+  "exId": "Residu pestisida terdeteksi pada buah impor itu.",
+  "colloc": [
+   "chemical residue",
+   "pesticide residue",
+   "toxic residue"
+  ],
+  "theme": "environment"
  },
  {
   "w": "resign",
@@ -36326,6 +52872,19 @@ export const VOCAB = [
    "resign your post"
   ],
   "theme": "work"
+ },
+ {
+  "w": "resignation",
+  "pos": "noun",
+  "def": "the act of formally giving up a position or office",
+  "defId": "pengunduran diri; tindakan resmi melepaskan suatu jabatan",
+  "ex": "Mounting public pressure eventually forced the minister's resignation.",
+  "exId": "Tekanan publik yang terus meningkat akhirnya memaksa pengunduran diri menteri itu.",
+  "colloc": [
+   "tender your resignation",
+   "call for someone's resignation"
+  ],
+  "theme": "politics"
  },
  {
   "w": "resilience",
@@ -36355,6 +52914,75 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "resit",
+  "pos": "verb",
+  "def": "to take an examination again after failing it",
+  "defId": "mengikuti ujian ulang setelah gagal",
+  "ex": "She has to resit the chemistry exam in August after narrowly failing.",
+  "exId": "Dia harus mengulang ujian kimia pada bulan Agustus setelah gagal tipis.",
+  "colloc": [
+   "resit an exam",
+   "resit the paper"
+  ],
+  "theme": "education"
+ },
+ {
+  "w": "reskill",
+  "pos": "verb",
+  "def": "To learn new skills in order to do a different job or adapt to change.",
+  "defId": "melatih ulang keterampilan; mempelajari keahlian baru agar dapat melakukan pekerjaan yang berbeda",
+  "ex": "Many factory workers had to reskill as their jobs became automated.",
+  "exId": "Banyak pekerja pabrik harus melatih ulang keterampilan mereka karena pekerjaan mereka mulai diotomasi.",
+  "colloc": [
+   "reskill workers",
+   "reskill the workforce",
+   "retrain and reskill"
+  ],
+  "theme": "work"
+ },
+ {
+  "w": "resolution",
+  "pos": "noun",
+  "def": "the number of pixels or level of detail that a screen or image can display",
+  "defId": "jumlah piksel atau tingkat detail yang dapat ditampilkan oleh layar atau gambar",
+  "ex": "The new monitor has such a high resolution that text looks razor-sharp.",
+  "exId": "Monitor baru itu memiliki resolusi yang begitu tinggi sehingga teks terlihat sangat tajam.",
+  "colloc": [
+   "high resolution",
+   "screen resolution",
+   "native resolution"
+  ],
+  "theme": "technology"
+ },
+ {
+  "w": "resonance",
+  "pos": "n",
+  "def": "the increase in vibration when a force matches an object's natural frequency",
+  "defId": "peningkatan getaran ketika suatu gaya sesuai dengan frekuensi alami benda",
+  "ex": "The bridge began to sway violently because of resonance with the wind.",
+  "exId": "Jembatan itu mulai berayun hebat karena resonansi dengan angin.",
+  "colloc": [
+   "acoustic resonance",
+   "natural resonance",
+   "resonance frequency"
+  ],
+  "theme": "science"
+ },
+ {
+  "w": "resonant",
+  "pos": "adjective",
+  "def": "deep, clear and continuing to sound or echo",
+  "defId": "bergaung; dalam, jernih dan terus bergema",
+  "ex": "The singer had a deep, resonant voice that filled the hall.",
+  "exId": "Penyanyi itu memiliki suara yang dalam dan bergaung, memenuhi aula.",
+  "colloc": [
+   "resonant voice",
+   "deep and resonant",
+   "resonant sound"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "resort",
   "pos": "noun",
   "def": "a place where people go on holiday to relax, often with hotels and facilities",
@@ -36380,6 +53008,33 @@ export const VOCAB = [
    "remarkably resourceful"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "respectively",
+  "pos": "adverb",
+  "def": "in the order already mentioned; each separately in that order",
+  "defId": "masing-masing",
+  "ex": "Sales rose by five and ten percent in the first and second years respectively.",
+  "exId": "Penjualan naik lima dan sepuluh persen masing-masing pada tahun pertama dan kedua.",
+  "colloc": [
+   "respectively",
+   "A and B respectively"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "respiration",
+  "pos": "n",
+  "def": "the process by which living things take in oxygen and release energy",
+  "defId": "proses makhluk hidup mengambil oksigen dan melepaskan energi",
+  "ex": "During respiration, cells convert glucose into usable energy.",
+  "exId": "Selama respirasi, sel mengubah glukosa menjadi energi yang dapat digunakan.",
+  "colloc": [
+   "cellular respiration",
+   "aerobic respiration",
+   "rate of respiration"
+  ],
+  "theme": "science"
  },
  {
   "w": "respiratory",
@@ -36451,6 +53106,20 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "restore",
+  "pos": "verb",
+  "def": "to return an ecosystem or environment to its original, healthy condition.",
+  "defId": "mengembalikan ekosistem atau lingkungan ke kondisi semula yang sehat.",
+  "ex": "Volunteers worked for years to restore the polluted marsh to its natural state.",
+  "exId": "Para relawan bekerja bertahun-tahun untuk memulihkan rawa yang tercemar ke keadaan alaminya.",
+  "colloc": [
+   "restore habitats",
+   "restore an ecosystem",
+   "fully restore"
+  ],
+  "theme": "environment"
+ },
+ {
   "w": "restraining order",
   "pos": "noun",
   "def": "a court order that forbids someone from contacting or approaching another person",
@@ -36477,6 +53146,20 @@ export const VOCAB = [
    "fully restructure"
   ],
   "theme": "business"
+ },
+ {
+  "w": "result in",
+  "pos": "phrasal verb",
+  "def": "to cause a particular situation to happen as a consequence",
+  "defId": "berujung pada; mengakibatkan",
+  "ex": "The heavy rainfall resulted in severe flooding across the region.",
+  "exId": "Curah hujan yang lebat berujung pada banjir parah di seluruh wilayah.",
+  "colloc": [
+   "result in damage",
+   "result in failure",
+   "result in a loss"
+  ],
+  "theme": "academic"
  },
  {
   "w": "resurgence",
@@ -36534,6 +53217,19 @@ export const VOCAB = [
   "theme": "shopping"
  },
  {
+  "w": "retake",
+  "pos": "verb",
+  "def": "to take a test or examination again",
+  "defId": "mengambil kembali suatu tes atau ujian",
+  "ex": "Students who fail the module may retake it the following term.",
+  "exId": "Mahasiswa yang gagal dalam modul itu boleh mengulanginya pada semester berikutnya.",
+  "colloc": [
+   "retake a test",
+   "retake the year"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "retention",
   "pos": "noun",
   "def": "the ability of a school to keep students enrolled until they finish, or the ability to remember what is learned",
@@ -36545,6 +53241,20 @@ export const VOCAB = [
    "retention rate"
   ],
   "theme": "education"
+ },
+ {
+  "w": "reticent",
+  "pos": "adjective",
+  "def": "unwilling to share thoughts or feelings; reserved in speech",
+  "defId": "enggan membagikan pikiran atau perasaan; tertutup dalam berbicara",
+  "ex": "She was reticent about her plans, giving only vague answers to every question.",
+  "exId": "Dia enggan bicara tentang rencananya, hanya memberi jawaban samar untuk setiap pertanyaan.",
+  "colloc": [
+   "reticent about something",
+   "strangely reticent",
+   "remain reticent"
+  ],
+  "theme": "language"
  },
  {
   "w": "retina",
@@ -36627,6 +53337,19 @@ export const VOCAB = [
    "a career retrospective"
   ],
   "theme": "arts"
+ },
+ {
+  "w": "retrospectively",
+  "pos": "adverb",
+  "def": "with reference to the past; considering something after it has happened",
+  "defId": "secara retrospektif; ketika ditinjau ke belakang; berlaku surut",
+  "ex": "Retrospectively, the decision to expand too quickly proved unwise.",
+  "exId": "Jika ditinjau ke belakang, keputusan untuk berkembang terlalu cepat ternyata tidak bijaksana.",
+  "colloc": [
+   "apply retrospectively",
+   "judge retrospectively"
+  ],
+  "theme": "academic"
  },
  {
   "w": "return",
@@ -36724,6 +53447,20 @@ export const VOCAB = [
   "theme": "religion"
  },
  {
+  "w": "reverie",
+  "pos": "noun",
+  "def": "a state of being pleasantly lost in one's thoughts; a daydream",
+  "defId": "lamunan; keadaan tenggelam dalam pikiran yang menyenangkan",
+  "ex": "The sudden knock jolted him out of his reverie.",
+  "exId": "Ketukan tiba-tiba itu membuyarkan lamunannya.",
+  "colloc": [
+   "lost in reverie",
+   "a pleasant reverie",
+   "break someone's reverie"
+  ],
+  "theme": "psychology"
+ },
+ {
   "w": "reverse",
   "pos": "verb",
   "def": "to change something to its opposite direction or state",
@@ -36762,6 +53499,32 @@ export const VOCAB = [
    "urban revitalisation"
   ],
   "theme": "urban"
+ },
+ {
+  "w": "revitalise",
+  "pos": "v",
+  "def": "To give new energy, activity, or prosperity to a place or area.",
+  "defId": "Memberikan energi, aktivitas, atau kemakmuran baru pada suatu tempat atau kawasan.",
+  "ex": "The new arts centre helped to revitalise a rather neglected part of town.",
+  "exId": "Pusat seni baru itu membantu menghidupkan kembali bagian kota yang agak terbengkalai.",
+  "colloc": [
+   "revitalise the area",
+   "revitalise the economy"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "revoke",
+  "pos": "verb",
+  "def": "to officially cancel a right, permission, or licence",
+  "defId": "mencabut hak, izin, atau lisensi secara resmi",
+  "ex": "The court can revoke a driving licence after repeated offences.",
+  "exId": "Pengadilan dapat mencabut surat izin mengemudi setelah pelanggaran yang berulang.",
+  "colloc": [
+   "revoke a licence",
+   "revoke permission"
+  ],
+  "theme": "law"
  },
  {
   "w": "revolt",
@@ -36829,6 +53592,20 @@ export const VOCAB = [
    "political rhetoric",
    "empty rhetoric",
    "persuasive rhetoric"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "rhetorical",
+  "pos": "adjective",
+  "def": "relating to speech or writing intended to persuade or impress, sometimes without expecting a real answer",
+  "defId": "berkaitan dengan tuturan atau tulisan yang bertujuan membujuk atau mengesankan, kadang tanpa mengharapkan jawaban nyata",
+  "ex": "Skilled speakers often open with a rhetorical question to draw the audience in.",
+  "exId": "Pembicara mahir sering membuka dengan pertanyaan retoris untuk menarik perhatian penonton.",
+  "colloc": [
+   "rhetorical question",
+   "rhetorical device",
+   "rhetorical skill"
   ],
   "theme": "language"
  },
@@ -36984,6 +53761,19 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "rinse",
+  "pos": "verb",
+  "def": "to wash something with clean water to remove soap or dirt",
+  "defId": "membilas",
+  "ex": "Rinse the plates under the tap before putting them in the dishwasher.",
+  "exId": "Bilas piring-piring di bawah keran sebelum memasukkannya ke mesin pencuci piring.",
+  "colloc": [
+   "rinse under the tap",
+   "rinse off"
+  ],
+  "theme": "household"
+ },
+ {
   "w": "ripe",
   "pos": "adjective",
   "def": "fully developed and ready to be eaten or harvested",
@@ -36996,6 +53786,34 @@ export const VOCAB = [
    "ripe tomatoes"
   ],
   "theme": "food"
+ },
+ {
+  "w": "ripen",
+  "pos": "verb",
+  "def": "(of fruit or crops) to become fully grown and ready to eat",
+  "defId": "menjadi matang; masak",
+  "ex": "Leave the tomatoes on the windowsill to ripen in the sun.",
+  "exId": "Biarkan tomat di ambang jendela agar matang di bawah sinar matahari.",
+  "colloc": [
+   "ripen in the sun",
+   "fruit ripens",
+   "ripen fully"
+  ],
+  "theme": "garden"
+ },
+ {
+  "w": "ripple effect",
+  "pos": "noun",
+  "def": "a situation in which one event produces effects that spread and cause further effects",
+  "defId": "efek riak; efek merambat",
+  "ex": "The factory closure had a ripple effect on the whole local economy.",
+  "exId": "Penutupan pabrik itu menimbulkan efek riak pada seluruh perekonomian lokal.",
+  "colloc": [
+   "a ripple effect",
+   "create a ripple effect",
+   "ripple effect across"
+  ],
+  "theme": "academic"
  },
  {
   "w": "ritual",
@@ -37012,6 +53830,19 @@ export const VOCAB = [
   "theme": "religion"
  },
  {
+  "w": "rival",
+  "pos": "verb",
+  "def": "to be as good, impressive, or important as something else",
+  "defId": "sebanding dengan atau menyaingi sesuatu",
+  "ex": "Few cities can rival Venice for sheer architectural beauty.",
+  "exId": "Sedikit kota yang bisa menyaingi Venesia dalam keindahan arsitekturnya.",
+  "colloc": [
+   "rival in quality",
+   "can rival"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "rivalry",
   "pos": "noun",
   "def": "a state of competition between people or teams",
@@ -37026,6 +53857,19 @@ export const VOCAB = [
   "theme": "sport"
  },
  {
+  "w": "rivet",
+  "pos": "noun",
+  "def": "a short metal pin used to fasten two plates of metal permanently together",
+  "defId": "paku keling",
+  "ex": "Each steel plate is fixed to the frame with a row of rivets.",
+  "exId": "Setiap pelat baja dipasang ke rangka dengan sederet paku keling.",
+  "colloc": [
+   "steel rivet",
+   "pop rivet"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "road tax",
   "pos": "noun",
   "def": "An annual tax, officially called vehicle excise duty, that most drivers must pay to use a vehicle on public roads.",
@@ -37038,6 +53882,34 @@ export const VOCAB = [
    "renew your road tax"
   ],
   "theme": "uk_transport"
+ },
+ {
+  "w": "road trip",
+  "pos": "noun",
+  "def": "a long journey made by car, usually for pleasure",
+  "defId": "perjalanan jauh yang dilakukan dengan mobil, biasanya untuk bersenang-senang",
+  "ex": "We planned an epic road trip along the entire west coast.",
+  "exId": "Kami merencanakan perjalanan darat yang luar biasa di sepanjang seluruh pantai barat.",
+  "colloc": [
+   "go on a road trip",
+   "an epic road trip",
+   "a cross-country road trip"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "roadmap",
+  "pos": "noun",
+  "def": "a strategic plan that sets out goals and the steps needed to achieve them over time",
+  "defId": "rencana strategis yang menetapkan tujuan dan langkah untuk mencapainya seiring waktu",
+  "ex": "The board approved a three-year roadmap for expanding into overseas markets.",
+  "exId": "Dewan menyetujui peta jalan tiga tahun untuk berekspansi ke pasar luar negeri.",
+  "colloc": [
+   "strategic roadmap",
+   "product roadmap",
+   "lay out a roadmap"
+  ],
+  "theme": "business"
  },
  {
   "w": "roadworks",
@@ -37067,6 +53939,20 @@ export const VOCAB = [
   "theme": "wildlife"
  },
  {
+  "w": "roar",
+  "pos": "verb",
+  "def": "to make a loud, deep, prolonged sound",
+  "defId": "mengaum; menderu",
+  "ex": "The engines roared as the aircraft sped down the runway.",
+  "exId": "Mesin-mesin itu menderu saat pesawat melaju di landasan pacu.",
+  "colloc": [
+   "a lion roars",
+   "roar with laughter",
+   "the crowd roared"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "robbery",
   "pos": "noun",
   "def": "the crime of stealing money or goods, often using force or threats",
@@ -37094,6 +53980,19 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "robust",
+  "pos": "adjective",
+  "def": "strong and unlikely to fail even when tested or challenged",
+  "defId": "kuat dan andal",
+  "ex": "The conclusions rest on a robust body of experimental data.",
+  "exId": "Kesimpulan itu bertumpu pada kumpulan data eksperimen yang kuat.",
+  "colloc": [
+   "robust evidence",
+   "a robust methodology"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "role model",
   "pos": "noun",
   "def": "a person looked to by others as an example to be imitated",
@@ -37105,6 +54004,34 @@ export const VOCAB = [
    "act as a role model"
   ],
   "theme": "family"
+ },
+ {
+  "w": "rollback",
+  "pos": "noun",
+  "def": "the act of returning software or data to a previous version after a problem occurs",
+  "defId": "tindakan mengembalikan perangkat lunak atau data ke versi sebelumnya setelah terjadi masalah",
+  "ex": "When the update caused crashes, the team performed a rollback to the older version.",
+  "exId": "Ketika pembaruan menyebabkan crash, tim melakukan rollback ke versi lama.",
+  "colloc": [
+   "perform a rollback",
+   "rollback plan",
+   "database rollback"
+  ],
+  "theme": "technology"
+ },
+ {
+  "w": "rollout",
+  "pos": "noun",
+  "def": "the gradual official release of a new product, feature or service to users",
+  "defId": "peluncuran resmi secara bertahap dari produk, fitur, atau layanan baru kepada pengguna",
+  "ex": "The rollout of the new feature will reach all users by the end of the month.",
+  "exId": "Peluncuran fitur baru itu akan menjangkau semua pengguna pada akhir bulan.",
+  "colloc": [
+   "gradual rollout",
+   "phased rollout",
+   "nationwide rollout"
+  ],
+  "theme": "technology"
  },
  {
   "w": "rom-com",
@@ -37135,6 +54062,33 @@ export const VOCAB = [
   "theme": "relationships"
  },
  {
+  "w": "rooftop",
+  "pos": "n",
+  "def": "The outer top surface of a building, sometimes used as a space in its own right.",
+  "defId": "Permukaan atas luar sebuah bangunan, kadang dimanfaatkan sebagai ruang tersendiri.",
+  "ex": "From the rooftop bar you can see the whole skyline stretching to the hills.",
+  "exId": "Dari bar di atap itu kamu bisa melihat seluruh cakrawala kota membentang hingga ke perbukitan.",
+  "colloc": [
+   "rooftop garden",
+   "rooftop bar"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "rota",
+  "pos": "noun",
+  "def": "A list showing when and in what order people take turns to do a job or duty.",
+  "defId": "jadwal giliran; daftar yang menunjukkan kapan dan siapa yang bertugas secara bergiliran",
+  "ex": "The nurses' rota is drawn up a month in advance so everyone can plan ahead.",
+  "exId": "Jadwal giliran para perawat disusun sebulan sebelumnya agar semua orang bisa merencanakan lebih awal.",
+  "colloc": [
+   "draw up a rota",
+   "on the rota",
+   "a cleaning rota"
+  ],
+  "theme": "work"
+ },
+ {
   "w": "rotation",
   "pos": "noun",
   "def": "the turning of a body around its own axis",
@@ -37161,6 +54115,33 @@ export const VOCAB = [
    "rote memorisation"
   ],
   "theme": "education"
+ },
+ {
+  "w": "rough",
+  "pos": "adjective",
+  "def": "having an uneven or coarse surface; not smooth",
+  "defId": "kasar; permukaannya tidak rata",
+  "ex": "The rough bark of the old oak scratched my palm.",
+  "exId": "Kulit kayu ek tua yang kasar itu menggores telapak tanganku.",
+  "colloc": [
+   "rough surface",
+   "rough texture",
+   "rough edges"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "roughly",
+  "pos": "adverb",
+  "def": "in an approximate way; not exactly",
+  "defId": "kira-kira; secara kasar",
+  "ex": "Sales in the two regions were roughly the same throughout the year.",
+  "exId": "Penjualan di kedua wilayah kurang lebih sama sepanjang tahun.",
+  "colloc": [
+   "roughly equal",
+   "roughly double"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "round",
@@ -37245,6 +54226,19 @@ export const VOCAB = [
   "theme": "uk_social"
  },
  {
+  "w": "rubber",
+  "pos": "noun",
+  "def": "an elastic substance made from latex or produced synthetically",
+  "defId": "karet",
+  "ex": "The tool has a rubber grip so it doesn't slip in wet hands.",
+  "exId": "Alat itu punya pegangan karet supaya tidak licin di tangan basah.",
+  "colloc": [
+   "natural rubber",
+   "rubber grip"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "rubric",
   "pos": "noun",
   "def": "a set of criteria or instructions used to mark and evaluate a piece of work",
@@ -37256,6 +54250,47 @@ export const VOCAB = [
    "assessment rubric"
   ],
   "theme": "education"
+ },
+ {
+  "w": "rucksack",
+  "pos": "noun",
+  "def": "a large bag with shoulder straps carried on the back, especially for hiking",
+  "defId": "tas besar bertali bahu yang dibawa di punggung, terutama untuk mendaki",
+  "ex": "She stuffed a week's worth of clothes into her rucksack.",
+  "exId": "Dia menjejalkan pakaian untuk seminggu ke dalam ranselnya.",
+  "colloc": [
+   "a bulging rucksack",
+   "shoulder a rucksack",
+   "hoist a rucksack"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "ruddy",
+  "pos": "adjective",
+  "def": "having a healthy red or pink colour in the face",
+  "defId": "kemerahan dan segar (wajah)",
+  "ex": "The farmer had a ruddy face from working outdoors all his life.",
+  "exId": "Petani itu memiliki wajah kemerahan karena bekerja di luar ruangan sepanjang hidupnya.",
+  "colloc": [
+   "ruddy face",
+   "ruddy cheeks",
+   "ruddy complexion"
+  ],
+  "theme": "describe_people"
+ },
+ {
+  "w": "rug",
+  "pos": "noun",
+  "def": "a thick piece of fabric used to cover part of a floor",
+  "defId": "permadani atau karpet kecil",
+  "ex": "A woollen rug lay in front of the fireplace.",
+  "exId": "Sehelai permadani wol tergelar di depan perapian.",
+  "colloc": [
+   "a woollen rug",
+   "a rug on the floor"
+  ],
+  "theme": "household"
  },
  {
   "w": "rugged",
@@ -37297,6 +54332,20 @@ export const VOCAB = [
    "overturn a ruling"
   ],
   "theme": "law"
+ },
+ {
+  "w": "rumble",
+  "pos": "verb",
+  "def": "to make a deep, continuous, rolling sound",
+  "defId": "bergemuruh; menggelegar rendah",
+  "ex": "Thunder rumbled in the distance long before the rain arrived.",
+  "exId": "Guntur bergemuruh di kejauhan jauh sebelum hujan turun.",
+  "colloc": [
+   "thunder rumbles",
+   "a rumbling noise",
+   "stomachs rumble"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "rumination",
@@ -37351,6 +54400,20 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "runtime",
+  "pos": "noun",
+  "def": "the period during which a program is running, or the software environment that supports it",
+  "defId": "periode saat sebuah program berjalan, atau lingkungan perangkat lunak yang mendukungnya",
+  "ex": "The error only appears at runtime, not while the code is being written.",
+  "exId": "Kesalahan itu hanya muncul saat runtime, bukan ketika kode sedang ditulis.",
+  "colloc": [
+   "runtime error",
+   "runtime environment",
+   "at runtime"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "runway",
   "pos": "noun",
   "def": "the long strip of hard ground where aircraft take off and land",
@@ -37362,6 +54425,20 @@ export const VOCAB = [
    "clear the runway"
   ],
   "theme": "transport"
+ },
+ {
+  "w": "rural",
+  "pos": "adjective",
+  "def": "relating to the countryside rather than towns",
+  "defId": "pedesaan",
+  "ex": "Life in this rural community revolves around farming and the changing seasons.",
+  "exId": "Kehidupan di komunitas pedesaan ini berputar di sekitar pertanian dan pergantian musim.",
+  "colloc": [
+   "a rural area",
+   "a rural community",
+   "rural life"
+  ],
+  "theme": "describe_places"
  },
  {
   "w": "rush hour",
@@ -37376,6 +54453,34 @@ export const VOCAB = [
    "rush hour traffic"
   ],
   "theme": "uk_transport"
+ },
+ {
+  "w": "rustic",
+  "pos": "adjective",
+  "def": "simple, plain and typical of the countryside",
+  "defId": "sederhana bergaya pedesaan",
+  "ex": "The farmhouse has a lovely rustic charm, with exposed beams and a stone fireplace.",
+  "exId": "Rumah pertanian itu memiliki pesona pedesaan yang indah, dengan balok kayu terbuka dan perapian batu.",
+  "colloc": [
+   "a rustic cottage",
+   "rustic charm",
+   "a rustic setting"
+  ],
+  "theme": "describe_places"
+ },
+ {
+  "w": "rustle",
+  "pos": "verb",
+  "def": "to make a soft, light sound like dry leaves moving",
+  "defId": "gemerisik; mengeluarkan bunyi halus dan ringan seperti daun kering",
+  "ex": "The dry leaves rustle underfoot as we walk through the forest.",
+  "exId": "Dedaunan kering bergemerisik di bawah kaki saat kami menyusuri hutan.",
+  "colloc": [
+   "leaves rustle",
+   "rustle softly",
+   "rustle of paper"
+  ],
+  "theme": "senses"
  },
  {
   "w": "ruthless",
@@ -37432,6 +54537,34 @@ export const VOCAB = [
   "theme": "religion"
  },
  {
+  "w": "safari",
+  "pos": "noun",
+  "def": "an expedition to observe or hunt wild animals, especially in Africa",
+  "defId": "ekspedisi untuk mengamati atau berburu binatang liar, terutama di Afrika",
+  "ex": "On safari, we watched a pride of lions at dawn.",
+  "exId": "Saat safari, kami mengamati sekawanan singa saat fajar.",
+  "colloc": [
+   "go on safari",
+   "a safari lodge",
+   "a wildlife safari"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "safeguard",
+  "pos": "verb",
+  "def": "to protect something from harm, loss or damage.",
+  "defId": "melindungi sesuatu dari bahaya, kehilangan, atau kerusakan.",
+  "ex": "New regulations aim to safeguard the wetlands from further development.",
+  "exId": "Peraturan baru bertujuan melindungi lahan basah dari pembangunan lebih lanjut.",
+  "colloc": [
+   "safeguard the environment",
+   "safeguard biodiversity",
+   "safeguard resources"
+  ],
+  "theme": "environment"
+ },
+ {
   "w": "safety net",
   "pos": "noun",
   "def": "A system of support, especially provided by the state, that protects people from hardship.",
@@ -37459,6 +54592,19 @@ export const VOCAB = [
   "theme": "uk_money"
  },
  {
+  "w": "salient",
+  "pos": "adjective",
+  "def": "most noticeable or important in a particular situation",
+  "defId": "menonjol; paling penting",
+  "ex": "The summary highlights the salient points of the whole report.",
+  "exId": "Ringkasan itu menyoroti poin-poin penting dari keseluruhan laporan.",
+  "colloc": [
+   "a salient point",
+   "the salient features"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "salinity",
   "pos": "noun",
   "def": "the amount of salt dissolved in water or soil",
@@ -37470,6 +54616,20 @@ export const VOCAB = [
    "increasing salinity"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "sallow",
+  "pos": "adjective",
+  "def": "having a slightly yellow, unhealthy skin colour",
+  "defId": "kekuningan dan tampak tidak sehat (kulit)",
+  "ex": "Months indoors had left his skin looking sallow and dull.",
+  "exId": "Berbulan-bulan di dalam ruangan membuat kulitnya tampak kekuningan dan kusam.",
+  "colloc": [
+   "sallow skin",
+   "sallow complexion",
+   "sallow face"
+  ],
+  "theme": "describe_people"
  },
  {
   "w": "salvation",
@@ -37484,6 +54644,19 @@ export const VOCAB = [
    "path to salvation"
   ],
   "theme": "religion"
+ },
+ {
+  "w": "sample",
+  "pos": "noun",
+  "def": "a small group chosen to represent a much larger population in a study",
+  "defId": "sampel; contoh",
+  "ex": "The conclusions are based on a sample of one thousand adults.",
+  "exId": "Kesimpulan itu didasarkan pada sampel seribu orang dewasa.",
+  "colloc": [
+   "a representative sample",
+   "sample size"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "sanction",
@@ -37514,6 +54687,19 @@ export const VOCAB = [
   "theme": "wildlife"
  },
  {
+  "w": "sandpaper",
+  "pos": "noun",
+  "def": "paper coated with an abrasive grit, used for smoothing surfaces",
+  "defId": "amplas",
+  "ex": "Rub the surface with sandpaper before you paint it.",
+  "exId": "Gosok permukaannya dengan amplas sebelum kamu mengecatnya.",
+  "colloc": [
+   "fine sandpaper",
+   "coarse sandpaper"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "sanitation",
   "pos": "noun",
   "def": "systems for keeping places clean, especially by removing waste and providing clean water",
@@ -37526,6 +54712,20 @@ export const VOCAB = [
    "sanitation system"
   ],
   "theme": "health"
+ },
+ {
+  "w": "sapling",
+  "pos": "noun",
+  "def": "a young tree, especially one with a slender trunk",
+  "defId": "anakan pohon; pohon muda",
+  "ex": "The oak sapling was staked to protect it from strong winds.",
+  "exId": "Anakan pohon ek itu diberi penyangga untuk melindunginya dari angin kencang.",
+  "colloc": [
+   "young sapling",
+   "plant a sapling",
+   "oak sapling"
+  ],
+  "theme": "garden"
  },
  {
   "w": "satellite",
@@ -37582,6 +54782,47 @@ export const VOCAB = [
   "theme": "uk_transport"
  },
  {
+  "w": "saturation",
+  "pos": "n",
+  "def": "the point at which no more of a substance can be dissolved or absorbed",
+  "defId": "titik di mana tidak ada lagi zat yang dapat dilarutkan atau diserap",
+  "ex": "The salt stopped dissolving once the water reached saturation.",
+  "exId": "Garam berhenti larut begitu air mencapai titik jenuh.",
+  "colloc": [
+   "reach saturation",
+   "saturation point",
+   "full saturation"
+  ],
+  "theme": "science"
+ },
+ {
+  "w": "saucepan",
+  "pos": "noun",
+  "def": "a deep cooking pan with a long handle and usually a lid",
+  "defId": "panci bergagang",
+  "ex": "Bring the water to the boil in a large saucepan before adding the pasta.",
+  "exId": "Didihkan air di dalam panci besar sebelum memasukkan pasta.",
+  "colloc": [
+   "a large saucepan",
+   "a saucepan of soup"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "saunter",
+  "pos": "verb",
+  "def": "to walk in a slow, casual, and often confident way",
+  "defId": "berjalan lenggang; melenggang santai",
+  "ex": "He sauntered into the meeting an hour late without a hint of apology.",
+  "exId": "Ia melenggang santai masuk ke rapat terlambat satu jam tanpa sedikit pun rasa bersalah.",
+  "colloc": [
+   "saunter in",
+   "saunter past",
+   "saunter casually"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "sauté",
   "pos": "verb",
   "def": "to fry food quickly in a little hot fat or oil.",
@@ -37636,6 +54877,20 @@ export const VOCAB = [
   "theme": "money"
  },
  {
+  "w": "savour",
+  "pos": "verb",
+  "def": "to enjoy food or drink slowly and appreciatively",
+  "defId": "menikmati makanan atau minuman secara perlahan dan penuh penghayatan",
+  "ex": "He closed his eyes to savour the first spoonful of the creamy dessert.",
+  "exId": "Dia memejamkan mata untuk menikmati suapan pertama hidangan penutup yang lembut itu.",
+  "colloc": [
+   "savour every bite",
+   "savour the flavour",
+   "savour the moment"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "savoury",
   "pos": "adjective",
   "def": "having a salty or spicy taste rather than a sweet one.",
@@ -37647,6 +54902,19 @@ export const VOCAB = [
    "sweet or savoury"
   ],
   "theme": "food"
+ },
+ {
+  "w": "saw",
+  "pos": "noun",
+  "def": "a tool with a toothed blade for cutting through wood or metal",
+  "defId": "gergaji",
+  "ex": "Cut the plank with a saw along the marked line.",
+  "exId": "Potong papan itu dengan gergaji mengikuti garis yang ditandai.",
+  "colloc": [
+   "hand saw",
+   "power saw"
+  ],
+  "theme": "tools"
  },
  {
   "w": "scaffolding",
@@ -37759,6 +55027,20 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "scarlet",
+  "pos": "adjective",
+  "def": "a bright, vivid red colour",
+  "defId": "merah menyala; merah terang",
+  "ex": "She painted her front door a striking scarlet to make it stand out.",
+  "exId": "Dia mengecat pintu depannya dengan merah menyala yang mencolok agar terlihat menonjol.",
+  "colloc": [
+   "bright scarlet",
+   "scarlet red",
+   "scarlet flowers"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "scavenger",
   "pos": "noun",
   "def": "an animal that feeds on dead animals or waste rather than hunting",
@@ -37773,6 +55055,20 @@ export const VOCAB = [
   "theme": "wildlife"
  },
  {
+  "w": "scenery",
+  "pos": "noun",
+  "def": "the painted backdrops and structures used to represent a setting on stage",
+  "defId": "latar belakang yang dilukis dan struktur yang digunakan untuk menggambarkan setting di panggung",
+  "ex": "The elaborate scenery transported the audience straight to a nineteenth-century Paris.",
+  "exId": "Latar panggung yang rumit membawa penonton langsung ke Paris abad kesembilan belas.",
+  "colloc": [
+   "stage scenery",
+   "paint the scenery",
+   "elaborate scenery"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "scenic",
   "pos": "adjective",
   "def": "having beautiful natural scenery",
@@ -37785,6 +55081,20 @@ export const VOCAB = [
    "scenic beauty"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "scent",
+  "pos": "noun",
+  "def": "a pleasant, distinctive smell",
+  "defId": "aroma khas yang menyenangkan",
+  "ex": "The scent of pine filled the cabin as we lit the fire.",
+  "exId": "Aroma pinus memenuhi kabin saat kami menyalakan perapian.",
+  "colloc": [
+   "a scent of",
+   "sweet scent",
+   "pick up a scent"
+  ],
+  "theme": "senses"
  },
  {
   "w": "sceptical",
@@ -37811,6 +55121,19 @@ export const VOCAB = [
    "express scepticism"
   ],
   "theme": "philosophy"
+ },
+ {
+  "w": "schema",
+  "pos": "noun",
+  "def": "a mental framework or structured pattern that organises knowledge",
+  "defId": "skema; kerangka mental",
+  "ex": "Children build a schema of the world through repeated experience.",
+  "exId": "Anak-anak membangun skema tentang dunia melalui pengalaman yang berulang.",
+  "colloc": [
+   "cognitive schema",
+   "mental schema"
+  ],
+  "theme": "academic"
  },
  {
   "w": "scholar",
@@ -37910,6 +55233,20 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "screech",
+  "pos": "verb",
+  "def": "to make a loud, harsh, piercing sound",
+  "defId": "memekik; menjerit melengking",
+  "ex": "The car screeched to a halt just centimetres from the crossing.",
+  "exId": "Mobil itu berhenti dengan memekik hanya beberapa sentimeter dari penyeberangan.",
+  "colloc": [
+   "tyres screech",
+   "screech to a halt",
+   "screech in terror"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "screen time",
   "pos": "noun",
   "def": "the amount of time a person spends looking at a phone, computer or tablet",
@@ -37979,6 +55316,32 @@ export const VOCAB = [
   "theme": "film"
  },
  {
+  "w": "screw",
+  "pos": "noun",
+  "def": "a metal fastener with a spiral thread that is turned to hold things together",
+  "defId": "sekrup",
+  "ex": "Tighten the screw with a screwdriver until the panel is firm.",
+  "exId": "Kencangkan sekrup dengan obeng sampai panelnya kokoh.",
+  "colloc": [
+   "wood screw",
+   "loosen a screw"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "screwdriver",
+  "pos": "noun",
+  "def": "a tool with a shaped tip for turning screws in or out",
+  "defId": "obeng",
+  "ex": "You'll need a flathead screwdriver to open the casing.",
+  "exId": "Kamu akan butuh obeng pipih untuk membuka casing itu.",
+  "colloc": [
+   "Phillips screwdriver",
+   "electric screwdriver"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "scrimp",
   "pos": "verb",
   "def": "to spend very little money and save wherever possible",
@@ -38018,6 +55381,33 @@ export const VOCAB = [
    "quote scripture"
   ],
   "theme": "religion"
+ },
+ {
+  "w": "scrub",
+  "pos": "verb",
+  "def": "to rub something hard, usually with a brush and water, to clean it",
+  "defId": "menggosok atau menyikat",
+  "ex": "He got down on his knees to scrub the kitchen floor.",
+  "exId": "Dia berlutut untuk menggosok lantai dapur.",
+  "colloc": [
+   "scrub the floor",
+   "scrub clean"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "scruffy",
+  "pos": "adjective",
+  "def": "looking untidy, dirty or badly cared for",
+  "defId": "lusuh dan tidak rapi",
+  "ex": "He turned up to the meeting in scruffy jeans and a torn T-shirt.",
+  "exId": "Dia datang ke rapat dengan jins lusuh dan kaus robek.",
+  "colloc": [
+   "scruffy clothes",
+   "scruffy appearance",
+   "look scruffy"
+  ],
+  "theme": "describe_people"
  },
  {
   "w": "scrupulous",
@@ -38060,6 +55450,20 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "scurry",
+  "pos": "verb",
+  "def": "to move quickly with short, hurried steps",
+  "defId": "berlari kecil dengan tergesa",
+  "ex": "A mouse scurried across the kitchen floor and vanished under the fridge.",
+  "exId": "Seekor tikus berlari kecil melintasi lantai dapur dan lenyap di bawah kulkas.",
+  "colloc": [
+   "scurry away",
+   "scurry for cover",
+   "scurry across"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "sea level",
   "pos": "noun",
   "def": "the average height of the ocean's surface, used as a reference point",
@@ -38071,6 +55475,19 @@ export const VOCAB = [
    "sea level rise"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "sealant",
+  "pos": "noun",
+  "def": "a substance applied to a joint or gap to make it airtight or watertight",
+  "defId": "bahan penyegel",
+  "ex": "Apply silicone sealant around the bath to keep water out.",
+  "exId": "Oleskan sealant silikon di sekeliling bak mandi agar air tidak merembes.",
+  "colloc": [
+   "silicone sealant",
+   "apply sealant"
+  ],
+  "theme": "tools"
  },
  {
   "w": "seam",
@@ -38085,6 +55502,20 @@ export const VOCAB = [
    "reinforced seam"
   ],
   "theme": "fashion"
+ },
+ {
+  "w": "seamless",
+  "pos": "adjective",
+  "def": "happening smoothly and continuously without any obvious gaps or interruptions",
+  "defId": "terjadi dengan mulus dan berkelanjutan tanpa celah atau gangguan yang terlihat",
+  "ex": "The new software offers seamless integration with your existing calendar.",
+  "exId": "Perangkat lunak baru itu menawarkan integrasi yang mulus dengan kalender Anda yang sudah ada.",
+  "colloc": [
+   "seamless integration",
+   "seamless experience",
+   "seamless transition"
+  ],
+  "theme": "technology"
  },
  {
   "w": "seamstress",
@@ -38156,6 +55587,20 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "seasoned",
+  "pos": "adjective",
+  "def": "having salt, pepper, herbs or spices added to improve the flavour",
+  "defId": "diberi garam, lada, rempah, atau bumbu untuk memperbaiki cita rasa",
+  "ex": "The soup was perfectly seasoned and needed no extra salt.",
+  "exId": "Supnya dibumbui dengan pas dan tidak perlu tambahan garam lagi.",
+  "colloc": [
+   "well seasoned",
+   "lightly seasoned",
+   "perfectly seasoned"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "seasoning",
   "pos": "noun",
   "def": "salt, pepper or herbs added to food to improve its taste",
@@ -38170,6 +55615,20 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "secateurs",
+  "pos": "noun",
+  "def": "a garden tool like strong scissors, used for cutting stems and small branches",
+  "defId": "gunting pangkas (gunting taman)",
+  "ex": "He used a pair of secateurs to snip off the dead flower heads.",
+  "exId": "Dia memakai gunting pangkas untuk memotong kepala bunga yang sudah mati.",
+  "colloc": [
+   "a pair of secateurs",
+   "sharp secateurs",
+   "garden secateurs"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "secluded",
   "pos": "adjective",
   "def": "quiet and private because it is away from other people or places",
@@ -38182,6 +55641,19 @@ export const VOCAB = [
    "secluded location"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "second nature",
+  "pos": "idiom",
+  "def": "something you do so easily it feels automatic",
+  "defId": "sesuatu yang sudah menjadi kebiasaan sehingga terasa otomatis",
+  "ex": "After years of driving, changing gears is second nature to me.",
+  "exId": "Setelah bertahun-tahun menyetir, memindah gigi sudah menjadi kebiasaan otomatis bagi saya.",
+  "colloc": [
+   "automatic skill",
+   "'become second nature'"
+  ],
+  "theme": "idioms"
  },
  {
   "w": "second-hand",
@@ -38280,6 +55752,19 @@ export const VOCAB = [
   "theme": "nature"
  },
  {
+  "w": "see eye to eye",
+  "pos": "idiom",
+  "def": "to agree completely with someone",
+  "defId": "sepaham; sependapat dengan seseorang",
+  "ex": "My colleague and I don't always see eye to eye on how to run projects.",
+  "exId": "Saya dan rekan kerja tidak selalu sependapat soal cara menjalankan proyek.",
+  "colloc": [
+   "agreeing with someone",
+   "'see eye to eye on'"
+  ],
+  "theme": "idioms"
+ },
+ {
   "w": "seeded",
   "pos": "adjective",
   "def": "ranked in advance so that the strongest competitors do not meet in early rounds",
@@ -38291,6 +55776,76 @@ export const VOCAB = [
    "seeded player"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "seedling",
+  "pos": "noun",
+  "def": "a young plant that has recently grown from a seed",
+  "defId": "bibit; semai",
+  "ex": "The tomato seedlings must be kept indoors until the last frost has passed.",
+  "exId": "Bibit tomat harus disimpan di dalam ruangan sampai embun beku terakhir berlalu.",
+  "colloc": [
+   "tender seedling",
+   "transplant seedlings",
+   "raise seedlings"
+  ],
+  "theme": "garden"
+ },
+ {
+  "w": "seedy",
+  "pos": "adjective",
+  "def": "dirty, disreputable and unpleasant",
+  "defId": "kumuh dan mencurigakan",
+  "ex": "The area around the station is a bit seedy, so I wouldn't walk there alone at night.",
+  "exId": "Kawasan di sekitar stasiun agak kumuh dan mencurigakan, jadi aku tak akan berjalan sendirian di sana malam hari.",
+  "colloc": [
+   "a seedy area",
+   "a seedy district",
+   "a seedy part of town"
+  ],
+  "theme": "describe_places"
+ },
+ {
+  "w": "seem to",
+  "pos": "verb",
+  "def": "to give the impression of being or doing something without full certainty",
+  "defId": "tampak; seolah",
+  "ex": "Many respondents seem to underestimate the risks of social media.",
+  "exId": "Banyak responden tampak meremehkan risiko media sosial.",
+  "colloc": [
+   "seem to imply",
+   "seem to reflect",
+   "seem to confirm"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "seemingly",
+  "pos": "adverb",
+  "def": "in a way that appears to be true but may not actually be so",
+  "defId": "seolah-olah; tampaknya",
+  "ex": "The two seemingly unrelated events were in fact closely connected.",
+  "exId": "Kedua peristiwa yang tampaknya tidak berkaitan itu ternyata sangat terhubung.",
+  "colloc": [
+   "seemingly endless",
+   "seemingly unrelated",
+   "seemingly minor"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "seep",
+  "pos": "verb",
+  "def": "to flow or pass slowly through small openings or a porous material.",
+  "defId": "mengalir atau merembes perlahan melalui celah kecil atau bahan berpori.",
+  "ex": "Untreated sewage was allowed to seep into the coastal waters.",
+  "exId": "Limbah yang tidak diolah dibiarkan merembes ke perairan pantai.",
+  "colloc": [
+   "seep into the soil",
+   "seep through",
+   "slowly seep"
+  ],
+  "theme": "environment"
  },
  {
   "w": "segmentation",
@@ -38439,6 +55994,20 @@ export const VOCAB = [
   "theme": "personality"
  },
  {
+  "w": "self-discipline",
+  "pos": "noun",
+  "def": "the ability to control your own behaviour, impulses, and reactions",
+  "defId": "disiplin diri; kemampuan mengendalikan perilaku, dorongan, dan reaksi diri sendiri",
+  "ex": "Losing weight requires considerable self-discipline and consistency.",
+  "exId": "Menurunkan berat badan membutuhkan disiplin diri dan konsistensi yang cukup besar.",
+  "colloc": [
+   "require self-discipline",
+   "lack self-discipline",
+   "strong self-discipline"
+  ],
+  "theme": "psychology"
+ },
+ {
   "w": "self-doubt",
   "pos": "noun",
   "def": "a lack of confidence in yourself and your abilities",
@@ -38481,6 +56050,20 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "self-evident",
+  "pos": "adjective",
+  "def": "clear enough to need no proof or explanation",
+  "defId": "sudah jelas dengan sendirinya",
+  "ex": "It is by no means self-evident that technology always improves our lives.",
+  "exId": "Sama sekali tidak jelas dengan sendirinya bahwa teknologi selalu memperbaiki hidup kita.",
+  "colloc": [
+   "self-evident truth",
+   "hardly self-evident",
+   "seemingly self-evident"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "self-fulfilling",
   "pos": "adjective",
   "def": "becoming true because it causes people to act in ways that make it happen",
@@ -38507,6 +56090,20 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "self-reliance",
+  "pos": "noun",
+  "def": "the ability of a country or person to depend on their own resources rather than outside help",
+  "defId": "kemampuan negara atau orang untuk bergantung pada sumber dayanya sendiri, bukan bantuan luar",
+  "ex": "The government promoted food self-reliance to reduce its dependence on imports.",
+  "exId": "Pemerintah mendorong kemandirian pangan untuk mengurangi ketergantungan pada impor.",
+  "colloc": [
+   "economic self-reliance",
+   "promote self-reliance",
+   "food self-reliance"
+  ],
+  "theme": "globalisation"
+ },
+ {
   "w": "self-starter",
   "pos": "noun",
   "def": "a person who is able to work on their own initiative without needing much supervision",
@@ -38519,6 +56116,20 @@ export const VOCAB = [
    "look for a self-starter"
   ],
   "theme": "work"
+ },
+ {
+  "w": "self-sufficiency",
+  "pos": "noun",
+  "def": "The ability to provide for one's own needs without outside help.",
+  "defId": "Swasembada; kemampuan memenuhi kebutuhan sendiri tanpa bantuan pihak luar.",
+  "ex": "The government's policy aims to achieve self-sufficiency in food production.",
+  "exId": "Kebijakan pemerintah bertujuan mencapai swasembada dalam produksi pangan.",
+  "colloc": [
+   "achieve self-sufficiency",
+   "food self-sufficiency",
+   "economic self-sufficiency"
+  ],
+  "theme": "economy"
  },
  {
   "w": "self-sufficient",
@@ -38560,6 +56171,19 @@ export const VOCAB = [
    "word semantics"
   ],
   "theme": "language"
+ },
+ {
+  "w": "semblance",
+  "pos": "noun",
+  "def": "an outward appearance or resemblance of something, often not real",
+  "defId": "penampakan atau kemiripan lahiriah dengan sesuatu, sering kali tidak nyata",
+  "ex": "After weeks of chaos, life finally returned to some semblance of normality.",
+  "exId": "Setelah berminggu-minggu kekacauan, kehidupan akhirnya kembali menyerupai keadaan normal.",
+  "colloc": [
+   "semblance of normality",
+   "some semblance"
+  ],
+  "theme": "academic"
  },
  {
   "w": "semester",
@@ -38615,6 +56239,19 @@ export const VOCAB = [
   "theme": "sport"
  },
  {
+  "w": "seminal",
+  "pos": "adjective",
+  "def": "very important and strongly influencing later developments",
+  "defId": "sangat berpengaruh dan mendasar",
+  "ex": "Her seminal paper laid the foundation for a whole field of study.",
+  "exId": "Makalahnya yang mendasar meletakkan fondasi bagi seluruh bidang studi.",
+  "colloc": [
+   "a seminal work",
+   "a seminal study"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "seminar",
   "pos": "noun",
   "def": "a small class in which students discuss a topic with a teacher",
@@ -38627,6 +56264,20 @@ export const VOCAB = [
    "weekly seminar"
   ],
   "theme": "education"
+ },
+ {
+  "w": "seniority",
+  "pos": "noun",
+  "def": "The rank or status earned through length of service or a higher position in an organisation.",
+  "defId": "senioritas; kedudukan atau status yang diperoleh berdasarkan lama bekerja atau jabatan yang lebih tinggi",
+  "ex": "Promotions in the firm are still largely based on seniority rather than performance.",
+  "exId": "Promosi di perusahaan itu masih sebagian besar didasarkan pada senioritas, bukan kinerja.",
+  "colloc": [
+   "based on seniority",
+   "seniority system",
+   "gain seniority"
+  ],
+  "theme": "work"
  },
  {
   "w": "sensation",
@@ -38753,6 +56404,20 @@ export const VOCAB = [
   "theme": "film"
  },
  {
+  "w": "sequester",
+  "pos": "verb",
+  "def": "to capture and store something, especially carbon dioxide, so that it is removed from the atmosphere.",
+  "defId": "menangkap dan menyimpan sesuatu, terutama karbon dioksida, agar keluar dari atmosfer.",
+  "ex": "Forests and oceans sequester vast amounts of carbon every year.",
+  "exId": "Hutan dan lautan menyerap serta menyimpan sejumlah besar karbon setiap tahun.",
+  "colloc": [
+   "sequester carbon",
+   "sequester CO2",
+   "sequester greenhouse gases"
+  ],
+  "theme": "environment"
+ },
+ {
   "w": "serenade",
   "pos": "noun",
   "def": "a piece of music sung or played to honour or express love for someone",
@@ -38765,6 +56430,34 @@ export const VOCAB = [
    "a gentle serenade"
   ],
   "theme": "music"
+ },
+ {
+  "w": "serendipity",
+  "pos": "noun",
+  "def": "the pleasant discovery of good things by chance, often while travelling",
+  "defId": "penemuan hal-hal baik secara kebetulan yang menyenangkan, sering saat bepergian",
+  "ex": "By pure serendipity, we stumbled upon a hidden village festival.",
+  "exId": "Karena kebetulan yang menyenangkan, kami tanpa sengaja menemukan festival desa yang tersembunyi.",
+  "colloc": [
+   "by serendipity",
+   "pure serendipity",
+   "a moment of serendipity"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "serene",
+  "pos": "adjective",
+  "def": "peaceful, untroubled and calm",
+  "defId": "tenteram dan damai",
+  "ex": "The temple gardens were utterly serene, a world away from the traffic outside.",
+  "exId": "Taman kuil itu sangat tenteram, jauh berbeda dari lalu lintas di luar.",
+  "colloc": [
+   "a serene landscape",
+   "a serene atmosphere",
+   "serene beauty"
+  ],
+  "theme": "describe_places"
  },
  {
   "w": "serenity",
@@ -38821,6 +56514,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "serving",
+  "pos": "noun",
+  "def": "a standard amount of a particular food, especially as measured for nutrition",
+  "defId": "takaran standar dari suatu makanan, terutama sebagaimana diukur untuk kebutuhan gizi",
+  "ex": "One serving of this cereal contains around two hundred calories.",
+  "exId": "Satu takaran sereal ini mengandung sekitar dua ratus kalori.",
+  "colloc": [
+   "a single serving",
+   "serving size",
+   "the recommended serving"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "set off",
   "pos": "phrasal verb",
   "def": "to begin a journey or trip",
@@ -38846,6 +56553,20 @@ export const VOCAB = [
    "settlement agreement"
   ],
   "theme": "law"
+ },
+ {
+  "w": "settler",
+  "pos": "noun",
+  "def": "a person who moves with others to live in a new region or country",
+  "defId": "pemukim; orang yang pindah bersama orang lain untuk menetap di wilayah atau negara baru",
+  "ex": "Early settlers cleared the forest and built the first permanent dwellings along the river.",
+  "exId": "Para pemukim awal membuka hutan dan mendirikan tempat tinggal permanen pertama di sepanjang sungai.",
+  "colloc": [
+   "early settlers",
+   "new settlers",
+   "settler community"
+  ],
+  "theme": "society"
  },
  {
   "w": "severance",
@@ -38874,6 +56595,47 @@ export const VOCAB = [
    "untreated sewage"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "sewer",
+  "pos": "n",
+  "def": "An underground pipe or channel that carries away sewage and waste water.",
+  "defId": "Pipa atau saluran bawah tanah yang mengalirkan limbah dan air kotor.",
+  "ex": "Engineers spent months upgrading the Victorian sewer beneath the old town.",
+  "exId": "Para insinyur menghabiskan berbulan-bulan memperbarui gorong-gorong era Victoria di bawah kota tua.",
+  "colloc": [
+   "sewer system",
+   "main sewer"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "shabby",
+  "pos": "adjective",
+  "def": "worn out and in poor, neglected condition",
+  "defId": "lusuh dan kumuh",
+  "ex": "The once-grand hotel now looks shabby, with peeling paint and faded carpets.",
+  "exId": "Hotel yang dulu megah itu kini tampak lusuh, dengan cat mengelupas dan karpet pudar.",
+  "colloc": [
+   "a shabby building",
+   "a shabby neighbourhood",
+   "look shabby"
+  ],
+  "theme": "describe_places"
+ },
+ {
+  "w": "shade",
+  "pos": "noun",
+  "def": "a particular variety or degree of a colour, especially in terms of how light or dark it is",
+  "defId": "corak; gradasi warna (tingkat terang atau gelapnya suatu warna)",
+  "ex": "The walls were painted in a soft shade of green that made the room feel calm.",
+  "exId": "Dindingnya dicat dengan corak hijau lembut yang membuat ruangan terasa tenang.",
+  "colloc": [
+   "a shade of",
+   "darker shade",
+   "pale shade"
+  ],
+  "theme": "colours"
  },
  {
   "w": "shantytown",
@@ -38960,6 +56722,20 @@ export const VOCAB = [
   "theme": "shopping"
  },
  {
+  "w": "sheltered",
+  "pos": "adjective",
+  "def": "protected from wind, weather or danger",
+  "defId": "terlindung dari angin dan cuaca",
+  "ex": "The village sits in a sheltered bay, protected from the worst of the storms.",
+  "exId": "Desa itu terletak di teluk yang terlindung, terlindung dari badai terburuk.",
+  "colloc": [
+   "a sheltered bay",
+   "a sheltered spot",
+   "a sheltered valley"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "shift",
   "pos": "noun",
   "def": "a fixed period of time during which a group of workers do their job",
@@ -38974,6 +56750,34 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "shift work",
+  "pos": "noun",
+  "def": "A system of working in which people work at different times, including nights, in rotation.",
+  "defId": "kerja bergilir; sistem kerja dengan waktu yang berbeda-beda secara bergantian, termasuk malam hari",
+  "ex": "Shift work can disrupt your sleep, especially when you rotate onto nights.",
+  "exId": "Kerja bergilir dapat mengganggu tidur, terutama saat kamu mendapat giliran jaga malam.",
+  "colloc": [
+   "do shift work",
+   "shift work pattern",
+   "unsocial shift work"
+  ],
+  "theme": "work"
+ },
+ {
+  "w": "shimmer",
+  "pos": "verb",
+  "def": "to shine with a soft, wavering light",
+  "defId": "berkilau dengan cahaya lembut yang bergetar",
+  "ex": "The surface of the lake seemed to shimmer under the midday heat.",
+  "exId": "Permukaan danau tampak berkelap-kelip di bawah panas siang hari.",
+  "colloc": [
+   "shimmer in the heat",
+   "shimmer with light",
+   "water shimmers"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "shipment",
   "pos": "noun",
   "def": "a quantity of goods sent together, or the act of sending them",
@@ -38986,6 +56790,20 @@ export const VOCAB = [
    "make a shipment"
   ],
   "theme": "transport"
+ },
+ {
+  "w": "shiver",
+  "pos": "verb",
+  "def": "to shake slightly because of cold, fear, or fever",
+  "defId": "menggigil sedikit karena dingin, takut, atau demam",
+  "ex": "She began to shiver uncontrollably as her temperature climbed.",
+  "exId": "Ia mulai menggigil tak terkendali saat suhu tubuhnya naik.",
+  "colloc": [
+   "shiver with cold",
+   "shiver and sweat",
+   "a cold shiver"
+  ],
+  "theme": "health"
  },
  {
   "w": "shoplifting",
@@ -39026,6 +56844,20 @@ export const VOCAB = [
    "address a shortcoming"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "shortfall",
+  "pos": "noun",
+  "def": "An amount by which something is less than what is needed or expected.",
+  "defId": "Kekurangan; selisih jumlah yang kurang dari yang dibutuhkan atau diharapkan.",
+  "ex": "The company faced a serious budget shortfall after sales dropped sharply.",
+  "exId": "Perusahaan menghadapi kekurangan anggaran yang serius setelah penjualan anjlok tajam.",
+  "colloc": [
+   "a budget shortfall",
+   "make up the shortfall",
+   "a revenue shortfall"
+  ],
+  "theme": "economy"
  },
  {
   "w": "shortlist",
@@ -39109,6 +56941,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "shrill",
+  "pos": "adjective",
+  "def": "high, sharp and unpleasant in sound",
+  "defId": "melengking; bernada tinggi, tajam dan tidak enak didengar",
+  "ex": "The shrill whistle of the kettle woke everyone in the house.",
+  "exId": "Siulan melengking dari ketel membangunkan semua orang di rumah.",
+  "colloc": [
+   "shrill voice",
+   "shrill whistle",
+   "shrill cry"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "shrine",
   "pos": "noun",
   "def": "a holy place associated with a sacred person or object",
@@ -39121,6 +56967,48 @@ export const VOCAB = [
    "build a shrine"
   ],
   "theme": "religion"
+ },
+ {
+  "w": "shrub",
+  "pos": "noun",
+  "def": "a woody plant that is smaller than a tree and usually has several stems growing from the ground",
+  "defId": "semak; perdu",
+  "ex": "They planted a low shrub along the fence to add some greenery to the garden.",
+  "exId": "Mereka menanam semak rendah di sepanjang pagar untuk menambah kesan hijau di taman.",
+  "colloc": [
+   "flowering shrub",
+   "evergreen shrub",
+   "prune a shrub"
+  ],
+  "theme": "garden"
+ },
+ {
+  "w": "shrubbery",
+  "pos": "noun",
+  "def": "an area of a garden where many shrubs are planted together",
+  "defId": "rimbunan semak; area perdu",
+  "ex": "The children hid in the shrubbery at the bottom of the garden.",
+  "exId": "Anak-anak bersembunyi di rimbunan semak di ujung taman.",
+  "colloc": [
+   "dense shrubbery",
+   "hide in the shrubbery",
+   "overgrown shrubbery"
+  ],
+  "theme": "garden"
+ },
+ {
+  "w": "shuffle",
+  "pos": "verb",
+  "def": "to walk slowly without lifting one's feet fully off the ground",
+  "defId": "berjalan menyeret kaki",
+  "ex": "The elderly man shuffled slowly towards the counter, leaning on his cane.",
+  "exId": "Lelaki tua itu berjalan lambat menyeret kaki menuju konter sambil bersandar pada tongkatnya.",
+  "colloc": [
+   "shuffle forward",
+   "shuffle one's feet",
+   "shuffle along"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "shuttle",
@@ -39176,6 +57064,20 @@ export const VOCAB = [
   "theme": "uk_health"
  },
  {
+  "w": "side dish",
+  "pos": "noun",
+  "def": "a smaller dish of food served alongside the main course to accompany it",
+  "defId": "hidangan pendamping berukuran lebih kecil yang disajikan bersama menu utama",
+  "ex": "Roasted vegetables make a healthy side dish for grilled chicken.",
+  "exId": "Sayuran panggang menjadi hidangan pendamping yang sehat untuk ayam bakar.",
+  "colloc": [
+   "a tasty side dish",
+   "serve as a side dish",
+   "order a side dish"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "side effect",
   "pos": "noun",
   "def": "an unwanted secondary effect of a medicine or treatment",
@@ -39187,6 +57089,19 @@ export const VOCAB = [
    "unpleasant side effect"
   ],
   "theme": "health"
+ },
+ {
+  "w": "sideboard",
+  "pos": "noun",
+  "def": "a long, low piece of furniture with cupboards and drawers, used for storing crockery and serving food",
+  "defId": "bufet atau kabinet ruang makan",
+  "ex": "The best plates were kept in the sideboard in the dining room.",
+  "exId": "Piring-piring terbaik disimpan di bufet ruang makan.",
+  "colloc": [
+   "a wooden sideboard",
+   "in the sideboard"
+  ],
+  "theme": "household"
  },
  {
   "w": "siege",
@@ -39217,6 +57132,19 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "signage",
+  "pos": "n",
+  "def": "The signs in a public place, taken together, that give directions or information.",
+  "defId": "Kumpulan rambu atau papan tanda di tempat umum yang memberi petunjuk arah atau informasi.",
+  "ex": "Clear signage at the station makes it easy for tourists to find the right platform.",
+  "exId": "Papan penunjuk yang jelas di stasiun memudahkan wisatawan menemukan peron yang tepat.",
+  "colloc": [
+   "clear signage",
+   "directional signage"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "significant",
   "pos": "adjective",
   "def": "large or important enough to have a noticeable effect",
@@ -39229,6 +57157,73 @@ export const VOCAB = [
    "significant increase"
   ],
   "theme": "science"
+ },
+ {
+  "w": "silhouette",
+  "pos": "noun",
+  "def": "the dark outline or shape of something seen against a lighter background",
+  "defId": "garis luar atau bentuk gelap sesuatu yang terlihat dengan latar belakang lebih terang",
+  "ex": "The dancer's silhouette was projected dramatically onto the white backdrop.",
+  "exId": "Siluet penari itu diproyeksikan secara dramatis ke latar putih.",
+  "colloc": [
+   "dark silhouette",
+   "in silhouette",
+   "silhouette against the sky"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "silky",
+  "pos": "adjective",
+  "def": "soft, smooth and shiny like silk",
+  "defId": "lembut, halus dan berkilau seperti sutra",
+  "ex": "The kitten's fur was warm and silky against my cheek.",
+  "exId": "Bulu anak kucing itu terasa hangat dan lembut seperti sutra di pipiku.",
+  "colloc": [
+   "silky smooth",
+   "silky hair",
+   "silky texture"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "silt",
+  "pos": "noun",
+  "def": "fine sand, clay or other material carried by water and deposited as sediment.",
+  "defId": "pasir halus, tanah liat, atau material lain yang terbawa air dan mengendap.",
+  "ex": "Deforestation caused silt to build up and clog the river channel.",
+  "exId": "Deforestasi menyebabkan endapan lumpur menumpuk dan menyumbat aliran sungai.",
+  "colloc": [
+   "silt deposits",
+   "build up silt",
+   "silt accumulation"
+  ],
+  "theme": "environment"
+ },
+ {
+  "w": "similarity",
+  "pos": "noun",
+  "def": "the state of being alike, or a way in which things are alike",
+  "defId": "keadaan serupa, atau segi di mana hal-hal itu mirip",
+  "ex": "There is a clear similarity between the sound systems of the two languages.",
+  "exId": "Ada kesamaan yang jelas antara sistem bunyi kedua bahasa itu.",
+  "colloc": [
+   "clear similarity",
+   "similarity between"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "similarly",
+  "pos": "adverb",
+  "def": "in a similar way; likewise",
+  "defId": "demikian pula",
+  "ex": "Urban areas face congestion; similarly, rural regions struggle with poor transport.",
+  "exId": "Kawasan perkotaan menghadapi kemacetan; demikian pula, wilayah pedesaan kesulitan dengan transportasi yang buruk.",
+  "colloc": [
+   "similarly, ..."
+  ],
+  "theme": "academic"
  },
  {
   "w": "simile",
@@ -39255,6 +57250,32 @@ export const VOCAB = [
    "let it simmer"
   ],
   "theme": "food"
+ },
+ {
+  "w": "simplistic",
+  "pos": "adjective",
+  "def": "treating a complex issue as if it were far simpler than it really is",
+  "defId": "terlalu menyederhanakan",
+  "ex": "Blaming poverty solely on laziness is a simplistic view.",
+  "exId": "Menyalahkan kemiskinan semata-mata pada kemalasan adalah pandangan yang terlalu menyederhanakan.",
+  "colloc": [
+   "a simplistic view",
+   "overly simplistic"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "simultaneously",
+  "pos": "adverb",
+  "def": "at exactly the same time as something else",
+  "defId": "secara bersamaan; pada waktu yang sama",
+  "ex": "The two events occurred simultaneously, making it difficult to identify the cause.",
+  "exId": "Kedua peristiwa itu terjadi secara bersamaan, sehingga sulit mengidentifikasi penyebabnya.",
+  "colloc": [
+   "occur simultaneously",
+   "happen simultaneously"
+  ],
+  "theme": "academic"
  },
  {
   "w": "sincere",
@@ -39324,6 +57345,20 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "sink",
+  "pos": "noun",
+  "def": "a fixed basin with a water supply and drain, used for washing dishes or hands",
+  "defId": "wastafel atau bak cuci",
+  "ex": "A pile of dirty dishes was stacked in the kitchen sink.",
+  "exId": "Setumpuk piring kotor menumpuk di bak cuci dapur.",
+  "colloc": [
+   "kitchen sink",
+   "a blocked sink",
+   "fill the sink"
+  ],
+  "theme": "household"
+ },
+ {
   "w": "sitcom",
   "pos": "noun",
   "def": "a comedy series featuring the same characters in each episode",
@@ -39349,6 +57384,34 @@ export const VOCAB = [
    "enter the sixth form"
   ],
   "theme": "education"
+ },
+ {
+  "w": "sizzle",
+  "pos": "verb",
+  "def": "to make a hissing sound, like food frying in hot fat",
+  "defId": "mendesis (saat digoreng)",
+  "ex": "The onions sizzled in the pan, filling the kitchen with a rich aroma.",
+  "exId": "Bawang itu mendesis di wajan, memenuhi dapur dengan aroma yang harum.",
+  "colloc": [
+   "bacon sizzles",
+   "sizzle in the pan",
+   "sizzling hot"
+  ],
+  "theme": "sound_movement"
+ },
+ {
+  "w": "sizzling",
+  "pos": "adjective",
+  "def": "making a hissing sound as it cooks in hot fat, and usually very hot",
+  "defId": "mengeluarkan suara desis saat dimasak dalam minyak panas, dan biasanya sangat panas",
+  "ex": "The waiter brought over a sizzling platter of fajitas.",
+  "exId": "Pelayan membawakan sepiring fajita yang masih berdesis panas.",
+  "colloc": [
+   "a sizzling platter",
+   "sizzling hot",
+   "sizzling in the pan"
+  ],
+  "theme": "food"
  },
  {
   "w": "skeletal",
@@ -39391,6 +57454,20 @@ export const VOCAB = [
    "quick sketching"
   ],
   "theme": "leisure"
+ },
+ {
+  "w": "skill set",
+  "pos": "noun",
+  "def": "The particular range of abilities and skills that a person has.",
+  "defId": "himpunan keterampilan; kumpulan kemampuan dan keahlian yang dimiliki seseorang",
+  "ex": "The role requires a very specific skill set that few candidates possess.",
+  "exId": "Peran itu membutuhkan himpunan keterampilan yang sangat spesifik yang dimiliki sedikit kandidat.",
+  "colloc": [
+   "a broad skill set",
+   "match the skill set",
+   "a specific skill set"
+  ],
+  "theme": "work"
  },
  {
   "w": "skint",
@@ -39503,6 +57580,20 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "slapstick",
+  "pos": "noun",
+  "def": "comedy based on deliberately clumsy actions and humorous physical mishaps",
+  "defId": "komedi yang didasarkan pada tindakan canggung yang disengaja dan kejadian fisik yang lucu",
+  "ex": "The silent film relied on slapstick, with actors tripping over furniture and falling into cakes.",
+  "exId": "Film bisu itu mengandalkan komedi slapstik, dengan aktor tersandung perabot dan jatuh ke dalam kue.",
+  "colloc": [
+   "slapstick comedy",
+   "slapstick humour",
+   "broad slapstick"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "sleek",
   "pos": "adjective",
   "def": "smooth, glossy and elegantly streamlined in appearance",
@@ -39515,6 +57606,20 @@ export const VOCAB = [
    "sleek look"
   ],
   "theme": "fashion"
+ },
+ {
+  "w": "sleepy",
+  "pos": "adjective",
+  "def": "quiet, with very little activity going on",
+  "defId": "sepi dan lengang",
+  "ex": "It used to be a sleepy little town before the motorway brought crowds of visitors.",
+  "exId": "Dulu itu adalah kota kecil yang sepi sebelum jalan tol membawa banyak pengunjung.",
+  "colloc": [
+   "a sleepy town",
+   "a sleepy village",
+   "a sleepy hamlet"
+  ],
+  "theme": "describe_places"
  },
  {
   "w": "sleet",
@@ -39531,6 +57636,34 @@ export const VOCAB = [
   "theme": "weather"
  },
  {
+  "w": "slender",
+  "pos": "adjective",
+  "def": "attractively thin and gracefully slim",
+  "defId": "langsing dan ramping",
+  "ex": "She had a slender figure and moved with effortless grace.",
+  "exId": "Dia bertubuh langsing dan bergerak dengan anggun tanpa usaha.",
+  "colloc": [
+   "slender figure",
+   "slender build",
+   "slender frame"
+  ],
+  "theme": "describe_people"
+ },
+ {
+  "w": "slide",
+  "pos": "verb",
+  "def": "to move smoothly along a surface while maintaining contact with it",
+  "defId": "meluncur; menggeser",
+  "ex": "The drawer slid open easily on its new metal runners.",
+  "exId": "Laci itu meluncur terbuka dengan mudah pada relnya yang baru.",
+  "colloc": [
+   "slide open",
+   "slide down",
+   "slide across"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "slight",
   "pos": "adjective",
   "def": "small in degree or amount; not considerable",
@@ -39543,6 +57676,20 @@ export const VOCAB = [
    "slight change"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "slimy",
+  "pos": "adjective",
+  "def": "covered with an unpleasant, slippery, wet substance",
+  "defId": "berlendir; terlapisi zat basah dan licin yang tidak sedap",
+  "ex": "The rocks by the river were slimy and hard to stand on.",
+  "exId": "Bebatuan di tepi sungai itu berlendir dan sulit dijadikan pijakan.",
+  "colloc": [
+   "slimy surface",
+   "slimy texture",
+   "cold and slimy"
+  ],
+  "theme": "senses"
  },
  {
   "w": "slip road",
@@ -39573,6 +57720,34 @@ export const VOCAB = [
   "theme": "nature"
  },
  {
+  "w": "sludge",
+  "pos": "noun",
+  "def": "thick, soft, wet mud or a similar mixture of solid waste and liquid.",
+  "defId": "lumpur kental dan basah atau campuran serupa dari limbah padat dan cairan.",
+  "ex": "Treated sewage sludge is sometimes spread on fields as fertiliser.",
+  "exId": "Lumpur limbah yang telah diolah kadang disebar di ladang sebagai pupuk.",
+  "colloc": [
+   "sewage sludge",
+   "toxic sludge",
+   "industrial sludge"
+  ],
+  "theme": "environment"
+ },
+ {
+  "w": "sluggish",
+  "pos": "adjective",
+  "def": "slow-moving or lacking energy and alertness",
+  "defId": "lamban atau kurang bertenaga dan kurang waspada",
+  "ex": "After a heavy lunch, I always feel sluggish and struggle to concentrate.",
+  "exId": "Setelah makan siang yang berat, saya selalu merasa lesu dan sulit berkonsentrasi.",
+  "colloc": [
+   "feel sluggish",
+   "a sluggish metabolism",
+   "sluggish digestion"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "slum",
   "pos": "noun",
   "def": "a very poor and overcrowded area of a city where housing is in bad condition",
@@ -39599,6 +57774,20 @@ export const VOCAB = [
    "sales slump"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "slur",
+  "pos": "verb",
+  "def": "to speak unclearly so that sounds and words run into each other",
+  "defId": "berbicara tidak jelas sehingga bunyi dan kata bercampur satu sama lain",
+  "ex": "He was so exhausted that he began to slur his words halfway through the talk.",
+  "exId": "Dia begitu lelah hingga mulai menggumamkan kata-katanya di tengah presentasi.",
+  "colloc": [
+   "slur one's words",
+   "slur speech",
+   "start to slur"
+  ],
+  "theme": "language"
  },
  {
   "w": "small talk",
@@ -39655,6 +57844,20 @@ export const VOCAB = [
   "theme": "technology"
  },
  {
+  "w": "smartly dressed",
+  "pos": "adjective phrase",
+  "def": "wearing neat, clean and stylish clothes",
+  "defId": "berpakaian rapi dan bergaya",
+  "ex": "Every employee at the bank was smartly dressed in a dark suit.",
+  "exId": "Setiap karyawan di bank itu berpakaian rapi dengan setelan gelap.",
+  "colloc": [
+   "smartly dressed man",
+   "always smartly dressed",
+   "smartly dressed for"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "smog",
   "pos": "noun",
   "def": "a thick, unhealthy haze formed when pollution mixes with fog in the air",
@@ -39666,6 +57869,34 @@ export const VOCAB = [
    "smog levels"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "smokestack",
+  "pos": "noun",
+  "def": "a tall chimney that releases smoke and gases from a factory or power plant.",
+  "defId": "cerobong tinggi yang mengeluarkan asap dan gas dari pabrik atau pembangkit listrik.",
+  "ex": "Thick grey smoke poured from the factory's smokestack all day long.",
+  "exId": "Asap kelabu tebal keluar dari cerobong pabrik itu sepanjang hari.",
+  "colloc": [
+   "factory smokestack",
+   "smokestack emissions",
+   "industrial smokestack"
+  ],
+  "theme": "environment"
+ },
+ {
+  "w": "smooth",
+  "pos": "adjective",
+  "def": "having an even surface with no roughness or lumps",
+  "defId": "halus; permukaannya rata tanpa kasar atau gumpalan",
+  "ex": "The pebble felt cool and smooth in the palm of my hand.",
+  "exId": "Kerikil itu terasa sejuk dan halus di telapak tanganku.",
+  "colloc": [
+   "smooth surface",
+   "smooth to the touch",
+   "perfectly smooth"
+  ],
+  "theme": "senses"
  },
  {
   "w": "smug",
@@ -39693,6 +57924,34 @@ export const VOCAB = [
    "people smuggling"
   ],
   "theme": "crime"
+ },
+ {
+  "w": "snack",
+  "pos": "noun",
+  "def": "a small amount of food eaten between meals",
+  "defId": "sedikit makanan yang disantap di antara waktu makan utama",
+  "ex": "She grabbed a healthy snack of nuts and fruit before the gym.",
+  "exId": "Dia mengambil camilan sehat berupa kacang dan buah sebelum ke gym.",
+  "colloc": [
+   "a healthy snack",
+   "a quick snack",
+   "snack between meals"
+  ],
+  "theme": "food"
+ },
+ {
+  "w": "snowball",
+  "pos": "verb",
+  "def": "to grow or increase quickly in size, importance, or intensity",
+  "defId": "membesar dengan cepat; menggelinding seperti bola salju",
+  "ex": "What began as a minor complaint quickly snowballed into a major scandal.",
+  "exId": "Apa yang bermula sebagai keluhan kecil dengan cepat membesar menjadi skandal besar.",
+  "colloc": [
+   "snowball into",
+   "quickly snowball",
+   "snowball out of control"
+  ],
+  "theme": "academic"
  },
  {
   "w": "snowfall",
@@ -39734,6 +57993,20 @@ export const VOCAB = [
    "highly sociable"
   ],
   "theme": "relationships"
+ },
+ {
+  "w": "social contract",
+  "pos": "noun",
+  "def": "the implicit agreement among people to cooperate for mutual social benefit",
+  "defId": "kontrak sosial; kesepakatan tersirat antarwarga untuk bekerja sama demi manfaat bersama",
+  "ex": "Critics argue that rising inequality has frayed the social contract.",
+  "exId": "Para pengkritik berpendapat bahwa ketimpangan yang meningkat telah merenggangkan kontrak sosial.",
+  "colloc": [
+   "break the social contract",
+   "a new social contract",
+   "the social contract between citizens and state"
+  ],
+  "theme": "society"
  },
  {
   "w": "social housing",
@@ -39803,6 +58076,47 @@ export const VOCAB = [
   "theme": "relationships"
  },
  {
+  "w": "Socratic method",
+  "pos": "noun",
+  "def": "a way of teaching that uses careful questioning to lead students to their own conclusions",
+  "defId": "metode mengajar yang menggunakan pertanyaan untuk menuntun siswa pada kesimpulan mereka sendiri",
+  "ex": "Law professors often use the Socratic method, firing questions at students to test their reasoning.",
+  "exId": "Dosen hukum sering menggunakan metode Sokratik, melontarkan pertanyaan kepada mahasiswa untuk menguji penalaran mereka.",
+  "colloc": [
+   "use the Socratic method",
+   "the Socratic method of teaching"
+  ],
+  "theme": "education"
+ },
+ {
+  "w": "soft power",
+  "pos": "noun",
+  "def": "a country's ability to influence others through culture and values rather than force",
+  "defId": "kemampuan suatu negara memengaruhi negara lain melalui budaya dan nilai, bukan kekuatan",
+  "ex": "Through its films and music, the nation projects soft power across the globe.",
+  "exId": "Melalui film dan musiknya, bangsa itu memproyeksikan kekuatan lunak ke seluruh dunia.",
+  "colloc": [
+   "exercise soft power",
+   "cultural soft power",
+   "project soft power"
+  ],
+  "theme": "globalisation"
+ },
+ {
+  "w": "soft skills",
+  "pos": "noun",
+  "def": "Personal and interpersonal abilities, such as communication and teamwork, that help you work well with others.",
+  "defId": "keterampilan lunak; kemampuan pribadi dan antarpersonal seperti komunikasi dan kerja sama tim",
+  "ex": "Employers increasingly value soft skills such as empathy and collaboration.",
+  "exId": "Para pemberi kerja semakin menghargai keterampilan lunak seperti empati dan kolaborasi.",
+  "colloc": [
+   "develop soft skills",
+   "value soft skills",
+   "soft skills training"
+  ],
+  "theme": "work"
+ },
+ {
   "w": "software",
   "pos": "noun",
   "def": "the programs and instructions that tell a computer what to do",
@@ -39828,6 +58142,20 @@ export const VOCAB = [
    "a summer sojourn"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "solace",
+  "pos": "noun",
+  "def": "comfort or consolation in a time of sadness or distress",
+  "defId": "pelipur lara; kenyamanan atau penghiburan di saat sedih atau susah",
+  "ex": "She found solace in music after the loss of her father.",
+  "exId": "Dia menemukan pelipur lara dalam musik setelah kehilangan ayahnya.",
+  "colloc": [
+   "find solace",
+   "seek solace",
+   "offer solace"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "solar",
@@ -39856,6 +58184,19 @@ export const VOCAB = [
    "solar panel array"
   ],
   "theme": "energy"
+ },
+ {
+  "w": "solder",
+  "pos": "noun",
+  "def": "a soft metal alloy melted to join metal parts, especially in electronics",
+  "defId": "timah patri",
+  "ex": "A small blob of solder connects the wire to the circuit board.",
+  "exId": "Setetes kecil timah patri menyambungkan kabel ke papan sirkuit.",
+  "colloc": [
+   "molten solder",
+   "apply solder"
+  ],
+  "theme": "tools"
  },
  {
   "w": "soldier",
@@ -39914,6 +58255,20 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "soliloquy",
+  "pos": "noun",
+  "def": "a speech in which a character reveals their thoughts aloud while alone on stage",
+  "defId": "pidato di mana seorang tokoh mengungkapkan pikirannya dengan keras saat sendirian di panggung",
+  "ex": "Hamlet's famous soliloquy explores his despair and his fear of death.",
+  "exId": "Soliloki terkenal Hamlet mengeksplorasi keputusasaan dan ketakutannya akan kematian.",
+  "colloc": [
+   "famous soliloquy",
+   "deliver a soliloquy",
+   "opening soliloquy"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "solo",
   "pos": "noun",
   "def": "a part of a piece of music performed by a single musician or singer",
@@ -39939,6 +58294,20 @@ export const VOCAB = [
    "winter solstice"
   ],
   "theme": "space"
+ },
+ {
+  "w": "soluble",
+  "pos": "adj",
+  "def": "able to be dissolved, especially in water",
+  "defId": "dapat larut, terutama dalam air",
+  "ex": "Sugar is highly soluble and disappears quickly in hot tea.",
+  "exId": "Gula sangat mudah larut dan cepat hilang dalam teh panas.",
+  "colloc": [
+   "highly soluble",
+   "water-soluble",
+   "soluble in water"
+  ],
+  "theme": "science"
  },
  {
   "w": "solvency",
@@ -39968,6 +58337,19 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "sommelier",
+  "pos": "noun",
+  "def": "a trained wine expert who advises on and serves wine in a restaurant",
+  "defId": "ahli anggur (sommelier)",
+  "ex": "The sommelier recommended a red wine to go with the steak.",
+  "exId": "Sommelier itu merekomendasikan anggur merah untuk menemani steak.",
+  "colloc": [
+   "head sommelier",
+   "ask the sommelier"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "sonnet",
   "pos": "noun",
   "def": "A poem of fourteen lines with a fixed rhyme scheme.",
@@ -39979,6 +58361,48 @@ export const VOCAB = [
    "write a sonnet"
   ],
   "theme": "literature"
+ },
+ {
+  "w": "soot",
+  "pos": "noun",
+  "def": "a fine black powder produced when coal, wood or oil is burned incompletely.",
+  "defId": "bubuk hitam halus yang dihasilkan dari pembakaran batu bara, kayu, atau minyak yang tidak sempurna.",
+  "ex": "A layer of soot from the coal fires coated every window in the town.",
+  "exId": "Lapisan jelaga dari pembakaran batu bara menutupi setiap jendela di kota itu.",
+  "colloc": [
+   "black soot",
+   "soot particles",
+   "covered in soot"
+  ],
+  "theme": "environment"
+ },
+ {
+  "w": "soothe",
+  "pos": "verb",
+  "def": "to relieve or reduce pain, discomfort, or irritation",
+  "defId": "meredakan atau mengurangi rasa sakit, ketidaknyamanan, atau iritasi",
+  "ex": "The cream is designed to soothe irritated and sunburnt skin.",
+  "exId": "Krim ini dirancang untuk meredakan kulit yang iritasi dan terbakar sinar matahari.",
+  "colloc": [
+   "soothe the pain",
+   "soothe irritation",
+   "soothe sore skin"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "sore",
+  "pos": "adjective",
+  "def": "painful or aching, especially when touched or used",
+  "defId": "terasa sakit atau nyeri, terutama saat disentuh atau digunakan",
+  "ex": "My throat was so sore that I could barely swallow my food.",
+  "exId": "Tenggorokan saya begitu sakit hingga saya nyaris tidak bisa menelan makanan.",
+  "colloc": [
+   "sore throat",
+   "sore muscles",
+   "feel sore"
+  ],
+  "theme": "health"
  },
  {
   "w": "sorrow",
@@ -40049,6 +58473,19 @@ export const VOCAB = [
   "theme": "relationships"
  },
  {
+  "w": "sound",
+  "pos": "adjective",
+  "def": "based on good reasoning or reliable knowledge and therefore dependable",
+  "defId": "masuk akal dan dapat diandalkan",
+  "ex": "His recommendations are based on sound scientific principles.",
+  "exId": "Rekomendasinya didasarkan pada prinsip ilmiah yang masuk akal.",
+  "colloc": [
+   "sound reasoning",
+   "a sound argument"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "soundbite",
   "pos": "noun",
   "def": "a short striking quotation extracted for use in broadcasting",
@@ -40076,6 +58513,20 @@ export const VOCAB = [
   "theme": "music"
  },
  {
+  "w": "sour",
+  "pos": "adjective",
+  "def": "having a sharp, acidic taste like lemon or vinegar",
+  "defId": "masam; berasa tajam dan asam seperti lemon",
+  "ex": "The unripe apple was so sour that it made my mouth pucker.",
+  "exId": "Apel yang belum matang itu begitu masam sampai membuat mulutku mengerut.",
+  "colloc": [
+   "sour taste",
+   "turn sour",
+   "sour milk"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "source",
   "pos": "noun",
   "def": "a person or document that supplies information to a journalist",
@@ -40101,6 +58552,20 @@ export const VOCAB = [
    "a souvenir of"
   ],
   "theme": "travel"
+ },
+ {
+  "w": "sovereign debt",
+  "pos": "noun",
+  "def": "Money borrowed by a national government.",
+  "defId": "Utang negara; uang yang dipinjam oleh pemerintah suatu negara.",
+  "ex": "The country struggled to repay its mounting sovereign debt.",
+  "exId": "Negara itu kesulitan melunasi utang negaranya yang terus membengkak.",
+  "colloc": [
+   "a sovereign debt crisis",
+   "repay sovereign debt",
+   "default on sovereign debt"
+  ],
+  "theme": "economy"
  },
  {
   "w": "sovereignty",
@@ -40158,6 +58623,19 @@ export const VOCAB = [
   "theme": "space"
  },
  {
+  "w": "spaced repetition",
+  "pos": "noun",
+  "def": "a learning technique in which material is reviewed at gradually increasing intervals to aid memory",
+  "defId": "teknik belajar dengan meninjau materi pada jeda yang makin panjang untuk membantu ingatan",
+  "ex": "Language apps use spaced repetition to help users remember new words over the long term.",
+  "exId": "Aplikasi bahasa menggunakan pengulangan berjarak untuk membantu pengguna mengingat kata-kata baru dalam jangka panjang.",
+  "colloc": [
+   "spaced repetition software",
+   "use spaced repetition"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "spacewalk",
   "pos": "noun",
   "def": "an activity in which an astronaut moves and works outside a spacecraft",
@@ -40199,6 +58677,47 @@ export const VOCAB = [
   "theme": "internet"
  },
  {
+  "w": "spanner",
+  "pos": "noun",
+  "def": "a British term for a tool used to turn nuts and bolts",
+  "defId": "kunci pas",
+  "ex": "Pass me the spanner so I can loosen this nut.",
+  "exId": "Berikan aku kunci pas supaya bisa mengendurkan mur ini.",
+  "colloc": [
+   "adjustable spanner",
+   "spanner set"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "spark",
+  "pos": "verb",
+  "def": "to cause something to start or develop, especially suddenly",
+  "defId": "memicu; menyulut",
+  "ex": "The documentary sparked a national debate about food safety.",
+  "exId": "Film dokumenter itu memicu perdebatan nasional tentang keamanan pangan.",
+  "colloc": [
+   "spark a debate",
+   "spark controversy",
+   "spark interest"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "sparkle",
+  "pos": "verb",
+  "def": "to shine with many small, bright points of light",
+  "defId": "berkilau dengan banyak titik cahaya kecil yang terang",
+  "ex": "The frost made the whole field sparkle in the early morning sun.",
+  "exId": "Embun beku membuat seluruh ladang berkilauan di bawah sinar matahari pagi.",
+  "colloc": [
+   "sparkle in the light",
+   "eyes sparkle",
+   "sparkle like diamonds"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "sparse",
   "pos": "adjective",
   "def": "thinly scattered or distributed; not dense",
@@ -40225,6 +58744,20 @@ export const VOCAB = [
    "spawning ground"
   ],
   "theme": "wildlife"
+ },
+ {
+  "w": "spearhead",
+  "pos": "verb",
+  "def": "To lead or drive forward an important effort, project, or campaign.",
+  "defId": "memelopori; memimpin atau menggerakkan suatu upaya, proyek, atau kampanye penting",
+  "ex": "She was chosen to spearhead the company's expansion into overseas markets.",
+  "exId": "Dia dipilih untuk memelopori ekspansi perusahaan ke pasar luar negeri.",
+  "colloc": [
+   "spearhead a campaign",
+   "spearhead an initiative",
+   "spearhead the effort"
+  ],
+  "theme": "work"
  },
  {
   "w": "special effects",
@@ -40255,6 +58788,19 @@ export const VOCAB = [
   "theme": "wildlife"
  },
  {
+  "w": "specifically",
+  "pos": "adverb",
+  "def": "in a precise or exact way; to be more exact",
+  "defId": "secara khusus",
+  "ex": "The report focuses specifically on renewable energy in developing nations.",
+  "exId": "Laporan itu secara khusus berfokus pada energi terbarukan di negara berkembang.",
+  "colloc": [
+   "more specifically",
+   "specifically, ..."
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "specify",
   "pos": "verb",
   "def": "to state or describe something clearly and in detail",
@@ -40281,6 +58827,33 @@ export const VOCAB = [
    "specimen jar"
   ],
   "theme": "science"
+ },
+ {
+  "w": "specious",
+  "pos": "adjective",
+  "def": "seeming true or reasonable but actually wrong or misleading",
+  "defId": "tampak benar padahal keliru; menyesatkan",
+  "ex": "His argument sounds convincing but rests on specious reasoning.",
+  "exId": "Argumennya terdengar meyakinkan tetapi bertumpu pada penalaran yang menyesatkan.",
+  "colloc": [
+   "specious reasoning",
+   "a specious argument"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "speckled",
+  "pos": "adjective",
+  "def": "covered with small marks or spots of colour",
+  "defId": "berbintik-bintik kecil; berbercak",
+  "ex": "The bird's eggs were pale blue and speckled with brown.",
+  "exId": "Telur burung itu berwarna biru muda dan berbintik-bintik cokelat.",
+  "colloc": [
+   "speckled with",
+   "speckled surface",
+   "lightly speckled"
+  ],
+  "theme": "colours"
  },
  {
   "w": "spectacle",
@@ -40337,6 +58910,20 @@ export const VOCAB = [
    "speculate that"
   ],
   "theme": "science"
+ },
+ {
+  "w": "speculative",
+  "pos": "adjective",
+  "def": "based on guessing rather than on solid evidence",
+  "defId": "spekulatif; berdasar dugaan",
+  "ex": "Such conclusions are speculative and require far more evidence.",
+  "exId": "Kesimpulan semacam itu bersifat spekulatif dan memerlukan jauh lebih banyak bukti.",
+  "colloc": [
+   "highly speculative",
+   "speculative claim",
+   "purely speculative"
+  ],
+  "theme": "academic"
  },
  {
   "w": "speed camera",
@@ -40406,6 +58993,34 @@ export const VOCAB = [
   "theme": "shopping"
  },
  {
+  "w": "spherical",
+  "pos": "adjective",
+  "def": "shaped like a sphere; perfectly round in three dimensions",
+  "defId": "bulat sempurna; berbentuk bola",
+  "ex": "The designer lamp had a spherical shade made of frosted glass.",
+  "exId": "Lampu rancangan itu memiliki kap berbentuk bola yang terbuat dari kaca buram.",
+  "colloc": [
+   "spherical shape",
+   "perfectly spherical",
+   "spherical object"
+  ],
+  "theme": "colours"
+ },
+ {
+  "w": "spiel",
+  "pos": "noun",
+  "def": "a long, often rehearsed speech intended to persuade or sell something",
+  "defId": "pidato panjang yang sering dilatih untuk membujuk atau menjual sesuatu",
+  "ex": "The salesman launched into his usual spiel before we could say a word.",
+  "exId": "Penjual itu langsung melancarkan rayuan andalannya sebelum kami sempat bicara.",
+  "colloc": [
+   "sales spiel",
+   "launch into a spiel",
+   "the same old spiel"
+  ],
+  "theme": "language"
+ },
+ {
   "w": "spike",
   "pos": "noun",
   "def": "a sudden sharp rise, or to rise sharply for a short time",
@@ -40418,6 +59033,20 @@ export const VOCAB = [
    "spike sharply"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "spillage",
+  "pos": "noun",
+  "def": "an amount of liquid that has accidentally escaped from its container.",
+  "defId": "sejumlah cairan yang tumpah secara tidak sengaja dari wadahnya.",
+  "ex": "The oil spillage devastated the coastline and killed thousands of seabirds.",
+  "exId": "Tumpahan minyak itu merusak garis pantai dan membunuh ribuan burung laut.",
+  "colloc": [
+   "oil spillage",
+   "chemical spillage",
+   "clean up a spillage"
+  ],
+  "theme": "environment"
  },
  {
   "w": "spin",
@@ -40489,6 +59118,19 @@ export const VOCAB = [
   "theme": "architecture"
  },
  {
+  "w": "spirit level",
+  "pos": "noun",
+  "def": "a tool with a bubble in liquid used to check whether a surface is level",
+  "defId": "waterpas",
+  "ex": "Place a spirit level on the shelf to make sure it's straight.",
+  "exId": "Letakkan waterpas di rak untuk memastikan posisinya lurus.",
+  "colloc": [
+   "use a spirit level",
+   "bubble in the spirit level"
+  ],
+  "theme": "tools"
+ },
+ {
   "w": "spiritual",
   "pos": "adjective",
   "def": "relating to the human spirit or to religion rather than material things",
@@ -40501,6 +59143,33 @@ export const VOCAB = [
    "spiritual growth"
   ],
   "theme": "religion"
+ },
+ {
+  "w": "spite",
+  "pos": "noun",
+  "def": "a desire to hurt, annoy, or upset someone deliberately",
+  "defId": "kedengkian; keinginan untuk menyakiti, mengganggu, atau membuat orang lain kesal dengan sengaja",
+  "ex": "He deleted the shared files out of pure spite.",
+  "exId": "Dia menghapus berkas bersama itu murni karena kedengkian.",
+  "colloc": [
+   "out of spite",
+   "pure spite",
+   "do something in spite"
+  ],
+  "theme": "psychology"
+ },
+ {
+  "w": "spitting image",
+  "pos": "noun phrase",
+  "def": "a person who looks exactly like another person",
+  "defId": "sangat mirip; seperti pinang dibelah dua",
+  "ex": "The little boy is the spitting image of his father.",
+  "exId": "Anak lelaki kecil itu sangat mirip dengan ayahnya, seperti pinang dibelah dua.",
+  "colloc": [
+   "the spitting image of",
+   "absolute spitting image"
+  ],
+  "theme": "describe_people"
  },
  {
   "w": "splurge",
@@ -40597,6 +59266,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "spoofing",
+  "pos": "noun",
+  "def": "the act of disguising a communication so it appears to come from a trusted source",
+  "defId": "tindakan menyamarkan komunikasi agar tampak berasal dari sumber tepercaya",
+  "ex": "Email spoofing tricks people into thinking a message came from their bank.",
+  "exId": "Spoofing surel menipu orang agar mengira pesan itu datang dari bank mereka.",
+  "colloc": [
+   "email spoofing",
+   "IP spoofing",
+   "spoofing attack"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "sporadic",
   "pos": "adjective",
   "def": "happening at irregular intervals and not regularly or continuously",
@@ -40607,6 +59290,19 @@ export const VOCAB = [
    "sporadic outbreaks",
    "sporadic rainfall",
    "sporadic violence"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "sporadically",
+  "pos": "adverb",
+  "def": "occurring occasionally or in scattered, irregular instances",
+  "defId": "secara sporadis; sesekali dan tidak teratur",
+  "ex": "Protests broke out sporadically across the city over the following week.",
+  "exId": "Protes pecah secara sporadis di seluruh kota selama seminggu berikutnya.",
+  "colloc": [
+   "appear sporadically",
+   "occur sporadically"
   ],
   "theme": "academic"
  },
@@ -40622,6 +59318,47 @@ export const VOCAB = [
    "display sportsmanship"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "spotless",
+  "pos": "adjective",
+  "def": "perfectly clean, without a single mark or stain",
+  "defId": "bersih tanpa noda",
+  "ex": "Her kitchen was always spotless, with every surface gleaming.",
+  "exId": "Dapurnya selalu bersih tanpa noda, dengan setiap permukaan berkilau.",
+  "colloc": [
+   "a spotless kitchen",
+   "spotlessly clean"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "spotlight",
+  "pos": "noun",
+  "def": "a strong beam of light directed at a performer, or figuratively intense public attention",
+  "defId": "sorotan cahaya kuat yang diarahkan ke pemain, atau secara kiasan perhatian publik yang intens",
+  "ex": "A single spotlight illuminated the actor as he delivered his final lines.",
+  "exId": "Satu sorotan lampu menyinari sang aktor saat ia mengucapkan kalimat terakhirnya.",
+  "colloc": [
+   "in the spotlight",
+   "under the spotlight",
+   "shine a spotlight on"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "spotted",
+  "pos": "adjective",
+  "def": "marked with a pattern of small round dots",
+  "defId": "berbintik; bertotol",
+  "ex": "She bought a spotted scarf with white dots on a red background.",
+  "exId": "Dia membeli syal berbintik dengan totol putih di atas dasar merah.",
+  "colloc": [
+   "spotted pattern",
+   "spotted fabric",
+   "heavily spotted"
+  ],
+  "theme": "colours"
  },
  {
   "w": "spouse",
@@ -40691,6 +59428,47 @@ export const VOCAB = [
   "theme": "sport"
  },
  {
+  "w": "spur",
+  "pos": "verb",
+  "def": "to encourage or cause an activity or development to happen faster",
+  "defId": "memacu; mendorong",
+  "ex": "Government subsidies helped spur growth in the renewable energy sector.",
+  "exId": "Subsidi pemerintah membantu memacu pertumbuhan di sektor energi terbarukan.",
+  "colloc": [
+   "spur growth",
+   "spur demand",
+   "spur investment"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "spurious",
+  "pos": "adjective",
+  "def": "false or fake, though appearing to be genuine or valid",
+  "defId": "palsu; keliru",
+  "ex": "The correlation is spurious and disappears when other factors are controlled.",
+  "exId": "Korelasi itu palsu dan menghilang ketika faktor lain dikendalikan.",
+  "colloc": [
+   "a spurious correlation",
+   "spurious claims"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "spyware",
+  "pos": "noun",
+  "def": "malicious software that secretly gathers information about a user without their consent",
+  "defId": "perangkat lunak berbahaya yang diam-diam mengumpulkan informasi tentang pengguna tanpa persetujuan",
+  "ex": "The antivirus flagged a piece of spyware that had been logging his keystrokes.",
+  "exId": "Antivirus menandai spyware yang telah merekam ketukan tombolnya.",
+  "colloc": [
+   "detect spyware",
+   "spyware infection",
+   "remove spyware"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "squad",
   "pos": "noun",
   "def": "a group of players from which a team is chosen",
@@ -40733,6 +59511,34 @@ export const VOCAB = [
   "theme": "money"
  },
  {
+  "w": "squeak",
+  "pos": "verb",
+  "def": "to make a short, very high-pitched sound",
+  "defId": "mencicit; berdecit",
+  "ex": "The rusty hinge squeaked as he slowly pushed the gate open.",
+  "exId": "Engsel berkarat itu berdecit saat ia perlahan mendorong gerbangnya terbuka.",
+  "colloc": [
+   "a mouse squeaks",
+   "shoes squeak",
+   "squeak loudly"
+  ],
+  "theme": "sound_movement"
+ },
+ {
+  "w": "squeal",
+  "pos": "verb",
+  "def": "to make a long, high-pitched cry or sound",
+  "defId": "memekik; menjerit melengking",
+  "ex": "The children squealed with delight as the rollercoaster plunged.",
+  "exId": "Anak-anak memekik gembira saat roller coaster meluncur turun.",
+  "colloc": [
+   "squeal with delight",
+   "brakes squeal",
+   "squeal in pain"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "stabilise",
   "pos": "verb",
   "def": "to become steady and stop rising or falling",
@@ -40745,6 +59551,20 @@ export const VOCAB = [
    "gradually stabilise"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "staffing",
+  "pos": "noun",
+  "def": "The way an organisation is provided with the right number and placement of employees.",
+  "defId": "penataan tenaga kerja; penyediaan jumlah dan penempatan karyawan yang tepat dalam organisasi",
+  "ex": "Poor staffing levels meant the department could not cope with demand.",
+  "exId": "Jumlah tenaga kerja yang kurang memadai membuat departemen itu tidak mampu memenuhi permintaan.",
+  "colloc": [
+   "staffing levels",
+   "staffing shortage",
+   "adequate staffing"
+  ],
+  "theme": "work"
  },
  {
   "w": "stag do",
@@ -40761,6 +59581,34 @@ export const VOCAB = [
   "theme": "uk_social"
  },
  {
+  "w": "stagecraft",
+  "pos": "noun",
+  "def": "the skill of writing, directing, and staging plays effectively",
+  "defId": "keterampilan menulis, menyutradarai, dan mementaskan lakon secara efektif",
+  "ex": "The director's masterful stagecraft turned a simple script into an unforgettable spectacle.",
+  "exId": "Keahlian panggung sang sutradara mengubah naskah sederhana menjadi tontonan yang tak terlupakan.",
+  "colloc": [
+   "masterful stagecraft",
+   "learn stagecraft",
+   "clever stagecraft"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "stagger",
+  "pos": "verb",
+  "def": "to walk or move unsteadily, as if about to fall",
+  "defId": "terhuyung-huyung; sempoyongan",
+  "ex": "He staggered out of the ring, dazed after the final blow.",
+  "exId": "Ia terhuyung-huyung keluar dari ring, pusing setelah pukulan terakhir.",
+  "colloc": [
+   "stagger to one's feet",
+   "stagger backwards",
+   "stagger drunkenly"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "staggering",
   "pos": "adjective",
   "def": "astonishingly large, high, or shocking",
@@ -40773,6 +59621,20 @@ export const VOCAB = [
    "staggering number"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "stagnant",
+  "pos": "adjective",
+  "def": "Not growing or developing; showing no activity or progress.",
+  "defId": "Stagnan; tidak tumbuh atau berkembang; tanpa aktivitas maupun kemajuan.",
+  "ex": "Wages have remained stagnant while the cost of living keeps rising.",
+  "exId": "Upah tetap stagnan sementara biaya hidup terus meningkat.",
+  "colloc": [
+   "stagnant wages",
+   "a stagnant economy",
+   "remain stagnant"
+  ],
+  "theme": "economy"
  },
  {
   "w": "stagnate",
@@ -40870,6 +59732,19 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "stance",
+  "pos": "noun",
+  "def": "a publicly stated opinion or attitude towards something",
+  "defId": "sikap; pendirian",
+  "ex": "The government has softened its stance on immigration in recent years.",
+  "exId": "Pemerintah telah melunakkan sikapnya terhadap imigrasi dalam beberapa tahun terakhir.",
+  "colloc": [
+   "take a stance",
+   "tough stance"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "standard of living",
   "pos": "noun",
   "def": "the level of comfort, wealth and material goods a person or group has",
@@ -40881,6 +59756,33 @@ export const VOCAB = [
    "a high standard of living"
   ],
   "theme": "globalisation"
+ },
+ {
+  "w": "standardise",
+  "pos": "verb",
+  "def": "to make things of the same type all have the same features or rules",
+  "defId": "menyeragamkan agar semuanya memiliki fitur atau aturan yang sama",
+  "ex": "Multinational chains standardise their menus so customers get the same experience everywhere.",
+  "exId": "Jaringan multinasional menyeragamkan menu mereka agar pelanggan mendapat pengalaman yang sama di mana saja.",
+  "colloc": [
+   "standardise procedures",
+   "standardise products",
+   "standardise regulations"
+  ],
+  "theme": "globalisation"
+ },
+ {
+  "w": "standardised test",
+  "pos": "noun",
+  "def": "an exam that is given and marked in the same way for all students so that results can be compared",
+  "defId": "ujian yang diberikan dan dinilai dengan cara sama untuk semua siswa agar hasilnya dapat dibandingkan",
+  "ex": "Critics claim that standardised tests fail to capture a child's creativity.",
+  "exId": "Para kritikus menyatakan bahwa tes terstandar gagal menangkap kreativitas seorang anak.",
+  "colloc": [
+   "sit a standardised test",
+   "standardised testing"
+  ],
+  "theme": "education"
  },
  {
   "w": "standby",
@@ -40922,6 +59824,19 @@ export const VOCAB = [
    "well-deserved standing ovation"
   ],
   "theme": "film"
+ },
+ {
+  "w": "standpoint",
+  "pos": "noun",
+  "def": "a particular attitude or way of considering a matter",
+  "defId": "sudut pandang; pendirian",
+  "ex": "From an economic standpoint, the policy makes little sense.",
+  "exId": "Dari sudut pandang ekonomi, kebijakan itu kurang masuk akal.",
+  "colloc": [
+   "from a standpoint",
+   "moral standpoint"
+  ],
+  "theme": "academic"
  },
  {
   "w": "stanza",
@@ -40992,6 +59907,20 @@ export const VOCAB = [
   "theme": "space"
  },
  {
+  "w": "starter",
+  "pos": "noun",
+  "def": "the first course of a meal, usually a small dish eaten before the main course",
+  "defId": "hidangan pertama dalam sebuah santapan, biasanya porsi kecil sebelum menu utama",
+  "ex": "For my starter I chose the tomato soup, which came with warm bread.",
+  "exId": "Untuk hidangan pertama saya memilih sup tomat, yang disajikan dengan roti hangat.",
+  "colloc": [
+   "a light starter",
+   "skip the starter",
+   "choose a starter"
+  ],
+  "theme": "food"
+ },
+ {
   "w": "startup",
   "pos": "noun",
   "def": "a newly established business, especially a small one in its early stages",
@@ -41017,6 +59946,19 @@ export const VOCAB = [
    "state-of-the-art equipment"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "statecraft",
+  "pos": "noun",
+  "def": "the skilled management of state affairs and the conduct of government",
+  "defId": "kenegarawanan; keterampilan mengelola urusan negara dan menjalankan pemerintahan",
+  "ex": "Resolving the crisis without conflict was widely seen as a masterclass in statecraft.",
+  "exId": "Menyelesaikan krisis tanpa konflik dipandang luas sebagai contoh unggul dalam kenegarawanan.",
+  "colloc": [
+   "skilful statecraft",
+   "the art of statecraft"
+  ],
+  "theme": "politics"
  },
  {
   "w": "statement",
@@ -41045,6 +59987,59 @@ export const VOCAB = [
    "statement piece jewellery"
   ],
   "theme": "fashion"
+ },
+ {
+  "w": "statesman",
+  "pos": "noun",
+  "def": "a respected and experienced political leader, especially one admired for wisdom and integrity",
+  "defId": "negarawan; pemimpin politik yang dihormati dan berpengalaman, terutama karena kebijaksanaan dan integritasnya",
+  "ex": "He was remembered less as a party politician and more as a statesman who put national interest first.",
+  "exId": "Ia dikenang bukan sebagai politikus partai, melainkan sebagai negarawan yang mengutamakan kepentingan nasional.",
+  "colloc": [
+   "elder statesman",
+   "respected statesman"
+  ],
+  "theme": "politics"
+ },
+ {
+  "w": "statistic",
+  "pos": "noun",
+  "def": "a piece of information shown as a number or measurement",
+  "defId": "statistik; angka data",
+  "ex": "One striking statistic is that half of all journeys were under three kilometres.",
+  "exId": "Satu statistik yang mencolok adalah bahwa separuh dari semua perjalanan berjarak kurang dari tiga kilometer.",
+  "colloc": [
+   "a striking statistic",
+   "official statistics"
+  ],
+  "theme": "numbers"
+ },
+ {
+  "w": "statistician",
+  "pos": "noun",
+  "def": "a person who collects, analyses, and interprets numerical data",
+  "defId": "ahli statistik",
+  "ex": "The statistician analysed the survey results for hidden trends.",
+  "exId": "Ahli statistik itu menganalisis hasil survei untuk menemukan tren tersembunyi.",
+  "colloc": [
+   "government statistician",
+   "chief statistician"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "statuesque",
+  "pos": "adjective",
+  "def": "tall, dignified and attractively impressive in build",
+  "defId": "tinggi semampai dan berwibawa",
+  "ex": "The statuesque actress commanded attention the moment she entered.",
+  "exId": "Aktris yang tinggi semampai itu langsung menyita perhatian begitu masuk.",
+  "colloc": [
+   "statuesque figure",
+   "statuesque beauty",
+   "tall and statuesque"
+  ],
+  "theme": "describe_people"
  },
  {
   "w": "statute",
@@ -41130,6 +60125,48 @@ export const VOCAB = [
   "theme": "transport"
  },
  {
+  "w": "stem",
+  "pos": "verb",
+  "def": "to stop something from spreading or getting worse",
+  "defId": "membendung; menahan",
+  "ex": "The government introduced measures to stem the spread of the disease.",
+  "exId": "Pemerintah menerapkan langkah-langkah untuk membendung penyebaran penyakit itu.",
+  "colloc": [
+   "stem the flow",
+   "stem the tide",
+   "stem the spread"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "stem from",
+  "pos": "phrasal verb",
+  "def": "to be caused by or originate from something",
+  "defId": "berakar dari; berasal dari",
+  "ex": "Many of his health problems stem from a poor diet.",
+  "exId": "Banyak masalah kesehatannya berakar dari pola makan yang buruk.",
+  "colloc": [
+   "stem from a cause",
+   "problems stem from",
+   "stem from a lack of"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "stench",
+  "pos": "noun",
+  "def": "a very strong and unpleasant smell",
+  "defId": "bau busuk; bau yang sangat kuat dan tidak sedap",
+  "ex": "The stench of rotting rubbish hung over the alley.",
+  "exId": "Bau busuk sampah membusuk menggantung di gang itu.",
+  "colloc": [
+   "the stench of",
+   "overpowering stench",
+   "stench of decay"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "stepchild",
   "pos": "noun",
   "def": "a child of one's husband or wife from a previous relationship",
@@ -41194,6 +60231,48 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "sticky",
+  "pos": "adjective",
+  "def": "tending to stick to things when touched",
+  "defId": "lengket; cenderung menempel saat disentuh",
+  "ex": "My fingers were sticky after eating the honey cake.",
+  "exId": "Jari-jariku lengket setelah makan kue madu itu.",
+  "colloc": [
+   "sticky fingers",
+   "sticky substance",
+   "sticky surface"
+  ],
+  "theme": "senses"
+ },
+ {
+  "w": "stiffness",
+  "pos": "noun",
+  "def": "the state of being difficult to bend or move, often in joints or muscles",
+  "defId": "keadaan sulit ditekuk atau digerakkan, sering pada sendi atau otot",
+  "ex": "Morning stiffness in her joints is one of the first signs of arthritis.",
+  "exId": "Kaku sendi di pagi hari adalah salah satu tanda awal radang sendi.",
+  "colloc": [
+   "muscle stiffness",
+   "joint stiffness",
+   "morning stiffness"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "stifle",
+  "pos": "verb",
+  "def": "to prevent something from developing or being expressed",
+  "defId": "menghambat; membungkam atau mematikan",
+  "ex": "Excessive regulation can stifle innovation and creativity.",
+  "exId": "Regulasi yang berlebihan dapat menghambat inovasi dan kreativitas.",
+  "colloc": [
+   "stifle innovation",
+   "stifle creativity",
+   "stifle dissent"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "stigma",
   "pos": "noun",
   "def": "A strong sense of social disapproval attached to a particular circumstance, quality, or person.",
@@ -41248,6 +60327,19 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "stipend",
+  "pos": "noun",
+  "def": "a fixed regular sum paid as a salary or allowance, especially to a student or trainee",
+  "defId": "tunjangan atau uang saku tetap yang dibayarkan secara berkala, terutama kepada mahasiswa",
+  "ex": "The PhD programme offers a modest monthly stipend to cover living costs.",
+  "exId": "Program doktor itu menawarkan tunjangan bulanan sederhana untuk menutupi biaya hidup.",
+  "colloc": [
+   "monthly stipend",
+   "a research stipend"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "stipulate",
   "pos": "verb",
   "def": "to state clearly and firmly that something must be done as a condition",
@@ -41287,6 +60379,62 @@ export const VOCAB = [
    "take stock"
   ],
   "theme": "shopping"
+ },
+ {
+  "w": "stockpile",
+  "pos": "verb",
+  "def": "to accumulate and store a large reserve of goods or materials for future use",
+  "defId": "menimbun dan menyimpan cadangan barang atau bahan dalam jumlah besar",
+  "ex": "Manufacturers began to stockpile components ahead of the expected supply shortage.",
+  "exId": "Para produsen mulai menimbun komponen menjelang kelangkaan pasokan yang diperkirakan.",
+  "colloc": [
+   "stockpile goods",
+   "stockpile inventory",
+   "build up a stockpile"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "stocktaking",
+  "pos": "noun",
+  "def": "the process of counting and recording all the goods a business currently holds",
+  "defId": "proses menghitung dan mencatat semua barang yang saat ini dimiliki suatu usaha",
+  "ex": "The shop closes early once a month for stocktaking to reconcile its inventory.",
+  "exId": "Toko itu tutup lebih awal sebulan sekali untuk penghitungan stok guna mencocokkan persediaannya.",
+  "colloc": [
+   "annual stocktaking",
+   "carry out stocktaking",
+   "stocktaking exercise"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "stocky",
+  "pos": "adjective",
+  "def": "short and solidly built, often broad and strong",
+  "defId": "bertubuh pendek dan kekar",
+  "ex": "The bodyguard was a stocky man with thick arms and a broad chest.",
+  "exId": "Pengawal itu adalah pria bertubuh pendek kekar dengan lengan tebal dan dada bidang.",
+  "colloc": [
+   "stocky build",
+   "stocky man",
+   "stocky frame"
+  ],
+  "theme": "describe_people"
+ },
+ {
+  "w": "stodgy",
+  "pos": "adjective",
+  "def": "of food, heavy, starchy and filling in a way that can feel unpleasant",
+  "defId": "tentang makanan, berat, banyak pati, dan mengenyangkan hingga terasa kurang nyaman",
+  "ex": "The pudding was rather stodgy and sat heavily in my stomach.",
+  "exId": "Puding itu agak berat berpati dan terasa mengganjal di perut.",
+  "colloc": [
+   "a stodgy pudding",
+   "stodgy food",
+   "heavy and stodgy"
+  ],
+  "theme": "food"
  },
  {
   "w": "stopover",
@@ -41358,6 +60506,20 @@ export const VOCAB = [
   "theme": "conflict"
  },
  {
+  "w": "stratification",
+  "pos": "noun",
+  "def": "the arrangement of a society into layers or classes with unequal status",
+  "defId": "stratifikasi; penyusunan masyarakat ke dalam lapisan atau kelas dengan status tidak setara",
+  "ex": "Sociologists study how wealth reinforces social stratification across generations.",
+  "exId": "Para sosiolog mempelajari bagaimana kekayaan memperkuat stratifikasi sosial lintas generasi.",
+  "colloc": [
+   "social stratification",
+   "rigid stratification",
+   "stratification by class"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "stream",
   "pos": "noun",
   "def": "a small, narrow river of flowing water",
@@ -41397,6 +60559,19 @@ export const VOCAB = [
    "streamline workflow"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "streetlamp",
+  "pos": "n",
+  "def": "A tall lamp beside a road or path that lights up the street at night.",
+  "defId": "Lampu tinggi di tepi jalan yang menerangi jalanan pada malam hari.",
+  "ex": "The old gas streetlamps give the cobbled square a wonderfully nostalgic glow.",
+  "exId": "Lampu jalan gas kuno itu memberi alun-alun berbatu itu cahaya nostalgia yang indah.",
+  "colloc": [
+   "flickering streetlamp",
+   "beneath a streetlamp"
+  ],
+  "theme": "urban"
  },
  {
   "w": "streetlight",
@@ -41481,6 +60656,48 @@ export const VOCAB = [
   "theme": "body"
  },
  {
+  "w": "striking",
+  "pos": "adjective",
+  "def": "very noticeable and impressive in appearance",
+  "defId": "mencolok dan memukau",
+  "ex": "With her bright green eyes, she had a striking appearance.",
+  "exId": "Dengan mata hijau cerahnya, dia memiliki penampilan yang memukau.",
+  "colloc": [
+   "striking appearance",
+   "striking looks",
+   "striking features"
+  ],
+  "theme": "describe_people"
+ },
+ {
+  "w": "striped",
+  "pos": "adjective",
+  "def": "marked with bands of different colours or tones",
+  "defId": "bergaris; belang",
+  "ex": "He was wearing a blue and white striped shirt.",
+  "exId": "Dia mengenakan kemeja bergaris biru dan putih.",
+  "colloc": [
+   "striped pattern",
+   "striped shirt",
+   "boldly striped"
+  ],
+  "theme": "colours"
+ },
+ {
+  "w": "stroll",
+  "pos": "verb",
+  "def": "to walk somewhere in a slow, relaxed manner",
+  "defId": "berjalan santai",
+  "ex": "After dinner they strolled along the beach as the sun set.",
+  "exId": "Setelah makan malam mereka berjalan santai menyusuri pantai saat matahari terbenam.",
+  "colloc": [
+   "stroll along",
+   "stroll through the park",
+   "stroll leisurely"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "strong-willed",
   "pos": "adjective",
   "def": "determined to do what you want even if others try to stop you",
@@ -41506,6 +60723,20 @@ export const VOCAB = [
    "last stronghold"
   ],
   "theme": "conflict"
+ },
+ {
+  "w": "structural adjustment",
+  "pos": "noun",
+  "def": "economic reforms a country must adopt to receive international loans",
+  "defId": "reformasi ekonomi yang harus dijalankan suatu negara untuk memperoleh pinjaman internasional",
+  "ex": "Structural adjustment programmes forced many governments to cut public spending sharply.",
+  "exId": "Program penyesuaian struktural memaksa banyak pemerintah memangkas belanja publik secara tajam.",
+  "colloc": [
+   "structural adjustment programme",
+   "impose structural adjustment",
+   "structural adjustment policies"
+  ],
+  "theme": "globalisation"
  },
  {
   "w": "structure",
@@ -41563,6 +60794,20 @@ export const VOCAB = [
   "theme": "personality"
  },
  {
+  "w": "stumble",
+  "pos": "verb",
+  "def": "to trip or momentarily lose one's balance while walking",
+  "defId": "tersandung; terhuyung",
+  "ex": "She stumbled over a loose brick but managed to steady herself.",
+  "exId": "Ia tersandung batu bata yang lepas tetapi berhasil menyeimbangkan diri.",
+  "colloc": [
+   "stumble over",
+   "stumble and fall",
+   "stumble in the dark"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "stunt",
   "pos": "noun",
   "def": "a dangerous action performed for a film",
@@ -41575,6 +60820,20 @@ export const VOCAB = [
    "dangerous stunt"
   ],
   "theme": "film"
+ },
+ {
+  "w": "sturdy",
+  "pos": "adjective",
+  "def": "strong and solidly built physically",
+  "defId": "kokoh dan berbadan kuat",
+  "ex": "He had the sturdy legs of someone who walked in the mountains every day.",
+  "exId": "Dia memiliki kaki kokoh seperti orang yang mendaki gunung setiap hari.",
+  "colloc": [
+   "sturdy legs",
+   "sturdy build",
+   "sturdy frame"
+  ],
+  "theme": "describe_people"
  },
  {
   "w": "stutter",
@@ -41739,6 +60998,32 @@ export const VOCAB = [
   "theme": "media"
  },
  {
+  "w": "subsequent",
+  "pos": "adjective",
+  "def": "coming after something else in time; following",
+  "defId": "berikutnya; yang terjadi kemudian",
+  "ex": "The initial trial was successful, and subsequent studies confirmed the results.",
+  "exId": "Uji coba awal berhasil, dan studi berikutnya mengonfirmasi hasilnya.",
+  "colloc": [
+   "subsequent events",
+   "subsequent years"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "subsequently",
+  "pos": "adverb",
+  "def": "afterwards; following that in time or order",
+  "defId": "kemudian",
+  "ex": "The law was passed in 2010 and subsequently amended twice.",
+  "exId": "Undang-undang itu disahkan pada tahun 2010 dan kemudian diamandemen dua kali.",
+  "colloc": [
+   "subsequently, ...",
+   "subsequently revised"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "subside",
   "pos": "verb",
   "def": "to become less strong, severe, or intense",
@@ -41822,6 +61107,19 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "substation",
+  "pos": "n",
+  "def": "A facility where the voltage of electricity is changed before being distributed to homes.",
+  "defId": "Fasilitas tempat tegangan listrik diubah sebelum didistribusikan ke rumah-rumah.",
+  "ex": "A fault at the local substation left half the district without power for hours.",
+  "exId": "Gangguan di gardu listrik setempat membuat separuh kawasan itu tanpa listrik berjam-jam.",
+  "colloc": [
+   "electrical substation",
+   "power substation"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "substitute",
   "pos": "noun",
   "def": "a player brought on to replace another during a match",
@@ -41877,6 +61175,32 @@ export const VOCAB = [
   "theme": "urban"
  },
  {
+  "w": "suburbia",
+  "pos": "n",
+  "def": "The suburbs of a city thought of together, especially their lifestyle and atmosphere.",
+  "defId": "Kawasan pinggiran kota secara keseluruhan, terutama gaya hidup dan suasananya.",
+  "ex": "He longed to escape the quiet sameness of leafy suburbia.",
+  "exId": "Dia rindu melarikan diri dari keseragaman sunyi kawasan pinggiran yang rimbun.",
+  "colloc": [
+   "leafy suburbia",
+   "commuter suburbia"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "subway",
+  "pos": "n",
+  "def": "An underground passage that lets pedestrians cross beneath a busy road (British English).",
+  "defId": "Terowongan bawah tanah yang memungkinkan pejalan kaki menyeberang di bawah jalan yang ramai (Inggris British).",
+  "ex": "Rather than dodge the traffic, we took the subway under the dual carriageway.",
+  "exId": "Daripada menghindari lalu lintas, kami melewati terowongan bawah tanah di bawah jalan raya dua arah.",
+  "colloc": [
+   "pedestrian subway",
+   "take the subway"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "subzero",
   "pos": "adjective",
   "def": "below zero degrees; extremely cold",
@@ -41889,6 +61213,47 @@ export const VOCAB = [
    "plunge to subzero"
   ],
   "theme": "weather"
+ },
+ {
+  "w": "succession",
+  "pos": "noun",
+  "def": "The process by which one person takes over a role or position from another.",
+  "defId": "suksesi; proses ketika seseorang mengambil alih peran atau jabatan dari orang lain",
+  "ex": "The board has no clear plan for succession once the founder retires.",
+  "exId": "Dewan direksi tidak memiliki rencana suksesi yang jelas setelah sang pendiri pensiun.",
+  "colloc": [
+   "succession planning",
+   "line of succession",
+   "a smooth succession"
+  ],
+  "theme": "work"
+ },
+ {
+  "w": "successively",
+  "pos": "adverb",
+  "def": "happening one after the other in a series",
+  "defId": "secara berurutan; satu demi satu",
+  "ex": "Prices rose successively over several months before finally stabilising.",
+  "exId": "Harga naik secara berurutan selama beberapa bulan sebelum akhirnya stabil.",
+  "colloc": [
+   "successively higher",
+   "successively reduced"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "succinct",
+  "pos": "adjective",
+  "def": "expressed clearly and in very few words; brief but complete",
+  "defId": "disampaikan dengan jelas dan sangat singkat; ringkas namun lengkap",
+  "ex": "Her answer was so succinct that the examiner immediately understood her main point.",
+  "exId": "Jawabannya begitu ringkas sehingga penguji langsung memahami poin utamanya.",
+  "colloc": [
+   "a succinct summary",
+   "succinct and clear",
+   "keep it succinct"
+  ],
+  "theme": "language"
  },
  {
   "w": "succulent",
@@ -41946,6 +61311,33 @@ export const VOCAB = [
   "theme": "politics"
  },
  {
+  "w": "suggest",
+  "pos": "verb",
+  "def": "to indicate something as possible or probable without stating it directly",
+  "defId": "menunjukkan; mengindikasikan",
+  "ex": "The findings suggest that early intervention improves long-term outcomes.",
+  "exId": "Temuan tersebut menunjukkan bahwa intervensi dini memperbaiki hasil jangka panjang.",
+  "colloc": [
+   "evidence suggests",
+   "results suggest",
+   "strongly suggest"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "sum",
+  "pos": "noun",
+  "def": "the total obtained by adding numbers or amounts together",
+  "defId": "jumlah; total",
+  "ex": "The sum of the exports from all three countries exceeded ten billion dollars.",
+  "exId": "Jumlah ekspor dari ketiga negara itu melebihi sepuluh miliar dolar.",
+  "colloc": [
+   "total sum",
+   "sum of money"
+  ],
+  "theme": "numbers"
+ },
+ {
   "w": "summarise",
   "pos": "verb",
   "def": "to give the main points of something in a short and clear way",
@@ -41998,6 +61390,32 @@ export const VOCAB = [
    "a roast dinner"
   ],
   "theme": "uk_social"
+ },
+ {
+  "w": "superficial",
+  "pos": "adjective",
+  "def": "dealing only with the surface of a subject, not in depth",
+  "defId": "dangkal",
+  "ex": "The essay offers only a superficial analysis of the causes of war.",
+  "exId": "Esai itu hanya menawarkan analisis yang dangkal tentang penyebab perang.",
+  "colloc": [
+   "a superficial analysis",
+   "superficial understanding"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "superfluous",
+  "pos": "adjective",
+  "def": "more than is needed and therefore unnecessary",
+  "defId": "berlebihan; tak perlu",
+  "ex": "Editors removed several superfluous details to sharpen the argument.",
+  "exId": "Editor menghapus beberapa detail yang tak perlu untuk mempertajam argumen.",
+  "colloc": [
+   "superfluous detail",
+   "seem superfluous"
+  ],
+  "theme": "academic"
  },
  {
   "w": "superior",
@@ -42053,6 +61471,20 @@ export const VOCAB = [
    "line supervisor"
   ],
   "theme": "work"
+ },
+ {
+  "w": "supple",
+  "pos": "adjective",
+  "def": "bending and moving easily; soft and flexible to touch",
+  "defId": "lentur; mudah ditekuk dan digerakkan, lembut serta fleksibel",
+  "ex": "The new leather gloves were remarkably soft and supple.",
+  "exId": "Sarung tangan kulit baru itu terasa sangat lembut dan lentur.",
+  "colloc": [
+   "soft and supple",
+   "supple leather",
+   "supple skin"
+  ],
+  "theme": "senses"
  },
  {
   "w": "supplement",
@@ -42111,6 +61543,61 @@ export const VOCAB = [
   "theme": "film"
  },
  {
+  "w": "suppose",
+  "pos": "verb",
+  "def": "to think that something is probably true or likely, though you are not certain",
+  "defId": "menduga atau mengira sesuatu mungkin benar",
+  "ex": "I suppose there are advantages to city life, though I still prefer the countryside.",
+  "exId": "Saya kira ada kelebihan hidup di kota, meski saya tetap lebih suka pedesaan.",
+  "colloc": [
+   "I suppose so",
+   "suppose that",
+   "I suppose you're right"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "supposedly",
+  "pos": "adverb",
+  "def": "according to what is generally believed, though possibly untrue",
+  "defId": "katanya; seharusnya",
+  "ex": "The new method is supposedly more efficient, but the data are unconvincing.",
+  "exId": "Metode baru itu katanya lebih efisien, tetapi datanya kurang meyakinkan.",
+  "colloc": [
+   "supposedly better",
+   "supposedly neutral",
+   "supposedly foolproof"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "supposition",
+  "pos": "noun",
+  "def": "an idea or belief that is assumed to be true without proof",
+  "defId": "dugaan; anggapan",
+  "ex": "His argument rests on the supposition that people always act rationally.",
+  "exId": "Argumennya bertumpu pada dugaan bahwa orang selalu bertindak secara rasional.",
+  "colloc": [
+   "on the supposition that",
+   "mere supposition"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "suppress",
+  "pos": "verb",
+  "def": "to prevent something from developing, or to stop it by force",
+  "defId": "menekan; meredam",
+  "ex": "The government tried to suppress all news of the protests.",
+  "exId": "Pemerintah berusaha meredam semua berita tentang protes itu.",
+  "colloc": [
+   "suppress information",
+   "suppress a rebellion",
+   "suppress emotions"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "surge",
   "pos": "verb",
   "def": "to rise suddenly and strongly; a sudden sharp increase",
@@ -42125,6 +61612,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "surgeon",
+  "pos": "noun",
+  "def": "a doctor who is specially trained to perform operations on patients",
+  "defId": "dokter bedah",
+  "ex": "The surgeon spent six hours removing the tumour.",
+  "exId": "Dokter bedah itu menghabiskan enam jam untuk mengangkat tumor tersebut.",
+  "colloc": [
+   "heart surgeon",
+   "perform surgery",
+   "consultant surgeon"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "surgery",
   "pos": "noun",
   "def": "The building or office where a GP sees patients; also the period when a doctor is available to see patients.",
@@ -42137,6 +61638,33 @@ export const VOCAB = [
    "morning surgery"
   ],
   "theme": "uk_health"
+ },
+ {
+  "w": "surmise",
+  "pos": "verb",
+  "def": "to guess or conclude something from limited evidence",
+  "defId": "menduga; menyimpulkan",
+  "ex": "From the results, we can surmise that motivation played a key role.",
+  "exId": "Dari hasilnya, kita dapat menduga bahwa motivasi memainkan peran penting.",
+  "colloc": [
+   "reasonably surmise",
+   "we can surmise",
+   "surmise that"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "surpass",
+  "pos": "verb",
+  "def": "to be greater or better than someone or something else",
+  "defId": "melebihi atau lebih baik daripada seseorang atau sesuatu",
+  "ex": "Renewable energy output has now surpassed that of coal in several countries.",
+  "exId": "Keluaran energi terbarukan kini telah melampaui batu bara di beberapa negara.",
+  "colloc": [
+   "surpass expectations",
+   "far surpass"
+  ],
+  "theme": "academic"
  },
  {
   "w": "surplus",
@@ -42206,6 +61734,19 @@ export const VOCAB = [
    "mass surveillance"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "survey",
+  "pos": "noun",
+  "def": "a set of questions asked of many people to gather information",
+  "defId": "survei; jajak pendapat",
+  "ex": "According to the survey, most people spent more on leisure than on food.",
+  "exId": "Menurut survei itu, kebanyakan orang menghabiskan lebih banyak untuk hiburan daripada makanan.",
+  "colloc": [
+   "conduct a survey",
+   "survey results"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "surveyor",
@@ -42306,6 +61847,20 @@ export const VOCAB = [
   "theme": "environment"
  },
  {
+  "w": "swab",
+  "pos": "noun",
+  "def": "a small piece of material used to take a sample or clean a wound",
+  "defId": "kapas atau kain kecil untuk mengambil sampel atau membersihkan luka",
+  "ex": "The nurse took a swab from his throat to test for infection.",
+  "exId": "Perawat mengambil usap dari tenggorokannya untuk memeriksa adanya infeksi.",
+  "colloc": [
+   "take a swab",
+   "a throat swab",
+   "a cotton swab"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "swallow",
   "pos": "verb",
   "def": "to make food or drink go down the throat from the mouth",
@@ -42332,6 +61887,20 @@ export const VOCAB = [
    "dense swarm"
   ],
   "theme": "wildlife"
+ },
+ {
+  "w": "sway",
+  "pos": "verb",
+  "def": "to move slowly back and forth or from side to side",
+  "defId": "bergoyang; berayun",
+  "ex": "The tall trees swayed gently in the evening breeze.",
+  "exId": "Pepohonan tinggi itu bergoyang lembut ditiup angin sore.",
+  "colloc": [
+   "sway gently",
+   "sway back and forth",
+   "sway in the wind"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "sweatshop",
@@ -42373,6 +61942,20 @@ export const VOCAB = [
    "crucial swing voter"
   ],
   "theme": "politics"
+ },
+ {
+  "w": "swollen",
+  "pos": "adjective",
+  "def": "enlarged by fluid or inflammation; larger than normal",
+  "defId": "membengkak akibat cairan atau peradangan; lebih besar dari biasanya",
+  "ex": "Her ankle was badly swollen after she twisted it during the match.",
+  "exId": "Pergelangan kakinya membengkak parah setelah terkilir saat pertandingan.",
+  "colloc": [
+   "swollen ankle",
+   "swollen glands",
+   "badly swollen"
+  ],
+  "theme": "health"
  },
  {
   "w": "sworn",
@@ -42444,6 +62027,20 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "symmetrical",
+  "pos": "adjective",
+  "def": "having two halves that are exactly the same in size and shape",
+  "defId": "simetris; setangkup",
+  "ex": "The garden was laid out in a perfectly symmetrical design.",
+  "exId": "Taman itu ditata dengan desain yang benar-benar simetris.",
+  "colloc": [
+   "symmetrical design",
+   "perfectly symmetrical",
+   "symmetrical pattern"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "symmetry",
   "pos": "noun",
   "def": "the quality of having balanced, matching parts arranged around a centre or axis",
@@ -42456,6 +62053,20 @@ export const VOCAB = [
    "break the symmetry"
   ],
   "theme": "arts"
+ },
+ {
+  "w": "sympathise",
+  "pos": "verb",
+  "def": "to understand and share the feelings or point of view of someone else",
+  "defId": "bersimpati dan memahami perasaan atau pandangan orang lain",
+  "ex": "I sympathise with students who feel that exams cause too much stress.",
+  "exId": "Saya bersimpati kepada para pelajar yang merasa ujian menimbulkan terlalu banyak stres.",
+  "colloc": [
+   "sympathise with",
+   "deeply sympathise",
+   "sympathise with the view"
+  ],
+  "theme": "opinions"
  },
  {
   "w": "symphony",
@@ -42484,6 +62095,20 @@ export const VOCAB = [
    "flu symptoms"
   ],
   "theme": "health"
+ },
+ {
+  "w": "sync",
+  "pos": "verb",
+  "def": "to make data on two or more devices match automatically so it is identical everywhere",
+  "defId": "membuat data pada dua perangkat atau lebih cocok secara otomatis agar sama di mana pun",
+  "ex": "My phone will sync the photos to the cloud as soon as it connects to Wi-Fi.",
+  "exId": "Ponsel saya akan menyinkronkan foto ke awan begitu terhubung ke Wi-Fi.",
+  "colloc": [
+   "sync across devices",
+   "auto-sync",
+   "sync your data"
+  ],
+  "theme": "technology"
  },
  {
   "w": "syndicate",
@@ -42580,6 +62205,19 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "systematic",
+  "pos": "adjective",
+  "def": "done according to a fixed and organised plan or method",
+  "defId": "sistematis",
+  "ex": "They took a systematic approach to collecting and analysing the data.",
+  "exId": "Mereka mengambil pendekatan sistematis dalam mengumpulkan dan menganalisis data.",
+  "colloc": [
+   "a systematic approach",
+   "a systematic review"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "ta",
   "pos": "interjection (informal)",
   "def": "An informal way of saying 'thank you', common across much of the UK.",
@@ -42592,6 +62230,20 @@ export const VOCAB = [
    "ta love"
   ],
   "theme": "uk_social"
+ },
+ {
+  "w": "tableau",
+  "pos": "noun",
+  "def": "a striking scene presented by a group of motionless, carefully arranged performers",
+  "defId": "pemandangan mencolok yang disajikan oleh sekelompok pemain yang diam dan tersusun rapi",
+  "ex": "The actors froze into a haunting tableau depicting the aftermath of the battle.",
+  "exId": "Para aktor membeku menjadi tablo yang menghantui yang menggambarkan situasi setelah pertempuran.",
+  "colloc": [
+   "living tableau",
+   "frozen tableau",
+   "form a tableau"
+  ],
+  "theme": "arts"
  },
  {
   "w": "tabloid",
@@ -42619,6 +62271,20 @@ export const VOCAB = [
    "break a taboo"
   ],
   "theme": "society"
+ },
+ {
+  "w": "taciturn",
+  "pos": "adjective",
+  "def": "saying very little and appearing reserved or unwilling to talk",
+  "defId": "sangat sedikit bicara dan tampak tertutup atau enggan berbicara",
+  "ex": "Normally taciturn, he surprised everyone by speaking passionately at the meeting.",
+  "exId": "Yang biasanya pendiam, dia mengejutkan semua orang dengan berbicara berapi-api di rapat.",
+  "colloc": [
+   "a taciturn man",
+   "naturally taciturn",
+   "taciturn by nature"
+  ],
+  "theme": "language"
  },
  {
   "w": "tackle",
@@ -42703,6 +62369,19 @@ export const VOCAB = [
   "theme": "uk_transport"
  },
  {
+  "w": "tailor",
+  "pos": "noun",
+  "def": "a person who makes or alters clothes, especially men's suits, to fit individual customers",
+  "defId": "penjahit",
+  "ex": "The tailor took my measurements for a new suit.",
+  "exId": "Penjahit itu mengukur badan saya untuk setelan baru.",
+  "colloc": [
+   "skilled tailor",
+   "tailor-made suit"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "tailored",
   "pos": "adjective",
   "def": "cut and sewn to fit a particular person or shape closely",
@@ -42715,6 +62394,33 @@ export const VOCAB = [
    "tailored jacket"
   ],
   "theme": "fashion"
+ },
+ {
+  "w": "take a stance",
+  "pos": "phrase",
+  "def": "to publicly adopt and express a firm position on an issue",
+  "defId": "mengambil sikap tegas dan menyatakannya secara terbuka atas suatu isu",
+  "ex": "Governments need to take a stance on climate change before it is too late.",
+  "exId": "Pemerintah perlu mengambil sikap tegas soal perubahan iklim sebelum terlambat.",
+  "colloc": [
+   "take a firm stance",
+   "take a stance on",
+   "take a strong stance"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "take it with a pinch of salt",
+  "pos": "idiom",
+  "def": "to not completely believe something because it may not be accurate",
+  "defId": "tidak menelan mentah-mentah; menanggapi sesuatu dengan sikap ragu",
+  "ex": "He tends to exaggerate, so take his stories with a pinch of salt.",
+  "exId": "Dia cenderung melebih-lebihkan, jadi jangan telan mentah-mentah ceritanya.",
+  "colloc": [
+   "being sceptical",
+   "'take it with a pinch of salt'"
+  ],
+  "theme": "idioms"
  },
  {
   "w": "take-off",
@@ -42772,6 +62478,19 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "tally",
+  "pos": "noun",
+  "def": "a record or count of a number of things",
+  "defId": "jumlah hitungan; tabulasi",
+  "ex": "The final tally showed that women made up the larger share of graduates.",
+  "exId": "Hitungan akhir menunjukkan bahwa perempuan merupakan bagian terbesar dari lulusan.",
+  "colloc": [
+   "running tally",
+   "final tally"
+  ],
+  "theme": "numbers"
+ },
+ {
   "w": "tame",
   "pos": "adjective",
   "def": "no longer wild and not afraid of people",
@@ -42784,6 +62503,20 @@ export const VOCAB = [
    "surprisingly tame"
   ],
   "theme": "wildlife"
+ },
+ {
+  "w": "tangent",
+  "pos": "noun",
+  "def": "a sudden change to a completely different and unrelated topic in speech or writing",
+  "defId": "peralihan mendadak ke topik yang sama sekali berbeda dan tidak berkaitan dalam tuturan atau tulisan",
+  "ex": "He kept going off on a tangent, so his main point got lost.",
+  "exId": "Dia terus melenceng ke topik lain, sehingga poin utamanya jadi hilang.",
+  "colloc": [
+   "go off on a tangent",
+   "fly off on a tangent",
+   "wander onto a tangent"
+  ],
+  "theme": "language"
  },
  {
   "w": "tangy",
@@ -42813,6 +62546,33 @@ export const VOCAB = [
   "theme": "transport"
  },
  {
+  "w": "tanned",
+  "pos": "adjective",
+  "def": "having skin that has turned brown from the sun",
+  "defId": "berkulit cokelat karena sinar matahari",
+  "ex": "He came back from the beach holiday looking healthy and tanned.",
+  "exId": "Dia kembali dari liburan pantai dengan tampilan sehat dan berkulit cokelat.",
+  "colloc": [
+   "deeply tanned",
+   "tanned skin",
+   "sun-tanned"
+  ],
+  "theme": "describe_people"
+ },
+ {
+  "w": "tantamount",
+  "pos": "adjective",
+  "def": "equal in effect or meaning to something, usually something bad",
+  "defId": "sama artinya atau setara dampaknya dengan sesuatu, biasanya yang buruk",
+  "ex": "Staying silent at that moment would be tantamount to admitting guilt.",
+  "exId": "Berdiam diri pada saat itu sama saja dengan mengakui kesalahan.",
+  "colloc": [
+   "tantamount to",
+   "be tantamount"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "tantrum",
   "pos": "noun",
   "def": "an uncontrolled outburst of anger, usually by a young child",
@@ -42824,6 +62584,20 @@ export const VOCAB = [
    "temper tantrum"
   ],
   "theme": "family"
+ },
+ {
+  "w": "tap",
+  "pos": "noun",
+  "def": "a device that controls the flow of water from a pipe",
+  "defId": "keran air",
+  "ex": "He turned on the tap and filled the kettle with cold water.",
+  "exId": "Dia membuka keran dan mengisi ketel dengan air dingin.",
+  "colloc": [
+   "turn on the tap",
+   "a dripping tap",
+   "hot and cold taps"
+  ],
+  "theme": "household"
  },
  {
   "w": "tap in",
@@ -42852,6 +62626,32 @@ export const VOCAB = [
    "forget to tap out"
   ],
   "theme": "uk_transport"
+ },
+ {
+  "w": "tape",
+  "pos": "noun",
+  "def": "a long thin strip of sticky material used for fixing or binding things",
+  "defId": "selotip",
+  "ex": "He wrapped the cracked pipe in waterproof tape as a temporary fix.",
+  "exId": "Dia membungkus pipa yang retak dengan lakban tahan air sebagai perbaikan sementara.",
+  "colloc": [
+   "masking tape",
+   "double-sided tape"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "tape measure",
+  "pos": "noun",
+  "def": "a flexible strip marked with measurements for measuring length",
+  "defId": "meteran",
+  "ex": "He pulled out a tape measure to check the width of the door.",
+  "exId": "Dia mengeluarkan meteran untuk mengukur lebar pintu.",
+  "colloc": [
+   "retractable tape measure",
+   "read a tape measure"
+  ],
+  "theme": "tools"
  },
  {
   "w": "taper",
@@ -42937,6 +62737,20 @@ export const VOCAB = [
   "theme": "body"
  },
  {
+  "w": "tax haven",
+  "pos": "noun",
+  "def": "a country where taxes are very low, attracting foreign companies and wealthy individuals",
+  "defId": "negara dengan pajak sangat rendah yang menarik perusahaan asing dan orang kaya",
+  "ex": "Multinationals route their profits through a tax haven to avoid paying full tax at home.",
+  "exId": "Perusahaan multinasional mengalihkan labanya melalui surga pajak untuk menghindari pajak penuh di negaranya.",
+  "colloc": [
+   "offshore tax haven",
+   "route profits through a tax haven",
+   "crack down on tax havens"
+  ],
+  "theme": "globalisation"
+ },
+ {
   "w": "tax return",
   "pos": "noun phrase",
   "def": "An official form on which you report your income to HMRC so they can work out how much tax you owe.",
@@ -42964,6 +62778,19 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "taxonomy",
+  "pos": "noun",
+  "def": "a scheme of classification, especially a hierarchical one",
+  "defId": "taksonomi; sistem klasifikasi",
+  "ex": "The paper proposes a taxonomy of common writing errors.",
+  "exId": "Makalah itu mengusulkan sebuah taksonomi kesalahan menulis yang umum.",
+  "colloc": [
+   "a taxonomy of",
+   "detailed taxonomy"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "team player",
   "pos": "noun",
   "def": "someone who works well as part of a group towards a common goal",
@@ -42975,6 +62802,20 @@ export const VOCAB = [
    "real team player"
   ],
   "theme": "personality"
+ },
+ {
+  "w": "team-building",
+  "pos": "noun",
+  "def": "The process or activities used to improve cooperation and relationships within a team.",
+  "defId": "pembangunan tim; proses atau kegiatan untuk meningkatkan kerja sama dan hubungan dalam sebuah tim",
+  "ex": "The company organises a team-building weekend to boost morale every year.",
+  "exId": "Perusahaan mengadakan akhir pekan pembangunan tim untuk meningkatkan semangat kerja setiap tahun.",
+  "colloc": [
+   "team-building exercise",
+   "team-building activities",
+   "a team-building day"
+  ],
+  "theme": "work"
  },
  {
   "w": "teammate",
@@ -43002,6 +62843,33 @@ export const VOCAB = [
    "a spirit of teamwork"
   ],
   "theme": "work"
+ },
+ {
+  "w": "technique",
+  "pos": "noun",
+  "def": "a particular skilled method used to create or perform a work of art",
+  "defId": "metode terampil tertentu yang digunakan untuk menciptakan atau membawakan sebuah karya seni",
+  "ex": "The painter developed a bold technique of layering colours with a palette knife.",
+  "exId": "Pelukis itu mengembangkan teknik berani berupa melapisi warna dengan pisau palet.",
+  "colloc": [
+   "painting technique",
+   "master a technique",
+   "flawless technique"
+  ],
+  "theme": "arts"
+ },
+ {
+  "w": "technocracy",
+  "pos": "noun",
+  "def": "government or control of society by technical experts rather than elected politicians",
+  "defId": "teknokrasi; pemerintahan atau kendali masyarakat oleh para ahli teknis, bukan politikus terpilih",
+  "ex": "Some economists favour a technocracy in which specialists, not politicians, set policy.",
+  "exId": "Sebagian ekonom mendukung teknokrasi di mana para ahli, bukan politikus, yang menetapkan kebijakan.",
+  "colloc": [
+   "run as a technocracy",
+   "unelected technocracy"
+  ],
+  "theme": "politics"
  },
  {
   "w": "teeming",
@@ -43115,6 +62983,33 @@ export const VOCAB = [
   "theme": "music"
  },
  {
+  "w": "temporary",
+  "pos": "adjective",
+  "def": "lasting for only a limited period; not permanent",
+  "defId": "sementara; untuk waktu terbatas",
+  "ex": "He took a temporary job to cover his expenses during the summer.",
+  "exId": "Dia mengambil pekerjaan sementara untuk menutupi pengeluarannya selama musim panas.",
+  "colloc": [
+   "temporary solution",
+   "temporary contract"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "tenable",
+  "pos": "adjective",
+  "def": "able to be defended or believed; reasonable",
+  "defId": "dapat dipertahankan; masuk akal",
+  "ex": "This interpretation is no longer tenable in light of the new findings.",
+  "exId": "Interpretasi ini tidak lagi dapat dipertahankan mengingat temuan baru tersebut.",
+  "colloc": [
+   "no longer tenable",
+   "tenable position",
+   "hardly tenable"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "tenacious",
   "pos": "adjective",
   "def": "determined and refusing to give up, even when faced with difficulties",
@@ -43184,6 +63079,20 @@ export const VOCAB = [
   "theme": "uk_home"
  },
  {
+  "w": "tend to",
+  "pos": "verb",
+  "def": "to be likely to do something regularly or usually",
+  "defId": "cenderung",
+  "ex": "Students who read widely tend to perform better in the writing test.",
+  "exId": "Siswa yang banyak membaca cenderung memiliki performa lebih baik dalam tes menulis.",
+  "colloc": [
+   "tend to believe",
+   "tend to agree",
+   "tend to overlook"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "tendency",
   "pos": "noun",
   "def": "a general inclination to behave or develop in a particular way",
@@ -43226,6 +63135,20 @@ export const VOCAB = [
   "theme": "body"
  },
  {
+  "w": "tendril",
+  "pos": "noun",
+  "def": "a thin, curling part of a climbing plant that clings to a support",
+  "defId": "sulur (tanaman merambat)",
+  "ex": "The pea plant sent out delicate tendrils that wrapped around the cane.",
+  "exId": "Tanaman kacang itu menjulurkan sulur-sulur halus yang melilit tongkat penyangga.",
+  "colloc": [
+   "curling tendril",
+   "cling with tendrils",
+   "delicate tendril"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "tenement",
   "pos": "noun",
   "def": "a large, often old building divided into separate flats, especially in a poorer part of a city",
@@ -43240,6 +63163,32 @@ export const VOCAB = [
   "theme": "urban"
  },
  {
+  "w": "tenet",
+  "pos": "noun",
+  "def": "a principle or belief, especially one held by members of a group or profession",
+  "defId": "prinsip; ajaran pokok",
+  "ex": "Equality before the law is a central tenet of democracy.",
+  "exId": "Kesetaraan di hadapan hukum adalah prinsip utama demokrasi.",
+  "colloc": [
+   "central tenet",
+   "basic tenet"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "tenfold",
+  "pos": "adjective",
+  "def": "ten times as great or as many",
+  "defId": "sepuluh kali lipat",
+  "ex": "Internet use saw a tenfold rise across the developing world in that period.",
+  "exId": "Penggunaan internet mengalami kenaikan sepuluh kali lipat di seluruh negara berkembang pada periode itu.",
+  "colloc": [
+   "a tenfold increase",
+   "tenfold growth"
+  ],
+  "theme": "numbers"
+ },
+ {
   "w": "tense",
   "pos": "noun",
   "def": "the form of a verb that shows the time of an action",
@@ -43251,6 +63200,34 @@ export const VOCAB = [
    "verb tense"
   ],
   "theme": "language"
+ },
+ {
+  "w": "tentative",
+  "pos": "adjective",
+  "def": "not certain or fixed; done cautiously and open to change",
+  "defId": "sementara; tentatif",
+  "ex": "The researchers offered only a tentative conclusion pending further data.",
+  "exId": "Para peneliti hanya menawarkan kesimpulan sementara sambil menunggu data lebih lanjut.",
+  "colloc": [
+   "tentative conclusion",
+   "tentative agreement",
+   "tentative steps"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "tenuous",
+  "pos": "adjective",
+  "def": "weak, slight, and unconvincing",
+  "defId": "lemah; rapuh",
+  "ex": "The connection between the two variables is rather tenuous.",
+  "exId": "Kaitan antara kedua variabel itu agak lemah.",
+  "colloc": [
+   "tenuous link",
+   "tenuous connection",
+   "tenuous grounds"
+  ],
+  "theme": "academic"
  },
  {
   "w": "tenure",
@@ -43280,6 +63257,20 @@ export const VOCAB = [
   "theme": "weather"
  },
  {
+  "w": "terabyte",
+  "pos": "noun",
+  "def": "a unit of digital storage equal to about one thousand gigabytes",
+  "defId": "satuan penyimpanan digital yang setara dengan sekitar seribu gigabita",
+  "ex": "The external drive can hold up to four terabytes of backups.",
+  "exId": "Cakram eksternal itu dapat menampung hingga empat terabita cadangan.",
+  "colloc": [
+   "one terabyte",
+   "terabyte drive",
+   "terabytes of storage"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "terminal",
   "pos": "noun",
   "def": "a building at an airport or station where passengers arrive and depart",
@@ -43306,6 +63297,32 @@ export const VOCAB = [
    "specialised terminology"
   ],
   "theme": "language"
+ },
+ {
+  "w": "terminus",
+  "pos": "n",
+  "def": "The station or stop at the very end of a railway or bus route.",
+  "defId": "Stasiun atau halte di ujung akhir sebuah jalur kereta atau rute bus.",
+  "ex": "Everyone had to get off the bus once it reached the terminus.",
+  "exId": "Semua orang harus turun dari bus begitu tiba di terminal akhir.",
+  "colloc": [
+   "bus terminus",
+   "railway terminus"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "terrace",
+  "pos": "n",
+  "def": "A row of similar houses joined together in a continuous line.",
+  "defId": "Deretan rumah serupa yang tersambung menjadi satu barisan yang menyatu.",
+  "ex": "They bought a Victorian house in a quiet terrace near the park.",
+  "exId": "Mereka membeli rumah bergaya Victoria di sebuah deretan rumah yang tenang dekat taman.",
+  "colloc": [
+   "Victorian terrace",
+   "a row of terraces"
+  ],
+  "theme": "urban"
  },
  {
   "w": "terraced house",
@@ -43377,6 +63394,20 @@ export const VOCAB = [
   "theme": "emotion"
  },
  {
+  "w": "terse",
+  "pos": "adjective",
+  "def": "using few words in a way that can seem abrupt or unfriendly",
+  "defId": "menggunakan sedikit kata dengan cara yang bisa terkesan singkat atau tak ramah",
+  "ex": "His terse reply of 'no comment' ended the interview at once.",
+  "exId": "Balasannya yang singkat, 'tidak ada komentar', langsung mengakhiri wawancara.",
+  "colloc": [
+   "a terse reply",
+   "terse and abrupt",
+   "terse response"
+  ],
+  "theme": "language"
+ },
+ {
   "w": "testify",
   "pos": "verb",
   "def": "to give evidence or make a formal statement in court",
@@ -43389,6 +63420,20 @@ export const VOCAB = [
    "refuse to testify"
   ],
   "theme": "crime"
+ },
+ {
+  "w": "testimonial",
+  "pos": "noun",
+  "def": "a formal written or spoken statement praising a product or service, used in marketing",
+  "defId": "pernyataan tertulis atau lisan yang memuji produk atau jasa, dipakai untuk pemasaran",
+  "ex": "The website features glowing testimonials from satisfied clients to build trust.",
+  "exId": "Situs web itu menampilkan testimoni memuji dari klien yang puas untuk membangun kepercayaan.",
+  "colloc": [
+   "customer testimonial",
+   "glowing testimonial",
+   "testimonial page"
+  ],
+  "theme": "business"
  },
  {
   "w": "testimony",
@@ -43447,6 +63492,58 @@ export const VOCAB = [
   "theme": "weather"
  },
  {
+  "w": "the best of both worlds",
+  "pos": "idiom",
+  "def": "a situation where you enjoy the advantages of two different things",
+  "defId": "mendapat keuntungan dari dua hal sekaligus tanpa harus memilih",
+  "ex": "Working from home twice a week gives me the best of both worlds.",
+  "exId": "Bekerja dari rumah dua kali seminggu memberi saya keuntungan dari dua sisi sekaligus.",
+  "colloc": [
+   "dual advantages",
+   "'get the best of both worlds'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "the bigger picture",
+  "pos": "idiom",
+  "def": "the whole situation rather than just the small details",
+  "defId": "gambaran menyeluruh; keseluruhan situasi, bukan sekadar detail kecil",
+  "ex": "Try not to worry about minor setbacks and focus on the bigger picture.",
+  "exId": "Cobalah untuk tidak khawatir soal hambatan kecil dan fokus pada gambaran besarnya.",
+  "colloc": [
+   "overall perspective",
+   "'look at the bigger picture'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "the bottom line",
+  "pos": "idiom",
+  "def": "the most important fact or the final result",
+  "defId": "intinya; hal terpenting atau hasil akhir yang menentukan",
+  "ex": "The bottom line is that we cannot afford to expand this year.",
+  "exId": "Intinya adalah kita belum mampu melakukan ekspansi tahun ini.",
+  "colloc": [
+   "key point",
+   "'the bottom line is'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "the elephant in the room",
+  "pos": "idiom",
+  "def": "an obvious problem that people avoid talking about",
+  "defId": "masalah besar yang jelas terlihat tapi sengaja dihindari untuk dibahas",
+  "ex": "Nobody mentioned the budget cuts, but it was the elephant in the room.",
+  "exId": "Tidak ada yang menyinggung pemotongan anggaran, padahal itu masalah besar yang dihindari semua orang.",
+  "colloc": [
+   "avoided topic",
+   "'address the elephant in the room'"
+  ],
+  "theme": "idioms"
+ },
+ {
   "w": "the Highway Code",
   "pos": "noun",
   "def": "The official set of rules and advice for all road users in the UK.",
@@ -43459,6 +63556,32 @@ export const VOCAB = [
    "rules in the Highway Code"
   ],
   "theme": "uk_transport"
+ },
+ {
+  "w": "the last straw",
+  "pos": "idiom",
+  "def": "the final small problem that makes a situation unbearable",
+  "defId": "masalah terakhir yang membuat kesabaran habis; puncak dari segalanya",
+  "ex": "When he arrived late again, it was the last straw and I decided to leave.",
+  "exId": "Ketika dia datang terlambat lagi, itulah puncaknya dan saya memutuskan untuk pergi.",
+  "colloc": [
+   "final annoyance",
+   "'that was the last straw'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "the tip of the iceberg",
+  "pos": "idiom",
+  "def": "a small, visible part of a much larger problem",
+  "defId": "bagian kecil yang terlihat dari masalah yang jauh lebih besar",
+  "ex": "The complaints we received are just the tip of the iceberg; the real problems run much deeper.",
+  "exId": "Keluhan yang kami terima hanyalah puncak gunung es; masalah sebenarnya jauh lebih dalam.",
+  "colloc": [
+   "hidden bigger problem",
+   "'just the tip of the iceberg'"
+  ],
+  "theme": "idioms"
  },
  {
   "w": "the Tube",
@@ -43503,6 +63626,19 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "theocracy",
+  "pos": "noun",
+  "def": "a system of government in which religious leaders rule in the name of a deity",
+  "defId": "teokrasi; sistem pemerintahan yang dijalankan pemimpin agama atas nama Tuhan",
+  "ex": "In a theocracy, religious law often takes precedence over civil legislation.",
+  "exId": "Dalam teokrasi, hukum agama sering diutamakan di atas perundang-undangan sipil.",
+  "colloc": [
+   "establish a theocracy",
+   "ruled as a theocracy"
+  ],
+  "theme": "politics"
+ },
+ {
   "w": "theory",
   "pos": "noun",
   "def": "a set of ideas intended to explain facts or events",
@@ -43531,6 +63667,19 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "therapist",
+  "pos": "noun",
+  "def": "a person trained to treat mental or physical problems, often without drugs or surgery",
+  "defId": "terapis",
+  "ex": "The therapist taught him breathing exercises to reduce stress.",
+  "exId": "Terapis itu mengajarinya latihan pernapasan untuk mengurangi stres.",
+  "colloc": [
+   "speech therapist",
+   "see a therapist"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "therapy",
   "pos": "noun",
   "def": "treatment that helps someone recover from an illness or injury, often without drugs or surgery",
@@ -43543,6 +63692,58 @@ export const VOCAB = [
    "speech therapy"
   ],
   "theme": "health"
+ },
+ {
+  "w": "thereafter",
+  "pos": "adverb",
+  "def": "after that time; from then on",
+  "defId": "setelah itu",
+  "ex": "The company grew quickly at first but stagnated thereafter.",
+  "exId": "Perusahaan itu tumbuh cepat pada awalnya tetapi stagnan setelah itu.",
+  "colloc": [
+   "shortly thereafter",
+   "thereafter, ..."
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "thereby",
+  "pos": "adverb",
+  "def": "by that means; with the result that",
+  "defId": "dengan demikian",
+  "ex": "Recycling reduces waste, thereby protecting natural resources.",
+  "exId": "Daur ulang mengurangi limbah, dengan demikian melindungi sumber daya alam.",
+  "colloc": [
+   "thereby reducing",
+   "thereby avoiding"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "therefore",
+  "pos": "adverb",
+  "def": "for that reason; as a result",
+  "defId": "oleh karena itu",
+  "ex": "The data are incomplete; therefore, the conclusion remains tentative.",
+  "exId": "Datanya tidak lengkap; oleh karena itu, kesimpulannya masih sementara.",
+  "colloc": [
+   "therefore, ..."
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "thermal",
+  "pos": "adj",
+  "def": "relating to heat or temperature",
+  "defId": "berkaitan dengan panas atau suhu",
+  "ex": "The building's thermal insulation keeps heat from escaping.",
+  "exId": "Insulasi termal gedung itu mencegah panas keluar.",
+  "colloc": [
+   "thermal energy",
+   "thermal insulation",
+   "thermal conductivity"
+  ],
+  "theme": "science"
  },
  {
   "w": "thesis",
@@ -43558,6 +63759,20 @@ export const VOCAB = [
   "theme": "education"
  },
  {
+  "w": "thespian",
+  "pos": "noun",
+  "def": "an actor or actress, especially one devoted to serious theatre",
+  "defId": "seorang aktor atau aktris, terutama yang mengabdikan diri pada teater serius",
+  "ex": "A seasoned thespian, she could move an audience to tears with a single glance.",
+  "exId": "Sebagai aktris berpengalaman, ia bisa membuat penonton menangis hanya dengan satu pandangan.",
+  "colloc": [
+   "seasoned thespian",
+   "aspiring thespian",
+   "thespian talents"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "thick-skinned",
   "pos": "adjective",
   "def": "not easily hurt or upset by criticism",
@@ -43569,6 +63784,60 @@ export const VOCAB = [
    "remarkably thick-skinned"
   ],
   "theme": "personality"
+ },
+ {
+  "w": "thicket",
+  "pos": "noun",
+  "def": "a dense group of bushes, small trees or shrubs growing close together",
+  "defId": "semak belukar yang lebat",
+  "ex": "A rabbit darted into the thicket at the edge of the lawn.",
+  "exId": "Seekor kelinci berlari masuk ke semak belukar di tepi halaman rumput.",
+  "colloc": [
+   "dense thicket",
+   "hide in a thicket",
+   "thicket of bushes"
+  ],
+  "theme": "garden"
+ },
+ {
+  "w": "think outside the box",
+  "pos": "idiom",
+  "def": "to think in a creative, unconventional way",
+  "defId": "berpikir kreatif dan tidak biasa; keluar dari cara berpikir umum",
+  "ex": "To solve this problem, we really need to think outside the box.",
+  "exId": "Untuk memecahkan masalah ini, kita benar-benar perlu berpikir kreatif di luar kebiasaan.",
+  "colloc": [
+   "creative thinking",
+   "'think outside the box'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "third",
+  "pos": "noun",
+  "def": "one of three equal parts of something",
+  "defId": "sepertiga",
+  "ex": "Roughly a third of the workforce was employed in manufacturing in 1990.",
+  "exId": "Kira-kira sepertiga tenaga kerja bekerja di sektor manufaktur pada tahun 1990.",
+  "colloc": [
+   "a third of",
+   "two thirds"
+  ],
+  "theme": "numbers"
+ },
+ {
+  "w": "thorn",
+  "pos": "noun",
+  "def": "a sharp, pointed growth on the stem of a plant such as a rose",
+  "defId": "duri",
+  "ex": "She pricked her finger on a thorn while pruning the rose bush.",
+  "exId": "Dia tertusuk jarinya oleh duri saat memangkas semak mawar.",
+  "colloc": [
+   "sharp thorn",
+   "rose thorn",
+   "covered in thorns"
+  ],
+  "theme": "garden"
  },
  {
   "w": "thoroughfare",
@@ -43640,6 +63909,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "thrift",
+  "pos": "noun",
+  "def": "Careful management of money and resources to avoid waste.",
+  "defId": "Sifat hemat; pengelolaan uang dan sumber daya secara cermat agar tidak boros.",
+  "ex": "Her habits of thrift allowed her to save enough to start a small business.",
+  "exId": "Kebiasaan hematnya memungkinkan dia menabung cukup untuk memulai usaha kecil.",
+  "colloc": [
+   "a culture of thrift",
+   "practise thrift",
+   "habits of thrift"
+  ],
+  "theme": "economy"
+ },
+ {
   "w": "thrifty",
   "pos": "adjective",
   "def": "careful about spending money and avoiding waste",
@@ -43681,6 +63964,48 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "thriving",
+  "pos": "adjective",
+  "def": "growing, busy and very successful",
+  "defId": "berkembang pesat dan makmur",
+  "ex": "The port district is now a thriving hub of restaurants, galleries and small businesses.",
+  "exId": "Kawasan pelabuhan itu kini menjadi pusat restoran, galeri, dan usaha kecil yang berkembang pesat.",
+  "colloc": [
+   "a thriving community",
+   "a thriving city centre",
+   "a thriving market"
+  ],
+  "theme": "describe_places"
+ },
+ {
+  "w": "throbbing",
+  "pos": "adjective",
+  "def": "(of pain) beating with a strong, regular rhythm; pulsating",
+  "defId": "(tentang nyeri) berdenyut dengan irama kuat dan teratur",
+  "ex": "She woke up with a throbbing headache that lasted all morning.",
+  "exId": "Ia terbangun dengan sakit kepala berdenyut yang berlangsung sepanjang pagi.",
+  "colloc": [
+   "a throbbing headache",
+   "throbbing pain",
+   "a throbbing ache"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "throughput",
+  "pos": "noun",
+  "def": "the amount of data or work that a system can process within a given period of time",
+  "defId": "jumlah data atau pekerjaan yang dapat diproses suatu sistem dalam periode waktu tertentu",
+  "ex": "Upgrading the server dramatically increased the throughput of the whole network.",
+  "exId": "Meningkatkan server secara drastis menambah throughput seluruh jaringan.",
+  "colloc": [
+   "high throughput",
+   "network throughput",
+   "maximise throughput"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "throwaway",
   "pos": "adjective",
   "def": "intended to be discarded after brief use rather than kept",
@@ -43708,6 +64033,34 @@ export const VOCAB = [
   "theme": "space"
  },
  {
+  "w": "thud",
+  "pos": "verb",
+  "def": "to fall or strike something with a dull, heavy sound",
+  "defId": "berdebum; berbunyi bergedebuk",
+  "ex": "The heavy book thudded onto the desk, startling everyone in the room.",
+  "exId": "Buku tebal itu berdebum jatuh ke meja, mengejutkan semua orang di ruangan.",
+  "colloc": [
+   "thud to the ground",
+   "a dull thud",
+   "thud against the wall"
+  ],
+  "theme": "sound_movement"
+ },
+ {
+  "w": "thumbnail",
+  "pos": "noun",
+  "def": "a small version of an image or video used as a clickable preview",
+  "defId": "versi kecil dari gambar atau video yang digunakan sebagai pratinjau yang dapat diklik",
+  "ex": "Click the thumbnail to open the photo at full size.",
+  "exId": "Klik thumbnail untuk membuka foto dalam ukuran penuh.",
+  "colloc": [
+   "thumbnail image",
+   "video thumbnail",
+   "thumbnail preview"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "thunderstorm",
   "pos": "noun",
   "def": "a storm with thunder, lightning and usually heavy rain",
@@ -43722,6 +64075,19 @@ export const VOCAB = [
   "theme": "weather"
  },
  {
+  "w": "thus",
+  "pos": "adverb",
+  "def": "as a result or consequence of this; in this way",
+  "defId": "dengan demikian",
+  "ex": "Funding was cut, thus limiting the scope of the research.",
+  "exId": "Pendanaan dipangkas, dengan demikian membatasi cakupan penelitian.",
+  "colloc": [
+   "thus, ...",
+   "thus limiting"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "tidal",
   "pos": "adjective",
   "def": "relating to the rise and fall of the sea, especially as a source of energy",
@@ -43733,6 +64099,20 @@ export const VOCAB = [
    "tidal power"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "tidy",
+  "pos": "verb",
+  "def": "to make a place neat by putting things in their proper place",
+  "defId": "merapikan atau membereskan",
+  "ex": "Please tidy your room before your grandparents come round.",
+  "exId": "Tolong rapikan kamarmu sebelum kakek-nenekmu datang.",
+  "colloc": [
+   "tidy your room",
+   "tidy up",
+   "tidy away"
+  ],
+  "theme": "household"
  },
  {
   "w": "tie the knot",
@@ -43815,6 +64195,19 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "timeframe",
+  "pos": "noun",
+  "def": "a period of time within which something is planned to happen",
+  "defId": "kerangka waktu; jangka waktu",
+  "ex": "The project must be completed within a strict timeframe of three months.",
+  "exId": "Proyek itu harus diselesaikan dalam kerangka waktu ketat selama tiga bulan.",
+  "colloc": [
+   "realistic timeframe",
+   "within the timeframe"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "timeline",
   "pos": "noun",
   "def": "a graphical or written representation of events shown in chronological order",
@@ -43869,6 +64262,20 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "tint",
+  "pos": "noun",
+  "def": "a shade or small amount of a colour added to something, often a pale or delicate version",
+  "defId": "semburat warna; rona tipis",
+  "ex": "The morning sky had a faint pink tint just before sunrise.",
+  "exId": "Langit pagi memiliki semburat merah muda samar tepat sebelum matahari terbit.",
+  "colloc": [
+   "a pink tint",
+   "add a tint",
+   "blue tint"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "tip-off",
   "pos": "noun",
   "def": "a piece of secret or advance information given to journalists or police",
@@ -43894,6 +64301,20 @@ export const VOCAB = [
    "feeling tipsy"
   ],
   "theme": "uk_social"
+ },
+ {
+  "w": "tiptoe",
+  "pos": "verb",
+  "def": "to walk quietly and carefully on the tips of one's toes",
+  "defId": "berjingkat; berjalan mengendap",
+  "ex": "She tiptoed past the nursery so as not to wake the sleeping baby.",
+  "exId": "Ia berjingkat melewati kamar bayi agar tidak membangunkan bayi yang tidur.",
+  "colloc": [
+   "tiptoe past",
+   "tiptoe quietly",
+   "tiptoe out of the room"
+  ],
+  "theme": "sound_movement"
  },
  {
   "w": "tissue",
@@ -43952,6 +64373,20 @@ export const VOCAB = [
   "theme": "uk_health"
  },
  {
+  "w": "to some extent",
+  "pos": "phrase",
+  "def": "partly, but not completely",
+  "defId": "sampai batas tertentu",
+  "ex": "To some extent, both explanations are valid.",
+  "exId": "Sampai batas tertentu, kedua penjelasan itu valid.",
+  "colloc": [
+   "true to some extent",
+   "to some extent responsible",
+   "only to some extent"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "to top up",
   "pos": "verb",
   "def": "to add more money or credit to a card, phone or account",
@@ -43964,6 +64399,19 @@ export const VOCAB = [
    "top up the balance"
   ],
   "theme": "uk_daily"
+ },
+ {
+  "w": "toaster",
+  "pos": "noun",
+  "def": "an electrical appliance for browning slices of bread",
+  "defId": "pemanggang roti",
+  "ex": "The toaster popped and two slices of golden toast jumped up.",
+  "exId": "Pemanggang roti itu berbunyi dan dua iris roti keemasan melompat keluar.",
+  "colloc": [
+   "a two-slice toaster",
+   "pop out of the toaster"
+  ],
+  "theme": "household"
  },
  {
   "w": "tolerance",
@@ -43980,6 +64428,34 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "tolerate",
+  "pos": "verb",
+  "def": "to accept or allow something you dislike without opposing it",
+  "defId": "menoleransi atau membiarkan sesuatu yang tidak disukai",
+  "ex": "I can tolerate a bit of noise, but constant disruption is unacceptable.",
+  "exId": "Saya bisa menoleransi sedikit kebisingan, tetapi gangguan terus-menerus tidak dapat diterima.",
+  "colloc": [
+   "tolerate behaviour",
+   "refuse to tolerate",
+   "barely tolerate"
+  ],
+  "theme": "opinions"
+ },
+ {
+  "w": "tone",
+  "pos": "noun",
+  "def": "the general quality or brightness of a colour, or how light or dark it appears",
+  "defId": "nada warna; gradasi terang-gelap warna",
+  "ex": "The designer chose warm tones such as orange and brown for the living room.",
+  "exId": "Desainer itu memilih nada warna hangat seperti oranye dan cokelat untuk ruang tamu.",
+  "colloc": [
+   "warm tones",
+   "skin tone",
+   "neutral tones"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "tone-deaf",
   "pos": "adjective",
   "def": "unable to tell the difference between musical notes or sing them accurately",
@@ -43993,6 +64469,47 @@ export const VOCAB = [
   "theme": "music"
  },
  {
+  "w": "tongue-tied",
+  "pos": "adjective",
+  "def": "unable to speak clearly or easily because of nervousness or shyness",
+  "defId": "tidak mampu berbicara dengan jelas atau lancar karena gugup atau malu",
+  "ex": "He gets completely tongue-tied whenever he has to speak in front of a large group.",
+  "exId": "Dia benar-benar kelu setiap kali harus berbicara di depan kelompok besar.",
+  "colloc": [
+   "get tongue-tied",
+   "become tongue-tied",
+   "tongue-tied with nerves"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "toolbox",
+  "pos": "noun",
+  "def": "a container for storing and carrying a set of tools",
+  "defId": "kotak perkakas",
+  "ex": "Every decent screwdriver in the house ends up in his toolbox.",
+  "exId": "Setiap obeng bagus di rumah berakhir di kotak perkakasnya.",
+  "colloc": [
+   "metal toolbox",
+   "rummage in the toolbox"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "topiary",
+  "pos": "noun",
+  "def": "the art of clipping shrubs or trees into decorative shapes",
+  "defId": "seni pangkas tanaman menjadi bentuk hias",
+  "ex": "The formal garden was famous for its topiary shaped like birds and spirals.",
+  "exId": "Taman formal itu terkenal dengan seni pangkas tanamannya yang berbentuk burung dan spiral.",
+  "colloc": [
+   "clip topiary",
+   "topiary hedge",
+   "ornamental topiary"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "topsoil",
   "pos": "noun",
   "def": "the upper, fertile layer of soil in which plants grow",
@@ -44004,6 +64521,20 @@ export const VOCAB = [
    "loss of topsoil"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "torment",
+  "pos": "noun",
+  "def": "severe and prolonged mental or physical suffering",
+  "defId": "siksaan batin; penderitaan mental atau fisik yang hebat dan berkepanjangan",
+  "ex": "The guilt caused him endless torment for years.",
+  "exId": "Rasa bersalah itu menyebabkannya siksaan batin tanpa henti selama bertahun-tahun.",
+  "colloc": [
+   "mental torment",
+   "endless torment",
+   "suffer torment"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "tornado",
@@ -44046,6 +64577,32 @@ export const VOCAB = [
    "bare torso"
   ],
   "theme": "body"
+ },
+ {
+  "w": "total",
+  "pos": "noun",
+  "def": "the whole amount produced by adding everything together",
+  "defId": "total; jumlah keseluruhan",
+  "ex": "The pie chart divides the total into six categories of household spending.",
+  "exId": "Diagram lingkaran itu membagi total ke dalam enam kategori pengeluaran rumah tangga.",
+  "colloc": [
+   "grand total",
+   "in total"
+  ],
+  "theme": "numbers"
+ },
+ {
+  "w": "totality",
+  "pos": "noun",
+  "def": "the whole of something; the state of being complete or entire",
+  "defId": "totalitas; keseluruhan",
+  "ex": "We must consider the problem in its totality, not just isolated parts.",
+  "exId": "Kita harus mempertimbangkan masalah itu dalam totalitasnya, bukan hanya bagian-bagian terpisah.",
+  "colloc": [
+   "in its totality",
+   "the totality of"
+  ],
+  "theme": "academic"
  },
  {
   "w": "touchdown",
@@ -44125,6 +64682,20 @@ export const VOCAB = [
   "theme": "tourism"
  },
  {
+  "w": "touristy",
+  "pos": "adjective",
+  "def": "full of tourists and things aimed at them, often seen negatively",
+  "defId": "penuh turis dan berkesan komersial",
+  "ex": "The seafront has become so touristy that locals rarely go there anymore.",
+  "exId": "Tepi pantai itu telah menjadi begitu penuh turis sehingga penduduk lokal jarang ke sana lagi.",
+  "colloc": [
+   "a touristy area",
+   "touristy shops",
+   "a touristy resort"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "tournament",
   "pos": "noun",
   "def": "a competition in which many players or teams compete against each other",
@@ -44139,6 +64710,19 @@ export const VOCAB = [
   "theme": "sport"
  },
  {
+  "w": "tower block",
+  "pos": "n",
+  "def": "A very tall building divided into flats or offices (British English).",
+  "defId": "Gedung yang sangat tinggi yang terbagi menjadi apartemen atau kantor (Inggris British).",
+  "ex": "They grew up on the fifteenth floor of a 1960s tower block.",
+  "exId": "Mereka tumbuh besar di lantai lima belas sebuah gedung apartemen tinggi era 1960-an.",
+  "colloc": [
+   "residential tower block",
+   "concrete tower block"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "toxic",
   "pos": "adjective",
   "def": "containing poison or substances that are harmful to living things.",
@@ -44151,6 +64735,62 @@ export const VOCAB = [
    "toxic substances"
   ],
   "theme": "environment"
+ },
+ {
+  "w": "toxin",
+  "pos": "noun",
+  "def": "a poisonous substance, especially one produced by living organisms or industrial processes.",
+  "defId": "zat beracun, terutama yang dihasilkan oleh organisme hidup atau proses industri.",
+  "ex": "Industrial toxins had accumulated in the mud at the bottom of the river.",
+  "exId": "Racun industri telah menumpuk di lumpur di dasar sungai.",
+  "colloc": [
+   "harmful toxin",
+   "release toxins",
+   "environmental toxin"
+  ],
+  "theme": "environment"
+ },
+ {
+  "w": "track record",
+  "pos": "noun",
+  "def": "A person's or organisation's past achievements or performance over time.",
+  "defId": "rekam jejak; catatan prestasi atau kinerja seseorang atau organisasi di masa lalu",
+  "ex": "She was promoted thanks to her strong track record of delivering projects on time.",
+  "exId": "Dia dipromosikan berkat rekam jejaknya yang kuat dalam menyelesaikan proyek tepat waktu.",
+  "colloc": [
+   "a proven track record",
+   "an impressive track record",
+   "a track record of success"
+  ],
+  "theme": "work"
+ },
+ {
+  "w": "trade deficit",
+  "pos": "noun",
+  "def": "the amount by which a country's imports exceed its exports",
+  "defId": "selisih ketika impor suatu negara melebihi ekspornya",
+  "ex": "The widening trade deficit put pressure on the government to boost exports.",
+  "exId": "Defisit perdagangan yang melebar menekan pemerintah untuk meningkatkan ekspor.",
+  "colloc": [
+   "widening trade deficit",
+   "run a trade deficit",
+   "reduce the trade deficit"
+  ],
+  "theme": "globalisation"
+ },
+ {
+  "w": "trade surplus",
+  "pos": "noun",
+  "def": "the amount by which a country's exports exceed its imports",
+  "defId": "selisih ketika ekspor suatu negara melebihi impornya",
+  "ex": "The country's strong manufacturing base gave it a large trade surplus.",
+  "exId": "Basis manufaktur yang kuat memberi negara itu surplus perdagangan yang besar.",
+  "colloc": [
+   "large trade surplus",
+   "record a trade surplus",
+   "trade surplus with"
+  ],
+  "theme": "globalisation"
  },
  {
   "w": "trade-off",
@@ -44221,6 +64861,19 @@ export const VOCAB = [
   "theme": "crime"
  },
  {
+  "w": "trail",
+  "pos": "verb",
+  "def": "to be losing or behind another in a contest or comparison",
+  "defId": "tertinggal atau berada di belakang yang lain dalam persaingan atau perbandingan",
+  "ex": "The region continues to trail the rest of the country in average income.",
+  "exId": "Wilayah itu terus tertinggal dari wilayah lain di negara itu dalam pendapatan rata-rata.",
+  "colloc": [
+   "trail behind",
+   "trail badly"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "trailer",
   "pos": "noun",
   "def": "a short advertisement for a film made up of selected clips",
@@ -44233,6 +64886,48 @@ export const VOCAB = [
    "movie trailer"
   ],
   "theme": "film"
+ },
+ {
+  "w": "trailhead",
+  "pos": "noun",
+  "def": "the point where a walking or hiking trail begins",
+  "defId": "titik tempat sebuah jalur pendakian atau jalan setapak dimulai",
+  "ex": "We parked the car at the trailhead and checked our map.",
+  "exId": "Kami memarkir mobil di titik awal jalur dan memeriksa peta kami.",
+  "colloc": [
+   "reach the trailhead",
+   "at the trailhead",
+   "the trailhead car park"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "traineeship",
+  "pos": "noun",
+  "def": "A period of training in a job, often for a young or new employee.",
+  "defId": "masa pelatihan kerja; periode pelatihan dalam suatu pekerjaan, sering untuk karyawan muda atau baru",
+  "ex": "He completed a two-year traineeship before qualifying as an engineer.",
+  "exId": "Dia menyelesaikan masa pelatihan kerja selama dua tahun sebelum memenuhi syarat sebagai insinyur.",
+  "colloc": [
+   "a paid traineeship",
+   "complete a traineeship",
+   "offer a traineeship"
+  ],
+  "theme": "work"
+ },
+ {
+  "w": "traipse",
+  "pos": "verb",
+  "def": "to walk or trudge tiresomely over a distance",
+  "defId": "berjalan dengan susah payah dan melelahkan menempuh suatu jarak",
+  "ex": "We traipsed around the city for hours looking for the museum.",
+  "exId": "Kami berjalan berkeliling kota selama berjam-jam mencari museum.",
+  "colloc": [
+   "traipse around",
+   "traipse through",
+   "traipse from place to place"
+  ],
+  "theme": "travel"
  },
  {
   "w": "trait",
@@ -44275,6 +64970,20 @@ export const VOCAB = [
    "the tram network"
   ],
   "theme": "uk_transport"
+ },
+ {
+  "w": "tranquil",
+  "pos": "adjective",
+  "def": "calm, quiet and free from disturbance",
+  "defId": "tenang dan damai",
+  "ex": "We rented a cottage beside a tranquil lake where the only sound was birdsong.",
+  "exId": "Kami menyewa pondok di tepi danau yang tenang di mana satu-satunya suara adalah kicau burung.",
+  "colloc": [
+   "a tranquil setting",
+   "a tranquil village",
+   "tranquil surroundings"
+  ],
+  "theme": "describe_places"
  },
  {
   "w": "transaction",
@@ -44343,6 +65052,19 @@ export const VOCAB = [
   "theme": "health"
  },
  {
+  "w": "transient",
+  "pos": "adjective",
+  "def": "lasting only a short time; not permanent",
+  "defId": "sementara; sesaat; tidak menetap",
+  "ex": "The town has a large transient population of seasonal workers.",
+  "exId": "Kota itu memiliki populasi sementara yang besar dari pekerja musiman.",
+  "colloc": [
+   "transient population",
+   "transient nature"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "transit",
   "pos": "noun",
   "def": "the process of travelling or being moved through a place on the way to a final destination",
@@ -44384,6 +65106,33 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "translator",
+  "pos": "noun",
+  "def": "a person who converts written text from one language into another",
+  "defId": "penerjemah",
+  "ex": "The translator rendered the novel beautifully into English.",
+  "exId": "Penerjemah itu mengalihbahasakan novel tersebut dengan indah ke dalam bahasa Inggris.",
+  "colloc": [
+   "professional translator",
+   "freelance translator"
+  ],
+  "theme": "jobs"
+ },
+ {
+  "w": "translucent",
+  "pos": "adjective",
+  "def": "allowing light to pass through but not fully transparent",
+  "defId": "tembus cahaya tetapi tidak sepenuhnya bening",
+  "ex": "The lampshade was made of a thin, translucent paper that softened the light.",
+  "exId": "Kap lampu itu terbuat dari kertas tipis tembus cahaya yang melembutkan sinarnya.",
+  "colloc": [
+   "translucent material",
+   "translucent glass",
+   "almost translucent"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "transmission",
   "pos": "noun",
   "def": "the process of sending electricity over long distances through cables",
@@ -44412,6 +65161,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "transnational",
+  "pos": "adjective",
+  "def": "extending beyond the boundaries of a single nation",
+  "defId": "melampaui batas satu negara",
+  "ex": "Transnational corporations often shift production to wherever labour is cheapest.",
+  "exId": "Korporasi transnasional sering memindahkan produksi ke tempat mana pun yang tenaga kerjanya paling murah.",
+  "colloc": [
+   "transnational corporation",
+   "transnational networks",
+   "transnational crime"
+  ],
+  "theme": "globalisation"
+ },
+ {
   "w": "transparency",
   "pos": "noun",
   "def": "the quality of being open and honest so that people can see the truth",
@@ -44424,6 +65187,20 @@ export const VOCAB = [
    "lack of transparency"
   ],
   "theme": "media"
+ },
+ {
+  "w": "transparent",
+  "pos": "adjective",
+  "def": "allowing light to pass through so that objects behind can be seen clearly",
+  "defId": "transparan; bening",
+  "ex": "The vase was made of transparent glass so you could see the flowers' stems.",
+  "exId": "Vas itu terbuat dari kaca transparan sehingga tangkai bunganya terlihat.",
+  "colloc": [
+   "transparent glass",
+   "transparent film",
+   "completely transparent"
+  ],
+  "theme": "colours"
  },
  {
   "w": "transplant",
@@ -44492,6 +65269,20 @@ export const VOCAB = [
   "theme": "sport"
  },
  {
+  "w": "treasure",
+  "pos": "verb",
+  "def": "to keep and value something as extremely precious",
+  "defId": "menyimpan dan menganggap sesuatu sangat berharga",
+  "ex": "I treasure the time I spend with my family more than anything else.",
+  "exId": "Saya sangat menghargai waktu yang saya habiskan bersama keluarga di atas segalanya.",
+  "colloc": [
+   "treasure a memory",
+   "treasure every moment",
+   "truly treasure"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "treaty",
   "pos": "noun",
   "def": "a formal written agreement between two or more countries",
@@ -44520,6 +65311,20 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "trellis",
+  "pos": "noun",
+  "def": "a framework of crossed wooden or wire bars used to support climbing plants",
+  "defId": "teralis; rambatan untuk tanaman",
+  "ex": "They trained the climbing roses up a wooden trellis against the wall.",
+  "exId": "Mereka merambatkan mawar merambat pada teralis kayu di dinding.",
+  "colloc": [
+   "wooden trellis",
+   "climb a trellis",
+   "trellis fence"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "tremendous",
   "pos": "adjective",
   "def": "very great in amount, scale, or intensity",
@@ -44534,6 +65339,19 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "trend",
+  "pos": "noun",
+  "def": "a general direction in which something is changing or developing",
+  "defId": "tren; kecenderungan",
+  "ex": "The graph reveals an upward trend in renewable energy production.",
+  "exId": "Grafik itu memperlihatkan tren naik dalam produksi energi terbarukan.",
+  "colloc": [
+   "an upward trend",
+   "a downward trend"
+  ],
+  "theme": "numbers"
+ },
+ {
   "w": "trending",
   "pos": "adjective",
   "def": "being very widely discussed or shared on the internet at a particular moment",
@@ -44546,6 +65364,20 @@ export const VOCAB = [
    "start trending"
   ],
   "theme": "internet"
+ },
+ {
+  "w": "trendy",
+  "pos": "adjective",
+  "def": "very fashionable and up to date",
+  "defId": "sedang tren dan kekinian",
+  "ex": "The old warehouse district has become a trendy area full of coffee shops and boutiques.",
+  "exId": "Kawasan gudang tua itu telah menjadi area kekinian yang penuh kedai kopi dan butik.",
+  "colloc": [
+   "a trendy neighbourhood",
+   "a trendy district",
+   "a trendy bar"
+  ],
+  "theme": "describe_places"
  },
  {
   "w": "trepidation",
@@ -44589,6 +65421,20 @@ export const VOCAB = [
   "theme": "uk_health"
  },
  {
+  "w": "triangular",
+  "pos": "adjective",
+  "def": "shaped like a triangle, with three sides and three angles",
+  "defId": "berbentuk segitiga",
+  "ex": "The roof had a steep triangular shape to let the snow slide off.",
+  "exId": "Atap itu berbentuk segitiga curam agar salju mudah meluncur turun.",
+  "colloc": [
+   "triangular shape",
+   "triangular roof",
+   "triangular pattern"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "triathlon",
   "pos": "noun",
   "def": "an endurance race combining swimming, cycling, and running",
@@ -44600,6 +65446,20 @@ export const VOCAB = [
    "Ironman triathlon"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "tribe",
+  "pos": "noun",
+  "def": "a social group sharing customs, language and often a common ancestry",
+  "defId": "suku; kelompok sosial dengan adat, bahasa, dan sering keturunan yang sama",
+  "ex": "Several nomadic tribes have grazed their herds across these plains for centuries.",
+  "exId": "Beberapa suku nomaden telah menggembalakan ternak mereka di dataran ini selama berabad-abad.",
+  "colloc": [
+   "nomadic tribe",
+   "tribal customs",
+   "a tribe of hunters"
+  ],
+  "theme": "society"
  },
  {
   "w": "tribunal",
@@ -44627,6 +65487,34 @@ export const VOCAB = [
    "mountain tributary"
   ],
   "theme": "nature"
+ },
+ {
+  "w": "trickle-down",
+  "pos": "adjective",
+  "def": "relating to the theory that wealth given to the rich eventually benefits the poor",
+  "defId": "berkaitan dengan teori bahwa kekayaan yang diberikan kepada orang kaya akhirnya menguntungkan orang miskin",
+  "ex": "Critics say the trickle-down effect rarely reaches the poorest communities.",
+  "exId": "Para pengritik mengatakan efek menetes ke bawah jarang mencapai komunitas termiskin.",
+  "colloc": [
+   "trickle-down effect",
+   "trickle-down economics",
+   "trickle-down theory"
+  ],
+  "theme": "globalisation"
+ },
+ {
+  "w": "trigger",
+  "pos": "verb",
+  "def": "to cause something to start happening, especially a sudden or serious reaction",
+  "defId": "memicu; menjadi pemicu",
+  "ex": "The new tax policy triggered widespread protests across the country.",
+  "exId": "Kebijakan pajak baru itu memicu protes luas di seluruh negeri.",
+  "colloc": [
+   "trigger a reaction",
+   "trigger a response",
+   "trigger a crisis"
+  ],
+  "theme": "academic"
  },
  {
   "w": "triptych",
@@ -44768,6 +65656,20 @@ export const VOCAB = [
   "theme": "arts"
  },
  {
+  "w": "trowel",
+  "pos": "noun",
+  "def": "a small hand tool with a curved blade, used for digging small holes when planting",
+  "defId": "cetok; sekop kecil berkebun",
+  "ex": "She loosened the soil with a trowel before setting the seedlings in place.",
+  "exId": "Dia menggemburkan tanah dengan cetok sebelum menanam bibitnya.",
+  "colloc": [
+   "garden trowel",
+   "dig with a trowel",
+   "hand trowel"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "truancy",
   "pos": "noun",
   "def": "the act of staying away from school without permission",
@@ -44809,6 +65711,34 @@ export const VOCAB = [
   "theme": "conflict"
  },
  {
+  "w": "trudge",
+  "pos": "verb",
+  "def": "to walk slowly and with heavy steps, typically because of tiredness or hard conditions",
+  "defId": "berjalan terseok-seok; melangkah berat",
+  "ex": "Exhausted, they trudged through the thick mud back to the camp.",
+  "exId": "Dengan kelelahan, mereka melangkah berat menembus lumpur tebal kembali ke perkemahan.",
+  "colloc": [
+   "trudge through mud",
+   "trudge wearily",
+   "trudge home"
+  ],
+  "theme": "sound_movement"
+ },
+ {
+  "w": "truism",
+  "pos": "noun",
+  "def": "a statement that is so obviously true that it hardly needs saying",
+  "defId": "pernyataan yang begitu jelas benar sehingga hampir tak perlu diucapkan",
+  "ex": "It is a truism that practice improves your speaking, yet many learners avoid it.",
+  "exId": "Sudah menjadi kebenaran umum bahwa latihan meningkatkan kemampuan berbicara, namun banyak pelajar menghindarinya.",
+  "colloc": [
+   "a mere truism",
+   "state a truism",
+   "it is a truism that"
+  ],
+  "theme": "language"
+ },
+ {
   "w": "trust",
   "pos": "noun",
   "def": "a firm belief in the reliability, honesty, or ability of someone",
@@ -44835,6 +65765,33 @@ export const VOCAB = [
    "pay tuition"
   ],
   "theme": "education"
+ },
+ {
+  "w": "tumble",
+  "pos": "verb",
+  "def": "to fall suddenly, often rolling over or in a clumsy way",
+  "defId": "jatuh terguling; berjungkir",
+  "ex": "The toddler tumbled down the last two steps but was not hurt.",
+  "exId": "Balita itu jatuh terguling di dua anak tangga terakhir tetapi tidak terluka.",
+  "colloc": [
+   "tumble down",
+   "tumble over",
+   "tumble to the ground"
+  ],
+  "theme": "sound_movement"
+ },
+ {
+  "w": "tumble dryer",
+  "pos": "noun",
+  "def": "a machine that dries wet clothes by tumbling them in warm air",
+  "defId": "mesin pengering pakaian",
+  "ex": "Because it was raining, she dried the sheets in the tumble dryer.",
+  "exId": "Karena hujan, dia mengeringkan seprai di mesin pengering.",
+  "colloc": [
+   "a tumble dryer",
+   "put in the tumble dryer"
+  ],
+  "theme": "household"
  },
  {
   "w": "tumour",
@@ -44918,6 +65875,20 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "turmoil",
+  "pos": "noun",
+  "def": "a state of great confusion, disorder, or emotional disturbance",
+  "defId": "gejolak; keadaan kebingungan, kekacauan, atau pergolakan emosi yang hebat",
+  "ex": "Her mind was in turmoil after receiving the unexpected news.",
+  "exId": "Pikirannya bergejolak setelah menerima kabar yang tak terduga itu.",
+  "colloc": [
+   "emotional turmoil",
+   "inner turmoil",
+   "in turmoil"
+  ],
+  "theme": "psychology"
+ },
+ {
   "w": "turnaround",
   "pos": "noun",
   "def": "a significant improvement in the fortunes of a struggling company",
@@ -44960,6 +65931,33 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "turnstile",
+  "pos": "n",
+  "def": "A barrier with revolving arms that lets people through one at a time, often at a station.",
+  "defId": "Palang berlengan berputar yang meloloskan orang satu per satu, sering ada di stasiun.",
+  "ex": "You need to tap your card on the reader before the turnstile will let you through.",
+  "exId": "Kamu harus menempelkan kartumu ke pembaca sebelum palang putar itu meloloskanmu.",
+  "colloc": [
+   "ticket turnstile",
+   "push through the turnstile"
+  ],
+  "theme": "urban"
+ },
+ {
+  "w": "turquoise",
+  "pos": "adjective",
+  "def": "a greenish-blue colour, like the gemstone of the same name",
+  "defId": "biru kehijauan (pirus)",
+  "ex": "The sea near the island was a stunning turquoise colour.",
+  "exId": "Laut di dekat pulau itu berwarna pirus yang memukau.",
+  "colloc": [
+   "turquoise blue",
+   "turquoise water",
+   "bright turquoise"
+  ],
+  "theme": "colours"
+ },
+ {
   "w": "tutor",
   "pos": "noun",
   "def": "a teacher who gives lessons to one student or a small group, often privately",
@@ -44970,6 +65968,19 @@ export const VOCAB = [
    "private tutor",
    "personal tutor",
    "hire a tutor"
+  ],
+  "theme": "education"
+ },
+ {
+  "w": "tutorial",
+  "pos": "noun",
+  "def": "a period of teaching given to one student or a small group at a university",
+  "defId": "sesi bimbingan belajar untuk satu atau sekelompok kecil mahasiswa",
+  "ex": "Each week the professor holds a tutorial where students discuss their essays in depth.",
+  "exId": "Setiap minggu profesor mengadakan tutorial tempat mahasiswa membahas esai mereka secara mendalam.",
+  "colloc": [
+   "weekly tutorial",
+   "attend a tutorial"
   ],
   "theme": "education"
  },
@@ -45002,6 +66013,34 @@ export const VOCAB = [
   "theme": "fashion"
  },
  {
+  "w": "twinge",
+  "pos": "noun",
+  "def": "a sudden, brief, sharp pain",
+  "defId": "rasa nyeri tajam yang singkat dan tiba-tiba",
+  "ex": "He felt a sharp twinge in his back as he lifted the heavy box.",
+  "exId": "Ia merasakan nyeri tajam sesaat di punggungnya saat mengangkat kotak berat itu.",
+  "colloc": [
+   "a sharp twinge",
+   "a twinge of pain",
+   "feel a twinge"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "twirl",
+  "pos": "verb",
+  "def": "to spin or cause to spin round quickly and lightly",
+  "defId": "berputar; memutar-mutar",
+  "ex": "The dancer twirled elegantly across the stage to loud applause.",
+  "exId": "Penari itu berputar dengan anggun di panggung diiringi tepuk tangan meriah.",
+  "colloc": [
+   "twirl around",
+   "twirl gracefully",
+   "twirl a baton"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "twitch",
   "pos": "verb",
   "def": "to make a sudden, small, uncontrolled movement",
@@ -45014,6 +66053,19 @@ export const VOCAB = [
    "twitch involuntarily"
   ],
   "theme": "body"
+ },
+ {
+  "w": "twofold",
+  "pos": "adjective",
+  "def": "twice as great or as many; having two parts",
+  "defId": "dua kali lipat; berlipat dua",
+  "ex": "The report noted a twofold increase in car ownership between 2000 and 2010.",
+  "exId": "Laporan itu mencatat peningkatan dua kali lipat dalam kepemilikan mobil antara tahun 2000 dan 2010.",
+  "colloc": [
+   "a twofold increase",
+   "twofold rise"
+  ],
+  "theme": "numbers"
  },
  {
   "w": "typecast",
@@ -45044,6 +66096,32 @@ export const VOCAB = [
   "theme": "weather"
  },
  {
+  "w": "typology",
+  "pos": "noun",
+  "def": "a system of classifying things according to their common types or characteristics",
+  "defId": "tipologi; penggolongan tipe",
+  "ex": "Researchers developed a typology of learning styles for the study.",
+  "exId": "Para peneliti mengembangkan tipologi gaya belajar untuk penelitian itu.",
+  "colloc": [
+   "a typology of",
+   "develop a typology"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "tyranny",
+  "pos": "noun",
+  "def": "cruel and oppressive government or rule by an absolute authority",
+  "defId": "tirani; pemerintahan yang kejam dan menindas oleh kekuasaan mutlak",
+  "ex": "The revolution was fought to free the people from decades of tyranny.",
+  "exId": "Revolusi itu dikobarkan untuk membebaskan rakyat dari tirani selama puluhan tahun.",
+  "colloc": [
+   "overthrow tyranny",
+   "descend into tyranny"
+  ],
+  "theme": "politics"
+ },
+ {
   "w": "ubiquitous",
   "pos": "adjective",
   "def": "present, appearing, or found everywhere",
@@ -45070,6 +66148,19 @@ export const VOCAB = [
    "the ULEZ zone"
   ],
   "theme": "uk_transport"
+ },
+ {
+  "w": "ultimately",
+  "pos": "adverb",
+  "def": "in the end; after everything else has been considered",
+  "defId": "pada akhirnya",
+  "ex": "Ultimately, the success of the policy depends on public cooperation.",
+  "exId": "Pada akhirnya, keberhasilan kebijakan itu bergantung pada kerja sama masyarakat.",
+  "colloc": [
+   "ultimately, ...",
+   "ultimately responsible"
+  ],
+  "theme": "academic"
  },
  {
   "w": "umpire",
@@ -45124,6 +66215,46 @@ export const VOCAB = [
   "theme": "sport"
  },
  {
+  "w": "undeniable",
+  "pos": "adjective",
+  "def": "impossible to deny; clearly true",
+  "defId": "tak terbantahkan",
+  "ex": "There is undeniable evidence that global emissions have risen sharply.",
+  "exId": "Terdapat bukti tak terbantahkan bahwa emisi global telah meningkat tajam.",
+  "colloc": [
+   "undeniable evidence",
+   "undeniable fact",
+   "undeniable impact"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "under the weather",
+  "pos": "idiom",
+  "def": "feeling slightly ill or unwell",
+  "defId": "merasa kurang sehat atau agak sakit",
+  "ex": "I'm feeling a bit under the weather today, so I'll stay home and rest.",
+  "exId": "Saya merasa kurang enak badan hari ini, jadi saya akan tinggal di rumah dan beristirahat.",
+  "colloc": [
+   "feeling unwell",
+   "'a bit under the weather'"
+  ],
+  "theme": "idioms"
+ },
+ {
+  "w": "underachiever",
+  "pos": "noun",
+  "def": "a person who performs less well than they are capable of, especially at school",
+  "defId": "orang yang berprestasi di bawah kemampuannya, terutama di sekolah",
+  "ex": "Bored in class, the bright boy became something of an underachiever.",
+  "exId": "Karena bosan di kelas, anak cerdas itu menjadi semacam pelajar yang berprestasi di bawah kemampuannya.",
+  "colloc": [
+   "a chronic underachiever",
+   "labelled an underachiever"
+  ],
+  "theme": "education"
+ },
+ {
   "w": "underclass",
   "pos": "noun",
   "def": "The lowest social group, typically consisting of poor and socially excluded people.",
@@ -45135,6 +66266,20 @@ export const VOCAB = [
    "urban underclass"
   ],
   "theme": "society"
+ },
+ {
+  "w": "undercooked",
+  "pos": "adjective",
+  "def": "not cooked for long enough, so the food is still raw or hard inside",
+  "defId": "tidak dimasak cukup lama sehingga makanan masih mentah atau keras di dalam",
+  "ex": "The chicken was undercooked in the middle, so we sent it back.",
+  "exId": "Ayam itu masih kurang matang di bagian tengah, jadi kami mengembalikannya.",
+  "colloc": [
+   "dangerously undercooked",
+   "undercooked meat",
+   "slightly undercooked"
+  ],
+  "theme": "food"
  },
  {
   "w": "undercover",
@@ -45149,6 +66294,34 @@ export const VOCAB = [
    "undercover operation"
   ],
   "theme": "crime"
+ },
+ {
+  "w": "undercut",
+  "pos": "verb",
+  "def": "to sell goods or services more cheaply than a competitor in order to win business",
+  "defId": "menjual barang atau jasa lebih murah dari pesaing untuk merebut pasar",
+  "ex": "The new entrant managed to undercut established rivals by pricing its plans 20% lower.",
+  "exId": "Pendatang baru itu berhasil menjual lebih murah dari pesaing mapan dengan harga paket 20% lebih rendah.",
+  "colloc": [
+   "undercut competitors",
+   "undercut the price",
+   "undercut rivals"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "underdevelopment",
+  "pos": "noun",
+  "def": "the condition of a country that has not achieved industrial or economic growth",
+  "defId": "kondisi negara yang belum mencapai pertumbuhan industri atau ekonomi",
+  "ex": "Persistent underdevelopment in the region has been blamed on unfair trade terms.",
+  "exId": "Keterbelakangan yang terus-menerus di kawasan itu disalahkan pada syarat perdagangan yang tak adil.",
+  "colloc": [
+   "chronic underdevelopment",
+   "economic underdevelopment",
+   "trap of underdevelopment"
+  ],
+  "theme": "globalisation"
  },
  {
   "w": "underdog",
@@ -45176,6 +66349,19 @@ export const VOCAB = [
    "tackle underemployment"
   ],
   "theme": "economy"
+ },
+ {
+  "w": "underestimate",
+  "pos": "verb",
+  "def": "to think that something is smaller, weaker, or less important than it really is",
+  "defId": "meremehkan; menaksir terlalu rendah",
+  "ex": "We should not underestimate the challenges of an ageing population.",
+  "exId": "Kita tidak boleh meremehkan tantangan dari populasi yang menua.",
+  "colloc": [
+   "underestimate the difficulty",
+   "seriously underestimate"
+  ],
+  "theme": "academic"
  },
  {
   "w": "undergo",
@@ -45219,6 +66405,19 @@ export const VOCAB = [
   "theme": "nature"
  },
  {
+  "w": "underlie",
+  "pos": "verb",
+  "def": "to be the hidden cause or basis of something",
+  "defId": "mendasari; menjadi dasar",
+  "ex": "Deep social inequalities underlie many of the country's problems.",
+  "exId": "Ketimpangan sosial yang mendalam mendasari banyak masalah negara itu.",
+  "colloc": [
+   "underlie the problem",
+   "factors that underlie"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "underlying",
   "pos": "adjective",
   "def": "important but not obvious, forming the real basis of something",
@@ -45233,6 +66432,20 @@ export const VOCAB = [
   "theme": "science"
  },
  {
+  "w": "undermine",
+  "pos": "verb",
+  "def": "to gradually weaken or damage something, such as confidence or effectiveness",
+  "defId": "melemahkan; menggerogoti",
+  "ex": "Constant criticism can undermine a child's self-confidence.",
+  "exId": "Kritik yang terus-menerus dapat melemahkan rasa percaya diri seorang anak.",
+  "colloc": [
+   "undermine confidence",
+   "undermine authority",
+   "undermine efforts"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "underpass",
   "pos": "noun",
   "def": "a passage that goes under a road or railway so people or vehicles can cross safely",
@@ -45245,6 +66458,19 @@ export const VOCAB = [
    "dimly lit underpass"
   ],
   "theme": "urban"
+ },
+ {
+  "w": "underperform",
+  "pos": "verb",
+  "def": "to do less well than expected or required",
+  "defId": "berkinerja di bawah harapan",
+  "ex": "Schools that consistently underperform may lose their funding.",
+  "exId": "Sekolah yang terus-menerus berkinerja di bawah harapan bisa kehilangan pendanaannya.",
+  "colloc": [
+   "underperform the market",
+   "consistently underperform"
+  ],
+  "theme": "academic"
  },
  {
   "w": "underpin",
@@ -45328,6 +66554,20 @@ export const VOCAB = [
   "theme": "fashion"
  },
  {
+  "w": "understudy",
+  "pos": "noun",
+  "def": "an actor who learns another performer's role in order to replace them if necessary",
+  "defId": "aktor pengganti yang mempelajari peran pemain lain untuk menggantikannya bila diperlukan",
+  "ex": "When the lead actress fell ill, her understudy stepped in and gave a flawless performance.",
+  "exId": "Ketika aktris utama jatuh sakit, pemain penggantinya tampil dan memberikan pertunjukan yang sempurna.",
+  "colloc": [
+   "understudy for the lead",
+   "step in as an understudy",
+   "the understudy went on"
+  ],
+  "theme": "arts"
+ },
+ {
   "w": "undertake",
   "pos": "verb",
   "def": "to take on and begin a task or piece of work, especially something large or difficult",
@@ -45356,6 +66596,19 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "undervalue",
+  "pos": "verb",
+  "def": "to think or say that something is worth less than it really is",
+  "defId": "menganggap remeh nilainya; menilai terlalu rendah",
+  "ex": "Society tends to undervalue the work done by unpaid carers.",
+  "exId": "Masyarakat cenderung menilai terlalu rendah pekerjaan yang dilakukan oleh pengasuh tanpa bayaran.",
+  "colloc": [
+   "undervalue a contribution",
+   "undervalued asset"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "underwrite",
   "pos": "verb",
   "def": "to accept financial responsibility for a risk, or to guarantee the sale of shares",
@@ -45367,6 +66620,33 @@ export const VOCAB = [
    "underwrite an offering"
   ],
   "theme": "business"
+ },
+ {
+  "w": "undocumented",
+  "pos": "adjective",
+  "def": "living or working in a country without official legal permission or papers",
+  "defId": "tanpa dokumen resmi; tinggal atau bekerja di suatu negara tanpa izin hukum resmi",
+  "ex": "Undocumented workers are especially vulnerable to exploitation by employers.",
+  "exId": "Pekerja tanpa dokumen resmi sangat rentan terhadap eksploitasi oleh pemberi kerja.",
+  "colloc": [
+   "undocumented migrants",
+   "undocumented workers",
+   "undocumented immigrant"
+  ],
+  "theme": "society"
+ },
+ {
+  "w": "undoubtedly",
+  "pos": "adverb",
+  "def": "without any doubt; certainly",
+  "defId": "tidak diragukan lagi",
+  "ex": "Technology has undoubtedly transformed the way we communicate.",
+  "exId": "Teknologi tidak diragukan lagi telah mengubah cara kita berkomunikasi.",
+  "colloc": [
+   "undoubtedly, ...",
+   "is undoubtedly"
+  ],
+  "theme": "academic"
  },
  {
   "w": "unearth",
@@ -45381,6 +66661,20 @@ export const VOCAB = [
    "to unearth the truth"
   ],
   "theme": "history"
+ },
+ {
+  "w": "unease",
+  "pos": "noun",
+  "def": "a feeling of anxiety, worry, or discomfort",
+  "defId": "kegelisahan; perasaan cemas, khawatir, atau tidak nyaman",
+  "ex": "A sense of unease spread through the crowd as the results were delayed.",
+  "exId": "Rasa gelisah menyebar di antara kerumunan ketika hasil ditunda.",
+  "colloc": [
+   "a sense of unease",
+   "growing unease",
+   "feelings of unease"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "uneasy",
@@ -45410,6 +66704,20 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "unequivocal",
+  "pos": "adjective",
+  "def": "leaving no doubt; expressed clearly and firmly",
+  "defId": "tegas; tanpa keraguan",
+  "ex": "The report gave an unequivocal warning about rising sea levels.",
+  "exId": "Laporan itu memberikan peringatan tegas tentang naiknya permukaan laut.",
+  "colloc": [
+   "unequivocal support",
+   "unequivocal evidence",
+   "unequivocal answer"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "unfollow",
   "pos": "verb",
   "def": "to stop subscribing to someone's posts on social media",
@@ -45421,6 +66729,59 @@ export const VOCAB = [
    "unfollow someone"
   ],
   "theme": "internet"
+ },
+ {
+  "w": "unfounded",
+  "pos": "adjective",
+  "def": "not based on fact or evidence",
+  "defId": "tidak berdasar",
+  "ex": "Fears about the vaccine turned out to be completely unfounded.",
+  "exId": "Kekhawatiran tentang vaksin itu ternyata sama sekali tidak berdasar.",
+  "colloc": [
+   "unfounded claims",
+   "unfounded fears"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "unicorn",
+  "pos": "noun",
+  "def": "a privately held startup company valued at more than one billion dollars",
+  "defId": "perusahaan rintisan swasta yang bernilai lebih dari satu miliar dolar",
+  "ex": "Within five years the app became a unicorn, reaching a valuation of two billion dollars.",
+  "exId": "Dalam lima tahun aplikasi itu menjadi unicorn dengan valuasi mencapai dua miliar dolar.",
+  "colloc": [
+   "tech unicorn",
+   "become a unicorn",
+   "unicorn startup"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "uniform",
+  "pos": "adjective",
+  "def": "the same in all cases and at all times; not varying",
+  "defId": "sama di semua kasus dan sepanjang waktu; seragam dan tidak berubah-ubah",
+  "ex": "The quality of teaching was remarkably uniform across all the schools.",
+  "exId": "Kualitas pengajaran sangat seragam di seluruh sekolah.",
+  "colloc": [
+   "uniform standard",
+   "remarkably uniform"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "unilateral",
+  "pos": "adjective",
+  "def": "done or decided by one country or party without the agreement of others",
+  "defId": "sepihak; dilakukan atau diputuskan oleh satu negara atau pihak tanpa persetujuan pihak lain",
+  "ex": "The country's unilateral decision to withdraw from the treaty angered its allies.",
+  "exId": "Keputusan sepihak negara itu untuk keluar dari perjanjian membuat marah para sekutunya.",
+  "colloc": [
+   "unilateral action",
+   "unilateral decision"
+  ],
+  "theme": "politics"
  },
  {
   "w": "Universal Credit",
@@ -45465,6 +66826,33 @@ export const VOCAB = [
   "theme": "uk_transport"
  },
  {
+  "w": "unlike",
+  "pos": "preposition",
+  "def": "different from; in contrast to",
+  "defId": "berbeda dari; tidak seperti",
+  "ex": "Unlike her sister, she prefers reading to any kind of sport.",
+  "exId": "Tidak seperti kakaknya, ia lebih suka membaca daripada olahraga jenis apa pun.",
+  "colloc": [
+   "unlike others",
+   "quite unlike"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "unlikely",
+  "pos": "adjective",
+  "def": "not probable; not expected to happen or be true",
+  "defId": "kecil kemungkinan; tidak mungkin",
+  "ex": "A complete ban seems unlikely given the current economic pressures.",
+  "exId": "Larangan total tampaknya kecil kemungkinannya mengingat tekanan ekonomi saat ini.",
+  "colloc": [
+   "highly unlikely",
+   "unlikely to succeed",
+   "seems unlikely"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "unrequited",
   "pos": "adjective",
   "def": "(of love) not returned or shared by the other person",
@@ -45505,6 +66893,20 @@ export const VOCAB = [
   "theme": "tourism"
  },
  {
+  "w": "untenable",
+  "pos": "adjective",
+  "def": "impossible to defend or justify",
+  "defId": "tak dapat dipertahankan",
+  "ex": "The government's position became untenable after the scandal broke.",
+  "exId": "Posisi pemerintah menjadi tak dapat dipertahankan setelah skandal itu terungkap.",
+  "colloc": [
+   "untenable position",
+   "increasingly untenable",
+   "become untenable"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "unwind",
   "pos": "verb",
   "def": "to relax and release tension after a period of work or stress",
@@ -45517,6 +66919,19 @@ export const VOCAB = [
    "unwind with a book"
   ],
   "theme": "leisure"
+ },
+ {
+  "w": "up in the air",
+  "pos": "idiom",
+  "def": "uncertain and not yet decided",
+  "defId": "belum pasti; masih menggantung dan belum diputuskan",
+  "ex": "Our holiday plans are still up in the air because of work.",
+  "exId": "Rencana liburan kami masih menggantung karena urusan pekerjaan.",
+  "colloc": [
+   "undecided plans",
+   "'plans are up in the air'"
+  ],
+  "theme": "idioms"
  },
  {
   "w": "up-and-coming",
@@ -45574,6 +66989,20 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "update",
+  "pos": "noun",
+  "def": "a newer version of software that adds features or fixes problems",
+  "defId": "versi perangkat lunak yang lebih baru yang menambahkan fitur atau memperbaiki masalah",
+  "ex": "The latest update finally fixed the battery-drain issue on my phone.",
+  "exId": "Pembaruan terbaru akhirnya memperbaiki masalah baterai boros di ponsel saya.",
+  "colloc": [
+   "software update",
+   "install an update",
+   "automatic update"
+  ],
+  "theme": "technology"
+ },
+ {
   "w": "upgrade",
   "pos": "verb",
   "def": "to improve a device or program by adding better parts or a newer version",
@@ -45616,6 +67045,33 @@ export const VOCAB = [
   "theme": "law"
  },
  {
+  "w": "upholstery",
+  "pos": "noun",
+  "def": "the soft, padded covering fixed to furniture such as sofas and armchairs",
+  "defId": "pelapis atau jok mebel",
+  "ex": "The armchair's velvet upholstery had faded after years in the sun.",
+  "exId": "Pelapis beludru kursi berlengan itu memudar setelah bertahun-tahun terkena matahari.",
+  "colloc": [
+   "leather upholstery",
+   "clean the upholstery"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "uplift",
+  "pos": "verb",
+  "def": "to raise the moral, social or economic condition of a group of people",
+  "defId": "mengangkat; memperbaiki kondisi moral, sosial, atau ekonomi suatu kelompok",
+  "ex": "The charity aims to uplift impoverished communities through vocational training.",
+  "exId": "Lembaga amal itu bertujuan mengangkat komunitas miskin melalui pelatihan kejuruan.",
+  "colloc": [
+   "uplift the poor",
+   "socially uplift",
+   "uplift a community"
+  ],
+  "theme": "society"
+ },
+ {
   "w": "upload",
   "pos": "verb",
   "def": "to send data from your device to the internet or a network",
@@ -45628,6 +67084,20 @@ export const VOCAB = [
    "upload speed"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "upmarket",
+  "pos": "adjective",
+  "def": "expensive and aimed at wealthy people",
+  "defId": "kelas atas dan mewah",
+  "ex": "The high street is lined with upmarket boutiques and expensive delicatessens.",
+  "exId": "Jalan utama itu dipenuhi butik kelas atas dan toko makanan mahal.",
+  "colloc": [
+   "an upmarket area",
+   "upmarket shops",
+   "an upmarket neighbourhood"
+  ],
+  "theme": "describe_places"
  },
  {
   "w": "uprising",
@@ -45644,6 +67114,48 @@ export const VOCAB = [
   "theme": "history"
  },
  {
+  "w": "upscale",
+  "pos": "adjective",
+  "def": "aimed at wealthier customers and offering higher quality or luxury",
+  "defId": "ditujukan untuk pelanggan kelas atas; mewah dan berkualitas tinggi",
+  "ex": "The chain repositioned itself as an upscale brand to attract higher-spending shoppers.",
+  "exId": "Jaringan itu memposisikan ulang dirinya sebagai merek kelas atas untuk menarik pembeli berdaya beli tinggi.",
+  "colloc": [
+   "upscale market",
+   "upscale brand",
+   "go upscale"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "upsell",
+  "pos": "verb",
+  "def": "to persuade a customer to buy a more expensive item or upgrade at the point of sale",
+  "defId": "membujuk pelanggan membeli barang lebih mahal atau peningkatan saat transaksi",
+  "ex": "Staff are trained to upsell customers to the premium package whenever possible.",
+  "exId": "Staf dilatih untuk menawarkan paket premium yang lebih mahal kepada pelanggan bila memungkinkan.",
+  "colloc": [
+   "upsell customers",
+   "upsell to premium",
+   "upsell technique"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "upshot",
+  "pos": "noun",
+  "def": "the final result or conclusion of a situation",
+  "defId": "hasil akhir; kesimpulannya",
+  "ex": "The upshot of the meeting was that the project would be delayed.",
+  "exId": "Hasil akhir dari rapat itu adalah bahwa proyek tersebut akan ditunda.",
+  "colloc": [
+   "the upshot of",
+   "the upshot is",
+   "the upshot was"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "upskill",
   "pos": "verb",
   "def": "to learn new or improved skills, or to teach these to employees",
@@ -45656,6 +67168,34 @@ export const VOCAB = [
    "upskill and reskill"
   ],
   "theme": "work"
+ },
+ {
+  "w": "upswing",
+  "pos": "noun",
+  "def": "An upward trend in business activity or economic conditions.",
+  "defId": "Peningkatan; tren naik dalam aktivitas bisnis atau kondisi ekonomi.",
+  "ex": "Retailers reported a strong upswing in demand during the holiday season.",
+  "exId": "Para peritel melaporkan peningkatan permintaan yang kuat selama musim liburan.",
+  "colloc": [
+   "an economic upswing",
+   "a cyclical upswing",
+   "on the upswing"
+  ],
+  "theme": "economy"
+ },
+ {
+  "w": "uptime",
+  "pos": "noun",
+  "def": "the amount of time that a system or service stays operational and available",
+  "defId": "lamanya waktu suatu sistem atau layanan tetap beroperasi dan tersedia",
+  "ex": "The hosting company guarantees ninety-nine percent uptime for its servers.",
+  "exId": "Perusahaan hosting menjamin uptime sembilan puluh sembilan persen untuk servernya.",
+  "colloc": [
+   "server uptime",
+   "guaranteed uptime",
+   "uptime percentage"
+  ],
+  "theme": "technology"
  },
  {
   "w": "uptown",
@@ -45737,6 +67277,20 @@ export const VOCAB = [
    "increasing urbanisation"
   ],
   "theme": "society"
+ },
+ {
+  "w": "urge",
+  "pos": "noun",
+  "def": "a strong desire or impulse to do something",
+  "defId": "dorongan; hasrat atau desakan kuat untuk melakukan sesuatu",
+  "ex": "She felt a sudden urge to abandon the meeting and go outside.",
+  "exId": "Dia merasakan dorongan tiba-tiba untuk meninggalkan rapat dan pergi ke luar.",
+  "colloc": [
+   "a sudden urge",
+   "resist the urge",
+   "irresistible urge"
+  ],
+  "theme": "psychology"
  },
  {
   "w": "urgent care",
@@ -45833,6 +67387,20 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "utterance",
+  "pos": "noun",
+  "def": "something that is said; a spoken word, phrase, or statement",
+  "defId": "sesuatu yang diucapkan; kata, frasa, atau pernyataan lisan",
+  "ex": "Linguists analyse every utterance a child makes to track how language develops.",
+  "exId": "Para ahli bahasa menganalisis setiap ujaran anak untuk melacak perkembangan bahasanya.",
+  "colloc": [
+   "a single utterance",
+   "spoken utterance",
+   "analyse an utterance"
+  ],
+  "theme": "language"
+ },
+ {
   "w": "vacancy",
   "pos": "noun",
   "def": "a job that is available for someone to take",
@@ -45847,6 +67415,20 @@ export const VOCAB = [
   "theme": "work"
  },
  {
+  "w": "vaccination",
+  "pos": "noun",
+  "def": "the act of giving a vaccine to protect against a disease",
+  "defId": "tindakan pemberian vaksin untuk melindungi dari suatu penyakit",
+  "ex": "The clinic offers free flu vaccination to elderly residents every autumn.",
+  "exId": "Klinik itu menawarkan vaksinasi flu gratis kepada warga lanjut usia setiap musim gugur.",
+  "colloc": [
+   "flu vaccination",
+   "a vaccination programme",
+   "get a vaccination"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "vaccine",
   "pos": "noun",
   "def": "a substance put into the body to protect it against a disease",
@@ -45859,6 +67441,19 @@ export const VOCAB = [
    "vaccine against"
   ],
   "theme": "health"
+ },
+ {
+  "w": "vacuum cleaner",
+  "pos": "noun",
+  "def": "an electrical appliance that sucks up dust and dirt from floors and carpets",
+  "defId": "penyedot debu",
+  "ex": "The vacuum cleaner got clogged with pet hair from the rug.",
+  "exId": "Penyedot debu itu tersumbat bulu hewan peliharaan dari permadani.",
+  "colloc": [
+   "a cordless vacuum cleaner",
+   "run the vacuum cleaner"
+  ],
+  "theme": "household"
  },
  {
   "w": "vain",
@@ -45980,6 +67575,20 @@ export const VOCAB = [
    "commit vandalism"
   ],
   "theme": "crime"
+ },
+ {
+  "w": "vantage point",
+  "pos": "noun",
+  "def": "a position that gives a good, wide view of something",
+  "defId": "posisi yang memberi pemandangan yang baik dan luas atas sesuatu",
+  "ex": "From our vantage point on the hill, we could see the entire harbour.",
+  "exId": "Dari titik pandang kami di bukit, kami bisa melihat seluruh pelabuhan.",
+  "colloc": [
+   "a good vantage point",
+   "from a vantage point",
+   "a high vantage point"
+  ],
+  "theme": "travel"
  },
  {
   "w": "variable",
@@ -46107,6 +67716,20 @@ export const VOCAB = [
   "theme": "fashion"
  },
  {
+  "w": "velvety",
+  "pos": "adjective",
+  "def": "smooth and soft to touch or taste, like velvet",
+  "defId": "lembut dan halus saat disentuh atau dirasakan, seperti beludru",
+  "ex": "The soup had a wonderfully velvety texture that coated the tongue.",
+  "exId": "Sup itu memiliki tekstur lembut menawan yang menyelimuti lidah.",
+  "colloc": [
+   "velvety texture",
+   "velvety smooth",
+   "velvety petals"
+  ],
+  "theme": "senses"
+ },
+ {
   "w": "vendor",
   "pos": "noun",
   "def": "a person or company that sells a particular product or service",
@@ -46177,6 +67800,20 @@ export const VOCAB = [
   "theme": "economy"
  },
  {
+  "w": "venture capital",
+  "pos": "noun",
+  "def": "Money invested in new or growing businesses that carry a high risk.",
+  "defId": "Modal ventura; dana yang diinvestasikan pada bisnis baru atau berkembang yang berisiko tinggi.",
+  "ex": "The startup raised millions in venture capital to expand overseas.",
+  "exId": "Perusahaan rintisan itu menggalang jutaan modal ventura untuk berekspansi ke luar negeri.",
+  "colloc": [
+   "raise venture capital",
+   "a venture capital firm",
+   "venture capital funding"
+  ],
+  "theme": "economy"
+ },
+ {
   "w": "venue",
   "pos": "noun",
   "def": "the place where an event or match is held",
@@ -46189,6 +67826,20 @@ export const VOCAB = [
    "change the venue"
   ],
   "theme": "sport"
+ },
+ {
+  "w": "verbalise",
+  "pos": "verb",
+  "def": "to express thoughts or feelings in spoken or written words",
+  "defId": "mengungkapkan pikiran atau perasaan dalam bentuk kata lisan atau tulisan",
+  "ex": "Young children often feel emotions strongly but struggle to verbalise them.",
+  "exId": "Anak kecil sering merasakan emosi dengan kuat tetapi kesulitan mengungkapkannya dengan kata-kata.",
+  "colloc": [
+   "verbalise feelings",
+   "verbalise thoughts",
+   "hard to verbalise"
+  ],
+  "theme": "language"
  },
  {
   "w": "verbatim",
@@ -46218,6 +67869,20 @@ export const VOCAB = [
   "theme": "language"
  },
  {
+  "w": "verdant",
+  "pos": "adjective",
+  "def": "(of countryside or a garden) green with rich, healthy vegetation",
+  "defId": "hijau subur; rimbun menghijau",
+  "ex": "After weeks of rain the garden looked lush and verdant.",
+  "exId": "Setelah berminggu-minggu hujan, taman itu tampak subur dan menghijau.",
+  "colloc": [
+   "verdant garden",
+   "verdant hills",
+   "lush and verdant"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "verdict",
   "pos": "noun",
   "def": "the official decision made by a jury or judge in a court of law",
@@ -46230,6 +67895,20 @@ export const VOCAB = [
    "return a verdict"
   ],
   "theme": "society"
+ },
+ {
+  "w": "verifiable",
+  "pos": "adjective",
+  "def": "able to be checked or proven to be true",
+  "defId": "dapat diverifikasi; dapat dibuktikan",
+  "ex": "Any strong argument must be supported by verifiable facts.",
+  "exId": "Setiap argumen yang kuat harus didukung oleh fakta yang dapat diverifikasi.",
+  "colloc": [
+   "verifiable evidence",
+   "verifiable facts",
+   "independently verifiable"
+  ],
+  "theme": "academic"
  },
  {
   "w": "verified badge",
@@ -46343,6 +68022,19 @@ export const VOCAB = [
   "theme": "conflict"
  },
  {
+  "w": "veterinarian",
+  "pos": "noun",
+  "def": "a person qualified to treat sick or injured animals",
+  "defId": "dokter hewan",
+  "ex": "The veterinarian vaccinated our puppy last week.",
+  "exId": "Dokter hewan itu memvaksinasi anak anjing kami minggu lalu.",
+  "colloc": [
+   "qualified veterinarian",
+   "see a veterinarian"
+  ],
+  "theme": "jobs"
+ },
+ {
   "w": "veto",
   "pos": "verb",
   "def": "to officially reject or refuse to approve a decision or proposal",
@@ -46438,6 +68130,19 @@ export const VOCAB = [
   "theme": "uk_home"
  },
  {
+  "w": "viewpoint",
+  "pos": "noun",
+  "def": "a way of thinking about a subject; a point of view",
+  "defId": "sudut pandang; pandangan",
+  "ex": "A good essay considers the issue from more than one viewpoint.",
+  "exId": "Esai yang baik mempertimbangkan suatu isu dari lebih dari satu sudut pandang.",
+  "colloc": [
+   "opposing viewpoint",
+   "from the viewpoint of"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "vigilant",
   "pos": "adjective",
   "def": "carefully watching for possible danger or problems",
@@ -46449,6 +68154,20 @@ export const VOCAB = [
    "ever vigilant"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "vignette",
+  "pos": "noun",
+  "def": "a brief, vivid scene or descriptive sketch in writing or performance",
+  "defId": "adegan singkat yang hidup atau sketsa deskriptif dalam tulisan atau pertunjukan",
+  "ex": "The play is a series of vignettes, each capturing a single moment in a woman's life.",
+  "exId": "Lakon itu adalah rangkaian vinyet, masing-masing menangkap satu momen dalam hidup seorang perempuan.",
+  "colloc": [
+   "charming vignette",
+   "a series of vignettes",
+   "brief vignette"
+  ],
+  "theme": "arts"
  },
  {
   "w": "village green",
@@ -46492,6 +68211,34 @@ export const VOCAB = [
   "theme": "academic"
  },
  {
+  "w": "vindictive",
+  "pos": "adjective",
+  "def": "having or showing a strong desire for revenge; spiteful",
+  "defId": "pendendam; memiliki atau menunjukkan keinginan kuat untuk balas dendam",
+  "ex": "His vindictive remarks were clearly meant to wound her.",
+  "exId": "Ucapan pendendamnya jelas dimaksudkan untuk melukai hatinya.",
+  "colloc": [
+   "a vindictive streak",
+   "vindictive behaviour",
+   "become vindictive"
+  ],
+  "theme": "psychology"
+ },
+ {
+  "w": "vine",
+  "pos": "noun",
+  "def": "a climbing plant with long, twisting stems, especially one that produces grapes",
+  "defId": "tanaman merambat; pokok anggur",
+  "ex": "A leafy vine had grown all the way up the side of the cottage.",
+  "exId": "Tanaman merambat yang rimbun telah tumbuh sampai ke sisi pondok.",
+  "colloc": [
+   "climbing vine",
+   "grape vine",
+   "vine leaves"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "vineyard",
   "pos": "noun",
   "def": "an area of land where grapes are grown to make wine.",
@@ -46517,6 +68264,19 @@ export const VOCAB = [
    "vintage dress"
   ],
   "theme": "fashion"
+ },
+ {
+  "w": "violate",
+  "pos": "verb",
+  "def": "to break or act against a law, agreement, or right",
+  "defId": "melanggar hukum, perjanjian, atau hak",
+  "ex": "Companies that violate data-protection regulations can be heavily fined.",
+  "exId": "Perusahaan yang melanggar peraturan perlindungan data dapat didenda berat.",
+  "colloc": [
+   "violate a law",
+   "violate human rights"
+  ],
+  "theme": "law"
  },
  {
   "w": "viral",
@@ -46642,6 +68402,20 @@ export const VOCAB = [
   "theme": "tourism"
  },
  {
+  "w": "vista",
+  "pos": "noun",
+  "def": "a pleasing wide view, especially of a beautiful landscape",
+  "defId": "pemandangan luas yang indah, terutama lanskap yang cantik",
+  "ex": "A breathtaking vista of rolling hills opened up beyond the ridge.",
+  "exId": "Pemandangan perbukitan bergelombang yang menakjubkan terbentang di balik punggung bukit.",
+  "colloc": [
+   "a stunning vista",
+   "a panoramic vista",
+   "open up a vista"
+  ],
+  "theme": "travel"
+ },
+ {
   "w": "viva",
   "pos": "noun",
   "def": "an oral examination, especially one taken to obtain an academic degree",
@@ -46711,6 +68485,20 @@ export const VOCAB = [
   "theme": "music"
  },
  {
+  "w": "vocation",
+  "pos": "noun",
+  "def": "A strong feeling of suitability for a particular career, often seen as a calling involving dedication.",
+  "defId": "panggilan jiwa; pekerjaan atau profesi yang dirasa paling cocok dan dijalani dengan pengabdian tinggi",
+  "ex": "For many nurses, the job is not just employment but a genuine vocation.",
+  "exId": "Bagi banyak perawat, pekerjaan itu bukan sekadar mencari nafkah, melainkan panggilan jiwa yang sejati.",
+  "colloc": [
+   "a sense of vocation",
+   "miss one's vocation",
+   "a true vocation"
+  ],
+  "theme": "work"
+ },
+ {
   "w": "vocational",
   "pos": "adjective",
   "def": "relating to training for a particular job or type of skilled work",
@@ -46723,6 +68511,47 @@ export const VOCAB = [
    "vocational education"
   ],
   "theme": "education"
+ },
+ {
+  "w": "vociferous",
+  "pos": "adjective",
+  "def": "expressing opinions or feelings loudly, forcefully, and insistently",
+  "defId": "menyatakan pendapat atau perasaan dengan lantang, keras, dan gigih",
+  "ex": "There was vociferous opposition to the plan at the public meeting.",
+  "exId": "Terdapat penolakan lantang terhadap rencana itu di rapat umum.",
+  "colloc": [
+   "vociferous opposition",
+   "vociferous protest",
+   "a vociferous critic"
+  ],
+  "theme": "language"
+ },
+ {
+  "w": "void",
+  "pos": "adjective",
+  "def": "having no legal force or effect; not valid",
+  "defId": "batal; tidak berkekuatan hukum",
+  "ex": "Because one party was a minor, the judge declared the contract void.",
+  "exId": "Karena salah satu pihak masih di bawah umur, hakim menyatakan kontrak itu batal.",
+  "colloc": [
+   "null and void",
+   "declare void"
+  ],
+  "theme": "law"
+ },
+ {
+  "w": "volatile",
+  "pos": "adj",
+  "def": "evaporating quickly at normal temperatures",
+  "defId": "mudah menguap pada suhu normal",
+  "ex": "Petrol is a volatile liquid that releases fumes readily.",
+  "exId": "Bensin adalah cairan yang mudah menguap dan cepat mengeluarkan uap.",
+  "colloc": [
+   "volatile compound",
+   "highly volatile",
+   "volatile substance"
+  ],
+  "theme": "science"
  },
  {
   "w": "volatility",
@@ -46751,6 +68580,19 @@ export const VOCAB = [
    "mains voltage"
   ],
   "theme": "energy"
+ },
+ {
+  "w": "voluntary",
+  "pos": "adjective",
+  "def": "done because you choose to, not because you are forced to",
+  "defId": "sukarela; atas kemauan sendiri tanpa paksaan",
+  "ex": "The witness gave a voluntary statement without being pressured by the police.",
+  "exId": "Saksi memberikan pernyataan secara sukarela tanpa ditekan oleh polisi.",
+  "colloc": [
+   "voluntary agreement",
+   "voluntary disclosure"
+  ],
+  "theme": "law"
  },
  {
   "w": "volunteering",
@@ -46808,6 +68650,20 @@ export const VOCAB = [
   "theme": "psychology"
  },
  {
+  "w": "waffle",
+  "pos": "verb",
+  "def": "to talk or write at length in a vague way without saying anything useful",
+  "defId": "berbicara atau menulis panjang lebar secara samar tanpa menyampaikan hal yang berguna",
+  "ex": "Examiners quickly notice when candidates waffle to fill the time instead of answering directly.",
+  "exId": "Penguji cepat menyadari ketika peserta berbelit-belit untuk mengisi waktu alih-alih menjawab langsung.",
+  "colloc": [
+   "waffle on",
+   "tend to waffle",
+   "waffle about something"
+  ],
+  "theme": "language"
+ },
+ {
   "w": "wage",
   "pos": "noun",
   "def": "a regular amount of money paid to a worker, usually weekly, for the work they do",
@@ -46834,6 +68690,19 @@ export const VOCAB = [
    "long waiting list"
   ],
   "theme": "uk_health"
+ },
+ {
+  "w": "waive",
+  "pos": "verb",
+  "def": "to choose not to use or insist on a right or claim",
+  "defId": "melepaskan atau tidak menuntut suatu hak; mengesampingkan",
+  "ex": "The defendant agreed to waive his right to remain silent.",
+  "exId": "Terdakwa setuju untuk melepaskan haknya untuk tetap diam.",
+  "colloc": [
+   "waive a right",
+   "waive a fee"
+  ],
+  "theme": "law"
  },
  {
   "w": "waiver",
@@ -46916,6 +68785,33 @@ export const VOCAB = [
    "waning support"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "ward",
+  "pos": "noun",
+  "def": "a room or division in a hospital for a particular group of patients",
+  "defId": "ruangan atau bagian di rumah sakit untuk kelompok pasien tertentu",
+  "ex": "The patient was moved to the maternity ward shortly after midnight.",
+  "exId": "Pasien itu dipindahkan ke bangsal bersalin tak lama setelah tengah malam.",
+  "colloc": [
+   "a hospital ward",
+   "maternity ward",
+   "intensive care ward"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "wardrobe",
+  "pos": "noun",
+  "def": "a tall cupboard in which clothes are hung or stored",
+  "defId": "lemari pakaian",
+  "ex": "She hung her coat in the wardrobe and slid the door shut.",
+  "exId": "Dia menggantung mantelnya di lemari pakaian dan menutup pintunya.",
+  "colloc": [
+   "a built-in wardrobe",
+   "hang in the wardrobe"
+  ],
+  "theme": "household"
  },
  {
   "w": "wardrobe staple",
@@ -47013,6 +68909,46 @@ export const VOCAB = [
   "theme": "emotion"
  },
  {
+  "w": "washer",
+  "pos": "noun",
+  "def": "a thin flat ring placed under a nut or bolt to spread pressure or form a seal",
+  "defId": "ring penyekat",
+  "ex": "Fit a rubber washer to stop the tap from leaking.",
+  "exId": "Pasang ring karet supaya kran tidak bocor.",
+  "colloc": [
+   "rubber washer",
+   "metal washer"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "washing machine",
+  "pos": "noun",
+  "def": "an electrical machine for washing clothes and other fabrics",
+  "defId": "mesin cuci",
+  "ex": "He put a load of towels in the washing machine before work.",
+  "exId": "Dia memasukkan setumpuk handuk ke mesin cuci sebelum berangkat kerja.",
+  "colloc": [
+   "load the washing machine",
+   "a front-loading washing machine"
+  ],
+  "theme": "household"
+ },
+ {
+  "w": "wastage",
+  "pos": "noun",
+  "def": "the act of using or losing something carelessly, or the amount lost in this way.",
+  "defId": "tindakan menggunakan atau membuang sesuatu secara sia-sia, atau jumlah yang hilang karenanya.",
+  "ex": "Better packaging could dramatically reduce food wastage in supermarkets.",
+  "exId": "Kemasan yang lebih baik dapat mengurangi pemborosan makanan di supermarket secara drastis.",
+  "colloc": [
+   "food wastage",
+   "reduce wastage",
+   "water wastage"
+  ],
+  "theme": "environment"
+ },
+ {
   "w": "watchdog",
   "pos": "noun",
   "def": "a person or organisation that monitors others to prevent wrongdoing",
@@ -47053,6 +68989,19 @@ export const VOCAB = [
   "theme": "nature"
  },
  {
+  "w": "waterfront",
+  "pos": "n",
+  "def": "The area of a city or town that lies next to a river, lake, or sea.",
+  "defId": "Bagian kota yang berbatasan langsung dengan sungai, danau, atau laut.",
+  "ex": "The disused docks on the waterfront have been converted into trendy apartments.",
+  "exId": "Dermaga tak terpakai di tepi perairan itu telah diubah menjadi apartemen kekinian.",
+  "colloc": [
+   "waterfront development",
+   "regenerate the waterfront"
+  ],
+  "theme": "urban"
+ },
+ {
   "w": "watershed",
   "pos": "noun",
   "def": "an area of land that separates waters flowing to different rivers or seas; a drainage basin",
@@ -47091,6 +69040,48 @@ export const VOCAB = [
    "short wavelength"
   ],
   "theme": "science"
+ },
+ {
+  "w": "wavy",
+  "pos": "adjective",
+  "def": "having hair with gentle curves rather than tight curls",
+  "defId": "bergelombang (rambut)",
+  "ex": "He ran his fingers through his thick, wavy hair.",
+  "exId": "Dia menyisir rambutnya yang tebal dan bergelombang dengan jari.",
+  "colloc": [
+   "wavy hair",
+   "long wavy hair",
+   "naturally wavy"
+  ],
+  "theme": "describe_people"
+ },
+ {
+  "w": "wayfarer",
+  "pos": "noun",
+  "def": "a person who travels, especially on foot over a long distance",
+  "defId": "orang yang melakukan perjalanan, terutama berjalan kaki menempuh jarak jauh",
+  "ex": "The old inn once offered shelter to weary wayfarers.",
+  "exId": "Penginapan tua itu dahulu memberi tempat berteduh bagi para pengembara yang lelah.",
+  "colloc": [
+   "a weary wayfarer",
+   "a lone wayfarer",
+   "shelter for wayfarers"
+  ],
+  "theme": "travel"
+ },
+ {
+  "w": "waypoint",
+  "pos": "noun",
+  "def": "a stopping point or reference location on a route or journey",
+  "defId": "titik perhentian atau lokasi acuan pada suatu rute atau perjalanan",
+  "ex": "We marked each mountain hut as a waypoint on the GPS.",
+  "exId": "Kami menandai setiap pondok gunung sebagai titik acuan di GPS.",
+  "colloc": [
+   "mark a waypoint",
+   "a waypoint on the route",
+   "a navigation waypoint"
+  ],
+  "theme": "travel"
  },
  {
   "w": "wealth gap",
@@ -47147,6 +69138,20 @@ export const VOCAB = [
   "theme": "uk_social"
  },
  {
+  "w": "weed",
+  "pos": "verb",
+  "def": "to remove unwanted wild plants from a garden or bed of soil",
+  "defId": "menyiangi; mencabuti gulma",
+  "ex": "I spent all morning weeding the vegetable patch on my hands and knees.",
+  "exId": "Saya menghabiskan sepanjang pagi menyiangi petak sayuran sambil berlutut.",
+  "colloc": [
+   "weed the garden",
+   "weed out",
+   "weeding the beds"
+  ],
+  "theme": "garden"
+ },
+ {
   "w": "weightless",
   "pos": "adjective",
   "def": "having no apparent weight, as when floating freely in space",
@@ -47159,6 +69164,33 @@ export const VOCAB = [
    "weightless conditions"
   ],
   "theme": "space"
+ },
+ {
+  "w": "welcoming",
+  "pos": "adjective",
+  "def": "friendly and making people feel at ease",
+  "defId": "ramah menyambut dan hangat",
+  "ex": "Despite its size, the city has a warm, welcoming feel and people are happy to help.",
+  "exId": "Meski luas, kota itu memiliki nuansa hangat dan ramah menyambut, dan orang-orang senang membantu.",
+  "colloc": [
+   "a welcoming atmosphere",
+   "a welcoming town",
+   "a welcoming community"
+  ],
+  "theme": "describe_places"
+ },
+ {
+  "w": "welder",
+  "pos": "noun",
+  "def": "a person who joins pieces of metal by melting and fusing them together",
+  "defId": "tukang las",
+  "ex": "The welder sealed the joints on the steel frame.",
+  "exId": "Tukang las itu merapatkan sambungan pada rangka baja.",
+  "colloc": [
+   "skilled welder",
+   "welder's mask"
+  ],
+  "theme": "jobs"
  },
  {
   "w": "welfare",
@@ -47175,6 +69207,20 @@ export const VOCAB = [
   "theme": "society"
  },
  {
+  "w": "well-built",
+  "pos": "adjective",
+  "def": "having a strong, muscular and solid body",
+  "defId": "berbadan tegap dan kekar",
+  "ex": "The rugby player was tall and well-built, with powerful shoulders.",
+  "exId": "Pemain rugbi itu tinggi dan berbadan tegap, dengan bahu yang kuat.",
+  "colloc": [
+   "well-built man",
+   "tall and well-built",
+   "well-built physique"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "well-connected",
   "pos": "adjective",
   "def": "having many useful relationships with important or influential people",
@@ -47186,6 +69232,20 @@ export const VOCAB = [
    "socially well-connected"
   ],
   "theme": "relationships"
+ },
+ {
+  "w": "well-groomed",
+  "pos": "adjective",
+  "def": "having a neat, clean and carefully cared-for appearance",
+  "defId": "terawat dan tampil rapi",
+  "ex": "The receptionist was always well-groomed, with neat hair and clean nails.",
+  "exId": "Resepsionis itu selalu tampil terawat, dengan rambut rapi dan kuku bersih.",
+  "colloc": [
+   "well-groomed appearance",
+   "immaculately well-groomed",
+   "well-groomed hair"
+  ],
+  "theme": "describe_people"
  },
  {
   "w": "well-off",
@@ -47213,6 +69273,19 @@ export const VOCAB = [
    "a well-read person"
   ],
   "theme": "literature"
+ },
+ {
+  "w": "well-rounded",
+  "pos": "adjective",
+  "def": "having a wide and balanced range of knowledge, skills, or experiences",
+  "defId": "memiliki beragam pengetahuan, keterampilan, atau pengalaman yang seimbang",
+  "ex": "A good school aims to produce well-rounded individuals, not just high exam scores.",
+  "exId": "Sekolah yang baik bertujuan menghasilkan individu yang berkembang seimbang, bukan sekadar nilai ujian tinggi.",
+  "colloc": [
+   "a well-rounded education",
+   "a well-rounded individual"
+  ],
+  "theme": "education"
  },
  {
   "w": "wellbeing",
@@ -47282,6 +69355,34 @@ export const VOCAB = [
   "theme": "nature"
  },
  {
+  "w": "wheelbarrow",
+  "pos": "noun",
+  "def": "a small cart with one wheel and two handles, used for carrying soil, plants or tools in a garden",
+  "defId": "gerobak dorong (roda satu)",
+  "ex": "He loaded the wheelbarrow with compost and pushed it down to the vegetable beds.",
+  "exId": "Dia memuati gerobak dorong dengan kompos dan mendorongnya ke petak sayuran.",
+  "colloc": [
+   "load the wheelbarrow",
+   "push a wheelbarrow",
+   "wheelbarrow of soil"
+  ],
+  "theme": "garden"
+ },
+ {
+  "w": "wheelchair",
+  "pos": "noun",
+  "def": "a chair on wheels for someone who cannot walk",
+  "defId": "kursi beroda untuk seseorang yang tidak dapat berjalan",
+  "ex": "After the accident, she was confined to a wheelchair for several months.",
+  "exId": "Setelah kecelakaan, ia harus menggunakan kursi roda selama beberapa bulan.",
+  "colloc": [
+   "confined to a wheelchair",
+   "wheelchair access",
+   "use a wheelchair"
+  ],
+  "theme": "health"
+ },
+ {
   "w": "wheelie bin",
   "pos": "noun phrase",
   "def": "a large rubbish bin on wheels that you put out on the street for collection.",
@@ -47294,6 +69395,59 @@ export const VOCAB = [
    "empty the wheelie bin"
   ],
   "theme": "uk_home"
+ },
+ {
+  "w": "wheeze",
+  "pos": "verb",
+  "def": "to breathe with a whistling or rattling sound in the chest",
+  "defId": "bernapas dengan suara bersiul atau berderak di dada",
+  "ex": "The asthmatic patient began to wheeze as soon as the pollen count rose.",
+  "exId": "Pasien asma itu mulai mengi begitu kadar serbuk sari meningkat.",
+  "colloc": [
+   "wheeze and cough",
+   "start to wheeze",
+   "a faint wheeze"
+  ],
+  "theme": "health"
+ },
+ {
+  "w": "whereas",
+  "pos": "conjunction",
+  "def": "used to contrast two facts or situations",
+  "defId": "sedangkan",
+  "ex": "Some regions enjoy abundant rainfall, whereas others suffer chronic drought.",
+  "exId": "Sebagian wilayah menikmati curah hujan melimpah, sedangkan wilayah lain menderita kekeringan kronis.",
+  "colloc": [
+   "whereas ..."
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "whereby",
+  "pos": "adverb",
+  "def": "by which; through which",
+  "defId": "yang dengannya",
+  "ex": "The government introduced a scheme whereby students can repay loans gradually.",
+  "exId": "Pemerintah memperkenalkan skema yang memungkinkan mahasiswa melunasi pinjaman secara bertahap.",
+  "colloc": [
+   "a system whereby",
+   "an arrangement whereby"
+  ],
+  "theme": "academic"
+ },
+ {
+  "w": "whiff",
+  "pos": "noun",
+  "def": "a brief smell of something carried in the air",
+  "defId": "embusan bau sekilas yang terbawa udara",
+  "ex": "As she opened the oven, I caught a whiff of freshly baked bread.",
+  "exId": "Saat dia membuka oven, aku mencium sekilas aroma roti yang baru dipanggang.",
+  "colloc": [
+   "catch a whiff",
+   "a whiff of",
+   "faint whiff"
+  ],
+  "theme": "senses"
  },
  {
   "w": "whisk",
@@ -47350,6 +69504,20 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "wholeheartedly",
+  "pos": "adverb",
+  "def": "in a completely sincere and enthusiastic way, without any doubt",
+  "defId": "dengan sepenuh hati; sepenuhnya dan tulus",
+  "ex": "I wholeheartedly agree that children learn best through play and exploration.",
+  "exId": "Saya sepenuh hati setuju bahwa anak-anak belajar paling baik melalui bermain dan menjelajah.",
+  "colloc": [
+   "wholeheartedly agree",
+   "wholeheartedly support",
+   "wholeheartedly endorse"
+  ],
+  "theme": "opinions"
+ },
+ {
   "w": "wholesale",
   "pos": "noun",
   "def": "the selling of goods in large quantities at low prices, usually to shops rather than the public",
@@ -47377,6 +69545,19 @@ export const VOCAB = [
   "theme": "food"
  },
  {
+  "w": "wide-ranging",
+  "pos": "adjective",
+  "def": "covering a large number of different subjects or areas",
+  "defId": "berjangkauan luas; mencakup banyak hal",
+  "ex": "The report offers a wide-ranging analysis of global energy trends.",
+  "exId": "Laporan itu menawarkan analisis berjangkauan luas tentang tren energi global.",
+  "colloc": [
+   "a wide-ranging study",
+   "wide-ranging reforms"
+  ],
+  "theme": "academic"
+ },
+ {
   "w": "widespread",
   "pos": "adjective",
   "def": "existing or happening over a large area or among many people",
@@ -47389,6 +69570,20 @@ export const VOCAB = [
    "widespread use"
   ],
   "theme": "academic"
+ },
+ {
+  "w": "widget",
+  "pos": "noun",
+  "def": "a small application or control on a screen that performs a simple function",
+  "defId": "aplikasi kecil atau kontrol pada layar yang menjalankan fungsi sederhana",
+  "ex": "I added a weather widget to my home screen so I can check the forecast at a glance.",
+  "exId": "Saya menambahkan widget cuaca ke layar beranda agar bisa melihat ramalan sekilas.",
+  "colloc": [
+   "weather widget",
+   "home-screen widget",
+   "add a widget"
+  ],
+  "theme": "technology"
  },
  {
   "w": "wilderness",
@@ -47405,6 +69600,20 @@ export const VOCAB = [
   "theme": "travel"
  },
  {
+  "w": "willowy",
+  "pos": "adjective",
+  "def": "tall, slim and graceful",
+  "defId": "tinggi, ramping, dan luwes",
+  "ex": "The willowy model glided down the catwalk.",
+  "exId": "Model yang tinggi ramping itu melenggang di atas panggung peragaan.",
+  "colloc": [
+   "willowy figure",
+   "tall and willowy",
+   "willowy model"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "willpower",
   "pos": "noun",
   "def": "the ability to control your own thoughts and behaviour in order to achieve something",
@@ -47417,6 +69626,20 @@ export const VOCAB = [
    "test your willpower"
   ],
   "theme": "psychology"
+ },
+ {
+  "w": "wilt",
+  "pos": "verb",
+  "def": "(of a plant) to become limp and droop, usually from lack of water or too much heat",
+  "defId": "layu",
+  "ex": "The seedlings began to wilt after a week without rain.",
+  "exId": "Bibit-bibit itu mulai layu setelah seminggu tanpa hujan.",
+  "colloc": [
+   "begin to wilt",
+   "plants wilt",
+   "wilt in the heat"
+  ],
+  "theme": "garden"
  },
  {
   "w": "wind farm",
@@ -47461,6 +69684,20 @@ export const VOCAB = [
   "theme": "money"
  },
  {
+  "w": "winding",
+  "pos": "adjective",
+  "def": "following a twisting, turning course",
+  "defId": "berkelok-kelok",
+  "ex": "A winding lane leads up the hill to a cluster of whitewashed houses.",
+  "exId": "Sebuah jalan berkelok-kelok menanjak ke bukit menuju sekumpulan rumah putih.",
+  "colloc": [
+   "a winding road",
+   "winding streets",
+   "a winding lane"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "window seat",
   "pos": "noun",
   "def": "a seat beside the window on a plane, train or bus",
@@ -47487,6 +69724,20 @@ export const VOCAB = [
   "theme": "shopping"
  },
  {
+  "w": "windswept",
+  "pos": "adjective",
+  "def": "open and exposed to strong winds",
+  "defId": "lapang dan diterpa angin kencang",
+  "ex": "The windswept headland offers dramatic views but little shelter from the gales.",
+  "exId": "Tanjung yang diterpa angin kencang itu menawarkan pemandangan dramatis tetapi sedikit perlindungan dari badai.",
+  "colloc": [
+   "a windswept coast",
+   "a windswept moor",
+   "a windswept hillside"
+  ],
+  "theme": "describe_places"
+ },
+ {
   "w": "wingspan",
   "pos": "noun",
   "def": "the distance from the tip of one wing to the tip of the other",
@@ -47499,6 +69750,19 @@ export const VOCAB = [
    "impressive wingspan"
   ],
   "theme": "wildlife"
+ },
+ {
+  "w": "wire",
+  "pos": "noun",
+  "def": "a thin flexible thread of metal",
+  "defId": "kawat",
+  "ex": "Twist the ends of the wire together to complete the circuit.",
+  "exId": "Pilin ujung-ujung kawat itu untuk menyelesaikan rangkaian.",
+  "colloc": [
+   "copper wire",
+   "strip a wire"
+  ],
+  "theme": "tools"
  },
  {
   "w": "wire service",
@@ -47526,6 +69790,20 @@ export const VOCAB = [
    "wireless headphones"
   ],
   "theme": "technology"
+ },
+ {
+  "w": "wiry",
+  "pos": "adjective",
+  "def": "thin but strong and tough in build",
+  "defId": "kurus tetapi kuat dan liat",
+  "ex": "He was small and wiry, far stronger than he looked.",
+  "exId": "Dia bertubuh kecil dan liat, jauh lebih kuat daripada penampilannya.",
+  "colloc": [
+   "wiry frame",
+   "small and wiry",
+   "wiry build"
+  ],
+  "theme": "describe_people"
  },
  {
   "w": "wisdom",
@@ -47596,6 +69874,33 @@ export const VOCAB = [
   "theme": "money"
  },
  {
+  "w": "witness",
+  "pos": "verb",
+  "def": "to see an event and be able to describe it, or to sign a document to confirm it is genuine",
+  "defId": "menyaksikan suatu peristiwa; menandatangani dokumen sebagai saksi pengesah",
+  "ex": "The lawyer asked a colleague to witness the signing of the will.",
+  "exId": "Pengacara meminta seorang rekan untuk menyaksikan penandatanganan surat wasiat itu.",
+  "colloc": [
+   "witness a signature",
+   "witness the signing"
+  ],
+  "theme": "law"
+ },
+ {
+  "w": "wobble",
+  "pos": "verb",
+  "def": "to move unsteadily from side to side",
+  "defId": "bergoyang tak stabil; oleng",
+  "ex": "The old table wobbled every time someone leaned on it.",
+  "exId": "Meja tua itu bergoyang setiap kali seseorang bersandar padanya.",
+  "colloc": [
+   "wobble unsteadily",
+   "wobble from side to side",
+   "wobble precariously"
+  ],
+  "theme": "sound_movement"
+ },
+ {
   "w": "woodwork",
   "pos": "noun",
   "def": "the craft of making objects and furniture from wood",
@@ -47610,6 +69915,34 @@ export const VOCAB = [
   "theme": "leisure"
  },
  {
+  "w": "word-of-mouth",
+  "pos": "noun",
+  "def": "the informal spread of information or recommendation from one person to another",
+  "defId": "penyebaran informasi atau rekomendasi secara informal dari orang ke orang",
+  "ex": "The restaurant grew purely through word-of-mouth, without spending a penny on advertising.",
+  "exId": "Restoran itu berkembang murni dari mulut ke mulut, tanpa mengeluarkan sepeser pun untuk iklan.",
+  "colloc": [
+   "word-of-mouth marketing",
+   "spread by word-of-mouth",
+   "positive word-of-mouth"
+  ],
+  "theme": "business"
+ },
+ {
+  "w": "wording",
+  "pos": "noun",
+  "def": "the specific words used in a text or statement and how they are put together",
+  "defId": "kata-kata spesifik yang digunakan dalam teks atau pernyataan serta cara penyusunannya",
+  "ex": "The lawyers argued for hours over the exact wording of a single clause.",
+  "exId": "Para pengacara berdebat berjam-jam soal susunan kata yang tepat dari satu klausa.",
+  "colloc": [
+   "exact wording",
+   "careful wording",
+   "change the wording"
+  ],
+  "theme": "language"
+ },
+ {
   "w": "work ethic",
   "pos": "noun",
   "def": "a belief in the value of hard work and the habit of working diligently",
@@ -47622,6 +69955,19 @@ export const VOCAB = [
    "poor work ethic"
   ],
   "theme": "personality"
+ },
+ {
+  "w": "work placement",
+  "pos": "noun",
+  "def": "a period of practical work experience with an employer, often as part of a course",
+  "defId": "periode pengalaman kerja praktis di suatu perusahaan, sering sebagai bagian dari kursus",
+  "ex": "As part of her degree, she completed a six-month work placement at an engineering firm.",
+  "exId": "Sebagai bagian dari gelarnya, dia menyelesaikan magang kerja selama enam bulan di sebuah perusahaan teknik.",
+  "colloc": [
+   "a work placement",
+   "an industrial work placement"
+  ],
+  "theme": "education"
  },
  {
   "w": "work-life balance",
@@ -47649,6 +69995,33 @@ export const VOCAB = [
    "become a workaholic"
   ],
   "theme": "personality"
+ },
+ {
+  "w": "workaround",
+  "pos": "noun",
+  "def": "A method of overcoming a problem or limitation in a temporary or indirect way.",
+  "defId": "solusi sementara; cara mengatasi masalah atau keterbatasan secara tidak langsung atau untuk sementara",
+  "ex": "The software had a bug, so the team came up with a quick workaround.",
+  "exId": "Perangkat lunak itu memiliki bug, jadi tim menemukan solusi sementara yang cepat.",
+  "colloc": [
+   "find a workaround",
+   "a temporary workaround",
+   "come up with a workaround"
+  ],
+  "theme": "work"
+ },
+ {
+  "w": "workbench",
+  "pos": "noun",
+  "def": "a sturdy table for doing manual or mechanical work",
+  "defId": "meja kerja",
+  "ex": "He clamped the plank to the workbench before sawing it.",
+  "exId": "Dia menjepit papan ke meja kerja sebelum menggergajinya.",
+  "colloc": [
+   "sturdy workbench",
+   "clamp to the workbench"
+  ],
+  "theme": "tools"
  },
  {
   "w": "workflow",
@@ -47721,6 +70094,34 @@ export const VOCAB = [
   "theme": "uk_money"
  },
  {
+  "w": "workstream",
+  "pos": "noun",
+  "def": "A separate, defined area of activity within a larger project or programme.",
+  "defId": "alur kerja; bagian atau bidang kegiatan tersendiri dalam sebuah proyek yang lebih besar",
+  "ex": "Each workstream has its own leader who reports to the project manager.",
+  "exId": "Setiap alur kerja memiliki pemimpinnya sendiri yang melapor kepada manajer proyek.",
+  "colloc": [
+   "a separate workstream",
+   "lead a workstream",
+   "across workstreams"
+  ],
+  "theme": "work"
+ },
+ {
+  "w": "worktop",
+  "pos": "noun",
+  "def": "a flat surface in a kitchen on which food is prepared",
+  "defId": "permukaan meja dapur",
+  "ex": "She wiped down the worktop after chopping the onions.",
+  "exId": "Dia mengelap permukaan meja dapur setelah memotong bawang.",
+  "colloc": [
+   "a kitchen worktop",
+   "wipe the worktop",
+   "a granite worktop"
+  ],
+  "theme": "household"
+ },
+ {
   "w": "worldview",
   "pos": "noun",
   "def": "a particular philosophy or way of understanding life and the world",
@@ -47732,6 +70133,20 @@ export const VOCAB = [
    "shared worldview"
   ],
   "theme": "philosophy"
+ },
+ {
+  "w": "worldwide",
+  "pos": "adjective",
+  "def": "existing or happening throughout the whole world",
+  "defId": "ada atau terjadi di seluruh dunia",
+  "ex": "The brand built a worldwide reputation by adapting its products to local tastes.",
+  "exId": "Merek itu membangun reputasi mendunia dengan menyesuaikan produknya dengan selera lokal.",
+  "colloc": [
+   "worldwide reputation",
+   "worldwide demand",
+   "worldwide network"
+  ],
+  "theme": "globalisation"
  },
  {
   "w": "worship",
@@ -47748,6 +70163,33 @@ export const VOCAB = [
   "theme": "religion"
  },
  {
+  "w": "wrench",
+  "pos": "noun",
+  "def": "a tool for gripping and turning nuts and bolts",
+  "defId": "kunci pas",
+  "ex": "Tighten the bolt with a wrench until it feels secure.",
+  "exId": "Kencangkan baut itu dengan kunci pas sampai terasa kuat.",
+  "colloc": [
+   "adjustable wrench",
+   "socket wrench"
+  ],
+  "theme": "tools"
+ },
+ {
+  "w": "wrinkled",
+  "pos": "adjective",
+  "def": "having lines or folds in the skin, usually from age",
+  "defId": "berkerut atau keriput",
+  "ex": "Her wrinkled hands told the story of a long life of hard work.",
+  "exId": "Tangannya yang keriput menceritakan kisah hidup panjang penuh kerja keras.",
+  "colloc": [
+   "wrinkled skin",
+   "wrinkled face",
+   "deeply wrinkled"
+  ],
+  "theme": "describe_people"
+ },
+ {
   "w": "xenophobia",
   "pos": "noun",
   "def": "A strong dislike or fear of people from other countries or of foreigners.",
@@ -47759,6 +70201,19 @@ export const VOCAB = [
    "fuel xenophobia"
   ],
   "theme": "society"
+ },
+ {
+  "w": "yardstick",
+  "pos": "noun",
+  "def": "a standard used for comparison or for judging the quality of something",
+  "defId": "tolok ukur; patokan",
+  "ex": "Exam results should not be the only yardstick of a school's success.",
+  "exId": "Hasil ujian tidak seharusnya menjadi satu-satunya tolok ukur keberhasilan sekolah.",
+  "colloc": [
+   "a useful yardstick",
+   "use as a yardstick"
+  ],
+  "theme": "academic"
  },
  {
   "w": "yearning",
@@ -47802,6 +70257,34 @@ export const VOCAB = [
   "theme": "uk_social"
  },
  {
+  "w": "youthful",
+  "pos": "adjective",
+  "def": "looking or seeming young and full of energy",
+  "defId": "tampak muda dan penuh energi",
+  "ex": "Despite being sixty, she has a remarkably youthful appearance.",
+  "exId": "Meski berusia enam puluh tahun, penampilannya tampak sangat muda.",
+  "colloc": [
+   "youthful appearance",
+   "youthful looks",
+   "youthful energy"
+  ],
+  "theme": "describe_people"
+ },
+ {
+  "w": "zeal",
+  "pos": "noun",
+  "def": "great energy or enthusiasm in pursuit of a cause or aim",
+  "defId": "semangat menggebu; energi atau antusiasme besar dalam mengejar suatu tujuan",
+  "ex": "She campaigned for the charity with tireless zeal.",
+  "exId": "Dia berkampanye untuk badan amal itu dengan semangat menggebu yang tak kenal lelah.",
+  "colloc": [
+   "religious zeal",
+   "reformist zeal",
+   "with great zeal"
+  ],
+  "theme": "psychology"
+ },
+ {
   "w": "zebra crossing",
   "pos": "noun",
   "def": "a pedestrian crossing marked with black and white stripes where cars must stop",
@@ -47814,6 +70297,20 @@ export const VOCAB = [
    "a zebra crossing"
   ],
   "theme": "uk_daily"
+ },
+ {
+  "w": "zeitgeist",
+  "pos": "noun",
+  "def": "the defining mood, spirit, or ideas of a particular period in culture",
+  "defId": "suasana, semangat, atau gagasan yang menentukan suatu periode tertentu dalam budaya",
+  "ex": "The film captured the rebellious zeitgeist of the late 1960s perfectly.",
+  "exId": "Film itu menangkap dengan sempurna semangat zaman pemberontakan akhir 1960-an.",
+  "colloc": [
+   "cultural zeitgeist",
+   "capture the zeitgeist",
+   "the prevailing zeitgeist"
+  ],
+  "theme": "arts"
  },
  {
   "w": "zenith",
